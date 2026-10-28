@@ -22,7 +22,8 @@ You need Node.js 22 or newer.
 npm install
 cp .env.example .env      # then put your Claude API key in .env
 npm run tick              # one moment of Glorp's life
-npm start                 # keep Glorp alive (thinks every TICK_MINUTES)
+npm start                 # keep Glorp alive, then open http://localhost:3000 to watch it
+npm run watch             # only the web view, no thinking
 npm run status            # needs bars, wishes, hobbies, spending
 npm run diary             # latest diary entries
 ```
