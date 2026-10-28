@@ -83,3 +83,23 @@ test("unknown activity names fall back to wandering", () => {
   assert.equal(d.activity, "wander");
   assert.equal(d.go_to, "hill");
 });
+
+test("subscription brain calls the Claude Code CLI with a JSON schema", async () => {
+  const { think } = await import("../src/brain.js");
+  const { newState } = await import("../src/state.js");
+  let seen;
+  const runClaude = async (args) => {
+    seen = args;
+    return { stdout: JSON.stringify({ is_error: false, structured_output: { ...base, activity: "snack", creation: null, new_hobby: null } }) };
+  };
+  const { decision, usd } = await think(newState(), [], new Date(), { brain: "claude-code", runClaude });
+  assert.equal(decision.activity, "snack");
+  assert.equal(usd, 0);
+  assert.ok(seen.includes("--json-schema"));
+  assert.equal(seen[seen.indexOf("--tools") + 1], "");
+});
+
+test("config picks the subscription brain when only an OAuth token is set", () => {
+  assert.equal(config({ CLAUDE_CODE_OAUTH_TOKEN: "x" }).brain, "claude-code");
+  assert.equal(config({ ANTHROPIC_API_KEY: "x" }).brain, "api");
+});

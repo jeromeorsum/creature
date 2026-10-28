@@ -28,10 +28,13 @@ jobs:
       name: github-pages
     timeout-minutes: 10
     env:
+      # Use ONE of these secrets: a Claude subscription token (from `claude setup-token`) or a paid API key.
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       TZ: ${{ vars.TZ || 'Europe/London' }}
       DAILY_BUDGET_USD: ${{ vars.DAILY_BUDGET_USD || '1.00' }}
-      CREATURE_MODEL: ${{ vars.CREATURE_MODEL || 'claude-opus-5-5' }}
+      MAX_TICKS_PER_DAY: ${{ vars.MAX_TICKS_PER_DAY || '40' }}
+      CREATURE_MODEL: ${{ vars.CREATURE_MODEL }}
       CREATURE_EFFORT: ${{ vars.CREATURE_EFFORT || 'low' }}
       SLEEP_FROM_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_FROM_HOUR || '23' }}
       SLEEP_UNTIL_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_UNTIL_HOUR || '7' }}
@@ -44,6 +47,10 @@ jobs:
           cache: npm
 
       - run: npm ci
+
+      - name: Install Claude Code (for subscription mode)
+        if: env.CLAUDE_CODE_OAUTH_TOKEN != '' && env.ANTHROPIC_API_KEY == ''
+        run: npm install -g @anthropic-ai/claude-code
 
       - name: Load Glorp's memories from the life branch
         env:
@@ -58,8 +65,8 @@ jobs:
 
       - name: One moment of Glorp's life
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::warning::Add an ANTHROPIC_API_KEY repository secret so Glorp can think."
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::warning::Add a CLAUDE_CODE_OAUTH_TOKEN repository secret (run: claude setup-token) so Glorp can think."
             exit 0
           fi
           node src/index.js tick

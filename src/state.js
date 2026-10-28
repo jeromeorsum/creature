@@ -22,7 +22,7 @@ export function newState(now = new Date()) {
     hobbies: [], // hobbies Glorp invented
     creations: [], // { title, kind, file, made }
     ticks: 0,
-    spend: { day: null, usd: 0, totalUsd: 0 },
+    spend: { day: null, usd: 0, totalUsd: 0, ticks: 0 },
   };
 }
 

@@ -8,11 +8,15 @@ import {
 } from "./state.js";
 
 export function config(env = process.env) {
+  // "claude-code" runs on a Claude subscription; "api" uses a paid API key.
+  const brain = env.CREATURE_BRAIN || (env.CLAUDE_CODE_OAUTH_TOKEN && !env.ANTHROPIC_API_KEY ? "claude-code" : "api");
   return {
-    model: env.CREATURE_MODEL || "claude-opus-5-5",
+    brain,
+    model: env.CREATURE_MODEL || (brain === "api" ? "claude-opus-5-5" : ""),
     effort: env.CREATURE_EFFORT || "low",
     fake: env.CREATURE_FAKE === "1",
     dailyBudget: Number(env.DAILY_BUDGET_USD ?? 1),
+    maxTicksPerDay: Number(env.MAX_TICKS_PER_DAY ?? 40),
     sleepFrom: Number(env.SLEEP_FROM_HOUR ?? 23),
     sleepUntil: Number(env.SLEEP_UNTIL_HOUR ?? 7),
     tickMinutes: Number(env.TICK_MINUTES ?? 30),
@@ -35,7 +39,7 @@ function slugify(s) {
 
 export async function tick({ now = new Date(), cfg = config(), client } = {}) {
   const state = loadState(now);
-  if (state.spend.day !== localDay(now)) state.spend = { ...state.spend, day: localDay(now), usd: 0 };
+  if (state.spend.day !== localDay(now)) state.spend = { ...state.spend, day: localDay(now), usd: 0, ticks: 0 };
 
   if (isSleepTime(now, cfg.sleepFrom, cfg.sleepUntil)) {
     decayNeeds(state, now, { asleep: true });
@@ -53,7 +57,7 @@ export async function tick({ now = new Date(), cfg = config(), client } = {}) {
     return { state, result: "busy" };
   }
 
-  if (!cfg.fake && state.spend.usd >= cfg.dailyBudget) {
+  if (!cfg.fake && (state.spend.usd >= cfg.dailyBudget || (state.spend.ticks ?? 0) >= cfg.maxTicksPerDay)) {
     state.doing = "daydreaming (used up today's thinking budget)";
     saveState(state);
     return { state, result: "out-of-budget" };
@@ -108,6 +112,7 @@ export async function tick({ now = new Date(), cfg = config(), client } = {}) {
 
   state.ticks += 1;
   state.spend.usd += usd;
+  state.spend.ticks = (state.spend.ticks ?? 0) + 1;
   state.spend.totalUsd += usd;
 
   appendDiary({

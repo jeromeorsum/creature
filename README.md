@@ -34,9 +34,11 @@ To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 
 `.github/workflows/live.yml` runs one moment of Glorp's life every 30 minutes on GitHub Actions, saves its memories to the `life` branch, and publishes the web view to GitHub Pages.
 
-1. Add your Claude API key as a repository secret named `ANTHROPIC_API_KEY` (Settings > Secrets and variables > Actions).
+1. Give Glorp a brain by adding ONE repository secret (Settings > Secrets and variables > Actions):
+   - `CLAUDE_CODE_OAUTH_TOKEN`: runs on your Claude Pro/Max subscription, no extra cost. Create it by running `claude setup-token` on your computer.
+   - or `ANTHROPIC_API_KEY`: a paid API key (pay per use, capped by `DAILY_BUDGET_USD`).
 2. Turn on Pages with source "GitHub Actions" (Settings > Pages). Pages needs a public repo or a paid GitHub plan.
-3. Optional repository variables: `TZ`, `DAILY_BUDGET_USD`, `CREATURE_MODEL`, `CREATURE_EFFORT`, `SLEEP_FROM_HOUR`, `SLEEP_UNTIL_HOUR`.
+3. Optional repository variables: `TZ`, `DAILY_BUDGET_USD`, `MAX_TICKS_PER_DAY`, `CREATURE_MODEL`, `CREATURE_EFFORT`, `SLEEP_FROM_HOUR`, `SLEEP_UNTIL_HOUR`.
 
 ## Change Glorp
 
@@ -46,4 +48,4 @@ To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 
 ## Cost
 
-Each tick is one Claude request at low effort, roughly 2 to 4 cents on Claude Opus 5.5. With the defaults (every 30 minutes, asleep 11pm to 7am) that is about 32 ticks a day, capped at $1 a day by `DAILY_BUDGET_USD`.
+On a subscription token, Glorp uses your plan's normal usage limits (about 32 short requests a day, capped by `MAX_TICKS_PER_DAY`). On an API key, each tick is one Claude request at low effort, roughly 2 to 4 cents on Claude Opus 5.5. With the defaults (every 30 minutes, asleep 11pm to 7am) that is about 32 ticks a day, capped at $1 a day by `DAILY_BUDGET_USD`.

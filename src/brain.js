@@ -1,5 +1,7 @@
 // Glorp's brain: asks Claude what to do next and gets back a structured decision.
 import Anthropic from "@anthropic-ai/sdk";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { describeCreature } from "./personality.js";
@@ -91,6 +93,7 @@ export async function think(state, diary, now, opts = {}) {
   const acts = allActivities(state);
   const schema = decisionSchema(Object.keys(acts));
   if (opts.fake) return { decision: fakeDecision(state, acts), usd: 0 };
+  if (opts.brain === "claude-code") return thinkWithClaudeCode(state, diary, now, schema, Object.keys(acts), opts);
 
   const model = opts.model || "claude-opus-5-5";
   const client = opts.client || new Anthropic();
@@ -117,6 +120,28 @@ export async function think(state, diary, now, opts = {}) {
   const inputTokens = u.input_tokens + (u.cache_creation_input_tokens ?? 0) * 1.25 + (u.cache_read_input_tokens ?? 0) * 0.1;
   const usd = (inputTokens * inP + u.output_tokens * outP) / 1_000_000;
   return { decision, usd };
+}
+
+// Think using the Claude Code CLI, which can run on a Claude subscription
+// (CLAUDE_CODE_OAUTH_TOKEN from `claude setup-token`) instead of a paid API key.
+async function thinkWithClaudeCode(state, diary, now, schema, activityIds, opts) {
+  const args = [
+    "-p", buildSituation(state, diary, now),
+    "--system-prompt", SYSTEM,
+    "--output-format", "json",
+    "--json-schema", JSON.stringify(zodOutputFormat(schema).schema),
+    "--tools", "",
+    "--effort", opts.effort || "low",
+    "--no-session-persistence",
+    "--setting-sources", "",
+    "--strict-mcp-config",
+  ];
+  if (opts.model) args.push("--model", opts.model);
+  const run = opts.runClaude || ((a) => promisify(execFile)("claude", a, { maxBuffer: 20 * 1024 * 1024, timeout: 300_000 }));
+  const { stdout } = await run(args);
+  const out = JSON.parse(stdout);
+  if (out.is_error || !out.structured_output) throw new Error(`Claude Code failed: ${out.result ?? out.subtype ?? "no output"}`);
+  return { decision: tidyDecision(schema.parse(out.structured_output), activityIds), usd: 0 };
 }
 
 function pick(value, options) {

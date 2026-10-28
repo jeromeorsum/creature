@@ -43,8 +43,8 @@ async function runTick() {
 const cmd = process.argv[2] || "tick";
 const cfg = config();
 
-if (!cfg.fake && !process.env.ANTHROPIC_API_KEY && (cmd === "tick" || cmd === "live")) {
-  console.error("No ANTHROPIC_API_KEY found. Copy .env.example to .env and add your key, or set CREATURE_FAKE=1 to test without AI.");
+if (!cfg.fake && cfg.brain === "api" && !process.env.ANTHROPIC_API_KEY && (cmd === "tick" || cmd === "live")) {
+  console.error("No ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN found. See README, or set CREATURE_FAKE=1 to test without AI.");
   process.exit(1);
 }
 
