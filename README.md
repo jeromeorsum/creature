@@ -30,6 +30,14 @@ npm run diary             # latest diary entries
 
 To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 
+## Let Glorp live on GitHub
+
+`.github/workflows/live.yml` runs one moment of Glorp's life every 30 minutes on GitHub Actions, saves its memories to the `life` branch, and publishes the web view to GitHub Pages.
+
+1. Add your Claude API key as a repository secret named `ANTHROPIC_API_KEY` (Settings > Secrets and variables > Actions).
+2. Turn on Pages with source "GitHub Actions" (Settings > Pages). Pages needs a public repo or a paid GitHub plan.
+3. Optional repository variables: `TZ`, `DAILY_BUDGET_USD`, `CREATURE_MODEL`, `CREATURE_EFFORT`, `SLEEP_FROM_HOUR`, `SLEEP_UNTIL_HOUR`.
+
 ## Change Glorp
 
 - Looks and personality: `src/personality.js`

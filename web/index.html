@@ -260,7 +260,7 @@ function drawPanel() {
 
 async function refresh() {
   try {
-    const r = await fetch("/api/state");
+    const r = await fetch("api/state.json");
     data = await r.json();
     drawScene(); drawPanel();
   } catch (e) { document.getElementById("doing").textContent = "Can't reach Glorp right now."; }
@@ -273,7 +273,7 @@ document.querySelector(".tabs").addEventListener("click", (e) => {
 });
 document.getElementById("list").addEventListener("click", async (e) => {
   const a = e.target.closest("a[data-file]"); if (!a) return;
-  const r = await fetch("/api/creation/" + encodeURIComponent(a.dataset.file));
+  const r = await fetch("api/creation/" + encodeURIComponent(a.dataset.file));
   document.getElementById("dlgText").textContent = await r.text();
   document.getElementById("dlg").showModal();
 });

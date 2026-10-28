@@ -9,6 +9,18 @@ import { allActivities, PLACES } from "./world.js";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const PAGE = path.join(here, "..", "web", "index.html");
 
+// Everything the web page needs, in one object.
+export function snapshot() {
+  const state = loadState();
+  return {
+    state,
+    diary: readDiary(40).reverse(),
+    places: Object.keys(PLACES),
+    activities: allActivities(state),
+    now: new Date().toISOString(),
+  };
+}
+
 function send(res, status, body, type = "application/json") {
   res.writeHead(status, { "content-type": type, "cache-control": "no-store" });
   res.end(typeof body === "string" ? body : JSON.stringify(body));
@@ -19,16 +31,7 @@ export function startServer(port = Number(process.env.PORT || 3000)) {
     const url = new URL(req.url, "http://localhost");
     try {
       if (url.pathname === "/") return send(res, 200, fs.readFileSync(PAGE, "utf8"), "text/html; charset=utf-8");
-      if (url.pathname === "/api/state") {
-        const state = loadState();
-        return send(res, 200, {
-          state,
-          diary: readDiary(40).reverse(),
-          places: Object.keys(PLACES),
-          activities: allActivities(state),
-          now: new Date().toISOString(),
-        });
-      }
+      if (url.pathname === "/api/state.json") return send(res, 200, snapshot());
       if (url.pathname.startsWith("/api/creation/")) {
         const name = path.basename(decodeURIComponent(url.pathname.slice("/api/creation/".length)));
         const file = path.join(CREATIONS_DIR(), name);
