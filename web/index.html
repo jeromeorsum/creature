@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glorp's World</title>
+<style>
+  :root {
+    --bg: #f6f1e7; --panel: #fffdf8; --ink: #2b2620; --muted: #7a6f62; --line: #e4dccd;
+    --glorp: #9bd43c; --glorp-dark: #6fa21f; --accent: #e2483d;
+    --bar-bg: #eee6d6;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 ui-rounded, "Nunito", system-ui, sans-serif; }
+  header { display: flex; align-items: baseline; gap: 12px; padding: 14px 16px 6px; max-width: 1100px; margin: 0 auto; }
+  header h1 { margin: 0; font-size: 22px; }
+  header .sub { color: var(--muted); font-size: 14px; }
+  main { max-width: 1100px; margin: 0 auto; padding: 0 16px 24px; display: grid; gap: 14px; grid-template-columns: 1fr 340px; align-items: start; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  #scene { width: 100%; display: block; aspect-ratio: 1000 / 420; }
+  .status { padding: 10px 14px; display: flex; gap: 10px; align-items: center; border-top: 1px solid var(--line); }
+  .status .doing { font-weight: 700; }
+  .status .mood { color: var(--muted); }
+  .needs { padding: 12px 14px; display: grid; gap: 7px; }
+  .need { display: grid; grid-template-columns: 78px 1fr 30px; align-items: center; gap: 8px; font-size: 13px; }
+  .need .track { height: 10px; background: var(--bar-bg); border-radius: 6px; overflow: hidden; }
+  .need .fill { height: 100%; border-radius: 6px; transition: width .8s; }
+  .need .num { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tabs { display: flex; border-bottom: 1px solid var(--line); }
+  .tabs button { flex: 1; border: 0; background: none; padding: 10px 4px; font: inherit; font-size: 13px; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; }
+  .tabs button.on { color: var(--ink); font-weight: 700; border-bottom-color: var(--glorp-dark); }
+  .list { max-height: 520px; overflow-y: auto; padding: 6px 14px 14px; }
+  .entry { padding: 10px 0; border-bottom: 1px dashed var(--line); }
+  .entry:last-child { border-bottom: 0; }
+  .entry .meta { font-size: 12px; color: var(--muted); }
+  .entry .thought { font-style: italic; color: var(--muted); font-size: 13px; margin-top: 3px; }
+  .entry a { color: var(--glorp-dark); cursor: pointer; text-decoration: underline; }
+  .empty { color: var(--muted); padding: 16px 0; }
+  .done { text-decoration: line-through; color: var(--muted); }
+  dialog { border: 1px solid var(--line); border-radius: 14px; max-width: min(640px, 92vw); padding: 0; background: var(--panel); color: var(--ink); }
+  dialog pre { white-space: pre-wrap; font: inherit; margin: 0; padding: 18px 20px; max-height: 70vh; overflow: auto; }
+  dialog button { margin: 0 20px 16px; font: inherit; padding: 6px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); cursor: pointer; }
+  /* Glorp animation */
+  #glorp { transition: transform 2.5s cubic-bezier(.5,0,.5,1); }
+  .wobble { animation: wobble 0.9s ease-in-out infinite; transform-origin: 0 0; transform-box: fill-box; }
+  @keyframes wobble { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg) translateY(-3px); } }
+  .asleep .wobble { animation: breathe 3s ease-in-out infinite; }
+  @keyframes breathe { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(.94); } }
+  .pupil { animation: jiggle 2.2s ease-in-out infinite; }
+  @keyframes jiggle { 0%,100% { transform: translate(0,0); } 20% { transform: translate(3px,1px); } 45% { transform: translate(-2px,2px); } 70% { transform: translate(1px,-2px); } }
+  .asleep .eye-open { display: none; } .eye-shut { display: none; } .asleep .eye-shut { display: inline; }
+  .bulb { fill: #fff3a8; } .idea .bulb { fill: #ffe14d; filter: drop-shadow(0 0 6px #ffd400); animation: flicker .5s steps(2) infinite; }
+  @keyframes flicker { 50% { opacity: .5; } }
+  .zzz { display: none; font: 700 22px system-ui; fill: #8aa0c8; } .asleep .zzz { display: inline; animation: float 2.5s ease-in-out infinite; }
+  @keyframes float { 0% { opacity: 0; transform: translate(0,0); } 30% { opacity: 1; } 100% { opacity: 0; transform: translate(14px,-26px); } }
+  #train { animation: train 26s linear infinite; }
+  @keyframes train { from { transform: translateX(1100px); } to { transform: translateX(-400px); } }
+  #pigeon { animation: peck 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+  @keyframes peck { 0%,60%,100% { transform: rotate(0); } 75% { transform: rotate(25deg); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Glorp's World</h1>
+  <span class="sub" id="age"></span>
+</header>
+<main>
+  <section class="card">
+    <svg id="scene" viewBox="0 0 1000 420" role="img" aria-label="Glorp in its world">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop id="sky1" offset="0" stop-color="#9fd3f2"/><stop id="sky2" offset="1" stop-color="#e9f6ff"/>
+        </linearGradient>
+      </defs>
+      <rect width="1000" height="420" fill="url(#sky)"/>
+      <circle id="sun" cx="120" cy="70" r="30" fill="#ffd95a"/>
+      <!-- far hill + train -->
+      <path d="M760 330 Q880 180 1000 230 L1000 330 Z" fill="#8cc46a"/>
+      <g id="train" opacity=".75">
+        <rect x="0" y="292" width="60" height="18" rx="4" fill="#d9483b"/>
+        <rect x="64" y="294" width="50" height="16" rx="3" fill="#3b6fd9"/>
+        <rect x="118" y="294" width="50" height="16" rx="3" fill="#3b6fd9"/>
+      </g>
+      <rect y="330" width="1000" height="90" fill="#b7d98a"/>
+      <rect y="330" width="1000" height="6" fill="#9cc56f"/>
+      <!-- burrow -->
+      <g transform="translate(90 330)">
+        <path d="M-70 0 Q-60 -90 0 -95 Q60 -90 70 0 Z" fill="#a6784e"/>
+        <path d="M-22 0 V-38 Q0 -60 22 -38 V0 Z" fill="#5a3b22"/>
+        <circle cx="14" cy="-20" r="3" fill="#e8c26a"/>
+        <text y="28" text-anchor="middle" font-size="14" fill="#5b5145">burrow</text>
+      </g>
+      <!-- kitchen -->
+      <g transform="translate(250 330)">
+        <rect x="-50" y="-70" width="100" height="70" fill="#f2d7a6"/>
+        <path d="M-60 -70 L0 -110 L60 -70 Z" fill="#c8553d"/>
+        <rect x="18" y="-102" width="12" height="22" fill="#7d6a5a"/>
+        <rect x="-35" y="-52" width="28" height="22" fill="#9fd3f2" stroke="#7d6a5a" stroke-width="3"/>
+        <rect x="8" y="-44" width="24" height="44" fill="#8b5a3c"/>
+        <text y="28" text-anchor="middle" font-size="14" fill="#5b5145">kitchen</text>
+      </g>
+      <!-- workshop -->
+      <g transform="translate(410 330)">
+        <rect x="-60" y="-80" width="120" height="80" fill="#8da3b8"/>
+        <path d="M-66 -80 L66 -80 L50 -100 L-50 -100 Z" fill="#5f7184"/>
+        <rect x="-40" y="-60" width="80" height="60" fill="#3d4a57"/>
+        <circle cx="-20" cy="-30" r="8" fill="#e2483d"/><rect x="0" y="-40" width="24" height="16" fill="#ffd95a"/>
+        <text y="28" text-anchor="middle" font-size="14" fill="#5b5145">workshop</text>
+      </g>
+      <!-- garden -->
+      <g transform="translate(570 330)">
+        <g fill="#5a9a3a"><rect x="-52" y="-34" width="4" height="34"/><rect x="-22" y="-44" width="4" height="44"/><rect x="34" y="-30" width="4" height="30"/></g>
+        <circle cx="-50" cy="-38" r="9" fill="#ff8fb1"/><circle cx="-20" cy="-48" r="10" fill="#ffd95a"/><circle cx="36" cy="-34" r="8" fill="#b18cff"/>
+        <ellipse cx="0" cy="4" rx="34" ry="5" fill="#8fb5d8"/>
+        <g id="pigeon" transform="translate(52 -2)">
+          <ellipse cx="0" cy="-10" rx="14" ry="9" fill="#9aa3ad"/><circle cx="10" cy="-20" r="6" fill="#7f8a96"/>
+          <circle cx="12" cy="-21" r="1.5" fill="#000"/><path d="M16 -20 l5 1 -5 2z" fill="#e0a43a"/>
+        </g>
+        <text y="28" text-anchor="middle" font-size="14" fill="#5b5145">garden</text>
+      </g>
+      <!-- window -->
+      <g transform="translate(730 330)">
+        <rect x="-55" y="-120" width="110" height="120" fill="#c9b8a3"/>
+        <circle cx="0" cy="-64" r="38" fill="#9fd3f2" stroke="#7d6a5a" stroke-width="7"/>
+        <path d="M0 -102 V-26 M-38 -64 H38" stroke="#7d6a5a" stroke-width="4"/>
+        <text y="28" text-anchor="middle" font-size="14" fill="#5b5145">window</text>
+      </g>
+      <!-- hill -->
+      <g transform="translate(905 330)"><text y="28" text-anchor="middle" font-size="14" fill="#5b5145">hill</text></g>
+
+      <!-- speech bubble -->
+      <g id="bubble" opacity="0">
+        <rect id="bubbleBox" rx="12" fill="#fff" stroke="#d9cfbd"/>
+        <text id="bubbleText" font-size="14" fill="#2b2620"></text>
+      </g>
+
+      <!-- Glorp -->
+      <g id="glorp" transform="translate(90 330)">
+        <g transform="scale(1.35)"><g id="glorpBody" class="wobble">
+          <!-- legs: three, different lengths -->
+          <g stroke="#6fa21f" stroke-width="7" stroke-linecap="round">
+            <line x1="-18" y1="-14" x2="-24" y2="0"/>
+            <line x1="2" y1="-14" x2="4" y2="-4"/>
+            <line x1="20" y1="-14" x2="26" y2="2"/>
+          </g>
+          <!-- antenna -->
+          <path d="M4 -76 C 0 -92, 16 -96, 10 -110" stroke="#6fa21f" stroke-width="4" fill="none"/>
+          <circle class="bulb" cx="10" cy="-114" r="7" stroke="#c9a700" stroke-width="2"/>
+          <!-- lumpy body -->
+          <path d="M-40 -30 C -46 -62, -18 -86, 6 -78 C 30 -84, 50 -60, 42 -36 C 50 -18, 26 -8, 0 -12 C -24 -6, -44 -12, -40 -30 Z" fill="#9bd43c" stroke="#6fa21f" stroke-width="3"/>
+          <ellipse cx="-24" cy="-40" rx="5" ry="3" fill="#86bf2c"/><ellipse cx="28" cy="-28" rx="4" ry="2.5" fill="#86bf2c"/>
+          <!-- giant googly eye -->
+          <g class="eye-open">
+            <circle cx="4" cy="-50" r="24" fill="#fff" stroke="#2b2620" stroke-width="3"/>
+            <circle class="pupil" cx="8" cy="-46" r="10" fill="#2b2620"/>
+          </g>
+          <path class="eye-shut" d="M-18 -48 Q4 -36 26 -48" stroke="#2b2620" stroke-width="3" fill="none"/>
+          <!-- mouth and bowtie -->
+          <path d="M-8 -22 Q2 -16 12 -22" stroke="#2b2620" stroke-width="2.5" fill="none"/>
+          <path d="M-12 -12 L0 -6 L-12 0 Z M12 -12 L0 -6 L12 0 Z" fill="#e2483d"/><circle cy="-6" r="3" fill="#b8302a"/>
+        </g></g>
+        <text class="zzz" x="40" y="-120">z</text>
+      </g>
+    </svg>
+    <div class="status"><span class="doing" id="doing">Loading Glorp...</span><span class="mood" id="mood"></span></div>
+  </section>
+
+  <aside class="card">
+    <div class="needs" id="needs"></div>
+    <div class="tabs" role="tablist">
+      <button class="on" data-tab="diary">Diary</button>
+      <button data-tab="wishes">Wishes</button>
+      <button data-tab="hobbies">Hobbies</button>
+      <button data-tab="made">Made</button>
+    </div>
+    <div class="list" id="list"></div>
+  </aside>
+</main>
+<dialog id="dlg"><pre id="dlgText"></pre><button onclick="dlg.close()">Close</button></dialog>
+
+<script>
+const PLACE_X = { burrow: 90, kitchen: 250, workshop: 410, garden: 570, window: 730, hill: 905 };
+const NEED_COLORS = { fullness: "#f0a03c", energy: "#4fb3d9", curiosity: "#b18cff", joy: "#f06292", calm: "#6cc08b" };
+let data = null;
+let tab = "diary";
+try { tab = localStorage.getItem("glorp-tab") || "diary"; } catch {}
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const when = (iso) => new Date(iso).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" });
+
+function wrap(text, width) {
+  const words = text.split(/\s+/); const lines = []; let line = "";
+  for (const w of words) { if ((line + " " + w).trim().length > width) { lines.push(line); line = w; } else line = (line + " " + w).trim(); }
+  if (line) lines.push(line);
+  return lines.slice(0, 4);
+}
+
+function drawScene() {
+  const { state, diary } = data;
+  const x = PLACE_X[state.place] ?? 90;
+  const g = document.getElementById("glorp");
+  g.setAttribute("transform", `translate(${x} 330)`);
+  g.style.transform = `translate(${x}px, 330px)`;
+  const asleep = /asleep/.test(state.doing);
+  g.classList.toggle("asleep", asleep);
+  g.classList.toggle("idea", /make|creat|invent/.test(state.doing) || !!state.hobbies.find((h) => state.doing.startsWith(h.id.replace(/_/g, " "))));
+
+  // Sky follows the real time of day.
+  const h = new Date().getHours();
+  const night = h < 6 || h >= 21, dusk = (h >= 18 && h < 21) || (h >= 6 && h < 8);
+  document.getElementById("sky1").setAttribute("stop-color", night ? "#1d2440" : dusk ? "#f4a07a" : "#9fd3f2");
+  document.getElementById("sky2").setAttribute("stop-color", night ? "#3d4a7a" : dusk ? "#ffe0b8" : "#e9f6ff");
+  const sun = document.getElementById("sun");
+  sun.setAttribute("fill", night ? "#f4f1de" : "#ffd95a");
+  sun.setAttribute("r", night ? 20 : 30);
+
+  // Speech bubble with the latest thought.
+  const latest = diary[0];
+  const bubble = document.getElementById("bubble");
+  if (latest && !asleep) {
+    const lines = wrap(latest.thought, 34);
+    const t = document.getElementById("bubbleText");
+    t.innerHTML = lines.map((l, i) => `<tspan x="0" dy="${i ? 18 : 0}">${esc(l)}</tspan>`).join("");
+    const w = Math.max(...lines.map((l) => l.length)) * 7.4 + 24, hgt = lines.length * 18 + 16;
+    const bx = Math.min(Math.max(x - w / 2, 8), 992 - w), by = 330 - 170 - hgt;
+    document.getElementById("bubbleBox").setAttribute("x", bx); document.getElementById("bubbleBox").setAttribute("y", by);
+    document.getElementById("bubbleBox").setAttribute("width", w); document.getElementById("bubbleBox").setAttribute("height", hgt);
+    t.setAttribute("transform", `translate(${bx + 12} ${by + 22})`);
+    bubble.setAttribute("opacity", 1);
+  } else bubble.setAttribute("opacity", 0);
+}
+
+function drawPanel() {
+  const { state, diary } = data;
+  document.getElementById("doing").textContent = `Now: ${state.doing}`;
+  document.getElementById("mood").textContent = state.mood ? `Feeling ${state.mood}` : "";
+  const days = Math.floor((Date.now() - new Date(state.born)) / 86400000);
+  document.getElementById("age").textContent = `${days === 0 ? "born today" : days + (days === 1 ? " day old" : " days old")} · ${state.creations.length} things made · ${state.hobbies.length} own hobbies`;
+  document.getElementById("needs").innerHTML = Object.entries(state.needs).map(([k, v]) =>
+    `<div class="need"><span>${k}</span><div class="track"><div class="fill" style="width:${v}%;background:${NEED_COLORS[k]}"></div></div><span class="num">${v}</span></div>`).join("");
+
+  document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === tab));
+  const list = document.getElementById("list");
+  let html = "";
+  if (tab === "diary") {
+    html = diary.map((e) => `<div class="entry"><div class="meta">${when(e.time)} · ${esc(e.activity.replace(/_/g, " "))} at the ${esc(e.place)}</div>
+      <div>${esc(e.diary)}</div>${e.creation ? `<div class="meta">made: <a data-file="${esc(e.creation)}">${esc(e.creation)}</a></div>` : ""}
+      ${e.hobby ? `<div class="meta">new hobby: ${esc(e.hobby.replace(/_/g, " "))}</div>` : ""}</div>`).join("") || `<div class="empty">No diary yet. Glorp hasn't woken up.</div>`;
+  } else if (tab === "wishes") {
+    html = state.wishes.slice().reverse().map((w) => `<div class="entry ${w.done ? "done" : ""}">${esc(w.text)}<div class="meta">${when(w.made)}${w.done ? " · came true" : ""}</div></div>`).join("") || `<div class="empty">No wishes yet.</div>`;
+  } else if (tab === "hobbies") {
+    html = state.hobbies.slice().reverse().map((h) => `<div class="entry"><strong>${esc(h.id.replace(/_/g, " "))}</strong><div>${esc(h.about)}</div><div class="meta">at the ${esc(h.place)} · invented ${when(h.invented)}</div></div>`).join("") || `<div class="empty">Glorp hasn't invented a hobby yet.</div>`;
+  } else {
+    html = state.creations.slice().reverse().map((c) => `<div class="entry"><a data-file="${esc(c.file)}">${esc(c.title)}</a><div class="meta">${esc(c.kind)} · ${when(c.made)}</div></div>`).join("") || `<div class="empty">Nothing made yet.</div>`;
+  }
+  list.innerHTML = html;
+}
+
+async function refresh() {
+  try {
+    const r = await fetch("/api/state");
+    data = await r.json();
+    drawScene(); drawPanel();
+  } catch (e) { document.getElementById("doing").textContent = "Can't reach Glorp right now."; }
+}
+
+document.querySelector(".tabs").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  tab = b.dataset.tab; try { localStorage.setItem("glorp-tab", tab); } catch {}
+  if (data) drawPanel();
+});
+document.getElementById("list").addEventListener("click", async (e) => {
+  const a = e.target.closest("a[data-file]"); if (!a) return;
+  const r = await fetch("/api/creation/" + encodeURIComponent(a.dataset.file));
+  document.getElementById("dlgText").textContent = await r.text();
+  document.getElementById("dlg").showModal();
+});
+refresh();
+setInterval(refresh, 15000);
+</script>
+</body>
+</html>

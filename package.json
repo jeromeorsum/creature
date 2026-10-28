@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js live",
+    "watch": "node --env-file-if-exists=.env src/index.js watch",
     "tick": "node --env-file-if-exists=.env src/index.js tick",
     "status": "node --env-file-if-exists=.env src/index.js status",
     "diary": "node --env-file-if-exists=.env src/index.js diary",

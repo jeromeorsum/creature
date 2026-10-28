@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 // Command line for Glorp.
-//   live    keep Glorp alive, thinking every TICK_MINUTES
+//   live    keep Glorp alive, thinking every TICK_MINUTES, and serve the web view
+//   watch   only serve the web view (no thinking)
 //   tick    run one moment of Glorp's life
 //   status  show needs, wishes, hobbies
 //   diary   show the latest diary entries
 import { tick, config } from "./life.js";
 import { loadState, readDiary } from "./state.js";
 import { NEEDS } from "./world.js";
+import { startServer } from "./server.js";
 
 function bar(v) {
   const n = Math.round(v / 10);
@@ -14,7 +16,7 @@ function bar(v) {
 }
 
 function printStatus(state) {
-  console.log(`Glorp is ${state.doing}. Mood: ${state.mood}.`);
+  console.log(`Now: ${state.doing}. Mood: ${state.mood}.`);
   for (const need of NEEDS) console.log(`  ${need.padEnd(10)} ${bar(state.needs[need])} ${state.needs[need]}`);
   const open = state.wishes.filter((w) => !w.done);
   if (open.length) console.log(`Wishes: ${open.map((w) => w.text).join("; ")}`);
@@ -26,7 +28,7 @@ async function runTick() {
   const { state, result, decision, usd, hobby, creationFile } = await tick();
   const time = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
   if (result !== "acted") {
-    console.log(`[${time}] Glorp is ${state.doing} (${result}).`);
+    console.log(`[${time}] Glorp: ${state.doing} (${result}).`);
     return;
   }
   console.log(`\n[${time}] ${decision.activity.replace(/_/g, " ")} at the ${state.place}  (${decision.mood}, $${usd.toFixed(4)})`);
@@ -48,7 +50,10 @@ if (!cfg.fake && !process.env.ANTHROPIC_API_KEY && (cmd === "tick" || cmd === "l
 
 if (cmd === "tick") {
   await runTick();
+} else if (cmd === "watch") {
+  startServer();
 } else if (cmd === "live") {
+  startServer();
   console.log(`Glorp is alive. Thinking every ${cfg.tickMinutes} minutes. Press Ctrl+C to stop.`);
   for (;;) {
     try {
@@ -65,6 +70,6 @@ if (cmd === "tick") {
     console.log(`\n[${e.time.slice(0, 16).replace("T", " ")}] ${e.activity} at the ${e.place} (${e.mood})\n  ${e.diary}`);
   }
 } else {
-  console.error(`Unknown command "${cmd}". Use: live, tick, status, diary`);
+  console.error(`Unknown command "${cmd}". Use: live, watch, tick, status, diary`);
   process.exit(1);
 }
