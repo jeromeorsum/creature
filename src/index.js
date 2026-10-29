@@ -31,13 +31,18 @@ function printStatus(state) {
 }
 
 async function runTick() {
-  const { state, result, decision, usd, hobby, creationFile, events, gathered, built, project } = await tick();
+  const { state, result, decision, usd, hobby, creationFile, events, gathered, built, project, why } = await tick();
   const time = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  if (result === "auto") {
+    console.log(`[${time}] (instinct) ${decision.activity.replace(/_/g, " ")} at the ${state.place}: ${decision.diary}`);
+    return;
+  }
   if (result !== "acted") {
     console.log(`[${time}] Glorp: ${state.doing} (${result}).`);
     return;
   }
   console.log(`\n[${time}] ${decision.activity.replace(/_/g, " ")} at the ${state.place}  (${decision.mood}, $${usd.toFixed(4)})`);
+  console.log(`  why:    ${why ?? ""}`);
   console.log(`  thinks: ${decision.thought}`);
   console.log(`  diary:  ${decision.diary}`);
   for (const e of events) console.log(`  event:  ${e}`);
@@ -66,7 +71,7 @@ if (cmd === "tick") {
   startServer();
 } else if (cmd === "live") {
   startServer();
-  console.log(`Glorp is alive. Thinking every ${cfg.tickMinutes} minutes. Press Ctrl+C to stop.`);
+  console.log(`Glorp is alive. Checking in every ${cfg.tickMinutes} minutes; it thinks when something calls for it. Press Ctrl+C to stop.`);
   for (;;) {
     try {
       await runTick();

@@ -810,7 +810,7 @@ function drawJournal() {
   document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === tab));
   let html = "";
   if (tab === "diary") {
-    html = diary.map((e) => `<div class="entry"><div class="meta">${when(e.time)} · ${esc(nice(e.activity))} at the ${esc(e.place)}</div>
+    html = diary.map((e) => `<div class="entry"><div class="meta">${when(e.time)} · ${esc(nice(e.activity))} at the ${esc(e.place)}${e.auto ? " · on instinct" : e.why ? ` · stopped to think: ${esc(e.why)}` : ""}</div>
         ${(e.events ?? []).map((v) => `<div class="event">${esc(v)}</div>`).join("")}
         <div>${esc(e.diary)}</div>
         ${e.thought ? `<div class="thought">“${esc(e.thought)}”</div>` : ""}

@@ -1,10 +1,11 @@
-# Keeps Glorp alive on GitHub: every 30 minutes it runs one moment of Glorp's life,
+# Keeps Glorp alive on GitHub: every 10 minutes the island moves on. Glorp acts on instinct and
+# passion, and only stops to think (one Claude call) when something calls for it. Each run
 # saves Glorp's memories to the "life" branch, and publishes the web view to GitHub Pages.
 name: Glorp lives
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
       awake:

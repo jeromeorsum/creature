@@ -69,7 +69,7 @@ test("busy, asleep and out-of-budget ticks make no AI call", async () => {
   const asleep = await tick({ now: new Date("2026-10-29T23:30:00"), cfg, client });
   assert.equal(asleep.result, "asleep");
   const broke = await tick({ now: new Date("2026-10-30T10:00:00"), cfg: { ...cfg, dailyBudget: 0 }, client });
-  assert.equal(broke.result, "out-of-budget");
+  assert.ok(["pottering", "auto"].includes(broke.result)); // out of thoughts: it carries on by instinct
   assert.equal(client.calls.length, 0);
 });
 
