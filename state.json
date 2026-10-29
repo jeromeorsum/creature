@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T05:17:42.838Z",
+  "lastUpdate": "2026-10-29T05:27:53.958Z",
   "place": "pond",
   "spot": {
-    "x": -5.6,
-    "z": 15
+    "x": -3.9,
+    "z": 19.8
   },
-  "doing": "dig clay at the pond",
-  "busyUntil": "2026-10-29T05:27:18.979Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-10-29T05:52:53.958Z",
   "needs": {
-    "fullness": 55,
-    "water": 74,
-    "energy": 46,
-    "curiosity": 68,
-    "joy": 61,
-    "calm": 60
+    "fullness": 54,
+    "water": 73,
+    "energy": 39,
+    "curiosity": 67,
+    "joy": 60,
+    "calm": 66
   },
   "health": 100,
   "mood": "curious and determined",
@@ -49,15 +49,16 @@
     ],
     "done": [
       1,
-      2
+      2,
+      4
     ]
   },
   "lessons": [],
   "days": [],
-  "plan": "Berries, drink at pond, gather wood, build a shelter",
+  "plan": "Pull reeds, gather wood, then build a shelter with clay and fibre.",
   "knowledge": [],
   "world": {
-    "weather": "rainy",
+    "weather": "sunny",
     "food": 2,
     "seeds": {
       "tree": 0,
@@ -67,11 +68,12 @@
       "wood": 0,
       "stone": 0,
       "clay": 4,
-      "fibre": 0,
+      "fibre": 3,
       "shells": 0
     },
     "discovered": [
-      "clay"
+      "clay",
+      "fibre"
     ],
     "inventions": [],
     "home": null,
@@ -270,7 +272,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0.06
+        "left": 0.09
       },
       {
         "id": "clay3",
@@ -326,7 +328,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 3
+        "left": 0
       },
       {
         "id": "fibre6",
@@ -471,18 +473,18 @@
     ],
     "structures": []
   },
-  "ticks": 3,
+  "ticks": 4,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 4 clay.",
-    "That was the first clay you ever held."
+    "You collected 3 fibre.",
+    "That was the first fibre you ever held."
   ],
-  "thought": "I'm at the pond with clay all around me, and I'm standing right next to the sticky bank. The roof worry keeps nagging me. Clay is here, so I should dig it now and see what it does. My energy is okay. Digging first, then reeds for fibre, then wood.",
-  "face": "curious",
-  "lastThought": "2026-10-29T04:57:18.979Z"
+  "thought": "I'm at the pond with clay in my beak-pouch and the reeds are right here. Reeds give fibre, which is stringy and bendy, perfect for tying a roof together. Energy is 45, so not too many heavy chores. Pulling reeds is light and calms me. Then I can go for wood.",
+  "face": "determined",
+  "lastThought": "2026-10-29T05:27:53.958Z"
 }
