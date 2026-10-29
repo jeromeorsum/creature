@@ -5,7 +5,7 @@ import os from "node:os";
 import path from "node:path";
 
 process.env.CREATURE_DATA_DIR = fs.mkdtempSync(path.join(os.tmpdir(), "glorp-world-"));
-const { tick, config } = await import("../src/life.js");
+const { tick, config, autopilot, reasonToThink } = await import("../src/life.js");
 const W = await import("../src/world.js");
 const { loadState, saveState, newState, decayNeeds } = await import("../src/state.js");
 const { surroundings, dayKey, isLastMoment, timeOfDay } = await import("../src/brain.js");
@@ -216,4 +216,36 @@ test("Glorp is nocturnal by default: its day runs through the night", () => {
   assert.ok(isLastMoment(new Date("2026-11-04T10:30:00"), owl));
   assert.ok(!isLastMoment(new Date("2026-11-04T22:30:00"), owl));
   assert.match(timeOfDay(new Date("2026-11-04T19:30:00"), owl), /just woke up.*nocturnal/);
+});
+
+test("Glorp only stops to think when something calls for it, and otherwise acts on instinct", async () => {
+  const now = new Date("2026-11-05T21:00:00");
+  const owl = { ...cfg, sleepFrom: 11, sleepUntil: 19 };
+  const st = ready();
+  st.today = { date: "2026-11-05", plan: ["drink"], done: [] };
+  st.lastThought = new Date(now - 10 * 60_000).toISOString();
+  st.lastUpdate = now.toISOString();
+  st.health = 100;
+  Object.assign(st.needs, { fullness: 80, water: 30, energy: 80, curiosity: 60, joy: 60, calm: 60 });
+  saveState(st);
+  const c = client({ ...base });
+  const r = await tick({ now, cfg: owl, client: c, rand: noEvents });
+  assert.equal(c.calls.length, 0); // thirst is handled by instinct, no thinking needed
+  assert.equal(r.result, "auto");
+  assert.equal(r.decision.activity, "drink");
+  assert.ok(r.state.needs.water > 30);
+  assert.equal(r.state.spend.ticks, 0); // instinct uses none of the daily thoughts
+  // Nothing to do and nothing on its mind: it just potters about.
+  const st2 = ready(); st2.lastThought = now.toISOString(); st2.world.structures = []; saveState(st2);
+  const r2 = await tick({ now: new Date(now.getTime() + 20 * 60_000), cfg: owl, client: c, rand: noEvents });
+  assert.equal(r2.result, "pottering");
+  assert.equal(c.calls.length, 0);
+  // After a long quiet spell, or when something happens, it thinks.
+  assert.match(reasonToThink(st2, new Date(now.getTime() + 90 * 60_000), owl, { rand: noEvents }), /free/);
+  assert.match(reasonToThink(st2, now, owl, { events: ["The pigeon stole a berry."], rand: noEvents }), /happened/);
+  // Passion: an unfinished building with materials keeps it busy.
+  const w = W.newWorld(); w.discovered = ["wood"]; w.inventory.wood = 5;
+  W.startProject(w, { name: "Perch", near: "nest", blocks: [{ shape: "box", material: "wood", w: 1, h: 1, d: 1 }] }, now);
+  const habit = autopilot({ ...st2, needs: { fullness: 80, water: 80, energy: 80, curiosity: 60, joy: 60, calm: 60 }, world: w });
+  assert.equal(habit.activity, "build");
 });

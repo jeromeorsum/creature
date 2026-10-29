@@ -12,7 +12,8 @@ The web page is a fullscreen 3D island in a storybook cartoon style that you can
 
 - **Needs.** Six needs from 0 to 100 (fullness, water, energy, curiosity, joy, calm) slowly drop as real time passes, plus health.
 - **A real day.** When it wakes up Glorp plans its day, ticks things off as it goes, and writes a summary of the day at bedtime.
-- **Choices.** Each "tick", Glorp gets its situation (needs, health, what is around it, what it knows, what happened last time, its plan, worries and lessons) and picks an activity.
+- **Need and passion, not a timer.** The island moves on every 10 minutes, but Glorp doesn't think on a schedule. Most of the time it acts on instinct (drinks when thirsty, eats its food when hungry, naps when exhausted) or passion (keeps building an unfinished project and fetches the materials it needs). It only stops to really think (one Claude call) when something calls for it: waking up, bedtime, something happening on the island, hunger with no food, poor health, boredom or unhappiness, a long quiet spell, or an idea striking out of nowhere (more likely the more curious it is).
+- **Thinking.** When it thinks, Glorp gets its situation (why it stopped to think, needs, health, what is around it, what it knows, what happened last time, its plan, worries and lessons) and decides what to do.
 - **Survival.** Drinking at the pond, picking and eating berries, storing food. The pigeon sometimes steals food.
 - **Limited island.** Wood comes from trees (cut one to nothing and it dies). Stone never comes back. Clay only comes back when it rains. Reeds, berries and trees only regrow while tended, and seeds Glorp saves can be planted to grow new ones.
 - **Discovering and inventing.** Glorp can only use materials it has discovered. It can work things out (saved as knowledge) and invent tools that really help (more wood, better sleep, storing more food).
@@ -43,7 +44,7 @@ To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 
 ## Let Glorp live on GitHub
 
-`.github/workflows/live.yml` runs one moment of Glorp's life every 30 minutes on GitHub Actions, saves its memories to the `life` branch, and publishes the web view to GitHub Pages.
+`.github/workflows/live.yml` moves Glorp's island on every 10 minutes on GitHub Actions (Glorp thinks only when something calls for it), saves its memories to the `life` branch, and publishes the web view to GitHub Pages.
 
 1. Give Glorp a brain by adding ONE repository secret (Settings > Secrets and variables > Actions):
    - `CLAUDE_CODE_OAUTH_TOKEN`: runs on your Claude Pro/Max subscription, no extra cost. Create it by running `claude setup-token` on your computer.
@@ -60,4 +61,4 @@ To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 
 ## Cost
 
-On a subscription token, Glorp uses your plan's normal usage limits (about 32 short requests a day, capped by `MAX_TICKS_PER_DAY`). On an API key, each tick is one Claude request at low effort, roughly 2 to 4 cents on Claude Opus 5.5. With the defaults (every 30 minutes, asleep 11am to 7pm) that is about 32 ticks a day, capped at $1 a day by `DAILY_BUDGET_USD`.
+On a subscription token, Glorp uses your plan's normal usage limits: a varying number of thoughts a day depending on how eventful its day is, never more than `MAX_TICKS_PER_DAY` (40). On an API key, each thought is one Claude request, roughly 2 to 4 cents on Claude Opus 5.5, capped at $1 a day by `DAILY_BUDGET_USD`. Instinct and habit cost nothing.

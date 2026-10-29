@@ -208,6 +208,10 @@ export function buildSituation(state, diary, now, opts = {}) {
     lines.push("What happened last time:");
     lines.push(state.lastOutcome.map((e) => `- ${e}`).join("\n"));
   }
+  if (opts.why) {
+    lines.push("");
+    lines.push(`Why you stopped to think just now: ${opts.why}. (Most of the time you just get on with things by instinct: drinking when thirsty, eating your food when hungry, napping when exhausted, and working away at an unfinished building. Right now you're really thinking, so make it count.)`);
+  }
   if (opts.events?.length) {
     lines.push("");
     lines.push("Just happened:");

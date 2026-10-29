@@ -1,10 +1,11 @@
-// One "tick" of Glorp's life: let time pass, think, act, write it down.
+// One "tick" of Glorp's life: let time pass, then either act on instinct and passion,
+// or (only when something calls for it) stop and really think, act, and write it down.
 import fs from "node:fs";
 import path from "node:path";
 import { think, isLastMoment, dayKey } from "./brain.js";
 import {
   allActivities, clampHobbyEffects, HOBBY_LIMITS, ACTIVITIES, PLACE_POS, regrow, gather, worldEvents, startProject, buildOn,
-  invent, bonus, tend, plant,
+  invent, bonus, tend, plant, missingFor, blockCost, resourceLeft,
 } from "./world.js";
 
 // Where Glorp lives: the nest, or a building it chose as its home.
@@ -29,7 +30,7 @@ export function config(env = process.env) {
     // Glorp is nocturnal: asleep 11am to 7pm, awake through the night.
     sleepFrom: Number(env.SLEEP_FROM_HOUR ?? 11),
     sleepUntil: Number(env.SLEEP_UNTIL_HOUR ?? 19),
-    tickMinutes: Number(env.TICK_MINUTES ?? 30),
+    tickMinutes: Number(env.TICK_MINUTES ?? 10), // how often the island moves on; Glorp only thinks when something calls for it
   };
 }
 
@@ -40,6 +41,49 @@ export function isSleepTime(now, from, until) {
 }
 
 
+
+// An empty decision: what Glorp does on instinct or habit, without stopping to think.
+const QUIET = {
+  thought: null, go_to: null, mood: null, face: null, creation: null, new_hobby: null, new_wish: null, wish_done: null,
+  remember: null, concern: null, concern_solved: null, plan: null, build_target: null, new_project: null, day_plan: null,
+  plan_done: null, day_summary: null, lesson: null, discovery: null, new_invention: null, make_home: null,
+};
+
+// Instinct (drink, eat, sleep when needed) and passion (keep at an unfinished project) need no thinking.
+export function autopilot(state) {
+  const n = state.needs, w = state.world, acts = allActivities(state);
+  const pick = (activity, diary, extra = {}) => (acts[activity] ? { ...QUIET, activity, diary, ...extra } : null);
+  if (n.water < 40) return pick("drink", "I was thirsty, so I went for a drink at the pond without really thinking about it.");
+  if (n.fullness < 40 && w.food > 0) return pick("eat_food", "My tummy rumbled, so I ate some of the berries I kept.");
+  if (n.energy < 20) return pick("nap", "Too tired to think. I curled up for a nap.");
+  for (const s of w.structures.filter((x) => !x.finished)) {
+    const next = s.blocks.find((b) => !b.placed);
+    if (next && (w.inventory[next.material] ?? 0) >= blockCost(next)) return pick("build", `I kept working on "${s.name}". I can't stop thinking about it.`, { build_target: s.id });
+    for (const m of Object.keys(missingFor(w, s).missing)) {
+      const act = Object.entries(acts).find(([, a]) => a.gather === m);
+      if (act && w.discovered.includes(m) && resourceLeft(w, m) > 0) return pick(act[0], `I went to get more ${m} for "${s.name}".`);
+    }
+  }
+  return null;
+}
+
+// Does anything call for a real thought right now? Returns why, or null.
+export function reasonToThink(state, now, cfg, { events = [], collapsed = false, bedtime = false, busyWithPassion = false, rand = Math.random } = {}) {
+  const n = state.needs, w = state.world;
+  if (collapsed) return "you collapsed and have just come round";
+  if (bedtime) return "it's your last moment before sleep";
+  if (state.today?.date !== dayKey(now, cfg.sleepUntil)) return "you have just woken up to a new day";
+  if (events.length) return "something just happened";
+  if (state.health < 60) return `your health is low (${state.health})`;
+  if (n.fullness < 30 && w.food < 1) return "you're hungry and you have no food kept";
+  for (const k of ["curiosity", "joy", "calm"]) if (n[k] < 20) return `your ${k} is very low`;
+  // Ideas strike now and then, more often the longer it's been, and less while you're absorbed in a project.
+  const since = state.lastThought ? (now - new Date(state.lastThought)) / 60_000 : Infinity;
+  if (since >= (busyWithPassion ? 180 : 60)) return busyWithPassion ? "you've been busy a long time and want to take stock" : "you're free and wondering what to do";
+  const chance = Math.min(0.5, (since / (busyWithPassion ? 600 : 150)) * (0.5 + n.curiosity / 100));
+  if (rand() < chance) return busyWithPassion ? "an idea struck you while you were working" : "an idea is forming";
+  return null;
+}
 
 function slugify(s) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 50) || "untitled";
@@ -78,17 +122,28 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     return { state, result: "busy" };
   }
 
-  if (!cfg.fake && (state.spend.usd >= cfg.dailyBudget || (state.spend.ticks ?? 0) >= cfg.maxTicksPerDay)) {
-    state.doing = "daydreaming (used up today's thinking budget)";
-    saveState(state);
-    return { state, result: "out-of-budget" };
-  }
-
   const world = state.world;
-  const events = worldEvents(world, rand);
+  // Island events happen at the same rate however often the island is checked.
+  const events = rand() < Math.min(1, cfg.tickMinutes / 30) ? worldEvents(world, rand) : [];
   if (collapsed) events.unshift("You collapsed from hunger and thirst and lay on the ground for a long time. You feel very weak and scared.");
-  const diary = readDiary(12);
-  const { decision: d, usd } = await think(state, diary, now, { ...cfg, client, events });
+
+  // Only stop to think when something calls for it; otherwise follow instinct and passion.
+  const habit = autopilot(state);
+  const outOfThoughts = !cfg.fake && (state.spend.usd >= cfg.dailyBudget || (state.spend.ticks ?? 0) >= cfg.maxTicksPerDay);
+  const why = outOfThoughts ? null : reasonToThink(state, now, cfg, { events, collapsed, bedtime: bedtimeReflection, busyWithPassion: habit?.activity === "build" || !!habit?.build_target || /^(collect|dig|pull)/.test(habit?.activity ?? ""), rand });
+  let d, usd = 0;
+  if (why) {
+    ({ decision: d, usd } = await think(state, readDiary(12), now, { ...cfg, client, events, why }));
+    state.lastThought = now.toISOString();
+  } else if (habit) {
+    d = habit;
+  } else {
+    state.doing = outOfThoughts ? `pottering about at the ${state.place} (all thought out for today)` : `pottering about at the ${state.place}`;
+    state.busyUntil = null;
+    saveState(state);
+    return { state, result: "pottering", events };
+  }
+  const auto = !why;
   const acts = allActivities(state);
   const act = acts[d.activity];
 
@@ -182,9 +237,11 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   applyEffects(state, effects);
   state.busyUntil = new Date(now.getTime() + act.minutes * 60_000).toISOString();
   state.doing = `${d.activity.replace(/_/g, " ")} at the ${state.place}`;
-  state.mood = d.mood;
-  state.thought = d.thought;
-  state.face = d.face;
+  if (!auto) {
+    state.mood = d.mood;
+    state.thought = d.thought;
+    state.face = d.face;
+  }
 
   if (d.concern) {
     state.concerns.push({ text: d.concern, made: now.toISOString(), resolved: null });
@@ -248,9 +305,11 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   }
 
   state.ticks += 1;
-  state.spend.usd += usd;
-  state.spend.ticks = (state.spend.ticks ?? 0) + 1;
-  state.spend.totalUsd += usd;
+  if (!auto) {
+    state.spend.usd += usd;
+    state.spend.ticks = (state.spend.ticks ?? 0) + 1;
+    state.spend.totalUsd += usd;
+  }
 
   appendDiary({
     time: now.toISOString(),
@@ -258,8 +317,10 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     activity: d.activity,
     thought: d.thought,
     diary: d.diary,
-    mood: d.mood,
-    face: d.face,
+    mood: d.mood ?? state.mood,
+    face: d.face ?? state.face,
+    auto: auto || undefined, // done on instinct or habit, without stopping to think
+    why: why ?? undefined,
     needs: { ...state.needs },
     creation: creationFile ? path.basename(creationFile) : null,
     hobby: hobby?.id ?? null,
@@ -280,5 +341,5 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     built: result.built,
   });
   saveState(state);
-  return { state, result: "acted", decision: d, usd, hobby, creationFile, events, project, ...result };
+  return { state, result: auto ? "auto" : "acted", decision: d, usd, hobby, creationFile, events, project, why, ...result };
 }
