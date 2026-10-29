@@ -1,0 +1,32 @@
+{
+  "born": "2026-10-29T00:00:56.753Z",
+  "lastUpdate": "2026-10-29T00:00:56.753Z",
+  "place": "garden",
+  "doing": "explore garden at the garden",
+  "busyUntil": "2026-10-29T00:30:56.753Z",
+  "needs": {
+    "fullness": 65,
+    "energy": 70,
+    "curiosity": 85,
+    "joy": 78,
+    "calm": 70
+  },
+  "mood": "delighted and nosy",
+  "memories": [],
+  "wishes": [
+    {
+      "text": "Find out what the pigeons are really planning",
+      "made": "2026-10-29T00:00:56.753Z",
+      "done": null
+    }
+  ],
+  "hobbies": [],
+  "creations": [],
+  "ticks": 1,
+  "spend": {
+    "day": "2026-10-29",
+    "usd": 0,
+    "totalUsd": 0,
+    "ticks": 1
+  }
+}
