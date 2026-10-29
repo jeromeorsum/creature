@@ -1,37 +1,61 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T01:36:24.876Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-29T01:46:29.781Z",
+  "place": "thicket",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "asleep in the nest",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-29T02:11:29.781Z",
   "needs": {
-    "fullness": 53,
-    "water": 48,
-    "energy": 78,
-    "curiosity": 88,
-    "joy": 69,
+    "fullness": 76,
+    "water": 47,
+    "energy": 73,
+    "curiosity": 87,
+    "joy": 71,
     "calm": 63
   },
   "health": 100,
-  "mood": "brand new and baffled",
+  "mood": "baffled but hungry",
   "memories": [],
-  "wishes": [],
+  "wishes": [
+    {
+      "text": "Build a roof so the rain stops dripping on my head",
+      "made": "2026-10-29T01:46:29.781Z",
+      "done": null
+    }
+  ],
   "hobbies": [],
   "creations": [],
-  "concerns": [],
-  "today": null,
+  "concerns": [
+    {
+      "text": "The nest is open and rain gets in",
+      "made": "2026-10-29T01:46:29.781Z",
+      "resolved": null
+    }
+  ],
+  "today": {
+    "date": "2026-10-28",
+    "plan": [
+      "Forage berries for breakfast",
+      "Drink at the pond",
+      "Collect wood",
+      "Dig some clay",
+      "Start a shelter",
+      "Spy on the pigeon",
+      "Eat berries and wind down"
+    ],
+    "done": []
+  },
   "lessons": [],
   "days": [],
-  "plan": null,
+  "plan": "Berries, drink at pond, gather wood, build a shelter",
   "knowledge": [],
   "world": {
-    "weather": "sunny",
-    "food": 0,
+    "weather": "rainy",
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 0
@@ -388,7 +412,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4
+        "left": 0
       },
       {
         "id": "berries2",
@@ -442,11 +466,16 @@
     ],
     "structures": []
   },
-  "ticks": 0,
+  "ticks": 1,
   "spend": {
-    "day": "2026-10-29",
+    "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 0
-  }
+    "ticks": 1
+  },
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "I am awake! Everything is dark and wet and there are glowing bugs. My tummy is rumbly (fullness 52) and my water is lowish. I do not know where food is yet, but the info says berries live in thickets. I should find berries first, then drink at the pond. I bet the pigeon knows where the good ones are.",
+  "face": "curious"
 }
