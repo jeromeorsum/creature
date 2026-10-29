@@ -34,6 +34,8 @@ test("sleep window wraps past midnight", () => {
   assert.equal(isSleepTime(new Date("2026-10-29T23:30:00"), 23, 7), true);
   assert.equal(isSleepTime(new Date("2026-10-29T03:00:00"), 23, 7), true);
   assert.equal(isSleepTime(new Date("2026-10-29T12:00:00"), 23, 7), false);
+  assert.equal(isSleepTime(new Date("2026-10-29T12:00:00"), 11, 19), true);
+  assert.equal(isSleepTime(new Date("2026-10-29T02:00:00"), 11, 19), false);
 });
 
 test("a tick sends a well-formed request and applies the decision", async () => {

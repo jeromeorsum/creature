@@ -11,14 +11,14 @@ The web page is a fullscreen 3D island in a storybook cartoon style that you can
 ## How it works
 
 - **Needs.** Six needs from 0 to 100 (fullness, water, energy, curiosity, joy, calm) slowly drop as real time passes, plus health.
-- **A real day.** On its first moment awake Glorp plans its day, ticks things off as it goes, and writes a summary of the day at bedtime.
+- **A real day.** When it wakes up Glorp plans its day, ticks things off as it goes, and writes a summary of the day at bedtime.
 - **Choices.** Each "tick", Glorp gets its situation (needs, health, what is around it, what it knows, what happened last time, its plan, worries and lessons) and picks an activity.
 - **Survival.** Drinking at the pond, picking and eating berries, storing food. The pigeon sometimes steals food.
 - **Limited island.** Wood comes from trees (cut one to nothing and it dies). Stone never comes back. Clay only comes back when it rains. Reeds, berries and trees only regrow while tended, and seeds Glorp saves can be planted to grow new ones.
 - **Discovering and inventing.** Glorp can only use materials it has discovered. It can work things out (saved as knowledge) and invent tools that really help (more wood, better sleep, storing more food).
 - **Building.** Glorp designs projects as up to 24 blocks (box, cylinder, cone, sphere) from the materials it knows. Each `build` turn places up to 5 blocks if it has the materials. It can make a finished building its home and sleep there.
 - **Growing.** Glorp can make things (saved in `data/creations/`), invent hobbies, make wishes, and keep long-term memories.
-- **Sleeping.** At night it sleeps and makes no AI calls.
+- **Nocturnal.** Glorp is a night owl: awake from 7pm to 11am (London time) and asleep through the day, when it makes no AI calls. Change this with `SLEEP_FROM_HOUR` and `SLEEP_UNTIL_HOUR`.
 - **Spending cap.** At most `MAX_TICKS_PER_DAY` thoughts a day (and `DAILY_BUDGET_USD` on an API key).
 
 If the shape of Glorp's saved life changes, its old life is moved to `data/past-life/` and it hatches again.
@@ -60,4 +60,4 @@ To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 
 ## Cost
 
-On a subscription token, Glorp uses your plan's normal usage limits (about 32 short requests a day, capped by `MAX_TICKS_PER_DAY`). On an API key, each tick is one Claude request at low effort, roughly 2 to 4 cents on Claude Opus 5.5. With the defaults (every 30 minutes, asleep 11pm to 7am) that is about 32 ticks a day, capped at $1 a day by `DAILY_BUDGET_USD`.
+On a subscription token, Glorp uses your plan's normal usage limits (about 32 short requests a day, capped by `MAX_TICKS_PER_DAY`). On an API key, each tick is one Claude request at low effort, roughly 2 to 4 cents on Claude Opus 5.5. With the defaults (every 30 minutes, asleep 11am to 7pm) that is about 32 ticks a day, capped at $1 a day by `DAILY_BUDGET_USD`.
