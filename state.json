@@ -1,15 +1,15 @@
 {
   "born": "2026-10-29T00:00:56.753Z",
-  "lastUpdate": "2026-10-29T00:00:56.753Z",
-  "place": "garden",
-  "doing": "explore garden at the garden",
-  "busyUntil": "2026-10-29T00:30:56.753Z",
+  "lastUpdate": "2026-10-29T00:24:59.652Z",
+  "place": "burrow",
+  "doing": "asleep in the sock bed",
+  "busyUntil": null,
   "needs": {
-    "fullness": 65,
-    "energy": 70,
-    "curiosity": 85,
-    "joy": 78,
-    "calm": 70
+    "fullness": 64,
+    "energy": 75,
+    "curiosity": 84,
+    "joy": 77,
+    "calm": 72
   },
   "mood": "delighted and nosy",
   "memories": [],
@@ -28,5 +28,339 @@
     "usd": 0,
     "totalUsd": 0,
     "ticks": 1
+  },
+  "world": {
+    "weather": "sunny",
+    "pantry": 6,
+    "inventory": {
+      "wood": 0,
+      "stone": 0,
+      "shells": 0,
+      "scrap": 0
+    },
+    "nodes": [
+      {
+        "id": "tree1",
+        "res": "wood",
+        "x": -20.4,
+        "z": -7.2,
+        "left": 4
+      },
+      {
+        "id": "tree2",
+        "res": "wood",
+        "x": -19.9,
+        "z": -19.1,
+        "left": 4
+      },
+      {
+        "id": "tree3",
+        "res": "wood",
+        "x": -24.9,
+        "z": -10.7,
+        "left": 4
+      },
+      {
+        "id": "tree4",
+        "res": "wood",
+        "x": -24,
+        "z": -2.3,
+        "left": 4
+      },
+      {
+        "id": "tree5",
+        "res": "wood",
+        "x": -34.4,
+        "z": -8.8,
+        "left": 4
+      },
+      {
+        "id": "tree6",
+        "res": "wood",
+        "x": -37.4,
+        "z": -14.1,
+        "left": 4
+      },
+      {
+        "id": "tree7",
+        "res": "wood",
+        "x": -20.4,
+        "z": -12.3,
+        "left": 4
+      },
+      {
+        "id": "tree8",
+        "res": "wood",
+        "x": -30.8,
+        "z": -3.4,
+        "left": 4
+      },
+      {
+        "id": "tree9",
+        "res": "wood",
+        "x": -34.8,
+        "z": -11.9,
+        "left": 4
+      },
+      {
+        "id": "tree10",
+        "res": "wood",
+        "x": -18.7,
+        "z": -15.1,
+        "left": 4
+      },
+      {
+        "id": "tree11",
+        "res": "wood",
+        "x": -42.4,
+        "z": -12.2,
+        "left": 4
+      },
+      {
+        "id": "tree12",
+        "res": "wood",
+        "x": -24.1,
+        "z": -15.5,
+        "left": 4
+      },
+      {
+        "id": "tree13",
+        "res": "wood",
+        "x": -34.1,
+        "z": -16.9,
+        "left": 4
+      },
+      {
+        "id": "tree14",
+        "res": "wood",
+        "x": -39.3,
+        "z": -15.7,
+        "left": 4
+      },
+      {
+        "id": "rock1",
+        "res": "stone",
+        "x": 34.1,
+        "z": -27.1,
+        "left": 5
+      },
+      {
+        "id": "rock2",
+        "res": "stone",
+        "x": 24.8,
+        "z": -16.7,
+        "left": 5
+      },
+      {
+        "id": "rock3",
+        "res": "stone",
+        "x": 21.1,
+        "z": -22.2,
+        "left": 5
+      },
+      {
+        "id": "rock4",
+        "res": "stone",
+        "x": 23.2,
+        "z": -29.6,
+        "left": 5
+      },
+      {
+        "id": "rock5",
+        "res": "stone",
+        "x": 20.7,
+        "z": -18.7,
+        "left": 5
+      },
+      {
+        "id": "rock6",
+        "res": "stone",
+        "x": 34.8,
+        "z": -20,
+        "left": 5
+      },
+      {
+        "id": "rock7",
+        "res": "stone",
+        "x": 35.3,
+        "z": -25.4,
+        "left": 5
+      },
+      {
+        "id": "rock8",
+        "res": "stone",
+        "x": 26,
+        "z": -24.7,
+        "left": 5
+      },
+      {
+        "id": "rock9",
+        "res": "stone",
+        "x": 31.9,
+        "z": -17.7,
+        "left": 5
+      },
+      {
+        "id": "shell1",
+        "res": "shells",
+        "x": -5,
+        "z": -40.8,
+        "left": 2
+      },
+      {
+        "id": "shell2",
+        "res": "shells",
+        "x": -6.5,
+        "z": -42.5,
+        "left": 2
+      },
+      {
+        "id": "shell3",
+        "res": "shells",
+        "x": -14.4,
+        "z": -38.8,
+        "left": 2
+      },
+      {
+        "id": "shell4",
+        "res": "shells",
+        "x": -12.6,
+        "z": -38.4,
+        "left": 2
+      },
+      {
+        "id": "shell5",
+        "res": "shells",
+        "x": -6.6,
+        "z": -44,
+        "left": 2
+      },
+      {
+        "id": "shell6",
+        "res": "shells",
+        "x": -16.5,
+        "z": -34.8,
+        "left": 2
+      },
+      {
+        "id": "shell7",
+        "res": "shells",
+        "x": -11,
+        "z": -35.6,
+        "left": 2
+      },
+      {
+        "id": "shell8",
+        "res": "shells",
+        "x": -9,
+        "z": -27.7,
+        "left": 2
+      },
+      {
+        "id": "shell9",
+        "res": "shells",
+        "x": 0.3,
+        "z": -27.8,
+        "left": 2
+      },
+      {
+        "id": "shell10",
+        "res": "shells",
+        "x": -8,
+        "z": -46.4,
+        "left": 2
+      },
+      {
+        "id": "junk1",
+        "res": "scrap",
+        "x": 12.8,
+        "z": 33.6,
+        "left": 3
+      },
+      {
+        "id": "junk2",
+        "res": "scrap",
+        "x": 13.8,
+        "z": 29,
+        "left": 3
+      },
+      {
+        "id": "junk3",
+        "res": "scrap",
+        "x": 20.9,
+        "z": 37.6,
+        "left": 3
+      },
+      {
+        "id": "junk4",
+        "res": "scrap",
+        "x": 14.2,
+        "z": 27.7,
+        "left": 3
+      },
+      {
+        "id": "junk5",
+        "res": "scrap",
+        "x": 23.2,
+        "z": 28.8,
+        "left": 3
+      },
+      {
+        "id": "junk6",
+        "res": "scrap",
+        "x": 24.5,
+        "z": 32.9,
+        "left": 3
+      },
+      {
+        "id": "bush1",
+        "res": "berries",
+        "x": 15.6,
+        "z": 3.8,
+        "left": 4
+      },
+      {
+        "id": "bush2",
+        "res": "berries",
+        "x": 19.6,
+        "z": 3.6,
+        "left": 4
+      },
+      {
+        "id": "bush3",
+        "res": "berries",
+        "x": 19.9,
+        "z": -1.1,
+        "left": 4
+      },
+      {
+        "id": "bush4",
+        "res": "berries",
+        "x": 19.5,
+        "z": -1.8,
+        "left": 4
+      },
+      {
+        "id": "bush5",
+        "res": "berries",
+        "x": 16.5,
+        "z": 3.3,
+        "left": 4
+      },
+      {
+        "id": "bush6",
+        "res": "berries",
+        "x": 10.1,
+        "z": -6.5,
+        "left": 4
+      }
+    ],
+    "structures": []
+  },
+  "concerns": [],
+  "plan": null,
+  "spot": {
+    "x": -14,
+    "z": 6
   }
 }
