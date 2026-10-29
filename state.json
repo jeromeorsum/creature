@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T17:52:55.926Z",
+  "lastUpdate": "2026-10-29T18:03:06.764Z",
   "place": "nest",
   "spot": {
     "x": -14,
@@ -17,7 +17,7 @@
     "joy": 32,
     "calm": 100
   },
-  "health": 81,
+  "health": 80,
   "mood": "sleepy and hopeful",
   "memories": [],
   "wishes": [
