@@ -192,6 +192,15 @@ function groundY(x, z) {
   return h;
 }
 const POND_Y = 0.55;
+// Height of the drawn ground mesh (it is a grid, so between grid points it sits a little above groundY).
+const T_SIZE = 150, T_SEG = 170, T_STEP = T_SIZE / T_SEG;
+function terrainY(x, z) {
+  const gx = (x + T_SIZE / 2) / T_STEP, gz = (z + T_SIZE / 2) / T_STEP;
+  const ix = Math.floor(gx), iz = Math.floor(gz), fx = gx - ix, fz = gz - iz;
+  const X = (i) => i * T_STEP - T_SIZE / 2;
+  const a = groundY(X(ix), X(iz)), b = groundY(X(ix + 1), X(iz)), c = groundY(X(ix), X(iz + 1)), d = groundY(X(ix + 1), X(iz + 1));
+  return Math.max(lerp(lerp(a, b, fx), lerp(c, d, fx), fz), groundY(x, z));
+}
 
 // ---------- renderer, scene, camera ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -266,7 +275,7 @@ scene.add(stars);
 
 // ---------- terrain ----------
 function buildTerrain() {
-  const size = 150, seg = 170;
+  const size = T_SIZE, seg = T_SEG;
   const geo = new THREE.PlaneGeometry(size, size, seg, seg);
   geo.rotateX(-Math.PI / 2);
   const pos = geo.attributes.position, colors = [];
@@ -511,7 +520,7 @@ function makeGlorp() {
   const pupil = mesh(new THREE.SphereGeometry(0.1, 14, 10), 0x111111, 0.04, 0, 0.22, eye);
   const shine = mesh(new THREE.SphereGeometry(0.03, 8, 6), 0xffffff, 0.08, 0.04, 0.3, eye); shine.userData.noInk = true;
   const lidPivot = new THREE.Group(); eye.add(lidPivot);
-  const lid = mesh(new THREE.SphereGeometry(0.268, 22, 16, 0, Math.PI * 2, 0, Math.PI / 2), green, 0, 0, 0, lidPivot); lid.rotation.x = -1.4; lid.scale.y = 0.05; lid.userData.noInk = true;
+  const lid = mesh(new THREE.SphereGeometry(0.268, 22, 16, 0, Math.PI * 2, 0, Math.PI / 2), green, 0, 0, 0, lidPivot); lid.rotation.x = -Math.PI / 2; lid.userData.noInk = true; // rotates from behind the eye (open) to over the front (shut)
   const cheeks = [-0.3, 0.36].map((x) => { const c = mesh(new THREE.SphereGeometry(0.09, 10, 8), 0xff8fa8, x, 1.05, 0.38, body); c.scale.set(1, 0.6, 0.4); c.userData.noInk = true; return c; });
   const crest = new THREE.Group(); body.add(crest); crest.position.set(-0.05, 1.45, -0.05);
   [[-0.1, 0x8fd13a, 0.4], [0.02, 0xffd23a, 0.1], [0.13, 0x5f9a1a, -0.3]].forEach(([x, c, rz]) => { const f = mesh(new THREE.ConeGeometry(0.06, 0.42, 8), c, x, 0.16, 0, crest); f.rotation.set(-0.3, 0, rz); });
@@ -528,7 +537,7 @@ function makeGlorp() {
     return { hip, len }; });
   outline(root, 0.025);
   root.scale.setScalar(1.15);
-  return { root, body, beak, jaw, eye, pupil, lid, lidPivot, crest, wings, legs, cheeks };
+  return { root, body, beak, jaw, eye, pupil, shine, lid, lidPivot, crest, wings, legs, cheeks };
 }
 const G = makeGlorp();
 scene.add(G.root);
@@ -884,7 +893,10 @@ function animateGlorp(dt, t) {
     const face = !gs.asleep && dMe < 6 ? { x: me.x, z: me.z } : gs.focus;
     if (face) gs.heading = angleLerp(gs.heading, Math.atan2(face.x - gs.x, face.z - gs.z), Math.min(1, dt * 3));
   }
-  const gy = Math.max(groundY(gs.x, gs.z), -0.3);
+  let gy = Math.max(terrainY(gs.x, gs.z), -0.3) + 0.02;
+  // Asleep in the nest: sit on the nest's floor, not under it.
+  const bed = NEST_BED();
+  if (Math.hypot(gs.x - bed.x, gs.z - bed.z) < 1.2) gy = Math.max(gy, groundY(PLACE.nest.x, PLACE.nest.z) - 0.2 + 0.3);
   G.root.position.set(gs.x, gy, gs.z); G.root.rotation.y = gs.heading;
   const B = G.body, F = FACE[data.state.face] ?? FACE.happy;
   B.position.set(0, 0, 0); B.rotation.set(0, 0, 0); G.beak.rotation.x = 0.12 + (F.droop ?? 0); G.jaw.rotation.x = 0; G.crest.rotation.x = F.crest ?? 0;
@@ -892,11 +904,14 @@ function animateGlorp(dt, t) {
   G.cheeks.forEach((c) => (c.visible = !!F.cheeks && !gs.asleep));
   G.lidPivot.rotation.z = F.tilt ?? 0;
   if (gs.asleep) {
-    B.rotation.z = 1.25; B.position.set(0.55, -0.42, 0); B.scale.y = 1 + Math.sin(t * 1.6) * 0.03;
-    G.lid.scale.y = 1; G.lidPivot.rotation.z = 0; G.legs.forEach((l, i) => (l.hip.rotation.z = 1.2 + i * 0.1));
+    // Snuggled down: legs tucked under, beak resting forward, eyes shut, slow breathing.
+    B.position.set(0, -0.42, 0); B.rotation.x = 0.22; B.rotation.z = 0.08; B.scale.y = 1 + Math.sin(t * 1.6) * 0.03;
+    G.beak.rotation.x = 0.35; G.lid.rotation.x = Math.PI / 2; G.shine.visible = false; G.lidPivot.rotation.z = 0;
+    G.legs.forEach((l) => (l.hip.visible = false));
   } else {
-    B.scale.y = 1;
-    G.lid.scale.y = (t % 4.3) < 0.12 ? 1 : F.lid;
+    B.scale.y = 1; G.legs.forEach((l) => (l.hip.visible = true));
+    const lid = (t % 4.3) < 0.12 ? 1 : F.lid;
+    G.lid.rotation.x = lerp(-Math.PI / 2, Math.PI / 2, lid); G.shine.visible = lid < 0.7;
     G.pupil.scale.setScalar(F.pupil);
     if (moving) {
       const w = t * (gs.speed > 1.5 ? 11 : 7);
@@ -1018,7 +1033,7 @@ function frame() {
   requestAnimationFrame(frame);
 }
 
-window.__glorp = { me, gs, camera };
+window.__glorp = { me, gs, camera, G };
 await refresh(true);
 frame();
 setInterval(() => refresh(false), 30000);
