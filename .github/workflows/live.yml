@@ -35,7 +35,7 @@ jobs:
       DAILY_BUDGET_USD: ${{ vars.DAILY_BUDGET_USD || '1.00' }}
       MAX_TICKS_PER_DAY: ${{ vars.MAX_TICKS_PER_DAY || '40' }}
       CREATURE_MODEL: ${{ vars.CREATURE_MODEL }}
-      CREATURE_EFFORT: ${{ vars.CREATURE_EFFORT || 'low' }}
+      CREATURE_EFFORT: ${{ vars.CREATURE_EFFORT || 'medium' }}
       SLEEP_FROM_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_FROM_HOUR || '23' }}
       SLEEP_UNTIL_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_UNTIL_HOUR || '7' }}
     steps:

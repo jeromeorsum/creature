@@ -1,10 +1,17 @@
 // One "tick" of Glorp's life: let time pass, think, act, write it down.
 import fs from "node:fs";
 import path from "node:path";
-import { think } from "./brain.js";
+import { think, isLastMoment } from "./brain.js";
 import {
   allActivities, clampHobbyEffects, HOBBY_LIMITS, ACTIVITIES, PLACE_POS, regrow, gather, worldEvents, startProject, buildOn,
+  invent, bonus, tend, plant,
 } from "./world.js";
+
+// Where Glorp lives: the nest, or a building it chose as its home.
+export function homeOf(world) {
+  const s = world.structures.find((x) => x.id === world.home);
+  return s ? { place: s.place, spot: { x: s.x, z: s.z }, name: s.name } : { place: "nest", spot: { ...PLACE_POS.nest }, name: "the nest" };
+}
 import {
   loadState, saveState, appendDiary, readDiary, decayNeeds, applyEffects, CREATIONS_DIR,
 } from "./state.js";
@@ -41,22 +48,33 @@ function slugify(s) {
 
 export async function tick({ now = new Date(), cfg = config(), client, rand = Math.random } = {}) {
   const state = loadState(now);
-  regrow(state.world, Math.max(0, (now - new Date(state.lastUpdate)) / 3_600_000));
+  regrow(state.world, Math.max(0, (now - new Date(state.lastUpdate)) / 3_600_000), now);
   if (state.spend.day !== localDay(now)) state.spend = { ...state.spend, day: localDay(now), usd: 0, ticks: 0 };
 
   if (isSleepTime(now, cfg.sleepFrom, cfg.sleepUntil)) {
     decayNeeds(state, now, { asleep: true });
-    state.place = "burrow";
-    state.spot = { ...PLACE_POS.burrow };
-    state.doing = "asleep in the sock bed";
+    const home = homeOf(state.world);
+    state.place = home.place;
+    state.spot = home.spot;
+    state.doing = `asleep in ${home.name.startsWith("the ") ? home.name : `"${home.name}"`}`;
     state.busyUntil = null;
     saveState(state);
     return { state, result: "asleep" };
   }
 
   decayNeeds(state, now);
+  let collapsed = false;
+  if (state.health <= 0) {
+    // Glorp collapses, sleeps it off, and wakes up weak. It doesn't die, but it remembers.
+    collapsed = true;
+    state.health = 25;
+    state.needs.energy = 10;
+    state.needs.joy = Math.min(state.needs.joy, 20);
+  }
 
-  if (state.busyUntil && new Date(state.busyUntil) > now) {
+  // Glorp always gets its last moment before bed to reflect on the day, even if busy.
+  const bedtimeReflection = isLastMoment(now, cfg) && !(state.days ?? []).some((x) => x.date === localDay(now));
+  if (state.busyUntil && new Date(state.busyUntil) > now && !bedtimeReflection) {
     saveState(state);
     return { state, result: "busy" };
   }
@@ -69,30 +87,81 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
 
   const world = state.world;
   const events = worldEvents(world, rand);
-  const diary = readDiary(8);
+  if (collapsed) events.unshift("You collapsed from hunger and thirst and lay on the ground for a long time. You feel very weak and scared.");
+  const diary = readDiary(12);
   const { decision: d, usd } = await think(state, diary, now, { ...cfg, client, events });
   const acts = allActivities(state);
   const act = acts[d.activity];
 
+  // What actually happened, told to Glorp next time so it can learn from it.
+  const outcome = [];
+  const result = {};
+
   // A new building project appears in the world straight away.
   let project = null;
-  if (d.new_project) project = startProject(world, d.new_project, now);
+  if (d.new_project) {
+    const p = startProject(world, d.new_project, now);
+    if (p.structure) project = p.structure;
+    else outcome.push(`You couldn't start "${d.new_project.name}": ${p.error}.`);
+  }
 
   // Move and act.
-  state.place = act.place ?? d.go_to ?? state.place;
-  let spot = null;
+  const home = homeOf(world);
+  state.place = act.place === "home" ? home.place : act.place ?? d.go_to ?? state.place;
+  let spot = act.place === "home" ? home.spot : null;
   let effects = { ...act.effects };
-  const result = {};
+  if (d.activity === "nap" && bonus(world, "better_sleep")) effects.energy += 15;
   if (act.gather) {
     const g = gather(world, act.gather, rand);
     result.gathered = { [act.gather]: g.got };
     spot = g.spot;
-    if (g.got === 0) effects = { ...effects, joy: -5, calm: -5 };
+    if (g.got === 0) {
+      effects = { ...effects, joy: -5, calm: -5 };
+      outcome.push(`You found no ${act.gather} at all: it had all been taken. It grows back slowly.`);
+    } else outcome.push(`You collected ${g.got} ${act.gather}${g.ate ? ` and ate ${g.ate} on the spot` : ""}.`);
+    if (g.ate) effects.fullness = (effects.fullness ?? 0) + g.ate * 12;
+    if (g.seeds) outcome.push(`You also saved ${g.seeds} ${act.gather === "wood" ? "tree" : "berry"} seeds.`);
+    if (g.first) outcome.push(`That was the first ${act.gather} you ever held.`);
   }
-  if (d.activity === "snack" || d.activity === "cook_experiment") {
-    const want = d.activity === "snack" ? 1 : 2;
-    if (world.pantry >= want) world.pantry -= want;
-    else effects = { ...effects, fullness: 5, joy: -3 };
+  if (act.tend) {
+    const n = tend(world, state.place, now);
+    result.tended = n;
+    outcome.push(n ? `You looked after ${n} plants around the ${state.place}. They'll grow for about a day.` : `There were no living plants near the ${state.place} to look after.`);
+  }
+  if (act.plant) {
+    const p = plant(world, state.place, now, rand);
+    const total = p.tree + p.berry;
+    result.planted = p;
+    outcome.push(total ? `You planted ${p.tree} tree seeds and ${p.berry} berry seeds near the ${state.place}. Seedlings need tending to grow.` : "You had no seeds to plant (collecting wood and berries sometimes gives seeds).");
+    if (!total) effects.joy = -3;
+  }
+  if (act.eat) {
+    const n = Math.min(world.food, 2);
+    world.food -= n;
+    effects.fullness = (effects.fullness ?? 0) + n * 14;
+    result.ate = n;
+    outcome.push(n ? `You ate ${n} berries from your food.` : "You went to eat, but you had no food kept. Your tummy rumbled.");
+    if (!n) effects.joy = -4;
+  }
+  if (act.experiment && d.discovery) {
+    state.knowledge = [...(state.knowledge ?? []), { text: String(d.discovery).slice(0, 300), made: now.toISOString() }].slice(-60);
+    result.discovery = d.discovery;
+  }
+  if (d.new_invention) {
+    if (!act.experiment && d.activity !== "build") {
+      outcome.push(`You didn't make "${d.new_invention.name}": inventing things takes 'experiment' (or 'build') time.`);
+    } else {
+      const r = invent(world, d.new_invention, now);
+      if (r.invention) {
+        result.invention = r.invention.name;
+        outcome.push(`You made "${r.invention.name}". ${r.invention.helps === "nothing_yet" ? "It doesn't actually help with anything yet." : "It works!"}`);
+      } else outcome.push(`Your attempt to make "${d.new_invention.name}" failed: ${r.error}.`);
+    }
+  }
+  if (d.make_home != null) {
+    const s = world.structures.find((x) => x.id === d.make_home);
+    if (s?.finished) { world.home = s.id; outcome.push(`"${s.name}" is now your home. You'll sleep there.`); }
+    else if (s) outcome.push(`"${s.name}" isn't finished, so it can't be your home yet.`);
   }
   if (act.build) {
     const open = world.structures.filter((s) => !s.finished);
@@ -104,14 +173,19 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
       spot = { x: target.x, z: target.z };
       if (b.placed === 0) effects = { ...effects, joy: -4 };
       if (b.finished && b.placed) effects = { ...effects, joy: (effects.joy ?? 0) + 10 };
-    }
+      outcome.push(b.placed
+        ? `You placed ${b.placed} blocks on "${target.name}"${b.finished ? " and FINISHED it" : ""}.${b.stuck ? ` Then you ran out: you need ${b.stuck.short} more ${b.stuck.material} for the next block.` : ""}`
+        : `You couldn't place anything on "${target.name}": you need ${b.stuck?.short} more ${b.stuck?.material}.`);
+    } else outcome.push("You went to build, but you had no building project. Design one first (new_project).");
   }
-  state.spot = spot ?? { ...(PLACE_POS[state.place] ?? PLACE_POS.burrow) };
+  state.spot = spot ?? { ...(PLACE_POS[state.place] ?? PLACE_POS.nest) };
+  state.lastOutcome = outcome;
   applyEffects(state, effects);
   state.busyUntil = new Date(now.getTime() + act.minutes * 60_000).toISOString();
   state.doing = `${d.activity.replace(/_/g, " ")} at the ${state.place}`;
   state.mood = d.mood;
   state.thought = d.thought;
+  state.face = d.face;
 
   if (d.concern) {
     state.concerns.push({ text: d.concern, made: now.toISOString(), resolved: null });
@@ -120,6 +194,24 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   const c = state.concerns[(d.concern_solved ?? 0) - 1];
   if (c && !c.resolved) c.resolved = now.toISOString();
   if (d.plan) state.plan = d.plan;
+  if (d.lesson) {
+    state.lessons = [...(state.lessons ?? []), d.lesson].slice(-40);
+  }
+
+  // The shape of Glorp's day: a plan made in the morning, ticked off, and a reflection at bedtime.
+  const day = localDay(now);
+  if (d.day_plan?.length && (state.today?.date !== day || d.day_plan.join() !== state.today.plan.join())) {
+    const keep = state.today?.date === day ? state.today.done : [];
+    state.today = { date: day, plan: d.day_plan.slice(0, 10).map((x) => String(x).slice(0, 140)), done: keep };
+  }
+  if (state.today?.date === day) {
+    for (const n of d.plan_done ?? []) if (n >= 1 && n <= state.today.plan.length && !state.today.done.includes(n)) state.today.done.push(n);
+  }
+  if (d.day_summary) {
+    state.days = (state.days ?? []).filter((x) => x.date !== day);
+    state.days.push({ date: day, summary: d.day_summary, plan: state.today?.date === day ? state.today : null });
+    if (state.days.length > 60) state.days.shift();
+  }
 
   // Keep anything it made.
   let creationFile = null;
@@ -168,6 +260,7 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     thought: d.thought,
     diary: d.diary,
     mood: d.mood,
+    face: d.face,
     needs: { ...state.needs },
     creation: creationFile ? path.basename(creationFile) : null,
     hobby: hobby?.id ?? null,
@@ -175,8 +268,17 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     spot: state.spot,
     events,
     concern: d.concern,
+    day_plan: d.day_plan,
+    day_summary: d.day_summary,
+    lesson: d.lesson,
+    discovery: result.discovery ?? null,
+    invention: result.invention ?? null,
+    outcome,
     project: project ? project.name : null,
-    ...result,
+    gathered: result.gathered,
+    tended: result.tended,
+    planted: result.planted,
+    built: result.built,
   });
   saveState(state);
   return { state, result: "acted", decision: d, usd, hobby, creationFile, events, project, ...result };

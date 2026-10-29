@@ -25,9 +25,9 @@ function fakeClient(decision, usage = { input_tokens: 2000, output_tokens: 500 }
 const base = {
   thought: "Hmm.", activity: "make_something", go_to: null, diary: "I wrote a poem.", mood: "proud",
   creation: { kind: "poem", title: "Ode to a Bottle Cap", content: "Shiny circle,\nyou are mine." },
-  new_hobby: { id: "Pebble Museum", place: "Burrow", about: "curate pebbles", minutes: 500, effects: { fullness: 0, energy: 10, curiosity: 90, joy: 10, calm: 5 } },
+  new_hobby: { id: "Pebble Museum", place: "Nest", about: "curate pebbles", minutes: 500, effects: { fullness: 0, water: 0, energy: 10, curiosity: 90, joy: 10, calm: 5 } },
   new_wish: "ride a train", wish_done: null, remember: "I was born on a Thursday.",
-  concern: "the pigeon is watching me", concern_solved: null, plan: "make things, then build a tower", build_target: null, new_project: null,
+  concern: "the pigeon is watching me", concern_solved: null, plan: "make things, then build a tower", build_target: null, new_project: null, day_plan: null, plan_done: null, day_summary: null, lesson: null, face: "happy", discovery: null, new_invention: null, make_home: null,
 };
 
 test("sleep window wraps past midnight", () => {
@@ -47,12 +47,12 @@ test("a tick sends a well-formed request and applies the decision", async () => 
   assert.match(req.messages[0].content, /What do you do next\?/);
 
   assert.equal(r.result, "acted");
-  assert.equal(r.state.place, "workshop");
+  assert.equal(r.state.place, "meadow");
   assert.ok(fs.existsSync(r.creationFile));
   // Invented hobby is cleaned up and limited.
   const h = r.state.hobbies[0];
   assert.equal(h.id, "pebble_museum");
-  assert.equal(h.place, "burrow");
+  assert.equal(h.place, "nest");
   assert.equal(h.minutes, 120);
   assert.equal(h.effects.curiosity, 25);
   assert.ok(h.effects.energy <= -3);
@@ -61,7 +61,7 @@ test("a tick sends a well-formed request and applies the decision", async () => 
 });
 
 test("busy, asleep and out-of-budget ticks make no AI call", async () => {
-  const client = fakeClient({ ...base, new_hobby: null, creation: null, activity: "snack" });
+  const client = fakeClient({ ...base, new_hobby: null, creation: null, activity: "eat_food" });
   const busy = await tick({ now: new Date("2026-10-29T10:10:00"), cfg, client });
   assert.equal(busy.result, "busy");
   const asleep = await tick({ now: new Date("2026-10-29T23:30:00"), cfg, client });
@@ -76,7 +76,7 @@ test("invented hobbies show up as choices next time", async () => {
   const r = await tick({ now: new Date("2026-10-30T12:00:00"), cfg, client });
   assert.match(client.calls[0].messages[0].content, /pebble_museum \(your own hobby\)/);
   assert.equal(r.decision.activity, "pebble_museum");
-  assert.equal(r.state.place, "burrow");
+  assert.equal(r.state.place, "nest");
 });
 
 test("unknown activity names fall back to wandering", () => {
@@ -91,10 +91,10 @@ test("subscription brain calls the Claude Code CLI with a JSON schema", async ()
   let seen;
   const runClaude = async (args) => {
     seen = args;
-    return { stdout: JSON.stringify({ is_error: false, structured_output: { ...base, activity: "snack", creation: null, new_hobby: null } }) };
+    return { stdout: JSON.stringify({ is_error: false, structured_output: { ...base, activity: "eat_food", creation: null, new_hobby: null } }) };
   };
   const { decision, usd } = await think(newState(), [], new Date(), { brain: "claude-code", runClaude });
-  assert.equal(decision.activity, "snack");
+  assert.equal(decision.activity, "eat_food");
   assert.equal(usd, 0);
   assert.ok(seen.includes("--json-schema"));
   assert.equal(seen[seen.indexOf("--tools") + 1], "");
