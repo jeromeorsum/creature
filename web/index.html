@@ -186,9 +186,12 @@ function rng(seed) { let s = seed >>> 0; return () => { s = (s + 0x6d2b79f5) >>>
 let PLACE = {
   nest: { x: -14, z: 6 }, meadow: { x: 6, z: 10 }, thicket: { x: 15, z: -3 }, pond: { x: -4, z: 21 }, forest: { x: -30, z: -12 },
   rocks: { x: 27, z: -21 }, beach: { x: -6, z: -37 }, hill: { x: 30, z: 18 }, tidepools: { x: 18, z: 34 },
+  spring: { x: -24, z: 22 }, glade: { x: -12, z: -20 }, grotto: { x: 8, z: -22 }, cliffs: { x: -35, z: 4 },
 };
+// The places a Glorp from before hidden places existed already knew.
+const FIRST_ISLAND = ["nest", "meadow", "thicket", "pond", "forest", "rocks", "beach", "hill", "tidepools"];
 // Where Glorp stands when doing things at a place.
-const STAND = { nest: [3.2, 1.2], pond: [5.8, 0], hill: [2, 0], tidepools: [0, -3] };
+const STAND = { nest: [3.2, 1.2], pond: [5.8, 0], hill: [2, 0], tidepools: [0, -3], spring: [2.4, 0.6], glade: [0, 2.8], grotto: [0, 3.2], cliffs: [2.5, 0] };
 const NEST_BED = () => ({ x: PLACE.nest.x + 3.2, z: PLACE.nest.z + 1.2 });
 
 // ---------- the island's shape ----------
@@ -198,6 +201,8 @@ function groundY(x, z) {
   h += 0.35 * Math.sin(x * 0.21) * Math.cos(z * 0.17) + 0.18 * Math.sin(x * 0.5 + z * 0.33);
   h += 7 * Math.exp(-((x - 30) ** 2 + (z - 18) ** 2) / 110);
   h += 1.6 * Math.exp(-((x - 27) ** 2 + (z + 21) ** 2) / 60);
+  h += 5.5 * Math.exp(-((x + 38) ** 2 + (z - 4) ** 2) / 55); // the headland with the sea cliffs
+  h += 1.2 * Math.exp(-((x - 8) ** 2 + (z + 25) ** 2) / 30); // the rise the grotto is dug into
   h -= 1.9 * Math.exp(-((x + 4) ** 2 + (z - 21) ** 2) / 22);
   h = lerp(h, 0.35, Math.exp(-((x + 6) ** 2 + (z + 37) ** 2) / 260));
   h = lerp(h, 0.25, Math.exp(-((x - 18) ** 2 + (z - 34) ** 2) / 50));
@@ -328,6 +333,9 @@ sky.renderOrder = -1; scene.add(sky);
 const sunDisc = new THREE.Mesh(new THREE.CircleGeometry(14, 32), new THREE.MeshBasicMaterial({ color: 0xfff1b0, fog: false }));
 const moonDisc = new THREE.Mesh(new THREE.CircleGeometry(9, 32), new THREE.MeshBasicMaterial({ color: 0xf4f1de, fog: false }));
 scene.add(sunDisc, moonDisc);
+const sunHalo = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture(), color: 0xffe2a0, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false, fog: false }));
+const moonHalo = new THREE.Sprite(new THREE.SpriteMaterial({ map: dotTexture(), color: 0xbfd0ff, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending, depthWrite: false, fog: false }));
+sunHalo.scale.setScalar(110); moonHalo.scale.setScalar(70); scene.add(sunHalo, moonHalo);
 const starPos = []; { const r = rng(99); for (let i = 0; i < 700; i++) { const a = r() * 6.283, b = Math.acos(r()); starPos.push(Math.cos(a) * Math.sin(b) * 500, Math.cos(b) * 500 + 10, Math.sin(a) * Math.sin(b) * 500); } }
 const stars = new THREE.Points(new THREE.BufferGeometry().setAttribute("position", new THREE.Float32BufferAttribute(starPos, 3)),
   new THREE.PointsMaterial({ color: 0xffffff, size: 1.6, sizeAttenuation: false, transparent: true, opacity: 0, fog: false }));
@@ -340,7 +348,8 @@ function buildTerrain() {
   geo.rotateX(-Math.PI / 2);
   const pos = geo.attributes.position, colors = [];
   const c = new THREE.Color(), sand = new THREE.Color(0xf1dd9c), wetSand = new THREE.Color(0xd8bf7c), grass = new THREE.Color(0x7fcc4c), grass2 = new THREE.Color(0x5fb33c),
-    meadow = new THREE.Color(0x9ad85a), soil = new THREE.Color(0x5e7a34), rock = new THREE.Color(0xa7a49a), clay = new THREE.Color(0xb9653c), hillTop = new THREE.Color(0xb1e073);
+    meadow = new THREE.Color(0x9ad85a), soil = new THREE.Color(0x5e7a34), rock = new THREE.Color(0xa7a49a), clay = new THREE.Color(0xb9653c), hillTop = new THREE.Color(0xb1e073),
+    cliff = new THREE.Color(0x9c9285), moss = new THREE.Color(0x3f8f3a);
   const g = (x, z, p, s) => Math.exp(-((x - p.x) ** 2 + (z - p.z) ** 2) / s);
   for (let i = 0; i < pos.count; i++) {
     const x = pos.getX(i), z = pos.getZ(i), y = groundY(x, z);
@@ -352,6 +361,8 @@ function buildTerrain() {
     c.lerp(rock, smooth(0.3, 0.7, g(x, z, PLACE.rocks, 90)));
     c.lerp(clay, smooth(0.35, 0.8, g(x, z, { x: PLACE.pond.x - 4, z: PLACE.pond.z - 4 }, 14)));
     c.lerp(rock, smooth(0.4, 0.9, g(x, z, PLACE.tidepools, 30)) * 0.8);
+    c.lerp(cliff, smooth(0.25, 0.75, g(x, z, { x: -39, z: 4 }, 70)) * smooth(0.6, 2.0, y) * (1 - smooth(3.6, 4.6, y))); // bare rock on the headland's sides, grass on top
+    c.lerp(moss, g(x, z, PLACE.spring, 40) * 0.7 + g(x, z, PLACE.glade, 60) * 0.6 + g(x, z, PLACE.grotto, 25) * 0.5);
     c.lerp(sand, smooth(1.0, 0.55, y));
     if (y < 0.1) c.lerp(wetSand, smooth(0.1, -0.6, y));
     colors.push(c.r, c.g, c.b);
@@ -483,7 +494,112 @@ function buildNature() {
     const wing = new THREE.BoxGeometry(1.1, 0.05, 0.3);
     const l = mesh(wing, 0xffffff, -0.5, 0, 0, g), rr = mesh(wing, 0xffffff, 0.5, 0, 0, g); mesh(new THREE.SphereGeometry(0.15, 8, 6), 0xffffff, 0, 0, 0.1, g);
     gulls.push({ obj: g, l, r: rr, phase: i * 2, radius: 30 + i * 12, h: 22 + i * 4 }); }
-  for (const [k, p] of Object.entries(P)) addLabel(esc(nice(k)), p.x, groundY(p.x, p.z) + (k === "nest" ? 13 : 3.2), p.z, "place", 70);
+  for (const [k, p] of Object.entries(P)) placeLabels[k] = addLabel(esc(nice(k)), p.x, groundY(p.x, p.z) + (k === "nest" ? 13 : k === "grotto" ? 5.5 : 3.2), p.z, "place", 70);
+  buildHiddenPlaces();
+  buildScatter();
+}
+const placeLabels = {};
+
+// ---------- places Glorp has to find by exploring ----------
+function fern(x, z, k = 1, parent = scene) {
+  const g = onGround(new THREE.Group(), x, z); parent.add(g); g.scale.setScalar(k); g.rotation.y = x * 7.3 + z;
+  const leaf = new THREE.ConeGeometry(0.16, 1.3, 4).rotateX(Math.PI / 2).translate(0, 0, 0.62);
+  for (let i = 0; i < 7; i++) { const l = mesh(leaf, i % 2 ? 0x3f9a34 : 0x4ea52f, 0, 0.12, 0, g); l.scale.y = 0.3; l.rotation.set(-0.55 - (i % 3) * 0.12, i * 0.9, 0, "YXZ"); l.castShadow = false; }
+  swayers.push({ obj: g, amp: 0.05 });
+  return g;
+}
+function mushroom(x, z, k = 1, cap = 0xd8433a, parent = scene, glow = false) {
+  const g = onGround(new THREE.Group(), x, z); parent.add(g); g.scale.setScalar(k);
+  mesh(new THREE.CylinderGeometry(0.06, 0.08, 0.3, 8), 0xf3ead2, 0, 0.15, 0, g);
+  const top = mesh(new THREE.SphereGeometry(0.2, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), glow ? new THREE.MeshBasicMaterial({ color: cap }) : mat(cap), 0, 0.28, 0, g);
+  if (!glow) for (let i = 0; i < 4; i++) { const a = i * 1.6 + x; mesh(new THREE.SphereGeometry(0.035, 6, 4), 0xffffff, Math.cos(a) * 0.12, 0.4, Math.sin(a) * 0.12, g).userData.noInk = true; }
+  else glowCaps.push(top);
+  return g;
+}
+const glowCaps = []; let grottoLight, springBubbles = [];
+function mossyStone(x, z, size, r) {
+  const m = mesh(new THREE.DodecahedronGeometry(size, 0), [0x8c9488, 0x7d8a77, 0x969d90][Math.floor(r() * 3)]); onGround(m, x, z, size * 0.25); m.rotation.set(r(), r(), r());
+  const cap = mesh(new THREE.SphereGeometry(size * 0.75, 10, 6, 0, Math.PI * 2, 0, Math.PI / 2.5), 0x4f9a3a, 0, size * 0.35, 0, m); cap.rotation.set(-m.rotation.x, 0, -m.rotation.z); cap.userData.noInk = true;
+  outline(m, 0.04); circleCol(staticCols, x, z, size * 0.85, m.position.y + size * 0.8); return m;
+}
+function buildHiddenPlaces() {
+  const P = PLACE, r = rng(57);
+  // The spring: clear water bubbling up through a ring of mossy stones.
+  { const y = terrainY(P.spring.x, P.spring.z);
+    const pool = mesh(new THREE.CircleGeometry(1.6, 28), new THREE.MeshToonMaterial({ color: 0x8be3f0, gradientMap: toonRamp, transparent: true, opacity: 0.9 }), P.spring.x, y + 0.1, P.spring.z); pool.rotation.x = -Math.PI / 2; pool.userData.noInk = true;
+    circleCol(staticCols, P.spring.x, P.spring.z, 1.5, y + 0.5, { stand: false, only: ["crab", "pigeon"] });
+    for (let i = 0; i < 9; i++) { const a = (i / 9) * 6.28; mossyStone(P.spring.x + Math.cos(a) * 2.1, P.spring.z + Math.sin(a) * 2.1, 0.35 + r() * 0.3, r); }
+    for (let i = 0; i < 10; i++) { const a = r() * 6.28, d = 3 + r() * 3.5; fern(P.spring.x + Math.cos(a) * d, P.spring.z + Math.sin(a) * d, 0.8 + r() * 0.6); }
+    const bub = new THREE.SphereGeometry(0.06, 8, 6), bm = new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.8 });
+    for (let i = 0; i < 12; i++) { const m = new THREE.Mesh(bub, bm); scene.add(m); springBubbles.push({ m, x: P.spring.x + (r() - 0.5) * 1.6, z: P.spring.z + (r() - 0.5) * 1.6, y, p: r() }); } }
+  // The glade: a giant hollow log lying in the ferns, with mushrooms on it.
+  { const g = onGround(new THREE.Group(), P.glade.x, P.glade.z, 0.9); scene.add(g); g.rotation.y = 0.5;
+    const bark = mesh(new THREE.CylinderGeometry(1.1, 1.25, 9, 18, 1, true), new THREE.MeshToonMaterial({ color: 0x7a5232, gradientMap: toonRamp, side: THREE.DoubleSide }), 0, 0, 0, g); bark.rotation.z = Math.PI / 2;
+    const inside = mesh(new THREE.CylinderGeometry(0.95, 1.1, 9.05, 18, 1, true), new THREE.MeshBasicMaterial({ color: 0x2d1c10, side: THREE.BackSide }), 0, 0, 0, g); inside.rotation.z = Math.PI / 2; inside.userData.noInk = true;
+    for (const x of [-4.5, 4.5]) { const ring = mesh(new THREE.TorusGeometry(1.03, 0.14, 8, 22), 0xc89a62, x, 0, 0, g); ring.rotation.y = Math.PI / 2; }
+    const mossTop = mesh(new THREE.BoxGeometry(6, 0.12, 1.2), 0x4f9a3a, 0.5, 1.12, 0, g); mossTop.userData.noInk = true;
+    for (let i = 0; i < 7; i++) mushroom(0, 0, 0.7 + r() * 0.6, [0xd8433a, 0xe0a03a, 0xd8433a][i % 3], g).position.set(-3 + i * 1.0, 1.05, (r() - 0.5) * 0.8);
+    outline(g, 0.05);
+    const c = Math.cos(g.rotation.y), sn = Math.sin(g.rotation.y);
+    dynlessBox(P.glade.x, P.glade.z, 4.6, 1.2, c, sn, g.position.y + 1.2);
+    for (let i = 0; i < 18; i++) { const a = r() * 6.28, d = 3 + r() * 6; fern(P.glade.x + Math.cos(a) * d, P.glade.z + Math.sin(a) * d, 0.8 + r() * 0.7); }
+    for (let i = 0; i < 9; i++) { const a = r() * 6.28, d = 2.5 + r() * 5; mushroom(P.glade.x + Math.cos(a) * d, P.glade.z + Math.sin(a) * d, 0.6 + r() * 0.8); } }
+  // The grotto: a mossy rock arch, dry inside, with mushrooms that glow at night.
+  { const x0 = P.grotto.x, z0 = P.grotto.z - 1.5, y0 = terrainY(x0, z0);
+    const stone = [0x8f8a80, 0x9b978c, 0x7f7b72];
+    for (const side of [-1, 1]) for (let k = 0; k < 3; k++) { const m = mesh(new THREE.DodecahedronGeometry(1.25 - k * 0.15, 0), stone[k], x0 + side * 2.2, y0 + 0.7 + k * 1.35, z0); m.rotation.set(k, side, k * 0.5); outline(m, 0.05); }
+    for (const side of [-1, 1]) circleCol(staticCols, x0 + side * 2.2, z0, 1.2, 99);
+    const roof = mesh(new THREE.DodecahedronGeometry(2.6, 0), 0x8a867c, x0, y0 + 4.6, z0 - 0.6); roof.scale.set(1.45, 0.55, 1.2); outline(roof, 0.06);
+    const back = mesh(new THREE.DodecahedronGeometry(2.4, 0), 0x7f7b72, x0, y0 + 1.6, z0 - 2.6); back.scale.set(1.5, 1.2, 0.8); outline(back, 0.06);
+    circleCol(staticCols, x0, z0 - 2.8, 2.4, 99);
+    const mossy = mesh(new THREE.SphereGeometry(2.7, 14, 8, 0, Math.PI * 2, 0, Math.PI / 2.6), 0x4f9a3a, x0, y0 + 5.0, z0 - 0.6); mossy.scale.set(1.4, 0.45, 1.15); mossy.userData.noInk = true;
+    for (let i = 0; i < 14; i++) { const a = r() * 3.14 + 3.14, d = 0.6 + r() * 1.6; mushroom(x0 + Math.cos(a) * d * 1.3, z0 - 0.8 + Math.sin(a) * d * 0.6, 0.6 + r() * 0.7, [0x7af5ff, 0x9dffb0, 0xc9a7ff][i % 3], scene, true); }
+    for (let i = 0; i < 5; i++) fern(x0 + (r() - 0.5) * 9, z0 + 3 + r() * 3, 0.9 + r() * 0.5);
+    grottoLight = new THREE.PointLight(0x7af5ff, 0, 9, 1.6); grottoLight.position.set(x0, y0 + 1.2, z0 - 0.6); scene.add(grottoLight); }
+  // The sea cliffs: a high windy headland where seabirds nest on the ledges.
+  { const r2 = rng(61);
+    // Tall rock faces all round the seaward side of the headland, standing where the ground drops to the sea.
+    for (let i = 0; i < 16; i++) { const a = Math.PI * 0.5 + i * (Math.PI / 15) + (r2() - 0.5) * 0.1;
+      let d = 3; while (d < 22 && groundY(-38 + Math.cos(a) * d, 4 + Math.sin(a) * d) > 1.6) d += 0.5;
+      const x = -38 + Math.cos(a) * d, z = 4 + Math.sin(a) * d, s = 1.4 + r2() * 1.1;
+      const m = mesh(new THREE.DodecahedronGeometry(s, 0), [0x9c9285, 0x8a8174, 0xaba295][i % 3]); onGround(m, x, z, -0.6); m.scale.set(1, 2.1 + r2() * 0.8, 1); m.rotation.y = r2() * 6; outline(m, 0.06);
+      circleCol(staticCols, x, z, s * 0.8, m.position.y + s * m.scale.y * 0.8); }
+    for (let i = 0; i < 4; i++) { const x = -41 + i * 1.8, z = -2 + (i % 2) * 9, y = terrainY(x, z);
+      const nest = mesh(new THREE.TorusGeometry(0.3, 0.12, 8, 14), 0xc9a25a, x, y + 0.1, z); nest.rotation.x = Math.PI / 2;
+      for (let k = 0; k < 2; k++) mesh(new THREE.SphereGeometry(0.1, 8, 6), 0xf3efe2, x + (k - 0.5) * 0.15, y + 0.15, z).scale.y = 1.3;
+      if (i % 2 === 0) { const bird = new THREE.Group(); scene.add(bird); bird.position.set(x + 0.6, y, z + 0.3);
+        mesh(new THREE.SphereGeometry(0.22, 10, 8), 0xffffff, 0, 0.3, 0, bird).scale.set(1, 1.1, 1.3); mesh(new THREE.SphereGeometry(0.13, 10, 8), 0xffffff, 0, 0.55, 0.2, bird);
+        mesh(new THREE.ConeGeometry(0.05, 0.18, 6), 0xf0b03a, 0, 0.53, 0.38, bird).rotation.x = Math.PI / 2; mesh(new THREE.BoxGeometry(0.3, 0.06, 0.4), 0x55606a, 0, 0.36, -0.1, bird);
+        outline(bird, 0.02); sitters.push({ obj: bird, p: i }); } } }
+}
+const sitters = [];
+function dynlessBox(x, z, hw, hd, cos, sin, top) { staticCols.push({ x, z, hw, hd, cos, sin, bottom: NO_BOTTOM, top }); }
+
+// ---------- little things everywhere: bushes, pebbles, mushrooms, driftwood ----------
+function buildScatter() {
+  const r = rng(91), P = PLACE;
+  const busy = (x, z, d = 7) => Object.values(P).some((p) => Math.hypot(x - p.x, z - p.z) < d);
+  for (let i = 0, n = 0; i < 400 && n < 38; i++) { const x = r() * 84 - 42, z = r() * 84 - 42, y = groundY(x, z);
+    if (y < 1.1 || busy(x, z, 9) || Math.hypot(x - P.forest.x, z - P.forest.z) < 15) continue;
+    const g = onGround(new THREE.Group(), x, z); scene.add(g); const k = 0.6 + r() * 0.7;
+    for (let j = 0; j < 3; j++) mesh(new THREE.IcosahedronGeometry(0.5 * k, 1), GREENS[(j + n) % 4], (j - 1) * 0.42 * k, 0.4 * k, (r() - 0.5) * 0.4, g);
+    if (r() < 0.35) for (let j = 0; j < 4; j++) mesh(new THREE.SphereGeometry(0.07, 6, 4), [0xffffff, 0xffd95a, 0xff8fb1][n % 3], (r() - 0.5) * 1.1 * k, (0.5 + r() * 0.4) * k, (r() - 0.5) * 0.7 * k, g).userData.noInk = true;
+    outline(g, 0.03); circleCol(staticCols, x, z, 0.6 * k, g.position.y + 0.8 * k, { stand: false }); n++; }
+  const peb = new THREE.DodecahedronGeometry(0.12, 0), N = 260, pebbles = new THREE.InstancedMesh(peb, mat(0xffffff), N);
+  const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), sc = new THREE.Vector3(), p = new THREE.Vector3(), c = new THREE.Color();
+  let n = 0; for (let i = 0; i < N * 3 && n < N; i++) { const x = r() * 90 - 45, z = r() * 90 - 45, y = groundY(x, z);
+    if (y < -0.2 || busy(x, z, 3)) continue;
+    e.set(r() * 3, r() * 3, r() * 3); q.setFromEuler(e); const k = 0.6 + r() * 1.8; sc.set(k, k * 0.6, k);
+    pebbles.setMatrixAt(n, m4.compose(p.set(x, terrainY(x, z) + 0.03, z), q, sc)); pebbles.setColorAt(n, c.setHex([0xb6b3a8, 0x9b978c, 0xd9d2bf, 0x8a867c][n % 4])); n++; }
+  pebbles.count = n; pebbles.receiveShadow = true; scene.add(pebbles);
+  for (let i = 0; i < 22; i++) { const a = r() * 6.28, d = 3 + r() * 11; mushroom(P.forest.x + Math.cos(a) * d, P.forest.z + Math.sin(a) * d, 0.5 + r() * 0.7, r() < 0.7 ? 0xd8433a : 0xe0a03a); }
+  for (let i = 0; i < 14; i++) { const a = r() * 6.28, d = 4 + r() * 10; fern(P.forest.x + Math.cos(a) * d, P.forest.z + Math.sin(a) * d, 0.7 + r() * 0.6); }
+  for (let i = 0; i < 6; i++) { const a = Math.PI * (1.05 + i * 0.16) + r() * 0.1, x = Math.cos(a) * 38.5, z = Math.sin(a) * 38.5;
+    if (groundY(x, z) < 0.15 || busy(x, z, 4)) continue;
+    const log = mesh(new THREE.CylinderGeometry(0.16, 0.2, 2 + r() * 1.5, 8), 0xc8b08a); onGround(log, x, z, 0.12); log.rotation.set(Math.PI / 2, 0, r() * 3); outline(log, 0.03); }
+  // Far-off islands on the horizon.
+  const isl = mat(0x6f9fb8);
+  for (let i = 0; i < 5; i++) { const a = i * 1.37 + 0.4, d = 210 + (i % 2) * 40; const m = mesh(new THREE.ConeGeometry(18 + i * 4, 10 + (i % 3) * 7, 7), isl, Math.cos(a) * d, 0, Math.sin(a) * d); m.scale.z = 0.6; m.castShadow = false; }
 }
 
 // ---------- grass and wildflowers (instanced, sway in the wind) ----------
@@ -500,11 +616,11 @@ function swayMaterial(color) {
 function buildPlants() {
   const r = rng(77);
   const blade = new THREE.ConeGeometry(0.07, 0.55, 3); blade.translate(0, 0.27, 0);
-  const N = 4200, grassMesh = new THREE.InstancedMesh(blade, swayMaterial(0xffffff), N);
+  const N = 5200, grassMesh = new THREE.InstancedMesh(blade, swayMaterial(0xffffff), N);
   const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), s = new THREE.Vector3(), p = new THREE.Vector3(), c = new THREE.Color();
   let n = 0;
   const near = (x, z, P, d) => Math.hypot(x - P.x, z - P.z) < d;
-  const avoid = (x, z) => near(x, z, PLACE.pond, 6.5) || near(x, z, PLACE.rocks, 9) || near(x, z, PLACE.nest, 2.5) || near(x, z, PLACE.tidepools, 7);
+  const avoid = (x, z) => near(x, z, PLACE.pond, 6.5) || near(x, z, PLACE.rocks, 9) || near(x, z, PLACE.nest, 2.5) || near(x, z, PLACE.tidepools, 7) || near(x, z, PLACE.spring, 2.8) || near(x, z, { x: PLACE.grotto.x, z: PLACE.grotto.z - 2 }, 4);
   for (let i = 0; i < N * 3 && n < N; i++) {
     const x = r() * 90 - 45, z = r() * 90 - 45, y = groundY(x, z);
     if (y < 0.95 || avoid(x, z)) continue;
@@ -759,7 +875,7 @@ function actionFor(doing) {
   if (/^(experiment|make)/.test(doing)) return "tinker";
   if (/^(watch|spy)/.test(doing)) return "watch";
   if (/^splash/.test(doing)) return "splash";
-  if (/^explore/.test(doing)) return "explore";
+  if (/^explor/.test(doing)) return "explore";
   return "idle";
 }
 function updateGlorpTarget(first) {
@@ -784,6 +900,8 @@ async function refresh(first = false) {
   data = fresh;
   const st = data.state, w = st.world;
   st.concerns ??= []; st.knowledge ??= []; st.lessons ??= []; st.days ??= []; w.inventions ??= []; w.seeds ??= { tree: 0, berry: 0 }; w.discovered ??= [];
+  const known = w.known ?? FIRST_ISLAND;
+  for (const [k, l] of Object.entries(placeLabels)) l.hidden = !known.includes(k);
   const sig = JSON.stringify([w.nodes.map((n) => [Math.floor(n.left), n.dead ? 1 : 0, tendedNow(n) ? 1 : 0]), w.structures.map((s) => [s.name, s.blocks.map((b) => (b.placed ? 1 : 0)).join("")]), w.inventions.length, w.home]);
   if (sig !== worldSig) { worldSig = sig; rebuildWorld(); }
   const key = st.lastUpdate + st.doing + JSON.stringify(st.spot);
@@ -822,7 +940,7 @@ function drawJournal() {
   document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === tab));
   let html = "";
   if (tab === "diary") {
-    html = diary.map((e) => `<div class="entry"><div class="meta">${when(e.time)} · ${esc(nice(e.activity))} at the ${esc(e.place)}${e.auto ? " · on instinct" : e.why ? ` · stopped to think: ${esc(e.why)}` : ""}</div>
+    html = diary.map((e) => `<div class="entry"><div class="meta">${when(e.time)} · ${esc(e.free ?? nice(e.activity))} at the ${esc(e.place)}${e.found ? ` · found the ${esc(e.found)}!` : ""}${e.auto ? " · on instinct" : e.why ? ` · stopped to think: ${esc(e.why)}` : ""}</div>
         ${(e.events ?? []).map((v) => `<div class="event">${esc(v)}</div>`).join("")}
         <div>${esc(e.diary)}</div>
         ${e.thought ? `<div class="thought">“${esc(e.thought)}”</div>` : ""}
@@ -1122,6 +1240,8 @@ function updateSky(t) {
   const ang = ((h - 6) / 12) * Math.PI; sunDir.set(Math.cos(ang), Math.sin(ang), -0.35).normalize();
   sunDisc.position.copy(camera.position).addScaledVector(sunDir, 480); sunDisc.lookAt(camera.position); sunDisc.visible = sunDir.y > -0.05 && grey < 0.6;
   moonDisc.position.copy(camera.position).addScaledVector(sunDir, -480); moonDisc.lookAt(camera.position); moonDisc.visible = sunDir.y < 0.05;
+  sunHalo.position.copy(camera.position).addScaledVector(sunDir, 470); sunHalo.visible = sunDisc.visible; sunHalo.material.color.setHex(dusk > 0.3 ? 0xffb070 : 0xffe2a0);
+  moonHalo.position.copy(camera.position).addScaledVector(sunDir, -470); moonHalo.visible = moonDisc.visible && grey < 0.6;
   const lightDir = sunDir.y > 0 ? sunDir : sunDir.clone().negate();
   sun.position.set(camera.position.x + lightDir.x * 90, Math.max(lightDir.y, 0.3) * 100, camera.position.z + lightDir.z * 90);
   sun.target.position.set(camera.position.x, 0, camera.position.z);
@@ -1174,6 +1294,10 @@ function animateLife(t, dt) {
   gulls.forEach((g) => { const k = t * 0.12 + g.phase; g.obj.position.set(Math.cos(k) * g.radius, g.h + Math.sin(k * 3) * 1.5, Math.sin(k) * g.radius); g.obj.rotation.y = -k; g.obj.visible = nightAmt < 0.7;
     const f = Math.sin(t * 3 + g.phase) * 0.35; g.l.rotation.z = f; g.r.rotation.z = -f; });
   if (pondWater) pondWater.position.y = POND_Y + Math.sin(t * 0.8) * 0.02;
+  if (grottoLight) grottoLight.intensity = nightAmt * (2.2 + Math.sin(t * 1.3) * 0.4);
+  glowCaps.forEach((m, i) => m.material.color.setHSL(0.5 + (i % 3) * 0.08, 0.9, lerp(0.45, 0.72, nightAmt) + Math.sin(t * 2 + i) * 0.05));
+  springBubbles.forEach((b) => { const k = (t * 0.35 + b.p) % 1; b.m.position.set(b.x + Math.sin(t + b.p * 9) * 0.05, b.y + 0.1 + k * 0.25, b.z); b.m.scale.setScalar(1 - k); });
+  sitters.forEach((s) => { s.obj.rotation.y = Math.sin(t * 0.4 + s.p) * 0.8; });
 }
 
 function updateCompass() {
@@ -1196,7 +1320,7 @@ function frame() {
   animateWaves(t);
   animateLife(t, dt);
   camera.updateMatrixWorld();
-  for (const l of labels) placeOnScreen(l.el, l.pos, l.maxDist);
+  for (const l of labels) if (l.hidden) l.el.style.display = "none"; else placeOnScreen(l.el, l.pos, l.maxDist);
   if (data) updateCompass();
   renderer.render(scene, camera);
   if (t > saveAt) { saveAt = t + 3; try { localStorage.setItem("glorp-me4", JSON.stringify({ x: me.x, z: me.z, yaw: me.yaw, pitch: me.pitch })); } catch {} }

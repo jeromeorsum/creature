@@ -26,6 +26,7 @@ const base = {
   creation: null, new_hobby: null, new_wish: null, wish_done: null, remember: null,
   concern: null, concern_solved: null, plan: null, build_target: null, new_project: null,
   day_plan: null, plan_done: null, day_summary: null, lesson: null, discovery: null, new_invention: null, make_home: null,
+  free_action: null,
 };
 
 function ready() {
@@ -248,4 +249,48 @@ test("Glorp only stops to think when something calls for it, and otherwise acts 
   W.startProject(w, { name: "Perch", near: "nest", blocks: [{ shape: "box", material: "wood", w: 1, h: 1, d: 1 }] }, now);
   const habit = autopilot({ ...st2, needs: { fullness: 80, water: 80, energy: 80, curiosity: 60, joy: 60, calm: 60 }, world: w });
   assert.equal(habit.activity, "build");
+});
+
+test("Glorp can do anything it imagines, within honest limits", async () => {
+  const st = ready();
+  st.place = "nest"; st.needs = { ...st.needs, energy: 80, water: 80, fullness: 80, joy: 50 };
+  saveState(st);
+  const r = await tick({ now: new Date("2026-11-02T10:00:00"), cfg, client: client({ ...base, activity: "do_anything", go_to: "meadow",
+    free_action: { what: "Teach the crabs a dance.", minutes: 999, effects: { fullness: 0, water: 0, energy: 0, curiosity: 0, joy: 100, calm: 0 } } }), rand: noEvents });
+  assert.equal(r.state.place, "meadow");
+  assert.match(r.state.doing, /^teach the crabs a dance/i);
+  assert.equal(r.state.needs.joy, 75); // clamped to +25
+  assert.ok(new Date(r.state.busyUntil) - new Date("2026-11-02T10:00:00") <= 120 * 60_000);
+});
+
+test("exploring finds hidden places, and Glorp can only go where it knows", async () => {
+  const st = ready();
+  st.world.known = ["nest", "meadow", "pond", "thicket"];
+  st.place = "nest"; st.spot = { ...W.PLACE_POS.nest }; st.needs = { ...st.needs, energy: 80, water: 80, fullness: 80, curiosity: 30 };
+  saveState(st);
+  const a = await tick({ now: new Date("2026-11-03T10:00:00"), cfg, client: client({ ...base, activity: "explore", go_to: "cliffs" }), rand: noEvents });
+  const found = a.state.world.known.at(-1);
+  assert.equal(a.state.world.known.length, 5);
+  assert.equal(a.state.place, found); // couldn't head for the unknown cliffs by name, so explored instead
+  assert.ok(!["nest", "meadow", "pond", "thicket"].includes(found));
+  a.state.needs = { fullness: 80, water: 80, energy: 80, curiosity: 60, joy: 60, calm: 60 }; a.state.health = 100;
+  a.state.today = { date: dayKey(new Date("2026-11-03T10:40:00"), 7), plan: [], done: [] };
+  assert.equal(reasonToThink(a.state, new Date("2026-11-03T10:40:00"), cfg, { rand: noEvents }), `you just found somewhere new: the ${found}`);
+  // Restless curiosity makes Glorp go exploring on its own.
+  a.state.needs.curiosity = 30; a.state.world.structures = [];
+  assert.equal(autopilot(a.state).activity, "explore");
+  a.state.world.known = Object.keys(W.PLACES);
+  assert.equal(autopilot(a.state), null);
+});
+
+test("rain is miserable without a roof and cosy in a home Glorp built", () => {
+  const st = newState(new Date("2026-11-04T10:00:00"));
+  st.world.weather = "rainy";
+  assert.ok(W.problems(st).some((p) => /no roof/.test(p)));
+  const wet = structuredClone(st);
+  decayNeeds(wet, new Date("2026-11-04T12:00:00"), { asleep: true });
+  st.world.structures.push({ id: 1, name: "Hut", finished: "x", blocks: [] }); st.world.home = 1;
+  decayNeeds(st, new Date("2026-11-04T12:00:00"), { asleep: true });
+  assert.ok(st.needs.energy > wet.needs.energy && st.needs.calm > wet.needs.calm);
+  assert.ok(!W.problems(st).some((p) => /no roof/.test(p)));
 });

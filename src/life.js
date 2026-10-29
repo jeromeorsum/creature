@@ -4,8 +4,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { think, isLastMoment, dayKey } from "./brain.js";
 import {
-  allActivities, clampHobbyEffects, HOBBY_LIMITS, ACTIVITIES, PLACE_POS, regrow, gather, worldEvents, startProject, buildOn,
-  invent, bonus, tend, plant, missingFor, blockCost, resourceLeft,
+  allActivities, clampHobbyEffects, HOBBY_LIMITS, ACTIVITIES, PLACE_POS, PLACES, regrow, gather, worldEvents, startProject, buildOn,
+  invent, bonus, tend, plant, missingFor, blockCost, resourceLeft, knownPlaces, unknownPlaces, discoverPlace, clampHobbyEffects as clampEffects,
 } from "./world.js";
 
 // Where Glorp lives: the nest, or a building it chose as its home.
@@ -44,7 +44,7 @@ export function isSleepTime(now, from, until) {
 
 // An empty decision: what Glorp does on instinct or habit, without stopping to think.
 const QUIET = {
-  thought: null, go_to: null, mood: null, face: null, creation: null, new_hobby: null, new_wish: null, wish_done: null,
+  thought: null, go_to: null, free_action: null, mood: null, face: null, creation: null, new_hobby: null, new_wish: null, wish_done: null,
   remember: null, concern: null, concern_solved: null, plan: null, build_target: null, new_project: null, day_plan: null,
   plan_done: null, day_summary: null, lesson: null, discovery: null, new_invention: null, make_home: null,
 };
@@ -64,6 +64,8 @@ export function autopilot(state) {
       if (act && w.discovered.includes(m) && resourceLeft(w, m) > 0) return pick(act[0], `I went to get more ${m} for "${s.name}".`);
     }
   }
+  // Restless curiosity: wander off to see what's out there.
+  if (n.curiosity < 45 && n.energy > 35 && unknownPlaces(w).length) return pick("explore", "I got restless and wandered off into a part of the island I'd never been to, just to see.", { go_to: "somewhere_new" });
   return null;
 }
 
@@ -77,6 +79,10 @@ export function reasonToThink(state, now, cfg, { events = [], collapsed = false,
   if (state.health < 60) return `your health is low (${state.health})`;
   if (n.fullness < 30 && w.food < 1) return "you're hungry and you have no food kept";
   for (const k of ["curiosity", "joy", "calm"]) if (n[k] < 20) return `your ${k} is very low`;
+  const since0 = state.lastThought ? (now - new Date(state.lastThought)) / 60_000 : Infinity;
+  const stuff = Object.values(w.inventory ?? {}).reduce((a, b) => a + b, 0);
+  if (since0 >= 30 && !w.structures.length && w.discovered.length >= 2 && stuff >= 8) return "you've got a pile of materials and you still live in an open nest";
+  if (state.foundPlace) return `you just found somewhere new: the ${state.foundPlace}`;
   // Ideas strike now and then, more often the longer it's been, and less while you're absorbed in a project.
   const since = state.lastThought ? (now - new Date(state.lastThought)) / 60_000 : Infinity;
   if (since >= (busyWithPassion ? 180 : 60)) return busyWithPassion ? "you've been busy a long time and want to take stock" : "you're free and wondering what to do";
@@ -145,7 +151,7 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   }
   const auto = !why;
   const acts = allActivities(state);
-  const act = acts[d.activity];
+  let act = acts[d.activity] ?? acts.explore;
 
   // What actually happened, told to Glorp next time so it can learn from it.
   const outcome = [];
@@ -154,16 +160,41 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   // A new building project appears in the world straight away.
   let project = null;
   if (d.new_project) {
-    const p = startProject(world, d.new_project, now);
+    const near = knownPlaces(world).includes(d.new_project.near) ? d.new_project.near : state.place;
+    const p = startProject(world, { ...d.new_project, near }, now);
     if (p.structure) project = p.structure;
     else outcome.push(`You couldn't start "${d.new_project.name}": ${p.error}.`);
   }
 
-  // Move and act.
+  // Move and act. Glorp can only head for places it knows (or go exploring for new ones).
   const home = homeOf(world);
-  state.place = act.place === "home" ? home.place : act.place ?? d.go_to ?? state.place;
+  const known = knownPlaces(world);
+  const goTo = known.includes(d.go_to) ? d.go_to : null;
+  state.place = act.place === "home" ? home.place : act.place ?? goTo ?? state.place;
   let spot = act.place === "home" ? home.spot : null;
   let effects = { ...act.effects };
+  let doing = null;
+  state.foundPlace = null;
+  if (act.explore && (d.go_to === "somewhere_new" || (!goTo && unknownPlaces(world).length))) {
+    const found = discoverPlace(world, state.spot ?? PLACE_POS[state.place]);
+    if (found) {
+      state.place = found;
+      state.foundPlace = found;
+      result.foundPlace = found;
+      effects = { ...effects, curiosity: (effects.curiosity ?? 0) + 10, joy: (effects.joy ?? 0) + 10 };
+      outcome.push(`You pushed into a part of the island you'd never seen and found a new place: the ${found}, ${PLACES[found]}.`);
+      doing = `exploring: just found the ${found}`;
+    } else outcome.push("You went looking for somewhere new, but you've already been everywhere on the island. You know it all now.");
+  }
+  if (act.free) {
+    const f = d.free_action ?? { what: "potter about", minutes: 20, effects: {} };
+    const what = String(f.what || "potter about").replace(/[.!]+$/, "").slice(0, 100);
+    effects = clampEffects(f.effects);
+    act = { ...act, minutes: Math.max(5, Math.min(120, Math.round(Number(f.minutes) || 30))) };
+    result.free = what;
+    doing = `${what} (at the ${state.place})`;
+    outcome.push(`You did your own thing: ${what}.`);
+  }
   if (d.activity === "nap" && bonus(world, "better_sleep")) effects.energy += 15;
   if (act.gather) {
     const g = gather(world, act.gather, rand);
@@ -236,7 +267,7 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   state.lastOutcome = outcome;
   applyEffects(state, effects);
   state.busyUntil = new Date(now.getTime() + act.minutes * 60_000).toISOString();
-  state.doing = `${d.activity.replace(/_/g, " ")} at the ${state.place}`;
+  state.doing = doing ?? `${d.activity.replace(/_/g, " ")} at the ${state.place}`;
   if (!auto) {
     state.mood = d.mood;
     state.thought = d.thought;
@@ -286,7 +317,7 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     if (id && !acts[id] && !ACTIVITIES[id]) {
       hobby = {
         id,
-        place: d.new_hobby.place,
+        place: known.includes(d.new_hobby.place) ? d.new_hobby.place : state.place,
         about: d.new_hobby.about,
         minutes: Math.max(10, Math.min(120, Math.round(d.new_hobby.minutes))),
         effects: clampHobbyEffects(d.new_hobby.effects),
@@ -339,6 +370,8 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
     tended: result.tended,
     planted: result.planted,
     built: result.built,
+    found: result.foundPlace,
+    free: result.free,
   });
   saveState(state);
   return { state, result: auto ? "auto" : "acted", decision: d, usd, hobby, creationFile, events, project, why, ...result };

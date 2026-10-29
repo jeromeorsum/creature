@@ -24,7 +24,32 @@ export const PLACES = {
   beach: "a sandy beach where the waves wash up shells",
   hill: "a grassy hill, the highest point, where you can see the whole island and the sea",
   tidepools: "rock pools by the shore with crabs, seaweed and shells",
+  // Hidden places: Glorp doesn't know these exist until it goes exploring and finds them.
+  spring: "a cold spring bubbling up between mossy stones and ferns: the clearest water on the island",
+  glade: "a hushed glade where a giant hollow log lies across the ferns, with mushrooms growing on it",
+  grotto: "a mossy grotto under a rock arch, dry even in the rain, where little mushrooms glow in the dark",
+  cliffs: "windswept sea cliffs on a headland, with seabirds nesting on the ledges and a view over the whole sea",
 };
+export const START_KNOWN = ["nest", "meadow", "pond", "thicket"]; // what a newborn can see from where it hatched
+const FIRST_ISLAND = ["nest", "meadow", "thicket", "pond", "forest", "rocks", "beach", "hill", "tidepools"];
+
+// Places Glorp knows about. (A Glorp from before hidden places existed knows the original island.)
+export function knownPlaces(world) {
+  return world.known ?? FIRST_ISLAND;
+}
+export function unknownPlaces(world) {
+  const known = knownPlaces(world);
+  return Object.keys(PLACES).filter((p) => !known.includes(p));
+}
+
+// Exploring: head for the nearest place Glorp hasn't found yet. Returns its name, or null if it knows everywhere.
+export function discoverPlace(world, from) {
+  const left = unknownPlaces(world);
+  if (!left.length) return null;
+  const near = left.sort((a, b) => dist(PLACE_POS[a], from) - dist(PLACE_POS[b], from))[0];
+  world.known = [...knownPlaces(world), near];
+  return near;
+}
 
 // Where each place is on the island.
 export const PLACE_POS = {
@@ -37,7 +62,16 @@ export const PLACE_POS = {
   beach: { x: -6, z: -37 },
   hill: { x: 30, z: 18 },
   tidepools: { x: 18, z: 34 },
+  spring: { x: -24, z: 22 },
+  glade: { x: -12, z: -20 },
+  grotto: { x: 8, z: -22 },
+  cliffs: { x: -35, z: 4 },
 };
+
+// Is Glorp living somewhere with a roof (a finished building it made its home)?
+export function hasShelter(world) {
+  return !!world.structures.find((s) => s.id === world.home && s.finished);
+}
 
 // Raw materials. Each lives on nodes (a tree, a rock...) that run out when collected.
 // The island is finite. Living plants (trees, berry bushes, reeds) only grow back when Glorp tends them,
@@ -69,7 +103,8 @@ export const ACTIVITIES = {
   dig_clay: { place: "pond", minutes: 30, gather: "clay", effects: { energy: -10, joy: 4, calm: -2 }, about: "scoop sticky clay from the pond bank" },
   pull_reeds: { place: "pond", minutes: 25, gather: "fibre", effects: { energy: -6, calm: 6 }, about: "pull reeds for fibre (stringy, bendy)" },
   collect_shells: { place: "beach", minutes: 25, gather: "shells", effects: { curiosity: 10, calm: 10, energy: -5 }, about: "collect shells on the beach" },
-  explore: { place: null, minutes: 20, effects: { curiosity: 18, energy: -6 }, about: "go somewhere on the island and look closely at everything" },
+  explore: { place: null, minutes: 30, explore: true, effects: { curiosity: 18, energy: -8 }, about: "go exploring: set go_to to a place you know to look closely at it, or to \"somewhere_new\" to head off into parts of the island you have never been and maybe find a new place" },
+  do_anything: { place: null, minutes: 30, free: true, effects: {}, about: "ANYTHING else you can imagine that your body and the island allow (climb the old tree, dig a hole, talk to the crabs, invent a game, drink from a spring, hide from the rain, a ritual...). Describe it in free_action" },
   experiment: { place: null, minutes: 40, experiment: true, effects: { curiosity: 15, joy: 8, energy: -8, calm: -2 }, about: "try things out with what you have and see what happens (can lead to a discovery or an invention)" },
   make_something: { place: "meadow", minutes: 40, effects: { joy: 18, curiosity: 8, energy: -8 }, about: "make a creation: a song, a story, a drawing in the sand, names for things, a dance" },
   build: { place: null, minutes: 45, build: true, effects: { joy: 12, curiosity: 5, energy: -14, fullness: -5 }, about: "work on one of your building projects (places blocks if you have the materials)" },
@@ -158,6 +193,7 @@ export function newWorld() {
     discovered: [], // materials Glorp has found and handled
     inventions: [], // { name, about, helps, cost, made }
     home: null, // id of a structure Glorp made its home (null = the nest)
+    known: [...START_KNOWN], // places Glorp has found
     nodes,
     structures: [],
   };
@@ -443,6 +479,7 @@ export function worldEvents(world, rand = Math.random) {
 export function problems(state) {
   const w = state.world;
   const out = [];
+  if ((w.weather === "rainy" || w.weather === "windy") && !hasShelter(w)) out.push(`It is ${w.weather} and you have no roof over your head: you get soaked and cold, you feel less calm, and you sleep badly in the open nest. A shelter or house you build (and make your home) would fix that.`);
   if (state.needs.water < 30) out.push("You are thirsty. Water is at the pond.");
   if (w.food === 0 && state.needs.fullness < 60) out.push("You have no food kept. You'll need to forage berries to eat.");
   if ((state.health ?? 100) < 70) out.push(`Your health is ${state.health}/100 because you went without food or water. Eat, drink and rest.`);
