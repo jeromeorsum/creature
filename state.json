@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T01:46:29.781Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-29T03:56:08.328Z",
+  "place": "pond",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-29T02:11:29.781Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-29T04:06:08.328Z",
   "needs": {
-    "fullness": 76,
-    "water": 47,
-    "energy": 73,
-    "curiosity": 87,
-    "joy": 71,
-    "calm": 63
+    "fullness": 63,
+    "water": 82,
+    "energy": 64,
+    "curiosity": 76,
+    "joy": 65,
+    "calm": 62
   },
   "health": 100,
-  "mood": "baffled but hungry",
+  "mood": "thirsty but determined",
   "memories": [],
   "wishes": [
     {
@@ -47,7 +47,9 @@
       "Spy on the pigeon",
       "Eat berries and wind down"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [],
   "days": [],
@@ -466,16 +468,15 @@
     ],
     "structures": []
   },
-  "ticks": 1,
+  "ticks": 2,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "I am awake! Everything is dark and wet and there are glowing bugs. My tummy is rumbly (fullness 52) and my water is lowish. I do not know where food is yet, but the info says berries live in thickets. I should find berries first, then drink at the pond. I bet the pigeon knows where the good ones are.",
-  "face": "curious"
+  "lastOutcome": [],
+  "thought": "Water is lowest at 32, so the pond comes first. My belly is okay and I have 2 berries kept. After drinking I can dig clay and pull reeds there, which are useful for a roof. The rain keeps dripping, so the shelter idea still matters.",
+  "face": "determined",
+  "lastThought": "2026-10-29T03:56:08.328Z"
 }
