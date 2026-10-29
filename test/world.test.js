@@ -8,7 +8,7 @@ process.env.CREATURE_DATA_DIR = fs.mkdtempSync(path.join(os.tmpdir(), "glorp-wor
 const { tick, config } = await import("../src/life.js");
 const W = await import("../src/world.js");
 const { loadState, saveState, newState, decayNeeds } = await import("../src/state.js");
-const { surroundings } = await import("../src/brain.js");
+const { surroundings, dayKey, isLastMoment, timeOfDay } = await import("../src/brain.js");
 
 const cfg = { ...config({}), sleepFrom: 23, sleepUntil: 7 };
 const noEvents = () => 0.99; // a random source that never triggers world events
@@ -178,13 +178,13 @@ test("Glorp plans its day in the morning, ticks things off, and reflects at bedt
   const c1 = client({ ...base, activity: "drink", day_plan: ["drink", "find food", "build a shelter", "watch the sky"], plan_done: [1] });
   const r1 = await tick({ now: new Date("2026-11-03T07:30:00"), cfg, client: c1, rand: noEvents });
   assert.match(c1.calls[0].messages[0].content, /first moment awake today/);
-  assert.match(c1.calls[0].messages[0].content, /morning/);
+  assert.match(c1.calls[0].messages[0].content, /just woke up/);
   assert.equal(r1.state.today.plan.length, 4);
   assert.deepEqual(r1.state.today.done, [1]);
   const st2 = loadState(); st2.busyUntil = new Date("2026-11-03T23:59:00").toISOString(); saveState(st2);
   const c2 = client({ ...base, activity: "nap", plan_done: [2, 9], day_summary: "A good day. The pigeon remains a mystery." });
   const r2 = await tick({ now: new Date("2026-11-03T22:35:00"), cfg, client: c2, rand: noEvents });
-  assert.match(c2.calls[0].messages[0].content, /LAST moment before bed/);
+  assert.match(c2.calls[0].messages[0].content, /LAST moment before sleep/);
   assert.match(c2.calls[0].messages[0].content, /2\. \[ \] find food/);
   assert.deepEqual(r2.state.today.done, [1, 2]);
   assert.equal(r2.state.days.at(-1).summary, "A good day. The pigeon remains a mystery.");
@@ -204,4 +204,16 @@ test("Glorp knows what is around it, keeps lessons, and sleeps at home", async (
   const asleep = await tick({ now: new Date("2026-11-04T23:30:00"), cfg, client: c, rand: noEvents });
   assert.equal(asleep.state.place, "nest");
   assert.match(asleep.state.doing, /asleep in the nest/);
+});
+
+test("Glorp is nocturnal by default: its day runs through the night", () => {
+  const owl = config({});
+  assert.equal(owl.sleepFrom, 11);
+  assert.equal(owl.sleepUntil, 19);
+  // 3am belongs to the day that started the evening before
+  assert.equal(dayKey(new Date("2026-11-04T03:00:00"), 19), "2026-11-03");
+  assert.equal(dayKey(new Date("2026-11-04T20:00:00"), 19), "2026-11-04");
+  assert.ok(isLastMoment(new Date("2026-11-04T10:30:00"), owl));
+  assert.ok(!isLastMoment(new Date("2026-11-04T22:30:00"), owl));
+  assert.match(timeOfDay(new Date("2026-11-04T19:30:00"), owl), /just woke up.*nocturnal/);
 });

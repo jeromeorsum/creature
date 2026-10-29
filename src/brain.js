@@ -129,24 +129,35 @@ export function surroundings(state) {
 }
 
 // Where Glorp is in its day, with the kind of thing people usually do then.
+// Glorp's "day" starts when it wakes up, so a night owl's day can run past midnight.
+export function dayKey(now, wake = 7) {
+  return new Date(now.getTime() - wake * 3_600_000).toLocaleDateString("en-CA");
+}
+
 export function isLastMoment(now, opts = {}) {
   const h = now.getHours() + now.getMinutes() / 60;
   const bed = opts.sleepFrom ?? 23;
-  return bed !== (opts.sleepUntil ?? 7) && bed - h <= 0.75 && bed - h > 0;
+  const left = (bed - h + 24) % 24;
+  return bed !== (opts.sleepUntil ?? 7) && left <= 0.75 && left > 0;
 }
+
+const hourName = (h) => `${((h + 11) % 12) + 1}${h < 12 ? "am" : "pm"}`;
 
 export function timeOfDay(now, opts = {}) {
   const h = now.getHours() + now.getMinutes() / 60;
-  const bed = opts.sleepFrom ?? 23;
+  const bed = opts.sleepFrom ?? 23, wake = opts.sleepUntil ?? 7;
+  const awake = (h - wake + 24) % 24; // hours since you woke up
   let part;
-  if (isLastMoment(now, opts)) part = "late evening, your LAST moment before bed: wind down, get ready for sleep, and write your day_summary";
-  else if (h < 9) part = "morning: time for breakfast and planning your day";
-  else if (h < 12) part = "late morning: a good time for proper work, gathering and building";
-  else if (h < 14) part = "lunchtime";
-  else if (h < 17.5) part = "afternoon: projects, hobbies, exploring";
-  else if (h < 20) part = "early evening: dinner time, finish up the day's jobs";
-  else part = "evening: relax, hobbies, chat with yourself, wind down";
-  return `Part of the day: ${part}. You go to sleep at ${bed}:00.`;
+  if (isLastMoment(now, opts)) part = "the end of your day, your LAST moment before sleep: wind down, get ready for bed, and write your day_summary";
+  else if (awake < 2) part = "you just woke up: time for breakfast and planning your day";
+  else if (awake < 5) part = "early in your day: a good time for proper work, gathering and building";
+  else if (awake < 7) part = "the middle of your day: time for a meal";
+  else if (awake < 10.5) part = "your afternoon: projects, hobbies, exploring";
+  else if (awake < 13) part = "later in your day: dinner time, finish up the day's jobs";
+  else part = "late in your day: relax, hobbies, chat with yourself, wind down";
+  const light = h >= 20 || h < 6 ? "dark night outside (moon, stars and fireflies)" : h < 8 ? "dawn outside" : h < 17 ? "daylight outside" : "dusk outside";
+  const owl = wake >= 15 || wake < 3 ? " You are nocturnal: you are awake through the night and sleep through the daytime, like an owl." : "";
+  return `Part of your day: ${part}. It is ${light}. You wake at ${hourName(wake)} and go to sleep at ${hourName(bed)}.${owl}`;
 }
 
 export function buildSituation(state, diary, now, opts = {}) {
@@ -214,7 +225,7 @@ export function buildSituation(state, diary, now, opts = {}) {
   lines.push("");
   const today = state.today;
   lines.push("");
-  if (!today || today.date !== now.toLocaleDateString("en-CA")) {
+  if (!today || today.date !== dayKey(now, opts.sleepUntil)) {
     lines.push("Today's plan: you haven't planned today yet. This is your first moment awake today: decide your day_plan.");
   } else {
     lines.push("Today's plan:");
@@ -249,7 +260,7 @@ export function buildSituation(state, diary, now, opts = {}) {
 export async function think(state, diary, now, opts = {}) {
   const acts = allActivities(state);
   const schema = decisionSchema(Object.keys(acts));
-  if (opts.fake) return { decision: fakeDecision(state, acts), usd: 0 };
+  if (opts.fake) return { decision: fakeDecision(state, acts, opts), usd: 0 };
   if (opts.brain === "claude-code") return thinkWithClaudeCode(state, diary, now, schema, Object.keys(acts), opts);
 
   const model = opts.model || "claude-opus-5-5";
@@ -323,7 +334,7 @@ export function tidyDecision(d, activityIds) {
 }
 
 // A stand-in brain for testing without an API key.
-function fakeDecision(state, acts) {
+function fakeDecision(state, acts, opts = {}) {
   const ids = Object.keys(acts);
   const lowest = Object.entries(state.needs).sort((a, b) => a[1] - b[1])[0][0];
   const helps = ids.filter((id) => (acts[id].effects[lowest] ?? 0) > 0);
@@ -347,7 +358,7 @@ function fakeDecision(state, acts) {
     concern: state.world.food < 1 ? "I have no food saved" : null,
     concern_solved: null,
     plan: null,
-    day_plan: state.today?.date === new Date().toLocaleDateString("en-CA") ? null : ["breakfast", "gather wood", "lunch", "build something", "watch trains", "dinner"],
+    day_plan: state.today?.date === dayKey(new Date(), opts.sleepUntil) ? null : ["breakfast", "gather wood", "lunch", "build something", "watch trains", "dinner"],
     plan_done: null,
     day_summary: null,
     lesson: null,

@@ -1,7 +1,7 @@
 // One "tick" of Glorp's life: let time pass, think, act, write it down.
 import fs from "node:fs";
 import path from "node:path";
-import { think, isLastMoment } from "./brain.js";
+import { think, isLastMoment, dayKey } from "./brain.js";
 import {
   allActivities, clampHobbyEffects, HOBBY_LIMITS, ACTIVITIES, PLACE_POS, regrow, gather, worldEvents, startProject, buildOn,
   invent, bonus, tend, plant,
@@ -26,8 +26,9 @@ export function config(env = process.env) {
     fake: env.CREATURE_FAKE === "1",
     dailyBudget: Number(env.DAILY_BUDGET_USD ?? 1),
     maxTicksPerDay: Number(env.MAX_TICKS_PER_DAY ?? 40),
-    sleepFrom: Number(env.SLEEP_FROM_HOUR ?? 23),
-    sleepUntil: Number(env.SLEEP_UNTIL_HOUR ?? 7),
+    // Glorp is nocturnal: asleep 11am to 7pm, awake through the night.
+    sleepFrom: Number(env.SLEEP_FROM_HOUR ?? 11),
+    sleepUntil: Number(env.SLEEP_UNTIL_HOUR ?? 19),
     tickMinutes: Number(env.TICK_MINUTES ?? 30),
   };
 }
@@ -38,9 +39,7 @@ export function isSleepTime(now, from, until) {
   return from > until ? h >= from || h < until : h >= from && h < until;
 }
 
-function localDay(now) {
-  return now.toLocaleDateString("en-CA"); // YYYY-MM-DD in local time
-}
+
 
 function slugify(s) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 50) || "untitled";
@@ -49,7 +48,7 @@ function slugify(s) {
 export async function tick({ now = new Date(), cfg = config(), client, rand = Math.random } = {}) {
   const state = loadState(now);
   regrow(state.world, Math.max(0, (now - new Date(state.lastUpdate)) / 3_600_000), now);
-  if (state.spend.day !== localDay(now)) state.spend = { ...state.spend, day: localDay(now), usd: 0, ticks: 0 };
+  if (state.spend.day !== dayKey(now, cfg.sleepUntil)) state.spend = { ...state.spend, day: dayKey(now, cfg.sleepUntil), usd: 0, ticks: 0 };
 
   if (isSleepTime(now, cfg.sleepFrom, cfg.sleepUntil)) {
     decayNeeds(state, now, { asleep: true });
@@ -73,7 +72,7 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   }
 
   // Glorp always gets its last moment before bed to reflect on the day, even if busy.
-  const bedtimeReflection = isLastMoment(now, cfg) && !(state.days ?? []).some((x) => x.date === localDay(now));
+  const bedtimeReflection = isLastMoment(now, cfg) && !(state.days ?? []).some((x) => x.date === dayKey(now, cfg.sleepUntil));
   if (state.busyUntil && new Date(state.busyUntil) > now && !bedtimeReflection) {
     saveState(state);
     return { state, result: "busy" };
@@ -199,7 +198,7 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   }
 
   // The shape of Glorp's day: a plan made in the morning, ticked off, and a reflection at bedtime.
-  const day = localDay(now);
+  const day = dayKey(now, cfg.sleepUntil);
   if (d.day_plan?.length && (state.today?.date !== day || d.day_plan.join() !== state.today.plan.join())) {
     const keep = state.today?.date === day ? state.today.done : [];
     state.today = { date: day, plan: d.day_plan.slice(0, 10).map((x) => String(x).slice(0, 140)), done: keep };
@@ -217,9 +216,9 @@ export async function tick({ now = new Date(), cfg = config(), client, rand = Ma
   let creationFile = null;
   if (d.creation?.content) {
     fs.mkdirSync(CREATIONS_DIR(), { recursive: true });
-    const name = `${localDay(now)}-${slugify(d.creation.title)}.md`;
+    const name = `${now.toLocaleDateString("en-CA")}-${slugify(d.creation.title)}.md`;
     creationFile = path.join(CREATIONS_DIR(), name);
-    fs.writeFileSync(creationFile, `# ${d.creation.title}\n\n_${d.creation.kind}, made by Glorp on ${localDay(now)}_\n\n${d.creation.content}\n`);
+    fs.writeFileSync(creationFile, `# ${d.creation.title}\n\n_${d.creation.kind}, made by Glorp on ${now.toLocaleDateString("en-CA")}_\n\n${d.creation.content}\n`);
     state.creations.push({ title: d.creation.title, kind: d.creation.kind, file: name, made: now.toISOString() });
   }
 

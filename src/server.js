@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadState, readDiary, CREATIONS_DIR } from "./state.js";
 import { allActivities, PLACES, PLACE_POS, RESOURCES } from "./world.js";
+import { config } from "./life.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const PAGE = path.join(here, "..", "web", "index.html");
@@ -21,6 +22,7 @@ export function snapshot() {
     resources: RESOURCES,
     activities: allActivities(state),
     now: new Date().toISOString(),
+    sleep: { from: config().sleepFrom, until: config().sleepUntil },
   };
 }
 

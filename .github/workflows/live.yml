@@ -36,8 +36,8 @@ jobs:
       MAX_TICKS_PER_DAY: ${{ vars.MAX_TICKS_PER_DAY || '40' }}
       CREATURE_MODEL: ${{ vars.CREATURE_MODEL }}
       CREATURE_EFFORT: ${{ vars.CREATURE_EFFORT || 'medium' }}
-      SLEEP_FROM_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_FROM_HOUR || '23' }}
-      SLEEP_UNTIL_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_UNTIL_HOUR || '7' }}
+      SLEEP_FROM_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_FROM_HOUR || '11' }}
+      SLEEP_UNTIL_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_UNTIL_HOUR || '19' }}
     steps:
       - uses: actions/checkout@v4
 
