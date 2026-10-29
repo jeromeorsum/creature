@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T09:53:28.923Z",
+  "lastUpdate": "2026-10-29T10:03:37.842Z",
   "place": "forest",
   "spot": {
     "x": -26.1,
     "z": -14.6
   },
   "doing": "collect wood at the forest",
-  "busyUntil": "2026-10-29T09:57:52.230Z",
+  "busyUntil": "2026-10-29T10:38:37.842Z",
   "needs": {
-    "fullness": 42,
-    "water": 47,
-    "energy": 61,
-    "curiosity": 44,
-    "joy": 38,
+    "fullness": 37,
+    "water": 46,
+    "energy": 48,
+    "curiosity": 46,
+    "joy": 37,
     "calm": 86
   },
   "health": 100,
@@ -58,14 +58,14 @@
   "plan": "Collect wood, then design and build a shelter with clay and fibre, then eat berries.",
   "knowledge": [],
   "world": {
-    "weather": "cloudy",
+    "weather": "sunny",
     "food": 0,
     "seeds": {
-      "tree": 0,
+      "tree": 1,
       "berry": 0
     },
     "inventory": {
-      "wood": 2,
+      "wood": 4,
       "stone": 0,
       "clay": 4,
       "fibre": 3,
@@ -161,7 +161,8 @@
         "res": "wood",
         "x": -26.1,
         "z": -14.6,
-        "left": 2
+        "left": 0,
+        "dead": true
       },
       {
         "id": "wood13",
@@ -474,18 +475,18 @@
     ],
     "structures": []
   },
-  "ticks": 8,
+  "ticks": 9,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [
     "You collected 2 wood.",
-    "That was the first wood you ever held."
+    "You also saved 1 tree seeds."
   ],
-  "thought": "I am awake again with energy 76, and my middle is half empty. Wood is what I need for the roof, so the forest is the next stop. I will drag back branches and then try stacking them with clay and fibre. My crest feathers are tingling with roof ideas.",
+  "thought": "I have only 2 wood but the forest is right here with plenty. My middle is rumbling a bit (fullness 41), but energy is fine. A shelter needs more wood, so I will gather more now, then berries. Trees are friends, so only fallen branches.",
   "face": "determined",
-  "lastThought": "2026-10-29T09:22:52.230Z"
+  "lastThought": "2026-10-29T10:03:37.842Z"
 }
