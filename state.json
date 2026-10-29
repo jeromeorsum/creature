@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T04:47:08.784Z",
+  "lastUpdate": "2026-10-29T04:57:18.979Z",
   "place": "pond",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -5.6,
+    "z": 15
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "dig clay at the pond",
+  "busyUntil": "2026-10-29T05:27:18.979Z",
   "needs": {
-    "fullness": 58,
-    "water": 77,
-    "energy": 59,
-    "curiosity": 71,
-    "joy": 60,
-    "calm": 62
+    "fullness": 57,
+    "water": 76,
+    "energy": 48,
+    "curiosity": 70,
+    "joy": 63,
+    "calm": 60
   },
   "health": 100,
-  "mood": "thirsty but determined",
+  "mood": "curious and determined",
   "memories": [],
   "wishes": [
     {
@@ -48,7 +48,8 @@
       "Eat berries and wind down"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [],
@@ -65,11 +66,13 @@
     "inventory": {
       "wood": 0,
       "stone": 0,
-      "clay": 0,
+      "clay": 4,
       "fibre": 0,
       "shells": 0
     },
-    "discovered": [],
+    "discovered": [
+      "clay"
+    ],
     "inventions": [],
     "home": null,
     "nodes": [
@@ -267,7 +270,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 4
+        "left": 0
       },
       {
         "id": "clay3",
@@ -468,15 +471,18 @@
     ],
     "structures": []
   },
-  "ticks": 2,
+  "ticks": 3,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [],
-  "thought": "Water is lowest at 32, so the pond comes first. My belly is okay and I have 2 berries kept. After drinking I can dig clay and pull reeds there, which are useful for a roof. The rain keeps dripping, so the shelter idea still matters.",
-  "face": "determined",
-  "lastThought": "2026-10-29T03:56:08.328Z"
+  "lastOutcome": [
+    "You collected 4 clay.",
+    "That was the first clay you ever held."
+  ],
+  "thought": "I'm at the pond with clay all around me, and I'm standing right next to the sticky bank. The roof worry keeps nagging me. Clay is here, so I should dig it now and see what it does. My energy is okay. Digging first, then reeds for fibre, then wood.",
+  "face": "curious",
+  "lastThought": "2026-10-29T04:57:18.979Z"
 }
