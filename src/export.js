@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { snapshot } from "./server.js";
+import { snapshot, THREE_FILE } from "./server.js";
 import { CREATIONS_DIR } from "./state.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -11,6 +11,7 @@ const out = path.resolve(process.argv[2] || "site");
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(path.join(out, "api", "creation"), { recursive: true });
 fs.copyFileSync(path.join(here, "..", "web", "index.html"), path.join(out, "index.html"));
+fs.copyFileSync(THREE_FILE, path.join(out, "three.module.min.js"));
 fs.writeFileSync(path.join(out, "api", "state.json"), JSON.stringify(snapshot()));
 if (fs.existsSync(CREATIONS_DIR())) {
   for (const f of fs.readdirSync(CREATIONS_DIR())) {

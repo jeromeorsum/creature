@@ -27,6 +27,7 @@ const base = {
   creation: { kind: "poem", title: "Ode to a Bottle Cap", content: "Shiny circle,\nyou are mine." },
   new_hobby: { id: "Pebble Museum", place: "Burrow", about: "curate pebbles", minutes: 500, effects: { fullness: 0, energy: 10, curiosity: 90, joy: 10, calm: 5 } },
   new_wish: "ride a train", wish_done: null, remember: "I was born on a Thursday.",
+  concern: "the pigeon is watching me", concern_solved: null, plan: "make things, then build a tower", build_target: null, new_project: null,
 };
 
 test("sleep window wraps past midnight", () => {

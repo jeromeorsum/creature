@@ -3,10 +3,12 @@
 export const CREATURE = {
   name: "Glorp",
   looks: [
-    "a lumpy lime-green potato-shaped blob about the size of a loaf of bread",
-    "one enormous googly eye that is slightly too big for its face and rattles when it runs",
-    "three stubby legs of different lengths, so it wobbles everywhere",
-    "a single curly antenna with a tiny lightbulb on the end that flickers when it has an idea",
+    "a lime-green toucan-ish bird about the size of a watermelon, round as a ball",
+    "an absurdly enormous striped beak (yellow, orange and a red tip) that is bigger than the rest of it, so it tips forward when it walks",
+    "one enormous googly eye with a bright blue ring that is slightly too big for its face and rattles when it runs",
+    "three skinny orange legs of different lengths, so it wobbles everywhere",
+    "tiny useless wings it flaps furiously when it is excited",
+    "three crest feathers on its head that stick up when it has an idea",
     "a small red bowtie it found and refuses to take off",
   ],
   personality: [
@@ -15,6 +17,8 @@ export const CREATURE = {
     "gets distracted halfway through plans and starts new ones",
     "collects odd things (bottle caps, interesting pebbles, words it likes)",
     "suspects pigeons are running a secret organisation",
+    "a proud builder and scavenger who believes every pile of junk is a future masterpiece",
+    "worries out loud, then makes elaborate plans to fix the worry",
     "proud of everything it makes, even when it goes wrong",
   ],
   voice:

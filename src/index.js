@@ -21,11 +21,17 @@ function printStatus(state) {
   const open = state.wishes.filter((w) => !w.done);
   if (open.length) console.log(`Wishes: ${open.map((w) => w.text).join("; ")}`);
   if (state.hobbies.length) console.log(`Own hobbies: ${state.hobbies.map((h) => h.id).join(", ")}`);
+  const w = state.world;
+  console.log(`Has: ${Object.entries(w.inventory).map(([k, v]) => `${v} ${k}`).join(", ")}; ${w.pantry} berries in the cupboard. Weather: ${w.weather}.`);
+  if (w.structures.length) console.log(`Built: ${w.structures.map((s) => `${s.name}${s.finished ? "" : " (unfinished)"}`).join(", ")}`);
+  const worries = state.concerns.filter((c) => !c.resolved);
+  if (worries.length) console.log(`Worries: ${worries.map((c) => c.text).join("; ")}`);
+  if (state.plan) console.log(`Plan: ${state.plan}`);
   console.log(`Made ${state.creations.length} things. Spent today $${state.spend.usd.toFixed(3)} (total $${state.spend.totalUsd.toFixed(3)}).`);
 }
 
 async function runTick() {
-  const { state, result, decision, usd, hobby, creationFile } = await tick();
+  const { state, result, decision, usd, hobby, creationFile, events, gathered, built, project } = await tick();
   const time = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
   if (result !== "acted") {
     console.log(`[${time}] Glorp: ${state.doing} (${result}).`);
@@ -34,6 +40,12 @@ async function runTick() {
   console.log(`\n[${time}] ${decision.activity.replace(/_/g, " ")} at the ${state.place}  (${decision.mood}, $${usd.toFixed(4)})`);
   console.log(`  thinks: ${decision.thought}`);
   console.log(`  diary:  ${decision.diary}`);
+  for (const e of events) console.log(`  event:  ${e}`);
+  if (gathered) console.log(`  found:  ${Object.entries(gathered).map(([k, v]) => `${v} ${k}`).join(", ")}`);
+  if (project) console.log(`  NEW PROJECT: ${project.name} (${project.blocks.length} blocks)`);
+  if (built) console.log(`  built:  ${built.placed} blocks on "${built.name}"${built.finished ? " (finished!)" : built.stuck ? ` (needs ${built.stuck.short} more ${built.stuck.material})` : ""}`);
+  if (decision.concern) console.log(`  worries: ${decision.concern}`);
+  if (decision.plan) console.log(`  plan:   ${decision.plan}`);
   if (creationFile) console.log(`  made:   ${decision.creation.kind} "${decision.creation.title}" -> ${creationFile}`);
   if (hobby) console.log(`  NEW HOBBY: ${hobby.id} (${hobby.about})`);
   if (decision.new_wish) console.log(`  wishes: ${decision.new_wish}`);
