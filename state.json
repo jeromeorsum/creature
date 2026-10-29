@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T21:37:21.343Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-29T21:47:35.013Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-10-29T21:41:32.358Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-29T21:57:35.013Z",
   "needs": {
-    "fullness": 53,
-    "water": 35,
-    "energy": 58,
-    "curiosity": 30,
-    "joy": 47,
+    "fullness": 52,
+    "water": 84,
+    "energy": 57,
+    "curiosity": 29,
+    "joy": 46,
     "calm": 100
   },
   "health": 80,
@@ -570,16 +570,14 @@
       }
     ]
   },
-  "ticks": 15,
+  "ticks": 16,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 5
   },
-  "lastOutcome": [
-    "You placed 5 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
+  "lastOutcome": [],
   "thought": "Water is lowish at 39 and I have been promising the tree seed for ages. I have wood 4, clay 4, fibre 3, enough to design a small shelter. Let me design it now so the plan is real, then build it. A small hut: floor, walls with a door gap, roof cone. Design it near the nest.",
   "face": "determined",
   "lastThought": "2026-10-29T20:56:32.358Z",
