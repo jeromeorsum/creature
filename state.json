@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T23:09:10.710Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-29T23:19:22.122Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-29T23:44:22.122Z",
   "needs": {
-    "fullness": 44,
-    "water": 72,
-    "energy": 33,
-    "curiosity": 21,
-    "joy": 51,
+    "fullness": 67,
+    "water": 71,
+    "energy": 28,
+    "curiosity": 20,
+    "joy": 53,
     "calm": 100
   },
-  "health": 88,
-  "mood": "proud and caring",
+  "health": 89,
+  "mood": "determined",
   "memories": [],
   "wishes": [
     {
@@ -55,7 +55,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      6
     ]
   },
   "lessons": [],
@@ -83,14 +84,14 @@
       }
     }
   ],
-  "plan": "Tend seedlings, forage berries to keep, collect wood, sleep in the hut at dawn",
+  "plan": "Forage berries to keep, collect wood, sleep in the hut at dawn",
   "knowledge": [],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 3,
     "seeds": {
       "tree": 0,
-      "berry": 4
+      "berry": 5
     },
     "inventory": {
       "wood": 1,
@@ -362,7 +363,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.2,
+        "left": 0.25,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -470,7 +471,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4
+        "left": 1
       },
       {
         "id": "berries4",
@@ -512,7 +513,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.08,
+        "left": 0.1,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -522,7 +523,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -532,7 +533,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -609,18 +610,19 @@
       }
     ]
   },
-  "ticks": 18,
+  "ticks": 19,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [
-    "You looked after 10 plants around the pond. They'll grow for about a day."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "I just planted seeds, and the seedlings only grow while tended, so I should water them now. I have 3 growing near the pond. Tending also gives calm and joy. Then berries after, since fullness is 48 and I only keep 2 berries.",
+  "thought": "My middle is half empty and I only keep two berries. Berries are the sensible thing, and the thicket is where they are. Energy is lowish too, but food first, then tend and sleep at dawn. Worry 2 needs fixing.",
   "face": "determined",
-  "lastThought": "2026-10-29T22:28:20.927Z",
+  "lastThought": "2026-10-29T23:19:22.122Z",
   "foundPlace": null
 }
