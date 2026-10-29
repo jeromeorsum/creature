@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T19:34:58.177Z",
+  "lastUpdate": "2026-10-29T19:45:10.083Z",
   "place": "thicket",
   "spot": {
     "x": 12.9,
     "z": -2.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-29T19:39:34.104Z",
+  "busyUntil": "2026-10-29T20:10:10.083Z",
   "needs": {
-    "fullness": 22,
-    "water": 47,
-    "energy": 92,
-    "curiosity": 37,
-    "joy": 31,
+    "fullness": 45,
+    "water": 46,
+    "energy": 87,
+    "curiosity": 36,
+    "joy": 33,
     "calm": 100
   },
   "health": 73,
@@ -44,7 +44,6 @@
   "today": {
     "date": "2026-10-29",
     "plan": [
-      "Drink at the pond",
       "Forage berries and keep some",
       "Plant the tree seed",
       "Design and start the shelter",
@@ -82,14 +81,14 @@
       }
     }
   ],
-  "plan": "Berries, keep some, plant tree seed, design shelter",
+  "plan": "Berries and keep some, plant tree seed, design shelter",
   "knowledge": [],
   "world": {
     "weather": "sunny",
     "food": 0,
     "seeds": {
       "tree": 1,
-      "berry": 2
+      "berry": 4
     },
     "inventory": {
       "wood": 4,
@@ -497,23 +496,23 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2
+        "left": 0
       }
     ],
     "structures": []
   },
-  "ticks": 12,
+  "ticks": 13,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
     "You collected 2 berries and ate 2 on the spot.",
     "You also saved 2 berry seeds."
   ],
-  "thought": "My middle is totally empty, fullness zero, and water is only half. I drank a bit but the pond is right here, so one more drink is cheap, but berries are the real emergency. The thicket is where berries live. I will forage now and keep extras so I stop waking up with nothing saved. Then the tree seed and the roof.",
+  "thought": "My middle is very empty at 21 fullness and I have no kept food. There are seven bushes with berries right here, so foraging again is the obvious move. This time I will keep the extras so future me wakes up with a snack. Then the tree seed and the roof.",
   "face": "determined",
-  "lastThought": "2026-10-29T19:14:34.104Z"
+  "lastThought": "2026-10-29T19:45:10.083Z"
 }
