@@ -22,7 +22,7 @@ function printStatus(state) {
   if (open.length) console.log(`Wishes: ${open.map((w) => w.text).join("; ")}`);
   if (state.hobbies.length) console.log(`Own hobbies: ${state.hobbies.map((h) => h.id).join(", ")}`);
   const w = state.world;
-  console.log(`Has: ${Object.entries(w.inventory).map(([k, v]) => `${v} ${k}`).join(", ")}; ${w.pantry} berries in the cupboard. Weather: ${w.weather}.`);
+  console.log(`Has: ${Object.entries(w.inventory).map(([k, v]) => `${v} ${k}`).join(", ")}; ${w.food} food, health ${state.health}. Weather: ${w.weather}.`);
   if (w.structures.length) console.log(`Built: ${w.structures.map((s) => `${s.name}${s.finished ? "" : " (unfinished)"}`).join(", ")}`);
   const worries = state.concerns.filter((c) => !c.resolved);
   if (worries.length) console.log(`Worries: ${worries.map((c) => c.text).join("; ")}`);
