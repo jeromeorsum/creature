@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T08:11:22.430Z",
+  "lastUpdate": "2026-10-29T08:21:42.000Z",
   "place": "nest",
   "spot": {
     "x": -14,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-10-29T08:20:18.171Z",
+  "busyUntil": "2026-10-29T09:21:42.000Z",
   "needs": {
-    "fullness": 61,
-    "water": 57,
-    "energy": 53,
-    "curiosity": 51,
-    "joy": 48,
-    "calm": 76
+    "fullness": 55,
+    "water": 56,
+    "energy": 82,
+    "curiosity": 50,
+    "joy": 47,
+    "calm": 86
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "sleepy but determined",
   "memories": [],
   "wishes": [
     {
@@ -55,7 +55,7 @@
   },
   "lessons": [],
   "days": [],
-  "plan": "Nap, then collect wood, then build a shelter with clay and fibre.",
+  "plan": "Nap, then collect wood at the forest, then build a shelter with clay and fibre.",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -473,15 +473,15 @@
     ],
     "structures": []
   },
-  "ticks": 6,
+  "ticks": 7,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My energy is low, 28, and my legs are wobblier than usual. It is dawn and I am nocturnal, so I should sleep soon. Wood is far away and I have none, so a roof must wait. A nap at the nest will help most right now. I have clay and fibre ready for the shelter later.",
+  "thought": "The sun is up, which is my sleeping time, and my energy is only 52. I just napped but I'm still wobbly. I need wood for the roof, and the forest is the place. But sleeping in daytime is my nocturnal way, so another nap first sounds wise. I'll nap and then gather wood tonight.",
   "face": "sleepy",
-  "lastThought": "2026-10-29T07:20:18.171Z"
+  "lastThought": "2026-10-29T08:21:42.000Z"
 }
