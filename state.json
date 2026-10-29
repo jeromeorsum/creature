@@ -1,366 +1,452 @@
 {
-  "born": "2026-10-29T00:00:56.753Z",
-  "lastUpdate": "2026-10-29T00:24:59.652Z",
-  "place": "burrow",
-  "doing": "asleep in the sock bed",
+  "version": 3,
+  "born": "2026-10-29T00:58:33.477Z",
+  "lastUpdate": "2026-10-29T00:58:33.477Z",
+  "place": "nest",
+  "spot": {
+    "x": -14,
+    "z": 6
+  },
+  "doing": "asleep in the nest",
   "busyUntil": null,
   "needs": {
-    "fullness": 64,
-    "energy": 75,
-    "curiosity": 84,
-    "joy": 77,
-    "calm": 72
+    "fullness": 55,
+    "water": 50,
+    "energy": 70,
+    "curiosity": 90,
+    "joy": 70,
+    "calm": 60
   },
-  "mood": "delighted and nosy",
+  "health": 100,
+  "mood": "brand new and baffled",
   "memories": [],
-  "wishes": [
-    {
-      "text": "Find out what the pigeons are really planning",
-      "made": "2026-10-29T00:00:56.753Z",
-      "done": null
-    }
-  ],
+  "wishes": [],
   "hobbies": [],
   "creations": [],
-  "ticks": 1,
-  "spend": {
-    "day": "2026-10-29",
-    "usd": 0,
-    "totalUsd": 0,
-    "ticks": 1
-  },
+  "concerns": [],
+  "today": null,
+  "lessons": [],
+  "days": [],
+  "plan": null,
+  "knowledge": [],
   "world": {
     "weather": "sunny",
-    "pantry": 6,
+    "food": 0,
+    "seeds": {
+      "tree": 0,
+      "berry": 0
+    },
     "inventory": {
       "wood": 0,
       "stone": 0,
-      "shells": 0,
-      "scrap": 0
+      "clay": 0,
+      "fibre": 0,
+      "shells": 0
     },
+    "discovered": [],
+    "inventions": [],
+    "home": null,
     "nodes": [
       {
-        "id": "tree1",
+        "id": "wood1",
         "res": "wood",
-        "x": -20.4,
-        "z": -7.2,
+        "x": -19.7,
+        "z": -9.8,
         "left": 4
       },
       {
-        "id": "tree2",
+        "id": "wood2",
         "res": "wood",
-        "x": -19.9,
-        "z": -19.1,
+        "x": -29.5,
+        "z": -19,
         "left": 4
       },
       {
-        "id": "tree3",
+        "id": "wood3",
         "res": "wood",
-        "x": -24.9,
-        "z": -10.7,
+        "x": -31.9,
+        "z": -4.2,
         "left": 4
       },
       {
-        "id": "tree4",
+        "id": "wood4",
         "res": "wood",
-        "x": -24,
-        "z": -2.3,
+        "x": -27.7,
+        "z": -1.5,
         "left": 4
       },
       {
-        "id": "tree5",
+        "id": "wood5",
         "res": "wood",
-        "x": -34.4,
-        "z": -8.8,
+        "x": -29.1,
+        "z": -2.8,
         "left": 4
       },
       {
-        "id": "tree6",
+        "id": "wood6",
         "res": "wood",
-        "x": -37.4,
-        "z": -14.1,
+        "x": -36.4,
+        "z": -4.3,
         "left": 4
       },
       {
-        "id": "tree7",
+        "id": "wood7",
         "res": "wood",
-        "x": -20.4,
-        "z": -12.3,
+        "x": -20.3,
+        "z": -8.2,
         "left": 4
       },
       {
-        "id": "tree8",
+        "id": "wood8",
         "res": "wood",
-        "x": -30.8,
-        "z": -3.4,
+        "x": -33.9,
+        "z": -19.8,
         "left": 4
       },
       {
-        "id": "tree9",
+        "id": "wood9",
         "res": "wood",
-        "x": -34.8,
-        "z": -11.9,
+        "x": -25,
+        "z": -14.3,
         "left": 4
       },
       {
-        "id": "tree10",
+        "id": "wood10",
         "res": "wood",
-        "x": -18.7,
-        "z": -15.1,
+        "x": -21.6,
+        "z": -6.8,
         "left": 4
       },
       {
-        "id": "tree11",
+        "id": "wood11",
         "res": "wood",
-        "x": -42.4,
-        "z": -12.2,
+        "x": -22.4,
+        "z": -5.1,
         "left": 4
       },
       {
-        "id": "tree12",
+        "id": "wood12",
         "res": "wood",
-        "x": -24.1,
-        "z": -15.5,
+        "x": -26.1,
+        "z": -14.6,
         "left": 4
       },
       {
-        "id": "tree13",
+        "id": "wood13",
         "res": "wood",
-        "x": -34.1,
-        "z": -16.9,
+        "x": -34.9,
+        "z": -15.9,
         "left": 4
       },
       {
-        "id": "tree14",
+        "id": "wood14",
         "res": "wood",
-        "x": -39.3,
+        "x": -19.8,
         "z": -15.7,
         "left": 4
       },
       {
-        "id": "rock1",
+        "id": "wood15",
+        "res": "wood",
+        "x": -29,
+        "z": -0.7,
+        "left": 4
+      },
+      {
+        "id": "wood16",
+        "res": "wood",
+        "x": -37.6,
+        "z": -11.4,
+        "left": 4
+      },
+      {
+        "id": "stone1",
         "res": "stone",
-        "x": 34.1,
-        "z": -27.1,
+        "x": 19,
+        "z": -24.4,
         "left": 5
       },
       {
-        "id": "rock2",
+        "id": "stone2",
         "res": "stone",
-        "x": 24.8,
-        "z": -16.7,
+        "x": 19.8,
+        "z": -20.7,
         "left": 5
       },
       {
-        "id": "rock3",
+        "id": "stone3",
         "res": "stone",
-        "x": 21.1,
-        "z": -22.2,
+        "x": 19.4,
+        "z": -26.6,
         "left": 5
       },
       {
-        "id": "rock4",
+        "id": "stone4",
         "res": "stone",
-        "x": 23.2,
-        "z": -29.6,
+        "x": 24.2,
+        "z": -13.9,
         "left": 5
       },
       {
-        "id": "rock5",
+        "id": "stone5",
+        "res": "stone",
+        "x": 22.5,
+        "z": -13.6,
+        "left": 5
+      },
+      {
+        "id": "stone6",
+        "res": "stone",
+        "x": 22.8,
+        "z": -13.3,
+        "left": 5
+      },
+      {
+        "id": "stone7",
         "res": "stone",
         "x": 20.7,
-        "z": -18.7,
+        "z": -23.5,
         "left": 5
       },
       {
-        "id": "rock6",
+        "id": "stone8",
         "res": "stone",
-        "x": 34.8,
-        "z": -20,
+        "x": 24.3,
+        "z": -25.1,
         "left": 5
       },
       {
-        "id": "rock7",
+        "id": "stone9",
         "res": "stone",
-        "x": 35.3,
-        "z": -25.4,
+        "x": 28,
+        "z": -25.9,
         "left": 5
       },
       {
-        "id": "rock8",
+        "id": "stone10",
         "res": "stone",
-        "x": 26,
-        "z": -24.7,
+        "x": 26.3,
+        "z": -13.4,
         "left": 5
       },
       {
-        "id": "rock9",
-        "res": "stone",
-        "x": 31.9,
-        "z": -17.7,
-        "left": 5
+        "id": "clay1",
+        "res": "clay",
+        "x": -12.5,
+        "z": 19.7,
+        "left": 4
       },
       {
-        "id": "shell1",
-        "res": "shells",
-        "x": -5,
-        "z": -40.8,
-        "left": 2
+        "id": "clay2",
+        "res": "clay",
+        "x": -5.6,
+        "z": 15,
+        "left": 4
       },
       {
-        "id": "shell2",
-        "res": "shells",
-        "x": -6.5,
-        "z": -42.5,
-        "left": 2
+        "id": "clay3",
+        "res": "clay",
+        "x": -9.9,
+        "z": 10.8,
+        "left": 4
       },
       {
-        "id": "shell3",
-        "res": "shells",
-        "x": -14.4,
-        "z": -38.8,
-        "left": 2
+        "id": "clay4",
+        "res": "clay",
+        "x": -11.9,
+        "z": 17.4,
+        "left": 4
       },
       {
-        "id": "shell4",
-        "res": "shells",
-        "x": -12.6,
-        "z": -38.4,
-        "left": 2
+        "id": "clay5",
+        "res": "clay",
+        "x": -9.1,
+        "z": 13.1,
+        "left": 4
       },
       {
-        "id": "shell5",
-        "res": "shells",
-        "x": -6.6,
-        "z": -44,
-        "left": 2
-      },
-      {
-        "id": "shell6",
-        "res": "shells",
-        "x": -16.5,
-        "z": -34.8,
-        "left": 2
-      },
-      {
-        "id": "shell7",
-        "res": "shells",
-        "x": -11,
-        "z": -35.6,
-        "left": 2
-      },
-      {
-        "id": "shell8",
-        "res": "shells",
-        "x": -9,
-        "z": -27.7,
-        "left": 2
-      },
-      {
-        "id": "shell9",
-        "res": "shells",
-        "x": 0.3,
-        "z": -27.8,
-        "left": 2
-      },
-      {
-        "id": "shell10",
-        "res": "shells",
-        "x": -8,
-        "z": -46.4,
-        "left": 2
-      },
-      {
-        "id": "junk1",
-        "res": "scrap",
-        "x": 12.8,
-        "z": 33.6,
+        "id": "fibre1",
+        "res": "fibre",
+        "x": 4.9,
+        "z": 27.6,
         "left": 3
       },
       {
-        "id": "junk2",
-        "res": "scrap",
-        "x": 13.8,
-        "z": 29,
+        "id": "fibre2",
+        "res": "fibre",
+        "x": -2.2,
+        "z": 17.7,
         "left": 3
       },
       {
-        "id": "junk3",
-        "res": "scrap",
+        "id": "fibre3",
+        "res": "fibre",
+        "x": -3.5,
+        "z": 26.1,
+        "left": 3
+      },
+      {
+        "id": "fibre4",
+        "res": "fibre",
+        "x": -5.6,
+        "z": 26.7,
+        "left": 3
+      },
+      {
+        "id": "fibre5",
+        "res": "fibre",
+        "x": -3.9,
+        "z": 19.8,
+        "left": 3
+      },
+      {
+        "id": "fibre6",
+        "res": "fibre",
+        "x": 4,
+        "z": 23,
+        "left": 3
+      },
+      {
+        "id": "fibre7",
+        "res": "fibre",
+        "x": 4.1,
+        "z": 18.6,
+        "left": 3
+      },
+      {
+        "id": "shells1",
+        "res": "shells",
+        "x": -11.4,
+        "z": -42.3,
+        "left": 2
+      },
+      {
+        "id": "shells2",
+        "res": "shells",
+        "x": -4.1,
+        "z": -27.6,
+        "left": 2
+      },
+      {
+        "id": "shells3",
+        "res": "shells",
+        "x": 0.9,
+        "z": -29.8,
+        "left": 2
+      },
+      {
+        "id": "shells4",
+        "res": "shells",
+        "x": 0.8,
+        "z": -37,
+        "left": 2
+      },
+      {
+        "id": "shells5",
+        "res": "shells",
+        "x": -1,
+        "z": -27.9,
+        "left": 2
+      },
+      {
+        "id": "shells6",
+        "res": "shells",
+        "x": -14.5,
+        "z": -31.4,
+        "left": 2
+      },
+      {
+        "id": "shells7",
+        "res": "shells",
+        "x": 21.5,
+        "z": 34.2,
+        "left": 2
+      },
+      {
+        "id": "shells8",
+        "res": "shells",
+        "x": 17.3,
+        "z": 36.4,
+        "left": 2
+      },
+      {
+        "id": "shells9",
+        "res": "shells",
         "x": 20.9,
-        "z": 37.6,
-        "left": 3
+        "z": 32.6,
+        "left": 2
       },
       {
-        "id": "junk4",
-        "res": "scrap",
-        "x": 14.2,
-        "z": 27.7,
-        "left": 3
+        "id": "shells10",
+        "res": "shells",
+        "x": 14.8,
+        "z": 35,
+        "left": 2
       },
       {
-        "id": "junk5",
-        "res": "scrap",
-        "x": 23.2,
-        "z": 28.8,
-        "left": 3
-      },
-      {
-        "id": "junk6",
-        "res": "scrap",
-        "x": 24.5,
-        "z": 32.9,
-        "left": 3
-      },
-      {
-        "id": "bush1",
+        "id": "berries1",
         "res": "berries",
-        "x": 15.6,
-        "z": 3.8,
+        "x": 14.6,
+        "z": -4.6,
         "left": 4
       },
       {
-        "id": "bush2",
+        "id": "berries2",
         "res": "berries",
-        "x": 19.6,
-        "z": 3.6,
+        "x": 19.7,
+        "z": -5.6,
         "left": 4
       },
       {
-        "id": "bush3",
+        "id": "berries3",
         "res": "berries",
-        "x": 19.9,
-        "z": -1.1,
+        "x": 10.9,
+        "z": -3.1,
         "left": 4
       },
       {
-        "id": "bush4",
+        "id": "berries4",
         "res": "berries",
-        "x": 19.5,
+        "x": 18.4,
         "z": -1.8,
         "left": 4
       },
       {
-        "id": "bush5",
+        "id": "berries5",
         "res": "berries",
-        "x": 16.5,
-        "z": 3.3,
+        "x": 22.1,
+        "z": -1,
         "left": 4
       },
       {
-        "id": "bush6",
+        "id": "berries6",
         "res": "berries",
-        "x": 10.1,
-        "z": -6.5,
+        "x": 18.8,
+        "z": -5.9,
+        "left": 4
+      },
+      {
+        "id": "berries7",
+        "res": "berries",
+        "x": 8.7,
+        "z": -2.4,
+        "left": 4
+      },
+      {
+        "id": "berries8",
+        "res": "berries",
+        "x": 12.9,
+        "z": -2.4,
         "left": 4
       }
     ],
     "structures": []
   },
-  "concerns": [],
-  "plan": null,
-  "spot": {
-    "x": -14,
-    "z": 6
+  "ticks": 0,
+  "spend": {
+    "day": "2026-10-29",
+    "usd": 0,
+    "totalUsd": 0,
+    "ticks": 0
   }
 }
