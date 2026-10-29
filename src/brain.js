@@ -6,7 +6,7 @@ import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { describeCreature } from "./personality.js";
 import {
-  NEEDS, PLACES, PLACE_POS, INVENTION_HELPS, foodCap, isTended, MATERIALS, SHAPES, BUILD_LIMITS, RESOURCES, allActivities, missingFor, problems, resourceLeft,
+  NEEDS, PLACES, PLACE_POS, INVENTION_HELPS, knownPlaces, unknownPlaces, foodCap, isTended, MATERIALS, SHAPES, BUILD_LIMITS, RESOURCES, allActivities, missingFor, problems, resourceLeft,
 } from "./world.js";
 
 // US dollars per million tokens: [input, output]
@@ -23,8 +23,16 @@ export function decisionSchema(activityIds) {
   const effects = z.object(Object.fromEntries(NEEDS.map((n) => [n, z.number()])));
   return z.object({
     thought: z.string().describe("Your full stream of thought right now, 3-6 sentences: what you notice, how you feel, what you want, what is bothering you, and how you are reasoning about what to do next and why. Think like a real someone in the middle of their day."),
-    activity: z.string().describe(`The activity you do next. One of: ${activityIds.join(", ")}.`),
-    go_to: z.string().nullable().describe(`Only for 'wander': where you walk to, one of: ${placeIds.join(", ")}. Otherwise null.`),
+    activity: z.string().describe(`The activity you do next. One of: ${activityIds.join(", ")}. You are a free mind: if none of them is what you want, use do_anything and describe it in free_action.`),
+    go_to: z.string().nullable().describe("Where you go, for activities that can happen anywhere (explore, do_anything, tend_plants, plant_seeds, experiment, eat_food, build...): one of the places you know, or \"somewhere_new\" with explore to go looking for places you have never been. Otherwise null."),
+    free_action: z
+      .object({
+        what: z.string().describe("What you do, in a few words starting with a verb, e.g. 'climb the old tree to watch the stars'"),
+        minutes: z.number().describe("How long it takes, 5 to 120"),
+        effects: z.object(Object.fromEntries(NEEDS.map((n) => [n, z.number()]))).describe("How it honestly changes each need, from -20 to +25. Effort costs energy."),
+      })
+      .nullable()
+      .describe("Only with do_anything: the thing you decided to do. It must be possible for a small three-legged toucan on this island; it can't make materials, food or buildings appear (gather, forage and build do that). Otherwise null."),
     diary: z.string().describe("Diary entry about what you just did, why, how it went and what you think about it, 3-6 sentences, in your voice."),
     mood: z.string().describe("Your mood in a few words."),
     face: z.string().describe(`The expression on your face right now, one of: ${FACES.join(", ")}.`),
@@ -39,7 +47,7 @@ export function decisionSchema(activityIds) {
     new_hobby: z
       .object({
         id: z.string().describe("short snake_case id, e.g. pebble_museum"),
-        place: z.string().describe(`One of: ${placeIds.join(", ")}.`),
+        place: z.string().describe("One of the places you know."),
         about: z.string().describe("what doing this hobby means"),
         minutes: z.number(),
         effects: effects.describe("How doing it changes each need, from -20 to +25."),
@@ -72,7 +80,7 @@ export function decisionSchema(activityIds) {
       .object({
         name: z.string().describe("What you call it."),
         purpose: z.string().describe("Why you are building it: what problem it solves or why you want it."),
-        near: z.string().describe(`Which place to build it near, one of: ${placeIds.join(", ")}.`),
+        near: z.string().describe("Which place you know to build it near."),
         blocks: z
           .array(
             z.object({
@@ -96,13 +104,16 @@ export function decisionSchema(activityIds) {
 const SYSTEM = `${describeCreature()}
 
 How your life works:
-- Every so often you wake up and decide what to do next. You pick one activity from the list you are given.
+- Most of the time you get on with life by instinct. Every so often you stop and really think about what to do next.
+- You are a free mind. The activity list is just the things you already know how to do. You can do anything else you can imagine that your body and the island allow, with do_anything: climb, dig, hide, play, talk to the crabs, make up a ritual, try something nobody has ever tried.
+- You don't know the whole island yet. There are parts you have never been to. Exploring ("somewhere_new") can lead you to new places.
 - You have six needs from 0 to 100: fullness, water, energy, curiosity, joy, calm. You also have health: going without food or water makes it drop, and if it hits zero you collapse. You must survive off the island: drink at the pond, find food, rest, and stay out of the weather.
 - You grow over time: you make things, invent hobbies, keep wishes, and remember what matters. Build on what you did before instead of repeating yourself. Follow your own interests and let them get deeper and stranger.
 - When you make something, actually make it in full (write the poem, the song, the recipe, the plan).
 - You are a newborn. You start knowing nothing: not what wood is for, not how to build, not that plants need care. Learn by doing and experimenting. When you work something out, record it as a discovery. When you learn from a mistake, record a lesson. Only "know" what you have discovered or been told by experience.
 - The island is all there is and it is finite. Stone never comes back. Trees, berry bushes and reeds only grow back while you tend them, a tree cut right down dies, and new plants only come from seeds you plant. A careless Glorp will strip the island bare and go hungry; a wise one looks after it.
 - You can invent tools and objects from materials you have (an invention really helps if it fits one of the listed uses). You can design buildings out of blocks (boxes, cylinders, cones, spheres) and build them over several turns; they stay in the world for good. Think up genuinely new ideas to solve your problems: a shelter so rain stops getting in, a home, a seed garden, a water catcher, a lookout, anything.
+- Rain and wind are miserable without a roof, and you sleep badly in the open nest. A house is a real project: a floor, walls on most sides with a gap for a door, and a roof on top (flat boxes or a cone). When it is finished, make it your home (make_home) and you will sleep dry and cosy in it.
 - Things go wrong: the pigeon steals, wind knocks blocks off, rain melts clay, food runs out. Notice problems, worry about them, make plans, and solve them step by step. Keep track of your worries and your plan.
 - After each decision the world tells you what really happened ("What happened last time"). Believe it over your own plans.
 - Live a full, normal day like a real someone would: wake up and plan your day over breakfast, eat proper meals (breakfast, lunch, dinner), do chores and work on your projects, make time for hobbies and fun, have opinions and wants, and wind down in the evening before bed. Your day plan is a guide, not a cage: change it when something comes up.
@@ -166,6 +177,8 @@ export function buildSituation(state, diary, now, opts = {}) {
   lines.push(`It is ${now.toLocaleString("en-GB", { weekday: "long", hour: "2-digit", minute: "2-digit", day: "numeric", month: "long" })}.`);
   lines.push(timeOfDay(now, opts));
   lines.push(`You are at the ${state.place}: ${PLACES[state.place]}.`);
+  const known = knownPlaces(state.world), unknown = unknownPlaces(state.world).length;
+  lines.push(`Places you know: ${known.join(", ")}. ${unknown ? "There are still parts of the island you have never explored." : "You have explored the whole island."}`);
   lines.push(`Around you: ${surroundings(state)}.`);
   lines.push(`You were last: ${state.doing}. Mood: ${state.mood}.`);
   lines.push("");
@@ -324,17 +337,20 @@ function pick(value, options) {
 
 // Make sure names Claude returned match real activities and places.
 export function tidyDecision(d, activityIds) {
-  const activity = pick(d.activity, activityIds) ?? "wander";
-  const go_to = pick(d.go_to, placeIds);
+  let activity = pick(d.activity, activityIds);
+  // Something that isn't on the list is a free action, not a mistake.
+  const free_action = d.free_action ?? (activity ? null : { what: String(d.activity ?? "potter about").slice(0, 80), minutes: 20, effects: {} });
+  activity ??= activityIds.includes("do_anything") ? "do_anything" : "explore";
+  const go_to = /new|unknown|unexplored/i.test(String(d.go_to ?? "")) ? "somewhere_new" : pick(d.go_to, placeIds);
   let new_project = d.new_project;
-  if (new_project) new_project = { ...new_project, near: pick(new_project.near, placeIds) ?? "burrow" };
+  if (new_project) new_project = { ...new_project, near: pick(new_project.near, placeIds) ?? "nest" };
   let new_hobby = d.new_hobby;
   if (new_hobby) {
     const place = pick(new_hobby.place, placeIds);
     new_hobby = place ? { ...new_hobby, place } : null;
   }
   const face = pick(d.face, FACES) ?? "happy";
-  return { ...d, activity, go_to, new_hobby, new_project, face };
+  return { ...d, activity, go_to, free_action: activity === "do_anything" ? free_action : null, new_hobby, new_project, face };
 }
 
 // A stand-in brain for testing without an API key.
@@ -347,7 +363,8 @@ function fakeDecision(state, acts, opts = {}) {
   return {
     thought: `My ${lowest} is low. Time to ${activity.replace(/_/g, " ")}.`,
     activity,
-    go_to: activity === "wander" ? placeIds[Math.floor(Math.random() * placeIds.length)] : null,
+    go_to: activity === "explore" ? "somewhere_new" : null,
+    free_action: activity === "do_anything" ? { what: "hop in circles to see what happens", minutes: 15, effects: { joy: 8, energy: -4 } } : null,
     diary: `I decided to ${activity.replace(/_/g, " ")} because my ${lowest} was low. (Test mode: no AI was used.)`,
     mood: "test-mode wobbly",
     face: "curious",

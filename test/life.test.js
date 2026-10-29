@@ -27,7 +27,7 @@ const base = {
   creation: { kind: "poem", title: "Ode to a Bottle Cap", content: "Shiny circle,\nyou are mine." },
   new_hobby: { id: "Pebble Museum", place: "Nest", about: "curate pebbles", minutes: 500, effects: { fullness: 0, water: 0, energy: 10, curiosity: 90, joy: 10, calm: 5 } },
   new_wish: "ride a train", wish_done: null, remember: "I was born on a Thursday.",
-  concern: "the pigeon is watching me", concern_solved: null, plan: "make things, then build a tower", build_target: null, new_project: null, day_plan: null, plan_done: null, day_summary: null, lesson: null, face: "happy", discovery: null, new_invention: null, make_home: null,
+  concern: "the pigeon is watching me", concern_solved: null, plan: "make things, then build a tower", build_target: null, new_project: null, day_plan: null, plan_done: null, day_summary: null, lesson: null, face: "happy", discovery: null, new_invention: null, make_home: null, free_action: null,
 };
 
 test("sleep window wraps past midnight", () => {
@@ -81,10 +81,12 @@ test("invented hobbies show up as choices next time", async () => {
   assert.equal(r.state.place, "nest");
 });
 
-test("unknown activity names fall back to wandering", () => {
-  const d = tidyDecision({ ...base, activity: "fly to the moon", go_to: "Hill" }, ["wander", "nap"]);
-  assert.equal(d.activity, "wander");
+test("an activity that isn't on the list becomes a free action", () => {
+  const d = tidyDecision({ ...base, activity: "fly to the moon", go_to: "Hill" }, ["do_anything", "nap"]);
+  assert.equal(d.activity, "do_anything");
+  assert.equal(d.free_action.what, "fly to the moon");
   assert.equal(d.go_to, "hill");
+  assert.equal(tidyDecision({ ...base, activity: "explore", go_to: "somewhere unexplored" }, ["explore"]).go_to, "somewhere_new");
 });
 
 test("subscription brain calls the Claude Code CLI with a JSON schema", async () => {

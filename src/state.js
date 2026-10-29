@@ -1,7 +1,7 @@
 // Loading, saving and updating Glorp's state on disk.
 import fs from "node:fs";
 import path from "node:path";
-import { NEEDS, DECAY_PER_HOUR, PLACE_POS, newWorld } from "./world.js";
+import { NEEDS, DECAY_PER_HOUR, PLACE_POS, newWorld, hasShelter } from "./world.js";
 
 export const DATA_DIR = process.env.CREATURE_DATA_DIR || path.resolve("data");
 const STATE_FILE = () => path.join(DATA_DIR, "state.json");
@@ -95,13 +95,17 @@ export function decayNeeds(state, now, { asleep = false } = {}) {
   const starving = state.needs.fullness <= 5 || state.needs.water <= 5;
   const fine = state.needs.fullness >= 40 && state.needs.water >= 40;
   state.health = clampNeed((state.health ?? 100) + (starving ? -6 : fine ? 3 : 0) * hours);
+  // Bad weather is miserable without a roof; a home you built keeps you dry and cosy.
+  const w = state.world;
+  const wet = (w?.weather === "rainy" || w?.weather === "windy") && w && !hasShelter(w);
+  const cosy = w && hasShelter(w);
   for (const need of NEEDS) {
     let delta = -DECAY_PER_HOUR[need] * hours;
     if (asleep) {
-      if (need === "energy") delta = 12 * hours;
-      else if (need === "calm") delta = 4 * hours;
+      if (need === "energy") delta = (wet ? 8 : cosy ? 14 : 12) * hours;
+      else if (need === "calm") delta = (wet ? 1 : cosy ? 6 : 4) * hours;
       else delta = delta / 2;
-    }
+    } else if (wet && (need === "calm" || need === "joy")) delta -= 2 * hours;
     state.needs[need] = clampNeed(state.needs[need] + delta);
   }
   state.lastUpdate = now.toISOString();
