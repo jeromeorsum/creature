@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T22:07:56.048Z",
+  "lastUpdate": "2026-10-29T22:18:09.057Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,14 +10,14 @@
   "doing": "plant seeds at the pond",
   "busyUntil": "2026-10-29T22:27:44.660Z",
   "needs": {
-    "fullness": 50,
-    "water": 82,
-    "energy": 47,
-    "curiosity": 27,
-    "joy": 52,
+    "fullness": 49,
+    "water": 81,
+    "energy": 46,
+    "curiosity": 26,
+    "joy": 51,
     "calm": 100
   },
-  "health": 82,
+  "health": 83,
   "mood": "proud and cheerful",
   "memories": [],
   "wishes": [
