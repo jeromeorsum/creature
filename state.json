@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T09:12:49.184Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-29T09:22:52.230Z",
+  "place": "forest",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": -26.1,
+    "z": -14.6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-10-29T09:21:42.000Z",
+  "doing": "collect wood at the forest",
+  "busyUntil": "2026-10-29T09:57:52.230Z",
   "needs": {
-    "fullness": 50,
-    "water": 51,
-    "energy": 77,
-    "curiosity": 45,
-    "joy": 42,
+    "fullness": 45,
+    "water": 50,
+    "energy": 64,
+    "curiosity": 47,
+    "joy": 41,
     "calm": 86
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "determined",
   "memories": [],
   "wishes": [
     {
@@ -55,17 +55,17 @@
   },
   "lessons": [],
   "days": [],
-  "plan": "Nap, then collect wood at the forest, then build a shelter with clay and fibre.",
+  "plan": "Collect wood, then design and build a shelter with clay and fibre, then eat berries.",
   "knowledge": [],
   "world": {
-    "weather": "sunny",
+    "weather": "cloudy",
     "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 0
     },
     "inventory": {
-      "wood": 0,
+      "wood": 2,
       "stone": 0,
       "clay": 4,
       "fibre": 3,
@@ -73,7 +73,8 @@
     },
     "discovered": [
       "clay",
-      "fibre"
+      "fibre",
+      "wood"
     ],
     "inventions": [],
     "home": null,
@@ -160,7 +161,7 @@
         "res": "wood",
         "x": -26.1,
         "z": -14.6,
-        "left": 4
+        "left": 2
       },
       {
         "id": "wood13",
@@ -473,15 +474,18 @@
     ],
     "structures": []
   },
-  "ticks": 7,
+  "ticks": 8,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "The sun is up, which is my sleeping time, and my energy is only 52. I just napped but I'm still wobbly. I need wood for the roof, and the forest is the place. But sleeping in daytime is my nocturnal way, so another nap first sounds wise. I'll nap and then gather wood tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-10-29T08:21:42.000Z"
+  "lastOutcome": [
+    "You collected 2 wood.",
+    "That was the first wood you ever held."
+  ],
+  "thought": "I am awake again with energy 76, and my middle is half empty. Wood is what I need for the roof, so the forest is the next stop. I will drag back branches and then try stacking them with clay and fibre. My crest feathers are tingling with roof ideas.",
+  "face": "determined",
+  "lastThought": "2026-10-29T09:22:52.230Z"
 }
