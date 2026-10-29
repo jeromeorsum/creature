@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T16:31:14.672Z",
+  "lastUpdate": "2026-10-29T16:41:24.306Z",
   "place": "nest",
   "spot": {
     "x": -14,
@@ -11,13 +11,13 @@
   "busyUntil": null,
   "needs": {
     "fullness": 0,
-    "water": 8,
+    "water": 7,
     "energy": 100,
     "curiosity": 41,
     "joy": 32,
     "calm": 100
   },
-  "health": 89,
+  "health": 88,
   "mood": "sleepy and hopeful",
   "memories": [],
   "wishes": [
