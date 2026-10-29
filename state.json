@@ -1,30 +1,30 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T21:47:35.013Z",
+  "lastUpdate": "2026-10-29T21:57:44.660Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-10-29T21:57:35.013Z",
+  "doing": "plant seeds at the pond",
+  "busyUntil": "2026-10-29T22:27:44.660Z",
   "needs": {
-    "fullness": 52,
-    "water": 84,
-    "energy": 57,
-    "curiosity": 29,
-    "joy": 46,
+    "fullness": 51,
+    "water": 83,
+    "energy": 48,
+    "curiosity": 28,
+    "joy": 53,
     "calm": 100
   },
-  "health": 80,
-  "mood": "excited and determined",
+  "health": 81,
+  "mood": "proud and cheerful",
   "memories": [],
   "wishes": [
     {
       "text": "Build a roof so the rain stops dripping on my head",
       "made": "2026-10-29T01:46:29.781Z",
-      "done": null
+      "done": "2026-10-29T21:57:44.660Z"
     }
   ],
   "hobbies": [],
@@ -33,7 +33,7 @@
     {
       "text": "The nest is open and rain gets in",
       "made": "2026-10-29T01:46:29.781Z",
-      "resolved": null
+      "resolved": "2026-10-29T21:57:44.660Z"
     },
     {
       "text": "I have no kept food for when I wake",
@@ -53,7 +53,8 @@
       "Wind down and eat"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [],
@@ -81,14 +82,14 @@
       }
     }
   ],
-  "plan": "Design hut, build it, drink, plant tree seed, make it home",
+  "plan": "Plant seeds, forage berries to keep, tend plants, sleep in the hut at dawn",
   "knowledge": [],
   "world": {
     "weather": "sunny",
     "food": 2,
     "seeds": {
-      "tree": 1,
-      "berry": 6
+      "tree": 0,
+      "berry": 4
     },
     "inventory": {
       "wood": 1,
@@ -103,7 +104,7 @@
       "wood"
     ],
     "inventions": [],
-    "home": null,
+    "home": 1,
     "nodes": [
       {
         "id": "wood1",
@@ -497,6 +498,36 @@
         "x": 12.9,
         "z": -2.4,
         "left": 0
+      },
+      {
+        "id": "planted57",
+        "res": "wood",
+        "x": -12.3,
+        "z": 25.1,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-29T21:57:44.660Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted58",
+        "res": "berries",
+        "x": -12.7,
+        "z": 28.1,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-29T21:57:44.660Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted59",
+        "res": "berries",
+        "x": 1.3,
+        "z": 27.2,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-29T21:57:44.660Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -570,16 +601,19 @@
       }
     ]
   },
-  "ticks": 16,
+  "ticks": 17,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [],
-  "thought": "Water is lowish at 39 and I have been promising the tree seed for ages. I have wood 4, clay 4, fibre 3, enough to design a small shelter. Let me design it now so the plan is real, then build it. A small hut: floor, walls with a door gap, roof cone. Design it near the nest.",
-  "face": "determined",
-  "lastThought": "2026-10-29T20:56:32.358Z",
+  "lastOutcome": [
+    "You planted 1 tree seeds and 2 berry seeds near the pond. Seedlings need tending to grow.",
+    "\"Cosy Hut\" is now your home. You'll sleep there."
+  ],
+  "thought": "My Cosy Hut is finished, sixteen metres away, and I keep sleeping in the open nest like a silly bird. I will make it my home now. I am at the pond with a tree seed and berry seeds in my pouch, so planting them here, near water, feels wise. Then berries and rest in the hut.",
+  "face": "proud",
+  "lastThought": "2026-10-29T21:57:44.660Z",
   "foundPlace": null
 }
