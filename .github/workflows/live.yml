@@ -1,6 +1,8 @@
 # Keeps Glorp alive on GitHub: every 10 minutes the island moves on. Glorp acts on instinct and
 # passion, and only stops to think (one Claude call) when something calls for it. Each run
 # saves Glorp's memories to the "life" branch, and publishes the web view to GitHub Pages.
+# GitHub's own schedule is unreliable (on this repo it never fired), so each run also starts
+# the next one about 10 minutes later. The schedule below stays as a backup.
 name: Glorp lives
 
 on:
@@ -14,6 +16,7 @@ on:
         default: false
 
 permissions:
+  actions: write # to start the next run
   contents: write
   pages: write
   id-token: write
@@ -27,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-    timeout-minutes: 10
+    timeout-minutes: 25
     env:
       # Use ONE of these secrets: a Claude subscription token (from `claude setup-token`) or a paid API key.
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -40,6 +43,9 @@ jobs:
       SLEEP_FROM_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_FROM_HOUR || '11' }}
       SLEEP_UNTIL_HOUR: ${{ inputs.awake && '0' || vars.SLEEP_UNTIL_HOUR || '19' }}
     steps:
+      - name: Note the start time
+        run: echo "STARTED=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
@@ -92,3 +98,14 @@ jobs:
       - name: Publish to GitHub Pages
         uses: actions/deploy-pages@v4
         continue-on-error: true
+
+      # Keep Glorp's island going: wait out the rest of the 10 minutes, then start the next run.
+      # This runs even if something above failed, so one bad moment never stops the island.
+      - name: Start the next moment in about 10 minutes
+        if: always() && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          wait=$(( 600 - ($(date +%s) - STARTED) ))
+          if [ "$wait" -gt 0 ]; then sleep "$wait"; fi
+          gh workflow run live.yml --repo "$GITHUB_REPOSITORY" --ref main -f awake=false
