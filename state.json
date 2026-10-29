@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T22:38:31.387Z",
+  "lastUpdate": "2026-10-29T22:48:45.622Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,14 +10,14 @@
   "doing": "tend plants at the pond",
   "busyUntil": "2026-10-29T23:03:20.927Z",
   "needs": {
-    "fullness": 47,
-    "water": 75,
-    "energy": 36,
-    "curiosity": 24,
-    "joy": 54,
+    "fullness": 46,
+    "water": 74,
+    "energy": 35,
+    "curiosity": 23,
+    "joy": 53,
     "calm": 100
   },
-  "health": 85,
+  "health": 86,
   "mood": "proud and caring",
   "memories": [],
   "wishes": [
@@ -362,7 +362,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.05,
+        "left": 0.1,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -512,7 +512,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.02,
+        "left": 0.04,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -522,7 +522,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 0.07,
+        "left": 0.14,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -532,7 +532,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 0.07,
+        "left": 0.14,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
