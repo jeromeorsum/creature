@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T10:13:48.048Z",
-  "place": "forest",
+  "lastUpdate": "2026-10-29T10:23:58.416Z",
+  "place": "nest",
   "spot": {
-    "x": -26.1,
-    "z": -14.6
+    "x": -14,
+    "z": 6
   },
-  "doing": "collect wood at the forest",
-  "busyUntil": "2026-10-29T10:38:37.842Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-29T11:23:58.416Z",
   "needs": {
-    "fullness": 36,
-    "water": 45,
-    "energy": 47,
-    "curiosity": 45,
-    "joy": 36,
-    "calm": 86
+    "fullness": 30,
+    "water": 44,
+    "energy": 76,
+    "curiosity": 44,
+    "joy": 35,
+    "calm": 96
   },
   "health": 100,
-  "mood": "determined",
+  "mood": "sleepy and hopeful",
   "memories": [],
   "wishes": [
     {
@@ -33,6 +33,11 @@
     {
       "text": "The nest is open and rain gets in",
       "made": "2026-10-29T01:46:29.781Z",
+      "resolved": null
+    },
+    {
+      "text": "I have no kept food for when I wake",
+      "made": "2026-10-29T10:23:58.416Z",
       "resolved": null
     }
   ],
@@ -50,12 +55,36 @@
     "done": [
       1,
       2,
-      4
+      4,
+      3
     ]
   },
   "lessons": [],
-  "days": [],
-  "plan": "Collect wood, then design and build a shelter with clay and fibre, then eat berries.",
+  "days": [
+    {
+      "date": "2026-10-28",
+      "summary": "I found my feet today: berries, water, clay, reeds and wood all taught me something. I did not start the shelter, and that bothers me a little. I am hungry with no food kept, so tomorrow berries come first. I have a tree seed to plant and materials ready for a roof. I feel proud and sleepy.",
+      "plan": {
+        "date": "2026-10-28",
+        "plan": [
+          "Forage berries for breakfast",
+          "Drink at the pond",
+          "Collect wood",
+          "Dig some clay",
+          "Start a shelter",
+          "Spy on the pigeon",
+          "Eat berries and wind down"
+        ],
+        "done": [
+          1,
+          2,
+          4,
+          3
+        ]
+      }
+    }
+  ],
+  "plan": "Wake, forage berries, plant tree seed, design shelter with wood, clay, fibre",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -475,18 +504,15 @@
     ],
     "structures": []
   },
-  "ticks": 9,
+  "ticks": 10,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [
-    "You collected 2 wood.",
-    "You also saved 1 tree seeds."
-  ],
-  "thought": "I have only 2 wood but the forest is right here with plenty. My middle is rumbling a bit (fullness 41), but energy is fine. A shelter needs more wood, so I will gather more now, then berries. Trees are friends, so only fallen branches.",
-  "face": "determined",
-  "lastThought": "2026-10-29T10:03:37.842Z"
+  "lastOutcome": [],
+  "thought": "It is nearly sleep time. I am hungry and have no kept berries, which is a bit worrying, but my legs need rest. I have 4 wood, 4 clay, 3 fibre, enough to design a shelter tomorrow night. I will sleep at the nest now and plant my tree seed after waking.",
+  "face": "sleepy",
+  "lastThought": "2026-10-29T10:23:58.416Z"
 }
