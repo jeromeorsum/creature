@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T18:54:05.351Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-29T19:04:17.631Z",
+  "place": "pond",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in the nest",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-29T19:14:17.631Z",
   "needs": {
     "fullness": 0,
-    "water": 0,
-    "energy": 100,
-    "curiosity": 41,
-    "joy": 32,
+    "water": 50,
+    "energy": 99,
+    "curiosity": 40,
+    "joy": 31,
     "calm": 100
   },
-  "health": 75,
-  "mood": "sleepy and hopeful",
+  "health": 74,
+  "mood": "thirsty but hopeful",
   "memories": [],
   "wishes": [
     {
@@ -42,22 +42,18 @@
     }
   ],
   "today": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "plan": [
-      "Forage berries for breakfast",
       "Drink at the pond",
-      "Collect wood",
-      "Dig some clay",
-      "Start a shelter",
-      "Spy on the pigeon",
-      "Eat berries and wind down"
+      "Forage berries for breakfast and keep some",
+      "Plant the tree seed",
+      "Design and start the shelter",
+      "Collect more wood",
+      "Tend plants",
+      "Splash in the pond for fun",
+      "Wind down and eat before bed"
     ],
-    "done": [
-      1,
-      2,
-      4,
-      3
-    ]
+    "done": []
   },
   "lessons": [],
   "days": [
@@ -84,7 +80,7 @@
       }
     }
   ],
-  "plan": "Wake, forage berries, plant tree seed, design shelter with wood, clay, fibre",
+  "plan": "Drink, forage berries, plant tree seed, design shelter",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -504,15 +500,15 @@
     ],
     "structures": []
   },
-  "ticks": 10,
+  "ticks": 11,
   "spend": {
-    "day": "2026-10-28",
+    "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly sleep time. I am hungry and have no kept berries, which is a bit worrying, but my legs need rest. I have 4 wood, 4 clay, 3 fibre, enough to design a shelter tomorrow night. I will sleep at the nest now and plant my tree seed after waking.",
-  "face": "sleepy",
-  "lastThought": "2026-10-29T10:23:58.416Z"
+  "thought": "My middle is empty and my mouth is dry as old leaves. Water is the most urgent, and the pond is close. Then berries at the thicket, since I have no kept food. After that I plant my tree seed and start a shelter. Drink first.",
+  "face": "determined",
+  "lastThought": "2026-10-29T19:04:17.631Z"
 }
