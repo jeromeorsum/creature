@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T04:57:18.979Z",
+  "lastUpdate": "2026-10-29T05:07:30.439Z",
   "place": "pond",
   "spot": {
     "x": -5.6,
@@ -10,11 +10,11 @@
   "doing": "dig clay at the pond",
   "busyUntil": "2026-10-29T05:27:18.979Z",
   "needs": {
-    "fullness": 57,
-    "water": 76,
-    "energy": 48,
-    "curiosity": 70,
-    "joy": 63,
+    "fullness": 56,
+    "water": 75,
+    "energy": 47,
+    "curiosity": 69,
+    "joy": 62,
     "calm": 60
   },
   "health": 100,
@@ -270,7 +270,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0
+        "left": 0.03
       },
       {
         "id": "clay3",
