@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T19:04:17.631Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-29T19:14:34.104Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-10-29T19:14:17.631Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-29T19:39:34.104Z",
   "needs": {
-    "fullness": 0,
-    "water": 50,
-    "energy": 99,
-    "curiosity": 40,
-    "joy": 31,
+    "fullness": 24,
+    "water": 49,
+    "energy": 94,
+    "curiosity": 39,
+    "joy": 33,
     "calm": 100
   },
-  "health": 74,
-  "mood": "thirsty but hopeful",
+  "health": 73,
+  "mood": "hungry but determined",
   "memories": [],
   "wishes": [
     {
@@ -45,15 +45,17 @@
     "date": "2026-10-29",
     "plan": [
       "Drink at the pond",
-      "Forage berries for breakfast and keep some",
+      "Forage berries and keep some",
       "Plant the tree seed",
       "Design and start the shelter",
       "Collect more wood",
       "Tend plants",
-      "Splash in the pond for fun",
-      "Wind down and eat before bed"
+      "Splash in the pond",
+      "Eat before bed"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [],
   "days": [
@@ -80,14 +82,14 @@
       }
     }
   ],
-  "plan": "Drink, forage berries, plant tree seed, design shelter",
+  "plan": "Berries, keep some, plant tree seed, design shelter",
   "knowledge": [],
   "world": {
     "weather": "sunny",
     "food": 0,
     "seeds": {
       "tree": 1,
-      "berry": 0
+      "berry": 2
     },
     "inventory": {
       "wood": 4,
@@ -495,20 +497,23 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4
+        "left": 2
       }
     ],
     "structures": []
   },
-  "ticks": 11,
+  "ticks": 12,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "My middle is empty and my mouth is dry as old leaves. Water is the most urgent, and the pond is close. Then berries at the thicket, since I have no kept food. After that I plant my tree seed and start a shelter. Drink first.",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My middle is totally empty, fullness zero, and water is only half. I drank a bit but the pond is right here, so one more drink is cheap, but berries are the real emergency. The thicket is where berries live. I will forage now and keep extras so I stop waking up with nothing saved. Then the tree seed and the roof.",
   "face": "determined",
-  "lastThought": "2026-10-29T19:04:17.631Z"
+  "lastThought": "2026-10-29T19:14:34.104Z"
 }
