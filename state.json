@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T06:18:56.289Z",
+  "lastUpdate": "2026-10-29T06:29:11.335Z",
   "place": "pond",
   "spot": {
-    "x": -3.9,
-    "z": 19.8
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-10-29T06:39:11.335Z",
   "needs": {
-    "fullness": 49,
-    "water": 68,
-    "energy": 34,
-    "curiosity": 62,
-    "joy": 55,
+    "fullness": 76,
+    "water": 67,
+    "energy": 33,
+    "curiosity": 61,
+    "joy": 58,
     "calm": 66
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "hungry but hopeful",
   "memories": [],
   "wishes": [
     {
@@ -55,11 +55,11 @@
   },
   "lessons": [],
   "days": [],
-  "plan": "Pull reeds, gather wood, then build a shelter with clay and fibre.",
+  "plan": "Eat, nap, then collect wood and build a shelter with clay and fibre.",
   "knowledge": [],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 0
@@ -473,18 +473,17 @@
     ],
     "structures": []
   },
-  "ticks": 4,
+  "ticks": 5,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You collected 3 fibre.",
-    "That was the first fibre you ever held."
+    "You ate 2 berries from your food."
   ],
-  "thought": "I'm at the pond with clay in my beak-pouch and the reeds are right here. Reeds give fibre, which is stringy and bendy, perfect for tying a roof together. Energy is 45, so not too many heavy chores. Pulling reeds is light and calms me. Then I can go for wood.",
+  "thought": "Dawn is here and my sleeping time is coming, but my energy is only 33 and fullness 48. I still need wood for a roof and the forest is far. Wood is the missing piece. First I should eat the berries I have, since fullness is low. Actually I could eat now, quick and easy, then go nap. Let me eat berries to fix the rumbly middle.",
   "face": "determined",
-  "lastThought": "2026-10-29T05:27:53.958Z"
+  "lastThought": "2026-10-29T06:29:11.335Z"
 }
