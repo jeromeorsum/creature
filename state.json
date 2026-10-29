@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T20:46:20.694Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-29T20:56:32.358Z",
+  "place": "nest",
   "spot": {
-    "x": 18.4,
-    "z": -1.8
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-29T20:50:55.310Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-10-29T21:41:32.358Z",
   "needs": {
-    "fullness": 63,
-    "water": 40,
-    "energy": 77,
-    "curiosity": 30,
-    "joy": 30,
+    "fullness": 57,
+    "water": 39,
+    "energy": 62,
+    "curiosity": 34,
+    "joy": 51,
     "calm": 100
   },
-  "health": 79,
-  "mood": "hungry but determined",
+  "health": 80,
+  "mood": "excited and determined",
   "memories": [],
   "wishes": [
     {
@@ -44,13 +44,13 @@
   "today": {
     "date": "2026-10-29",
     "plan": [
-      "Forage berries and keep some",
+      "Design and start the hut",
+      "Drink at the pond",
       "Plant the tree seed",
-      "Design and start the shelter",
       "Collect more wood",
+      "Forage berries for dinner",
       "Tend plants",
-      "Splash in the pond",
-      "Eat before bed"
+      "Wind down and eat"
     ],
     "done": [
       1
@@ -81,7 +81,7 @@
       }
     }
   ],
-  "plan": "Berries and keep some, plant tree seed, design shelter",
+  "plan": "Design hut, build it, drink, plant tree seed, make it home",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -91,10 +91,10 @@
       "berry": 6
     },
     "inventory": {
-      "wood": 4,
+      "wood": 1,
       "stone": 0,
-      "clay": 4,
-      "fibre": 3,
+      "clay": 3,
+      "fibre": 0,
       "shells": 0
     },
     "discovered": [
@@ -499,20 +499,89 @@
         "left": 0
       }
     ],
-    "structures": []
+    "structures": [
+      {
+        "id": 1,
+        "name": "Cosy Hut",
+        "purpose": "A dry home so rain stops dripping on my head",
+        "place": "nest",
+        "x": -8,
+        "z": 6,
+        "rot": 0,
+        "blocks": [
+          {
+            "shape": "box",
+            "material": "clay",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 2.4,
+            "h": 0.2,
+            "d": 2.4,
+            "placed": true
+          },
+          {
+            "shape": "box",
+            "material": "wood",
+            "x": -1.1,
+            "y": 0.2,
+            "z": 0,
+            "w": 0.2,
+            "h": 1.4,
+            "d": 2.2,
+            "placed": true
+          },
+          {
+            "shape": "box",
+            "material": "wood",
+            "x": 1.1,
+            "y": 0.2,
+            "z": 0,
+            "w": 0.2,
+            "h": 1.4,
+            "d": 2.2,
+            "placed": true
+          },
+          {
+            "shape": "box",
+            "material": "wood",
+            "x": 0,
+            "y": 0.2,
+            "z": -1.1,
+            "w": 2,
+            "h": 1.4,
+            "d": 0.2,
+            "placed": true
+          },
+          {
+            "shape": "cone",
+            "material": "fibre",
+            "x": 0,
+            "y": 1.6,
+            "z": 0,
+            "w": 3,
+            "h": 1,
+            "d": 3,
+            "placed": true
+          }
+        ],
+        "started": "2026-10-29T20:56:32.358Z",
+        "finished": "2026-10-29T20:56:32.358Z"
+      }
+    ]
   },
-  "ticks": 14,
+  "ticks": 15,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You placed 5 blocks on \"Cosy Hut\" and FINISHED it."
   ],
-  "thought": "My middle is still half empty at 41 and I have no kept food. Six bushes still have berries right here, so foraging again is the sensible thing. I want to keep extras this time so future me wakes up happy. Then the tree seed and the roof.",
+  "thought": "Water is lowish at 39 and I have been promising the tree seed for ages. I have wood 4, clay 4, fibre 3, enough to design a small shelter. Let me design it now so the plan is real, then build it. A small hut: floor, walls with a door gap, roof cone. Design it near the nest.",
   "face": "determined",
-  "lastThought": "2026-10-29T20:25:55.310Z"
+  "lastThought": "2026-10-29T20:56:32.358Z",
+  "foundPlace": null
 }
