@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T10:03:37.842Z",
+  "lastUpdate": "2026-10-29T10:13:48.048Z",
   "place": "forest",
   "spot": {
     "x": -26.1,
@@ -10,11 +10,11 @@
   "doing": "collect wood at the forest",
   "busyUntil": "2026-10-29T10:38:37.842Z",
   "needs": {
-    "fullness": 37,
-    "water": 46,
-    "energy": 48,
-    "curiosity": 46,
-    "joy": 37,
+    "fullness": 36,
+    "water": 45,
+    "energy": 47,
+    "curiosity": 45,
+    "joy": 36,
     "calm": 86
   },
   "health": 100,
