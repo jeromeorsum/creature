@@ -1,7 +1,7 @@
 // Loading, saving and updating Glorp's state on disk.
 import fs from "node:fs";
 import path from "node:path";
-import { NEEDS, DECAY_PER_HOUR } from "./world.js";
+import { NEEDS, DECAY_PER_HOUR, PLACE_POS, newWorld } from "./world.js";
 
 export const DATA_DIR = process.env.CREATURE_DATA_DIR || path.resolve("data");
 const STATE_FILE = () => path.join(DATA_DIR, "state.json");
@@ -13,6 +13,7 @@ export function newState(now = new Date()) {
     born: now.toISOString(),
     lastUpdate: now.toISOString(),
     place: "burrow",
+    spot: { ...PLACE_POS.burrow }, // exact spot on the island
     doing: "just woke up for the very first time",
     busyUntil: null,
     needs: { fullness: 70, energy: 80, curiosity: 60, joy: 70, calm: 70 },
@@ -21,14 +22,26 @@ export function newState(now = new Date()) {
     wishes: [], // { text, made, done }
     hobbies: [], // hobbies Glorp invented
     creations: [], // { title, kind, file, made }
+    concerns: [], // { text, made, resolved } things Glorp is worried about
+    plan: null, // what Glorp is currently trying to do, in its own words
+    world: newWorld(), // resources, inventory, buildings
     ticks: 0,
     spend: { day: null, usd: 0, totalUsd: 0, ticks: 0 },
   };
 }
 
+// Older Glorps didn't have an island yet: give them one.
+export function upgradeState(state) {
+  state.world ??= newWorld();
+  state.concerns ??= [];
+  state.plan ??= null;
+  state.spot ??= { ...(PLACE_POS[state.place] ?? PLACE_POS.burrow) };
+  return state;
+}
+
 export function loadState(now = new Date()) {
   try {
-    return JSON.parse(fs.readFileSync(STATE_FILE(), "utf8"));
+    return upgradeState(JSON.parse(fs.readFileSync(STATE_FILE(), "utf8")));
   } catch (err) {
     if (err.code === "ENOENT") return newState(now);
     throw err;

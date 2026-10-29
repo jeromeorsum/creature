@@ -4,10 +4,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadState, readDiary, CREATIONS_DIR } from "./state.js";
-import { allActivities, PLACES } from "./world.js";
+import { allActivities, PLACES, PLACE_POS, RESOURCES } from "./world.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const PAGE = path.join(here, "..", "web", "index.html");
+export const THREE_FILE = path.join(here, "..", "node_modules", "three", "build", "three.module.min.js");
 
 // Everything the web page needs, in one object.
 export function snapshot() {
@@ -16,6 +17,8 @@ export function snapshot() {
     state,
     diary: readDiary(40).reverse(),
     places: Object.keys(PLACES),
+    placeInfo: Object.fromEntries(Object.entries(PLACES).map(([k, about]) => [k, { ...PLACE_POS[k], about }])),
+    resources: RESOURCES,
     activities: allActivities(state),
     now: new Date().toISOString(),
   };
@@ -31,6 +34,7 @@ export function startServer(port = Number(process.env.PORT || 3000)) {
     const url = new URL(req.url, "http://localhost");
     try {
       if (url.pathname === "/") return send(res, 200, fs.readFileSync(PAGE, "utf8"), "text/html; charset=utf-8");
+      if (url.pathname === "/three.module.min.js") return send(res, 200, fs.readFileSync(THREE_FILE, "utf8"), "text/javascript");
       if (url.pathname === "/api/state.json") return send(res, 200, snapshot());
       if (url.pathname.startsWith("/api/creation/")) {
         const name = path.basename(decodeURIComponent(url.pathname.slice("/api/creation/".length)));

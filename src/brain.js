@@ -5,7 +5,9 @@ import { promisify } from "node:util";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { describeCreature } from "./personality.js";
-import { NEEDS, PLACES, allActivities } from "./world.js";
+import {
+  NEEDS, PLACES, MATERIALS, SHAPES, BUILD_LIMITS, RESOURCES, allActivities, missingFor, problems, resourceLeft,
+} from "./world.js";
 
 // US dollars per million tokens: [input, output]
 const PRICES = {
@@ -45,6 +47,32 @@ export function decisionSchema(activityIds) {
     new_wish: z.string().nullable().describe("Something new you want (to do, make, learn, get). Otherwise null."),
     wish_done: z.number().nullable().describe("Number of a wish from your list that you just fulfilled. Otherwise null."),
     remember: z.string().nullable().describe("A long-term memory worth keeping forever. Rare. Otherwise null."),
+    concern: z.string().nullable().describe("A new worry or problem on your mind (something you want to solve). Otherwise null."),
+    concern_solved: z.number().nullable().describe("Number of a worry from your list that is now solved or no longer matters. Otherwise null."),
+    plan: z.string().nullable().describe("Your current plan in a few short steps, if it changed (e.g. 'get 6 stone, then finish the tower, then watch trains from it'). Otherwise null to keep the old plan."),
+    build_target: z.number().nullable().describe("Only for 'build': the number of the project to work on. Otherwise null."),
+    new_project: z
+      .object({
+        name: z.string().describe("What you call it."),
+        purpose: z.string().describe("Why you are building it: what problem it solves or why you want it."),
+        near: z.string().describe(`Which place to build it near, one of: ${placeIds.join(", ")}.`),
+        blocks: z
+          .array(
+            z.object({
+              shape: z.string().describe(SHAPES.join(" | ")),
+              material: z.string().describe(MATERIALS.join(" | ")),
+              x: z.number().describe(`metres east of the project centre, -${BUILD_LIMITS.maxOffset} to ${BUILD_LIMITS.maxOffset}`),
+              y: z.number().describe(`metres above the ground to the block's bottom, 0 to ${BUILD_LIMITS.maxHeight}`),
+              z: z.number().describe(`metres south of the project centre, -${BUILD_LIMITS.maxOffset} to ${BUILD_LIMITS.maxOffset}`),
+              w: z.number().describe(`width 0.2 to ${BUILD_LIMITS.maxSize}`),
+              h: z.number().describe(`height 0.2 to ${BUILD_LIMITS.maxSize}`),
+              d: z.number().describe(`depth 0.2 to ${BUILD_LIMITS.maxSize}`),
+            }),
+          )
+          .describe(`The 3D design, 1 to ${BUILD_LIMITS.maxBlocks} blocks, bottom blocks first. You are about 1.5 metres tall including your crest.`),
+      })
+      .nullable()
+      .describe("Design a new building project (it appears in the world and you build it block by block with 'build'). Only when you really want to build something. Otherwise null."),
   });
 }
 
@@ -55,9 +83,12 @@ How your life works:
 - You have five needs from 0 to 100: fullness, energy, curiosity, joy, calm. Low needs make you grumpy, sleepy or restless. Look after yourself, but you are free to be silly.
 - You grow over time: you make things, invent hobbies, keep wishes, and remember what matters. Build on what you did before instead of repeating yourself. Follow your own interests and let them get deeper and stranger.
 - When you make something, actually make it in full (write the poem, the song, the recipe, the plan).
+- You live on a small island. You can scavenge wood, stone, shells and scrap, and pick berries to keep the kitchen cupboard stocked. Resources run out and grow back slowly, so think ahead.
+- You can design buildings and contraptions out of blocks (boxes, cylinders, cones, spheres) and build them over several turns. They stay in the world for good. Build things that solve your problems or make your island better or stranger: shelters, towers, pigeon defences, bridges, statues of yourself, anything.
+- Things go wrong: the pigeon steals, wind knocks blocks off, the cupboard empties. Notice problems, worry about them, make plans, and solve them step by step. Keep track of your worries and your plan.
 - Keep the diary entry true to what you did this turn.`;
 
-export function buildSituation(state, diary, now) {
+export function buildSituation(state, diary, now, opts = {}) {
   const acts = allActivities(state);
   const lines = [];
   lines.push(`It is ${now.toLocaleString("en-GB", { weekday: "long", hour: "2-digit", minute: "2-digit", day: "numeric", month: "long" })}.`);
@@ -71,6 +102,34 @@ export function buildSituation(state, diary, now) {
     const fx = Object.entries(a.effects).filter(([, v]) => v).map(([k, v]) => `${k} ${v > 0 ? "+" : ""}${v}`).join(", ");
     lines.push(`- ${id}${a.invented ? " (your own hobby)" : ""}: ${a.about}. [${a.place ?? "anywhere"}, ${a.minutes} min, ${fx}]`);
   }
+  const w = state.world;
+  lines.push("");
+  lines.push(`Weather: ${w.weather}. Kitchen cupboard: ${w.pantry} berries.`);
+  lines.push(`Your materials: ${MATERIALS.map((m) => `${m} ${w.inventory[m] ?? 0}`).join(", ")}.`);
+  lines.push("Left to collect on the island: " + Object.keys(RESOURCES).map((r) => `${r} ${resourceLeft(w, r)}`).join(", ") + ".");
+  lines.push(`Block cost: 1 material for small blocks, up to 4 for big ones (cost = 1 + volume/2).`);
+  lines.push("");
+  lines.push("Your building projects:");
+  if (!w.structures.length) lines.push("(none yet)");
+  for (const s of w.structures.slice(-12)) {
+    const done = s.blocks.filter((b) => b.placed).length;
+    const status = s.finished ? "finished" : `${done}/${s.blocks.length} blocks placed, still needs ${Object.entries(missingFor(w, s).need).map(([k, v]) => `${v} ${k}`).join(", ")}`;
+    lines.push(`${s.id}. "${s.name}" near the ${s.place}: ${s.purpose} [${status}]`);
+  }
+  if (opts.events?.length) {
+    lines.push("");
+    lines.push("Just happened:");
+    lines.push(opts.events.map((e) => `- ${e}`).join("\n"));
+  }
+  const probs = problems(state);
+  lines.push("");
+  lines.push("Problems you can see:");
+  lines.push(probs.length ? probs.map((p) => `- ${p}`).join("\n") : "(none right now)");
+  lines.push("");
+  lines.push("Your worries:");
+  const worries = state.concerns.map((c, i) => ({ ...c, n: i + 1 })).filter((c) => !c.resolved).slice(-8);
+  lines.push(worries.length ? worries.map((c) => `${c.n}. ${c.text}`).join("\n") : "(none)");
+  lines.push(`Your current plan: ${state.plan ?? "(no plan yet)"}`);
   lines.push("");
   lines.push("Your wishes:");
   const open = state.wishes.map((w, i) => ({ ...w, n: i + 1 })).filter((w) => !w.done);
@@ -105,7 +164,7 @@ export async function think(state, diary, now, opts = {}) {
     // If a safety check declines the request, the API retries it on another model.
     betas: ["server-side-fallback-2026-07-01"],
     fallbacks: "default",
-    messages: [{ role: "user", content: buildSituation(state, diary, now) }],
+    messages: [{ role: "user", content: buildSituation(state, diary, now, opts) }],
   });
 
   if (response.stop_reason === "refusal") {
@@ -126,7 +185,7 @@ export async function think(state, diary, now, opts = {}) {
 // (CLAUDE_CODE_OAUTH_TOKEN from `claude setup-token`) instead of a paid API key.
 async function thinkWithClaudeCode(state, diary, now, schema, activityIds, opts) {
   const args = [
-    "-p", buildSituation(state, diary, now),
+    "-p", buildSituation(state, diary, now, opts),
     "--system-prompt", SYSTEM,
     "--output-format", "json",
     "--json-schema", JSON.stringify(zodOutputFormat(schema).schema),
@@ -154,12 +213,14 @@ function pick(value, options) {
 export function tidyDecision(d, activityIds) {
   const activity = pick(d.activity, activityIds) ?? "wander";
   const go_to = pick(d.go_to, placeIds);
+  let new_project = d.new_project;
+  if (new_project) new_project = { ...new_project, near: pick(new_project.near, placeIds) ?? "burrow" };
   let new_hobby = d.new_hobby;
   if (new_hobby) {
     const place = pick(new_hobby.place, placeIds);
     new_hobby = place ? { ...new_hobby, place } : null;
   }
-  return { ...d, activity, go_to, new_hobby };
+  return { ...d, activity, go_to, new_hobby, new_project };
 }
 
 // A stand-in brain for testing without an API key.
@@ -180,5 +241,14 @@ function fakeDecision(state, acts) {
     new_wish: state.wishes.length === 0 ? "find out what the pigeon is planning" : null,
     wish_done: null,
     remember: null,
+    concern: state.world.pantry < 2 ? "the cupboard is nearly empty" : null,
+    concern_solved: null,
+    plan: null,
+    build_target: null,
+    new_project: activity === "build" && !state.world.structures.some((s) => !s.finished)
+      ? { name: "Test Tower", purpose: "testing", near: "garden", blocks: [
+          { shape: "box", material: "wood", x: 0, y: 0, z: 0, w: 1, h: 1, d: 1 },
+          { shape: "cone", material: "stone", x: 0, y: 1, z: 0, w: 1, h: 1, d: 1 }] }
+      : null,
   };
 }

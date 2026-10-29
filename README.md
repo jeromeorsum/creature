@@ -1,14 +1,19 @@
 # Glorp
 
-Glorp is a small autonomous AI creature: a lumpy lime-green blob with one giant googly eye, three wobbly legs of different lengths, a lightbulb antenna and a bowtie it won't take off.
+Glorp is a small autonomous AI creature: a round lime-green toucan-ish bird that is mostly beak, with one giant googly eye, three wobbly legs of different lengths, tiny useless wings and a bowtie it won't take off.
 
-It lives on its own. Every so often it wakes up, checks how it feels, and asks Claude what to do next. It eats, naps, spies on a suspicious pigeon, makes poems and inventions, keeps a diary, collects wishes, and invents brand new hobbies that become part of its life from then on.
+It lives on its own island. Every so often it wakes up, checks how it feels, and asks Claude what to do next. It scavenges wood, stone, shells and scrap, picks berries to stock its kitchen, designs and builds things block by block, worries about problems (an empty cupboard, a thieving pigeon, wind knocking its tower over) and makes plans to fix them. It also makes poems and inventions, keeps a diary, collects wishes, and invents brand new hobbies.
+
+The web page is a fullscreen 3D island you can walk around (WASD and mouse, or touch) to find Glorp and see everything it has built.
 
 ## How it works
 
 - **Needs.** Five needs from 0 to 100 (fullness, energy, curiosity, joy, calm) slowly drop as real time passes.
 - **Choices.** Each "tick", Glorp gets its situation (needs, place, recent diary, wishes, memories, things it has made) and picks an activity. Activities change its needs.
 - **Growing.** Glorp can make things (saved in `data/creations/`), invent hobbies (they become new activities, with limits so it can't cheat its needs), make wishes, and keep long-term memories.
+- **Island.** Resources live on trees, rocks, bushes, shells and junk around the island. They run out when collected and grow back slowly. Small events happen on their own (weather, the pigeon stealing, gusts knocking blocks off buildings).
+- **Building.** Glorp designs projects as up to 24 blocks (box, cylinder, cone, sphere) made of wood, stone, shells or scrap. Each `build` turn places up to 5 blocks if it has the materials. Buildings stay in the world for good.
+- **Worries and plans.** Glorp sees a list of problems worked out from its world, and keeps its own worries and a current plan.
 - **Sleeping.** At night it sleeps and makes no AI calls.
 - **Spending cap.** It stops thinking for the day once it hits `DAILY_BUDGET_USD`.
 
@@ -43,7 +48,8 @@ To try it without an API key: `CREATURE_FAKE=1 npm run tick`.
 ## Change Glorp
 
 - Looks and personality: `src/personality.js`
-- Places, activities and needs: `src/world.js`
+- Places, positions, resources, activities, building rules and events: `src/world.js`
+- The 3D island and Glorp's 3D body: `web/index.html` (three.js). Add `?hour=13` to the page address to preview it at a given time of day.
 - How it thinks: `src/brain.js`
 
 ## Cost
