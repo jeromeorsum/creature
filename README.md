@@ -2,20 +2,26 @@
 
 Glorp is a small autonomous AI creature: a round lime-green toucan-ish bird that is mostly beak, with one giant googly eye, three wobbly legs of different lengths, tiny useless wings and a bowtie it won't take off.
 
-It lives on its own island. Every so often it wakes up, checks how it feels, and asks Claude what to do next. It scavenges wood, stone, shells and scrap, picks berries to stock its kitchen, designs and builds things block by block, worries about problems (an empty cupboard, a thieving pigeon, wind knocking its tower over) and makes plans to fix them. It also makes poems and inventions, keeps a diary, collects wishes, and invents brand new hobbies.
+It hatched alone on a wild island with nothing man-made on it: trees, rocks, a clay bank, reeds, shells, berry bushes and a pond. It starts as a newborn that knows nothing. It discovers each material by finding and handling it, works out what things are for, invents its own tools, learns lessons from its mistakes, and builds everything itself.
 
-The web page is a fullscreen 3D island you can walk around (WASD and mouse, or touch) to find Glorp and see everything it has built.
+It has to survive off the island. It gets hungry and thirsty, and its health drops if it goes without food or water. The island is limited: stone never comes back, a tree cut right down dies, and plants only grow back when Glorp looks after them or plants seeds it saved.
+
+The web page is a fullscreen 3D island in a storybook cartoon style that you can walk around (WASD and mouse, or touch) to find Glorp and see everything it has built.
 
 ## How it works
 
-- **Needs.** Five needs from 0 to 100 (fullness, energy, curiosity, joy, calm) slowly drop as real time passes.
-- **Choices.** Each "tick", Glorp gets its situation (needs, place, recent diary, wishes, memories, things it has made) and picks an activity. Activities change its needs.
-- **Growing.** Glorp can make things (saved in `data/creations/`), invent hobbies (they become new activities, with limits so it can't cheat its needs), make wishes, and keep long-term memories.
-- **Island.** Resources live on trees, rocks, bushes, shells and junk around the island. They run out when collected and grow back slowly. Small events happen on their own (weather, the pigeon stealing, gusts knocking blocks off buildings).
-- **Building.** Glorp designs projects as up to 24 blocks (box, cylinder, cone, sphere) made of wood, stone, shells or scrap. Each `build` turn places up to 5 blocks if it has the materials. Buildings stay in the world for good.
-- **Worries and plans.** Glorp sees a list of problems worked out from its world, and keeps its own worries and a current plan.
+- **Needs.** Six needs from 0 to 100 (fullness, water, energy, curiosity, joy, calm) slowly drop as real time passes, plus health.
+- **A real day.** On its first moment awake Glorp plans its day, ticks things off as it goes, and writes a summary of the day at bedtime.
+- **Choices.** Each "tick", Glorp gets its situation (needs, health, what is around it, what it knows, what happened last time, its plan, worries and lessons) and picks an activity.
+- **Survival.** Drinking at the pond, picking and eating berries, storing food. The pigeon sometimes steals food.
+- **Limited island.** Wood comes from trees (cut one to nothing and it dies). Stone never comes back. Clay only comes back when it rains. Reeds, berries and trees only regrow while tended, and seeds Glorp saves can be planted to grow new ones.
+- **Discovering and inventing.** Glorp can only use materials it has discovered. It can work things out (saved as knowledge) and invent tools that really help (more wood, better sleep, storing more food).
+- **Building.** Glorp designs projects as up to 24 blocks (box, cylinder, cone, sphere) from the materials it knows. Each `build` turn places up to 5 blocks if it has the materials. It can make a finished building its home and sleep there.
+- **Growing.** Glorp can make things (saved in `data/creations/`), invent hobbies, make wishes, and keep long-term memories.
 - **Sleeping.** At night it sleeps and makes no AI calls.
-- **Spending cap.** It stops thinking for the day once it hits `DAILY_BUDGET_USD`.
+- **Spending cap.** At most `MAX_TICKS_PER_DAY` thoughts a day (and `DAILY_BUDGET_USD` on an API key).
+
+If the shape of Glorp's saved life changes, its old life is moved to `data/past-life/` and it hatches again.
 
 Everything Glorp is lives in `data/` (`state.json`, `diary.jsonl`, `creations/`).
 
