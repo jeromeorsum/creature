@@ -139,7 +139,7 @@
 </aside>
 
 <div id="stick" class="hud"><div></div></div>
-<div id="hint" class="hud card">WASD to walk · Shift to run · click, then move the mouse to look · F finds Glorp · J opens the journal</div>
+<div id="hint" class="hud card">WASD to walk · Shift to run · Space to jump · click, then move the mouse to look · F finds Glorp · J opens the journal</div>
 <div id="crosshair" class="hud"></div>
 
 <div id="intro" class="hud">
@@ -254,7 +254,55 @@ function mesh(geo, material, x = 0, y = 0, z = 0, parent = scene) {
   const m = new THREE.Mesh(geo, typeof material === "number" ? mat(material) : material);
   m.position.set(x, y, z); m.castShadow = true; m.receiveShadow = true; parent.add(m); return m;
 }
-function onGround(obj, x, z, lift = 0) { obj.position.set(x, groundY(x, z) + lift, z); return obj; }
+function onGround(obj, x, z, lift = 0) { obj.position.set(x, terrainY(x, z) + lift, z); return obj; }
+
+// ---------- physics: gravity, solid ground, and solid things you can't walk through ----------
+// Colliders are upright circles {x, z, r} or rotated boxes {x, z, hw, hd, cos, sin}, each with a bottom and a top.
+// A body can step up onto anything lower than its step height, and is pushed out of anything taller.
+const GRAVITY = 18;
+const staticCols = [], dynCols = [];
+const NO_BOTTOM = -99;
+function circleCol(list, x, z, r, top, extra = {}) { const c = { x, z, r, top, bottom: NO_BOTTOM, ...extra }; list.push(c); return c; }
+function toLocal(c, x, z) { const dx = x - c.x, dz = z - c.z; return [dx * c.cos - dz * c.sin, dx * c.sin + dz * c.cos]; }
+function insideCol(c, x, z, pad = 0) {
+  if (c.hw === undefined) return Math.hypot(x - c.x, z - c.z) < c.r + pad;
+  const [lx, lz] = toLocal(c, x, z); return Math.abs(lx) < c.hw + pad && Math.abs(lz) < c.hd + pad;
+}
+function pushOut(c, x, z, pad) {
+  if (c.hw === undefined) {
+    const dx = x - c.x, dz = z - c.z, d = Math.hypot(dx, dz) || 0.0001, need = c.r + pad;
+    return d < need ? { x: (dx / d) * (need - d), z: (dz / d) * (need - d) } : null;
+  }
+  const [lx, lz] = toLocal(c, x, z), HW = c.hw + pad, HD = c.hd + pad;
+  if (Math.abs(lx) >= HW || Math.abs(lz) >= HD) return null;
+  let px = 0, pz = 0;
+  if (HW - Math.abs(lx) < HD - Math.abs(lz)) px = (HW - Math.abs(lx)) * Math.sign(lx || 1); else pz = (HD - Math.abs(lz)) * Math.sign(lz || 1);
+  return { x: px * c.cos + pz * c.sin, z: -px * c.sin + pz * c.cos };
+}
+function surfaceAt(x, z, y = 99, step = 99) {
+  let g = Math.max(terrainY(x, z), -0.4); // the sea floor is too deep to walk on, so you wade at -0.4
+  for (const list of [staticCols, dynCols]) for (const c of list) if (c.stand !== false && c.top > g && c.top <= y + step && insideCol(c, x, z)) g = c.top;
+  return g;
+}
+// Push a body {x, z, y, r, h, step, kind} out of anything it can't step onto. Returns true if it hit something.
+function collide(b) {
+  let hit = false;
+  for (let it = 0; it < 2; it++) for (const list of [staticCols, dynCols]) for (const c of list) {
+    if (c.only && !c.only.includes(b.kind)) continue;
+    if (c.top <= b.y + b.step || c.bottom >= b.y + b.h) continue;
+    const p = pushOut(c, b.x, b.z, b.r); if (p) { b.x += p.x; b.z += p.z; hit = true; }
+  }
+  return hit;
+}
+function physicsStep(b, dt) {
+  const hit = collide(b);
+  const ground = surfaceAt(b.x, b.z, b.y, b.step);
+  if (b.vy > 0 || b.y > ground + 0.001) { b.vy -= GRAVITY * dt; b.y += b.vy * dt; }
+  if (b.y <= ground) { b.y = ground; b.vy = 0; }
+  b.grounded = b.y <= ground + 0.02;
+  return hit;
+}
+function body(kind, x, z, r, h, step) { return { kind, x, z, y: surfaceAt(x, z, terrainY(x, z), step), vy: 0, r, h, step, grounded: true }; }
 const time = { value: 0 };
 
 // ---------- sky ----------
@@ -347,7 +395,7 @@ function placeOnScreen(el, pos, maxDist) {
 
 // ---------- nature (nothing here is made by anyone) ----------
 const GREENS = [0x5fb83a, 0x4ea52f, 0x78c94a, 0x3f9a34];
-let pigeon, pigeonHead, pondWater; const crabs = [], gulls = [], swayers = [];
+let pigeon, pigeonHead, pondWater, pigeonState; const crabs = [], gulls = [], swayers = [];
 function canopy(parent, y, r, rand) {
   const g = new THREE.Group(); parent.add(g); g.position.y = y;
   for (let i = 0; i < 4; i++) { const a = rand() * 6.28, s = r * (0.55 + rand() * 0.35);
@@ -364,7 +412,9 @@ function buildNature() {
     const hollow = mesh(new THREE.CircleGeometry(0.8, 20), 0x2b1a0e, 1.62, 1.3, 0.4, g); hollow.rotation.y = Math.PI / 2.4; hollow.scale.y = 1.4; hollow.userData.noInk = true;
     [[0, 9, 0, 4.2], [2.8, 8, 1.4, 3], [-2.6, 8.4, -1, 3.2], [0.6, 11, -1.2, 2.8], [-1.5, 10.5, 2, 2.6]].forEach(([x, y, z, s], i) => mesh(new THREE.IcosahedronGeometry(s, 1), GREENS[i % 4], x, y, z, g));
     for (const a of [0.8, 2.3, 4.1]) { const br = mesh(new THREE.CylinderGeometry(0.25, 0.45, 4, 8), 0x8a5a33, Math.cos(a) * 1.5, 7, Math.sin(a) * 1.5, g); br.rotation.set(Math.sin(a) * 0.9, 0, -Math.cos(a) * 0.9); }
+    circleCol(staticCols, P.nest.x, P.nest.z, 2.3, 99); // the big trunk and its roots
     const nest = new THREE.Group(); g.add(nest); nest.position.set(3.2, 0.25, 1.2);
+    circleCol(staticCols, P.nest.x + 3.2, P.nest.z + 1.2, 0.8, g.position.y + 0.3); // the nest: you can step in and sit in it
     mesh(new THREE.TorusGeometry(0.75, 0.32, 10, 20), 0xc9a25a, 0, 0, 0, nest).rotation.x = Math.PI / 2;
     mesh(new THREE.CircleGeometry(0.75, 16), 0xa47c3c, 0, 0.05, 0, nest).rotation.x = -Math.PI / 2;
     for (let i = 0; i < 14; i++) { const leaf = mesh(new THREE.BoxGeometry(0.35, 0.03, 0.18), [0xd9a441, 0xc0702e, 0xe0c060][i % 3], (r() - 0.5) * 2.2, 0.15 + r() * 0.2, (r() - 0.5) * 2.2, nest); leaf.rotation.set(r(), r() * 6, r()); leaf.userData.noInk = true; }
@@ -373,20 +423,25 @@ function buildNature() {
   // The pond, with lily pads.
   { const water = new THREE.Mesh(new THREE.CircleGeometry(5.2, 40), new THREE.MeshToonMaterial({ color: 0x4cc2d9, gradientMap: toonRamp, transparent: true, opacity: 0.88 }));
     water.rotation.x = -Math.PI / 2; water.position.set(P.pond.x, POND_Y, P.pond.z); scene.add(water); pondWater = water;
+    circleCol(staticCols, P.pond.x, P.pond.z, 4.6, 5, { stand: false, only: ["crab", "pigeon"] }); // animals walk round the pond
     const r = rng(8); for (let i = 0; i < 6; i++) { const a = r() * 6.28, d = 1 + r() * 3; const pad = mesh(new THREE.CylinderGeometry(0.4, 0.4, 0.04, 14, 1, false, 0, 5.6), 0x4ea52f, P.pond.x + Math.cos(a) * d, POND_Y + 0.03, P.pond.z + Math.sin(a) * d); pad.rotation.y = r() * 6; if (i % 2) mesh(new THREE.SphereGeometry(0.1, 8, 6), 0xffb3d1, 0, 0.08, 0, pad); }
   }
   // The rocky outcrop: big boulders you can't carry.
   { const r = rng(5); for (let i = 0; i < 8; i++) { const a = -2.6 + i * 0.55, d = 9 + r() * 3; const m = mesh(new THREE.DodecahedronGeometry(1.4 + r() * 1.5, 0), [0x9b978c, 0x8a867c, 0xb0aca0][i % 3]);
-      onGround(m, P.rocks.x + Math.cos(a) * d, P.rocks.z + Math.sin(a) * d, 0.3); m.rotation.set(r(), r(), r()); outline(m, 0.06); } }
-  { const m = mesh(new THREE.DodecahedronGeometry(1.2, 0), 0xa7a49a); onGround(m, P.hill.x - 1.5, P.hill.z - 1, 0.5); m.rotation.set(0.3, 0.7, 0.2); outline(m, 0.05); }
+      onGround(m, P.rocks.x + Math.cos(a) * d, P.rocks.z + Math.sin(a) * d, 0.3); m.rotation.set(r(), r(), r()); outline(m, 0.06);
+      const R = m.geometry.parameters.radius; circleCol(staticCols, m.position.x, m.position.z, R * 0.85, m.position.y + R * 0.8); } }
+  { const m = mesh(new THREE.DodecahedronGeometry(1.2, 0), 0xa7a49a); onGround(m, P.hill.x - 1.5, P.hill.z - 1, 0.5); m.rotation.set(0.3, 0.7, 0.2); outline(m, 0.05); circleCol(staticCols, m.position.x, m.position.z, 1.0, m.position.y + 1.0); }
   // Tide pools: rings of rocks with little pools and seaweed.
-  { const r = rng(13); for (let k = 0; k < 4; k++) { const cx = P.tidepools.x + (k - 1.5) * 3.2, cz = P.tidepools.z + (k % 2) * 2 - 1, cy = Math.max(groundY(cx, cz), 0);
+  { const r = rng(13); for (let k = 0; k < 4; k++) { const cx = P.tidepools.x + (k - 1.5) * 3.2, cz = P.tidepools.z + (k % 2) * 2 - 1, cy = Math.max(terrainY(cx, cz), 0);
       const pool = mesh(new THREE.CircleGeometry(1, 18), new THREE.MeshToonMaterial({ color: 0x5fd4d4, gradientMap: toonRamp }), cx, cy + 0.12, cz); pool.rotation.x = -Math.PI / 2;
-      for (let i = 0; i < 7; i++) { const a = (i / 7) * 6.28; const m = mesh(new THREE.DodecahedronGeometry(0.35 + r() * 0.3, 0), 0x8f8a80, cx + Math.cos(a) * 1.15, cy + 0.15, cz + Math.sin(a) * 1.15); m.rotation.set(r(), r(), r()); outline(m, 0.04); }
+      circleCol(staticCols, cx, cz, 1.0, cy + 0.4, { stand: false, only: ["crab", "pigeon", "glorp"] }); // animals don't walk into the pools
+      for (let i = 0; i < 7; i++) { const a = (i / 7) * 6.28, size = 0.35 + r() * 0.3; const m = mesh(new THREE.DodecahedronGeometry(size, 0), 0x8f8a80, cx + Math.cos(a) * 1.15, cy + 0.15, cz + Math.sin(a) * 1.15); m.rotation.set(r(), r(), r()); outline(m, 0.04);
+        circleCol(staticCols, m.position.x, m.position.z, size * 0.85, cy + 0.15 + size * 0.8); }
       for (let i = 0; i < 3; i++) mesh(new THREE.ConeGeometry(0.06, 0.6, 5), 0x2f7d4a, cx + (r() - 0.5), cy + 0.4, cz + (r() - 0.5)); } }
   // Palm trees along the beach.
   { const r = rng(9); for (let i = 0; i < 10; i++) { const a = Math.PI * (1.12 + i * 0.085), x = Math.cos(a) * 40, z = Math.sin(a) * 40 * 0.95;
       if (groundY(x, z) < 0.35) continue; const g = onGround(new THREE.Group(), x, z); scene.add(g); g.rotation.y = r() * 6;
+      circleCol(staticCols, x, z, 0.28, 99);
       const lean = 0.15 + r() * 0.25;
       for (let k = 0; k < 7; k++) mesh(new THREE.CylinderGeometry(0.17, 0.22, 0.75, 8), k % 2 ? 0xa57a4a : 0x93693d, Math.sin(lean) * k * 0.62, 0.38 + k * 0.7, 0, g);
       const leafGeo = new THREE.ConeGeometry(0.35, 2.6, 4).rotateX(Math.PI / 2).translate(0, 0, 1.3);
@@ -402,13 +457,15 @@ function buildNature() {
     mesh(new THREE.SphereGeometry(0.04, 6, 6), 0xff5500, 0.09, 0.05, 0.1, pigeonHead); mesh(new THREE.SphereGeometry(0.04, 6, 6), 0xff5500, -0.09, 0.05, 0.1, pigeonHead);
     mesh(new THREE.BoxGeometry(0.25, 0.05, 0.3), 0x6b7580, 0, 0.35, -0.45, pigeon);
     for (const x of [-0.08, 0.08]) mesh(new THREE.CylinderGeometry(0.02, 0.02, 0.2), 0xe07a5a, x, 0.1, 0, pigeon);
-    outline(pigeon, 0.025); }
+    outline(pigeon, 0.025);
+    pigeonState = { home: { x: P.thicket.x - 3, z: P.thicket.z + 3 }, range: 3.5, b: body("pigeon", P.thicket.x - 3, P.thicket.z + 3, 0.3, 0.6, 0.25), target: null, wait: 0, stuck: 0, facing: 0 }; }
   // Crabs on the beach and in the tide pools.
   for (let i = 0; i < 4; i++) { const c = new THREE.Group(); scene.add(c);
     mesh(new THREE.SphereGeometry(0.22, 10, 8), 0xe2543a, 0, 0.12, 0, c).scale.set(1.3, 0.55, 1);
     for (const s of [-1, 1]) { mesh(new THREE.SphereGeometry(0.09, 8, 6), 0xe2543a, s * 0.32, 0.16, 0.12, c); mesh(new THREE.SphereGeometry(0.035, 6, 6), 0x111111, s * 0.08, 0.25, 0.15, c); }
     outline(c, 0.02);
-    crabs.push({ obj: c, home: i < 2 ? P.tidepools : P.beach, phase: i * 2.1, range: i < 2 ? 4 : 8 }); }
+    const home = i < 2 ? { x: P.tidepools.x + (i ? 4 : -4), z: P.tidepools.z - 3.5 } : { x: P.beach.x + (i - 2.5) * 6, z: P.beach.z + 1 };
+    crabs.push({ obj: c, home, range: i < 2 ? 4 : 7, b: body("crab", home.x, home.z, 0.32, 0.3, 0.12), target: null, wait: i * 0.7, stuck: 0, facing: 0 }); }
   // Seagulls circling.
   for (let i = 0; i < 3; i++) { const g = new THREE.Group(); scene.add(g);
     const wing = new THREE.BoxGeometry(1.1, 0.05, 0.3);
@@ -573,9 +630,17 @@ function tree(g, scale, r) {
   if (r() < 0.5) canopy(t, 2.9, 1.5, r); else { mesh(new THREE.ConeGeometry(1.5, 2.2, 9), 0x3f8f3a, 0, 2.7, 0, t); mesh(new THREE.ConeGeometry(1.1, 1.9, 9), 0x4fa544, 0, 3.7, 0, t); }
   return t;
 }
+let seenBlocks = null; const firstSeen = new Set(), falling = [];
+function animateFalling(dt) {
+  for (let i = falling.length - 1; i >= 0; i--) { const f = falling[i];
+    if (f.delay > 0) { f.delay -= dt; continue; }
+    f.vy -= GRAVITY * dt; f.m.position.y += f.vy * dt;
+    if (f.m.position.y <= f.y) { f.m.position.y = f.y; if (f.vy < -3) f.vy = -f.vy * 0.25; else falling.splice(i, 1); } } // a little bounce, then it settles
+}
 function rebuildWorld() {
   const w = data.state.world;
   for (const o of [...dyn.children]) dyn.remove(o);
+  dynCols.length = 0;
   dynLabels.splice(0).forEach(removeLabel);
   nodeSway.length = 0;
   const maxOf = (n) => n.max ?? data.resources?.[n.res]?.max ?? 4;
@@ -588,10 +653,12 @@ function rebuildWorld() {
     if (n.res === "wood") {
       if (n.dead) { mesh(new THREE.CylinderGeometry(0.3, 0.38, 0.45, 10), 0x7a4e2c, 0, 0.22, 0, g); const top = mesh(new THREE.CircleGeometry(0.3, 12), 0xe0b27a, 0, 0.455, 0, g); top.rotation.x = -Math.PI / 2; top.userData.noInk = true; }
       else if (n.planted && n.left < 1) { const s = 0.35 + n.left * 0.6; mesh(new THREE.CylinderGeometry(0.03, 0.04, 0.6 * s, 5), 0x7a5230, 0, 0.3 * s, 0, g); for (const a of [0, 2.1, 4.2]) mesh(new THREE.SphereGeometry(0.13 * s + 0.05, 6, 5), 0x6fcf4a, Math.cos(a) * 0.12, 0.6 * s, Math.sin(a) * 0.12, g); }
-      else nodeSway.push(tree(g, (0.5 + 0.5 * full) * (0.9 + r() * 0.3), r));
+      else { const sc = (0.5 + 0.5 * full) * (0.9 + r() * 0.3); nodeSway.push(tree(g, sc, r)); circleCol(dynCols, n.x, n.z, 0.3 * sc, 99); }
+      if (n.dead) circleCol(dynCols, n.x, n.z, 0.38, g.position.y + 0.45); // a stump you can stand on
     } else if (n.res === "stone") {
       if (left < 1) mesh(new THREE.DodecahedronGeometry(0.15), 0xa3a7ab, 0.2, 0.08, 0, g);
-      else for (let i = 0; i < Math.min(left, 3); i++) { const m = mesh(new THREE.DodecahedronGeometry(0.3 + 0.3 * full * r(), 0), [0xa3a7ab, 0x8f938f, 0xb6b3a8][i], (r() - 0.5) * 0.9, 0.22, (r() - 0.5) * 0.9, g); m.rotation.set(r(), r(), r()); }
+      else { for (let i = 0; i < Math.min(left, 3); i++) { const sz = 0.3 + 0.3 * full * r(); const m = mesh(new THREE.DodecahedronGeometry(sz, 0), [0xa3a7ab, 0x8f938f, 0xb6b3a8][i], (r() - 0.5) * 0.9, sz * 0.8, (r() - 0.5) * 0.9, g); m.rotation.set(r(), r(), r()); }
+        circleCol(dynCols, n.x, n.z, 0.6, g.position.y + 0.45); }
     } else if (n.res === "clay") {
       const patch = mesh(new THREE.CircleGeometry(0.4 + 0.6 * full, 16), 0xb5582f, 0, 0.05, 0, g); patch.rotation.x = -Math.PI / 2; patch.userData.noInk = true;
       for (let i = 0; i < left; i++) mesh(new THREE.SphereGeometry(0.16, 8, 6), 0xc0643a, (r() - 0.5) * 0.8, 0.1, (r() - 0.5) * 0.8, g).scale.y = 0.6;
@@ -604,12 +671,16 @@ function rebuildWorld() {
     } else if (n.res === "berries") {
       const bush = new THREE.Group(); g.add(bush); bush.scale.setScalar(n.planted ? 0.35 + 0.65 * Math.min(1, n.left / 2) : 1);
       for (let i = 0; i < 3; i++) mesh(new THREE.IcosahedronGeometry(0.55, 1), GREENS[i], (i - 1) * 0.4, 0.5, (r() - 0.5) * 0.3, bush);
+      circleCol(dynCols, n.x, n.z, 0.75 * bush.scale.x, g.position.y + 1.0 * bush.scale.x, { stand: false });
       for (let i = 0; i < left * 2; i++) { const a = r() * 6.28, b = r() * 1.3; mesh(new THREE.SphereGeometry(0.085, 8, 6), 0xc2306b, Math.cos(a) * Math.sin(b) * 0.85, 0.5 + Math.cos(b) * 0.55, Math.sin(a) * Math.sin(b) * 0.65, bush); }
     }
     outline(g, n.res === "wood" ? 0.05 : 0.03);
   }
   for (const s of w.structures) {
-    const g = onGround(new THREE.Group(), s.x, s.z); g.rotation.y = s.rot ?? 0; dyn.add(g);
+    // Sit the building on the highest bit of ground under it, so no part sinks into a slope.
+    let base = terrainY(s.x, s.z); for (let k = 0; k < 6; k++) base = Math.max(base, terrainY(s.x + Math.cos(k * 1.05) * 1.2, s.z + Math.sin(k * 1.05) * 1.2));
+    const g = new THREE.Group(); g.position.set(s.x, base, s.z); g.rotation.y = s.rot ?? 0; dyn.add(g);
+    const cos = Math.cos(g.rotation.y), sin = Math.sin(g.rotation.y);
     let top = 0;
     const solid = new THREE.Group(); g.add(solid);
     s.blocks.forEach((b, i) => {
@@ -617,14 +688,25 @@ function rebuildWorld() {
       const c = new THREE.Color(MAT_COLOR[b.material] ?? 0xb5793f).offsetHSL(0, 0, ((i * 37) % 10 - 5) / 110);
       const m = new THREE.Mesh(geo, b.placed ? mat(c.getHex()) : ghostMat);
       m.scale.set(b.w, b.h, b.d); m.position.set(b.x, b.y + b.h / 2, b.z);
-      if (b.placed) { m.castShadow = m.receiveShadow = true; solid.add(m); } else { m.add(new THREE.LineSegments(new THREE.EdgesGeometry(geo), ghostEdge)); g.add(m); }
+      if (b.placed) { m.castShadow = m.receiveShadow = true; solid.add(m);
+        // Every placed block is solid: you can stand on low ones and walk under roofs.
+        const wx = s.x + b.x * cos + b.z * sin, wz = s.z - b.x * sin + b.z * cos, bottom = base + b.y, btop = base + b.y + b.h;
+        if (b.shape === "box") dynCols.push({ x: wx, z: wz, hw: b.w / 2, hd: b.d / 2, cos, sin, bottom, top: btop });
+        else dynCols.push({ x: wx, z: wz, r: (b.shape === "cone" ? 0.7 : 1) * Math.max(b.w, b.d) / 2, bottom, top: btop });
+        // A block Glorp has only just placed drops into position.
+        const key = `${s.id}:${i}`;
+        if (seenBlocks && !seenBlocks.has(key)) { falling.push({ m, y: m.position.y, vy: 0, delay: falling.length * 0.25 }); m.position.y += 6; }
+        seenBlocks?.add(key);
+      } else { m.add(new THREE.LineSegments(new THREE.EdgesGeometry(geo), ghostEdge)); g.add(m); }
       top = Math.max(top, b.y + b.h);
     });
     outline(solid, 0.05);
     const done = s.blocks.filter((b) => b.placed).length;
     const sub = (w.home === s.id ? "Glorp's home · " : "") + (s.finished ? "built by Glorp" : `building: ${done}/${s.blocks.length} blocks`);
-    dynLabels.push(addLabel(`${esc(s.name)}<br><small>${sub}</small>`, s.x, groundY(s.x, s.z) + top + 0.8, s.z, "build", 35));
+    dynLabels.push(addLabel(`${esc(s.name)}<br><small>${sub}</small>`, s.x, base + top + 0.8, s.z, "build", 35));
+    if (!seenBlocks) s.blocks.forEach((b, i) => b.placed && firstSeen.add(`${s.id}:${i}`));
   }
+  if (!seenBlocks) seenBlocks = firstSeen;
   const home = homeSpot();
   w.inventions.forEach((inv, i) => {
     const a = 0.6 + i * 0.55, d = 1.8 + Math.floor(i / 8) * 0.8;
@@ -643,7 +725,8 @@ function homeSpot() {
 }
 
 // ---------- Glorp's movement on this page ----------
-const gs = { x: 0, z: 0, heading: 0, target: null, focus: null, anchor: null, walking: false, speed: 2.2, nextPotter: 0, asleep: false, action: "idle" };
+const gb = { kind: "glorp", x: 0, z: 0, y: 0, vy: 0, r: 0.45, h: 1.6, step: 0.5 };
+const gs = { stuck: 0, x: 0, z: 0, heading: 0, target: null, focus: null, anchor: null, walking: false, speed: 2.2, nextPotter: 0, asleep: false, action: "idle" };
 function standPoint(state) {
   if (/asleep|^nap/.test(state.doing)) return { stand: state.world.home != null && state.spot ? { ...state.spot } : NEST_BED(), focus: null };
   const sp = state.spot ?? PLACE[state.place] ?? PLACE.nest;
@@ -675,7 +758,7 @@ function updateGlorpTarget(first) {
   if (first) {
     const prev = data.diary[1]?.spot, fresh = data.diary[0] && Date.now() - new Date(data.diary[0].time) < 3 * 60_000;
     const start = fresh && prev ? prev : stand;
-    gs.x = start.x; gs.z = start.z;
+    gs.x = start.x; gs.z = start.z; gb.y = surfaceAt(gs.x, gs.z, terrainY(gs.x, gs.z), gb.step);
   }
   gs.anchor = stand; gs.focus = focus; gs.target = { ...stand }; gs.walking = true; gs.speed = 2.2;
 }
@@ -783,14 +866,15 @@ $("minimize").onclick = () => { $("info").classList.toggle("mini"); $("minimize"
 $("fsBtn").onclick = () => { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen?.().catch(() => {}); };
 
 // ---------- you: walking around ----------
-const me = { x: 4, z: 26, yaw: 0.35, pitch: -0.1 };
-try { const saved = JSON.parse(localStorage.getItem("glorp-me4") || "null"); if (saved && Math.hypot(saved.x, saved.z) < 45) Object.assign(me, saved); } catch {}
+const me = { kind: "me", x: 4, z: 26, y: null, vy: 0, r: 0.35, h: 1.7, step: 0.45, yaw: 0.35, pitch: -0.1 };
+try { const saved = JSON.parse(localStorage.getItem("glorp-me4") || "null"); if (saved && Math.hypot(saved.x, saved.z) < 45) Object.assign(me, { x: saved.x, z: saved.z, yaw: saved.yaw, pitch: saved.pitch }); } catch {}
 const keys = new Set();
 let fly = null;
 addEventListener("keydown", (e) => {
   if (e.target.closest?.("dialog")) return;
   keys.add(e.code);
   if (e.code === "KeyF") findGlorp();
+  if (e.code === "Space" && me.grounded && !fly) { me.vy = 6.5; e.preventDefault(); }
   if (e.code === "KeyJ") toggleJournal();
   if (e.code === "Escape") toggleJournal(false);
   if (!$("intro").hidden && /Key|Arrow/.test(e.code)) startExploring(false);
@@ -874,8 +958,11 @@ function movePlayer(dt) {
     me.x += (-sin * f + cos * s) * speed * dt; me.z += (-cos * f - sin * s) * speed * dt;
     const r = Math.hypot(me.x, me.z); if (r > 46) { me.x *= 46 / r; me.z *= 46 / r; }
   }
+  if (me.y == null || isNaN(me.y)) me.y = surfaceAt(me.x, me.z, terrainY(me.x, me.z), me.step);
+  if (fly) { me.y = surfaceAt(me.x, me.z); me.vy = 0; } else physicsStep(me, dt);
+  if (!fly) { const d = Math.hypot(me.x - gs.x, me.z - gs.z), need = me.r + 0.5; if (d < need && d > 0) { me.x += ((me.x - gs.x) / d) * (need - d); me.z += ((me.z - gs.z) / d) * (need - d); } } // you can't walk through Glorp
   const bob = walking && !fly ? Math.sin(performance.now() / 140) * 0.04 : 0;
-  camera.position.set(me.x, Math.max(groundY(me.x, me.z), -0.4) + 1.65 + bob, me.z);
+  camera.position.set(me.x, me.y + 1.65 + bob, me.z);
   camera.rotation.order = "YXZ"; camera.rotation.set(me.pitch, me.yaw, 0);
 }
 
@@ -893,21 +980,23 @@ function animateGlorp(dt, t) {
     gs.target = { x: gs.anchor.x + Math.cos(a) * d, z: gs.anchor.z + Math.sin(a) * d }; gs.walking = true; gs.speed = gs.action === "explore" ? 1.6 : 1.1;
     gs.nextPotter = t + 5 + Math.random() * 7;
   }
-  let moving = false;
+  let moving = false; const sx = gs.x, sz = gs.z;
   if (gs.walking && gs.target) {
     const dx = gs.target.x - gs.x, dz = gs.target.z - gs.z, d = Math.hypot(dx, dz);
     if (d < 0.05) { gs.walking = false; gs.nextPotter = Math.max(gs.nextPotter, t + 3 + Math.random() * 5); }
-    else { const step = Math.min(d, gs.speed * dt); gs.x += (dx / d) * step; gs.z += (dz / d) * step; gs.heading = angleLerp(gs.heading, Math.atan2(dx, dz), Math.min(1, dt * 8)); moving = true; }
+    else { const step = Math.min(d, gs.speed * dt); gs.x += (dx / d) * step; gs.z += (dz / d) * step; gs.heading = angleLerp(gs.heading, Math.atan2(dx, dz), Math.min(1, dt * 8)); moving = true;
+      gs.lastStep = step; }
   }
+  Object.assign(gb, { x: gs.x, z: gs.z }); physicsStep(gb, dt); gs.x = gb.x; gs.z = gb.z;
+  // Walking into something it can't climb: after a moment Glorp gives up on that spot.
+  if (moving && Math.hypot(gs.x - sx, gs.z - sz) < gs.lastStep * 0.3) { gs.stuck += dt; if (gs.stuck > 1.5) { gs.walking = false; gs.stuck = 0; } }
+  else gs.stuck = 0;
   if (!moving) {
     const dMe = Math.hypot(me.x - gs.x, me.z - gs.z);
     const face = !gs.asleep && dMe < 6 ? { x: me.x, z: me.z } : gs.focus;
     if (face) gs.heading = angleLerp(gs.heading, Math.atan2(face.x - gs.x, face.z - gs.z), Math.min(1, dt * 3));
   }
-  let gy = Math.max(terrainY(gs.x, gs.z), -0.3) + 0.02;
-  // Asleep in the nest: sit on the nest's floor, not under it.
-  const bed = NEST_BED();
-  if (Math.hypot(gs.x - bed.x, gs.z - bed.z) < 1.2) gy = Math.max(gy, groundY(PLACE.nest.x, PLACE.nest.z) - 0.2 + 0.3);
+  const gy = gb.y + 0.02;
   G.root.position.set(gs.x, gy, gs.z); G.root.rotation.y = gs.heading;
   const B = G.body, F = FACE[data.state.face] ?? FACE.happy;
   B.position.set(0, 0, 0); B.rotation.set(0, 0, 0); G.beak.rotation.x = 0.12 + (F.droop ?? 0); G.jaw.rotation.x = 0; G.crest.rotation.x = F.crest ?? 0;
@@ -953,7 +1042,9 @@ function animateGlorp(dt, t) {
   beacon.position.set(gs.x, gy + 3.2 + Math.sin(t * 3) * 0.25, gs.z); beacon.rotation.y = t * 2; beacon.scale.setScalar(1 + far / 40);
   const head = new THREE.Vector3(gs.x, gy + 2.3, gs.z);
   const showBubble = !gs.asleep && $("bubbleText").textContent && placeOnScreen($("bubble"), head, 30);
-  if (showBubble) { const b = $("bubble"), h = b.offsetHeight; if (parseFloat(b.style.top) < h + 64) b.style.top = h + 64 + "px"; }
+  if (showBubble) { const b = $("bubble"), h = b.offsetHeight, half = Math.min(150, innerWidth / 2 - 8);
+    if (parseFloat(b.style.top) < h + 64) b.style.top = h + 64 + "px";
+    b.style.left = clamp(parseFloat(b.style.left), half + 8, innerWidth - half - 8) + "px"; } // keep the bubble on screen
   else $("bubble").style.display = "none";
   const emo = $("emote");
   if (!gs.asleep && !showBubble && (t % 7) < 3.5 && placeOnScreen(emo, head.setY(gy + 2.5 + Math.sin(t * 4) * 0.08), 45)) emo.textContent = F.emote; else emo.style.display = "none";
@@ -1002,7 +1093,27 @@ function updateSky(t) {
   swayers.forEach((s, i) => { s.obj.rotation.z = Math.sin(t * 1.2 + i) * s.amp * (1 + wind.value * 2); });
   clouds.forEach((c) => { c.position.x += (weather === "windy" ? 3 : 0.8) * 0.016; if (c.position.x > 160) c.position.x = -160; });
 }
-function animateLife(t) {
+// Animals pick a spot near home, walk there on the ground, and go round anything in the way.
+function wander(a, dt, speed, pause) {
+  const b = a.b;
+  if (a.wait > 0) { a.wait -= dt; physicsStep(b, dt); return false; }
+  if (!a.target) {
+    for (let k = 0; k < 8 && !a.target; k++) { const ang = Math.random() * 6.28, d = Math.random() * a.range, x = a.home.x + Math.cos(ang) * d, z = a.home.z + Math.sin(ang) * d;
+      if (terrainY(x, z) > 0.05 && ![...staticCols, ...dynCols].some((c) => (!c.only || c.only.includes(b.kind)) && c.top > terrainY(x, z) + b.step && insideCol(c, x, z, b.r))) a.target = { x, z }; }
+    if (!a.target) { a.wait = 1; return false; }
+  }
+  const dx = a.target.x - b.x, dz = a.target.z - b.z, d = Math.hypot(dx, dz);
+  if (d < 0.15) { a.target = null; a.wait = pause * (0.5 + Math.random()); physicsStep(b, dt); return false; }
+  const step = Math.min(d, speed * dt), bx = b.x, bz = b.z;
+  b.x += (dx / d) * step; b.z += (dz / d) * step;
+  physicsStep(b, dt);
+  const moved = Math.hypot(b.x - bx, b.z - bz);
+  a.facing = angleLerp(a.facing, Math.atan2(dx, dz), Math.min(1, dt * 6));
+  a.stuck = moved < step * 0.3 ? a.stuck + dt : 0;
+  if (a.stuck > 0.6) { a.target = null; a.stuck = 0; } // blocked: pick somewhere else
+  return true;
+}
+function animateLife(t, dt) {
   butterflies.forEach((b) => { const k = t * 0.4 + b.phase; b.obj.visible = nightAmt < 0.6;
     const x = b.home.x + Math.sin(k) * b.rad + Math.sin(k * 2.3) * 1.2, z = b.home.z + Math.cos(k * 0.8) * b.rad;
     b.obj.position.set(x, groundY(x, z) + 1 + Math.sin(k * 3) * 0.5, z); b.obj.rotation.y = -k;
@@ -1010,10 +1121,12 @@ function animateLife(t) {
   fireflies.material.opacity = smooth(0.4, 0.9, nightAmt);
   if (fireflies.material.opacity > 0) { for (let i = 0; i < ffBase.length; i++) { const [x, y, z, p] = ffBase[i]; ffPos[i * 3] = x + Math.sin(t * 0.5 + p) * 0.8; ffPos[i * 3 + 1] = y + Math.sin(t * 0.9 + p * 2) * 0.4; ffPos[i * 3 + 2] = z + Math.cos(t * 0.6 + p) * 0.8; }
     fireflies.geometry.attributes.position.needsUpdate = true; }
-  if (pigeon) { const k = t * 0.15, px = PLACE.thicket.x - 3 + Math.sin(k) * 2.5, pz = PLACE.thicket.z + 3 + Math.sin(k * 1.7) * 1.5;
-    pigeon.position.set(px, groundY(px, pz), pz); pigeon.rotation.y = Math.atan2(gs.x - px, gs.z - pz); pigeonHead.rotation.x = Math.sin(t * 4) > 0.9 ? 0.6 : 0; }
-  crabs.forEach((c) => { const k = t * 0.35 + c.phase, x = c.home.x + Math.sin(k) * c.range * 0.5, z = c.home.z + Math.sin(k * 0.7) * 1.2;
-    c.obj.position.set(x, Math.max(groundY(x, z), 0.05) + Math.abs(Math.sin(t * 10 + c.phase)) * 0.03, z); c.obj.rotation.y = Math.cos(k) > 0 ? 0 : Math.PI; });
+  if (pigeonState) { const moving = wander(pigeonState, dt, 0.9, 1.5);
+    const b = pigeonState.b; pigeon.position.set(b.x, b.y + (moving ? Math.abs(Math.sin(t * 9)) * 0.06 : 0), b.z);
+    pigeon.rotation.y = moving ? pigeonState.facing : angleLerp(pigeon.rotation.y, Math.atan2(gs.x - b.x, gs.z - b.z), Math.min(1, dt * 2));
+    pigeonHead.rotation.x = moving ? Math.sin(t * 9) * 0.3 : Math.sin(t * 4) > 0.9 ? 0.6 : 0; }
+  crabs.forEach((c) => { const moving = wander(c, dt, 0.8, 2.5);
+    c.obj.position.set(c.b.x, c.b.y + (moving ? Math.abs(Math.sin(t * 14)) * 0.02 : 0), c.b.z); c.obj.rotation.y = c.facing + Math.PI / 2; }); // crabs walk sideways
   gulls.forEach((g) => { const k = t * 0.12 + g.phase; g.obj.position.set(Math.cos(k) * g.radius, g.h + Math.sin(k * 3) * 1.5, Math.sin(k) * g.radius); g.obj.rotation.y = -k; g.obj.visible = nightAmt < 0.7;
     const f = Math.sin(t * 3 + g.phase) * 0.35; g.l.rotation.z = f; g.r.rotation.z = -f; });
   if (pondWater) pondWater.position.y = POND_Y + Math.sin(t * 0.8) * 0.02;
@@ -1034,9 +1147,10 @@ function frame() {
   time.value = t;
   movePlayer(dt);
   if (data) animateGlorp(dt, t);
+  animateFalling(dt);
   updateSky(t);
   animateWaves(t);
-  animateLife(t);
+  animateLife(t, dt);
   camera.updateMatrixWorld();
   for (const l of labels) placeOnScreen(l.el, l.pos, l.maxDist);
   if (data) updateCompass();
@@ -1045,7 +1159,7 @@ function frame() {
   requestAnimationFrame(frame);
 }
 
-window.__glorp = { me, gs, camera, G };
+window.__glorp = { me, gs, camera, G, crabs, staticCols, dynCols, get pigeonState() { return pigeonState; }, falling };
 await refresh(true);
 frame();
 setInterval(() => refresh(false), 30000);
