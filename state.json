@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T20:15:43.345Z",
+  "lastUpdate": "2026-10-29T20:25:55.310Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 18.4,
+    "z": -1.8
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-29T20:50:55.310Z",
   "needs": {
-    "fullness": 42,
-    "water": 43,
-    "energy": 84,
-    "curiosity": 33,
-    "joy": 30,
+    "fullness": 65,
+    "water": 42,
+    "energy": 79,
+    "curiosity": 32,
+    "joy": 32,
     "calm": 100
   },
-  "health": 76,
+  "health": 77,
   "mood": "hungry but determined",
   "memories": [],
   "wishes": [
@@ -85,10 +85,10 @@
   "knowledge": [],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
-      "berry": 4
+      "berry": 6
     },
     "inventory": {
       "wood": 4,
@@ -468,7 +468,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 4
+        "left": 0
       },
       {
         "id": "berries5",
@@ -501,18 +501,18 @@
     ],
     "structures": []
   },
-  "ticks": 13,
+  "ticks": 14,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
+    "You collected 4 berries and ate 2 on the spot.",
     "You also saved 2 berry seeds."
   ],
-  "thought": "My middle is very empty at 21 fullness and I have no kept food. There are seven bushes with berries right here, so foraging again is the obvious move. This time I will keep the extras so future me wakes up with a snack. Then the tree seed and the roof.",
+  "thought": "My middle is still half empty at 41 and I have no kept food. Six bushes still have berries right here, so foraging again is the sensible thing. I want to keep extras this time so future me wakes up happy. Then the tree seed and the roof.",
   "face": "determined",
-  "lastThought": "2026-10-29T19:45:10.083Z"
+  "lastThought": "2026-10-29T20:25:55.310Z"
 }
