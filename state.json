@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-29T07:10:04.782Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-29T07:20:18.171Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -14,
+    "z": 6
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-29T08:20:18.171Z",
   "needs": {
-    "fullness": 72,
-    "water": 63,
-    "energy": 29,
-    "curiosity": 57,
-    "joy": 54,
-    "calm": 66
+    "fullness": 66,
+    "water": 62,
+    "energy": 58,
+    "curiosity": 56,
+    "joy": 53,
+    "calm": 76
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy but hopeful",
   "memories": [],
   "wishes": [
     {
@@ -55,7 +55,7 @@
   },
   "lessons": [],
   "days": [],
-  "plan": "Eat, nap, then collect wood and build a shelter with clay and fibre.",
+  "plan": "Nap, then collect wood, then build a shelter with clay and fibre.",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -473,17 +473,15 @@
     ],
     "structures": []
   },
-  "ticks": 5,
+  "ticks": 6,
   "spend": {
     "day": "2026-10-28",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "Dawn is here and my sleeping time is coming, but my energy is only 33 and fullness 48. I still need wood for a roof and the forest is far. Wood is the missing piece. First I should eat the berries I have, since fullness is low. Actually I could eat now, quick and easy, then go nap. Let me eat berries to fix the rumbly middle.",
-  "face": "determined",
-  "lastThought": "2026-10-29T06:29:11.335Z"
+  "lastOutcome": [],
+  "thought": "My energy is low, 28, and my legs are wobblier than usual. It is dawn and I am nocturnal, so I should sleep soon. Wood is far away and I have none, so a roof must wait. A nap at the nest will help most right now. I have clay and fibre ready for the shelter later.",
+  "face": "sleepy",
+  "lastThought": "2026-10-29T07:20:18.171Z"
 }
