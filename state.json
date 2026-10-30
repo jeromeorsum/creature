@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T18:52:32.476Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-30T19:04:38.771Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 19.7,
+    "z": -5.6
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-30T19:29:38.771Z",
   "needs": {
-    "fullness": 0,
-    "water": 30,
-    "energy": 100,
-    "curiosity": 57,
-    "joy": 65,
+    "fullness": 24,
+    "water": 29,
+    "energy": 95,
+    "curiosity": 56,
+    "joy": 67,
     "calm": 100
   },
-  "health": 81,
-  "mood": "sleepy and satisfied",
+  "health": 80,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -60,22 +60,17 @@
     }
   ],
   "today": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "plan": [
-      "Design and start the hut",
+      "Forage berries for breakfast at the thicket",
       "Drink at the pond",
-      "Plant the tree seed",
-      "Collect more wood",
-      "Forage berries for dinner",
+      "Plant berry seeds",
       "Tend plants",
-      "Wind down and eat"
+      "Collect wood in the forest",
+      "Forage berries to keep for later",
+      "Watch the sky and wind down"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      6
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre."
@@ -126,11 +121,11 @@
       }
     }
   ],
-  "plan": "Sleep, then forage berries at the thicket, plant berry seeds, and collect wood.",
+  "plan": "Forage berries, drink at pond, plant berry seeds, collect wood.",
   "knowledge": [],
   "world": {
     "weather": "cloudy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 7
@@ -405,7 +400,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.8,
+        "left": 2.86,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -506,7 +501,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 4
+        "left": 2
       },
       {
         "id": "berries3",
@@ -534,7 +529,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2
+        "left": 0
       },
       {
         "id": "berries7",
@@ -555,7 +550,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.4,
+        "left": 2.42,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -665,16 +660,18 @@
       "cliffs"
     ]
   },
-  "ticks": 36,
+  "ticks": 37,
   "spend": {
-    "day": "2026-10-29",
+    "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "The hut is finished and the roof is mended. My eye is drooping and it is nearly sleeping time. I have no kept berries, which nags me, but water is fine. I will nap in the Cosy Hut and gather berries first thing when I wake tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-10-30T10:22:20.187Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "I woke up starving, fullness zero, and thirsty. Berries first at the thicket, since I have nothing kept. Then drink at the pond, plant my seven berry seeds, and gather wood. The pigeon will watch, but I will guard with my beak.",
+  "face": "determined",
+  "lastThought": "2026-10-30T19:04:38.771Z",
   "foundPlace": null
 }
