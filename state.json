@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T23:04:48.143Z",
+  "lastUpdate": "2026-10-30T23:14:58.397Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "tend plants at the thicket",
+  "busyUntil": "2026-10-30T23:49:58.397Z",
   "needs": {
-    "fullness": 73,
-    "water": 55,
-    "energy": 44,
-    "curiosity": 61,
-    "joy": 71,
+    "fullness": 72,
+    "water": 50,
+    "energy": 35,
+    "curiosity": 60,
+    "joy": 75,
     "calm": 100
   },
-  "health": 97,
+  "health": 98,
   "mood": "determined and damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -70,7 +70,8 @@
       "Watch the sky and wind down"
     ],
     "done": [
-      1
+      1,
+      3
     ]
   },
   "lessons": [
@@ -134,7 +135,7 @@
     "inventory": {
       "wood": 1,
       "stone": 0,
-      "clay": 3,
+      "clay": 2,
       "fibre": 0,
       "shells": 2
     },
@@ -342,7 +343,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0.21
+        "left": 0.24
       },
       {
         "id": "clay3",
@@ -496,56 +497,64 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries2",
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries3",
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries4",
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries5",
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 3
+        "left": 3,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries6",
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries7",
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "berries8",
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0
+        "left": 0,
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "planted57",
@@ -585,7 +594,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "planted61",
@@ -595,7 +604,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
         "id": "planted62",
@@ -605,7 +614,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-10-31T23:14:58.397Z"
       }
     ],
     "structures": [
@@ -693,18 +702,18 @@
       "grotto"
     ]
   },
-  "ticks": 43,
+  "ticks": 44,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
+    "You looked after 11 plants around the thicket. They'll grow for about a day."
   ],
-  "thought": "I'm at the thicket with 12 berry seeds and it's raining. Planting a garden here is the real answer to the pigeon and hunger. Fullness is okay at 77, so planting now is a good use of time.",
+  "thought": "The rain melted a clay, annoying. I have 2 berries kept and worry about the pigeon. Seedlings are planted and need tending, so I should tend them here at the thicket. That also calms me and keeps them growing. Then forage berries.",
   "face": "determined",
-  "lastThought": "2026-10-30T22:23:59.202Z",
+  "lastThought": "2026-10-30T23:14:58.397Z",
   "foundPlace": null
 }
