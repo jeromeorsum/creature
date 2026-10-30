@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T08:50:32.486Z",
+  "lastUpdate": "2026-10-30T09:00:54.552Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the pond",
   "busyUntil": null,
   "needs": {
-    "fullness": 41,
-    "water": 88,
-    "energy": 58,
-    "curiosity": 65,
-    "joy": 52,
+    "fullness": 40,
+    "water": 87,
+    "energy": 57,
+    "curiosity": 64,
+    "joy": 51,
     "calm": 100
   },
   "health": 100,
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.22,
+        "left": 1.24,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
