@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T04:45:50.644Z",
+  "lastUpdate": "2026-10-30T04:55:57.844Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "sit on the cliff edge and watch the sunrise over the sea (at the cliffs)",
+  "busyUntil": "2026-10-30T05:25:57.844Z",
   "needs": {
-    "fullness": 49,
-    "water": 64,
-    "energy": 25,
-    "curiosity": 83,
-    "joy": 57,
+    "fullness": 46,
+    "water": 61,
+    "energy": 21,
+    "curiosity": 88,
+    "joy": 71,
     "calm": 100
   },
   "health": 100,
-  "mood": "awed and a little sleepy",
+  "mood": "awed and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -37,7 +37,7 @@
     {
       "text": "Watch the sunrise over the sea from the cliffs",
       "made": "2026-10-30T04:15:05.627Z",
-      "done": null
+      "done": "2026-10-30T04:55:57.844Z"
     }
   ],
   "hobbies": [],
@@ -102,7 +102,7 @@
       }
     }
   ],
-  "plan": "Look around the cliffs, go home to the Cosy Hut to sleep, then forage berries",
+  "plan": "Go home to the Cosy Hut to sleep, then forage berries and collect wood",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.85,
+        "left": 1.9,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.74,
+        "left": 0.76,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -541,7 +541,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 2.59,
+        "left": 2.66,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -551,7 +551,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 2.59,
+        "left": 2.66,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -641,16 +641,18 @@
       "cliffs"
     ]
   },
-  "ticks": 27,
+  "ticks": 28,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [],
-  "thought": "The cliffs are wonderful: wind, seabirds, the whole sea glittering under the moon. My energy is low at 36 though, and I have only three berries. I should look at this place a moment, since I'm here, then head home. Seabirds might know things the pigeon doesn't. I'll look closely at the cliffs, which is gentle exploring, and get curiosity up before heading back to rest.",
-  "face": "curious",
-  "lastThought": "2026-10-30T04:15:05.627Z",
+  "lastOutcome": [
+    "You did your own thing: sit on the cliff edge and watch the sunrise over the sea."
+  ],
+  "thought": "My energy is low at 24 and it is almost dawn, which is my bedtime since I sleep in the day. The sunrise wish is right here at the cliffs, and I'm already here. Sunrise is soon, so I'll sit and watch the sky a bit, then go home to the Cosy Hut. Calm is full, so this is just for the wish and the wonder.",
+  "face": "happy",
+  "lastThought": "2026-10-30T04:55:57.844Z",
   "foundPlace": null
 }
