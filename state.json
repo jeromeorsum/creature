@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T10:42:41.289Z",
+  "lastUpdate": "2026-10-30T10:53:02.680Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,11 +10,11 @@
   "doing": "nap at the nest",
   "busyUntil": "2026-10-30T11:22:20.187Z",
   "needs": {
-    "fullness": 34,
-    "water": 77,
-    "energy": 57,
-    "curiosity": 59,
-    "joy": 67,
+    "fullness": 33,
+    "water": 76,
+    "energy": 56,
+    "curiosity": 58,
+    "joy": 66,
     "calm": 100
   },
   "health": 100,
@@ -405,7 +405,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -555,7 +555,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.44,
+        "left": 1.46,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
