@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T01:42:10.963Z",
+  "lastUpdate": "2026-10-30T01:52:26.676Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-10-30T01:51:12.562Z",
+  "busyUntil": "2026-10-30T02:52:26.676Z",
   "needs": {
-    "fullness": 72,
-    "water": 57,
-    "energy": 40,
-    "curiosity": 21,
-    "joy": 47,
+    "fullness": 66,
+    "water": 56,
+    "energy": 69,
+    "curiosity": 20,
+    "joy": 46,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry and sleepy",
+  "mood": "sleepy and indignant",
   "memories": [],
   "wishes": [
     {
@@ -38,6 +38,11 @@
     {
       "text": "I have no kept food for when I wake",
       "made": "2026-10-29T10:23:58.416Z",
+      "resolved": null
+    },
+    {
+      "text": "The pigeon steals my kept berries",
+      "made": "2026-10-30T01:52:26.676Z",
       "resolved": null
     }
   ],
@@ -84,11 +89,11 @@
       }
     }
   ],
-  "plan": "Forage berries to keep, then sleep in the hut",
+  "plan": "Nap in the hut, then forage berries and collect wood",
   "knowledge": [],
   "world": {
     "weather": "sunny",
-    "food": 4,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 7
@@ -363,7 +368,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.95,
+        "left": 1,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -513,7 +518,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.38,
+        "left": 0.4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -523,7 +528,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 1.33,
+        "left": 1.4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -533,7 +538,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 1.33,
+        "left": 1.4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -610,16 +615,16 @@
       }
     ]
   },
-  "ticks": 22,
+  "ticks": 23,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [],
-  "thought": "Midnight meal time. Fullness 61, I have 3 berries and energy is low at 22. Eating kept berries is quick, but I also want to stock more. Picking berries here at the thicket is right where I am, and I can eat while picking. Then nap in the hut at dawn.",
+  "thought": "The pigeon stole a berry, cheeky thing. I have 3 berries left and fullness is 71, so I'm not starving. Energy is 39 and I'm sleepy, and the hut is right here. Foraging berries would make more food, but the thicket is a walk away. I'll eat a bit later; a nap in the Cosy Hut is the sensible thing now. Curiosity is low, but sleep first.",
   "face": "sleepy",
-  "lastThought": "2026-10-30T00:20:36.737Z",
+  "lastThought": "2026-10-30T01:52:26.676Z",
   "foundPlace": null
 }
