@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T21:02:22.082Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-30T21:12:35.512Z",
+  "place": "grotto",
   "spot": {
-    "x": 8.7,
-    "z": -2.4
+    "x": 8,
+    "z": -22
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-30T21:07:00.459Z",
+  "doing": "exploring: just found the grotto",
+  "busyUntil": "2026-10-30T21:42:35.512Z",
   "needs": {
-    "fullness": 61,
-    "water": 67,
-    "energy": 76,
-    "curiosity": 45,
-    "joy": 62,
+    "fullness": 60,
+    "water": 66,
+    "energy": 67,
+    "curiosity": 72,
+    "joy": 71,
     "calm": 100
   },
-  "health": 85,
+  "health": 86,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -552,7 +552,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.65,
+        "left": 2.67,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -659,10 +659,11 @@
       "hill",
       "tidepools",
       "spring",
-      "cliffs"
+      "cliffs",
+      "grotto"
     ]
   },
-  "ticks": 40,
+  "ticks": 41,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
@@ -670,11 +671,10 @@
     "ticks": 4
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You pushed into a part of the island you'd never seen and found a new place: the grotto, a mossy grotto under a rock arch, dry even in the rain, where little mushrooms glow in the dark."
   ],
   "thought": "The crab left another shiny shell, so I'll call it a gift and keep it. Water is 69, which is fine, but my tummy is at 39 and I only have 2 berries. Berries come first. I have 9 berry seeds that could become a garden, which would solve my food worry for good. Foraging at the thicket is the sensible next step. The pigeon can watch.",
   "face": "determined",
   "lastThought": "2026-10-30T20:42:00.459Z",
-  "foundPlace": null
+  "foundPlace": "grotto"
 }
