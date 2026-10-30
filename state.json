@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T19:55:38.124Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-30T20:06:49.256Z",
+  "place": "pond",
   "spot": {
-    "x": 19.7,
-    "z": -5.6
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-30T20:00:13.173Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-30T20:16:49.256Z",
   "needs": {
-    "fullness": 43,
-    "water": 24,
-    "energy": 86,
-    "curiosity": 51,
-    "joy": 65,
+    "fullness": 42,
+    "water": 73,
+    "energy": 85,
+    "curiosity": 50,
+    "joy": 64,
     "calm": 100
   },
   "health": 80,
-  "mood": "hungry but curious",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -62,12 +62,11 @@
   "today": {
     "date": "2026-10-30",
     "plan": [
-      "Forage berries at the thicket",
       "Drink at the pond",
       "Plant berry seeds",
+      "Forage berries to keep",
       "Tend plants",
       "Collect wood in the forest",
-      "Forage berries to keep",
       "Watch the sky and wind down"
     ],
     "done": []
@@ -551,7 +550,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.52,
+        "left": 2.54,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -661,19 +660,16 @@
       "cliffs"
     ]
   },
-  "ticks": 38,
+  "ticks": 39,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My middle is very empty and water is low too. The crab left a shiny shell, a nice mystery, I will keep it. Berries first since bushes here still have some, then the pond.",
-  "face": "curious",
-  "lastThought": "2026-10-30T19:35:13.173Z",
+  "lastOutcome": [],
+  "thought": "My water is very low at 23, so the pond comes first. Then I'll plant the berry seeds and gather more berries. The pigeon is watching, but thirst matters more.",
+  "face": "determined",
+  "lastThought": "2026-10-30T20:06:49.256Z",
   "foundPlace": null
 }
