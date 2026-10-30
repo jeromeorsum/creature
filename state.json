@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T23:35:22.601Z",
+  "lastUpdate": "2026-10-30T23:45:32.944Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,11 +10,11 @@
   "doing": "tend plants at the thicket",
   "busyUntil": "2026-10-30T23:49:58.397Z",
   "needs": {
-    "fullness": 70,
-    "water": 48,
-    "energy": 33,
-    "curiosity": 58,
-    "joy": 73,
+    "fullness": 69,
+    "water": 47,
+    "energy": 32,
+    "curiosity": 57,
+    "joy": 72,
     "calm": 100
   },
   "health": 100,
@@ -343,7 +343,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0.3
+        "left": 0.33
       },
       {
         "id": "clay3",
@@ -497,7 +497,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -505,7 +505,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -513,7 +513,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -521,7 +521,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -529,7 +529,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 3.14,
+        "left": 3.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -537,7 +537,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -545,7 +545,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -553,7 +553,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -591,7 +591,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 0.14,
+        "left": 0.21,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -601,7 +601,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.14,
+        "left": 0.21,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -611,7 +611,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 0.14,
+        "left": 0.21,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
