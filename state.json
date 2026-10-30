@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T21:22:46.208Z",
+  "lastUpdate": "2026-10-30T21:33:03.510Z",
   "place": "grotto",
   "spot": {
     "x": 8,
@@ -10,14 +10,14 @@
   "doing": "exploring: just found the grotto",
   "busyUntil": "2026-10-30T21:42:35.512Z",
   "needs": {
-    "fullness": 59,
-    "water": 65,
-    "energy": 66,
-    "curiosity": 71,
-    "joy": 70,
+    "fullness": 58,
+    "water": 64,
+    "energy": 65,
+    "curiosity": 70,
+    "joy": 69,
     "calm": 100
   },
-  "health": 87,
+  "health": 88,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -552,7 +552,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.69,
+        "left": 2.71,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
