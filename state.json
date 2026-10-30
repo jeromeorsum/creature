@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T22:13:50.181Z",
+  "lastUpdate": "2026-10-30T22:23:59.202Z",
   "place": "thicket",
   "spot": {
-    "x": 22.1,
-    "z": -1
+    "x": 15,
+    "z": -3
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "plant seeds at the thicket",
+  "busyUntil": "2026-10-30T22:53:59.202Z",
   "needs": {
-    "fullness": 78,
-    "water": 60,
-    "energy": 57,
-    "curiosity": 66,
-    "joy": 68,
+    "fullness": 77,
+    "water": 59,
+    "energy": 48,
+    "curiosity": 65,
+    "joy": 75,
     "calm": 100
   },
-  "health": 92,
-  "mood": "hungry but determined",
+  "health": 93,
+  "mood": "determined and damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -122,14 +122,14 @@
       }
     }
   ],
-  "plan": "Forage berries, plant berry seeds near the thicket, tend plants, collect wood.",
+  "plan": "Plant seeds, tend plants, forage berries to keep, collect wood.",
   "knowledge": [],
   "world": {
-    "weather": "cloudy",
+    "weather": "rainy",
     "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 12
+      "berry": 9
     },
     "inventory": {
       "wood": 1,
@@ -552,7 +552,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.79,
+        "left": 2.81,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -576,6 +576,36 @@
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
+      },
+      {
+        "id": "planted60",
+        "res": "berries",
+        "x": 19.3,
+        "z": 2.8,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-30T22:23:59.202Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted61",
+        "res": "berries",
+        "x": 14.1,
+        "z": -7.3,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-30T22:23:59.202Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted62",
+        "res": "berries",
+        "x": 19.4,
+        "z": 0.6,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-30T22:23:59.202Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -663,19 +693,18 @@
       "grotto"
     ]
   },
-  "ticks": 42,
+  "ticks": 43,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
   ],
-  "thought": "That pigeon stole a berry right in front of me, rude. I have only one berry left and my tummy is at 57. The thicket is the answer, so I should go pick berries and eat some right away. Then I can plant my berry seeds near the thicket so food grows closer. The grotto is lovely, but food first.",
+  "thought": "I'm at the thicket with 12 berry seeds and it's raining. Planting a garden here is the real answer to the pigeon and hunger. Fullness is okay at 77, so planting now is a good use of time.",
   "face": "determined",
-  "lastThought": "2026-10-30T21:43:10.615Z",
+  "lastThought": "2026-10-30T22:23:59.202Z",
   "foundPlace": null
 }
