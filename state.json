@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T00:41:06.103Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-30T00:51:12.562Z",
+  "place": "nest",
   "spot": {
-    "x": 18.8,
-    "z": -5.9
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-30T00:45:36.737Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-30T01:51:12.562Z",
   "needs": {
-    "fullness": 83,
-    "water": 63,
-    "energy": 16,
-    "curiosity": 27,
-    "joy": 53,
-    "calm": 95
+    "fullness": 77,
+    "water": 62,
+    "energy": 45,
+    "curiosity": 26,
+    "joy": 52,
+    "calm": 100
   },
-  "health": 97,
+  "health": 98,
   "mood": "hungry and sleepy",
   "memories": [],
   "wishes": [
@@ -363,7 +363,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.65,
+        "left": 0.7,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -513,7 +513,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.26,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -523,7 +523,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 0.91,
+        "left": 0.98,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -533,7 +533,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 0.91,
+        "left": 0.98,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -610,17 +610,14 @@
       }
     ]
   },
-  "ticks": 21,
+  "ticks": 22,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 10
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
+  "lastOutcome": [],
   "thought": "Midnight meal time. Fullness 61, I have 3 berries and energy is low at 22. Eating kept berries is quick, but I also want to stock more. Picking berries here at the thicket is right where I am, and I can eat while picking. Then nap in the hut at dawn.",
   "face": "sleepy",
   "lastThought": "2026-10-30T00:20:36.737Z",
