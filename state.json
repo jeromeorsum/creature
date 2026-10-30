@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T09:41:31.226Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-30T09:51:45.118Z",
+  "place": "nest",
   "spot": {
-    "x": -3.9,
-    "z": 19.8
+    "x": -8,
+    "z": 6
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-10-30T09:46:11.537Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-10-30T10:36:45.118Z",
   "needs": {
-    "fullness": 50,
-    "water": 83,
-    "energy": 47,
-    "curiosity": 60,
-    "joy": 51,
+    "fullness": 44,
+    "water": 82,
+    "energy": 32,
+    "curiosity": 64,
+    "joy": 72,
     "calm": 100
   },
   "health": 100,
@@ -102,10 +102,10 @@
       }
     }
   ],
-  "plan": "Pull reeds, repair the Cosy Hut, nap, then forage berries tonight",
+  "plan": "Finish the Cosy Hut, nap, then forage berries tonight",
   "knowledge": [],
   "world": {
-    "weather": "sunny",
+    "weather": "cloudy",
     "food": 0,
     "seeds": {
       "tree": 0,
@@ -115,7 +115,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 3,
-      "fibre": 3,
+      "fibre": 0,
       "shells": 0
     },
     "discovered": [
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.1,
+        "left": 0.15,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.32,
+        "left": 1.34,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -620,11 +620,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-10-30T09:51:45.118Z"
       }
     ],
     "known": [
@@ -641,18 +641,18 @@
       "cliffs"
     ]
   },
-  "ticks": 34,
+  "ticks": 35,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [
-    "You collected 3 fibre."
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
   ],
-  "thought": "I am at the pond, and the hut needs 3 fibre. Reeds are right here, so I will pull them. That fixes the hut, and then I can sleep dry. Sleep is close, since it is morning and I am nocturnal.",
+  "thought": "I have 3 fibre, which is exactly what the Cosy Hut needs. It is 14m away. Finishing it means a dry bed for sleeping in the bright. My energy is 46 and I'm sleepy, so building then sleeping is right. Berries can wait until tonight.",
   "face": "determined",
-  "lastThought": "2026-10-30T09:21:11.537Z",
+  "lastThought": "2026-10-30T09:51:45.118Z",
   "foundPlace": null
 }
