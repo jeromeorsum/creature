@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T04:15:05.627Z",
+  "lastUpdate": "2026-10-30T04:25:22.691Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,11 +10,11 @@
   "doing": "explore at the cliffs",
   "busyUntil": "2026-10-30T04:45:05.627Z",
   "needs": {
-    "fullness": 52,
-    "water": 67,
-    "energy": 28,
-    "curiosity": 86,
-    "joy": 60,
+    "fullness": 51,
+    "water": 66,
+    "energy": 27,
+    "curiosity": 85,
+    "joy": 59,
     "calm": 100
   },
   "health": 100,
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.7,
+        "left": 1.75,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.68,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -541,7 +541,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -551,7 +551,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
