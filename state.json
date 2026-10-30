@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T09:00:54.552Z",
+  "lastUpdate": "2026-10-30T09:11:00.342Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-10-30T09:21:00.342Z",
   "needs": {
-    "fullness": 40,
-    "water": 87,
-    "energy": 57,
-    "curiosity": 64,
-    "joy": 51,
+    "fullness": 53,
+    "water": 86,
+    "energy": 56,
+    "curiosity": 63,
+    "joy": 54,
     "calm": 100
   },
   "health": 100,
@@ -106,7 +106,7 @@
   "knowledge": [],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 7
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.24,
+        "left": 1.26,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -641,14 +641,16 @@
       "cliffs"
     ]
   },
-  "ticks": 32,
+  "ticks": 33,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 18
   },
-  "lastOutcome": [],
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
   "thought": "It is 8:30 and I should be sleeping, but my belly is at 43 and I have only one berry. Water is 40 too. I will drink at the pond first, since it is close, then forage and nap after. Sleeping hungry is a bad idea.",
   "face": "sleepy",
   "lastThought": "2026-10-30T08:30:11.080Z",
