@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T20:30:46.075Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-30T20:42:00.459Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 8.7,
+    "z": -2.4
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-30T21:07:00.459Z",
   "needs": {
-    "fullness": 40,
-    "water": 70,
-    "energy": 83,
-    "curiosity": 48,
-    "joy": 62,
+    "fullness": 63,
+    "water": 69,
+    "energy": 78,
+    "curiosity": 47,
+    "joy": 64,
     "calm": 100
   },
-  "health": 82,
-  "mood": "thirsty but hopeful",
+  "health": 83,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -63,13 +63,15 @@
     "date": "2026-10-30",
     "plan": [
       "Drink at the pond",
-      "Plant berry seeds",
       "Forage berries to keep",
+      "Plant berry seeds",
       "Tend plants",
       "Collect wood in the forest",
       "Watch the sky and wind down"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre."
@@ -120,21 +122,21 @@
       }
     }
   ],
-  "plan": "Forage berries, drink at pond, plant berry seeds, collect wood.",
+  "plan": "Forage berries, plant berry seeds, collect wood, tend plants.",
   "knowledge": [],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 3,
     "seeds": {
       "tree": 0,
-      "berry": 9
+      "berry": 11
     },
     "inventory": {
       "wood": 1,
       "stone": 0,
       "clay": 3,
       "fibre": 0,
-      "shells": 1
+      "shells": 2
     },
     "discovered": [
       "clay",
@@ -536,7 +538,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 4
+        "left": 1
       },
       {
         "id": "berries8",
@@ -550,7 +552,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.59,
+        "left": 2.61,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -660,16 +662,19 @@
       "cliffs"
     ]
   },
-  "ticks": 39,
+  "ticks": 40,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
-  "lastOutcome": [],
-  "thought": "My water is very low at 23, so the pond comes first. Then I'll plant the berry seeds and gather more berries. The pigeon is watching, but thirst matters more.",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "The crab left another shiny shell, so I'll call it a gift and keep it. Water is 69, which is fine, but my tummy is at 39 and I only have 2 berries. Berries come first. I have 9 berry seeds that could become a garden, which would solve my food worry for good. Foraging at the thicket is the sensible next step. The pigeon can watch.",
   "face": "determined",
-  "lastThought": "2026-10-30T20:06:49.256Z",
+  "lastThought": "2026-10-30T20:42:00.459Z",
   "foundPlace": null
 }
