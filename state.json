@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T20:06:49.256Z",
+  "lastUpdate": "2026-10-30T20:20:30.321Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-10-30T20:16:49.256Z",
+  "doing": "pottering about at the pond",
+  "busyUntil": null,
   "needs": {
-    "fullness": 42,
-    "water": 73,
-    "energy": 85,
-    "curiosity": 50,
-    "joy": 64,
+    "fullness": 41,
+    "water": 71,
+    "energy": 84,
+    "curiosity": 49,
+    "joy": 63,
     "calm": 100
   },
-  "health": 80,
+  "health": 81,
   "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -550,7 +550,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.54,
+        "left": 2.57,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
