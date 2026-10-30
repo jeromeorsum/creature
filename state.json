@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T11:54:13.559Z",
+  "lastUpdate": "2026-10-30T12:04:22.702Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,9 +10,9 @@
   "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 27,
-    "water": 70,
-    "energy": 68,
+    "fullness": 26,
+    "water": 69,
+    "energy": 70,
     "curiosity": 58,
     "joy": 66,
     "calm": 100
@@ -405,7 +405,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -555,7 +555,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.58,
+        "left": 1.6,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
