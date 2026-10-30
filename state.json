@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T22:34:10.044Z",
+  "lastUpdate": "2026-10-30T22:44:24.159Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,14 +10,14 @@
   "doing": "plant seeds at the thicket",
   "busyUntil": "2026-10-30T22:53:59.202Z",
   "needs": {
-    "fullness": 76,
-    "water": 58,
-    "energy": 47,
-    "curiosity": 64,
-    "joy": 74,
+    "fullness": 75,
+    "water": 57,
+    "energy": 46,
+    "curiosity": 63,
+    "joy": 73,
     "calm": 100
   },
-  "health": 94,
+  "health": 95,
   "mood": "determined and damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -342,7 +342,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0.12
+        "left": 0.15
       },
       {
         "id": "clay3",
