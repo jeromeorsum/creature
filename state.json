@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T03:34:20.573Z",
-  "place": "spring",
+  "lastUpdate": "2026-10-30T03:44:30.090Z",
+  "place": "cliffs",
   "spot": {
-    "x": -24,
-    "z": 22
+    "x": -35,
+    "z": 4
   },
-  "doing": "drink deeply from the cold clear spring and look around the mossy stones (at the spring)",
-  "busyUntil": "2026-10-30T03:39:06.841Z",
+  "doing": "exploring: just found the cliffs",
+  "busyUntil": "2026-10-30T04:14:30.090Z",
   "needs": {
-    "fullness": 56,
-    "water": 71,
-    "energy": 48,
-    "curiosity": 44,
-    "joy": 54,
+    "fullness": 55,
+    "water": 70,
+    "energy": 39,
+    "curiosity": 71,
+    "joy": 63,
     "calm": 100
   },
   "health": 100,
@@ -375,7 +375,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.5,
+        "left": 1.55,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -525,7 +525,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.6,
+        "left": 0.62,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -535,7 +535,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 2.1,
+        "left": 2.17,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -545,7 +545,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 2.1,
+        "left": 2.17,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -631,10 +631,11 @@
       "beach",
       "hill",
       "tidepools",
-      "spring"
+      "spring",
+      "cliffs"
     ]
   },
-  "ticks": 25,
+  "ticks": 26,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
@@ -642,10 +643,10 @@
     "ticks": 13
   },
   "lastOutcome": [
-    "You did your own thing: drink deeply from the cold clear spring and look around the mossy stones."
+    "You pushed into a part of the island you'd never seen and found a new place: the cliffs, windswept sea cliffs on a headland, with seabirds nesting on the ledges and a view over the whole sea."
   ],
   "thought": "A spring! The clearest water on the island, and I am thirsty at 47. I will drink here and see what the water is like. Then berries, and home before the sun comes up to sleep. Wish of seeing a new part is granted.",
   "face": "happy",
   "lastThought": "2026-10-30T03:24:06.841Z",
-  "foundPlace": null
+  "foundPlace": "cliffs"
 }
