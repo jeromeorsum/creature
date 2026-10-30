@@ -1,30 +1,35 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T02:43:19.803Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-30T02:53:39.220Z",
+  "place": "spring",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -24,
+    "z": 22
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-10-30T02:52:26.676Z",
+  "doing": "exploring: just found the spring",
+  "busyUntil": "2026-10-30T03:23:39.220Z",
   "needs": {
-    "fullness": 61,
-    "water": 51,
-    "energy": 64,
-    "curiosity": 15,
-    "joy": 41,
+    "fullness": 60,
+    "water": 50,
+    "energy": 55,
+    "curiosity": 42,
+    "joy": 50,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and indignant",
+  "mood": "restless and hopeful",
   "memories": [],
   "wishes": [
     {
       "text": "Build a roof so the rain stops dripping on my head",
       "made": "2026-10-29T01:46:29.781Z",
       "done": "2026-10-29T21:57:44.660Z"
+    },
+    {
+      "text": "See a part of the island I have never seen",
+      "made": "2026-10-30T02:53:39.220Z",
+      "done": null
     }
   ],
   "hobbies": [],
@@ -89,7 +94,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then forage berries and collect wood",
+  "plan": "Explore somewhere new, then forage berries and return to the hut",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -368,7 +373,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.25,
+        "left": 1.3,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -518,7 +523,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.5,
+        "left": 0.52,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -528,7 +533,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -538,7 +543,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -613,18 +618,32 @@
         "started": "2026-10-29T20:56:32.358Z",
         "finished": "2026-10-29T20:56:32.358Z"
       }
+    ],
+    "known": [
+      "nest",
+      "meadow",
+      "thicket",
+      "pond",
+      "forest",
+      "rocks",
+      "beach",
+      "hill",
+      "tidepools",
+      "spring"
     ]
   },
-  "ticks": 23,
+  "ticks": 24,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [],
-  "thought": "The pigeon stole a berry, cheeky thing. I have 3 berries left and fullness is 71, so I'm not starving. Energy is 39 and I'm sleepy, and the hut is right here. Foraging berries would make more food, but the thicket is a walk away. I'll eat a bit later; a nap in the Cosy Hut is the sensible thing now. Curiosity is low, but sleep first.",
-  "face": "sleepy",
-  "lastThought": "2026-10-30T01:52:26.676Z",
-  "foundPlace": null
+  "lastOutcome": [
+    "You pushed into a part of the island you'd never seen and found a new place: the spring, a cold spring bubbling up between mossy stones and ferns: the clearest water on the island."
+  ],
+  "thought": "My curiosity is flat as a pressed leaf, and it is the middle of my night, which is my awake time. Energy is fine at 63. The best cure is exploring somewhere new, and I might find new things. Berries are kept (3), so I am not starving.",
+  "face": "curious",
+  "lastThought": "2026-10-30T02:53:39.220Z",
+  "foundPlace": "spring"
 }
