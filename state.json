@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T19:25:07.369Z",
+  "lastUpdate": "2026-10-30T19:35:13.173Z",
   "place": "thicket",
   "spot": {
     "x": 19.7,
     "z": -5.6
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-30T19:29:38.771Z",
+  "busyUntil": "2026-10-30T20:00:13.173Z",
   "needs": {
-    "fullness": 22,
-    "water": 27,
-    "energy": 93,
-    "curiosity": 54,
-    "joy": 65,
+    "fullness": 45,
+    "water": 26,
+    "energy": 88,
+    "curiosity": 53,
+    "joy": 67,
     "calm": 100
   },
   "health": 80,
-  "mood": "hungry but hopeful",
+  "mood": "hungry but curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -62,12 +62,12 @@
   "today": {
     "date": "2026-10-30",
     "plan": [
-      "Forage berries for breakfast at the thicket",
+      "Forage berries at the thicket",
       "Drink at the pond",
       "Plant berry seeds",
       "Tend plants",
       "Collect wood in the forest",
-      "Forage berries to keep for later",
+      "Forage berries to keep",
       "Watch the sky and wind down"
     ],
     "done": []
@@ -128,19 +128,20 @@
     "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 7
+      "berry": 9
     },
     "inventory": {
       "wood": 1,
       "stone": 0,
       "clay": 3,
       "fibre": 0,
-      "shells": 0
+      "shells": 1
     },
     "discovered": [
       "clay",
       "fibre",
-      "wood"
+      "wood",
+      "shells"
     ],
     "inventions": [],
     "home": 1,
@@ -400,7 +401,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.96,
+        "left": 3,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -501,7 +502,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2
+        "left": 0
       },
       {
         "id": "berries3",
@@ -550,7 +551,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.46,
+        "left": 2.48,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -660,18 +661,19 @@
       "cliffs"
     ]
   },
-  "ticks": 37,
+  "ticks": 38,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "I woke up starving, fullness zero, and thirsty. Berries first at the thicket, since I have nothing kept. Then drink at the pond, plant my seven berry seeds, and gather wood. The pigeon will watch, but I will guard with my beak.",
-  "face": "determined",
-  "lastThought": "2026-10-30T19:04:38.771Z",
+  "thought": "My middle is very empty and water is low too. The crab left a shiny shell, a nice mystery, I will keep it. Berries first since bushes here still have some, then the pond.",
+  "face": "curious",
+  "lastThought": "2026-10-30T19:35:13.173Z",
   "foundPlace": null
 }
