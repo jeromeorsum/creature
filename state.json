@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T06:17:30.953Z",
+  "lastUpdate": "2026-10-30T06:27:44.928Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-10-30T06:26:31.802Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-10-30T06:37:44.928Z",
   "needs": {
-    "fullness": 33,
-    "water": 53,
-    "energy": 43,
-    "curiosity": 80,
-    "joy": 63,
+    "fullness": 60,
+    "water": 52,
+    "energy": 42,
+    "curiosity": 79,
+    "joy": 66,
     "calm": 100
   },
   "health": 100,
-  "mood": "awed and sleepy",
+  "mood": "hungry but cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -102,11 +102,11 @@
       }
     }
   ],
-  "plan": "Go home to the Cosy Hut to sleep, then forage berries and collect wood",
+  "plan": "Eat, nap in the Cosy Hut, then forage berries and collect wood tonight",
   "knowledge": [],
   "world": {
     "weather": "sunny",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 7
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.3,
+        "left": 2.35,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.92,
+        "left": 0.94,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -541,7 +541,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 3.22,
+        "left": 3.29,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -551,7 +551,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 3.22,
+        "left": 3.29,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -641,16 +641,18 @@
       "cliffs"
     ]
   },
-  "ticks": 29,
+  "ticks": 30,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [],
-  "thought": "My energy is low at 24 and it is almost dawn, which is my bedtime since I sleep in the day. The sunrise wish is right here at the cliffs, and I'm already here. Sunrise is soon, so I'll sit and watch the sky a bit, then go home to the Cosy Hut. Calm is full, so this is just for the wish and the wonder.",
-  "face": "happy",
-  "lastThought": "2026-10-30T04:55:57.844Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is dawn and I should be sleeping since I am nocturnal, but my fullness is low at 32 and my energy is 42. I have three berries and the pigeon keeps stealing. Eating first will help me sleep better in the Cosy Hut. Then nap.",
+  "face": "sleepy",
+  "lastThought": "2026-10-30T06:27:44.928Z",
   "foundPlace": null
 }
