@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T08:20:01.385Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-30T08:30:11.080Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-10-30T08:28:53.006Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-30T08:40:11.080Z",
   "needs": {
-    "fullness": 44,
-    "water": 41,
-    "energy": 61,
-    "curiosity": 68,
-    "joy": 55,
+    "fullness": 43,
+    "water": 90,
+    "energy": 60,
+    "curiosity": 67,
+    "joy": 54,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and determined",
+  "mood": "sleepy but sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -102,7 +102,7 @@
       }
     }
   ],
-  "plan": "Eat, nap in the Cosy Hut, then forage berries and collect wood tonight",
+  "plan": "Drink, forage berries, nap in the Cosy Hut, collect wood tonight",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.9,
+        "left": 2.95,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.16,
+        "left": 1.18,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -641,16 +641,16 @@
       "cliffs"
     ]
   },
-  "ticks": 31,
+  "ticks": 32,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I am nocturnal, so bedtime is near. Energy is 36, which is low, and my middle is half full. I have one berry. Sleeping in the Cosy Hut is the sensible thing. The pigeon may steal that last berry, but I will curl around it. Tonight I will forage properly.",
+  "thought": "It is 8:30 and I should be sleeping, but my belly is at 43 and I have only one berry. Water is 40 too. I will drink at the pond first, since it is close, then forage and nap after. Sleeping hungry is a bad idea.",
   "face": "sleepy",
-  "lastThought": "2026-10-30T07:28:53.006Z",
+  "lastThought": "2026-10-30T08:30:11.080Z",
   "foundPlace": null
 }
