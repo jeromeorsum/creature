@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T05:16:20.043Z",
-  "place": "cliffs",
+  "lastUpdate": "2026-10-30T05:26:31.802Z",
+  "place": "nest",
   "spot": {
-    "x": -35,
-    "z": 4
+    "x": -8,
+    "z": 6
   },
-  "doing": "sit on the cliff edge and watch the sunrise over the sea (at the cliffs)",
-  "busyUntil": "2026-10-30T05:25:57.844Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-30T06:26:31.802Z",
   "needs": {
-    "fullness": 44,
-    "water": 59,
-    "energy": 19,
-    "curiosity": 86,
-    "joy": 69,
+    "fullness": 38,
+    "water": 58,
+    "energy": 48,
+    "curiosity": 85,
+    "joy": 68,
     "calm": 100
   },
   "health": 100,
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2,
+        "left": 2.05,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.8,
+        "left": 0.82,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -541,7 +541,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -551,7 +551,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -641,16 +641,14 @@
       "cliffs"
     ]
   },
-  "ticks": 28,
+  "ticks": 29,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 15
   },
-  "lastOutcome": [
-    "You did your own thing: sit on the cliff edge and watch the sunrise over the sea."
-  ],
+  "lastOutcome": [],
   "thought": "My energy is low at 24 and it is almost dawn, which is my bedtime since I sleep in the day. The sunrise wish is right here at the cliffs, and I'm already here. Sunrise is soon, so I'll sit and watch the sky a bit, then go home to the Cosy Hut. Calm is full, so this is just for the wish and the wonder.",
   "face": "happy",
   "lastThought": "2026-10-30T04:55:57.844Z",
