@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T10:12:06.627Z",
+  "lastUpdate": "2026-10-30T10:22:20.187Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-10-30T10:36:45.118Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-30T11:22:20.187Z",
   "needs": {
-    "fullness": 42,
-    "water": 80,
-    "energy": 30,
-    "curiosity": 62,
-    "joy": 70,
+    "fullness": 36,
+    "water": 79,
+    "energy": 59,
+    "curiosity": 61,
+    "joy": 69,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "sleepy and satisfied",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -77,7 +77,9 @@
       6
     ]
   },
-  "lessons": [],
+  "lessons": [
+    "Wind can knock roof pieces off, so tie them firmly with fibre."
+  ],
   "days": [
     {
       "date": "2026-10-28",
@@ -100,9 +102,31 @@
           3
         ]
       }
+    },
+    {
+      "date": "2026-10-29",
+      "summary": "I finished the Cosy Hut and mended its roof after the wind knocked a piece off. I found the spring and the cliffs and watched the sunrise, which was wonderful. I did not gather enough berries, and the pigeon worry is still with me. Tomorrow night I want berries first, then planting my seven berry seeds and more wood. I feel proud and very sleepy.",
+      "plan": {
+        "date": "2026-10-29",
+        "plan": [
+          "Design and start the hut",
+          "Drink at the pond",
+          "Plant the tree seed",
+          "Collect more wood",
+          "Forage berries for dinner",
+          "Tend plants",
+          "Wind down and eat"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          6
+        ]
+      }
     }
   ],
-  "plan": "Finish the Cosy Hut, nap, then forage berries tonight",
+  "plan": "Sleep, then forage berries at the thicket, plant berry seeds, and collect wood.",
   "knowledge": [],
   "world": {
     "weather": "cloudy",
@@ -381,7 +405,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.25,
+        "left": 0.3,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +555,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.38,
+        "left": 1.4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -641,18 +665,16 @@
       "cliffs"
     ]
   },
-  "ticks": 35,
+  "ticks": 36,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "I have 3 fibre, which is exactly what the Cosy Hut needs. It is 14m away. Finishing it means a dry bed for sleeping in the bright. My energy is 46 and I'm sleepy, so building then sleeping is right. Berries can wait until tonight.",
-  "face": "determined",
-  "lastThought": "2026-10-30T09:51:45.118Z",
+  "lastOutcome": [],
+  "thought": "The hut is finished and the roof is mended. My eye is drooping and it is nearly sleeping time. I have no kept berries, which nags me, but water is fine. I will nap in the Cosy Hut and gather berries first thing when I wake tonight.",
+  "face": "sleepy",
+  "lastThought": "2026-10-30T10:22:20.187Z",
   "foundPlace": null
 }
