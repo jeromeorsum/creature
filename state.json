@@ -1,25 +1,27 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T03:13:54.618Z",
+  "lastUpdate": "2026-10-30T03:24:06.841Z",
   "place": "spring",
   "spot": {
     "x": -24,
     "z": 22
   },
-  "doing": "exploring: just found the spring",
-  "busyUntil": "2026-10-30T03:23:39.220Z",
+  "doing": "drink deeply from the cold clear spring and look around the mossy stones (at the spring)",
+  "busyUntil": "2026-10-30T03:39:06.841Z",
   "needs": {
-    "fullness": 58,
-    "water": 48,
-    "energy": 53,
-    "curiosity": 40,
-    "joy": 48,
+    "fullness": 57,
+    "water": 72,
+    "energy": 49,
+    "curiosity": 45,
+    "joy": 55,
     "calm": 100
   },
   "health": 100,
-  "mood": "restless and hopeful",
-  "memories": [],
+  "mood": "delighted and refreshed",
+  "memories": [
+    "There is a cold clear spring, far from the nest, with the clearest water on the island."
+  ],
   "wishes": [
     {
       "text": "Build a roof so the rain stops dripping on my head",
@@ -29,7 +31,7 @@
     {
       "text": "See a part of the island I have never seen",
       "made": "2026-10-30T02:53:39.220Z",
-      "done": null
+      "done": "2026-10-30T03:24:06.841Z"
     }
   ],
   "hobbies": [],
@@ -94,7 +96,7 @@
       }
     }
   ],
-  "plan": "Explore somewhere new, then forage berries and return to the hut",
+  "plan": "Drink at the spring, forage berries, then go home to the Cosy Hut",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -373,7 +375,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.4,
+        "left": 1.45,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -523,7 +525,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 0.56,
+        "left": 0.58,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -533,7 +535,7 @@
         "res": "berries",
         "x": -12.7,
         "z": 28.1,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -543,7 +545,7 @@
         "res": "berries",
         "x": 1.3,
         "z": 27.2,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -632,18 +634,18 @@
       "spring"
     ]
   },
-  "ticks": 24,
+  "ticks": 25,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [
-    "You pushed into a part of the island you'd never seen and found a new place: the spring, a cold spring bubbling up between mossy stones and ferns: the clearest water on the island."
+    "You did your own thing: drink deeply from the cold clear spring and look around the mossy stones."
   ],
-  "thought": "My curiosity is flat as a pressed leaf, and it is the middle of my night, which is my awake time. Energy is fine at 63. The best cure is exploring somewhere new, and I might find new things. Berries are kept (3), so I am not starving.",
-  "face": "curious",
-  "lastThought": "2026-10-30T02:53:39.220Z",
-  "foundPlace": "spring"
+  "thought": "A spring! The clearest water on the island, and I am thirsty at 47. I will drink here and see what the water is like. Then berries, and home before the sun comes up to sleep. Wish of seeing a new part is granted.",
+  "face": "happy",
+  "lastThought": "2026-10-30T03:24:06.841Z",
+  "foundPlace": null
 }
