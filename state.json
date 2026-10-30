@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T09:11:00.342Z",
+  "lastUpdate": "2026-10-30T09:21:11.537Z",
   "place": "pond",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -3.9,
+    "z": 19.8
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-10-30T09:21:00.342Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-10-30T09:46:11.537Z",
   "needs": {
-    "fullness": 53,
-    "water": 86,
-    "energy": 56,
-    "curiosity": 63,
-    "joy": 54,
+    "fullness": 52,
+    "water": 85,
+    "energy": 49,
+    "curiosity": 62,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but sensible",
+  "mood": "sleepy but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -102,7 +102,7 @@
       }
     }
   ],
-  "plan": "Drink, forage berries, nap in the Cosy Hut, collect wood tonight",
+  "plan": "Pull reeds, repair the Cosy Hut, nap, then forage berries tonight",
   "knowledge": [],
   "world": {
     "weather": "sunny",
@@ -115,7 +115,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 3,
-      "fibre": 0,
+      "fibre": 3,
       "shells": 0
     },
     "discovered": [
@@ -381,7 +381,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -531,7 +531,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 1.26,
+        "left": 1.28,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -620,11 +620,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-10-29T20:56:32.358Z"
+        "finished": null
       }
     ],
     "known": [
@@ -641,18 +641,18 @@
       "cliffs"
     ]
   },
-  "ticks": 33,
+  "ticks": 34,
   "spend": {
     "day": "2026-10-29",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 3 fibre."
   ],
-  "thought": "It is 8:30 and I should be sleeping, but my belly is at 43 and I have only one berry. Water is 40 too. I will drink at the pond first, since it is close, then forage and nap after. Sleeping hungry is a bad idea.",
-  "face": "sleepy",
-  "lastThought": "2026-10-30T08:30:11.080Z",
+  "thought": "I am at the pond, and the hut needs 3 fibre. Reeds are right here, so I will pull them. That fixes the hut, and then I can sleep dry. Sleep is close, since it is morning and I am nocturnal.",
+  "face": "determined",
+  "lastThought": "2026-10-30T09:21:11.537Z",
   "foundPlace": null
 }
