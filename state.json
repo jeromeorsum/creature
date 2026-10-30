@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-30T21:33:03.510Z",
-  "place": "grotto",
+  "lastUpdate": "2026-10-30T21:43:10.615Z",
+  "place": "thicket",
   "spot": {
-    "x": 8,
-    "z": -22
+    "x": 22.1,
+    "z": -1
   },
-  "doing": "exploring: just found the grotto",
-  "busyUntil": "2026-10-30T21:42:35.512Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-30T22:08:10.615Z",
   "needs": {
-    "fullness": 58,
-    "water": 64,
-    "energy": 65,
-    "curiosity": 70,
-    "joy": 69,
+    "fullness": 81,
+    "water": 63,
+    "energy": 60,
+    "curiosity": 69,
+    "joy": 71,
     "calm": 100
   },
-  "health": 88,
+  "health": 89,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -122,14 +122,14 @@
       }
     }
   ],
-  "plan": "Forage berries, plant berry seeds, collect wood, tend plants.",
+  "plan": "Forage berries, plant berry seeds near the thicket, tend plants, collect wood.",
   "knowledge": [],
   "world": {
     "weather": "cloudy",
-    "food": 3,
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 11
+      "berry": 12
     },
     "inventory": {
       "wood": 1,
@@ -524,7 +524,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 4
+        "left": 3
       },
       {
         "id": "berries6",
@@ -538,7 +538,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 1
+        "left": 0
       },
       {
         "id": "berries8",
@@ -552,7 +552,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.71,
+        "left": 2.73,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-10-30T22:28:20.927Z"
@@ -663,18 +663,19 @@
       "grotto"
     ]
   },
-  "ticks": 41,
+  "ticks": 42,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You pushed into a part of the island you'd never seen and found a new place: the grotto, a mossy grotto under a rock arch, dry even in the rain, where little mushrooms glow in the dark."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "The crab left another shiny shell, so I'll call it a gift and keep it. Water is 69, which is fine, but my tummy is at 39 and I only have 2 berries. Berries come first. I have 9 berry seeds that could become a garden, which would solve my food worry for good. Foraging at the thicket is the sensible next step. The pigeon can watch.",
+  "thought": "That pigeon stole a berry right in front of me, rude. I have only one berry left and my tummy is at 57. The thicket is the answer, so I should go pick berries and eat some right away. Then I can plant my berry seeds near the thicket so food grows closer. The grotto is lovely, but food first.",
   "face": "determined",
-  "lastThought": "2026-10-30T20:42:00.459Z",
-  "foundPlace": "grotto"
+  "lastThought": "2026-10-30T21:43:10.615Z",
+  "foundPlace": null
 }
