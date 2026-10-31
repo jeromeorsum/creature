@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T05:11:41.905Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-31T05:21:50.130Z",
+  "place": "pond",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": -3.5,
+    "z": 26.1
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-31T05:16:21.500Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-10-31T05:46:50.130Z",
   "needs": {
-    "fullness": 94,
-    "water": 65,
-    "energy": 28,
-    "curiosity": 30,
-    "joy": 71,
-    "calm": 98
+    "fullness": 93,
+    "water": 64,
+    "energy": 21,
+    "curiosity": 29,
+    "joy": 70,
+    "calm": 100
   },
   "health": 100,
   "mood": "determined",
@@ -137,7 +137,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 2,
-      "fibre": 1,
+      "fibre": 4,
       "shells": 3
     },
     "discovered": [
@@ -344,7 +344,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 1.29
+        "left": 1.32
       },
       {
         "id": "clay3",
@@ -380,7 +380,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -388,7 +388,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -498,7 +498,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.45,
+        "left": 0.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -506,7 +506,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -514,7 +514,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -522,7 +522,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -538,7 +538,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -546,7 +546,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -554,7 +554,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.45,
+        "left": 0.52,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -602,7 +602,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -612,7 +612,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -703,7 +703,7 @@
       "grotto"
     ]
   },
-  "ticks": 52,
+  "ticks": 53,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
@@ -711,7 +711,7 @@
     "ticks": 12
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
+    "You collected 3 fibre."
   ],
   "thought": "The wind knocked a cone off my hut again. I need fibre, and the reeds at the pond are the place for it. But my middle is okay at 72 and I'm keeping only 3 berries. Energy is low at 34. I'm at the thicket, so picking berries to keep is the sensible thing before the pigeon gets bolder. Then reeds, then repair.",
   "face": "determined",
