@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T22:01:24.399Z",
+  "lastUpdate": "2026-10-31T22:11:40.054Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "peek and crawl inside the giant hollow log (at the glade)",
+  "busyUntil": "2026-10-31T22:41:40.054Z",
   "needs": {
-    "fullness": 52,
-    "water": 66,
-    "energy": 58,
-    "curiosity": 29,
-    "joy": 70,
+    "fullness": 48,
+    "water": 62,
+    "energy": 52,
+    "curiosity": 53,
+    "joy": 79,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "curious and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -48,7 +48,7 @@
     {
       "text": "Look inside the giant hollow log in the glade",
       "made": "2026-10-31T10:17:43.782Z",
-      "done": null
+      "done": "2026-10-31T22:11:40.054Z"
     }
   ],
   "hobbies": [],
@@ -82,7 +82,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      4
     ]
   },
   "lessons": [
@@ -155,7 +156,7 @@
       }
     }
   ],
-  "plan": "Visit the hollow log, then pick berries to keep, tend plants, watch the sky",
+  "plan": "Peek in log, then pick berries to keep, tend plants, watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -529,7 +530,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.19,
+        "left": 1.26,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -585,7 +586,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.77,
+        "left": 2.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -765,16 +766,18 @@
       "glade"
     ]
   },
-  "ticks": 65,
+  "ticks": 66,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a flat puddle. I have been planting and picking, and the hollow log in the glade has been calling me for days. It is night, my favourite time, and my energy is good. I will go and look closely at the glade and the hollow log. That should fill my curiosity and fulfil my wish. Berries can wait a little, I have two kept.",
-  "face": "curious",
-  "lastThought": "2026-10-31T21:10:29.699Z",
+  "lastOutcome": [
+    "You did your own thing: peek and crawl inside the giant hollow log."
+  ],
+  "thought": "I am at the glade at last, right beside the giant hollow log. My wish is to look inside it, and my curiosity is low, so this should fix both. The mushrooms smell funny and the wind is rustling the ferns. I suspect something clever lives in there. I will peek carefully and maybe poke it with my beak.",
+  "face": "excited",
+  "lastThought": "2026-10-31T22:11:40.054Z",
   "foundPlace": null
 }
