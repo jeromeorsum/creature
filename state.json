@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T10:28:19.801Z",
+  "lastUpdate": "2026-10-31T10:38:10.087Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,10 +10,10 @@
   "doing": "drink at the pond",
   "busyUntil": "2026-10-31T10:38:19.801Z",
   "needs": {
-    "fullness": 71,
-    "water": 84,
-    "energy": 60,
-    "curiosity": 32,
+    "fullness": 70,
+    "water": 83,
+    "energy": 59,
+    "curiosity": 31,
     "joy": 76,
     "calm": 100
   },
@@ -376,7 +376,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 2.22
+        "left": 2.24
       },
       {
         "id": "clay3",
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.62,
+        "left": 2.69,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -586,7 +586,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.62,
+        "left": 2.69,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
