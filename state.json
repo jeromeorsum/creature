@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T19:59:03.410Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-31T20:09:16.906Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-31T20:34:16.906Z",
   "needs": {
-    "fullness": 40,
-    "water": 78,
-    "energy": 90,
-    "curiosity": 23,
-    "joy": 71,
+    "fullness": 63,
+    "water": 77,
+    "energy": 85,
+    "curiosity": 22,
+    "joy": 73,
     "calm": 100
   },
   "health": 100,
@@ -73,12 +73,11 @@
   "today": {
     "date": "2026-10-31",
     "plan": [
-      "Breakfast: forage berries at the thicket",
-      "Drink at the pond",
+      "Breakfast: forage berries",
       "Plant berry seeds",
       "Tend the plants",
-      "Eat a proper dinner of kept berries",
       "Visit the hollow log in the glade",
+      "Eat kept berries for dinner",
       "Wind down and watch the sky"
     ],
     "done": []
@@ -157,10 +156,10 @@
   "knowledge": [],
   "world": {
     "weather": "rainy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 12
+      "berry": 13
     },
     "inventory": {
       "wood": 1,
@@ -373,7 +372,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 3.88
+        "left": 3.91
       },
       {
         "id": "clay3",
@@ -527,7 +526,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.35,
+        "left": 0.42,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -583,7 +582,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -733,16 +732,19 @@
       "glade"
     ]
   },
-  "ticks": 62,
+  "ticks": 63,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up hungry, fullness 21 and water 33. Berries first is the rule, since I keep forgetting. The thicket has the berries, and the pigeon lurks there. I'll drink soon after, then plant my ten berry seeds so food stops being a problem.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "My middle is only 39 full and I have no kept food. Berries first, at the thicket. The pigeon lurks, so I will eat some right away. Then plant seeds and tend plants.",
   "face": "determined",
-  "lastThought": "2026-10-31T19:08:08.202Z",
+  "lastThought": "2026-10-31T20:09:16.906Z",
   "foundPlace": null
 }
