@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T00:56:57.160Z",
+  "lastUpdate": "2026-10-31T01:07:18.141Z",
   "place": "pond",
   "spot": {
-    "x": -2.2,
-    "z": 17.7
+    "x": -4,
+    "z": 21
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-10-31T01:01:39.776Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-31T01:17:18.141Z",
   "needs": {
-    "fullness": 86,
-    "water": 40,
-    "energy": 15,
-    "curiosity": 50,
-    "joy": 68,
-    "calm": 98
+    "fullness": 85,
+    "water": 89,
+    "energy": 14,
+    "curiosity": 49,
+    "joy": 67,
+    "calm": 100
   },
   "health": 100,
-  "mood": "determined and hungry",
+  "mood": "tired but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -123,7 +123,7 @@
       }
     }
   ],
-  "plan": "Forage berries, pull reeds for fibre, repair the hut roof, collect wood.",
+  "plan": "Drink, fix the hut roof with fibre, nap, then berries.",
   "knowledge": [],
   "world": {
     "weather": "rainy",
@@ -343,7 +343,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0.54
+        "left": 0.57
       },
       {
         "id": "clay3",
@@ -497,7 +497,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -505,7 +505,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -513,7 +513,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -521,7 +521,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -529,7 +529,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -537,7 +537,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -545,7 +545,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -553,7 +553,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -591,7 +591,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -601,7 +601,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -611,7 +611,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -702,18 +702,16 @@
       "grotto"
     ]
   },
-  "ticks": 46,
+  "ticks": 47,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [
-    "You collected 4 fibre."
-  ],
-  "thought": "Meal time. I have only 2 kept berries and my worry is no food for later. The thicket has one bush with berries left. Foraging fills me and gives kept food. The hut roof got knocked off again, but I need fibre first, so berries now, reeds later.",
+  "lastOutcome": [],
+  "thought": "My water is 39 and I'm at the pond, so a long drink is the sensible thing. Energy is very low, but drinking first and then going home to nap and fix the hut roof sounds right. Fullness is fine at 85.",
   "face": "determined",
-  "lastThought": "2026-10-31T00:06:02.125Z",
+  "lastThought": "2026-10-31T01:07:18.141Z",
   "foundPlace": null
 }
