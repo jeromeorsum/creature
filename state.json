@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T23:02:45.717Z",
-  "place": "glade",
+  "lastUpdate": "2026-10-31T23:12:53.296Z",
+  "place": "thicket",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-31T23:37:53.296Z",
   "needs": {
-    "fullness": 43,
-    "water": 57,
-    "energy": 47,
-    "curiosity": 48,
-    "joy": 74,
+    "fullness": 66,
+    "water": 56,
+    "energy": 42,
+    "curiosity": 47,
+    "joy": 76,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and delighted",
+  "mood": "determined and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -156,14 +156,14 @@
       }
     }
   ],
-  "plan": "Peek in log, then pick berries to keep, tend plants, watch the sky",
+  "plan": "Pick berries, tend plants, watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 4,
     "seeds": {
       "tree": 0,
-      "berry": 10
+      "berry": 11
     },
     "inventory": {
       "wood": 1,
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.61,
+        "left": 0.68,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -586,7 +586,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.19,
+        "left": 0.26,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -766,18 +766,19 @@
       "glade"
     ]
   },
-  "ticks": 66,
+  "ticks": 67,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [
-    "You did your own thing: peek and crawl inside the giant hollow log."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "I am at the glade at last, right beside the giant hollow log. My wish is to look inside it, and my curiosity is low, so this should fix both. The mushrooms smell funny and the wind is rustling the ferns. I suspect something clever lives in there. I will peek carefully and maybe poke it with my beak.",
-  "face": "excited",
-  "lastThought": "2026-10-31T22:11:40.054Z",
+  "thought": "My middle is hollow, fullness 42, and I only have two berries. The pigeon worry nags. Berries are at the thicket, so I'll go forage and eat some on the spot. Then tend plants later.",
+  "face": "determined",
+  "lastThought": "2026-10-31T23:12:53.296Z",
   "foundPlace": null
 }
