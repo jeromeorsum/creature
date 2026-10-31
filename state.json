@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T09:37:01.717Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-31T09:47:05.757Z",
+  "place": "glade",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -12,
+    "z": -20
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-10-31T09:45:51.861Z",
+  "doing": "exploring: just found the glade",
+  "busyUntil": "2026-10-31T10:17:05.757Z",
   "needs": {
-    "fullness": 48,
-    "water": 39,
-    "energy": 73,
-    "curiosity": 9,
-    "joy": 67,
+    "fullness": 47,
+    "water": 38,
+    "energy": 64,
+    "curiosity": 36,
+    "joy": 76,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and wanting adventure",
+  "mood": "eager and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -129,7 +129,7 @@
       }
     }
   ],
-  "plan": "Nap, then berries, then explore somewhere new tonight",
+  "plan": "Explore somewhere new, then eat berries, then sleep in the hut",
   "knowledge": [],
   "world": {
     "weather": "rainy",
@@ -349,7 +349,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 2.07
+        "left": 2.1
       },
       {
         "id": "clay3",
@@ -503,7 +503,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.27,
+        "left": 2.34,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -559,7 +559,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.27,
+        "left": 2.34,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -705,19 +705,22 @@
       "tidepools",
       "spring",
       "cliffs",
-      "grotto"
+      "grotto",
+      "glade"
     ]
   },
-  "ticks": 57,
+  "ticks": 58,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [],
-  "thought": "It's morning, my bedtime, but curiosity is very low at 14 and energy only 48. Napping in the hut will restore energy, but a short explore nearby would feed curiosity. I think sleep matters most since I'm a night bird and the sun is up. I'll nap in the Cosy Hut and plan to explore tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-10-31T08:45:51.861Z",
-  "foundPlace": null
+  "lastOutcome": [
+    "You pushed into a part of the island you'd never seen and found a new place: the glade, a hushed glade where a giant hollow log lies across the ferns, with mushrooms growing on it."
+  ],
+  "thought": "It's nearly my bedtime at 11am, but my curiosity is flat as a puddle and energy is decent at 72. Exploring somewhere new is what I keep promising myself. The rain is light and I have berries kept. Let's wobble off and look for a new place, then sleep after.",
+  "face": "curious",
+  "lastThought": "2026-10-31T09:47:05.757Z",
+  "foundPlace": "glade"
 }
