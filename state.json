@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T01:07:18.141Z",
-  "place": "pond",
+  "lastUpdate": "2026-10-31T01:17:26.087Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-10-31T01:17:18.141Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-31T02:17:26.087Z",
   "needs": {
-    "fullness": 85,
-    "water": 89,
-    "energy": 14,
-    "curiosity": 49,
-    "joy": 67,
+    "fullness": 79,
+    "water": 88,
+    "energy": 43,
+    "curiosity": 48,
+    "joy": 66,
     "calm": 100
   },
   "health": 100,
@@ -343,7 +343,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 0.57
+        "left": 0.6
       },
       {
         "id": "clay3",
@@ -497,7 +497,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -505,7 +505,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -513,7 +513,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -521,7 +521,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -529,7 +529,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -537,7 +537,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -545,7 +545,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -553,7 +553,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -591,7 +591,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -601,7 +601,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -611,7 +611,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -702,7 +702,7 @@
       "grotto"
     ]
   },
-  "ticks": 47,
+  "ticks": 48,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
