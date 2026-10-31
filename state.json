@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T15:13:49.945Z",
+  "lastUpdate": "2026-10-31T15:23:59.999Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,8 +10,8 @@
   "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 44,
-    "water": 56,
+    "fullness": 43,
+    "water": 55,
     "energy": 100,
     "curiosity": 29,
     "joy": 74,
@@ -376,7 +376,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 3.04
+        "left": 3.07
       },
       {
         "id": "clay3",
