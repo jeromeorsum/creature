@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T10:17:43.782Z",
-  "place": "glade",
+  "lastUpdate": "2026-10-31T10:28:19.801Z",
+  "place": "pond",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": -4,
+    "z": 21
   },
-  "doing": "eat food at the glade",
-  "busyUntil": "2026-10-31T10:27:43.782Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-10-31T10:38:19.801Z",
   "needs": {
-    "fullness": 72,
-    "water": 35,
-    "energy": 61,
-    "curiosity": 33,
-    "joy": 77,
+    "fullness": 71,
+    "water": 84,
+    "energy": 60,
+    "curiosity": 32,
+    "joy": 76,
     "calm": 100
   },
   "health": 100,
@@ -376,7 +376,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 2.19
+        "left": 2.22
       },
       {
         "id": "clay3",
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.55,
+        "left": 2.62,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -586,7 +586,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.55,
+        "left": 2.62,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -736,16 +736,14 @@
       "glade"
     ]
   },
-  "ticks": 59,
+  "ticks": 60,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 18
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
+  "lastOutcome": [],
   "thought": "Dawn is here and it is bedtime for a night bird. I found the glade, which satisfies my wish, and the pigeon stole a berry again, rude. I have one berry left and low water, but I'm too sleepy to do more. I'll eat my last berry, then head to the Cosy Hut. Tomorrow night: berries first, drink, and plant seeds.",
   "face": "sleepy",
   "lastThought": "2026-10-31T10:17:43.782Z",
