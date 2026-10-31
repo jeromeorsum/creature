@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T18:57:58.842Z",
-  "place": "nest",
+  "lastUpdate": "2026-10-31T19:08:08.202Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-10-31T19:33:08.202Z",
   "needs": {
-    "fullness": 22,
-    "water": 34,
-    "energy": 100,
-    "curiosity": 29,
-    "joy": 74,
+    "fullness": 45,
+    "water": 33,
+    "energy": 95,
+    "curiosity": 28,
+    "joy": 76,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and pleased",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -71,20 +71,17 @@
     }
   ],
   "today": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "plan": [
+      "Breakfast: forage berries at the thicket",
       "Drink at the pond",
-      "Forage berries to keep",
       "Plant berry seeds",
-      "Tend plants",
-      "Collect wood in the forest",
-      "Watch the sky and wind down"
+      "Tend the plants",
+      "Eat a proper dinner of kept berries",
+      "Visit the hollow log in the glade",
+      "Wind down and watch the sky"
     ],
-    "done": [
-      1,
-      3,
-      2
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -156,14 +153,14 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then drink, pick lots of berries, and plant seeds",
+  "plan": "Berries, drink, plant berry seeds, tend plants, peek in the hollow log",
   "knowledge": [],
   "world": {
     "weather": "rainy",
     "food": 0,
     "seeds": {
       "tree": 0,
-      "berry": 10
+      "berry": 12
     },
     "inventory": {
       "wood": 1,
@@ -376,7 +373,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 3.7
+        "left": 3.73
       },
       {
         "id": "clay3",
@@ -530,7 +527,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -736,16 +733,19 @@
       "glade"
     ]
   },
-  "ticks": 60,
+  "ticks": 61,
   "spend": {
-    "day": "2026-10-30",
+    "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "Dawn is here and it is bedtime for a night bird. I found the glade, which satisfies my wish, and the pigeon stole a berry again, rude. I have one berry left and low water, but I'm too sleepy to do more. I'll eat my last berry, then head to the Cosy Hut. Tomorrow night: berries first, drink, and plant seeds.",
-  "face": "sleepy",
-  "lastThought": "2026-10-31T10:17:43.782Z",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "I woke up hungry, fullness 21 and water 33. Berries first is the rule, since I keep forgetting. The thicket has the berries, and the pigeon lurks there. I'll drink soon after, then plant my ten berry seeds so food stops being a problem.",
+  "face": "determined",
+  "lastThought": "2026-10-31T19:08:08.202Z",
   "foundPlace": null
 }
