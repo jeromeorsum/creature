@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T07:34:24.839Z",
+  "lastUpdate": "2026-10-31T07:44:37.896Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-10-31T07:43:19.007Z",
+  "busyUntil": "2026-10-31T08:44:37.896Z",
   "needs": {
-    "fullness": 70,
-    "water": 51,
-    "energy": 25,
-    "curiosity": 21,
-    "joy": 79,
+    "fullness": 64,
+    "water": 50,
+    "energy": 54,
+    "curiosity": 20,
+    "joy": 78,
     "calm": 100
   },
   "health": 100,
@@ -344,7 +344,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 1.71
+        "left": 1.74
       },
       {
         "id": "clay3",
@@ -498,7 +498,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.43,
+        "left": 1.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -506,7 +506,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -514,7 +514,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -522,7 +522,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -538,7 +538,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -546,7 +546,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -554,7 +554,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.43,
+        "left": 1.5,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -602,7 +602,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -612,7 +612,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -703,16 +703,16 @@
       "grotto"
     ]
   },
-  "ticks": 55,
+  "ticks": 56,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "Energy is zero and dawn is here, which is my bedtime. The hut is finished and it is my home, so I should nap in it right now. Berries and garden can wait until I wake at dusk.",
+  "thought": "It is dawn, which is my bedtime, and my energy is only 24. The hut is finished and I live in it, so a long nap is the sensible thing. Berries and garden can wait until I wake at dusk.",
   "face": "sleepy",
-  "lastThought": "2026-10-31T06:43:19.007Z",
+  "lastThought": "2026-10-31T07:44:37.896Z",
   "foundPlace": null
 }
