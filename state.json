@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T22:11:40.054Z",
+  "lastUpdate": "2026-10-31T22:21:53.341Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,11 +10,11 @@
   "doing": "peek and crawl inside the giant hollow log (at the glade)",
   "busyUntil": "2026-10-31T22:41:40.054Z",
   "needs": {
-    "fullness": 48,
-    "water": 62,
-    "energy": 52,
-    "curiosity": 53,
-    "joy": 79,
+    "fullness": 47,
+    "water": 61,
+    "energy": 51,
+    "curiosity": 52,
+    "joy": 78,
     "calm": 100
   },
   "health": 100,
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -586,7 +586,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.84,
+        "left": 2.91,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
