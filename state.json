@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T20:29:36.456Z",
+  "lastUpdate": "2026-10-31T20:39:48.922Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-10-31T20:34:16.906Z",
+  "doing": "plant seeds at the thicket",
+  "busyUntil": "2026-10-31T21:09:48.922Z",
   "needs": {
-    "fullness": 61,
-    "water": 75,
-    "energy": 83,
-    "curiosity": 20,
-    "joy": 71,
+    "fullness": 60,
+    "water": 74,
+    "energy": 74,
+    "curiosity": 19,
+    "joy": 78,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "determined and a bit proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -77,10 +77,12 @@
       "Plant berry seeds",
       "Tend the plants",
       "Visit the hollow log in the glade",
-      "Eat kept berries for dinner",
+      "Pick berries to keep for later",
       "Wind down and watch the sky"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -152,21 +154,21 @@
       }
     }
   ],
-  "plan": "Berries, drink, plant berry seeds, tend plants, peek in the hollow log",
+  "plan": "Plant seeds, tend plants, visit the hollow log, pick berries to keep, watch the sky",
   "knowledge": [],
   "world": {
-    "weather": "rainy",
+    "weather": "windy",
     "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 13
+      "berry": 10
     },
     "inventory": {
       "wood": 1,
       "stone": 0,
       "clay": 2,
       "fibre": 1,
-      "shells": 3
+      "shells": 4
     },
     "discovered": [
       "clay",
@@ -372,7 +374,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 3.97
+        "left": 4
       },
       {
         "id": "clay3",
@@ -526,7 +528,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.56,
+        "left": 0.63,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -582,7 +584,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.14,
+        "left": 2.21,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -644,6 +646,36 @@
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
+      },
+      {
+        "id": "planted63",
+        "res": "berries",
+        "x": 22.9,
+        "z": 3.5,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-31T20:39:48.922Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted64",
+        "res": "berries",
+        "x": 16.6,
+        "z": -6,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-31T20:39:48.922Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted65",
+        "res": "berries",
+        "x": 15.1,
+        "z": -13.4,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-10-31T20:39:48.922Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -732,19 +764,18 @@
       "glade"
     ]
   },
-  "ticks": 63,
+  "ticks": 64,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
   ],
-  "thought": "My middle is only 39 full and I have no kept food. Berries first, at the thicket. The pigeon lurks, so I will eat some right away. Then plant seeds and tend plants.",
+  "thought": "I am at the thicket with 60 fullness and just 2 kept berries. Berries are plentiful here, but the pigeon is lurking. I have 13 berry seeds, which is a lot to plant, and my plants need tending. Curiosity is low at 19, so the hollow log in the glade would help. First I plant the seeds here by the thicket, because that grows food for the future and fixes my worry about food.",
   "face": "determined",
-  "lastThought": "2026-10-31T20:09:16.906Z",
+  "lastThought": "2026-10-31T20:39:48.922Z",
   "foundPlace": null
 }
