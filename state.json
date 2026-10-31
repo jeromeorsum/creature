@@ -1,27 +1,28 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T10:07:30.974Z",
+  "lastUpdate": "2026-10-31T10:17:43.782Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "exploring: just found the glade",
-  "busyUntil": "2026-10-31T10:17:05.757Z",
+  "doing": "eat food at the glade",
+  "busyUntil": "2026-10-31T10:27:43.782Z",
   "needs": {
-    "fullness": 45,
-    "water": 36,
-    "energy": 62,
-    "curiosity": 34,
-    "joy": 74,
+    "fullness": 72,
+    "water": 35,
+    "energy": 61,
+    "curiosity": 33,
+    "joy": 77,
     "calm": 100
   },
   "health": 100,
-  "mood": "eager and curious",
+  "mood": "sleepy and pleased",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
-    "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
+    "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
+    "The glade is a hushed place with a giant hollow log and mushrooms, past the forest and beach."
   ],
   "wishes": [
     {
@@ -42,6 +43,11 @@
     {
       "text": "Explore a part of the island I have never seen",
       "made": "2026-10-31T08:45:51.861Z",
+      "done": "2026-10-31T10:17:43.782Z"
+    },
+    {
+      "text": "Look inside the giant hollow log in the glade",
+      "made": "2026-10-31T10:17:43.782Z",
       "done": null
     }
   ],
@@ -81,7 +87,8 @@
     ]
   },
   "lessons": [
-    "Wind can knock roof pieces off, so tie them firmly with fibre."
+    "Wind can knock roof pieces off, so tie them firmly with fibre.",
+    "Eat kept berries quickly when the pigeon is near, or it will take them."
   ],
   "days": [
     {
@@ -127,13 +134,33 @@
           6
         ]
       }
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "I explored and found the glade, which was the thing I wanted most. I did not tend plants or collect wood, and my food is gone, with the pigeon stealing again. I feel proud of the discovery and very sleepy. Tomorrow night I want to drink first, then pick many berries, plant my seeds, and peek into the hollow log.",
+      "plan": {
+        "date": "2026-10-30",
+        "plan": [
+          "Drink at the pond",
+          "Forage berries to keep",
+          "Plant berry seeds",
+          "Tend plants",
+          "Collect wood in the forest",
+          "Watch the sky and wind down"
+        ],
+        "done": [
+          1,
+          3,
+          2
+        ]
+      }
     }
   ],
-  "plan": "Explore somewhere new, then eat berries, then sleep in the hut",
+  "plan": "Sleep in the hut, then drink, pick lots of berries, and plant seeds",
   "knowledge": [],
   "world": {
     "weather": "rainy",
-    "food": 3,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 10
@@ -349,7 +376,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 2.16
+        "left": 2.19
       },
       {
         "id": "clay3",
@@ -503,7 +530,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.48,
+        "left": 2.55,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -559,7 +586,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.48,
+        "left": 2.55,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -709,18 +736,18 @@
       "glade"
     ]
   },
-  "ticks": 58,
+  "ticks": 59,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [
-    "You pushed into a part of the island you'd never seen and found a new place: the glade, a hushed glade where a giant hollow log lies across the ferns, with mushrooms growing on it."
+    "You ate 2 berries from your food."
   ],
-  "thought": "It's nearly my bedtime at 11am, but my curiosity is flat as a puddle and energy is decent at 72. Exploring somewhere new is what I keep promising myself. The rain is light and I have berries kept. Let's wobble off and look for a new place, then sleep after.",
-  "face": "curious",
-  "lastThought": "2026-10-31T09:47:05.757Z",
-  "foundPlace": "glade"
+  "thought": "Dawn is here and it is bedtime for a night bird. I found the glade, which satisfies my wish, and the pigeon stole a berry again, rude. I have one berry left and low water, but I'm too sleepy to do more. I'll eat my last berry, then head to the Cosy Hut. Tomorrow night: berries first, drink, and plant seeds.",
+  "face": "sleepy",
+  "lastThought": "2026-10-31T10:17:43.782Z",
+  "foundPlace": null
 }
