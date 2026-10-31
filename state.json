@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T21:10:29.699Z",
+  "lastUpdate": "2026-10-31T21:20:44.334Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,11 +10,11 @@
   "doing": "explore at the glade",
   "busyUntil": "2026-10-31T21:40:29.699Z",
   "needs": {
-    "fullness": 57,
-    "water": 71,
-    "energy": 63,
-    "curiosity": 34,
-    "joy": 75,
+    "fullness": 56,
+    "water": 70,
+    "energy": 62,
+    "curiosity": 33,
+    "joy": 74,
     "calm": 100
   },
   "health": 100,
@@ -529,7 +529,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -585,7 +585,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.42,
+        "left": 2.49,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
