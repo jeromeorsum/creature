@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T06:33:07.250Z",
+  "lastUpdate": "2026-10-31T06:43:19.007Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-10-31T06:37:27.943Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-10-31T07:43:19.007Z",
   "needs": {
-    "fullness": 81,
-    "water": 57,
-    "energy": 0,
-    "curiosity": 27,
-    "joy": 85,
-    "calm": 97
+    "fullness": 75,
+    "water": 56,
+    "energy": 30,
+    "curiosity": 26,
+    "joy": 84,
+    "calm": 100
   },
   "health": 100,
-  "mood": "tired but determined",
+  "mood": "sleepy and smug",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest."
@@ -124,7 +124,7 @@
       }
     }
   ],
-  "plan": "Fix hut roof, then nap, then berries and tend plants.",
+  "plan": "Nap, then berries, then tend plants.",
   "knowledge": [],
   "world": {
     "weather": "rainy",
@@ -344,7 +344,7 @@
         "res": "clay",
         "x": -5.6,
         "z": 15,
-        "left": 1.53
+        "left": 1.56
       },
       {
         "id": "clay3",
@@ -498,7 +498,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.01,
+        "left": 1.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -506,7 +506,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -514,7 +514,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -522,7 +522,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -530,7 +530,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -538,7 +538,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -546,7 +546,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -554,7 +554,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.01,
+        "left": 1.08,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 3.01,
+        "left": 3.08,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -602,7 +602,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.01,
+        "left": 3.08,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -612,7 +612,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 3.01,
+        "left": 3.08,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-10-31T23:14:58.397Z"
@@ -703,18 +703,16 @@
       "grotto"
     ]
   },
-  "ticks": 54,
+  "ticks": 55,
   "spend": {
     "day": "2026-10-30",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "Energy is very low at 18. I have 4 fibre now, enough to fix the hut roof (needs 3). The hut is my home, so the best thing is to finish the roof and then sleep dry. Rain keeps pattering and I'm wobbling. Build first, then nap.",
-  "face": "determined",
-  "lastThought": "2026-10-31T05:52:27.943Z",
+  "lastOutcome": [],
+  "thought": "Energy is zero and dawn is here, which is my bedtime. The hut is finished and it is my home, so I should nap in it right now. Berries and garden can wait until I wake at dusk.",
+  "face": "sleepy",
+  "lastThought": "2026-10-31T06:43:19.007Z",
   "foundPlace": null
 }
