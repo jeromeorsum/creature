@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-10-31T21:00:15.494Z",
-  "place": "thicket",
+  "lastUpdate": "2026-10-31T21:10:29.699Z",
+  "place": "glade",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -12,
+    "z": -20
   },
-  "doing": "plant seeds at the thicket",
-  "busyUntil": "2026-10-31T21:09:48.922Z",
+  "doing": "explore at the glade",
+  "busyUntil": "2026-10-31T21:40:29.699Z",
   "needs": {
-    "fullness": 58,
-    "water": 72,
-    "energy": 72,
-    "curiosity": 17,
-    "joy": 76,
+    "fullness": 57,
+    "water": 71,
+    "energy": 63,
+    "curiosity": 34,
+    "joy": 75,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined and a bit proud",
+  "mood": "curious and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -81,7 +81,8 @@
       "Wind down and watch the sky"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -154,7 +155,7 @@
       }
     }
   ],
-  "plan": "Plant seeds, tend plants, visit the hollow log, pick berries to keep, watch the sky",
+  "plan": "Visit the hollow log, then pick berries to keep, tend plants, watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -528,7 +529,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -584,7 +585,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.35,
+        "left": 2.42,
         "tendedUntil": "2026-10-31T23:14:58.397Z"
       },
       {
@@ -764,18 +765,16 @@
       "glade"
     ]
   },
-  "ticks": 64,
+  "ticks": 65,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
-  "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
-  ],
-  "thought": "I am at the thicket with 60 fullness and just 2 kept berries. Berries are plentiful here, but the pigeon is lurking. I have 13 berry seeds, which is a lot to plant, and my plants need tending. Curiosity is low at 19, so the hollow log in the glade would help. First I plant the seeds here by the thicket, because that grows food for the future and fixes my worry about food.",
-  "face": "determined",
-  "lastThought": "2026-10-31T20:39:48.922Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a flat puddle. I have been planting and picking, and the hollow log in the glade has been calling me for days. It is night, my favourite time, and my energy is good. I will go and look closely at the glade and the hollow log. That should fill my curiosity and fulfil my wish. Berries can wait a little, I have two kept.",
+  "face": "curious",
+  "lastThought": "2026-10-31T21:10:29.699Z",
   "foundPlace": null
 }
