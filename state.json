@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T10:15:37.781Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-01T10:25:49.658Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-01T10:25:37.781Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-01T11:10:49.658Z",
   "needs": {
-    "fullness": 59,
-    "water": 87,
-    "energy": 87,
-    "curiosity": 12,
-    "joy": 43,
-    "calm": 100
+    "fullness": 53,
+    "water": 86,
+    "energy": 72,
+    "curiosity": 16,
+    "joy": 64,
+    "calm": 99
   },
   "health": 100,
   "mood": "determined and sleepy",
@@ -159,7 +159,7 @@
     },
     {
       "date": "2026-10-31",
-      "summary": "Tonight I picked berries, planted seeds, tended my plants, peeked into the hollow log and spied on the pigeon, which stole a berry and stared at me. The wind knocked a cone off my hut, so I pulled reeds for fibre to tie it down. I did not get far with my curiosity, which is still flat, and I have little kept food. I feel determined and sleepy. Tomorrow night I want to fix the hut, pick lots of berries and find something new to wonder about.",
+      "summary": "Tonight I picked berries, spied on the pigeon, napped in the hut and drank at the pond. The wind knocked a cone off the hut again, so I pulled reeds and am off to tie it down for good. My curiosity stayed low and my kept food is thin, but my calm is high and I feel determined and sleepy. Tomorrow night I want to pick lots of berries, eat them before the pigeon notices, and find something new to wonder about.",
       "plan": {
         "date": "2026-10-31",
         "plan": [
@@ -180,7 +180,7 @@
       }
     }
   ],
-  "plan": "Drink, repair the hut with fibre, then sleep",
+  "plan": "Finish the hut, sleep, then tonight pick berries and tend plants",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -193,7 +193,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 2,
-      "fibre": 4,
+      "fibre": 1,
       "shells": 4
     },
     "discovered": [
@@ -554,7 +554,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.02,
+        "left": 2.09,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -610,7 +610,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.6,
+        "left": 2.67,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -688,7 +688,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.34,
+        "left": 3.41,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -767,11 +767,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-01T10:25:49.658Z"
       }
     ],
     "known": [
@@ -790,16 +790,18 @@
       "glade"
     ]
   },
-  "ticks": 82,
+  "ticks": 83,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [],
-  "thought": "Water is 37, so I should drink before bed. I have fibre now, and the hut needs repair, but the pond comes first. Then I'll sleep. Today went decently: berries, planting, tending, the hollow log.",
-  "face": "sleepy",
-  "lastThought": "2026-11-01T10:15:37.781Z",
+  "lastOutcome": [
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+  ],
+  "thought": "It is nearly bedtime. I have 4 fibre and the hut needs 3 more. I'll go finish it and sleep. First, finishing the hut is the best use of this last moment, so I wobble over and build.",
+  "face": "determined",
+  "lastThought": "2026-11-01T10:25:49.658Z",
   "foundPlace": null
 }
