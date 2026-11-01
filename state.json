@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T07:53:00.375Z",
+  "lastUpdate": "2026-11-01T08:03:09.753Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-01T08:02:05.542Z",
+  "busyUntil": "2026-11-01T09:03:09.753Z",
   "needs": {
-    "fullness": 83,
-    "water": 51,
-    "energy": 57,
-    "curiosity": 26,
-    "joy": 57,
+    "fullness": 77,
+    "water": 50,
+    "energy": 86,
+    "curiosity": 25,
+    "joy": 56,
     "calm": 100
   },
   "health": 100,
@@ -532,7 +532,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.04,
+        "left": 1.11,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -588,7 +588,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.62,
+        "left": 1.69,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -656,7 +656,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 3.36,
+        "left": 3.43,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -666,7 +666,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.36,
+        "left": 2.43,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -676,7 +676,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 3.36,
+        "left": 3.43,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -768,16 +768,16 @@
       "glade"
     ]
   },
-  "ticks": 78,
+  "ticks": 79,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "Dawn is here and I am meant to sleep soon, since my sleeping time is the daytime. Energy is only 32, so the sensible thing is to pick a few berries to keep, but the pigeon will steal them. Curiosity is low too. I think I will go up the hill and watch the sky to wind down, as planned, and then go to the hut. Calm is already high though, and energy is the real issue. A nap in the hut is the best choice.",
+  "thought": "It is morning, my sleeping time. Energy is 56, so a nap in the Cosy Hut makes sense. Water is 50, fine for now. I'll sleep and then drink and pick berries at dusk.",
   "face": "sleepy",
-  "lastThought": "2026-11-01T07:02:05.542Z",
+  "lastThought": "2026-11-01T08:03:09.753Z",
   "foundPlace": null
 }
