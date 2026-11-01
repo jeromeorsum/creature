@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T06:21:20.400Z",
+  "lastUpdate": "2026-11-01T06:31:33.645Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 15,
+    "z": -3
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-01T06:46:33.645Z",
   "needs": {
-    "fullness": 97,
-    "water": 60,
-    "energy": 36,
-    "curiosity": 20,
-    "joy": 61,
-    "calm": 98
+    "fullness": 96,
+    "water": 59,
+    "energy": 35,
+    "curiosity": 34,
+    "joy": 65,
+    "calm": 93
   },
   "health": 100,
-  "mood": "determined",
+  "mood": "determined and nosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -158,7 +158,7 @@
       }
     }
   ],
-  "plan": "Pick berries to keep, then watch the sky, then sleep in the hut",
+  "plan": "Spy on the pigeon, then watch the sky, then sleep in the hut",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -532,7 +532,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.41,
+        "left": 0.48,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -588,7 +588,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.99,
+        "left": 1.06,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -656,7 +656,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 2.73,
+        "left": 2.8,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -666,7 +666,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.73,
+        "left": 1.8,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -676,7 +676,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 2.73,
+        "left": 2.8,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -768,18 +768,16 @@
       "glade"
     ]
   },
-  "ticks": 76,
+  "ticks": 77,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
-  ],
-  "thought": "My middle is full at 96, but I have only one kept berry and the pigeon is hovering. Picking berries now means I can keep them for waking up. Curiosity is low too, but first the food worry. I will pick berries and then eat or tuck them away quickly.",
-  "face": "determined",
-  "lastThought": "2026-11-01T05:50:48.633Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is very low at 19, and the pigeon is right here. I have been avoiding spying on it, and I suspect it knows something. Spying is cheap and gives curiosity, so I will do that now before winding down.",
+  "face": "suspicious",
+  "lastThought": "2026-11-01T06:31:33.645Z",
   "foundPlace": null
 }
