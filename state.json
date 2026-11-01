@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T20:35:51.607Z",
+  "lastUpdate": "2026-11-01T20:46:05.212Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-01T20:45:51.607Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-01T20:56:05.212Z",
   "needs": {
-    "fullness": 0,
-    "water": 73,
-    "energy": 88,
+    "fullness": 14,
+    "water": 72,
+    "energy": 87,
     "curiosity": 0,
-    "joy": 52,
+    "joy": 55,
     "calm": 97
   },
-  "health": 100,
+  "health": 99,
   "mood": "hungry and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -73,8 +73,8 @@
   "today": {
     "date": "2026-11-01",
     "plan": [
-      "Drink at the pond",
-      "Breakfast of berries at the thicket",
+      "Eat last berry",
+      "Pick berries at the thicket",
       "Plant berry seeds",
       "Tend plants",
       "Collect wood",
@@ -176,11 +176,11 @@
       }
     }
   ],
-  "plan": "Drink, pick berries and eat them, plant berry seeds, tend plants, then watch the sky",
+  "plan": "Eat, pick lots of berries at the thicket, plant seeds, tend plants, watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 13
@@ -786,16 +786,18 @@
       "glade"
     ]
   },
-  "ticks": 84,
+  "ticks": 85,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up with fullness at zero and water low. Drinking comes first, since the pond is close, and then berries. My one kept berry is no use yet. I'll go to the pond now, then the thicket for berries, then tend plants and plant my berry seeds.",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "Fullness is zero and I have one berry. Eat it first, then go to the thicket for more. The pigeon can hold its meeting later. I'll eat now and plan the night.",
   "face": "determined",
-  "lastThought": "2026-11-01T20:35:51.607Z",
+  "lastThought": "2026-11-01T20:46:05.212Z",
   "foundPlace": null
 }
