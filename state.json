@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T22:38:15.209Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-01T22:48:26.840Z",
+  "place": "glade",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -12,
+    "z": -20
   },
-  "doing": "plant seeds at the thicket",
-  "busyUntil": "2026-11-01T22:47:51.176Z",
+  "doing": "explore at the glade",
+  "busyUntil": "2026-11-01T23:18:26.840Z",
   "needs": {
-    "fullness": 51,
-    "water": 61,
-    "energy": 60,
-    "curiosity": 11,
-    "joy": 63,
+    "fullness": 50,
+    "water": 60,
+    "energy": 51,
+    "curiosity": 28,
+    "joy": 62,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined and hopeful",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -49,6 +49,11 @@
       "text": "Look inside the giant hollow log in the glade",
       "made": "2026-10-31T10:17:43.782Z",
       "done": "2026-10-31T22:11:40.054Z"
+    },
+    {
+      "text": "Peek inside the giant hollow log in the glade",
+      "made": "2026-11-01T22:48:26.840Z",
+      "done": null
     }
   ],
   "hobbies": [],
@@ -84,7 +89,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -179,7 +185,7 @@
       }
     }
   ],
-  "plan": "Plant seeds, then explore for curiosity, pick berries, tend plants",
+  "plan": "Explore the glade log, then pick berries, tend plants, drink",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -193,7 +199,7 @@
       "stone": 0,
       "clay": 2,
       "fibre": 1,
-      "shells": 4
+      "shells": 5
     },
     "discovered": [
       "clay",
@@ -553,7 +559,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -609,7 +615,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.49,
+        "left": 2.56,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -819,18 +825,16 @@
       "glade"
     ]
   },
-  "ticks": 89,
+  "ticks": 90,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
-  "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
-  ],
-  "thought": "Curiosity is flat, but I have 16 berry seeds doing nothing and that is silly. Planting them here at the thicket makes more berries for later and calms me. Then I can explore for curiosity. Seeds first, since the plan says so and the pigeon cannot steal seeds in the ground.",
-  "face": "determined",
-  "lastThought": "2026-11-01T22:17:51.176Z",
+  "lastOutcome": [],
+  "thought": "A crab left me a shiny shell. A gift, I decide, since I am kind and overconfident. My curiosity is flat as a puddle, so exploring a new nook of the island or the glade's hollow log would help. But first, a quick look around with explore at the thicket to inspect the crab and its shell. I still have berry seeds to plant and plants to tend, but curiosity is the loudest need.",
+  "face": "curious",
+  "lastThought": "2026-11-01T22:48:26.840Z",
   "foundPlace": null
 }
