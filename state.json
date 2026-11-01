@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T08:54:07.802Z",
+  "lastUpdate": "2026-11-01T09:04:16.826Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-01T09:03:09.753Z",
+  "busyUntil": "2026-11-01T10:04:16.826Z",
   "needs": {
-    "fullness": 72,
-    "water": 45,
-    "energy": 81,
-    "curiosity": 20,
-    "joy": 51,
+    "fullness": 66,
+    "water": 44,
+    "energy": 100,
+    "curiosity": 19,
+    "joy": 50,
     "calm": 100
   },
   "health": 100,
@@ -532,7 +532,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.46,
+        "left": 1.53,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -588,7 +588,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.04,
+        "left": 2.11,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -656,7 +656,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 3.78,
+        "left": 3.85,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -666,7 +666,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.78,
+        "left": 2.85,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -676,7 +676,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 3.78,
+        "left": 3.85,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -768,16 +768,16 @@
       "glade"
     ]
   },
-  "ticks": 79,
+  "ticks": 80,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "It is morning, my sleeping time. Energy is 56, so a nap in the Cosy Hut makes sense. Water is 50, fine for now. I'll sleep and then drink and pick berries at dusk.",
+  "thought": "It is morning, bedtime for a nocturnal bird, but my curiosity is low at 19 and my energy is 80. Water is middling. I'll nap in the hut since I am nocturnal, but first maybe a quick experiment would help curiosity. I'd rather sleep properly so I'm awake at dusk. Napping is sensible.",
   "face": "sleepy",
-  "lastThought": "2026-11-01T08:03:09.753Z",
+  "lastThought": "2026-11-01T09:04:16.826Z",
   "foundPlace": null
 }
