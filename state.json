@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T23:18:56.247Z",
+  "lastUpdate": "2026-11-01T23:29:09.160Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "peek and crawl inside the giant hollow log (at the glade)",
+  "busyUntil": "2026-11-01T23:59:09.160Z",
   "needs": {
-    "fullness": 47,
-    "water": 57,
-    "energy": 48,
-    "curiosity": 25,
-    "joy": 59,
+    "fullness": 44,
+    "water": 54,
+    "energy": 42,
+    "curiosity": 46,
+    "joy": 68,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "curious and excited",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -53,7 +53,7 @@
     {
       "text": "Peek inside the giant hollow log in the glade",
       "made": "2026-11-01T22:48:26.840Z",
-      "done": null
+      "done": "2026-11-01T23:29:09.160Z"
     }
   ],
   "hobbies": [],
@@ -185,7 +185,7 @@
       }
     }
   ],
-  "plan": "Explore the glade log, then pick berries, tend plants, drink",
+  "plan": "Peek in the log, then pick berries, tend plants, drink",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -559,7 +559,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.98,
+        "left": 1.05,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -615,7 +615,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.77,
+        "left": 2.84,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -825,16 +825,18 @@
       "glade"
     ]
   },
-  "ticks": 90,
+  "ticks": 91,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "A crab left me a shiny shell. A gift, I decide, since I am kind and overconfident. My curiosity is flat as a puddle, so exploring a new nook of the island or the glade's hollow log would help. But first, a quick look around with explore at the thicket to inspect the crab and its shell. I still have berry seeds to plant and plants to tend, but curiosity is the loudest need.",
-  "face": "curious",
-  "lastThought": "2026-11-01T22:48:26.840Z",
+  "lastOutcome": [
+    "You did your own thing: peek and crawl inside the giant hollow log."
+  ],
+  "thought": "I am finally at the glade, beside the giant hollow log. My curiosity is nearly flat, and this is the perfect cure. I wanted to peek inside it for ages. I will crawl in, sniff, and see what is in there. Food can wait a little, though my middle is half empty.",
+  "face": "excited",
+  "lastThought": "2026-11-01T23:29:09.160Z",
   "foundPlace": null
 }
