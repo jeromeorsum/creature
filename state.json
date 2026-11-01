@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T21:16:42.237Z",
+  "lastUpdate": "2026-11-01T21:26:50.824Z",
   "place": "thicket",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": 12.9,
+    "z": -2.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-01T21:21:16.907Z",
+  "busyUntil": "2026-11-01T21:51:50.824Z",
   "needs": {
-    "fullness": 35,
-    "water": 69,
-    "energy": 80,
+    "fullness": 58,
+    "water": 68,
+    "energy": 75,
     "curiosity": 0,
-    "joy": 55,
+    "joy": 57,
     "calm": 97
   },
   "health": 99,
@@ -83,7 +83,8 @@
       "Wind down before bed"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -185,7 +186,7 @@
     "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 15
+      "berry": 16
     },
     "inventory": {
       "wood": 1,
@@ -552,7 +553,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -608,7 +609,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -788,19 +789,19 @@
       "glade"
     ]
   },
-  "ticks": 86,
+  "ticks": 87,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My middle is nearly empty at 13. Berries are the priority, so I go to the thicket and pick plenty, eating some right away. I'll tuck the rest away and watch for the pigeon. Planting seeds and tending can come after I'm fed.",
+  "thought": "My middle is only a third full and curiosity is zero. Berries are right here, so I should pick more and eat them. Then I can spy on the pigeon for curiosity.",
   "face": "determined",
-  "lastThought": "2026-11-01T20:56:16.907Z",
+  "lastThought": "2026-11-01T21:26:50.824Z",
   "foundPlace": null
 }
