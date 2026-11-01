@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T09:55:14.737Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-01T10:05:26.971Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -5.6,
+    "z": 26.7
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-01T10:04:16.826Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-01T10:30:26.971Z",
   "needs": {
-    "fullness": 61,
-    "water": 39,
-    "energy": 95,
-    "curiosity": 14,
-    "joy": 45,
+    "fullness": 60,
+    "water": 38,
+    "energy": 88,
+    "curiosity": 13,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "determined and a bit sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -158,7 +158,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then at dusk drink, pick berries, and spy on the pigeon again",
+  "plan": "Pull reeds, drink, repair the hut, then sleep",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -171,7 +171,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 2,
-      "fibre": 1,
+      "fibre": 4,
       "shells": 4
     },
     "discovered": [
@@ -422,7 +422,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -430,7 +430,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -532,7 +532,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.88,
+        "left": 1.95,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -588,7 +588,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.46,
+        "left": 2.53,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -666,7 +666,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.2,
+        "left": 3.27,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -745,11 +745,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-10-31T05:52:27.943Z"
+        "finished": null
       }
     ],
     "known": [
@@ -768,16 +768,18 @@
       "glade"
     ]
   },
-  "ticks": 80,
+  "ticks": 81,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [],
-  "thought": "It is morning, bedtime for a nocturnal bird, but my curiosity is low at 19 and my energy is 80. Water is middling. I'll nap in the hut since I am nocturnal, but first maybe a quick experiment would help curiosity. I'd rather sleep properly so I'm awake at dusk. Napping is sensible.",
-  "face": "sleepy",
-  "lastThought": "2026-11-01T09:04:16.826Z",
+  "lastOutcome": [
+    "You collected 3 fibre."
+  ],
+  "thought": "It is daytime and I should be asleep, but the gust knocked a fibre cone off my hut. My energy is high at 94, curiosity is flat. I have 1 fibre and need 2 more. Pulling reeds at the pond gives fibre and also water is lowish at 38, so the pond is a good trip. Reeds first, then repair the hut.",
+  "face": "determined",
+  "lastThought": "2026-11-01T10:05:26.971Z",
   "foundPlace": null
 }
