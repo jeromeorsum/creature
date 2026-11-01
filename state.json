@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T23:39:21.981Z",
+  "lastUpdate": "2026-11-01T23:49:31.550Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,11 +10,11 @@
   "doing": "peek and crawl inside the giant hollow log (at the glade)",
   "busyUntil": "2026-11-01T23:59:09.160Z",
   "needs": {
-    "fullness": 43,
-    "water": 53,
-    "energy": 41,
-    "curiosity": 45,
-    "joy": 67,
+    "fullness": 42,
+    "water": 52,
+    "energy": 40,
+    "curiosity": 44,
+    "joy": 66,
     "calm": 100
   },
   "health": 100,
