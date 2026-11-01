@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T12:28:10.479Z",
+  "lastUpdate": "2026-11-01T12:38:23.060Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,9 +10,9 @@
   "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 41,
-    "water": 74,
-    "energy": 87,
+    "fullness": 40,
+    "water": 73,
+    "energy": 89,
     "curiosity": 13,
     "joy": 61,
     "calm": 100
@@ -554,7 +554,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.93,
+        "left": 3,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -610,7 +610,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.51,
+        "left": 3.58,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
