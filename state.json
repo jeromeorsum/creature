@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T21:47:16.124Z",
+  "lastUpdate": "2026-11-01T21:57:25.137Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-01T21:51:50.824Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-01T22:12:25.137Z",
   "needs": {
-    "fullness": 56,
-    "water": 66,
-    "energy": 73,
-    "curiosity": 0,
-    "joy": 55,
-    "calm": 97
+    "fullness": 55,
+    "water": 65,
+    "energy": 72,
+    "curiosity": 15,
+    "joy": 59,
+    "calm": 92
   },
   "health": 100,
-  "mood": "hungry and determined",
+  "mood": "curious and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -553,7 +553,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.35,
+        "left": 0.42,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -609,7 +609,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.14,
+        "left": 2.21,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -789,19 +789,16 @@
       "glade"
     ]
   },
-  "ticks": 87,
+  "ticks": 88,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "My middle is only a third full and curiosity is zero. Berries are right here, so I should pick more and eat them. Then I can spy on the pigeon for curiosity.",
-  "face": "determined",
-  "lastThought": "2026-11-01T21:26:50.824Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is at zero, flat as a puddle. The pigeon is right here and has surely been hiding something. Spying costs little and gives a big curiosity boost. I'll watch it carefully, then plant seeds.",
+  "face": "suspicious",
+  "lastThought": "2026-11-01T21:57:25.137Z",
   "foundPlace": null
 }
