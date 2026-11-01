@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T01:15:27.660Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-01T01:25:38.370Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-01T01:35:38.370Z",
   "needs": {
-    "fullness": 82,
-    "water": 40,
-    "energy": 22,
-    "curiosity": 35,
-    "joy": 73,
+    "fullness": 81,
+    "water": 89,
+    "energy": 21,
+    "curiosity": 34,
+    "joy": 72,
     "calm": 100
   },
   "health": 100,
@@ -531,7 +531,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.31,
+        "left": 1.38,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -587,7 +587,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.89,
+        "left": 0.96,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -655,7 +655,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -665,7 +665,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -675,7 +675,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -767,16 +767,14 @@
       "glade"
     ]
   },
-  "ticks": 69,
+  "ticks": 70,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 8
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
+  "lastOutcome": [],
   "thought": "It is meal time and my middle is half full. Water is lowish at 44, energy low at 26. I have 4 berries but the pigeon is near, so I should eat them now rather than let it steal them. Then I will drink at the pond.",
   "face": "determined",
   "lastThought": "2026-11-01T00:34:44.314Z",
