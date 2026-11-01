@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T02:26:45.489Z",
+  "lastUpdate": "2026-11-01T02:36:59.487Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-01T02:35:47.430Z",
+  "busyUntil": "2026-11-01T03:36:59.487Z",
   "needs": {
-    "fullness": 70,
-    "water": 83,
-    "energy": 45,
-    "curiosity": 28,
-    "joy": 66,
+    "fullness": 64,
+    "water": 82,
+    "energy": 74,
+    "curiosity": 27,
+    "joy": 65,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but sensible",
+  "mood": "sleepy and sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -531,7 +531,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.8,
+        "left": 1.87,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -587,7 +587,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.38,
+        "left": 1.45,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -655,7 +655,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 1.12,
+        "left": 1.19,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -665,7 +665,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.12,
+        "left": 1.19,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -675,7 +675,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 1.12,
+        "left": 1.19,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -767,16 +767,16 @@
       "glade"
     ]
   },
-  "ticks": 71,
+  "ticks": 72,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [],
-  "thought": "My energy is very low, so I should rest. The Cosy Hut is close. I will nap now and pick berries when I wake.",
+  "thought": "My energy is only 44, and I'm awake in the dark of night. The hut is right here, so another nap sounds sensible. The berries can wait a little, but I should pick some after. The wind is rattling my eye, and the hut is cosy.",
   "face": "sleepy",
-  "lastThought": "2026-11-01T01:35:47.430Z",
+  "lastThought": "2026-11-01T02:36:59.487Z",
   "foundPlace": null
 }
