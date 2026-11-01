@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T01:25:38.370Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-01T01:35:47.430Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-01T01:35:38.370Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-01T02:35:47.430Z",
   "needs": {
-    "fullness": 81,
-    "water": 89,
-    "energy": 21,
-    "curiosity": 34,
-    "joy": 72,
+    "fullness": 75,
+    "water": 88,
+    "energy": 50,
+    "curiosity": 33,
+    "joy": 71,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "sleepy but sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -157,7 +157,7 @@
       }
     }
   ],
-  "plan": "Eat now, drink at the pond, pick berries to keep, watch the sky",
+  "plan": "Nap, then pick berries to keep, then watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -531,7 +531,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.38,
+        "left": 1.45,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -587,7 +587,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.96,
+        "left": 1.03,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -655,7 +655,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -665,7 +665,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -675,7 +675,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -767,16 +767,16 @@
       "glade"
     ]
   },
-  "ticks": 70,
+  "ticks": 71,
   "spend": {
     "day": "2026-10-31",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [],
-  "thought": "It is meal time and my middle is half full. Water is lowish at 44, energy low at 26. I have 4 berries but the pigeon is near, so I should eat them now rather than let it steal them. Then I will drink at the pond.",
-  "face": "determined",
-  "lastThought": "2026-11-01T00:34:44.314Z",
+  "thought": "My energy is very low, so I should rest. The Cosy Hut is close. I will nap now and pick berries when I wake.",
+  "face": "sleepy",
+  "lastThought": "2026-11-01T01:35:47.430Z",
   "foundPlace": null
 }
