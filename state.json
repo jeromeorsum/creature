@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T17:33:52.019Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-01T20:35:51.607Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-01T20:45:51.607Z",
   "needs": {
-    "fullness": 11,
-    "water": 44,
-    "energy": 100,
-    "curiosity": 13,
-    "joy": 61,
-    "calm": 100
+    "fullness": 0,
+    "water": 73,
+    "energy": 88,
+    "curiosity": 0,
+    "joy": 52,
+    "calm": 97
   },
   "health": 100,
-  "mood": "determined and sleepy",
+  "mood": "hungry and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -71,22 +71,18 @@
     }
   ],
   "today": {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "plan": [
-      "Breakfast: forage berries",
+      "Drink at the pond",
+      "Breakfast of berries at the thicket",
       "Plant berry seeds",
-      "Tend the plants",
-      "Visit the hollow log in the glade",
-      "Pick berries to keep for later",
-      "Wind down and watch the sky"
+      "Tend plants",
+      "Collect wood",
+      "Pick berries for dinner",
+      "Watch the sky",
+      "Wind down before bed"
     ],
-    "done": [
-      1,
-      2,
-      4,
-      3,
-      5
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -180,7 +176,7 @@
       }
     }
   ],
-  "plan": "Finish the hut, sleep, then tonight pick berries and tend plants",
+  "plan": "Drink, pick berries and eat them, plant berry seeds, tend plants, then watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
@@ -790,18 +786,16 @@
       "glade"
     ]
   },
-  "ticks": 83,
+  "ticks": 84,
   "spend": {
-    "day": "2026-10-31",
+    "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 1
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "It is nearly bedtime. I have 4 fibre and the hut needs 3 more. I'll go finish it and sleep. First, finishing the hut is the best use of this last moment, so I wobble over and build.",
+  "lastOutcome": [],
+  "thought": "I woke up with fullness at zero and water low. Drinking comes first, since the pond is close, and then berries. My one kept berry is no use yet. I'll go to the pond now, then the thicket for berries, then tend plants and plant my berry seeds.",
   "face": "determined",
-  "lastThought": "2026-11-01T10:25:49.658Z",
+  "lastThought": "2026-11-01T20:35:51.607Z",
   "foundPlace": null
 }
