@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T20:46:05.212Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-01T20:56:16.907Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-01T20:56:05.212Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-01T21:21:16.907Z",
   "needs": {
-    "fullness": 14,
-    "water": 72,
-    "energy": 87,
+    "fullness": 37,
+    "water": 71,
+    "energy": 82,
     "curiosity": 0,
-    "joy": 55,
+    "joy": 57,
     "calm": 97
   },
   "health": 99,
@@ -82,7 +82,9 @@
       "Watch the sky",
       "Wind down before bed"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -180,10 +182,10 @@
   "knowledge": [],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 13
+      "berry": 15
     },
     "inventory": {
       "wood": 1,
@@ -550,7 +552,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -786,18 +788,19 @@
       "glade"
     ]
   },
-  "ticks": 85,
+  "ticks": 86,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "Fullness is zero and I have one berry. Eat it first, then go to the thicket for more. The pigeon can hold its meeting later. I'll eat now and plan the night.",
+  "thought": "My middle is nearly empty at 13. Berries are the priority, so I go to the thicket and pick plenty, eating some right away. I'll tuck the rest away and watch for the pigeon. Planting seeds and tending can come after I'm fed.",
   "face": "determined",
-  "lastThought": "2026-11-01T20:46:05.212Z",
+  "lastThought": "2026-11-01T20:56:16.907Z",
   "foundPlace": null
 }
