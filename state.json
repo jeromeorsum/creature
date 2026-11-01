@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T22:07:36.251Z",
+  "lastUpdate": "2026-11-01T22:17:51.176Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-01T22:12:25.137Z",
+  "doing": "plant seeds at the thicket",
+  "busyUntil": "2026-11-01T22:47:51.176Z",
   "needs": {
-    "fullness": 54,
-    "water": 64,
-    "energy": 71,
-    "curiosity": 14,
-    "joy": 58,
-    "calm": 92
+    "fullness": 53,
+    "water": 63,
+    "energy": 62,
+    "curiosity": 13,
+    "joy": 65,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "determined and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -179,14 +179,14 @@
       }
     }
   ],
-  "plan": "Eat, pick lots of berries at the thicket, plant seeds, tend plants, watch the sky",
+  "plan": "Plant seeds, then explore for curiosity, pick berries, tend plants",
   "knowledge": [],
   "world": {
     "weather": "windy",
     "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 16
+      "berry": 13
     },
     "inventory": {
       "wood": 1,
@@ -553,7 +553,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -609,7 +609,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.28,
+        "left": 2.35,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -701,6 +701,36 @@
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
+      },
+      {
+        "id": "planted66",
+        "res": "berries",
+        "x": 20.6,
+        "z": -3.8,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-01T22:17:51.176Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted67",
+        "res": "berries",
+        "x": 19.1,
+        "z": -10.8,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-01T22:17:51.176Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted68",
+        "res": "berries",
+        "x": 20.2,
+        "z": -7.9,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-01T22:17:51.176Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -789,16 +819,18 @@
       "glade"
     ]
   },
-  "ticks": 88,
+  "ticks": 89,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is at zero, flat as a puddle. The pigeon is right here and has surely been hiding something. Spying costs little and gives a big curiosity boost. I'll watch it carefully, then plant seeds.",
-  "face": "suspicious",
-  "lastThought": "2026-11-01T21:57:25.137Z",
+  "lastOutcome": [
+    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
+  ],
+  "thought": "Curiosity is flat, but I have 16 berry seeds doing nothing and that is silly. Planting them here at the thicket makes more berries for later and calms me. Then I can explore for curiosity. Seeds first, since the plan says so and the pigeon cannot steal seeds in the ground.",
+  "face": "determined",
+  "lastThought": "2026-11-01T22:17:51.176Z",
   "foundPlace": null
 }
