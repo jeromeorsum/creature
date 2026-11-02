@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T18:58:19.231Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-02T19:08:34.385Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-02T19:18:34.385Z",
   "needs": {
-    "fullness": 5,
-    "water": 0,
-    "energy": 100,
-    "curiosity": 17,
-    "joy": 45,
+    "fullness": 4,
+    "water": 50,
+    "energy": 99,
+    "curiosity": 16,
+    "joy": 44,
     "calm": 100
   },
-  "health": 85,
-  "mood": "sleepy and content",
+  "health": 84,
+  "mood": "thirsty and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -83,22 +83,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "plan": [
-      "Eat last berry",
+      "Drink at the pond",
+      "Eat breakfast berries",
+      "Tend the seedlings",
       "Pick berries at the thicket",
-      "Plant berry seeds",
-      "Tend plants",
-      "Collect wood",
-      "Pick berries for dinner",
-      "Watch the sky",
-      "Wind down before bed"
+      "Explore or make something for curiosity",
+      "Drink again and eat dinner",
+      "Wind down before dawn"
     ],
-    "done": [
-      1,
-      2,
-      3
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -214,7 +209,7 @@
       }
     }
   ],
-  "plan": "Sleep, then drink, tend seedlings, pick berries into the pot",
+  "plan": "Drink, eat berries, tend seedlings, pick berries into the pot",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -870,16 +865,16 @@
       "glade"
     ]
   },
-  "ticks": 104,
+  "ticks": 105,
   "spend": {
-    "day": "2026-11-01",
+    "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly bedtime and the sun is up. My energy is fine but I should sleep in the Cosy Hut. Water is a bit low at 40, but sleeping is fine. I have five berries in the pot for waking. Tomorrow night: drink first, tend seedlings, pick berries, keep the pot close.",
-  "face": "sleepy",
-  "lastThought": "2026-11-02T10:22:44.900Z",
+  "thought": "I woke up with water at zero and fullness at four, so I need a drink and food now. The pond is close. I'll drink first, then eat my kept berries, then tend my seedlings and pick more berries.",
+  "face": "determined",
+  "lastThought": "2026-11-02T19:08:34.385Z",
   "foundPlace": null
 }
