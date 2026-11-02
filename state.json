@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T19:49:27.878Z",
+  "lastUpdate": "2026-11-02T19:59:41.917Z",
   "place": "thicket",
   "spot": {
     "x": 10.9,
@@ -10,14 +10,14 @@
   "doing": "forage berries at the thicket",
   "busyUntil": "2026-11-02T20:04:12.306Z",
   "needs": {
-    "fullness": 52,
-    "water": 96,
-    "energy": 91,
-    "curiosity": 12,
-    "joy": 47,
+    "fullness": 51,
+    "water": 95,
+    "energy": 90,
+    "curiosity": 11,
+    "joy": 46,
     "calm": 100
   },
-  "health": 84,
+  "health": 85,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
