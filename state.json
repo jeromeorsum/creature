@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T19:59:41.917Z",
+  "lastUpdate": "2026-11-02T20:09:49.822Z",
   "place": "thicket",
   "spot": {
-    "x": 10.9,
-    "z": -3.1
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-02T20:04:12.306Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-02T20:24:49.822Z",
   "needs": {
-    "fullness": 51,
-    "water": 95,
-    "energy": 90,
-    "curiosity": 11,
-    "joy": 46,
-    "calm": 100
+    "fullness": 50,
+    "water": 94,
+    "energy": 89,
+    "curiosity": 25,
+    "joy": 50,
+    "calm": 95
   },
-  "health": 85,
-  "mood": "hungry but determined",
+  "health": 86,
+  "mood": "curious and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -867,18 +867,16 @@
       "glade"
     ]
   },
-  "ticks": 108,
+  "ticks": 109,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "My middle is nearly empty at 29 and I only have two berries. The thicket has plenty of berries, so I should go there and eat lots on the spot. The pigeon can have opinions. Curiosity is low too, but food first.",
-  "face": "determined",
-  "lastThought": "2026-11-02T19:39:12.306Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is very low and my belly is only half full. The pigeon is lurking nearby, so I will watch it carefully, since spying gives lots of curiosity. I have a theory it is hiding something near these bushes. Then I will eat.",
+  "face": "suspicious",
+  "lastThought": "2026-11-02T20:09:49.822Z",
   "foundPlace": null
 }
