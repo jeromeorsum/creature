@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T06:07:06.619Z",
+  "lastUpdate": "2026-11-02T06:17:20.408Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 18.4,
+    "z": -1.8
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-02T06:42:20.408Z",
   "needs": {
-    "fullness": 71,
-    "water": 65,
-    "energy": 47,
-    "curiosity": 22,
-    "joy": 47,
+    "fullness": 94,
+    "water": 64,
+    "energy": 42,
+    "curiosity": 21,
+    "joy": 49,
     "calm": 98
   },
   "health": 100,
@@ -185,7 +185,7 @@
       }
     }
   ],
-  "plan": "Pick berries into the pot, tend plants, watch the sky",
+  "plan": "Pick berries into the pot, spy on the pigeon, tend plants, sleep",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -193,8 +193,8 @@
     }
   ],
   "world": {
-    "weather": "windy",
-    "food": 3,
+    "weather": "sunny",
+    "food": 5,
     "seeds": {
       "tree": 0,
       "berry": 17
@@ -599,7 +599,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -841,19 +841,18 @@
       "glade"
     ]
   },
-  "ticks": 98,
+  "ticks": 99,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 4 berries and ate 2 on the spot."
   ],
-  "thought": "I have a new clay pot and only one berry, and my middle is half empty. The thicket has plenty of berries, so I should pick a big pile now and eat some right there. The pot should keep the rest safe from the pigeon. Then I can tend plants and watch the sky.",
+  "thought": "I am at the thicket with only 3 berries kept and a pigeon nearby. Curiosity is very low, so the pigeon is useful to watch. But food for later matters most, so I will pick berries into my pot first. Then I can eat them before the pigeon notices.",
   "face": "determined",
-  "lastThought": "2026-11-02T05:16:09.703Z",
+  "lastThought": "2026-11-02T06:17:20.408Z",
   "foundPlace": null
 }
