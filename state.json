@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T04:04:49.588Z",
+  "lastUpdate": "2026-11-02T04:15:01.735Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-02T04:13:54.201Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-02T04:55:01.735Z",
   "needs": {
-    "fullness": 59,
-    "water": 77,
-    "energy": 71,
-    "curiosity": 19,
-    "joy": 48,
-    "calm": 100
+    "fullness": 58,
+    "water": 76,
+    "energy": 62,
+    "curiosity": 33,
+    "joy": 55,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -185,8 +185,13 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then pick berries, tend plants, watch the sky",
-  "knowledge": [],
+  "plan": "Experiment with clay pot, then pick berries, tend plants, watch the sky",
+  "knowledge": [
+    {
+      "text": "{\"what\":\"x\"}",
+      "made": "2026-11-02T04:15:01.735Z"
+    }
+  ],
   "world": {
     "weather": "windy",
     "food": 1,
@@ -197,8 +202,8 @@
     "inventory": {
       "wood": 1,
       "stone": 0,
-      "clay": 2,
-      "fibre": 1,
+      "clay": 0,
+      "fibre": 0,
       "shells": 5
     },
     "discovered": [
@@ -207,7 +212,18 @@
       "wood",
       "shells"
     ],
-    "inventions": [],
+    "inventions": [
+      {
+        "name": "Clay Berry Pot",
+        "about": "A small pot squished from clay, with a fibre string lid-tie, to keep berries safe and carry more of them.",
+        "helps": "carry_more_food",
+        "cost": {
+          "clay": 2,
+          "fibre": 1
+        },
+        "made": "2026-11-02T04:15:01.735Z"
+      }
+    ],
     "home": 1,
     "nodes": [
       {
@@ -825,16 +841,18 @@
       "glade"
     ]
   },
-  "ticks": 96,
+  "ticks": 97,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [],
-  "thought": "My energy is 46, so a proper nap in the Cosy Hut is sensible. It is the middle of the night, but I will rest, then forage berries. Fullness is okay for now.",
-  "face": "sleepy",
-  "lastThought": "2026-11-02T03:13:54.201Z",
+  "lastOutcome": [
+    "You made \"Clay Berry Pot\". It works!"
+  ],
+  "thought": "My curiosity is very low, so I should do something new. The glade was exciting, so I'll try an experiment with clay and fibre at the nest. Maybe I can invent something that helps carry more food, which would help with my kept-food worry. I have clay 2, fibre 1, wood 1, shells 5.",
+  "face": "curious",
+  "lastThought": "2026-11-02T04:15:01.735Z",
   "foundPlace": null
 }
