@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T05:05:56.712Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-02T05:16:09.703Z",
+  "place": "thicket",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": 16.6,
+    "z": -6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-02T05:41:09.703Z",
   "needs": {
-    "fullness": 53,
-    "water": 71,
-    "energy": 57,
-    "curiosity": 28,
-    "joy": 50,
+    "fullness": 76,
+    "water": 70,
+    "energy": 52,
+    "curiosity": 27,
+    "joy": 52,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "hopeful and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -185,7 +185,7 @@
       }
     }
   ],
-  "plan": "Experiment with clay pot, then pick berries, tend plants, watch the sky",
+  "plan": "Pick berries into the pot, tend plants, watch the sky",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -194,10 +194,10 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 0,
-      "berry": 15
+      "berry": 17
     },
     "inventory": {
       "wood": 1,
@@ -709,7 +709,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 4,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -841,18 +841,19 @@
       "glade"
     ]
   },
-  "ticks": 97,
+  "ticks": 98,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [
-    "You made \"Clay Berry Pot\". It works!"
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "My curiosity is very low, so I should do something new. The glade was exciting, so I'll try an experiment with clay and fibre at the nest. Maybe I can invent something that helps carry more food, which would help with my kept-food worry. I have clay 2, fibre 1, wood 1, shells 5.",
-  "face": "curious",
-  "lastThought": "2026-11-02T04:15:01.735Z",
+  "thought": "I have a new clay pot and only one berry, and my middle is half empty. The thicket has plenty of berries, so I should pick a big pile now and eat some right there. The pot should keep the rest safe from the pigeon. Then I can tend plants and watch the sky.",
+  "face": "determined",
+  "lastThought": "2026-11-02T05:16:09.703Z",
   "foundPlace": null
 }
