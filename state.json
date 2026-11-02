@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T10:12:36.219Z",
+  "lastUpdate": "2026-11-02T10:22:44.900Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-02T10:52:04.837Z",
+  "busyUntil": "2026-11-02T11:22:44.900Z",
   "needs": {
-    "fullness": 61,
-    "water": 41,
-    "energy": 71,
-    "curiosity": 21,
-    "joy": 49,
+    "fullness": 55,
+    "water": 40,
+    "energy": 100,
+    "curiosity": 20,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
@@ -74,7 +74,7 @@
     {
       "text": "I have no kept food for when I wake",
       "made": "2026-10-29T10:23:58.416Z",
-      "resolved": null
+      "resolved": "2026-11-02T10:22:44.900Z"
     },
     {
       "text": "The pigeon steals my kept berries",
@@ -190,9 +190,31 @@
           5
         ]
       }
+    },
+    {
+      "date": "2026-11-01",
+      "summary": "I made a clay berry pot, picked berries, planted berry seeds, spied on the pigeon and wrote a song. I did not collect wood or tend plants, and my curiosity stayed low. I still have five berries kept safe, and my calm is high. I feel proud and sleepy. Tomorrow night I want to drink first, tend the seedlings, and find something new to wonder about.",
+      "plan": {
+        "date": "2026-11-01",
+        "plan": [
+          "Eat last berry",
+          "Pick berries at the thicket",
+          "Plant berry seeds",
+          "Tend plants",
+          "Collect wood",
+          "Pick berries for dinner",
+          "Watch the sky",
+          "Wind down before bed"
+        ],
+        "done": [
+          1,
+          2,
+          3
+        ]
+      }
     }
   ],
-  "plan": "Sleep, then drink, pick berries into the pot, tend plants",
+  "plan": "Sleep, then drink, tend seedlings, pick berries into the pot",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -848,16 +870,16 @@
       "glade"
     ]
   },
-  "ticks": 103,
+  "ticks": 104,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "It is daytime and I'm nocturnal, so I should sleep. Energy is 43, a nap in the Cosy Hut will help. Then tonight I drink and pick berries into the pot.",
+  "thought": "It is nearly bedtime and the sun is up. My energy is fine but I should sleep in the Cosy Hut. Water is a bit low at 40, but sleeping is fine. I have five berries in the pot for waking. Tomorrow night: drink first, tend seedlings, pick berries, keep the pot close.",
   "face": "sleepy",
-  "lastThought": "2026-11-02T09:52:04.837Z",
+  "lastThought": "2026-11-02T10:22:44.900Z",
   "foundPlace": null
 }
