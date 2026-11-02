@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T19:18:43.429Z",
+  "lastUpdate": "2026-11-02T19:28:58.642Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-02T19:28:43.429Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-02T19:38:58.642Z",
   "needs": {
-    "fullness": 31,
-    "water": 49,
-    "energy": 98,
-    "curiosity": 15,
-    "joy": 47,
+    "fullness": 30,
+    "water": 98,
+    "energy": 97,
+    "curiosity": 14,
+    "joy": 46,
     "calm": 100
   },
   "health": 83,
-  "mood": "hungry and indignant",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -85,16 +85,16 @@
   "today": {
     "date": "2026-11-02",
     "plan": [
-      "Eat berries before the pigeon",
       "Drink at the pond",
       "Pick lots of berries at the thicket",
       "Tend the seedlings",
       "Explore or make something",
-      "Drink and eat dinner",
+      "Eat dinner",
       "Wind down before dawn"
     ],
     "done": [
-      2
+      2,
+      1
     ]
   },
   "lessons": [
@@ -211,7 +211,7 @@
       }
     }
   ],
-  "plan": "Eat berries now, drink, pick berries at thicket, tend seedlings",
+  "plan": "Drink, pick lots of berries at thicket, tend seedlings, explore",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -867,18 +867,16 @@
       "glade"
     ]
   },
-  "ticks": 106,
+  "ticks": 107,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "Fullness is 3, which is dire, and the pigeon just took a berry. I have 3 berries left. Eat them right now before the pigeon takes more. Then drink and tend seedlings.",
-  "face": "grumpy",
-  "lastThought": "2026-11-02T19:18:43.429Z",
+  "lastOutcome": [],
+  "thought": "My middle is grumbly at 30 and water is only 48. I'm already at the pond, so a long drink is the sensible first step. Then I'll go to the thicket for a giant pile of berries. Curiosity is low, but food first.",
+  "face": "determined",
+  "lastThought": "2026-11-02T19:28:58.642Z",
   "foundPlace": null
 }
