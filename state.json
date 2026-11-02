@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T00:09:53.552Z",
+  "lastUpdate": "2026-11-02T00:20:04.461Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "eat food at the glade",
-  "busyUntil": "2026-11-02T00:19:53.552Z",
+  "doing": "pottering about at the glade",
+  "busyUntil": null,
   "needs": {
-    "fullness": 68,
-    "water": 50,
-    "energy": 38,
-    "curiosity": 42,
-    "joy": 68,
+    "fullness": 67,
+    "water": 49,
+    "energy": 37,
+    "curiosity": 41,
+    "joy": 67,
     "calm": 100
   },
   "health": 100,
