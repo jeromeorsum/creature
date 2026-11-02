@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T19:08:34.385Z",
+  "lastUpdate": "2026-11-02T19:18:43.429Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-02T19:18:34.385Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-02T19:28:43.429Z",
   "needs": {
-    "fullness": 4,
-    "water": 50,
-    "energy": 99,
-    "curiosity": 16,
-    "joy": 44,
+    "fullness": 31,
+    "water": 49,
+    "energy": 98,
+    "curiosity": 15,
+    "joy": 47,
     "calm": 100
   },
-  "health": 84,
-  "mood": "thirsty and determined",
+  "health": 83,
+  "mood": "hungry and indignant",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -85,15 +85,17 @@
   "today": {
     "date": "2026-11-02",
     "plan": [
+      "Eat berries before the pigeon",
       "Drink at the pond",
-      "Eat breakfast berries",
+      "Pick lots of berries at the thicket",
       "Tend the seedlings",
-      "Pick berries at the thicket",
-      "Explore or make something for curiosity",
-      "Drink again and eat dinner",
+      "Explore or make something",
+      "Drink and eat dinner",
       "Wind down before dawn"
     ],
-    "done": []
+    "done": [
+      2
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -209,7 +211,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berries, tend seedlings, pick berries into the pot",
+  "plan": "Eat berries now, drink, pick berries at thicket, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -218,7 +220,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 5,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 17
@@ -865,16 +867,18 @@
       "glade"
     ]
   },
-  "ticks": 105,
+  "ticks": 106,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up with water at zero and fullness at four, so I need a drink and food now. The pond is close. I'll drink first, then eat my kept berries, then tend my seedlings and pick more berries.",
-  "face": "determined",
-  "lastThought": "2026-11-02T19:08:34.385Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "Fullness is 3, which is dire, and the pigeon just took a berry. I have 3 berries left. Eat them right now before the pigeon takes more. Then drink and tend seedlings.",
+  "face": "grumpy",
+  "lastThought": "2026-11-02T19:18:43.429Z",
   "foundPlace": null
 }
