@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-01T23:59:40.995Z",
+  "lastUpdate": "2026-11-02T00:09:53.552Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "eat food at the glade",
+  "busyUntil": "2026-11-02T00:19:53.552Z",
   "needs": {
-    "fullness": 41,
-    "water": 51,
-    "energy": 39,
-    "curiosity": 43,
-    "joy": 65,
+    "fullness": 68,
+    "water": 50,
+    "energy": 38,
+    "curiosity": 42,
+    "joy": 68,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and excited",
+  "mood": "hungry but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -185,11 +185,11 @@
       }
     }
   ],
-  "plan": "Peek in the log, then pick berries, tend plants, drink",
+  "plan": "Eat berries, go to the thicket and pick lots, tend plants, drink",
   "knowledge": [],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 13
@@ -825,18 +825,18 @@
       "glade"
     ]
   },
-  "ticks": 91,
+  "ticks": 92,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [
-    "You did your own thing: peek and crawl inside the giant hollow log."
+    "You ate 2 berries from your food."
   ],
-  "thought": "I am finally at the glade, beside the giant hollow log. My curiosity is nearly flat, and this is the perfect cure. I wanted to peek inside it for ages. I will crawl in, sniff, and see what is in there. Food can wait a little, though my middle is half empty.",
-  "face": "excited",
-  "lastThought": "2026-11-01T23:29:09.160Z",
+  "thought": "I'm hungry, fullness 40, and it's meal time. I have 2 kept berries and the pigeon isn't here in the glade, so I'll eat them now before anything steals them. Then I'll go pick more berries. The log was mushroomy and interesting.",
+  "face": "happy",
+  "lastThought": "2026-11-02T00:09:53.552Z",
   "foundPlace": null
 }
