@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T01:52:26.613Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-02T02:02:35.676Z",
+  "place": "pond",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-02T02:12:35.676Z",
   "needs": {
-    "fullness": 82,
-    "water": 40,
-    "energy": 24,
-    "curiosity": 32,
-    "joy": 61,
+    "fullness": 81,
+    "water": 89,
+    "energy": 23,
+    "curiosity": 31,
+    "joy": 60,
     "calm": 100
   },
   "health": 100,
@@ -825,17 +825,14 @@
       "glade"
     ]
   },
-  "ticks": 93,
+  "ticks": 94,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 10
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
+  "lastOutcome": [],
   "thought": "My middle is still a bit empty and I have no kept berries. Water is 44, so I should drink soon too. The glade has trees with something on them, but I'm not sure they're food. The thicket has the real berries. I'll go pick a proper pile and eat plenty on the spot, then drink.",
   "face": "determined",
   "lastThought": "2026-11-02T01:11:14.480Z",
