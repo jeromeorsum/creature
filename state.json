@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T01:00:51.868Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-02T01:11:14.480Z",
+  "place": "thicket",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-02T01:36:14.480Z",
   "needs": {
-    "fullness": 63,
-    "water": 45,
-    "energy": 33,
-    "curiosity": 37,
-    "joy": 63,
+    "fullness": 86,
+    "water": 44,
+    "energy": 28,
+    "curiosity": 36,
+    "joy": 65,
     "calm": 100
   },
   "health": 100,
@@ -185,14 +185,14 @@
       }
     }
   ],
-  "plan": "Eat berries, go to the thicket and pick lots, tend plants, drink",
+  "plan": "Pick berries at thicket, drink at pond, tend plants, watch the sky",
   "knowledge": [],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 13
+      "berry": 15
     },
     "inventory": {
       "wood": 1,
@@ -559,7 +559,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.12,
+        "left": 0.12,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -615,7 +615,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.91,
+        "left": 0.91,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -825,18 +825,19 @@
       "glade"
     ]
   },
-  "ticks": 92,
+  "ticks": 93,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "I'm hungry, fullness 40, and it's meal time. I have 2 kept berries and the pigeon isn't here in the glade, so I'll eat them now before anything steals them. Then I'll go pick more berries. The log was mushroomy and interesting.",
-  "face": "happy",
-  "lastThought": "2026-11-02T00:09:53.552Z",
+  "thought": "My middle is still a bit empty and I have no kept berries. Water is 44, so I should drink soon too. The glade has trees with something on them, but I'm not sure they're food. The thicket has the real berries. I'll go pick a proper pile and eat plenty on the spot, then drink.",
+  "face": "determined",
+  "lastThought": "2026-11-02T01:11:14.480Z",
   "foundPlace": null
 }
