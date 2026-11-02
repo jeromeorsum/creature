@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T19:28:58.642Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-02T19:39:12.306Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-02T19:38:58.642Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-02T20:04:12.306Z",
   "needs": {
-    "fullness": 30,
-    "water": 98,
-    "energy": 97,
-    "curiosity": 14,
-    "joy": 46,
+    "fullness": 53,
+    "water": 97,
+    "energy": 92,
+    "curiosity": 13,
+    "joy": 48,
     "calm": 100
   },
   "health": 83,
@@ -85,10 +85,10 @@
   "today": {
     "date": "2026-11-02",
     "plan": [
-      "Drink at the pond",
-      "Pick lots of berries at the thicket",
+      "Pick berries at thicket for breakfast",
       "Tend the seedlings",
       "Explore or make something",
+      "Drink at the pond",
       "Eat dinner",
       "Wind down before dawn"
     ],
@@ -211,7 +211,7 @@
       }
     }
   ],
-  "plan": "Drink, pick lots of berries at thicket, tend seedlings, explore",
+  "plan": "Pick berries, tend seedlings, explore or make something",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -220,7 +220,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 4,
     "seeds": {
       "tree": 0,
       "berry": 17
@@ -617,7 +617,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-01T23:43:28.316Z"
       },
       {
@@ -867,16 +867,18 @@
       "glade"
     ]
   },
-  "ticks": 107,
+  "ticks": 108,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
-  "lastOutcome": [],
-  "thought": "My middle is grumbly at 30 and water is only 48. I'm already at the pond, so a long drink is the sensible first step. Then I'll go to the thicket for a giant pile of berries. Curiosity is low, but food first.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "My middle is nearly empty at 29 and I only have two berries. The thicket has plenty of berries, so I should go there and eat lots on the spot. The pigeon can have opinions. Curiosity is low too, but food first.",
   "face": "determined",
-  "lastThought": "2026-11-02T19:28:58.642Z",
+  "lastThought": "2026-11-02T19:39:12.306Z",
   "foundPlace": null
 }
