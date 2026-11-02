@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T06:37:40.669Z",
+  "lastUpdate": "2026-11-02T06:47:53.929Z",
   "place": "thicket",
   "spot": {
-    "x": 18.4,
-    "z": -1.8
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-02T06:42:20.408Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-02T07:02:53.929Z",
   "needs": {
-    "fullness": 92,
-    "water": 62,
-    "energy": 40,
-    "curiosity": 19,
-    "joy": 47,
-    "calm": 98
+    "fullness": 91,
+    "water": 61,
+    "energy": 39,
+    "curiosity": 33,
+    "joy": 51,
+    "calm": 93
   },
   "health": 100,
-  "mood": "hopeful and hungry",
+  "mood": "curious and full",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -841,18 +841,16 @@
       "glade"
     ]
   },
-  "ticks": 99,
+  "ticks": 100,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "I am at the thicket with only 3 berries kept and a pigeon nearby. Curiosity is very low, so the pigeon is useful to watch. But food for later matters most, so I will pick berries into my pot first. Then I can eat them before the pigeon notices.",
-  "face": "determined",
-  "lastThought": "2026-11-02T06:17:20.408Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is very low, and my belly is full, so a proper look at something new is just right. The pigeon is strutting about, so I will watch it closely. I still suspect it knows something. Then I can nap soon since sleep time is near.",
+  "face": "suspicious",
+  "lastThought": "2026-11-02T06:47:53.929Z",
   "foundPlace": null
 }
