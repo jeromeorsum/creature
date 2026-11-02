@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T03:03:43.533Z",
+  "lastUpdate": "2026-11-02T03:13:54.201Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-02T03:12:43.395Z",
+  "busyUntil": "2026-11-02T04:13:54.201Z",
   "needs": {
-    "fullness": 70,
-    "water": 83,
-    "energy": 47,
-    "curiosity": 25,
-    "joy": 54,
+    "fullness": 64,
+    "water": 82,
+    "energy": 76,
+    "curiosity": 24,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
@@ -825,16 +825,16 @@
       "glade"
     ]
   },
-  "ticks": 95,
+  "ticks": 96,
   "spend": {
     "day": "2026-11-01",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
   "lastOutcome": [],
-  "thought": "My energy is very low at 22, and the hut is close. Fullness is okay and water is high. I should go home and nap to recover before the night goes on. The pigeon worry stays, but sleeping is the sensible thing now.",
+  "thought": "My energy is 46, so a proper nap in the Cosy Hut is sensible. It is the middle of the night, but I will rest, then forage berries. Fullness is okay for now.",
   "face": "sleepy",
-  "lastThought": "2026-11-02T02:12:43.395Z",
+  "lastThought": "2026-11-02T03:13:54.201Z",
   "foundPlace": null
 }
