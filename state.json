@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T23:14:07.110Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-02T23:24:18.658Z",
+  "place": "thicket",
   "spot": {
-    "x": -5.6,
-    "z": 26.7
+    "x": 14.1,
+    "z": -7.3
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-02T23:49:18.658Z",
   "needs": {
-    "fullness": 60,
-    "water": 94,
-    "energy": 49,
-    "curiosity": 40,
-    "joy": 44,
+    "fullness": 83,
+    "water": 93,
+    "energy": 44,
+    "curiosity": 39,
+    "joy": 46,
     "calm": 100
   },
   "health": 100,
-  "mood": "busy and content",
+  "mood": "busy and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -213,7 +213,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, then pick berries at the thicket, then tend seedlings",
+  "plan": "Pick berries at thicket and eat them, then tend seedlings, then wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -229,7 +229,7 @@
     "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 17
+      "berry": 19
     },
     "inventory": {
       "wood": 1,
@@ -711,7 +711,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-01T23:43:28.316Z"
@@ -873,18 +873,19 @@
       "glade"
     ]
   },
-  "ticks": 114,
+  "ticks": 115,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [
-    "You collected 2 fibre."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "Water is full, so no more drinking. Fullness is 65 but I only have one berry and the pigeon is a thief. There are berry bushes nearby with berries. I am at the pond, where clay and reeds are plentiful. I have no clay or fibre, and a second pot or fibre for tying would be useful. Pulling reeds is cheap and calming, and fibre keeps the hut tied down. I'll pull reeds now, then go for berries.",
+  "thought": "My middle is only 59 and the pigeon keeps stealing kept berries. There are berry bushes with berries on them nearby, but the thicket is where I forage. I have fibre now. Let me go pick berries and eat them on the spot, then tend seedlings. Rain keeps pattering but I am happy enough.",
   "face": "determined",
-  "lastThought": "2026-11-02T22:22:53.959Z",
+  "lastThought": "2026-11-02T23:24:18.658Z",
   "foundPlace": null
 }
