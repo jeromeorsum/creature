@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-02T20:40:28.500Z",
+  "lastUpdate": "2026-11-02T20:50:49.553Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-02T21:00:49.553Z",
   "needs": {
-    "fullness": 47,
-    "water": 91,
-    "energy": 86,
-    "curiosity": 22,
-    "joy": 47,
+    "fullness": 74,
+    "water": 90,
+    "energy": 85,
+    "curiosity": 21,
+    "joy": 50,
     "calm": 95
   },
-  "health": 89,
-  "mood": "curious and hungry",
+  "health": 90,
+  "mood": "indignant and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -211,7 +211,7 @@
       }
     }
   ],
-  "plan": "Pick berries, tend seedlings, explore or make something",
+  "plan": "Eat berries, then explore the glade, drink, pick more berries",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -220,7 +220,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 4,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 17
@@ -867,16 +867,18 @@
       "glade"
     ]
   },
-  "ticks": 109,
+  "ticks": 110,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is very low and my belly is only half full. The pigeon is lurking nearby, so I will watch it carefully, since spying gives lots of curiosity. I have a theory it is hiding something near these bushes. Then I will eat.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "The pigeon just took another berry, cheeky thing. My belly is only half full, so I should eat the berries I'm keeping before it takes more. Curiosity is very low, so after eating I want to go somewhere new-ish. I'll eat now, then explore the glade's hollow log.",
   "face": "suspicious",
-  "lastThought": "2026-11-02T20:09:49.822Z",
+  "lastThought": "2026-11-02T20:50:49.553Z",
   "foundPlace": null
 }
