@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T22:14:15.538Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-03T22:24:25.474Z",
+  "place": "pond",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -4,
+    "z": 21
   },
-  "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-03T22:23:58.783Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-03T22:34:25.474Z",
   "needs": {
-    "fullness": 58,
-    "water": 55,
-    "energy": 48,
-    "curiosity": 45,
-    "joy": 58,
-    "calm": 96
+    "fullness": 57,
+    "water": 100,
+    "energy": 47,
+    "curiosity": 44,
+    "joy": 57,
+    "calm": 99
   },
-  "health": 81,
-  "mood": "curious and delighted",
+  "health": 82,
+  "mood": "curious and practical",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Tap back with the crabs, then drink, eat berries, and watch the sky.",
+  "plan": "Drink at the pond, forage berries and eat fast, then watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -262,7 +262,7 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
+    "weather": "windy",
     "food": 0,
     "seeds": {
       "tree": 0,
@@ -644,7 +644,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.24,
+        "left": 1.31,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -700,7 +700,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.97,
+        "left": 2.04,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -940,16 +940,16 @@
       "glade"
     ]
   },
-  "ticks": 137,
+  "ticks": 138,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "My curiosity is low and the crabs are right here. I have four scratched shells and a wish to understand them. Making a drawing-key of the scratches feels like real progress. I'll try to translate them with an experiment, comparing patterns and matching them to what the crabs do when I move shells.",
-  "face": "excited",
-  "lastThought": "2026-11-03T21:43:58.783Z",
+  "thought": "Water is 54 and belly is 57, no kept berries. I have been with the crabs a while and my curiosity is a bit low still. The pond is the sensible next stop: drink, then berries. Wind is blowing but the hut is tied down. Drinking first keeps me healthy.",
+  "face": "determined",
+  "lastThought": "2026-11-03T22:24:25.474Z",
   "foundPlace": null
 }
