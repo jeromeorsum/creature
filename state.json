@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T04:10:16.450Z",
+  "lastUpdate": "2026-11-03T04:20:25.867Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-03T05:00:25.867Z",
   "needs": {
-    "fullness": 69,
-    "water": 61,
-    "energy": 48,
-    "curiosity": 29,
-    "joy": 34,
-    "calm": 100
+    "fullness": 68,
+    "water": 60,
+    "energy": 39,
+    "curiosity": 43,
+    "joy": 41,
+    "calm": 98
   },
   "health": 100,
   "mood": "curious and hopeful",
@@ -54,6 +54,11 @@
       "text": "Peek inside the giant hollow log in the glade",
       "made": "2026-11-01T22:48:26.840Z",
       "done": "2026-11-01T23:29:09.160Z"
+    },
+    {
+      "text": "Understand what the crabs are trying to tell me",
+      "made": "2026-11-03T04:20:25.867Z",
+      "done": null
     }
   ],
   "hobbies": [],
@@ -607,7 +612,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.66,
+        "left": 0.73,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -623,7 +628,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.54,
+        "left": 1.61,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -631,7 +636,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.54,
+        "left": 1.61,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -663,7 +668,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.45,
+        "left": 0.52,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -711,7 +716,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.54,
+        "left": 3.61,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -741,7 +746,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -761,7 +766,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -771,7 +776,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -781,7 +786,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -791,7 +796,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -801,7 +806,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -811,7 +816,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 1.54,
+        "left": 1.61,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -903,16 +908,16 @@
       "glade"
     ]
   },
-  "ticks": 121,
+  "ticks": 122,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "My curiosity is nearly flat at 14 and my belly is decently full. The sky is dark and full of fireflies, which seems like the perfect time to explore somewhere new. I have explored the whole island by the list, but looking closely at a place still counts. The tidepools sound like a place I have barely poked at, and crabs left me a gift, so I want to go and wonder about them.",
+  "thought": "I am at the tidepools with curiosity low. Four shells with something on them are lying around. I want to poke at the crabs and see what the marks on the shells mean. Experimenting should lift curiosity and joy. Theory: the crabs are leaving messages.",
   "face": "curious",
-  "lastThought": "2026-11-03T03:39:40.657Z",
+  "lastThought": "2026-11-03T04:20:25.867Z",
   "foundPlace": null
 }
