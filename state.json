@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T23:05:15.497Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-03T23:15:41.992Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 16.6,
+    "z": -6
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-03T23:40:41.992Z",
   "needs": {
-    "fullness": 53,
-    "water": 96,
-    "energy": 43,
-    "curiosity": 40,
-    "joy": 53,
+    "fullness": 76,
+    "water": 95,
+    "energy": 38,
+    "curiosity": 39,
+    "joy": 55,
     "calm": 99
   },
-  "health": 86,
-  "mood": "curious and practical",
+  "health": 87,
+  "mood": "hungry but practical",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, forage berries and eat fast, then watch the sky.",
+  "plan": "Forage berries and eat fast, then watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -262,11 +262,11 @@
     }
   ],
   "world": {
-    "weather": "windy",
-    "food": 0,
+    "weather": "cloudy",
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 19
+      "berry": 20
     },
     "inventory": {
       "wood": 1,
@@ -644,7 +644,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.59,
+        "left": 0.66,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -700,7 +700,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.32,
+        "left": 0.39,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -778,7 +778,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 4,
+        "left": 3,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -940,16 +940,19 @@
       "glade"
     ]
   },
-  "ticks": 138,
+  "ticks": 139,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "Water is 54 and belly is 57, no kept berries. I have been with the crabs a while and my curiosity is a bit low still. The pond is the sensible next stop: drink, then berries. Wind is blowing but the hut is tied down. Drinking first keeps me healthy.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My water is high from the drink, but my belly is only half full and I have no berries kept. The thicket is where dinner lives, so I will go and pick a big pile, eat some right away and tuck the rest in the clay pot. The pigeon will be scheming, so I must be quick.",
   "face": "determined",
-  "lastThought": "2026-11-03T22:24:25.474Z",
+  "lastThought": "2026-11-03T23:15:41.992Z",
   "foundPlace": null
 }
