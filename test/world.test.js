@@ -86,10 +86,14 @@ test("inventions cost materials and really help", async () => {
   st.world.inventory.wood = 5;
   saveState(st);
   const d = { ...base, activity: "experiment", discovery: "Sticks are better when there are two of them.",
-    new_invention: { name: "Poking Stick", about: "a stick for knocking branches down", materials: { wood: 2, stone: 0, clay: 0, fibre: 0, shells: 0 }, helps: "more_wood" } };
+    new_invention: { name: "Poking Stick", about: "a stick for knocking branches down", materials: { wood: 2, stone: 0, clay: 0, fibre: 0, shells: 0 }, helps: "more_wood",
+      look: [{ shape: "stick", material: "wood", x: 0, y: 0, z: 0, w: 0.06, h: 1.4, d: 0.06, tilt_x: 70, tilt_z: 0 }, { shape: "Spiky cone!", material: "pebble stone", x: 9, y: -1, z: 0, w: 0.15, h: 0.2, d: 0.15, tilt_x: 0, tilt_z: 0 }] } };
   const r = await tick({ now: new Date("2026-11-02T14:00:00"), cfg, client: client(d), rand: noEvents });
   assert.equal(r.state.world.inventions[0].helps, "more_wood");
   assert.equal(r.state.world.inventory.wood, 3);
+  const look = r.state.world.inventions[0].look; // what it looks like, tidied and kept in bounds
+  assert.deepEqual([look[0].shape, look[0].w, look[0].tilt_x], ["stick", 0.06, 70]);
+  assert.deepEqual([look[1].shape, look[1].material, look[1].x, look[1].y], ["cone", "stone", 1, 0]);
   assert.equal(r.state.knowledge.at(-1).text, "Sticks are better when there are two of them.");
   const st2 = ready(); st2.world.inventory.wood = 0; saveState(st2);
   const d2 = { ...d, discovery: null, new_invention: { ...d.new_invention, name: "Big Stick", helps: "better_sleep" } };

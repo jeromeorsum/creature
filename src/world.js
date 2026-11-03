@@ -134,6 +134,26 @@ export const INVENTION_HELPS = {
 };
 export const FOOD_CAP = 8;
 
+// What an invention looks like: a few simple parts Glorp describes, so a pot looks like a pot.
+export const LOOK_SHAPES = ["box", "cylinder", "cone", "sphere", "ring", "bowl", "pot", "stick"];
+export const LOOK_LIMITS = { maxParts: 14, maxSize: 1.5, maxOffset: 1, maxHeight: 2 };
+export function tidyLook(parts) {
+  const L = LOOK_LIMITS, mats = [...MATERIALS, "berries", "leaves"];
+  const clamp = (v, lo, hi, dflt) => { const n = Number(v); return Number.isFinite(n) ? Math.max(lo, Math.min(hi, Math.round(n * 100) / 100)) : dflt; };
+  return (Array.isArray(parts) ? parts : []).slice(0, L.maxParts).map((b) => ({
+    shape: pickFrom(b.shape, LOOK_SHAPES, "box"),
+    material: pickFrom(b.material, mats, "wood"),
+    x: clamp(b.x, -L.maxOffset, L.maxOffset, 0),
+    y: clamp(b.y, 0, L.maxHeight, 0),
+    z: clamp(b.z, -L.maxOffset, L.maxOffset, 0),
+    w: clamp(b.w, 0.02, L.maxSize, 0.3),
+    h: clamp(b.h, 0.02, L.maxSize, 0.3),
+    d: clamp(b.d, 0.02, L.maxSize, 0.3),
+    tilt_x: clamp(b.tilt_x, -90, 90, 0),
+    tilt_z: clamp(b.tilt_z, -90, 90, 0),
+  }));
+}
+
 export function allActivities(state) {
   const out = { ...ACTIVITIES };
   for (const h of state.hobbies) {
@@ -424,6 +444,8 @@ export function invent(world, idea, now) {
   if (helps !== "nothing_yet" && bonus(world, helps)) helps = "nothing_yet"; // you already have something that does that
   for (const [m, n] of Object.entries(cost)) world.inventory[m] -= n;
   const inv = { name: String(idea.name || "Thing").slice(0, 60), about: String(idea.about || "").slice(0, 300), helps, cost, made: now.toISOString() };
+  const look = tidyLook(idea.look);
+  if (look.length) inv.look = look;
   world.inventions.push(inv);
   if (world.inventions.length > 40) world.inventions.shift();
   return { invention: inv };
