@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T19:00:35.079Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-03T19:11:06.505Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-03T19:10:35.079Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-03T19:36:06.505Z",
   "needs": {
-    "fullness": 0,
-    "water": 74,
-    "energy": 99,
-    "curiosity": 16,
-    "joy": 45,
+    "fullness": 24,
+    "water": 73,
+    "energy": 94,
+    "curiosity": 15,
+    "joy": 47,
     "calm": 100
   },
-  "health": 71,
+  "health": 70,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -105,7 +105,9 @@
       "Dinner berries and drink",
       "Wind down and watch the sky"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -257,10 +259,10 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 18
+      "berry": 19
     },
     "inventory": {
       "wood": 1,
@@ -638,7 +640,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -934,16 +936,19 @@
       "glade"
     ]
   },
-  "ticks": 131,
+  "ticks": 132,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up with an empty belly and a dry throat. Water is 24 and fullness is 0, so drinking is the first thing, since the pond is only 16m away. Then berries from the thicket, eaten quickly before the pigeon notices. After that I can tend my plants and visit the crabs.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "My belly is totally empty at zero, so berries come first. The thicket is where they grow. I have a berry pot that holds more, so I will pick plenty and eat quickly before the pigeon holds its meeting. Then tend plants and visit the crabs.",
   "face": "determined",
-  "lastThought": "2026-11-03T19:00:35.079Z",
+  "lastThought": "2026-11-03T19:11:06.505Z",
   "foundPlace": null
 }
