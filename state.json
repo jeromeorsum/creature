@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T21:33:55.081Z",
+  "lastUpdate": "2026-11-03T21:43:58.783Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
   "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-03T21:42:51.857Z",
+  "busyUntil": "2026-11-03T22:23:58.783Z",
   "needs": {
-    "fullness": 62,
-    "water": 59,
-    "energy": 60,
-    "curiosity": 34,
-    "joy": 53,
-    "calm": 98
+    "fullness": 61,
+    "water": 58,
+    "energy": 51,
+    "curiosity": 48,
+    "joy": 60,
+    "calm": 96
   },
-  "health": 78,
-  "mood": "curious and a bit indignant",
+  "health": 79,
+  "mood": "curious and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Study the scratched shells, collect shells, then drink and eat berries, then watch the sky.",
+  "plan": "Tap back with the crabs, then drink, eat berries, and watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -255,6 +255,10 @@
     {
       "text": "{\"what\":\"The hollow log stays dry inside when it rains, and my voice echoes in it.\"}",
       "made": "2026-11-02T21:31:44.095Z"
+    },
+    {
+      "text": "{\"what\":\"Crabs tap scratched shells in order, like counting; tapping back in rhythm makes them wave a claw.\"}",
+      "made": "2026-11-03T21:43:58.783Z"
     }
   ],
   "world": {
@@ -640,7 +644,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.96,
+        "left": 1.03,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -696,7 +700,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.69,
+        "left": 1.76,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -936,16 +940,16 @@
       "glade"
     ]
   },
-  "ticks": 136,
+  "ticks": 137,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "The pigeon just stole a berry, cheeky thing. I am at the tidepools with curiosity very low, and there are four shells with scratches on them. I will study these scratches closely, since the crabs might really be writing to me. Shells are good for building too. The pigeon can have its one berry, I have none left to lose anyway.",
-  "face": "curious",
-  "lastThought": "2026-11-03T21:02:51.857Z",
+  "thought": "My curiosity is low and the crabs are right here. I have four scratched shells and a wish to understand them. Making a drawing-key of the scratches feels like real progress. I'll try to translate them with an experiment, comparing patterns and matching them to what the crabs do when I move shells.",
+  "face": "excited",
+  "lastThought": "2026-11-03T21:43:58.783Z",
   "foundPlace": null
 }
