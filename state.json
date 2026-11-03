@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T21:43:58.783Z",
+  "lastUpdate": "2026-11-03T21:53:52.393Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
@@ -10,10 +10,10 @@
   "doing": "experiment at the tidepools",
   "busyUntil": "2026-11-03T22:23:58.783Z",
   "needs": {
-    "fullness": 61,
-    "water": 58,
-    "energy": 51,
-    "curiosity": 48,
+    "fullness": 60,
+    "water": 57,
+    "energy": 50,
+    "curiosity": 47,
     "joy": 60,
     "calm": 96
   },
@@ -644,7 +644,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.03,
+        "left": 1.1,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -700,7 +700,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.76,
+        "left": 1.83,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
