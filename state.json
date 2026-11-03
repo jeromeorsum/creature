@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T04:51:23.198Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-03T05:01:36.401Z",
+  "place": "meadow",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": 6,
+    "z": 10
   },
-  "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-03T05:00:25.867Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-03T05:41:36.401Z",
   "needs": {
-    "fullness": 65,
-    "water": 57,
-    "energy": 36,
-    "curiosity": 40,
-    "joy": 38,
+    "fullness": 64,
+    "water": 56,
+    "energy": 27,
+    "curiosity": 47,
+    "joy": 55,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "hopeful and proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -68,6 +68,12 @@
       "kind": "song",
       "file": "2026-11-02-the-pigeon-knows-nothing-probably.md",
       "made": "2026-11-02T07:49:12.828Z"
+    },
+    {
+      "title": "Letter to the Crabs",
+      "kind": "drawing description",
+      "file": "2026-11-03-letter-to-the-crabs.md",
+      "made": "2026-11-03T05:01:36.401Z"
     }
   ],
   "concerns": [
@@ -218,7 +224,7 @@
       }
     }
   ],
-  "plan": "Explore tidepools, then eat dinner, then wind down",
+  "plan": "Draw to the crabs, then eat my berry, then drink, then go home to the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -230,7 +236,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "cloudy",
     "food": 1,
     "seeds": {
       "tree": 0,
@@ -612,7 +618,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.94,
+        "left": 1.01,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -628,7 +634,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -636,7 +642,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -668,7 +674,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.73,
+        "left": 0.8,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -716,7 +722,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.82,
+        "left": 3.89,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -746,7 +752,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -766,7 +772,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -776,7 +782,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -786,7 +792,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -796,7 +802,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -806,7 +812,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -816,7 +822,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -908,16 +914,16 @@
       "glade"
     ]
   },
-  "ticks": 122,
+  "ticks": 123,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "I am at the tidepools with curiosity low. Four shells with something on them are lying around. I want to poke at the crabs and see what the marks on the shells mean. Experimenting should lift curiosity and joy. Theory: the crabs are leaving messages.",
-  "face": "curious",
-  "lastThought": "2026-11-03T04:20:25.867Z",
+  "thought": "The shells are lined up and I think the crabs really are writing to me. My energy is lowish at 35 and dawn is near, but sleep is at 11am so I have time. My water is 56, okay. I want to make something to answer the crabs, a reply in the sand. That is joy and curiosity both, and it honours my wish to understand them. Then I will eat my berry and head home.",
+  "face": "excited",
+  "lastThought": "2026-11-03T05:01:36.401Z",
   "foundPlace": null
 }
