@@ -6,7 +6,7 @@ import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { describeCreature } from "./personality.js";
 import {
-  NEEDS, PLACES, PLACE_POS, INVENTION_HELPS, knownPlaces, unknownPlaces, foodCap, isTended, MATERIALS, SHAPES, BUILD_LIMITS, RESOURCES, allActivities, missingFor, problems, resourceLeft,
+  NEEDS, PLACES, PLACE_POS, INVENTION_HELPS, LOOK_SHAPES, LOOK_LIMITS, knownPlaces, unknownPlaces, foodCap, isTended, MATERIALS, SHAPES, BUILD_LIMITS, RESOURCES, allActivities, missingFor, problems, resourceLeft,
 } from "./world.js";
 
 // US dollars per million tokens: [input, output]
@@ -64,6 +64,22 @@ export function decisionSchema(activityIds) {
         about: z.string().describe("What it is and how you made it"),
         materials: z.object(Object.fromEntries(MATERIALS.map((m) => [m, z.number()]))).describe("How much of each material it uses (0 to 6 each). You must have them."),
         helps: z.string().describe(`What it is for, one of: ${Object.keys(INVENTION_HELPS).join(", ")}`),
+        look: z
+          .array(
+            z.object({
+              shape: z.string().describe(`${LOOK_SHAPES.join(" | ")}. ring = a flat loop (rims, coils of string, handles); bowl = an open half-shell; pot = a round open-topped pot with a neck; stick = a thin rod`),
+              material: z.string().describe(`${MATERIALS.join(" | ")} | berries | leaves`),
+              x: z.number().describe("metres east of its middle, -1 to 1"),
+              y: z.number().describe("metres above the ground to the part's bottom, 0 to 2"),
+              z: z.number().describe("metres south of its middle, -1 to 1"),
+              w: z.number().describe("width in metres, 0.02 to 1.5"),
+              h: z.number().describe("height in metres, 0.02 to 1.5"),
+              d: z.number().describe("depth in metres, 0.02 to 1.5"),
+              tilt_x: z.number().describe("lean forward/back in degrees, -90 to 90 (90 lies a stick down flat)"),
+              tilt_z: z.number().describe("lean left/right in degrees, -90 to 90"),
+            }),
+          )
+          .describe(`What it really looks like, built from 1 to ${LOOK_LIMITS.maxParts} simple parts, so anyone seeing it knows what it is (a pot is a pot shape with a rim; a fishing rod is a long tilted stick with a string). You are about 1.5 metres tall.`),
       })
       .nullable()
       .describe("Only with 'experiment' or 'build': make a tool or object from your materials. Otherwise null."),

@@ -837,15 +837,65 @@ function rebuildWorld() {
   if (!seenBlocks) seenBlocks = firstSeen;
   const home = homeSpot();
   w.inventions.forEach((inv, i) => {
-    const a = 0.6 + i * 0.55, d = 1.8 + Math.floor(i / 8) * 0.8;
+    const a = 0.6 + i * 0.55, d = 2.4 + Math.floor(i / 8) * 1.0;
     const x = home.x + Math.cos(a) * d, z = home.z + Math.sin(a) * d;
     const g = onGround(new THREE.Group(), x, z); g.rotation.y = i * 1.3; dyn.add(g);
-    const mats = Object.keys(inv.cost ?? {}); const m1 = MAT_COLOR[mats[0]] ?? 0xb5793f, m2 = MAT_COLOR[mats[1] ?? mats[0]] ?? m1;
-    const handle = mesh(new THREE.CylinderGeometry(0.04, 0.05, 0.8, 6), m1, 0, 0.08, 0, g); handle.rotation.z = Math.PI / 2;
-    mesh(new THREE.DodecahedronGeometry(0.14, 0), m2, 0.4, 0.12, 0, g);
-    outline(g, 0.02);
-    dynLabels.push(addLabel(esc(inv.name), x, groundY(x, z) + 0.6, z, "", 7));
+    const top = renderLook(inv.look?.length ? inv.look : guessLook(inv), g);
+    outline(g, 0.018);
+    dynLabels.push(addLabel(esc(inv.name), x, groundY(x, z) + top + 0.35, z, "", 7));
   });
+}
+
+// ---------- what Glorp's inventions look like ----------
+// Each invention is a few simple parts Glorp describes (shape, material, position, size, tilt), in metres.
+const LOOK_COLOR = { ...MAT_COLOR, berries: 0xc2306b, leaves: 0x4ea52f };
+const lookGeo = {};
+function lookGeometry(shape) {
+  if (lookGeo[shape]) return lookGeo[shape];
+  let g;
+  if (shape === "ring") g = new THREE.TorusGeometry(0.44, 0.06, 8, 26).rotateX(Math.PI / 2).scale(1, 1 / 0.12, 1);
+  else if (shape === "bowl") g = new THREE.SphereGeometry(0.5, 22, 10, 0, Math.PI * 2, Math.PI / 2, Math.PI / 2).translate(0, 0.25, 0).scale(1, 2, 1);
+  else if (shape === "pot") g = new THREE.LatheGeometry([[0, 0], [0.3, 0], [0.44, 0.12], [0.5, 0.38], [0.45, 0.66], [0.31, 0.83], [0.3, 0.9], [0.36, 0.97], [0.37, 1]].map(([x, y]) => new THREE.Vector2(x, y)), 26).translate(0, -0.5, 0);
+  else if (shape === "stick") g = new THREE.CylinderGeometry(0.42, 0.5, 1, 7);
+  else g = blockGeo(shape);
+  return (lookGeo[shape] = g);
+}
+function renderLook(parts, g) {
+  let top = 0.3;
+  parts.forEach((b, i) => {
+    const color = new THREE.Color(LOOK_COLOR[b.material] ?? 0xb5793f).offsetHSL(0, 0, ((i * 37) % 10 - 5) / 120).getHex();
+    const open = b.shape === "bowl" || b.shape === "pot";
+    // A tilted part still rests with its lowest point at y.
+    const tx = (b.tilt_x ?? 0) * Math.PI / 180, tz = (b.tilt_z ?? 0) * Math.PI / 180, tilt = Math.max(Math.abs(tx), Math.abs(tz));
+    const tall = b.h * Math.cos(tilt) + Math.max(b.w, b.d) * Math.sin(tilt);
+    const m = mesh(lookGeometry(b.shape), open ? mat(color, { side: THREE.DoubleSide }) : color, b.x, b.y + tall / 2, b.z, g);
+    m.scale.set(b.w, b.h, b.d);
+    m.rotation.set(tx, 0, tz);
+    if (open) { const dark = mesh(new THREE.CircleGeometry(b.shape === "pot" ? 0.3 : 0.45, 20), 0x3a2414, 0, b.shape === "pot" ? 0.38 : 0.42, 0, m); dark.rotation.x = -Math.PI / 2; dark.userData.noInk = true; }
+    top = Math.max(top, b.y + tall);
+  });
+  return top;
+}
+// Inventions made before Glorp described their looks: work out a shape from what they are called.
+function guessLook(inv) {
+  const t = `${inv.name} ${inv.about}`.toLowerCase(), mats = Object.keys(inv.cost ?? {});
+  const main = mats[0] ?? "wood", second = mats[1] ?? main, has = (m) => mats.includes(m) || t.includes(m);
+  const P = (shape, material, x, y, z, w, h, d, tilt_x = 0, tilt_z = 0) => ({ shape, material, x, y, z, w, h, d, tilt_x, tilt_z });
+  const berries = /berr/.test(t) ? [0, 1, 2].map((k) => P("sphere", "berries", Math.cos(k * 2.1) * 0.06, 0.4, Math.sin(k * 2.1) * 0.06, 0.09, 0.09, 0.09)) : [];
+  if (/pot|jar|vase|urn|jug/.test(t)) return [P("pot", has("clay") ? "clay" : main, 0, 0, 0, 0.42, 0.46, 0.42), P("ring", has("fibre") ? "fibre" : second, 0, 0.36, 0, 0.3, 0.04, 0.3), ...berries];
+  if (/bowl|dish|cup|plate/.test(t)) return [P("bowl", main, 0, 0, 0, 0.5, 0.2, 0.5), ...berries.map((b) => ({ ...b, y: 0.1 }))];
+  if (/basket|bag|pouch|sack|carrier/.test(t)) return [P("bowl", has("fibre") ? "fibre" : main, 0, 0, 0, 0.5, 0.32, 0.5), P("ring", has("fibre") ? "fibre" : main, 0, 0.12, 0, 0.42, 0.04, 0.5, 90), ...berries.map((b) => ({ ...b, y: 0.2 }))];
+  if (/rope|string|cord|twine|thread/.test(t)) return [0, 1, 2, 3].map((k) => P("ring", "fibre", 0, k * 0.04, 0, 0.36 - k * 0.03, 0.04, 0.36 - k * 0.03));
+  if (/hammer|axe|pick|club|mallet|chopper/.test(t)) return [P("stick", "wood", 0, 0.05, 0, 0.05, 0.7, 0.05, 80), P("box", has("stone") ? "stone" : second, 0, 0.02, 0.32, 0.22, 0.14, 0.12)];
+  if (/shovel|scoop|spade|ladle/.test(t)) return [P("stick", "wood", 0, 0.05, 0, 0.05, 0.7, 0.05, 80), P("bowl", has("shells") ? "shells" : second, 0, 0.02, 0.4, 0.22, 0.08, 0.26)];
+  if (/spear|harpoon|poker|prod/.test(t)) return [P("stick", "wood", 0, 0.05, 0, 0.05, 1.2, 0.05, 80), P("cone", has("stone") ? "stone" : has("shells") ? "shells" : "wood", 0, 0.03, 0.62, 0.08, 0.16, 0.08, 80)];
+  if (/net|trap|cage/.test(t)) return [P("ring", "fibre", 0, 0, 0, 0.6, 0.04, 0.6), P("ring", "fibre", 0, 0.12, 0, 0.45, 0.04, 0.45), P("ring", "fibre", 0, 0.24, 0, 0.25, 0.04, 0.25)];
+  if (/lamp|torch|light|lantern/.test(t)) return [P("stick", "wood", 0, 0, 0, 0.06, 0.8, 0.06), P("sphere", has("shells") ? "shells" : "clay", 0, 0.8, 0, 0.18, 0.18, 0.18)];
+  if (/ladder/.test(t)) return [P("stick", "wood", -0.2, 0, 0, 0.05, 1.4, 0.05, 0, -8), P("stick", "wood", 0.2, 0, 0, 0.05, 1.4, 0.05, 0, 8), ...[0.3, 0.65, 1].map((y) => P("stick", "wood", 0, y, 0, 0.04, 0.45, 0.04, 0, 90))];
+  if (/necklace|chime|charm|bead/.test(t)) return [P("stick", "wood", 0, 0, 0, 0.05, 0.6, 0.05), P("ring", "fibre", 0, 0.45, 0, 0.3, 0.03, 0.3, 90), P("cone", "shells", 0, 0.3, 0.15, 0.08, 0.12, 0.08)];
+  if (/stick|pole|staff|rod|cane|wand/.test(t)) return [P("stick", main, 0, 0.04, 0, 0.05, 1.1, 0.05, 80)];
+  if (/bed|mat|blanket|cushion|pillow/.test(t)) return [P("box", has("fibre") ? "fibre" : "leaves", 0, 0, 0, 0.9, 0.08, 0.6)];
+  return [P("stick", "wood", 0, 0.05, 0, 0.05, 0.8, 0.05, 80), P("sphere", second, 0, 0.02, 0.4, 0.16, 0.16, 0.16)];
 }
 function homeSpot() {
   const w = data?.state.world; const s = w?.structures.find((x) => x.id === w.home);
