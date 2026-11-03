@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T20:52:38.605Z",
+  "lastUpdate": "2026-11-03T21:02:51.857Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-03T20:52:41.313Z",
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-03T21:42:51.857Z",
   "needs": {
-    "fullness": 66,
-    "water": 63,
-    "energy": 72,
-    "curiosity": 23,
-    "joy": 49,
-    "calm": 100
+    "fullness": 65,
+    "water": 62,
+    "energy": 63,
+    "curiosity": 37,
+    "joy": 56,
+    "calm": 98
   },
-  "health": 74,
-  "mood": "curious and hopeful",
+  "health": 75,
+  "mood": "curious and a bit indignant",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Study the crabs at the tidepools, then collect shells, tend plants, drink, and watch the sky.",
+  "plan": "Study the scratched shells, collect shells, then drink and eat berries, then watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -259,7 +259,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 19
@@ -640,7 +640,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.68,
+        "left": 0.75,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -696,7 +696,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.41,
+        "left": 1.48,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -936,16 +936,16 @@
       "glade"
     ]
   },
-  "ticks": 135,
+  "ticks": 136,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [],
-  "thought": "My curiosity is very low, at 8. The crabs are a mystery I care about, and the tidepools are where I can study them. I have a full-ish belly and decent energy, so exploring the tidepools to look closely at the crab scratches should lift my curiosity. I will go there now.",
+  "thought": "The pigeon just stole a berry, cheeky thing. I am at the tidepools with curiosity very low, and there are four shells with scratches on them. I will study these scratches closely, since the crabs might really be writing to me. Shells are good for building too. The pigeon can have its one berry, I have none left to lose anyway.",
   "face": "curious",
-  "lastThought": "2026-11-03T20:22:41.313Z",
+  "lastThought": "2026-11-03T21:02:51.857Z",
   "foundPlace": null
 }
