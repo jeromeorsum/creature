@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T21:02:51.857Z",
+  "lastUpdate": "2026-11-03T21:13:20.011Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
@@ -10,14 +10,14 @@
   "doing": "experiment at the tidepools",
   "busyUntil": "2026-11-03T21:42:51.857Z",
   "needs": {
-    "fullness": 65,
-    "water": 62,
-    "energy": 63,
-    "curiosity": 37,
-    "joy": 56,
+    "fullness": 64,
+    "water": 61,
+    "energy": 62,
+    "curiosity": 36,
+    "joy": 55,
     "calm": 98
   },
-  "health": 75,
+  "health": 76,
   "mood": "curious and a bit indignant",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -640,7 +640,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.75,
+        "left": 0.82,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -696,7 +696,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.48,
+        "left": 1.55,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
