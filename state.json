@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T18:50:33.789Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-03T19:00:35.079Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-03T19:10:35.079Z",
   "needs": {
     "fullness": 0,
-    "water": 25,
-    "energy": 100,
-    "curiosity": 17,
-    "joy": 46,
+    "water": 74,
+    "energy": 99,
+    "curiosity": 16,
+    "joy": 45,
     "calm": 100
   },
-  "health": 72,
-  "mood": "determined and sleepy",
+  "health": 71,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -94,23 +94,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "plan": [
-      "Pick berries at thicket for breakfast",
-      "Tend the seedlings",
-      "Explore or make something",
       "Drink at the pond",
-      "Eat dinner",
-      "Wind down before dawn"
+      "Breakfast: forage berries at the thicket",
+      "Eat berries before the pigeon notices",
+      "Tend the plants",
+      "Visit the crabs at the tidepools",
+      "Collect fibre and shells",
+      "Dinner berries and drink",
+      "Wind down and watch the sky"
     ],
-    "done": [
-      2,
-      1,
-      3,
-      4,
-      5,
-      6
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -249,7 +244,7 @@
       }
     }
   ],
-  "plan": "Sleep, then pick lots of berries tonight and eat them before the pigeon notices, then visit the crabs.",
+  "plan": "Drink, pick lots of berries and eat them, tend seedlings, visit the crabs.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -939,16 +934,16 @@
       "glade"
     ]
   },
-  "ticks": 130,
+  "ticks": 131,
   "spend": {
-    "day": "2026-11-02",
+    "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 25
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "The hut is finished at last, and the sun is up, so it is bedtime for a night-bird. My belly is thin at 32 and I have no berries kept, but sleep is the sensible thing now. Tonight I will pick berries first and eat them fast. I will sleep in the Cosy Hut, dry and smug.",
-  "face": "sleepy",
-  "lastThought": "2026-11-03T10:18:39.027Z",
+  "thought": "I woke up with an empty belly and a dry throat. Water is 24 and fullness is 0, so drinking is the first thing, since the pond is only 16m away. Then berries from the thicket, eaten quickly before the pigeon notices. After that I can tend my plants and visit the crabs.",
+  "face": "determined",
+  "lastThought": "2026-11-03T19:00:35.079Z",
   "foundPlace": null
 }
