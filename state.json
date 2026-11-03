@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T20:11:51.510Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-03T20:22:41.313Z",
+  "place": "tidepools",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 18,
+    "z": 34
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-03T20:16:54.448Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-03T20:52:41.313Z",
   "needs": {
-    "fullness": 70,
-    "water": 67,
-    "energy": 84,
-    "curiosity": 9,
-    "joy": 51,
+    "fullness": 69,
+    "water": 66,
+    "energy": 75,
+    "curiosity": 26,
+    "joy": 50,
     "calm": 100
   },
-  "health": 72,
-  "mood": "hungry but hopeful",
+  "health": 73,
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -97,16 +97,16 @@
     "date": "2026-11-03",
     "plan": [
       "Breakfast: eat berries",
-      "Pick more berries",
-      "Tend plants",
       "Visit crabs at tidepools",
       "Collect fibre and shells",
+      "Tend plants",
       "Dinner berries and drink",
       "Wind down and watch the sky"
     ],
     "done": [
       1,
-      2
+      2,
+      4
     ]
   },
   "lessons": [
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Drink, pick lots of berries and eat them, tend seedlings, visit the crabs.",
+  "plan": "Study the crabs at the tidepools, then collect shells, tend plants, drink, and watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -640,7 +640,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.4,
+        "left": 0.47,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -696,7 +696,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.13,
+        "left": 1.2,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -936,18 +936,16 @@
       "glade"
     ]
   },
-  "ticks": 134,
+  "ticks": 135,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is still half empty and I have no kept berries. The thicket is right here with plenty of bushes, so I should pick a big pile. My clay pot lets me carry more. Curiosity is low, but food first, then crabs.",
-  "face": "determined",
-  "lastThought": "2026-11-03T19:51:54.448Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is very low, at 8. The crabs are a mystery I care about, and the tidepools are where I can study them. I have a full-ish belly and decent energy, so exploring the tidepools to look closely at the crab scratches should lift my curiosity. I will go there now.",
+  "face": "curious",
+  "lastThought": "2026-11-03T20:22:41.313Z",
   "foundPlace": null
 }
