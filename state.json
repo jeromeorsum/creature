@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T19:41:12.922Z",
+  "lastUpdate": "2026-11-03T19:51:54.448Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-03T19:51:12.922Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-03T20:16:54.448Z",
   "needs": {
-    "fullness": 49,
-    "water": 70,
-    "energy": 91,
-    "curiosity": 12,
-    "joy": 50,
+    "fullness": 72,
+    "water": 69,
+    "energy": 86,
+    "curiosity": 11,
+    "joy": 52,
     "calm": 100
   },
-  "health": 70,
-  "mood": "hungry but determined",
+  "health": 71,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -259,7 +259,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 19
@@ -640,7 +640,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.2,
+        "left": 0.27,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -696,7 +696,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -936,18 +936,18 @@
       "glade"
     ]
   },
-  "ticks": 133,
+  "ticks": 134,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You collected 3 berries and ate 2 on the spot."
   ],
-  "thought": "My belly is still thin at 21, so I should eat the berries I have right now before the pigeon notices. Then I can pick more. Curiosity is low too, but food first, crabs after.",
+  "thought": "My belly is still half empty and I have no kept berries. The thicket is right here with plenty of bushes, so I should pick a big pile. My clay pot lets me carry more. Curiosity is low, but food first, then crabs.",
   "face": "determined",
-  "lastThought": "2026-11-03T19:41:12.922Z",
+  "lastThought": "2026-11-03T19:51:54.448Z",
   "foundPlace": null
 }
