@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T07:14:32.818Z",
+  "lastUpdate": "2026-11-03T07:24:48.586Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-03T07:23:24.091Z",
+  "busyUntil": "2026-11-03T08:24:48.586Z",
   "needs": {
-    "fullness": 60,
-    "water": 43,
-    "energy": 44,
-    "curiosity": 34,
-    "joy": 46,
+    "fullness": 54,
+    "water": 42,
+    "energy": 73,
+    "curiosity": 33,
+    "joy": 45,
     "calm": 100
   },
   "health": 100,
@@ -108,7 +108,8 @@
       1,
       3,
       4,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -225,7 +226,7 @@
       }
     }
   ],
-  "plan": "Eat the berry, then go home to the hut and nap",
+  "plan": "Nap, then drink at the pond, then pick berries and eat them fast.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -619,7 +620,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.92,
+        "left": 1.99,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -635,7 +636,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.8,
+        "left": 2.87,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -643,7 +644,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.8,
+        "left": 2.87,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -675,7 +676,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.71,
+        "left": 1.78,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -753,7 +754,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -773,7 +774,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -783,7 +784,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -793,7 +794,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -803,7 +804,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -813,7 +814,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -823,7 +824,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 2.8,
+        "left": 2.87,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -915,16 +916,16 @@
       "glade"
     ]
   },
-  "ticks": 125,
+  "ticks": 126,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [],
-  "thought": "My energy is very low at 21, and it is dawn, which is bedtime for a nocturnal Glorp. Water is 50, belly 58. I should eat my one berry before the pigeon notices, then head to the hut and sleep. The hut is 15m away. Eating first is quick and safe.",
+  "thought": "It is dawn and I am a night-bird, so bedtime is close. My energy is only 43 and I am at the nest with the Cosy Hut right here. Water is 42, a bit low, but sleeping first is sensible. I will nap in the hut and drink when I wake tonight.",
   "face": "sleepy",
-  "lastThought": "2026-11-03T06:02:57.682Z",
+  "lastThought": "2026-11-03T07:24:48.586Z",
   "foundPlace": null
 }
