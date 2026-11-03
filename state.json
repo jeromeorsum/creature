@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T06:13:11.183Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-03T06:23:24.091Z",
+  "place": "nest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the meadow",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-03T07:23:24.091Z",
   "needs": {
-    "fullness": 71,
-    "water": 49,
-    "energy": 20,
-    "curiosity": 40,
-    "joy": 52,
-    "calm": 98
+    "fullness": 65,
+    "water": 48,
+    "energy": 49,
+    "curiosity": 39,
+    "joy": 51,
+    "calm": 100
   },
   "health": 100,
   "mood": "sleepy and content",
@@ -619,7 +619,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.5,
+        "left": 1.57,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -635,7 +635,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.38,
+        "left": 2.45,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -643,7 +643,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.38,
+        "left": 2.45,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -675,7 +675,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.29,
+        "left": 1.36,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -753,7 +753,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -773,7 +773,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -783,7 +783,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -793,7 +793,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -803,7 +803,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -813,7 +813,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -823,7 +823,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -915,16 +915,14 @@
       "glade"
     ]
   },
-  "ticks": 124,
+  "ticks": 125,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 20
   },
-  "lastOutcome": [
-    "You ate 1 berries from your food."
-  ],
+  "lastOutcome": [],
   "thought": "My energy is very low at 21, and it is dawn, which is bedtime for a nocturnal Glorp. Water is 50, belly 58. I should eat my one berry before the pigeon notices, then head to the hut and sleep. The hut is 15m away. Eating first is quick and safe.",
   "face": "sleepy",
   "lastThought": "2026-11-03T06:02:57.682Z",
