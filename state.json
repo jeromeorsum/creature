@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T08:46:31.687Z",
+  "lastUpdate": "2026-11-03T08:56:48.546Z",
   "place": "pond",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 4,
+    "z": 23
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-03T09:21:48.546Z",
   "needs": {
-    "fullness": 46,
-    "water": 84,
-    "energy": 65,
-    "curiosity": 25,
-    "joy": 37,
+    "fullness": 45,
+    "water": 83,
+    "energy": 58,
+    "curiosity": 24,
+    "joy": 36,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and sensible",
+  "mood": "sleepy and tidy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -226,7 +226,7 @@
       }
     }
   ],
-  "plan": "Drink, then nap in the hut, then pick berries tonight.",
+  "plan": "Pull reeds, then nap in the hut, then pick berries tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -248,7 +248,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 0,
-      "fibre": 2,
+      "fibre": 5,
       "shells": 5
     },
     "discovered": [
@@ -534,7 +534,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -620,7 +620,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.55,
+        "left": 2.62,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -636,7 +636,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -644,7 +644,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -676,7 +676,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.34,
+        "left": 2.41,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -754,7 +754,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -774,7 +774,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -784,7 +784,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -794,7 +794,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -804,7 +804,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -814,7 +814,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -824,7 +824,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 3.43,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -916,16 +916,18 @@
       "glade"
     ]
   },
-  "ticks": 127,
+  "ticks": 128,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
-  "lastOutcome": [],
-  "thought": "Water is lowish at 36 and I have no food. It is morning, my sleeping time, but energy is 67. I should drink at the pond first, then sleep. The pond is close.",
+  "lastOutcome": [
+    "You collected 3 fibre."
+  ],
+  "thought": "It is nearly my bedtime at 11am, and my water is fine now. My belly is only 45, so I could nap hungry, but I'd sleep better with a few berries. The pond is right here, so I will pull some reeds for fibre first, which is calming and useful, then head home to sleep. My energy is decent.",
   "face": "sleepy",
-  "lastThought": "2026-11-03T08:26:05.130Z",
+  "lastThought": "2026-11-03T08:56:48.546Z",
   "foundPlace": null
 }
