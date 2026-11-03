@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T19:31:34.419Z",
+  "lastUpdate": "2026-11-03T19:41:12.922Z",
   "place": "thicket",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-03T19:36:06.505Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-03T19:51:12.922Z",
   "needs": {
-    "fullness": 22,
-    "water": 71,
-    "energy": 92,
-    "curiosity": 13,
-    "joy": 46,
+    "fullness": 49,
+    "water": 70,
+    "energy": 91,
+    "curiosity": 12,
+    "joy": 50,
     "calm": 100
   },
   "health": 70,
@@ -96,17 +96,17 @@
   "today": {
     "date": "2026-11-03",
     "plan": [
-      "Drink at the pond",
-      "Breakfast: forage berries at the thicket",
-      "Eat berries before the pigeon notices",
-      "Tend the plants",
-      "Visit the crabs at the tidepools",
+      "Breakfast: eat berries",
+      "Pick more berries",
+      "Tend plants",
+      "Visit crabs at tidepools",
       "Collect fibre and shells",
       "Dinner berries and drink",
       "Wind down and watch the sky"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -259,7 +259,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 19
@@ -640,7 +640,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.14,
+        "left": 0.2,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -936,19 +936,18 @@
       "glade"
     ]
   },
-  "ticks": 132,
+  "ticks": 133,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is totally empty at zero, so berries come first. The thicket is where they grow. I have a berry pot that holds more, so I will pick plenty and eat quickly before the pigeon holds its meeting. Then tend plants and visit the crabs.",
+  "thought": "My belly is still thin at 21, so I should eat the berries I have right now before the pigeon notices. Then I can pick more. Curiosity is low too, but food first, crabs after.",
   "face": "determined",
-  "lastThought": "2026-11-03T19:11:06.505Z",
+  "lastThought": "2026-11-03T19:41:12.922Z",
   "foundPlace": null
 }
