@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T04:40:59.100Z",
+  "lastUpdate": "2026-11-03T04:51:23.198Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
@@ -10,11 +10,11 @@
   "doing": "experiment at the tidepools",
   "busyUntil": "2026-11-03T05:00:25.867Z",
   "needs": {
-    "fullness": 66,
-    "water": 58,
-    "energy": 37,
-    "curiosity": 41,
-    "joy": 39,
+    "fullness": 65,
+    "water": 57,
+    "energy": 36,
+    "curiosity": 40,
+    "joy": 38,
     "calm": 98
   },
   "health": 100,
@@ -612,7 +612,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.87,
+        "left": 0.94,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -628,7 +628,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.75,
+        "left": 1.82,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -636,7 +636,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.75,
+        "left": 1.82,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -668,7 +668,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.66,
+        "left": 0.73,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -716,7 +716,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.75,
+        "left": 3.82,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -746,7 +746,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -766,7 +766,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -776,7 +776,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -786,7 +786,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -796,7 +796,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -806,7 +806,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -816,7 +816,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
