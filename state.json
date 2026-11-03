@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T00:56:29.410Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-03T01:06:39.124Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "tend plants at the thicket",
-  "busyUntil": "2026-11-03T01:00:45.996Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-03T02:06:39.124Z",
   "needs": {
-    "fullness": 74,
-    "water": 80,
-    "energy": 19,
-    "curiosity": 30,
-    "joy": 50,
+    "fullness": 68,
+    "water": 79,
+    "energy": 48,
+    "curiosity": 29,
+    "joy": 49,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined and a bit sleepy",
+  "mood": "sleepy and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -213,7 +213,7 @@
       }
     }
   ],
-  "plan": "Tend seedlings, then wind down and nap in the hut before dawn",
+  "plan": "Nap in the hut, then drink, pick berries and tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -236,7 +236,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 5
+      "shells": 4
     },
     "discovered": [
       "clay",
@@ -607,7 +607,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.33,
+        "left": 0.4,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -623,7 +623,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -631,7 +631,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -663,7 +663,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.12,
+        "left": 1.19,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -711,7 +711,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.21,
+        "left": 2.28,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -741,7 +741,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -761,7 +761,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -771,7 +771,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -781,7 +781,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -791,7 +791,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -801,7 +801,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -811,7 +811,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -903,18 +903,16 @@
       "glade"
     ]
   },
-  "ticks": 117,
+  "ticks": 118,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
-  "lastOutcome": [
-    "You looked after 20 plants around the thicket. They'll grow for about a day."
-  ],
-  "thought": "The pigeon stole another berry, cheeky thing. I have no berries kept, so it only got a snack from me earlier. Fullness is 77, fine, but energy is 30 and getting low. The seedlings are planted, so the best use of time is tending them here so they grow. Then I can wind down and nap before dawn.",
-  "face": "determined",
-  "lastThought": "2026-11-03T00:25:45.996Z",
+  "lastOutcome": [],
+  "thought": "Energy is very low at 18 and the pigeon just took a shell. My belly is fine, so a nap in the hut is the right thing. The shells are minor, I'll shrug it off. Dinner can happen after waking.",
+  "face": "sleepy",
+  "lastThought": "2026-11-03T01:06:39.124Z",
   "foundPlace": null
 }
