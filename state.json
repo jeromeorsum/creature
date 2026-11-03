@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T01:57:34.438Z",
+  "lastUpdate": "2026-11-03T02:07:45.330Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-03T02:06:39.124Z",
+  "busyUntil": "2026-11-03T03:07:45.330Z",
   "needs": {
-    "fullness": 63,
-    "water": 74,
-    "energy": 43,
-    "curiosity": 24,
-    "joy": 44,
+    "fullness": 57,
+    "water": 73,
+    "energy": 72,
+    "curiosity": 23,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
@@ -213,7 +213,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then drink, pick berries and tend seedlings",
+  "plan": "Nap, then pick berries for dinner, then explore for curiosity",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -607,7 +607,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.75,
+        "left": 0.82,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -623,7 +623,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.63,
+        "left": 0.7,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -631,7 +631,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.63,
+        "left": 0.7,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -663,7 +663,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.54,
+        "left": 1.61,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -711,7 +711,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.63,
+        "left": 2.7,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -741,7 +741,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -761,7 +761,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -771,7 +771,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -781,7 +781,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -791,7 +791,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -801,7 +801,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -811,7 +811,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -903,16 +903,16 @@
       "glade"
     ]
   },
-  "ticks": 118,
+  "ticks": 119,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "Energy is very low at 18 and the pigeon just took a shell. My belly is fine, so a nap in the hut is the right thing. The shells are minor, I'll shrug it off. Dinner can happen after waking.",
+  "thought": "My energy is 42 and my curiosity is low. I am awake through the night, but a short rest in the hut would help. Still, my curiosity is flat, so a bit of exploring would wake my crest up. Dinner is not eaten yet, and I have no kept berries. I think a nap first is sensible, then berries.",
   "face": "sleepy",
-  "lastThought": "2026-11-03T01:06:39.124Z",
+  "lastThought": "2026-11-03T02:07:45.330Z",
   "foundPlace": null
 }
