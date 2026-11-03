@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T22:34:38.199Z",
+  "lastUpdate": "2026-11-03T22:44:51.194Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,14 +10,14 @@
   "doing": "pottering about at the pond",
   "busyUntil": null,
   "needs": {
-    "fullness": 56,
-    "water": 99,
-    "energy": 46,
-    "curiosity": 43,
-    "joy": 56,
+    "fullness": 55,
+    "water": 98,
+    "energy": 45,
+    "curiosity": 42,
+    "joy": 55,
     "calm": 99
   },
-  "health": 83,
+  "health": 84,
   "mood": "curious and practical",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -644,7 +644,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.38,
+        "left": 1.45,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -700,7 +700,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.11,
+        "left": 2.18,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
