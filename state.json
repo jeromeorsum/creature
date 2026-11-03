@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T02:58:50.090Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-03T03:09:05.683Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-03T03:07:45.330Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-03T03:34:05.683Z",
   "needs": {
-    "fullness": 52,
-    "water": 68,
-    "energy": 67,
-    "curiosity": 18,
-    "joy": 38,
+    "fullness": 75,
+    "water": 67,
+    "energy": 62,
+    "curiosity": 17,
+    "joy": 40,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and determined",
+  "mood": "grateful and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -213,7 +213,7 @@
       }
     }
   ],
-  "plan": "Nap, then pick berries for dinner, then explore for curiosity",
+  "plan": "Pick berries, eat dinner, then explore for curiosity",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -226,17 +226,17 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 16
+      "berry": 18
     },
     "inventory": {
       "wood": 1,
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 4
+      "shells": 5
     },
     "discovered": [
       "clay",
@@ -607,7 +607,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.17,
+        "left": 0.24,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -623,7 +623,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.05,
+        "left": 1.12,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -631,7 +631,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.05,
+        "left": 1.12,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -663,7 +663,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.96,
+        "left": 0.03,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -711,7 +711,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.05,
+        "left": 3.12,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -741,7 +741,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -761,7 +761,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -771,7 +771,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -781,7 +781,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -791,7 +791,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -801,7 +801,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -811,7 +811,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -903,16 +903,19 @@
       "glade"
     ]
   },
-  "ticks": 119,
+  "ticks": 120,
   "spend": {
     "day": "2026-11-02",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [],
-  "thought": "My energy is 42 and my curiosity is low. I am awake through the night, but a short rest in the hut would help. Still, my curiosity is flat, so a bit of exploring would wake my crest up. Dinner is not eaten yet, and I have no kept berries. I think a nap first is sensible, then berries.",
-  "face": "sleepy",
-  "lastThought": "2026-11-03T02:07:45.330Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "A crab left a shiny shell by me. I'll take it as a gift and be kind about it. My belly is half full with no kept food, and curiosity is low. Berries first at the thicket, then wonder about the crab.",
+  "face": "curious",
+  "lastThought": "2026-11-03T03:09:05.683Z",
   "foundPlace": null
 }
