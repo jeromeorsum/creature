@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T08:16:10.769Z",
+  "lastUpdate": "2026-11-04T08:26:21.469Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-04T08:25:10.244Z",
+  "busyUntil": "2026-11-04T09:26:21.469Z",
   "needs": {
-    "fullness": 53,
-    "water": 80,
-    "energy": 80,
-    "curiosity": 27,
-    "joy": 27,
+    "fullness": 47,
+    "water": 79,
+    "energy": 100,
+    "curiosity": 26,
+    "joy": 26,
     "calm": 100
   },
   "health": 100,
@@ -946,16 +946,16 @@
       "glade"
     ]
   },
-  "ticks": 149,
+  "ticks": 150,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "It is dawn and my bedtime is near. My energy is 55 and my legs are wobbly, so a proper sleep in the Cosy Hut is the sensible thing. Everything else is fine. I'll nap now and do chores at dusk.",
+  "thought": "It is morning and I should be asleep, since I am a night creature. My energy is 79, so a nap in the hut is easy and sensible. Sleeping now means I wake at dusk fresh for berries and seedlings. My calm is full, so I am not worried about anything.",
   "face": "sleepy",
-  "lastThought": "2026-11-04T07:25:10.244Z",
+  "lastThought": "2026-11-04T08:26:21.469Z",
   "foundPlace": null
 }
