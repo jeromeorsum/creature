@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T04:41:46.997Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-04T04:51:55.916Z",
+  "place": "pond",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": -4,
+    "z": 21
   },
-  "doing": "pick the shells lying around the glade and tap a thank-you to the mushrooms (at the glade)",
-  "busyUntil": "2026-11-04T04:46:24.345Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-04T05:01:55.916Z",
   "needs": {
-    "fullness": 56,
-    "water": 61,
-    "energy": 41,
-    "curiosity": 48,
-    "joy": 44,
+    "fullness": 55,
+    "water": 100,
+    "energy": 40,
+    "curiosity": 47,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and content",
+  "mood": "calm and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -247,7 +247,7 @@
       }
     }
   ],
-  "plan": "Gather shells here, then drink at the pond, then watch the sky on the hill.",
+  "plan": "Drink at the pond, then watch the sky on the hill, then nap in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -267,7 +267,7 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
+    "weather": "sunny",
     "food": 3,
     "seeds": {
       "tree": 0,
@@ -945,18 +945,16 @@
       "glade"
     ]
   },
-  "ticks": 145,
+  "ticks": 146,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [
-    "You did your own thing: pick the shells lying around the glade and tap a thank-you to the mushrooms."
-  ],
-  "thought": "The log is still echoing in my head. Trees here have something on them, shells too, so collecting shells is useful. My water is fine, energy middling. I'll gather the shells nearby for the crab letter and future building, then drink and watch the sky later.",
+  "lastOutcome": [],
+  "thought": "Water is middling at 60 and energy is 40. The night is nearly over, since I sleep at 11am, but I still have hours. A drink at the pond is sensible, and the pond is also where I can pull reeds, because fibre is scarce. I will drink first, then wind down on the hill.",
   "face": "happy",
-  "lastThought": "2026-11-04T04:21:24.345Z",
+  "lastThought": "2026-11-04T04:51:55.916Z",
   "foundPlace": null
 }
