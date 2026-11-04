@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T22:20:29.640Z",
+  "lastUpdate": "2026-11-04T22:30:37.640Z",
   "place": "thicket",
   "spot": {
-    "x": 10.9,
-    "z": -3.1
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-04T22:25:08.417Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-04T22:45:37.640Z",
   "needs": {
-    "fullness": 54,
-    "water": 65,
-    "energy": 48,
-    "curiosity": 7,
-    "joy": 58,
-    "calm": 100
+    "fullness": 53,
+    "water": 64,
+    "energy": 47,
+    "curiosity": 21,
+    "joy": 62,
+    "calm": 95
   },
   "health": 100,
-  "mood": "determined and hungry",
+  "mood": "curious and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -949,19 +949,16 @@
       "glade"
     ]
   },
-  "ticks": 159,
+  "ticks": 160,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "The hut is finished, hooray. My belly is thin at 32 and curiosity is nearly empty. Berries first at the thicket, then explore for curiosity. The pigeon can watch me but I will eat fast.",
-  "face": "determined",
-  "lastThought": "2026-11-04T22:00:08.417Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is nearly empty and the pigeon is right here, so a careful spying should wake my crest up. Belly is half full, which is fine for now. I will watch it closely and see if it hides any secrets.",
+  "face": "curious",
+  "lastThought": "2026-11-04T22:30:37.640Z",
   "foundPlace": null
 }
