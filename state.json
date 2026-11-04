@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-03T23:56:24.356Z",
+  "lastUpdate": "2026-11-04T00:06:35.060Z",
   "place": "thicket",
   "spot": {
     "x": 16.6,
     "z": -6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-04T00:31:35.060Z",
   "needs": {
-    "fullness": 72,
-    "water": 91,
-    "energy": 34,
-    "curiosity": 35,
-    "joy": 51,
+    "fullness": 95,
+    "water": 90,
+    "energy": 29,
+    "curiosity": 34,
+    "joy": 53,
     "calm": 99
   },
-  "health": 91,
+  "health": 92,
   "mood": "hungry but practical",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Forage berries and eat fast, then watch the sky.",
+  "plan": "Pick berries and eat fast, then watch the sky from the hill.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -263,7 +263,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -644,7 +644,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.94,
+        "left": 0.01,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -700,7 +700,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.67,
+        "left": 0.74,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -778,7 +778,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.28,
+        "left": 1.35,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -940,19 +940,19 @@
       "glade"
     ]
   },
-  "ticks": 139,
+  "ticks": 140,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My water is high from the drink, but my belly is only half full and I have no berries kept. The thicket is where dinner lives, so I will go and pick a big pile, eat some right away and tuck the rest in the clay pot. The pigeon will be scheming, so I must be quick.",
+  "thought": "My belly is at 71 and I only have 2 berries kept. Energy is lowish at 33. I'm at the thicket, so I'll eat from the bushes right now, quickly, and stock up the pot before the pigeon holds a meeting. Then I can wind down at the hill.",
   "face": "determined",
-  "lastThought": "2026-11-03T23:15:41.992Z",
+  "lastThought": "2026-11-04T00:06:35.060Z",
   "foundPlace": null
 }
