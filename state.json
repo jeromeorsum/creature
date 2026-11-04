@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T19:57:25.299Z",
+  "lastUpdate": "2026-11-04T20:07:43.399Z",
   "place": "thicket",
   "spot": {
-    "x": 18.4,
-    "z": -1.8
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-04T20:01:59.957Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-04T20:22:43.399Z",
   "needs": {
-    "fullness": 49,
-    "water": 29,
-    "energy": 86,
-    "curiosity": 0,
-    "joy": 42,
-    "calm": 100
+    "fullness": 48,
+    "water": 28,
+    "energy": 85,
+    "curiosity": 15,
+    "joy": 46,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "curious and a bit indignant",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -102,15 +102,18 @@
   "today": {
     "date": "2026-11-04",
     "plan": [
-      "Breakfast: pick and eat berries at the thicket",
-      "Drink at the pond",
       "Spy on the pigeon",
+      "Drink at the pond",
+      "Pull reeds for fibre",
+      "Repair the Cosy Hut",
       "Tend seedlings",
       "Watch the sky from the hill",
       "Dinner berries",
-      "Wind down and go to the hut"
+      "Wind down"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -249,7 +252,7 @@
       }
     }
   ],
-  "plan": "Pick berries, drink, spy on the pigeon, tend seedlings, then sky-watch.",
+  "plan": "Spy on pigeon, drink at pond, pull reeds for hut fibre, repair hut, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -270,7 +273,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -924,11 +927,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-03T09:47:57.048Z"
+        "finished": null
       }
     ],
     "known": [
@@ -947,19 +950,16 @@
       "glade"
     ]
   },
-  "ticks": 154,
+  "ticks": 155,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "My belly is thin at 27 and I am standing right at the thicket with 17 loaded bushes. Berries first, before the pigeon holds a meeting. Water is 31, so the pond comes next. Curiosity is 1, so spying on the pigeon after that should help.",
-  "face": "determined",
-  "lastThought": "2026-11-04T19:36:59.957Z",
+  "lastOutcome": [],
+  "thought": "The pigeon stole a berry, cheeky thing. My belly is half full, water is low at 28, and my curiosity is a dry puddle. Spying on the pigeon is right here and wakes up curiosity, and it might teach me its tricks. Then I will drink at the pond. The hut still needs fibre, so pulling reeds at the pond is next after that.",
+  "face": "suspicious",
+  "lastThought": "2026-11-04T20:07:43.399Z",
   "foundPlace": null
 }
