@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T05:32:54.622Z",
+  "lastUpdate": "2026-11-04T05:43:06.104Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-04T05:42:54.622Z",
+  "doing": "pottering about at the pond",
+  "busyUntil": null,
   "needs": {
-    "fullness": 79,
-    "water": 96,
-    "energy": 36,
-    "curiosity": 43,
-    "joy": 43,
+    "fullness": 78,
+    "water": 95,
+    "energy": 35,
+    "curiosity": 42,
+    "joy": 42,
     "calm": 100
   },
   "health": 100,
