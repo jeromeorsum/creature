@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T00:26:56.709Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-04T00:37:10.848Z",
+  "place": "nest",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-04T00:31:35.060Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-04T01:37:10.848Z",
   "needs": {
-    "fullness": 93,
-    "water": 88,
-    "energy": 27,
-    "curiosity": 32,
-    "joy": 51,
-    "calm": 99
+    "fullness": 87,
+    "water": 87,
+    "energy": 56,
+    "curiosity": 31,
+    "joy": 50,
+    "calm": 100
   },
-  "health": 94,
-  "mood": "hungry but practical",
+  "health": 95,
+  "mood": "sleepy and grateful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -246,7 +246,7 @@
       }
     }
   ],
-  "plan": "Pick berries and eat fast, then watch the sky from the hill.",
+  "plan": "Nap in the hut, then drink, then tend plants and watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -273,7 +273,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 5
+      "shells": 6
     },
     "discovered": [
       "clay",
@@ -940,19 +940,16 @@
       "glade"
     ]
   },
-  "ticks": 140,
+  "ticks": 141,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "My belly is at 71 and I only have 2 berries kept. Energy is lowish at 33. I'm at the thicket, so I'll eat from the bushes right now, quickly, and stock up the pot before the pigeon holds a meeting. Then I can wind down at the hill.",
-  "face": "determined",
-  "lastThought": "2026-11-04T00:06:35.060Z",
+  "lastOutcome": [],
+  "thought": "A crab left a shiny shell by me, which feels like a gift, and I like it. My belly is full at 92, but my energy is low at 26. I should rest soon. The hill is far, so watching the sky is a gentle wind-down, but my legs are wobbly. I'd rather go home and nap in the Cosy Hut, since it is the middle of the night and energy is the lowest need.",
+  "face": "sleepy",
+  "lastThought": "2026-11-04T00:37:10.848Z",
   "foundPlace": null
 }
