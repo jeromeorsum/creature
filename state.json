@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T21:49:55.360Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-04T22:00:08.417Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-04T21:54:04.078Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-04T22:25:08.417Z",
   "needs": {
-    "fullness": 33,
-    "water": 68,
-    "energy": 55,
-    "curiosity": 10,
-    "joy": 58,
+    "fullness": 56,
+    "water": 67,
+    "energy": 50,
+    "curiosity": 9,
+    "joy": 60,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined",
+  "mood": "determined and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -251,7 +251,7 @@
       }
     }
   ],
-  "plan": "Finish hut, pick berries, tend seedlings, watch sky.",
+  "plan": "Pick berries, eat, tend seedlings, explore, watch sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -669,7 +669,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -949,18 +949,19 @@
       "glade"
     ]
   },
-  "ticks": 158,
+  "ticks": 159,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "I have 6 fibre now and the hut needs 3. Plan says finish the hut, but my curiosity is very low and belly is thin. The hut is near the nest, so I will go build it now. It is a proper work hour and finishing will feel great. Then berries.",
+  "thought": "The hut is finished, hooray. My belly is thin at 32 and curiosity is nearly empty. Berries first at the thicket, then explore for curiosity. The pigeon can watch me but I will eat fast.",
   "face": "determined",
-  "lastThought": "2026-11-04T21:09:04.078Z",
+  "lastThought": "2026-11-04T22:00:08.417Z",
   "foundPlace": null
 }
