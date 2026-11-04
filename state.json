@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T22:40:54.645Z",
+  "lastUpdate": "2026-11-04T22:51:05.573Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 14.1,
+    "z": -7.3
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-04T22:45:37.640Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-04T23:16:05.573Z",
   "needs": {
-    "fullness": 52,
-    "water": 63,
-    "energy": 46,
-    "curiosity": 20,
-    "joy": 61,
+    "fullness": 75,
+    "water": 62,
+    "energy": 41,
+    "curiosity": 19,
+    "joy": 63,
     "calm": 95
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -111,7 +111,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -251,7 +252,7 @@
       }
     }
   ],
-  "plan": "Pick berries, eat, tend seedlings, explore, watch sky.",
+  "plan": "Pick berries, eat, explore the glade, tend seedlings, watch sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -272,7 +273,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -669,7 +670,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -757,7 +758,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -949,16 +950,19 @@
       "glade"
     ]
   },
-  "ticks": 160,
+  "ticks": 161,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is nearly empty and the pigeon is right here, so a careful spying should wake my crest up. Belly is half full, which is fine for now. I will watch it closely and see if it hides any secrets.",
-  "face": "curious",
-  "lastThought": "2026-11-04T22:30:37.640Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My curiosity is a dry puddle and my belly is half full. I'm at the thicket with lots of berries, so I should pick some and eat. But first curiosity: exploring would help a lot. Berries first because food is thin, then explore the glade where the hollow log echoes.",
+  "face": "determined",
+  "lastThought": "2026-11-04T22:51:05.573Z",
   "foundPlace": null
 }
