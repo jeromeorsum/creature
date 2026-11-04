@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T05:22:45.011Z",
+  "lastUpdate": "2026-11-04T05:32:54.622Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-04T05:42:54.622Z",
   "needs": {
-    "fullness": 52,
-    "water": 97,
-    "energy": 37,
-    "curiosity": 44,
-    "joy": 40,
+    "fullness": 79,
+    "water": 96,
+    "energy": 36,
+    "curiosity": 43,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
-  "mood": "calm and curious",
+  "mood": "calm and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -107,7 +107,8 @@
       1,
       2,
       4,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -247,7 +248,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, then watch the sky on the hill, then nap in the hut.",
+  "plan": "Eat berries, then watch the sky, then nap in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -268,7 +269,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -945,16 +946,18 @@
       "glade"
     ]
   },
-  "ticks": 146,
+  "ticks": 147,
   "spend": {
     "day": "2026-11-03",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [],
-  "thought": "Water is middling at 60 and energy is 40. The night is nearly over, since I sleep at 11am, but I still have hours. A drink at the pond is sensible, and the pond is also where I can pull reeds, because fibre is scarce. I will drink first, then wind down on the hill.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "Water is high, fullness middling at 51, energy low at 36. I have 3 berries kept. Dinner plan says berries and drink. I will eat my kept berries here before the pigeon notices, then go rest. The pond is quiet and the stars are out.",
   "face": "happy",
-  "lastThought": "2026-11-04T04:51:55.916Z",
+  "lastThought": "2026-11-04T05:32:54.622Z",
   "foundPlace": null
 }
