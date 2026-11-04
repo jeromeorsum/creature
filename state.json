@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T04:31:35.448Z",
+  "lastUpdate": "2026-11-04T04:41:46.997Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,11 +10,11 @@
   "doing": "pick the shells lying around the glade and tap a thank-you to the mushrooms (at the glade)",
   "busyUntil": "2026-11-04T04:46:24.345Z",
   "needs": {
-    "fullness": 57,
-    "water": 62,
-    "energy": 42,
-    "curiosity": 49,
-    "joy": 45,
+    "fullness": 56,
+    "water": 61,
+    "energy": 41,
+    "curiosity": 48,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
