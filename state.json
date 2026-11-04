@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T20:28:10.284Z",
+  "lastUpdate": "2026-11-04T20:38:18.906Z",
   "place": "pond",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 4.9,
+    "z": 27.6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-04T20:38:10.284Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-04T21:03:18.906Z",
   "needs": {
-    "fullness": 46,
-    "water": 76,
-    "energy": 83,
-    "curiosity": 13,
-    "joy": 44,
-    "calm": 98
+    "fullness": 45,
+    "water": 75,
+    "energy": 76,
+    "curiosity": 12,
+    "joy": 43,
+    "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but determined",
+  "mood": "determined and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -102,17 +102,16 @@
   "today": {
     "date": "2026-11-04",
     "plan": [
-      "Spy on the pigeon",
-      "Drink at the pond",
       "Pull reeds for fibre",
       "Finish the Cosy Hut",
+      "Pick berries for dinner",
       "Tend seedlings",
       "Watch the sky from the hill",
-      "Dinner berries",
       "Wind down"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -252,7 +251,7 @@
       }
     }
   ],
-  "plan": "Drink at pond, pull reeds for hut fibre, finish hut, tend seedlings, watch sky.",
+  "plan": "Pull reeds, finish hut, pick berries, tend seedlings, watch sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -282,7 +281,7 @@
       "wood": 1,
       "stone": 0,
       "clay": 0,
-      "fibre": 2,
+      "fibre": 6,
       "shells": 6
     },
     "discovered": [
@@ -528,7 +527,7 @@
         "res": "fibre",
         "x": 4.9,
         "z": 27.6,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -576,7 +575,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-10-30T22:28:20.927Z"
       },
       {
@@ -950,16 +949,18 @@
       "glade"
     ]
   },
-  "ticks": 156,
+  "ticks": 157,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My throat is dusty and water is at 26, so the pond comes first. Curiosity is low too, but spying has helped a bit. After drinking I can pull reeds for the last fibre and finish the hut. The pigeon can hold its meeting without me.",
+  "lastOutcome": [
+    "You collected 4 fibre."
+  ],
+  "thought": "I'm at the pond with reeds right here and the hut only needs fibre. Pulling reeds is the obvious next step. Water is okay at 75. Fibre unlocks the finished hut, which is a real win, and reeds also calm me down.",
   "face": "determined",
-  "lastThought": "2026-11-04T20:28:10.284Z",
+  "lastThought": "2026-11-04T20:38:18.906Z",
   "foundPlace": null
 }
