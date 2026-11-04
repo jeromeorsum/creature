@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T18:55:59.393Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-04T19:06:18.258Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18.4,
+    "z": -1.8
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-04T19:31:18.258Z",
   "needs": {
-    "fullness": 7,
-    "water": 35,
-    "energy": 100,
-    "curiosity": 5,
-    "joy": 42,
+    "fullness": 30,
+    "water": 34,
+    "energy": 95,
+    "curiosity": 4,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and cheerful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -100,22 +100,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "plan": [
-      "Breakfast: eat berries",
-      "Visit crabs at tidepools",
-      "Collect fibre and shells",
-      "Tend plants",
-      "Dinner berries and drink",
-      "Wind down and watch the sky"
+      "Breakfast: pick and eat berries at the thicket",
+      "Drink at the pond",
+      "Spy on the pigeon",
+      "Tend seedlings",
+      "Watch the sky from the hill",
+      "Dinner berries",
+      "Wind down and go to the hut"
     ],
-    "done": [
-      1,
-      2,
-      4,
-      3,
-      5
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -254,7 +249,7 @@
       }
     }
   ],
-  "plan": "Make the letter, then nap in the hut, wake at dusk, drink, pick berries, tend seedlings.",
+  "plan": "Pick berries, drink, spy on the pigeon, tend seedlings, then sky-watch.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -680,7 +675,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 4,
+        "left": 3,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -790,7 +785,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.42,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -952,16 +947,19 @@
       "glade"
     ]
   },
-  "ticks": 152,
+  "ticks": 153,
   "spend": {
-    "day": "2026-11-03",
+    "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is very low and it is nearly bedtime for a daytime sleeper. I am at the pond with energy to spare, so a short make_something would lift curiosity and joy. I will write a longer letter to the crabs using my shells, which also serves my wish to understand them.",
-  "face": "curious",
-  "lastThought": "2026-11-04T09:58:14.291Z",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "I just woke at dusk and my belly is nearly empty at 6. Berries first, that's the thing to fix. The thicket has plenty, and I have one kept berry to eat now. My curiosity is a dry puddle too, so later I will explore or spy on the pigeon. Water is okay but dropping, so the pond comes after.",
+  "face": "determined",
+  "lastThought": "2026-11-04T19:06:18.258Z",
   "foundPlace": null
 }
