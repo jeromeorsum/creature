@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-04T20:17:54.024Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-04T20:28:10.284Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -4,
+    "z": 21
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-04T20:22:43.399Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-04T20:38:10.284Z",
   "needs": {
-    "fullness": 47,
-    "water": 27,
-    "energy": 84,
-    "curiosity": 14,
-    "joy": 45,
-    "calm": 95
+    "fullness": 46,
+    "water": 76,
+    "energy": 83,
+    "curiosity": 13,
+    "joy": 44,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious and a bit indignant",
+  "mood": "thirsty but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -105,7 +105,7 @@
       "Spy on the pigeon",
       "Drink at the pond",
       "Pull reeds for fibre",
-      "Repair the Cosy Hut",
+      "Finish the Cosy Hut",
       "Tend seedlings",
       "Watch the sky from the hill",
       "Dinner berries",
@@ -252,7 +252,7 @@
       }
     }
   ],
-  "plan": "Spy on pigeon, drink at pond, pull reeds for hut fibre, repair hut, tend seedlings.",
+  "plan": "Drink at pond, pull reeds for hut fibre, finish hut, tend seedlings, watch sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -950,16 +950,16 @@
       "glade"
     ]
   },
-  "ticks": 155,
+  "ticks": 156,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [],
-  "thought": "The pigeon stole a berry, cheeky thing. My belly is half full, water is low at 28, and my curiosity is a dry puddle. Spying on the pigeon is right here and wakes up curiosity, and it might teach me its tricks. Then I will drink at the pond. The hut still needs fibre, so pulling reeds at the pond is next after that.",
-  "face": "suspicious",
-  "lastThought": "2026-11-04T20:07:43.399Z",
+  "thought": "My throat is dusty and water is at 26, so the pond comes first. Curiosity is low too, but spying has helped a bit. After drinking I can pull reeds for the last fibre and finish the hut. The pigeon can hold its meeting without me.",
+  "face": "determined",
+  "lastThought": "2026-11-04T20:28:10.284Z",
   "foundPlace": null
 }
