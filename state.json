@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T20:01:55.846Z",
+  "lastUpdate": "2026-11-05T20:12:07.656Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-05T20:11:55.846Z",
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-05T20:52:07.656Z",
   "needs": {
-    "fullness": 42,
-    "water": 85,
-    "energy": 85,
-    "curiosity": 0,
-    "joy": 30,
-    "calm": 100
+    "fullness": 41,
+    "water": 84,
+    "energy": 76,
+    "curiosity": 15,
+    "joy": 37,
+    "calm": 97
   },
-  "health": 77,
-  "mood": "determined",
+  "health": 78,
+  "mood": "determined and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -102,17 +102,18 @@
   "today": {
     "date": "2026-11-05",
     "plan": [
-      "Breakfast: forage berries at the thicket",
       "Drink at the pond",
+      "Experiment with shells and clay",
       "Repair the Cosy Hut roof",
       "Tend the seedlings",
-      "Watch the sky from the hill",
-      "Tap the crab rhythm in the log",
       "Pick berries for dinner",
+      "Tap the crab rhythm in the log",
+      "Watch the sky from the hill",
       "Drink and go home before sleep"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -272,7 +273,7 @@
       }
     }
   ],
-  "plan": "Drink, repair the hut, tend seedlings, pick berries.",
+  "plan": "Experiment with shell and clay, then repair the hut, tend seedlings, pick berries.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -970,16 +971,16 @@
       "glade"
     ]
   },
-  "ticks": 177,
+  "ticks": 178,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [],
-  "thought": "My water is low at 35 and the hut lost a box to the gust. Belly is still thin at 42. I have 1 wood and 3 fibre, which is just what the hut needs. But water first is wise, then repair. Let me drink at the pond now before it gets worse.",
-  "face": "determined",
-  "lastThought": "2026-11-05T20:01:55.846Z",
+  "thought": "Curiosity is zero, so I need something wondrous. I am at the pond with clay and shells and fibre, and I wanted to try pressing shell patterns into wet clay like the crabs scratch. That is cheap, fun and feeds curiosity and joy. The hut can wait a little; I only have 1 wood and 3 fibre, which is exactly what it needs, but my head is a dry puddle first.",
+  "face": "curious",
+  "lastThought": "2026-11-05T20:12:07.656Z",
   "foundPlace": null
 }
