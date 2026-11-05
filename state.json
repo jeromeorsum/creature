@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T10:14:44.948Z",
+  "lastUpdate": "2026-11-05T10:24:48.787Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-05T10:54:10.721Z",
+  "busyUntil": "2026-11-05T11:24:48.787Z",
   "needs": {
-    "fullness": 38,
-    "water": 88,
-    "energy": 77,
-    "curiosity": 17,
-    "joy": 38,
+    "fullness": 32,
+    "water": 87,
+    "energy": 100,
+    "curiosity": 16,
+    "joy": 37,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and a bit indignant",
+  "mood": "sleepy and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -250,9 +250,29 @@
           6
         ]
       }
+    },
+    {
+      "date": "2026-11-04",
+      "summary": "I finished and lived in the Cosy Hut, drank at the pond, tried clay patterns, ate my berries, spied on the pigeon and tapped the crab rhythm in the hollow log, which echoed wonderfully. I did not tend my seedlings or watch the sky, and my food is gone again. The pigeon keeps stealing from me, which is annoying but funny. I feel sleepy and proud of the hut. Tomorrow night I want to pick lots of berries, eat them fast, tend the seedlings and find something new to wonder about.",
+      "plan": {
+        "date": "2026-11-04",
+        "plan": [
+          "Pull reeds for fibre",
+          "Finish the Cosy Hut",
+          "Pick berries for dinner",
+          "Tend seedlings",
+          "Watch the sky from the hill",
+          "Wind down"
+        ],
+        "done": [
+          1,
+          2,
+          3
+        ]
+      }
     }
   ],
-  "plan": "Nap in the hut, tonight pick berries, eat them fast, tend seedlings.",
+  "plan": "Sleep, then drink, pick lots of berries, eat them fast, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -272,7 +292,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "rainy",
     "food": 0,
     "seeds": {
       "tree": 0,
@@ -283,7 +303,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 3,
-      "shells": 6
+      "shells": 5
     },
     "discovered": [
       "clay",
@@ -950,16 +970,16 @@
       "glade"
     ]
   },
-  "ticks": 173,
+  "ticks": 174,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "The pigeon stole a berry, cheeky thing. I have no kept food and it is nearly bedtime. Sunrise has passed, so I should go home to the Cosy Hut and sleep. Energy is 49, so a nap is right. Berries can wait until tonight.",
+  "thought": "It is nearly bedtime and the rain is pattering. My belly is thin but I have no berries, and the pigeon took a shell. I am sleepy and a little indignant. The Cosy Hut is right here, dry and tied down. I will sleep now and tomorrow night pick lots of berries, eat them fast, and tend my seedlings.",
   "face": "sleepy",
-  "lastThought": "2026-11-05T09:54:10.721Z",
+  "lastThought": "2026-11-05T10:24:48.787Z",
   "foundPlace": null
 }
