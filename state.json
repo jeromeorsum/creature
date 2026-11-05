@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T01:44:37.215Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-05T05:08:25.803Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-05T01:53:36.203Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-05T05:18:25.803Z",
   "needs": {
-    "fullness": 51,
-    "water": 42,
-    "energy": 43,
-    "curiosity": 34,
-    "joy": 58,
-    "calm": 100
+    "fullness": 31,
+    "water": 68,
+    "energy": 29,
+    "curiosity": 17,
+    "joy": 48,
+    "calm": 96
   },
   "health": 100,
-  "mood": "curious and delighted",
+  "mood": "thirsty but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -252,7 +252,7 @@
       }
     }
   ],
-  "plan": "Tap log, then go home and nap, then drink and tend seedlings.",
+  "plan": "Drink, then tend seedlings, then explore or watch the sky for curiosity.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -950,16 +950,16 @@
       "glade"
     ]
   },
-  "ticks": 164,
+  "ticks": 165,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
   "lastOutcome": [],
-  "thought": "I'm at the glade, belly comfortable, but energy is low at 24 and curiosity is thin. The hollow log is right here and my crab rhythm echoes in it. I want to eat a few kept berries to keep strong, but the pigeon isn't near. Doing the crab rhythm in the log feeds curiosity and joy, and it's gentle on my energy. Then I'll head home to nap.",
-  "face": "excited",
-  "lastThought": "2026-11-05T00:22:53.923Z",
+  "thought": "My throat is dusty, water is only 18, so the pond comes first. It is close, 16 metres. Then I can feel less wobbly and think about curiosity and seedlings after.",
+  "face": "determined",
+  "lastThought": "2026-11-05T05:08:25.803Z",
   "foundPlace": null
 }
