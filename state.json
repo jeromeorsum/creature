@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T13:10:08.794Z",
+  "lastUpdate": "2026-11-05T13:18:46.681Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -11,7 +11,7 @@
   "busyUntil": null,
   "needs": {
     "fullness": 16,
-    "water": 71,
+    "water": 70,
     "energy": 100,
     "curiosity": 12,
     "joy": 34,
