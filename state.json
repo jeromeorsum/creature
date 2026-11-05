@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T23:16:01.351Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-05T23:26:12.783Z",
+  "place": "thicket",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": 16.1,
+    "z": 2.2
   },
-  "doing": "explore at the glade",
-  "busyUntil": "2026-11-05T23:25:34.511Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-05T23:51:12.783Z",
   "needs": {
-    "fullness": 23,
-    "water": 63,
-    "energy": 55,
-    "curiosity": 17,
-    "joy": 21,
-    "calm": 84
+    "fullness": 46,
+    "water": 62,
+    "energy": 50,
+    "curiosity": 16,
+    "joy": 23,
+    "calm": 83
   },
   "health": 86,
-  "mood": "curious and hungry",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -273,7 +273,7 @@
       }
     }
   ],
-  "plan": "Explore the glade, then pick berries, then repair the hut roof, then tend seedlings.",
+  "plan": "Pick berries and eat fast, then repair the hut roof, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -869,7 +869,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -971,16 +971,18 @@
       "glade"
     ]
   },
-  "ticks": 179,
+  "ticks": 180,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a dry puddle, and my belly is thin at 25. The pond is right here with clay and reeds. Fullness is the most pressing, but exploring a bit would fix curiosity. I only have one berry. Let me go explore the glade, where the log echoes, and wonder at the crabs. Actually food first matters, yet curiosity at 1 is worse for mood. I will explore the glade to look closely, then pick berries after.",
-  "face": "curious",
-  "lastThought": "2026-11-05T22:55:34.511Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is very thin at 22 and the pigeon just stole another berry, cheeky thing. The glade has been looked at, so now berries are the real job. The thicket is where they grow, and I will eat them fast this time. After that the hut roof needs its wood and fibre.",
+  "face": "determined",
+  "lastThought": "2026-11-05T23:26:12.783Z",
   "foundPlace": null
 }
