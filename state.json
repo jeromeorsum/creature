@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T18:50:31.811Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-05T19:00:45.279Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18.8,
+    "z": -5.9
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-05T19:25:45.279Z",
   "needs": {
-    "fullness": 0,
-    "water": 42,
-    "energy": 100,
-    "curiosity": 7,
-    "joy": 31,
+    "fullness": 24,
+    "water": 41,
+    "energy": 95,
+    "curiosity": 6,
+    "joy": 33,
     "calm": 100
   },
-  "health": 78,
-  "mood": "sleepy and cosy",
+  "health": 77,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -100,20 +100,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "plan": [
-      "Pull reeds for fibre",
-      "Finish the Cosy Hut",
-      "Pick berries for dinner",
-      "Tend seedlings",
+      "Breakfast: forage berries at the thicket and eat fast",
+      "Drink at the pond",
+      "Tend the seedlings",
+      "Press shell patterns into clay",
       "Watch the sky from the hill",
-      "Wind down"
+      "Tap the crab rhythm in the log",
+      "Pick berries for dinner",
+      "Drink and go home before sleep"
     ],
-    "done": [
-      1,
-      2,
-      3
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -272,7 +270,7 @@
       }
     }
   ],
-  "plan": "Sleep, then drink, pick lots of berries, eat them fast, tend seedlings.",
+  "plan": "Pick berries and eat fast, drink at the pond, tend seedlings, then wonder at the crabs.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -293,7 +291,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -714,7 +712,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -970,16 +968,19 @@
       "glade"
     ]
   },
-  "ticks": 174,
+  "ticks": 175,
   "spend": {
-    "day": "2026-11-04",
+    "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "It is nearly bedtime and the rain is pattering. My belly is thin but I have no berries, and the pigeon took a shell. I am sleepy and a little indignant. The Cosy Hut is right here, dry and tied down. I will sleep now and tomorrow night pick lots of berries, eat them fast, and tend my seedlings.",
-  "face": "sleepy",
-  "lastThought": "2026-11-05T10:24:48.787Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "I woke up with an empty belly, fullness zero. Berries first. The thicket is where they grow, and I will eat a lot right away so the pigeon cannot steal them. Then drink, since water is 41, then tend the seedlings I keep forgetting. Rain is drumming, but I am hungry enough not to care.",
+  "face": "determined",
+  "lastThought": "2026-11-05T19:00:45.279Z",
   "foundPlace": null
 }
