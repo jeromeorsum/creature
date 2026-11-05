@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T23:46:34.390Z",
+  "lastUpdate": "2026-11-05T23:56:49.252Z",
   "place": "thicket",
   "spot": {
-    "x": 16.1,
-    "z": 2.2
+    "x": 19.7,
+    "z": -5.6
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-05T23:51:12.783Z",
+  "busyUntil": "2026-11-06T00:21:49.252Z",
   "needs": {
-    "fullness": 44,
-    "water": 60,
-    "energy": 48,
-    "curiosity": 14,
-    "joy": 21,
-    "calm": 81
+    "fullness": 67,
+    "water": 59,
+    "energy": 43,
+    "curiosity": 13,
+    "joy": 23,
+    "calm": 80
   },
-  "health": 88,
+  "health": 89,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -294,7 +294,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -683,7 +683,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -971,18 +971,19 @@
       "glade"
     ]
   },
-  "ticks": 180,
+  "ticks": 181,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is very thin at 22 and the pigeon just stole another berry, cheeky thing. The glade has been looked at, so now berries are the real job. The thicket is where they grow, and I will eat them fast this time. After that the hut roof needs its wood and fibre.",
+  "thought": "My belly is still thin at 43 and the pigeon is near, so I should pick berries and gobble fast. Curiosity is low too, but food first. There are plenty of berries left on the bushes. After this I will fix the hut roof.",
   "face": "determined",
-  "lastThought": "2026-11-05T23:26:12.783Z",
+  "lastThought": "2026-11-05T23:56:49.252Z",
   "foundPlace": null
 }
