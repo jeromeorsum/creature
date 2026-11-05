@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T20:12:07.656Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-05T22:55:34.511Z",
+  "place": "glade",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -12,
+    "z": -20
   },
-  "doing": "experiment at the pond",
-  "busyUntil": "2026-11-05T20:52:07.656Z",
+  "doing": "explore at the glade",
+  "busyUntil": "2026-11-05T23:25:34.511Z",
   "needs": {
-    "fullness": 41,
-    "water": 84,
-    "energy": 76,
-    "curiosity": 15,
-    "joy": 37,
-    "calm": 97
+    "fullness": 25,
+    "water": 65,
+    "energy": 57,
+    "curiosity": 19,
+    "joy": 23,
+    "calm": 86
   },
-  "health": 78,
-  "mood": "determined and curious",
+  "health": 86,
+  "mood": "curious and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -273,7 +273,7 @@
       }
     }
   ],
-  "plan": "Experiment with shell and clay, then repair the hut, tend seedlings, pick berries.",
+  "plan": "Explore the glade, then pick berries, then repair the hut roof, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -971,16 +971,16 @@
       "glade"
     ]
   },
-  "ticks": 178,
+  "ticks": 179,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [],
-  "thought": "Curiosity is zero, so I need something wondrous. I am at the pond with clay and shells and fibre, and I wanted to try pressing shell patterns into wet clay like the crabs scratch. That is cheap, fun and feeds curiosity and joy. The hut can wait a little; I only have 1 wood and 3 fibre, which is exactly what it needs, but my head is a dry puddle first.",
+  "thought": "My curiosity is a dry puddle, and my belly is thin at 25. The pond is right here with clay and reeds. Fullness is the most pressing, but exploring a bit would fix curiosity. I only have one berry. Let me go explore the glade, where the log echoes, and wonder at the crabs. Actually food first matters, yet curiosity at 1 is worse for mood. I will explore the glade to look closely, then pick berries after.",
   "face": "curious",
-  "lastThought": "2026-11-05T20:12:07.656Z",
+  "lastThought": "2026-11-05T22:55:34.511Z",
   "foundPlace": null
 }
