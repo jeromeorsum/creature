@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T05:59:31.060Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-05T06:09:44.313Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-05T06:09:31.060Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-05T07:09:44.313Z",
   "needs": {
-    "fullness": 54,
-    "water": 63,
-    "energy": 16,
-    "curiosity": 27,
-    "joy": 55,
-    "calm": 94
+    "fullness": 48,
+    "water": 62,
+    "energy": 45,
+    "curiosity": 26,
+    "joy": 54,
+    "calm": 100
   },
   "health": 100,
   "mood": "hungry but hopeful",
@@ -950,16 +950,14 @@
       "glade"
     ]
   },
-  "ticks": 167,
+  "ticks": 168,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 14
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
+  "lastOutcome": [],
   "thought": "My belly is thin at 26 and my energy is low at 16. I have 3 berries kept, so eating them now is sensible, and the pigeon is not near the pond. Then I can go home and nap in my Cosy Hut. Dinner first.",
   "face": "sleepy",
   "lastThought": "2026-11-05T05:59:31.060Z",
