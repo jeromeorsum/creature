@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T19:21:08.134Z",
+  "lastUpdate": "2026-11-05T19:31:22.596Z",
   "place": "thicket",
   "spot": {
-    "x": 18.8,
-    "z": -5.9
+    "x": 16.1,
+    "z": 2.2
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-05T19:25:45.279Z",
+  "busyUntil": "2026-11-05T19:56:22.596Z",
   "needs": {
-    "fullness": 22,
-    "water": 39,
-    "energy": 93,
-    "curiosity": 4,
-    "joy": 31,
+    "fullness": 45,
+    "water": 38,
+    "energy": 88,
+    "curiosity": 3,
+    "joy": 33,
     "calm": 100
   },
   "health": 77,
@@ -102,10 +102,10 @@
   "today": {
     "date": "2026-11-05",
     "plan": [
-      "Breakfast: forage berries at the thicket and eat fast",
+      "Breakfast: forage berries at the thicket",
       "Drink at the pond",
+      "Repair the Cosy Hut roof",
       "Tend the seedlings",
-      "Press shell patterns into clay",
       "Watch the sky from the hill",
       "Tap the crab rhythm in the log",
       "Pick berries for dinner",
@@ -270,7 +270,7 @@
       }
     }
   ],
-  "plan": "Pick berries and eat fast, drink at the pond, tend seedlings, then wonder at the crabs.",
+  "plan": "Pick berries and eat, drink at the pond, repair the hut roof with fibre, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -712,7 +712,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -866,7 +866,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 4,
+        "left": 3,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -945,11 +945,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-04T21:09:04.078Z"
+        "finished": null
       }
     ],
     "known": [
@@ -968,19 +968,19 @@
       "glade"
     ]
   },
-  "ticks": 175,
+  "ticks": 176,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "I woke up with an empty belly, fullness zero. Berries first. The thicket is where they grow, and I will eat a lot right away so the pigeon cannot steal them. Then drink, since water is 41, then tend the seedlings I keep forgetting. Rain is drumming, but I am hungry enough not to care.",
+  "thought": "My belly is very thin, fullness 21, so berries first. I'm already at the thicket with 14 loaded bushes. I'll pick a big pile and eat some right away. The hut needs fibre and a repair, but I only have 3 fibre and I'll deal with it after eating and drinking.",
   "face": "determined",
-  "lastThought": "2026-11-05T19:00:45.279Z",
+  "lastThought": "2026-11-05T19:31:22.596Z",
   "foundPlace": null
 }
