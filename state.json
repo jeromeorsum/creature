@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T00:43:19.240Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-05T00:53:36.203Z",
+  "place": "nest",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": -8,
+    "z": 6
   },
-  "doing": "tap the crab rhythm inside the hollow log and listen to the echo (at the glade)",
-  "busyUntil": "2026-11-05T00:52:53.923Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-05T01:53:36.203Z",
   "needs": {
-    "fullness": 62,
-    "water": 48,
-    "energy": 19,
-    "curiosity": 40,
-    "joy": 64,
-    "calm": 98
+    "fullness": 56,
+    "water": 47,
+    "energy": 48,
+    "curiosity": 39,
+    "joy": 63,
+    "calm": 100
   },
   "health": 100,
   "mood": "curious and delighted",
@@ -950,16 +950,14 @@
       "glade"
     ]
   },
-  "ticks": 163,
+  "ticks": 164,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 11
   },
-  "lastOutcome": [
-    "You did your own thing: tap the crab rhythm inside the hollow log and listen to the echo."
-  ],
+  "lastOutcome": [],
   "thought": "I'm at the glade, belly comfortable, but energy is low at 24 and curiosity is thin. The hollow log is right here and my crab rhythm echoes in it. I want to eat a few kept berries to keep strong, but the pigeon isn't near. Doing the crab rhythm in the log feeds curiosity and joy, and it's gentle on my energy. Then I'll head home to nap.",
   "face": "excited",
   "lastThought": "2026-11-05T00:22:53.923Z",
