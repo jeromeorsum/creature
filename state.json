@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T09:43:57.766Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-05T09:54:10.721Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-05T09:53:57.766Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-05T10:54:10.721Z",
   "needs": {
-    "fullness": 46,
-    "water": 91,
-    "energy": 50,
-    "curiosity": 20,
-    "joy": 41,
+    "fullness": 40,
+    "water": 90,
+    "energy": 79,
+    "curiosity": 19,
+    "joy": 40,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and determined",
+  "mood": "sleepy and a bit indignant",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -252,7 +252,7 @@
       }
     }
   ],
-  "plan": "Drink, nap in the hut, tonight pick berries and tend seedlings.",
+  "plan": "Nap in the hut, tonight pick berries, eat them fast, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -273,7 +273,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -950,16 +950,16 @@
       "glade"
     ]
   },
-  "ticks": 172,
+  "ticks": 173,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "It is nearly my bedtime at 11am, but water is 41 and I am thirsty-ish. The pond is close. A drink first, then sleep in the hut. Curiosity is low but sleep matters more.",
+  "thought": "The pigeon stole a berry, cheeky thing. I have no kept food and it is nearly bedtime. Sunrise has passed, so I should go home to the Cosy Hut and sleep. Energy is 49, so a nap is right. Berries can wait until tonight.",
   "face": "sleepy",
-  "lastThought": "2026-11-05T09:43:57.766Z",
+  "lastThought": "2026-11-05T09:54:10.721Z",
   "foundPlace": null
 }
