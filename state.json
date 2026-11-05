@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T07:31:14.787Z",
+  "lastUpdate": "2026-11-05T07:41:25.707Z",
   "place": "thicket",
   "spot": {
-    "x": 14.1,
-    "z": -7.3
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-05T07:35:52.907Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-05T07:56:25.707Z",
   "needs": {
-    "fullness": 64,
-    "water": 54,
-    "energy": 33,
-    "curiosity": 18,
-    "joy": 49,
-    "calm": 100
+    "fullness": 63,
+    "water": 53,
+    "energy": 32,
+    "curiosity": 32,
+    "joy": 53,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -252,7 +252,7 @@
       }
     }
   ],
-  "plan": "Pick berries, eat them, tend seedlings, then watch the sky.",
+  "plan": "Spy on pigeon, eat berries, then nap in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -950,18 +950,16 @@
       "glade"
     ]
   },
-  "ticks": 169,
+  "ticks": 170,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is thin at 42 and I only have one berry. Water is okay. The thicket has berries, so I should go pick and eat plenty. Then tend seedlings. My curiosity is low but food first, and the pigeon is a nuisance.",
-  "face": "determined",
-  "lastThought": "2026-11-05T07:10:52.907Z",
+  "lastOutcome": [],
+  "thought": "Dawn, and I'm nocturnal so bedtime is near. My belly is okay, but curiosity is a dry puddle and I only have one berry kept. The pigeon is nearby, so a quick spy might fill my curiosity and I can watch its pattern. Then I'll pick berries and nap.",
+  "face": "suspicious",
+  "lastThought": "2026-11-05T07:41:25.707Z",
   "foundPlace": null
 }
