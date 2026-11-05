@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T00:12:44.779Z",
+  "lastUpdate": "2026-11-05T00:22:53.923Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "tap the crab rhythm inside the hollow log and listen to the echo (at the glade)",
+  "busyUntil": "2026-11-05T00:52:53.923Z",
   "needs": {
-    "fullness": 67,
-    "water": 54,
-    "energy": 25,
-    "curiosity": 29,
-    "joy": 55,
-    "calm": 95
+    "fullness": 64,
+    "water": 50,
+    "energy": 21,
+    "curiosity": 42,
+    "joy": 66,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "curious and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -252,7 +252,7 @@
       }
     }
   ],
-  "plan": "Explore the glade, tend seedlings, drink, watch the sky.",
+  "plan": "Tap log, then go home and nap, then drink and tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -950,16 +950,18 @@
       "glade"
     ]
   },
-  "ticks": 162,
+  "ticks": 163,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a dry puddle at 16 and my belly is fine, so I want something new to wonder about. The glade has the hollow log and the mushrooms, and the crabs' rhythm echoed there. I will go and explore the glade properly, and maybe the log has more secrets. Energy is a bit low at 38, but exploring costs only a little.",
-  "face": "curious",
-  "lastThought": "2026-11-04T23:21:46.450Z",
+  "lastOutcome": [
+    "You did your own thing: tap the crab rhythm inside the hollow log and listen to the echo."
+  ],
+  "thought": "I'm at the glade, belly comfortable, but energy is low at 24 and curiosity is thin. The hollow log is right here and my crab rhythm echoes in it. I want to eat a few kept berries to keep strong, but the pigeon isn't near. Doing the crab rhythm in the log feeds curiosity and joy, and it's gentle on my energy. Then I'll head home to nap.",
+  "face": "excited",
+  "lastThought": "2026-11-05T00:22:53.923Z",
   "foundPlace": null
 }
