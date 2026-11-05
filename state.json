@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-05T08:32:20.582Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-05T08:42:33.591Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-05T09:42:33.591Z",
   "needs": {
-    "fullness": 58,
-    "water": 48,
-    "energy": 27,
-    "curiosity": 27,
-    "joy": 48,
-    "calm": 95
+    "fullness": 52,
+    "water": 47,
+    "energy": 56,
+    "curiosity": 26,
+    "joy": 47,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -252,7 +252,7 @@
       }
     }
   ],
-  "plan": "Spy on pigeon, eat berries, then nap in the hut.",
+  "plan": "Nap in the hut, then drink, pick berries, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -950,16 +950,16 @@
       "glade"
     ]
   },
-  "ticks": 170,
+  "ticks": 171,
   "spend": {
     "day": "2026-11-04",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "Dawn, and I'm nocturnal so bedtime is near. My belly is okay, but curiosity is a dry puddle and I only have one berry kept. The pigeon is nearby, so a quick spy might fill my curiosity and I can watch its pattern. Then I'll pick berries and nap.",
-  "face": "suspicious",
-  "lastThought": "2026-11-05T07:41:25.707Z",
+  "thought": "It is morning, which is my bedtime since I am nocturnal. My energy is low at 26, so I should go sleep in the Cosy Hut. I have just one berry, but fullness is 57, which is fine. Sleep first, then drink and forage at dusk.",
+  "face": "sleepy",
+  "lastThought": "2026-11-05T08:42:33.591Z",
   "foundPlace": null
 }
