@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T20:32:47.481Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-06T20:42:58.692Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -4,
+    "z": 21
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-06T20:37:35.039Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-06T20:52:58.692Z",
   "needs": {
-    "fullness": 54,
-    "water": 41,
-    "energy": 82,
-    "curiosity": 20,
-    "joy": 45,
-    "calm": 95
+    "fullness": 53,
+    "water": 90,
+    "energy": 81,
+    "curiosity": 19,
+    "joy": 44,
+    "calm": 98
   },
-  "health": 66,
-  "mood": "curious and thirsty",
+  "health": 67,
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -112,7 +112,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -295,7 +296,7 @@
       }
     }
   ],
-  "plan": "Spy on pigeon, drink at pond, tap crab rhythm in log, watch sky.",
+  "plan": "Drink at pond, tap crab rhythm in log, watch sky, pick berries before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -994,16 +995,16 @@
       "glade"
     ]
   },
-  "ticks": 202,
+  "ticks": 203,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [],
-  "thought": "My curiosity is nearly empty and my water is low too. The crab log in the glade could feed my curiosity, but my throat is dry first. Spying on the pigeon is right here and gives a big curiosity boost, and it keeps the thief where I can see it. Then drink at the pond.",
-  "face": "suspicious",
-  "lastThought": "2026-11-06T20:22:35.039Z",
+  "thought": "My throat is sand, water is 40, so the pond is the sensible next thing. The pigeon stays secretive, but I have stared enough for now. After drinking I can tap the crab rhythm in the log and let my curiosity fill up.",
+  "face": "curious",
+  "lastThought": "2026-11-06T20:42:58.692Z",
   "foundPlace": null
 }
