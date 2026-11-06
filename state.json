@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T19:00:52.432Z",
+  "lastUpdate": "2026-11-06T19:11:07.181Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-06T19:10:52.432Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-06T19:21:07.181Z",
   "needs": {
-    "fullness": 0,
-    "water": 50,
-    "energy": 99,
-    "curiosity": 14,
-    "joy": 39,
+    "fullness": 14,
+    "water": 49,
+    "energy": 98,
+    "curiosity": 13,
+    "joy": 42,
     "calm": 100
   },
-  "health": 63,
-  "mood": "thirsty and determined",
+  "health": 62,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -110,7 +110,10 @@
       "Watch the sky from the hill",
       "Wind down before dawn"
     ],
-    "done": []
+    "done": [
+      1,
+      2
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -292,7 +295,7 @@
       }
     }
   ],
-  "plan": "Drink, eat the berry, pick lots of berries, tend seedlings, tap crab rhythm, watch the sky.",
+  "plan": "Eat berry, forage lots of berries, tend seedlings, tap crab rhythm, watch sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -313,7 +316,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -577,7 +580,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.76,
+        "left": 2.81,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -601,7 +604,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.76,
+        "left": 2.81,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -991,16 +994,18 @@
       "glade"
     ]
   },
-  "ticks": 198,
+  "ticks": 199,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I am starving and parched, both at zero, and my health is down. Water first, since the pond is close, then berries. I have one berry kept, so I will eat it right now before the pigeon notices. Then drink, forage lots, tend seedlings, and tap the crab rhythm later.",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "My belly is totally empty, fullness zero, and water is only half. I have one berry. Eat it now while the pigeon is away, then drink more, then go to the thicket for a big pile of berries. Food first.",
   "face": "determined",
-  "lastThought": "2026-11-06T19:00:52.432Z",
+  "lastThought": "2026-11-06T19:11:07.181Z",
   "foundPlace": null
 }
