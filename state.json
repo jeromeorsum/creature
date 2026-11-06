@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T19:41:41.646Z",
+  "lastUpdate": "2026-11-06T19:51:59.314Z",
   "place": "thicket",
   "spot": {
-    "x": 19.4,
-    "z": 0.6
+    "x": 8.7,
+    "z": -2.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-06T19:46:18.850Z",
+  "busyUntil": "2026-11-06T20:16:59.314Z",
   "needs": {
-    "fullness": 35,
-    "water": 46,
-    "energy": 91,
-    "curiosity": 10,
-    "joy": 42,
+    "fullness": 58,
+    "water": 45,
+    "energy": 86,
+    "curiosity": 9,
+    "joy": 44,
     "calm": 100
   },
   "health": 62,
@@ -102,9 +102,7 @@
   "today": {
     "date": "2026-11-06",
     "plan": [
-      "Drink at the pond",
-      "Eat the last berry",
-      "Forage lots of berries in the thicket",
+      "Forage lots of berries and eat them",
       "Tend the seedlings",
       "Tap the crab rhythm in the log",
       "Watch the sky from the hill",
@@ -580,7 +578,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.96,
+        "left": 3,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -604,7 +602,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.96,
+        "left": 3,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -746,7 +744,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 4,
+        "left": 3,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -812,7 +810,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -994,19 +992,19 @@
       "glade"
     ]
   },
-  "ticks": 200,
+  "ticks": 201,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
+    "You collected 2 berries and ate 2 on the spot.",
     "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is nearly empty at 13, so berries come first. The thicket is the place, and I will eat a pile right there before the pigeon notices. Then I'll fill my clay pot and tend the seedlings. The hut is finished, which is lovely.",
+  "thought": "My belly is still thin at 34 and there are nine bushes with berries right here. Eating is the sensible thing, and the pigeon is not allowed to look innocent. I'll pick more, eat right away, and save seeds. Curiosity is low, so crab tapping later.",
   "face": "determined",
-  "lastThought": "2026-11-06T19:21:18.850Z",
+  "lastThought": "2026-11-06T19:51:59.314Z",
   "foundPlace": null
 }
