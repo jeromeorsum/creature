@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T06:34:42.493Z",
+  "lastUpdate": "2026-11-06T06:44:52.634Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,12 +10,12 @@
   "doing": "nap at the nest",
   "busyUntil": "2026-11-06T07:34:42.493Z",
   "needs": {
-    "fullness": 32,
-    "water": 66,
-    "energy": 44,
-    "curiosity": 30,
-    "joy": 28,
-    "calm": 88
+    "fullness": 31,
+    "water": 65,
+    "energy": 43,
+    "curiosity": 29,
+    "joy": 27,
+    "calm": 87
   },
   "health": 100,
   "mood": "sleepy and determined",
@@ -560,7 +560,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -568,7 +568,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -576,7 +576,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -584,7 +584,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -600,7 +600,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -742,7 +742,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.25,
+        "left": 3.27,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
