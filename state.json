@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T05:23:24.550Z",
+  "lastUpdate": "2026-11-06T05:33:35.570Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
@@ -10,12 +10,12 @@
   "doing": "explore at the tidepools",
   "busyUntil": "2026-11-06T05:53:24.550Z",
   "needs": {
-    "fullness": 48,
-    "water": 73,
-    "energy": 33,
-    "curiosity": 34,
-    "joy": 35,
-    "calm": 85
+    "fullness": 47,
+    "water": 72,
+    "energy": 32,
+    "curiosity": 33,
+    "joy": 34,
+    "calm": 84
   },
   "health": 100,
   "mood": "curious and determined",
@@ -551,7 +551,7 @@
         "res": "fibre",
         "x": 4.9,
         "z": 27.6,
-        "left": 2.75,
+        "left": 2.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -559,7 +559,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -567,7 +567,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -575,7 +575,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -583,7 +583,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -591,7 +591,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -599,7 +599,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -741,7 +741,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.11,
+        "left": 3.13,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
