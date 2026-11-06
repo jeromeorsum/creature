@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T23:36:13.701Z",
+  "lastUpdate": "2026-11-06T23:46:28.510Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "tend plants at the glade",
+  "busyUntil": "2026-11-07T00:21:28.510Z",
   "needs": {
-    "fullness": 62,
-    "water": 71,
-    "energy": 44,
-    "curiosity": 36,
-    "joy": 53,
+    "fullness": 61,
+    "water": 66,
+    "energy": 35,
+    "curiosity": 35,
+    "joy": 57,
     "calm": 100
   },
-  "health": 84,
+  "health": 85,
   "mood": "hopeful and busy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -295,7 +295,7 @@
       }
     }
   ],
-  "plan": "Plant seeds, then tend them, then wind down at the hut before dawn.",
+  "plan": "Tend seedlings, then wind down at the hut before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -315,7 +315,7 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
+    "weather": "sunny",
     "food": 0,
     "seeds": {
       "tree": 0,
@@ -353,7 +353,8 @@
         "res": "wood",
         "x": -19.7,
         "z": -9.8,
-        "left": 4
+        "left": 4,
+        "tendedUntil": "2026-11-07T23:46:28.510Z"
       },
       {
         "id": "wood2",
@@ -446,7 +447,8 @@
         "res": "wood",
         "x": -19.8,
         "z": -15.7,
-        "left": 4
+        "left": 4,
+        "tendedUntil": "2026-11-07T23:46:28.510Z"
       },
       {
         "id": "wood15",
@@ -915,7 +917,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-11-07T23:46:28.510Z"
       },
       {
         "id": "planted73",
@@ -925,7 +927,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-11-07T23:46:28.510Z"
       },
       {
         "id": "planted74",
@@ -935,7 +937,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-11-07T23:46:28.510Z"
       }
     ],
     "structures": [
@@ -1024,18 +1026,18 @@
       "glade"
     ]
   },
-  "ticks": 207,
+  "ticks": 208,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the glade. Seedlings need tending to grow."
+    "You looked after 5 plants around the glade. They'll grow for about a day."
   ],
-  "thought": "My belly is half full and the glade is quiet. Shells and wood are nearby, but I have 20 berry seeds saved and nowhere planted. Planting berry seeds near the glade will give me future food and calm me down. That fixes the thin-belly problem for the long run, and the pigeon can't steal a bush.",
+  "thought": "I just planted seeds by the log. Seedlings only grow while tended, so tending them here is the sensible next step. Energy is a bit low at 43 but tending costs only 8. Then I can wind down before dawn at the hut.",
   "face": "determined",
-  "lastThought": "2026-11-06T22:55:31.259Z",
+  "lastThought": "2026-11-06T23:46:28.510Z",
   "foundPlace": null
 }
