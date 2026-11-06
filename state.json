@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T17:18:53.902Z",
+  "lastUpdate": "2026-11-06T17:29:02.909Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -11,13 +11,13 @@
   "busyUntil": null,
   "needs": {
     "fullness": 0,
-    "water": 3,
-    "energy": 88,
+    "water": 2,
+    "energy": 90,
     "curiosity": 15,
     "joy": 40,
     "calm": 100
   },
-  "health": 73,
+  "health": 72,
   "mood": "sleepy and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -583,7 +583,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.26,
+        "left": 2.31,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -607,7 +607,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.26,
+        "left": 2.31,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
