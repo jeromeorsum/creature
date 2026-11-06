@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T10:09:41.148Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-06T10:19:53.850Z",
+  "place": "nest",
   "spot": {
-    "x": -2.2,
-    "z": 17.7
+    "x": -8,
+    "z": 6
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-06T10:24:27.382Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-06T11:04:53.850Z",
   "needs": {
-    "fullness": 25,
-    "water": 45,
-    "energy": 29,
-    "curiosity": 14,
-    "joy": 22,
-    "calm": 83
+    "fullness": 19,
+    "water": 44,
+    "energy": 14,
+    "curiosity": 18,
+    "joy": 43,
+    "calm": 82
   },
   "health": 100,
   "mood": "sleepy and determined",
@@ -273,9 +273,32 @@
           3
         ]
       }
+    },
+    {
+      "date": "2026-11-05",
+      "summary": "I drank, tended my seedlings, experimented with shells in the clay, and gathered wood and fibre for the Cosy Hut. I did not get to the crab rhythm or the hill, and my belly is thin and my curiosity low. The hut is nearly done, which makes me proud. The pigeon keeps stealing, which is annoying. Tomorrow night I want to pick lots of berries, tap the crab rhythm in the log, and watch the sky.",
+      "plan": {
+        "date": "2026-11-05",
+        "plan": [
+          "Drink at the pond",
+          "Experiment with shells and clay",
+          "Repair the Cosy Hut roof",
+          "Tend the seedlings",
+          "Pick berries for dinner",
+          "Tap the crab rhythm in the log",
+          "Watch the sky from the hill",
+          "Drink and go home before sleep"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
     }
   ],
-  "plan": "Pull reeds for 3 fibre, finish hut, eat berries, sleep.",
+  "plan": "Finish hut with fibre, eat berry, sleep. Tonight: pick lots of berries, tap crab rhythm.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -305,7 +328,7 @@
       "wood": 3,
       "stone": 0,
       "clay": 0,
-      "fibre": 4,
+      "fibre": 1,
       "shells": 5
     },
     "discovered": [
@@ -560,7 +583,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.16,
+        "left": 0.21,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -568,7 +591,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.16,
+        "left": 2.21,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -576,7 +599,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 2.16,
+        "left": 2.21,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -584,7 +607,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.16,
+        "left": 0.21,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -592,7 +615,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.16,
+        "left": 2.21,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -600,7 +623,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 2.16,
+        "left": 2.21,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -742,7 +765,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.67,
+        "left": 3.69,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
@@ -951,11 +974,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-06T10:19:53.850Z"
       }
     ],
     "known": [
@@ -974,18 +997,18 @@
       "glade"
     ]
   },
-  "ticks": 196,
+  "ticks": 197,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [
-    "You collected 4 fibre."
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
   ],
-  "thought": "It is nearly my bedtime, but the hut needs 3 fibre and my belly is thin. Reeds are right by the nest with something on them, so pulling reeds is quick and calming. Then I can finish the hut and sleep dry.",
+  "thought": "It is nearly bedtime and the sun is up. I have 4 fibre now, enough for the hut's last 3. The hut is 13m away, so I should go finish it and sleep dry. My belly is thin, so I will eat my one berry first, though the pigeon may be watching. Then tie the roof and curl up.",
   "face": "determined",
-  "lastThought": "2026-11-06T09:59:27.382Z",
+  "lastThought": "2026-11-06T10:19:53.850Z",
   "foundPlace": null
 }
