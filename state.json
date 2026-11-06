@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T20:12:19.179Z",
+  "lastUpdate": "2026-11-06T20:22:35.039Z",
   "place": "thicket",
   "spot": {
-    "x": 8.7,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-06T20:16:59.314Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-06T20:37:35.039Z",
   "needs": {
-    "fullness": 56,
-    "water": 43,
-    "energy": 84,
-    "curiosity": 7,
-    "joy": 42,
-    "calm": 100
+    "fullness": 55,
+    "water": 42,
+    "energy": 83,
+    "curiosity": 21,
+    "joy": 46,
+    "calm": 95
   },
-  "health": 64,
-  "mood": "hungry but determined",
+  "health": 65,
+  "mood": "curious and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -102,9 +102,11 @@
   "today": {
     "date": "2026-11-06",
     "plan": [
-      "Forage lots of berries and eat them",
-      "Tend the seedlings",
-      "Tap the crab rhythm in the log",
+      "Breakfast berries (done)",
+      "Tend seedlings (done)",
+      "Spy on pigeon",
+      "Drink at the pond",
+      "Tap crab rhythm in the log",
       "Watch the sky from the hill",
       "Wind down before dawn"
     ],
@@ -293,7 +295,7 @@
       }
     }
   ],
-  "plan": "Forage lots of berries, eat some at once, tend seedlings, tap crab rhythm, watch sky.",
+  "plan": "Spy on pigeon, drink at pond, tap crab rhythm in log, watch sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -992,19 +994,16 @@
       "glade"
     ]
   },
-  "ticks": 201,
+  "ticks": 202,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is still thin at 34 and there are nine bushes with berries right here. Eating is the sensible thing, and the pigeon is not allowed to look innocent. I'll pick more, eat right away, and save seeds. Curiosity is low, so crab tapping later.",
-  "face": "determined",
-  "lastThought": "2026-11-06T19:51:59.314Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is nearly empty and my water is low too. The crab log in the glade could feed my curiosity, but my throat is dry first. Spying on the pigeon is right here and gives a big curiosity boost, and it keeps the thief where I can see it. Then drink at the pond.",
+  "face": "suspicious",
+  "lastThought": "2026-11-06T20:22:35.039Z",
   "foundPlace": null
 }
