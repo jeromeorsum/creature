@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T12:42:34.035Z",
+  "lastUpdate": "2026-11-06T12:52:48.929Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,14 +10,14 @@
   "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 5,
-    "water": 30,
-    "energy": 33,
+    "fullness": 4,
+    "water": 29,
+    "energy": 35,
     "curiosity": 15,
     "joy": 40,
-    "calm": 93
+    "calm": 94
   },
-  "health": 100,
+  "health": 99,
   "mood": "sleepy and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -583,7 +583,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.91,
+        "left": 0.96,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -591,7 +591,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.91,
+        "left": 2.96,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -599,7 +599,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 2.91,
+        "left": 2.96,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -607,7 +607,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.91,
+        "left": 0.96,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -615,7 +615,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.91,
+        "left": 2.96,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -623,7 +623,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 2.91,
+        "left": 2.96,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -765,7 +765,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.97,
+        "left": 3.99,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
