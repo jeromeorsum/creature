@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T01:28:35.524Z",
+  "lastUpdate": "2026-11-06T01:38:46.246Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-06T01:32:46.581Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-06T02:38:46.246Z",
   "needs": {
-    "fullness": 53,
-    "water": 50,
-    "energy": 20,
-    "curiosity": 24,
-    "joy": 41,
-    "calm": 70
+    "fullness": 47,
+    "water": 49,
+    "energy": 49,
+    "curiosity": 23,
+    "joy": 40,
+    "calm": 80
   },
-  "health": 98,
-  "mood": "curious but damp",
+  "health": 99,
+  "mood": "sleepy and proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -113,7 +113,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -273,7 +274,7 @@
       }
     }
   ],
-  "plan": "Spy on the pigeon, then repair the hut roof, then tend seedlings.",
+  "plan": "Nap, then tend seedlings, pick berries, watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -971,18 +972,16 @@
       "glade"
     ]
   },
-  "ticks": 183,
+  "ticks": 184,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [
-    "You placed 2 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "My belly is better at 64, and the berries are in my pouch. Curiosity is a dry puddle at 10, so the pigeon deserves a proper stare. It is right here, and I still suspect it knows something. Spying is cheap and gives curiosity and joy. The roof can wait a little.",
-  "face": "suspicious",
-  "lastThought": "2026-11-06T00:27:21.704Z",
+  "lastOutcome": [],
+  "thought": "My energy is very low at 19, and the hut is finished and my home. It is rainy, dark and I am damp. A nap in the dry Cosy Hut will fix energy and calm. I'm a nocturnal bird, but I'm exhausted, so a short rest is sensible before eating more.",
+  "face": "sleepy",
+  "lastThought": "2026-11-06T01:38:46.246Z",
   "foundPlace": null
 }
