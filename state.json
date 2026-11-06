@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T22:45:17.182Z",
+  "lastUpdate": "2026-11-06T22:55:31.259Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "eat food at the glade",
-  "busyUntil": "2026-11-06T22:55:17.182Z",
+  "doing": "plant seeds at the glade",
+  "busyUntil": "2026-11-06T23:25:31.259Z",
   "needs": {
-    "fullness": 67,
-    "water": 76,
-    "energy": 57,
-    "curiosity": 41,
-    "joy": 50,
+    "fullness": 66,
+    "water": 75,
+    "energy": 48,
+    "curiosity": 40,
+    "joy": 57,
     "calm": 100
   },
-  "health": 79,
-  "mood": "curious and delighted",
+  "health": 80,
+  "mood": "hopeful and busy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -295,7 +295,7 @@
       }
     }
   ],
-  "plan": "Tap in log, then pick berries, then wind down at the hut.",
+  "plan": "Plant seeds, then tend them, then wind down at the hut before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -315,11 +315,11 @@
     }
   ],
   "world": {
-    "weather": "rainy",
+    "weather": "cloudy",
     "food": 0,
     "seeds": {
       "tree": 0,
-      "berry": 20
+      "berry": 17
     },
     "inventory": {
       "wood": 3,
@@ -906,6 +906,36 @@
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
+      },
+      {
+        "id": "planted72",
+        "res": "berries",
+        "x": -12.1,
+        "z": -26,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-06T22:55:31.259Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted73",
+        "res": "berries",
+        "x": -2.2,
+        "z": -13.2,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-06T22:55:31.259Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted74",
+        "res": "berries",
+        "x": -14.1,
+        "z": -12.2,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-06T22:55:31.259Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -994,18 +1024,18 @@
       "glade"
     ]
   },
-  "ticks": 206,
+  "ticks": 207,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You planted 0 tree seeds and 3 berry seeds near the glade. Seedlings need tending to grow."
   ],
-  "thought": "I'm at the glade, finally, next to the giant hollow log. My belly is only half full and my curiosity is low, so tapping the crab rhythm inside the log should fill it. The echo is the best sound on the island. Then berries before dawn.",
-  "face": "excited",
-  "lastThought": "2026-11-06T21:54:15.900Z",
+  "thought": "My belly is half full and the glade is quiet. Shells and wood are nearby, but I have 20 berry seeds saved and nowhere planted. Planting berry seeds near the glade will give me future food and calm me down. That fixes the thin-belly problem for the long run, and the pigeon can't steal a bush.",
+  "face": "determined",
+  "lastThought": "2026-11-06T22:55:31.259Z",
   "foundPlace": null
 }
