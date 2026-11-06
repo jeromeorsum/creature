@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T22:55:31.259Z",
+  "lastUpdate": "2026-11-06T23:05:42.167Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,14 +10,14 @@
   "doing": "plant seeds at the glade",
   "busyUntil": "2026-11-06T23:25:31.259Z",
   "needs": {
-    "fullness": 66,
-    "water": 75,
-    "energy": 48,
-    "curiosity": 40,
-    "joy": 57,
+    "fullness": 65,
+    "water": 74,
+    "energy": 47,
+    "curiosity": 39,
+    "joy": 56,
     "calm": 100
   },
-  "health": 80,
+  "health": 81,
   "mood": "hopeful and busy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
