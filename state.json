@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T00:37:36.470Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-06T00:47:46.581Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-06T00:42:21.704Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-06T01:32:46.581Z",
   "needs": {
-    "fullness": 63,
-    "water": 55,
-    "energy": 39,
-    "curiosity": 24,
-    "joy": 24,
-    "calm": 71
+    "fullness": 57,
+    "water": 54,
+    "energy": 24,
+    "curiosity": 28,
+    "joy": 45,
+    "calm": 70
   },
-  "health": 93,
+  "health": 94,
   "mood": "curious but damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -300,10 +300,10 @@
       "berry": 20
     },
     "inventory": {
-      "wood": 1,
+      "wood": 0,
       "stone": 0,
       "clay": 0,
-      "fibre": 3,
+      "fibre": 0,
       "shells": 5
     },
     "discovered": [
@@ -937,7 +937,7 @@
             "w": 2,
             "h": 1.4,
             "d": 0.2,
-            "placed": false
+            "placed": true
           },
           {
             "shape": "cone",
@@ -948,11 +948,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-06T00:47:46.581Z"
       }
     ],
     "known": [
@@ -971,14 +971,16 @@
       "glade"
     ]
   },
-  "ticks": 182,
+  "ticks": 183,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 8
   },
-  "lastOutcome": [],
+  "lastOutcome": [
+    "You placed 2 blocks on \"Cosy Hut\" and FINISHED it."
+  ],
   "thought": "My belly is better at 64, and the berries are in my pouch. Curiosity is a dry puddle at 10, so the pigeon deserves a proper stare. It is right here, and I still suspect it knows something. Spying is cheap and gives curiosity and joy. The roof can wait a little.",
   "face": "suspicious",
   "lastThought": "2026-11-06T00:27:21.704Z",
