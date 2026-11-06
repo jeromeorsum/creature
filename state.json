@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T20:42:58.692Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-06T20:53:08.358Z",
+  "place": "glade",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -12,
+    "z": -20
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-06T20:52:58.692Z",
+  "doing": "explore at the glade",
+  "busyUntil": "2026-11-06T21:23:08.358Z",
   "needs": {
-    "fullness": 53,
-    "water": 90,
-    "energy": 81,
-    "curiosity": 19,
-    "joy": 44,
+    "fullness": 52,
+    "water": 89,
+    "energy": 72,
+    "curiosity": 36,
+    "joy": 43,
     "calm": 98
   },
-  "health": 67,
-  "mood": "thirsty but hopeful",
+  "health": 68,
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -102,18 +102,17 @@
   "today": {
     "date": "2026-11-06",
     "plan": [
-      "Breakfast berries (done)",
-      "Tend seedlings (done)",
-      "Spy on pigeon",
       "Drink at the pond",
       "Tap crab rhythm in the log",
       "Watch the sky from the hill",
+      "Pick berries",
       "Wind down before dawn"
     ],
     "done": [
       1,
       2,
-      3
+      3,
+      4
     ]
   },
   "lessons": [
@@ -296,7 +295,7 @@
       }
     }
   ],
-  "plan": "Drink at pond, tap crab rhythm in log, watch sky, pick berries before dawn.",
+  "plan": "Tap crab rhythm in log, watch sky, pick berries before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -995,16 +994,16 @@
       "glade"
     ]
   },
-  "ticks": 203,
+  "ticks": 204,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My throat is sand, water is 40, so the pond is the sensible next thing. The pigeon stays secretive, but I have stared enough for now. After drinking I can tap the crab rhythm in the log and let my curiosity fill up.",
+  "thought": "My curiosity is low and the crab log has been calling me all night. Water is fine, belly half full. I'll go tap the crab rhythm in the hollow log at the glade, which feeds curiosity and my wish about the crabs.",
   "face": "curious",
-  "lastThought": "2026-11-06T20:42:58.692Z",
+  "lastThought": "2026-11-06T20:53:08.358Z",
   "foundPlace": null
 }
