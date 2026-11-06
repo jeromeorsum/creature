@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T09:59:27.382Z",
+  "lastUpdate": "2026-11-06T10:09:41.148Z",
   "place": "pond",
   "spot": {
     "x": -2.2,
@@ -10,12 +10,12 @@
   "doing": "pull reeds at the pond",
   "busyUntil": "2026-11-06T10:24:27.382Z",
   "needs": {
-    "fullness": 26,
-    "water": 46,
-    "energy": 30,
-    "curiosity": 15,
-    "joy": 23,
-    "calm": 84
+    "fullness": 25,
+    "water": 45,
+    "energy": 29,
+    "curiosity": 14,
+    "joy": 22,
+    "calm": 83
   },
   "health": 100,
   "mood": "sleepy and determined",
@@ -560,7 +560,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.11,
+        "left": 0.16,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -568,7 +568,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.11,
+        "left": 2.16,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -576,7 +576,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 2.11,
+        "left": 2.16,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -584,7 +584,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.11,
+        "left": 0.16,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.11,
+        "left": 2.16,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -600,7 +600,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 2.11,
+        "left": 2.16,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -742,7 +742,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.65,
+        "left": 3.67,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
