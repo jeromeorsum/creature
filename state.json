@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T04:12:03.647Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-06T04:22:12.289Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-06T04:22:03.647Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-06T05:22:12.289Z",
   "needs": {
-    "fullness": 60,
-    "water": 80,
-    "energy": 18,
-    "curiosity": 23,
-    "joy": 42,
-    "calm": 82
+    "fullness": 54,
+    "water": 79,
+    "energy": 47,
+    "curiosity": 22,
+    "joy": 41,
+    "calm": 91
   },
   "health": 100,
   "mood": "curious and determined",
@@ -551,7 +551,7 @@
         "res": "fibre",
         "x": 4.9,
         "z": 27.6,
-        "left": 2.4,
+        "left": 2.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -559,7 +559,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -567,7 +567,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -575,7 +575,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -583,7 +583,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -591,7 +591,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -599,7 +599,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -741,7 +741,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 2.97,
+        "left": 2.99,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
@@ -973,16 +973,14 @@
       "glade"
     ]
   },
-  "ticks": 188,
+  "ticks": 189,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 12
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
+  "lastOutcome": [],
   "thought": "My curiosity is low and I'm standing at the pond with pulled-clean reeds. Fibre is scarce, but tended plants should regrow. Curiosity needs a boost, so I'll poke at something mysterious: experiment with shells and clay patterns like crab scratches. Tiny wonder, cheap on energy.",
   "face": "curious",
   "lastThought": "2026-11-06T03:31:06.640Z",
