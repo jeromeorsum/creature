@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T22:35:07.692Z",
+  "lastUpdate": "2026-11-06T22:45:17.182Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "eat food at the glade",
+  "busyUntil": "2026-11-06T22:55:17.182Z",
   "needs": {
-    "fullness": 40,
-    "water": 77,
-    "energy": 58,
-    "curiosity": 42,
-    "joy": 47,
+    "fullness": 67,
+    "water": 76,
+    "energy": 57,
+    "curiosity": 41,
+    "joy": 50,
     "calm": 100
   },
-  "health": 78,
+  "health": 79,
   "mood": "curious and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -316,7 +316,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -994,7 +994,7 @@
       "glade"
     ]
   },
-  "ticks": 205,
+  "ticks": 206,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
@@ -1002,7 +1002,7 @@
     "ticks": 8
   },
   "lastOutcome": [
-    "You did your own thing: tap the crab rhythm inside the hollow log and listen for the echo."
+    "You ate 2 berries from your food."
   ],
   "thought": "I'm at the glade, finally, next to the giant hollow log. My belly is only half full and my curiosity is low, so tapping the crab rhythm inside the log should fill it. The echo is the best sound on the island. Then berries before dawn.",
   "face": "excited",
