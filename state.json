@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T08:26:50.198Z",
+  "lastUpdate": "2026-11-06T08:37:04.957Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,12 +10,12 @@
   "doing": "build at the nest",
   "busyUntil": "2026-11-06T08:51:26.979Z",
   "needs": {
-    "fullness": 40,
-    "water": 55,
-    "energy": 15,
-    "curiosity": 24,
-    "joy": 32,
-    "calm": 77
+    "fullness": 39,
+    "water": 54,
+    "energy": 14,
+    "curiosity": 23,
+    "joy": 31,
+    "calm": 76
   },
   "health": 100,
   "mood": "hungry but determined",
@@ -560,7 +560,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -568,7 +568,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -576,7 +576,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -584,7 +584,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -600,7 +600,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -742,7 +742,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.47,
+        "left": 3.49,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
