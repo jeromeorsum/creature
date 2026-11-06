@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T22:04:30.888Z",
+  "lastUpdate": "2026-11-06T22:14:43.727Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,14 +10,14 @@
   "doing": "tap the crab rhythm inside the hollow log and listen for the echo (at the glade)",
   "busyUntil": "2026-11-06T22:24:15.900Z",
   "needs": {
-    "fullness": 43,
-    "water": 80,
-    "energy": 61,
-    "curiosity": 45,
-    "joy": 50,
+    "fullness": 42,
+    "water": 79,
+    "energy": 60,
+    "curiosity": 44,
+    "joy": 49,
     "calm": 100
   },
-  "health": 75,
+  "health": 76,
   "mood": "curious and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
