@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T07:25:36.417Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-06T07:35:53.813Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 20.6,
+    "z": -3.8
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-06T07:34:42.493Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-06T08:00:53.813Z",
   "needs": {
-    "fullness": 27,
-    "water": 61,
-    "energy": 39,
-    "curiosity": 25,
-    "joy": 23,
-    "calm": 83
+    "fullness": 50,
+    "water": 60,
+    "energy": 34,
+    "curiosity": 24,
+    "joy": 25,
+    "calm": 82
   },
   "health": 100,
-  "mood": "sleepy and determined",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -275,7 +275,7 @@
       }
     }
   ],
-  "plan": "Tend plants, pull reeds for fibre, fix hut, pick berries, watch the sky.",
+  "plan": "Pick berries, eat fast, sleep in the hut, then tend plants and finish hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -296,7 +296,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -560,7 +560,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.35,
+        "left": 1.4,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -568,7 +568,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.35,
+        "left": 1.4,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -576,7 +576,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.35,
+        "left": 1.4,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -584,7 +584,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.35,
+        "left": 1.4,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -592,7 +592,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 1.35,
+        "left": 1.4,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -600,7 +600,7 @@
         "res": "fibre",
         "x": 4.1,
         "z": 18.6,
-        "left": 1.35,
+        "left": 1.4,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -742,7 +742,7 @@
         "res": "wood",
         "x": -12.3,
         "z": 25.1,
-        "left": 3.35,
+        "left": 3.37,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
         "tendedUntil": "2026-11-07T02:50:16.637Z"
@@ -832,7 +832,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -974,16 +974,19 @@
       "glade"
     ]
   },
-  "ticks": 192,
+  "ticks": 193,
   "spend": {
     "day": "2026-11-05",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [],
-  "thought": "My energy is very low at 14 and dawn is here, so sleeping time is near. The Cosy Hut is my home, so a nap there is sensible. Berries can wait until I wake. I am cold and tired, so I will go home and rest.",
-  "face": "sleepy",
-  "lastThought": "2026-11-06T06:34:42.493Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is thin and I have no berries kept. It is dawn, which is my bedtime, but hunger comes first. I will go to the thicket and pick berries, eating some right away, and keep the rest in my pot. The pigeon is near the thicket, so I should eat fast.",
+  "face": "determined",
+  "lastThought": "2026-11-06T07:35:53.813Z",
   "foundPlace": null
 }
