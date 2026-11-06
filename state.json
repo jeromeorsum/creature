@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-06T18:50:40.910Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-06T19:00:52.432Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-06T19:10:52.432Z",
   "needs": {
     "fullness": 0,
-    "water": 0,
-    "energy": 100,
-    "curiosity": 15,
-    "joy": 40,
+    "water": 50,
+    "energy": 99,
+    "curiosity": 14,
+    "joy": 39,
     "calm": 100
   },
-  "health": 64,
-  "mood": "sleepy and determined",
+  "health": 63,
+  "mood": "thirsty and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -100,23 +100,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "plan": [
       "Drink at the pond",
-      "Experiment with shells and clay",
-      "Repair the Cosy Hut roof",
+      "Eat the last berry",
+      "Forage lots of berries in the thicket",
       "Tend the seedlings",
-      "Pick berries for dinner",
       "Tap the crab rhythm in the log",
       "Watch the sky from the hill",
-      "Drink and go home before sleep"
+      "Wind down before dawn"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -298,7 +292,7 @@
       }
     }
   ],
-  "plan": "Finish hut with fibre, eat berry, sleep. Tonight: pick lots of berries, tap crab rhythm.",
+  "plan": "Drink, eat the berry, pick lots of berries, tend seedlings, tap crab rhythm, watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -583,7 +577,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.71,
+        "left": 2.76,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -607,7 +601,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.71,
+        "left": 2.76,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -997,18 +991,16 @@
       "glade"
     ]
   },
-  "ticks": 197,
+  "ticks": 198,
   "spend": {
-    "day": "2026-11-05",
+    "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 1
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "It is nearly bedtime and the sun is up. I have 4 fibre now, enough for the hut's last 3. The hut is 13m away, so I should go finish it and sleep dry. My belly is thin, so I will eat my one berry first, though the pigeon may be watching. Then tie the roof and curl up.",
+  "lastOutcome": [],
+  "thought": "I am starving and parched, both at zero, and my health is down. Water first, since the pond is close, then berries. I have one berry kept, so I will eat it right now before the pigeon notices. Then drink, forage lots, tend seedlings, and tap the crab rhythm later.",
   "face": "determined",
-  "lastThought": "2026-11-06T10:19:53.850Z",
+  "lastThought": "2026-11-06T19:00:52.432Z",
   "foundPlace": null
 }
