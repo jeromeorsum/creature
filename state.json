@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T23:02:08.223Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-07T23:12:20.910Z",
+  "place": "hill",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 30,
+    "z": 18
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "watch the sky at the hill",
+  "busyUntil": "2026-11-07T23:42:20.910Z",
   "needs": {
-    "fullness": 61,
-    "water": 97,
-    "energy": 58,
-    "curiosity": 23,
-    "joy": 38,
+    "fullness": 60,
+    "water": 96,
+    "energy": 55,
+    "curiosity": 26,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
-  "mood": "patient and slightly outwitted",
+  "mood": "patient and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -348,7 +348,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "windy",
     "food": 1,
     "seeds": {
       "tree": 0,
@@ -1144,16 +1144,16 @@
       "glade"
     ]
   },
-  "ticks": 229,
+  "ticks": 230,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "The pigeon took another berry, cheeky thing. I am at the pond, water is 77, so a drink is sensible and I'm right here. Curiosity and joy are low too, but drinking first keeps the plan going. Then berries and the sky.",
-  "face": "determined",
-  "lastThought": "2026-11-07T22:31:28.928Z",
+  "thought": "My water is full, fullness is 60, curiosity is a dry puddle. The hill is far but sky watching gives calm and curiosity. I'd rather explore something small to wake my crest. Let me watch the sky from the hill, as planned, then berries later.",
+  "face": "curious",
+  "lastThought": "2026-11-07T23:12:20.910Z",
   "foundPlace": null
 }
