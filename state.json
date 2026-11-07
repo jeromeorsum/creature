@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T07:04:40.598Z",
+  "lastUpdate": "2026-11-07T07:14:56.141Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-07T07:13:44.082Z",
+  "busyUntil": "2026-11-07T08:14:56.141Z",
   "needs": {
-    "fullness": 51,
-    "water": 72,
-    "energy": 59,
-    "curiosity": 22,
-    "joy": 37,
+    "fullness": 45,
+    "water": 71,
+    "energy": 88,
+    "curiosity": 21,
+    "joy": 36,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1004,7 +1004,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 3,
+        "left": 3.07,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1014,7 +1014,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 3,
+        "left": 3.07,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1024,7 +1024,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 3,
+        "left": 3.07,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1116,16 +1116,16 @@
       "glade"
     ]
   },
-  "ticks": 216,
+  "ticks": 217,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I am nocturnal, so bedtime is near. Energy is 34, fullness 61. I should go nap in the Cosy Hut so I sleep dry. Before that maybe eat the kept berry, but the pigeon is near. Home first.",
+  "thought": "It is dawn and I am nocturnal, so I should sleep in the Cosy Hut. My energy is 58, which is middling, and the sun is coming up. A nap will help. Tonight I will tend seedlings and wonder about the crabs.",
   "face": "sleepy",
-  "lastThought": "2026-11-07T06:13:44.082Z",
+  "lastThought": "2026-11-07T07:14:56.141Z",
   "foundPlace": null
 }
