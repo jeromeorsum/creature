@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T08:56:46.239Z",
+  "lastUpdate": "2026-11-07T09:06:58.206Z",
   "place": "meadow",
   "spot": {
     "x": 6,
@@ -10,11 +10,11 @@
   "doing": "explore at the meadow",
   "busyUntil": "2026-11-07T09:26:46.239Z",
   "needs": {
-    "fullness": 35,
-    "water": 61,
-    "energy": 62,
-    "curiosity": 37,
-    "joy": 44,
+    "fullness": 34,
+    "water": 60,
+    "energy": 61,
+    "curiosity": 36,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
@@ -1010,7 +1010,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 3.77,
+        "left": 3.84,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1020,7 +1020,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 3.77,
+        "left": 3.84,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1030,7 +1030,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 3.77,
+        "left": 3.84,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
