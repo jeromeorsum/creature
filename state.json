@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T08:05:48.132Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-07T08:16:03.916Z",
+  "place": "meadow",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 6,
+    "z": 10
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-07T08:14:56.141Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-07T08:56:03.916Z",
   "needs": {
-    "fullness": 40,
-    "water": 66,
-    "energy": 83,
-    "curiosity": 16,
-    "joy": 31,
+    "fullness": 39,
+    "water": 65,
+    "energy": 74,
+    "curiosity": 23,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "curious and cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -80,6 +80,12 @@
       "kind": "drawing description",
       "file": "2026-11-04-second-letter-to-the-crabs.md",
       "made": "2026-11-04T09:58:14.291Z"
+    },
+    {
+      "title": "The Giant Crab in the Log",
+      "kind": "story",
+      "file": "2026-11-07-the-giant-crab-in-the-log.md",
+      "made": "2026-11-07T08:16:03.916Z"
     }
   ],
   "concerns": [
@@ -1004,7 +1010,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 3.42,
+        "left": 3.49,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1014,7 +1020,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 3.42,
+        "left": 3.49,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1024,7 +1030,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 3.42,
+        "left": 3.49,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1116,16 +1122,16 @@
       "glade"
     ]
   },
-  "ticks": 217,
+  "ticks": 218,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I am nocturnal, so I should sleep in the Cosy Hut. My energy is 58, which is middling, and the sun is coming up. A nap will help. Tonight I will tend seedlings and wonder about the crabs.",
-  "face": "sleepy",
-  "lastThought": "2026-11-07T07:14:56.141Z",
+  "thought": "It is morning, my sleeping time, and my energy is still 82, so I am not very sleepy. My curiosity is very low, so I want to do something curious. Making something is a good way to fill it, and my belly is half empty. I will make a story about the crabs, which also helps my wish to understand them.",
+  "face": "curious",
+  "lastThought": "2026-11-07T08:16:03.916Z",
   "foundPlace": null
 }
