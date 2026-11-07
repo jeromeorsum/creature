@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T10:08:08.714Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-07T10:18:18.338Z",
+  "place": "nest",
   "spot": {
-    "x": 10.1,
-    "z": -7.3
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-07T11:18:18.338Z",
   "needs": {
-    "fullness": 52,
-    "water": 54,
-    "energy": 51,
-    "curiosity": 30,
-    "joy": 40,
+    "fullness": 46,
+    "water": 53,
+    "energy": 80,
+    "curiosity": 29,
+    "joy": 39,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but cheerful",
+  "mood": "sleepy and proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -300,9 +300,30 @@
           4
         ]
       }
+    },
+    {
+      "date": "2026-11-06",
+      "summary": "I made a Crab Clacker from shells and a stick, and it clacks like crab talk, which I am very proud of. I told a story about the giant crab in the log and tapped the crab rhythm. I drank, picked berries and watched the sky. The pigeon stole a shell and a berry, which was annoying but funny. My belly is only half full and I did not tend my seedlings, so tonight I want to do that and pick plenty of berries. I feel sleepy, calm and happy.",
+      "plan": {
+        "date": "2026-11-06",
+        "plan": [
+          "Drink at the pond",
+          "Tap crab rhythm in the log",
+          "Watch the sky from the hill",
+          "Pick berries",
+          "Wind down before dawn"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
     }
   ],
-  "plan": "Eat berries at the thicket, sleep in the hut, tend seedlings tonight.",
+  "plan": "Sleep in the hut, then tonight pick lots of berries, tend seedlings, tap the log.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1122,19 +1143,16 @@
       "glade"
     ]
   },
-  "ticks": 220,
+  "ticks": 221,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "The pigeon stole my last berry, cheeky thing. My belly is thin at 32 and the sun is up, so I should eat and then sleep. The thicket is close, so I will pick berries and eat most of them right there so nothing can be stolen. Then the hut.",
-  "face": "determined",
-  "lastThought": "2026-11-07T09:27:25.987Z",
+  "lastOutcome": [],
+  "thought": "It is nearly sleep time and the sun is up. My belly is half full, so I will nap in the Cosy Hut. The pigeon has no berries from me. Tonight: berries, seedlings, log.",
+  "face": "sleepy",
+  "lastThought": "2026-11-07T10:18:18.338Z",
   "foundPlace": null
 }
