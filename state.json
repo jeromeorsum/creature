@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T01:28:18.060Z",
+  "lastUpdate": "2026-11-07T01:38:27.315Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,14 +10,14 @@
   "doing": "nap at the nest",
   "busyUntil": "2026-11-07T02:18:04.778Z",
   "needs": {
-    "fullness": 70,
-    "water": 56,
-    "energy": 51,
-    "curiosity": 25,
-    "joy": 50,
+    "fullness": 69,
+    "water": 55,
+    "energy": 50,
+    "curiosity": 24,
+    "joy": 49,
     "calm": 100
   },
-  "health": 95,
+  "health": 96,
   "mood": "sleepy but forgiving",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -914,7 +914,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +924,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
