@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T19:07:41.615Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-07T19:17:54.261Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 20.2,
+    "z": -7.9
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-07T19:17:41.615Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-07T19:42:54.261Z",
   "needs": {
-    "fullness": 0,
-    "water": 51,
-    "energy": 99,
-    "curiosity": 24,
-    "joy": 34,
+    "fullness": 24,
+    "water": 50,
+    "energy": 94,
+    "curiosity": 23,
+    "joy": 36,
     "calm": 100
   },
-  "health": 90,
-  "mood": "thirsty but hopeful",
+  "health": 89,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -116,7 +116,9 @@
       "Pick berries for dinner",
       "Wind down at the hut"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -319,7 +321,7 @@
       }
     }
   ],
-  "plan": "Drink, pick lots of berries and eat them fast, tend seedlings, tap the log, watch the sky.",
+  "plan": "Pick berries and eat them fast, tend seedlings, tap the log, watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -344,7 +346,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -987,7 +989,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1139,16 +1141,18 @@
       "glade"
     ]
   },
-  "ticks": 222,
+  "ticks": 223,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I just woke and my belly is empty and my water is nearly gone. First the pond for a drink, then berries from the thicket, eaten fast so the pigeon gets nothing. Then tend seedlings and tap the log tonight.",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is at zero and water is only half, so food first. I'll drink a bit more here at the pond since I'm already standing in it, then berries. Actually fullness 0 is the urgent one; thicket berries, eat on the spot so the pigeon gets nothing.",
   "face": "determined",
-  "lastThought": "2026-11-07T19:07:41.615Z",
+  "lastThought": "2026-11-07T19:17:54.261Z",
   "foundPlace": null
 }
