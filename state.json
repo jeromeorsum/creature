@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T21:30:19.194Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-07T21:40:31.072Z",
+  "place": "pond",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": -4,
+    "z": 21
   },
-  "doing": "tap the crab rhythm with the clacker inside the hollow log (at the glade)",
-  "busyUntil": "2026-11-07T21:34:48.750Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-07T21:50:31.072Z",
   "needs": {
-    "fullness": 70,
-    "water": 33,
-    "energy": 67,
-    "curiosity": 32,
-    "joy": 47,
+    "fullness": 69,
+    "water": 82,
+    "energy": 66,
+    "curiosity": 31,
+    "joy": 46,
     "calm": 100
   },
   "health": 95,
-  "mood": "hopeful and curious",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -118,7 +118,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -322,7 +323,7 @@
       }
     }
   ],
-  "plan": "Tap the log, drink at the pond, watch the sky, pick berries for dinner.",
+  "plan": "Drink at the pond, watch the sky, pick berries for dinner, wind down at the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1142,18 +1143,16 @@
       "glade"
     ]
   },
-  "ticks": 227,
+  "ticks": 228,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You did your own thing: tap the crab rhythm with the clacker inside the hollow log."
-  ],
-  "thought": "My curiosity is a dry puddle at 13 and my water is only 40. Belly is fine now. The crab log always wakes my head up, but the glade is far. Exploring the glade log to tap the rhythm should fill curiosity and joy. Water first would be wise, but the pond is on the way-ish. I will go tap the log at the glade, then drink after.",
+  "lastOutcome": [],
+  "thought": "My water is only 32, so the pond comes first. The log tapping is done for now and the giant crab seems satisfied. After a drink I can watch the sky and pick berries. My crest wiggles a little.",
   "face": "curious",
-  "lastThought": "2026-11-07T20:59:48.750Z",
+  "lastThought": "2026-11-07T21:40:31.072Z",
   "foundPlace": null
 }
