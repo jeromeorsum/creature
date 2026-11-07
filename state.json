@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T04:01:15.603Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-07T04:11:26.987Z",
+  "place": "pond",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-07T04:21:26.987Z",
   "needs": {
-    "fullness": 55,
-    "water": 40,
-    "energy": 21,
-    "curiosity": 40,
-    "joy": 52,
-    "calm": 95
+    "fullness": 54,
+    "water": 89,
+    "energy": 20,
+    "curiosity": 39,
+    "joy": 51,
+    "calm": 98
   },
   "health": 100,
   "mood": "excited and curious",
@@ -1003,7 +1003,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 1.74,
+        "left": 1.81,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1013,7 +1013,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 1.74,
+        "left": 1.81,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1023,7 +1023,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 1.74,
+        "left": 1.81,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1115,16 +1115,14 @@
       "glade"
     ]
   },
-  "ticks": 212,
+  "ticks": 213,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 14
   },
-  "lastOutcome": [
-    "You made \"Crab Clacker\". It doesn't actually help with anything yet."
-  ],
+  "lastOutcome": [],
   "thought": "My experiment idea is a string of shells that clack like crab talk. I have wood 3, fibre 1, shells 4, so I can make a small one. Water is 44, so a drink soon would be wise. First I make the clacker, my crest is up. Then the pond, then home before dawn.",
   "face": "excited",
   "lastThought": "2026-11-07T03:20:28.830Z",
