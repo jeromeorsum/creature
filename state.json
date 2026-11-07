@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T00:27:08.717Z",
+  "lastUpdate": "2026-11-07T00:37:20.435Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,14 +10,14 @@
   "doing": "pottering about at the glade",
   "busyUntil": null,
   "needs": {
-    "fullness": 57,
-    "water": 62,
-    "energy": 31,
-    "curiosity": 31,
-    "joy": 53,
+    "fullness": 56,
+    "water": 61,
+    "energy": 30,
+    "curiosity": 30,
+    "joy": 52,
     "calm": 100
   },
-  "health": 89,
+  "health": 90,
   "mood": "hopeful and busy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -914,7 +914,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +924,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
