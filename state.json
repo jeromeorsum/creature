@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T02:09:04.592Z",
+  "lastUpdate": "2026-11-07T02:39:39.139Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-07T02:18:04.778Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-07T03:19:39.139Z",
   "needs": {
-    "fullness": 66,
-    "water": 52,
-    "energy": 47,
-    "curiosity": 21,
-    "joy": 46,
-    "calm": 100
+    "fullness": 63,
+    "water": 48,
+    "energy": 37,
+    "curiosity": 33,
+    "joy": 52,
+    "calm": 97
   },
-  "health": 99,
-  "mood": "sleepy but forgiving",
+  "health": 100,
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -914,7 +914,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 0.98,
+        "left": 1.18,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +924,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 0.98,
+        "left": 1.18,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 0.98,
+        "left": 1.18,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1026,16 +1026,16 @@
       "glade"
     ]
   },
-  "ticks": 210,
+  "ticks": 211,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "The pigeon took a shell, rude. My belly is decent at 76 but energy is 22, very low. I have no kept berries, so nothing to steal there. Best thing is to go home to the Cosy Hut and nap, since it is the middle of the night but I am worn out. I will pick berries tomorrow evening.",
-  "face": "sleepy",
-  "lastThought": "2026-11-07T01:18:04.778Z",
+  "thought": "My curiosity is very low at 18, and I'm at the nest in the dark. Water is okay, energy middling. Exploring something already known should lift curiosity. Actually experimenting with my clay and shells sounds fun, but I have no clay. I will experiment with wood, fibre and shells at the nest to invent something fun.",
+  "face": "curious",
+  "lastThought": "2026-11-07T02:39:39.139Z",
   "foundPlace": null
 }
