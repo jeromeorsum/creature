@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T19:48:30.119Z",
+  "lastUpdate": "2026-11-07T19:58:42.145Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 19.3,
+    "z": 2.8
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-07T19:58:30.119Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-07T20:23:42.145Z",
   "needs": {
-    "fullness": 35,
-    "water": 47,
-    "energy": 91,
-    "curiosity": 20,
-    "joy": 37,
+    "fullness": 58,
+    "water": 46,
+    "energy": 86,
+    "curiosity": 19,
+    "joy": 39,
     "calm": 100
   },
   "health": 89,
@@ -346,7 +346,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -909,7 +909,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -989,7 +989,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1141,18 +1141,19 @@
       "glade"
     ]
   },
-  "ticks": 224,
+  "ticks": 225,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is at zero and water is only half, so food first. I'll drink a bit more here at the pond since I'm already standing in it, then berries. Actually fullness 0 is the urgent one; thicket berries, eat on the spot so the pigeon gets nothing.",
+  "thought": "My belly is only a third full and I have no kept berries. The bushes here still have berries, so I should pick a proper meal and eat most right here. Curiosity is low too, but food first. Then seedlings and the log.",
   "face": "determined",
-  "lastThought": "2026-11-07T19:17:54.261Z",
+  "lastThought": "2026-11-07T19:58:42.145Z",
   "foundPlace": null
 }
