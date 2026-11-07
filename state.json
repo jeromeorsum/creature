@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T00:37:20.435Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-07T00:47:32.548Z",
+  "place": "thicket",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": 8.7,
+    "z": -2.4
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-07T01:12:32.548Z",
   "needs": {
-    "fullness": 56,
-    "water": 61,
-    "energy": 30,
-    "curiosity": 30,
-    "joy": 52,
+    "fullness": 79,
+    "water": 60,
+    "energy": 25,
+    "curiosity": 29,
+    "joy": 54,
     "calm": 100
   },
-  "health": 90,
-  "mood": "hopeful and busy",
+  "health": 91,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -295,7 +295,7 @@
       }
     }
   ],
-  "plan": "Tend seedlings, then wind down at the hut before dawn.",
+  "plan": "Eat berries at the thicket, then wind down at the hut before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -319,7 +319,7 @@
     "food": 0,
     "seeds": {
       "tree": 0,
-      "berry": 17
+      "berry": 19
     },
     "inventory": {
       "wood": 3,
@@ -748,7 +748,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 3,
+        "left": 1,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -914,7 +914,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 0.35,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +924,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 0.35,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 0.35,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1026,18 +1026,19 @@
       "glade"
     ]
   },
-  "ticks": 208,
+  "ticks": 209,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [
-    "You looked after 5 plants around the glade. They'll grow for about a day."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "I just planted seeds by the log. Seedlings only grow while tended, so tending them here is the sensible next step. Energy is a bit low at 43 but tending costs only 8. Then I can wind down before dawn at the hut.",
+  "thought": "It is meal time and I have no kept berries. Fullness 55 is okay but the plan says get food. The thicket has berries; I'm at the glade with picked-clean bushes. Energy is low at 29, so I should eat soon and head toward bed. I'll forage berries at the thicket, eating some right there so the pigeon gets nothing.",
   "face": "determined",
-  "lastThought": "2026-11-06T23:46:28.510Z",
+  "lastThought": "2026-11-07T00:47:32.548Z",
   "foundPlace": null
 }
