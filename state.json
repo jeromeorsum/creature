@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T20:59:48.750Z",
+  "lastUpdate": "2026-11-07T21:09:57.914Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,11 +10,11 @@
   "doing": "tap the crab rhythm with the clacker inside the hollow log (at the glade)",
   "busyUntil": "2026-11-07T21:34:48.750Z",
   "needs": {
-    "fullness": 73,
-    "water": 36,
-    "energy": 70,
-    "curiosity": 35,
-    "joy": 50,
+    "fullness": 72,
+    "water": 35,
+    "energy": 69,
+    "curiosity": 34,
+    "joy": 49,
     "calm": 100
   },
   "health": 95,
