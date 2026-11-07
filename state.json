@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T03:10:20.062Z",
+  "lastUpdate": "2026-11-07T03:20:28.830Z",
   "place": "nest",
   "spot": {
     "x": -14,
     "z": 6
   },
   "doing": "experiment at the nest",
-  "busyUntil": "2026-11-07T03:19:39.139Z",
+  "busyUntil": "2026-11-07T04:00:28.830Z",
   "needs": {
-    "fullness": 60,
-    "water": 45,
-    "energy": 34,
-    "curiosity": 30,
-    "joy": 49,
-    "calm": 97
+    "fullness": 59,
+    "water": 44,
+    "energy": 25,
+    "curiosity": 44,
+    "joy": 56,
+    "calm": 95
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "excited and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -295,7 +295,7 @@
       }
     }
   ],
-  "plan": "Nap at the hut, then berries, seedlings and the crab log tonight.",
+  "plan": "Finish the clacker, drink at the pond, test it at the log, then sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -312,6 +312,10 @@
     {
       "text": "{\"what\":\"Tapping the crab rhythm inside the hollow log makes a long, deep echo, like a giant crab answering.\"}",
       "made": "2026-11-04T03:40:39.818Z"
+    },
+    {
+      "text": "{\"what\":\"Shells hung on a string from a stick clack in a rhythm like crab talk when shaken.\"}",
+      "made": "2026-11-07T03:20:28.830Z"
     }
   ],
   "world": {
@@ -322,11 +326,11 @@
       "berry": 19
     },
     "inventory": {
-      "wood": 3,
+      "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 1,
-      "shells": 4
+      "fibre": 0,
+      "shells": 0
     },
     "discovered": [
       "clay",
@@ -344,6 +348,91 @@
           "fibre": 1
         },
         "made": "2026-11-02T04:15:01.735Z"
+      },
+      {
+        "name": "Crab Clacker",
+        "about": "A stick with four shells tied on by fibre. Shake it to clack crab rhythms.",
+        "helps": "nothing_yet",
+        "cost": {
+          "wood": 1,
+          "fibre": 1,
+          "shells": 4
+        },
+        "made": "2026-11-07T03:20:28.830Z",
+        "look": [
+          {
+            "shape": "stick",
+            "material": "wood",
+            "x": 0,
+            "y": 0.1,
+            "z": 0,
+            "w": 0.05,
+            "h": 0.9,
+            "d": 0.05,
+            "tilt_x": 0,
+            "tilt_z": 0
+          },
+          {
+            "shape": "stick",
+            "material": "fibre",
+            "x": 0,
+            "y": 0.6,
+            "z": 0,
+            "w": 0.03,
+            "h": 0.3,
+            "d": 0.03,
+            "tilt_x": 0,
+            "tilt_z": 0
+          },
+          {
+            "shape": "bowl",
+            "material": "shells",
+            "x": 0.15,
+            "y": 0.5,
+            "z": 0,
+            "w": 0.12,
+            "h": 0.06,
+            "d": 0.12,
+            "tilt_x": 0,
+            "tilt_z": 0
+          },
+          {
+            "shape": "bowl",
+            "material": "shells",
+            "x": -0.15,
+            "y": 0.5,
+            "z": 0,
+            "w": 0.12,
+            "h": 0.06,
+            "d": 0.12,
+            "tilt_x": 0,
+            "tilt_z": 0
+          },
+          {
+            "shape": "bowl",
+            "material": "shells",
+            "x": 0,
+            "y": 0.4,
+            "z": 0.15,
+            "w": 0.12,
+            "h": 0.06,
+            "d": 0.12,
+            "tilt_x": 0,
+            "tilt_z": 0
+          },
+          {
+            "shape": "bowl",
+            "material": "shells",
+            "x": 0,
+            "y": 0.4,
+            "z": -0.15,
+            "w": 0.12,
+            "h": 0.06,
+            "d": 0.12,
+            "tilt_x": 0,
+            "tilt_z": 0
+          }
+        ]
       }
     ],
     "home": 1,
@@ -914,7 +1003,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 1.39,
+        "left": 1.46,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +1013,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 1.39,
+        "left": 1.46,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +1023,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 1.39,
+        "left": 1.46,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1026,16 +1115,18 @@
       "glade"
     ]
   },
-  "ticks": 211,
+  "ticks": 212,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is very low at 18, and I'm at the nest in the dark. Water is okay, energy middling. Exploring something already known should lift curiosity. Actually experimenting with my clay and shells sounds fun, but I have no clay. I will experiment with wood, fibre and shells at the nest to invent something fun.",
-  "face": "curious",
-  "lastThought": "2026-11-07T02:39:39.139Z",
+  "lastOutcome": [
+    "You made \"Crab Clacker\". It doesn't actually help with anything yet."
+  ],
+  "thought": "My experiment idea is a string of shells that clack like crab talk. I have wood 3, fibre 1, shells 4, so I can make a small one. Water is 44, so a drink soon would be wise. First I make the clacker, my crest is up. Then the pond, then home before dawn.",
+  "face": "excited",
+  "lastThought": "2026-11-07T03:20:28.830Z",
   "foundPlace": null
 }
