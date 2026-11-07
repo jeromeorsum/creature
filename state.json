@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T23:32:37.294Z",
-  "place": "hill",
+  "lastUpdate": "2026-11-07T23:42:56.011Z",
+  "place": "thicket",
   "spot": {
-    "x": 30,
-    "z": 18
+    "x": 15,
+    "z": -3
   },
-  "doing": "watch the sky at the hill",
-  "busyUntil": "2026-11-07T23:42:20.910Z",
+  "doing": "plant seeds at the thicket",
+  "busyUntil": "2026-11-08T00:12:56.011Z",
   "needs": {
-    "fullness": 58,
-    "water": 94,
-    "energy": 53,
-    "curiosity": 24,
-    "joy": 41,
+    "fullness": 57,
+    "water": 93,
+    "energy": 44,
+    "curiosity": 23,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
-  "mood": "patient and hopeful",
+  "mood": "hopeful and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -120,7 +120,8 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ]
   },
   "lessons": [
@@ -324,7 +325,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, watch the sky, pick berries for dinner, wind down at the hut.",
+  "plan": "Plant berry seeds at the thicket, pick berries for dinner, tend seedlings, wind down at the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -352,7 +353,7 @@
     "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 20
+      "berry": 17
     },
     "inventory": {
       "wood": 2,
@@ -1056,6 +1057,36 @@
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
+      },
+      {
+        "id": "planted75",
+        "res": "berries",
+        "x": 23.7,
+        "z": -4,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-07T23:42:56.011Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted76",
+        "res": "berries",
+        "x": 9.8,
+        "z": 3.4,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-07T23:42:56.011Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted77",
+        "res": "berries",
+        "x": 7.6,
+        "z": -9.9,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-07T23:42:56.011Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -1144,16 +1175,18 @@
       "glade"
     ]
   },
-  "ticks": 230,
+  "ticks": 231,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "My water is full, fullness is 60, curiosity is a dry puddle. The hill is far but sky watching gives calm and curiosity. I'd rather explore something small to wake my crest. Let me watch the sky from the hill, as planned, then berries later.",
-  "face": "curious",
-  "lastThought": "2026-11-07T23:12:20.910Z",
+  "lastOutcome": [
+    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
+  ],
+  "thought": "I'm on the hill and the wind is bossy. My curiosity is low at 23, and a new idea is forming. I have 20 berry seeds saved, so planting them would help the island and cheer me up. My belly is fair, though. Planting seeds near the thicket means more berries later and fewer hungry nights. Then I can pick berries for dinner.",
+  "face": "determined",
+  "lastThought": "2026-11-07T23:42:56.011Z",
   "foundPlace": null
 }
