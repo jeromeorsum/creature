@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T20:49:41.093Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-07T20:59:48.750Z",
+  "place": "glade",
   "spot": {
-    "x": 22.1,
-    "z": -1
+    "x": -12,
+    "z": -20
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-07T20:54:13.470Z",
+  "doing": "tap the crab rhythm with the clacker inside the hollow log (at the glade)",
+  "busyUntil": "2026-11-07T21:34:48.750Z",
   "needs": {
-    "fullness": 77,
-    "water": 41,
-    "energy": 77,
-    "curiosity": 14,
-    "joy": 37,
+    "fullness": 73,
+    "water": 36,
+    "energy": 70,
+    "curiosity": 35,
+    "joy": 50,
     "calm": 100
   },
-  "health": 94,
-  "mood": "hungry but hopeful",
+  "health": 95,
+  "mood": "hopeful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -108,9 +108,10 @@
   "today": {
     "date": "2026-11-07",
     "plan": [
-      "Breakfast of berries in the thicket",
-      "Tend the seedlings",
-      "Tap the crab rhythm in the log",
+      "Breakfast of berries (done)",
+      "Tend seedlings (done)",
+      "Tap crab rhythm in the log",
+      "Drink at the pond",
       "Watch the sky from the hill",
       "Pick berries for dinner",
       "Wind down at the hut"
@@ -321,7 +322,7 @@
       }
     }
   ],
-  "plan": "Pick berries and eat them fast, tend seedlings, tap the log, watch the sky.",
+  "plan": "Tap the log, drink at the pond, watch the sky, pick berries for dinner.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1141,19 +1142,18 @@
       "glade"
     ]
   },
-  "ticks": 226,
+  "ticks": 227,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You did your own thing: tap the crab rhythm with the clacker inside the hollow log."
   ],
-  "thought": "My belly is only half full and my curiosity is a dry puddle. Berries are still on five bushes right here. I will pick a bit more and eat on the spot, then tend the seedlings and tap the log. The pigeon is watching, so I eat fast.",
-  "face": "determined",
-  "lastThought": "2026-11-07T20:29:13.470Z",
+  "thought": "My curiosity is a dry puddle at 13 and my water is only 40. Belly is fine now. The crab log always wakes my head up, but the glade is far. Exploring the glade log to tap the rhythm should fill curiosity and joy. Water first would be wise, but the pond is on the way-ish. I will go tap the log at the glade, then drink after.",
+  "face": "curious",
+  "lastThought": "2026-11-07T20:59:48.750Z",
   "foundPlace": null
 }
