@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T05:43:09.664Z",
+  "lastUpdate": "2026-11-07T05:53:22.126Z",
   "place": "thicket",
   "spot": {
     "x": 10.1,
     "z": -7.3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-07T05:47:47.967Z",
+  "doing": "pottering about at the thicket",
+  "busyUntil": null,
   "needs": {
-    "fullness": 64,
-    "water": 80,
-    "energy": 37,
-    "curiosity": 30,
-    "joy": 45,
+    "fullness": 63,
+    "water": 79,
+    "energy": 36,
+    "curiosity": 29,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
@@ -1004,7 +1004,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 2.44,
+        "left": 2.51,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1014,7 +1014,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 2.44,
+        "left": 2.51,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1024,7 +1024,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 2.44,
+        "left": 2.51,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
