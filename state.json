@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T01:07:56.854Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-07T01:18:04.778Z",
+  "place": "nest",
   "spot": {
-    "x": 8.7,
-    "z": -2.4
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-07T01:12:32.548Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-07T02:18:04.778Z",
   "needs": {
-    "fullness": 77,
-    "water": 58,
-    "energy": 23,
-    "curiosity": 27,
-    "joy": 52,
+    "fullness": 71,
+    "water": 57,
+    "energy": 52,
+    "curiosity": 26,
+    "joy": 51,
     "calm": 100
   },
-  "health": 93,
-  "mood": "hungry but hopeful",
+  "health": 94,
+  "mood": "sleepy but forgiving",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -295,7 +295,7 @@
       }
     }
   ],
-  "plan": "Eat berries at the thicket, then wind down at the hut before dawn.",
+  "plan": "Nap at the hut, then berries, seedlings and the crab log tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -326,7 +326,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 1,
-      "shells": 5
+      "shells": 4
     },
     "discovered": [
       "clay",
@@ -914,7 +914,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 0.56,
+        "left": 0.63,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +924,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 0.56,
+        "left": 0.63,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 0.56,
+        "left": 0.63,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1026,19 +1026,16 @@
       "glade"
     ]
   },
-  "ticks": 209,
+  "ticks": 210,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "It is meal time and I have no kept berries. Fullness 55 is okay but the plan says get food. The thicket has berries; I'm at the glade with picked-clean bushes. Energy is low at 29, so I should eat soon and head toward bed. I'll forage berries at the thicket, eating some right there so the pigeon gets nothing.",
-  "face": "determined",
-  "lastThought": "2026-11-07T00:47:32.548Z",
+  "lastOutcome": [],
+  "thought": "The pigeon took a shell, rude. My belly is decent at 76 but energy is 22, very low. I have no kept berries, so nothing to steal there. Best thing is to go home to the Cosy Hut and nap, since it is the middle of the night but I am worn out. I will pick berries tomorrow evening.",
+  "face": "sleepy",
+  "lastThought": "2026-11-07T01:18:04.778Z",
   "foundPlace": null
 }
