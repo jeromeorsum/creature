@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T05:12:36.109Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-07T05:22:47.967Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 10.1,
+    "z": -7.3
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-07T05:21:35.509Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-07T05:47:47.967Z",
   "needs": {
-    "fullness": 43,
-    "water": 83,
-    "energy": 44,
-    "curiosity": 33,
-    "joy": 45,
+    "fullness": 66,
+    "water": 82,
+    "energy": 39,
+    "curiosity": 32,
+    "joy": 47,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -296,7 +296,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then forage lots of berries, tend seedlings, test the clacker at the log.",
+  "plan": "Forage berries and eat them there, then sleep in the hut, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -321,7 +321,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 19
@@ -838,7 +838,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -974,7 +974,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1004,7 +1004,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 2.23,
+        "left": 2.3,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1014,7 +1014,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 2.23,
+        "left": 2.3,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1024,7 +1024,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 2.23,
+        "left": 2.3,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1116,16 +1116,18 @@
       "glade"
     ]
   },
-  "ticks": 214,
+  "ticks": 215,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [],
-  "thought": "My energy is very low, 19, and dawn is near. I'm at the pond with water good. The hut is 16m away. Sleep is the sensible thing, though my belly is half full. I'll nap in the Cosy Hut and tomorrow forage lots of berries.",
-  "face": "sleepy",
-  "lastThought": "2026-11-07T04:21:35.509Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is thin at 42 and I have no kept berries. Dawn is near but I'm awake with energy 43. I should go to the thicket and forage a proper meal, eating right there so the pigeon gets nothing. Then sleep in the hut.",
+  "face": "determined",
+  "lastThought": "2026-11-07T05:22:47.967Z",
   "foundPlace": null
 }
