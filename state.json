@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T04:11:26.987Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-07T04:21:35.509Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-07T04:21:26.987Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-07T05:21:35.509Z",
   "needs": {
-    "fullness": 54,
-    "water": 89,
-    "energy": 20,
-    "curiosity": 39,
-    "joy": 51,
-    "calm": 98
+    "fullness": 48,
+    "water": 88,
+    "energy": 49,
+    "curiosity": 38,
+    "joy": 50,
+    "calm": 100
   },
   "health": 100,
-  "mood": "excited and curious",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -112,7 +112,8 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ]
   },
   "lessons": [
@@ -295,7 +296,7 @@
       }
     }
   ],
-  "plan": "Finish the clacker, drink at the pond, test it at the log, then sleep in the hut.",
+  "plan": "Sleep in the hut, then forage lots of berries, tend seedlings, test the clacker at the log.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1003,7 +1004,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 1.81,
+        "left": 1.88,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1013,7 +1014,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 1.81,
+        "left": 1.88,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1023,7 +1024,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 1.81,
+        "left": 1.88,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -1115,16 +1116,16 @@
       "glade"
     ]
   },
-  "ticks": 213,
+  "ticks": 214,
   "spend": {
     "day": "2026-11-06",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "My experiment idea is a string of shells that clack like crab talk. I have wood 3, fibre 1, shells 4, so I can make a small one. Water is 44, so a drink soon would be wise. First I make the clacker, my crest is up. Then the pond, then home before dawn.",
-  "face": "excited",
-  "lastThought": "2026-11-07T03:20:28.830Z",
+  "thought": "My energy is very low, 19, and dawn is near. I'm at the pond with water good. The hut is 16m away. Sleep is the sensible thing, though my belly is half full. I'll nap in the Cosy Hut and tomorrow forage lots of berries.",
+  "face": "sleepy",
+  "lastThought": "2026-11-07T04:21:35.509Z",
   "foundPlace": null
 }
