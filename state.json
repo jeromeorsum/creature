@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T18:57:29.520Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-07T19:07:41.615Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-07T19:17:41.615Z",
   "needs": {
     "fullness": 0,
-    "water": 2,
-    "energy": 100,
-    "curiosity": 25,
-    "joy": 35,
+    "water": 51,
+    "energy": 99,
+    "curiosity": 24,
+    "joy": 34,
     "calm": 100
   },
-  "health": 91,
-  "mood": "sleepy and proud",
+  "health": 90,
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -106,21 +106,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "plan": [
       "Drink at the pond",
-      "Tap crab rhythm in the log",
+      "Breakfast of berries in the thicket",
+      "Tend the seedlings",
+      "Tap the crab rhythm in the log",
       "Watch the sky from the hill",
-      "Pick berries",
-      "Wind down before dawn"
+      "Pick berries for dinner",
+      "Wind down at the hut"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -323,7 +319,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then tonight pick lots of berries, tend seedlings, tap the log.",
+  "plan": "Drink, pick lots of berries and eat them fast, tend seedlings, tap the log, watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1143,16 +1139,16 @@
       "glade"
     ]
   },
-  "ticks": 221,
+  "ticks": 222,
   "spend": {
-    "day": "2026-11-06",
+    "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly sleep time and the sun is up. My belly is half full, so I will nap in the Cosy Hut. The pigeon has no berries from me. Tonight: berries, seedlings, log.",
-  "face": "sleepy",
-  "lastThought": "2026-11-07T10:18:18.338Z",
+  "thought": "I just woke and my belly is empty and my water is nearly gone. First the pond for a drink, then berries from the thicket, eaten fast so the pigeon gets nothing. Then tend seedlings and tap the log tonight.",
+  "face": "determined",
+  "lastThought": "2026-11-07T19:07:41.615Z",
   "foundPlace": null
 }
