@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-07T00:47:32.548Z",
+  "lastUpdate": "2026-11-07T00:57:41.483Z",
   "place": "thicket",
   "spot": {
     "x": 8.7,
@@ -10,14 +10,14 @@
   "doing": "forage berries at the thicket",
   "busyUntil": "2026-11-07T01:12:32.548Z",
   "needs": {
-    "fullness": 79,
-    "water": 60,
-    "energy": 25,
-    "curiosity": 29,
-    "joy": 54,
+    "fullness": 78,
+    "water": 59,
+    "energy": 24,
+    "curiosity": 28,
+    "joy": 53,
     "calm": 100
   },
-  "health": 91,
+  "health": 92,
   "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -914,7 +914,7 @@
         "res": "berries",
         "x": -12.1,
         "z": -26,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -924,7 +924,7 @@
         "res": "berries",
         "x": -2.2,
         "z": -13.2,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": -14.1,
         "z": -12.2,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-06T22:55:31.259Z",
         "tendedUntil": "2026-11-07T23:46:28.510Z"
