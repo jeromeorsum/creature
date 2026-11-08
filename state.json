@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T02:05:30.134Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-08T02:15:46.891Z",
+  "place": "nest",
   "spot": {
-    "x": 19.1,
-    "z": -10.8
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-08T02:10:08.384Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-08T03:15:46.891Z",
   "needs": {
-    "fullness": 91,
-    "water": 79,
-    "energy": 22,
-    "curiosity": 24,
-    "joy": 45,
-    "calm": 95
+    "fullness": 85,
+    "water": 78,
+    "energy": 51,
+    "curiosity": 23,
+    "joy": 44,
+    "calm": 100
   },
   "health": 100,
-  "mood": "hungry and sneaky",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -122,7 +122,8 @@
       3,
       4,
       5,
-      6
+      6,
+      7
     ]
   },
   "lessons": [
@@ -326,7 +327,7 @@
       }
     }
   ],
-  "plan": "Pick berries and eat them here, spy on the pigeon, tend seedlings, wind down at the hut.",
+  "plan": "Nap at the hut, then drink, tend seedlings, tap the crab log.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1176,19 +1177,16 @@
       "glade"
     ]
   },
-  "ticks": 234,
+  "ticks": 235,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "Meal time, belly at 69, but I'm at the thicket with berry bushes. Energy is low at 28 and curiosity is a dry puddle. Eating berries here under the pigeon's stare is the safe plan. I'll forage and eat on the spot, then wind down at the hut.",
-  "face": "determined",
-  "lastThought": "2026-11-08T01:45:08.384Z",
+  "lastOutcome": [],
+  "thought": "My energy is thin at 21 and my belly is fine. The pigeon has had enough of my attention tonight. The sensible thing is to wobble home to the Cosy Hut and nap, which is what the plan says. Nocturnal me is awake at night, but a nap now will help my energy. My crest droops happily.",
+  "face": "sleepy",
+  "lastThought": "2026-11-08T02:15:46.891Z",
   "foundPlace": null
 }
