@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T09:23:33.763Z",
+  "lastUpdate": "2026-11-08T09:33:47.863Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-08T09:32:31.978Z",
+  "busyUntil": "2026-11-08T10:33:47.863Z",
   "needs": {
-    "fullness": 56,
-    "water": 83,
-    "energy": 78,
-    "curiosity": 14,
-    "joy": 32,
+    "fullness": 50,
+    "water": 82,
+    "energy": 100,
+    "curiosity": 13,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
@@ -1181,16 +1181,16 @@
       "glade"
     ]
   },
-  "ticks": 243,
+  "ticks": 244,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
   "lastOutcome": [],
-  "thought": "It is morning and I should be asleep soon, since I sleep through the bright part of the day. My curiosity is a dry puddle, but my energy is middling. A nap in the Cosy Hut will fix the energy, and tonight I can chase the crab riddle. First a little pondside poking at the clay might wake my curiosity, but sleep is wiser.",
+  "thought": "It is bright morning and I should be asleep soon. My curiosity is a dry puddle, but my energy is decent. I will nap in the hut, since I am nocturnal and the sleeping time is near. Tonight I will chase the crab riddle.",
   "face": "sleepy",
-  "lastThought": "2026-11-08T08:32:31.978Z",
+  "lastThought": "2026-11-08T09:33:47.863Z",
   "foundPlace": null
 }
