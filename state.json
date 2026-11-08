@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T07:51:50.567Z",
+  "lastUpdate": "2026-11-08T08:02:00.258Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-08T08:12:00.258Z",
   "needs": {
-    "fullness": 42,
-    "water": 92,
-    "energy": 57,
-    "curiosity": 23,
-    "joy": 37,
+    "fullness": 69,
+    "water": 91,
+    "energy": 56,
+    "curiosity": 22,
+    "joy": 40,
     "calm": 100
   },
   "health": 100,
-  "mood": "playful and sleepy",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -356,7 +356,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 18
@@ -1181,16 +1181,18 @@
       "glade"
     ]
   },
-  "ticks": 241,
+  "ticks": 242,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
-  "lastOutcome": [],
-  "thought": "It is dawn and bedtime is near. My water is full, my belly is thin at 44, and I have 3 berries. Joy is low. A quick splash in the pond would lift my joy, and I'm already here. Then I eat and sleep in the hut.",
-  "face": "happy",
-  "lastThought": "2026-11-08T07:31:28.239Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is dawn and I should be sleeping soon. My belly is only 41, so I will eat my kept berries first, then go to the hut. The pigeon is not around, so now is a safe time. My curiosity is low but sleep will come first.",
+  "face": "sleepy",
+  "lastThought": "2026-11-08T08:02:00.258Z",
   "foundPlace": null
 }
