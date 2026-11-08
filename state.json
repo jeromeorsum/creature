@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T03:37:18.366Z",
+  "lastUpdate": "2026-11-08T03:47:23.972Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-08T03:46:51.001Z",
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-08T04:27:23.972Z",
   "needs": {
-    "fullness": 77,
-    "water": 70,
-    "energy": 35,
-    "curiosity": 33,
-    "joy": 36,
-    "calm": 100
+    "fullness": 76,
+    "water": 69,
+    "energy": 26,
+    "curiosity": 47,
+    "joy": 43,
+    "calm": 98
   },
   "health": 100,
-  "mood": "hopeful and curious",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -327,7 +327,7 @@
       }
     }
   ],
-  "plan": "Explore the tidepools, then drink, then nap at the hut.",
+  "plan": "Experiment with the scratched shells, then drink, then nap at the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -348,6 +348,10 @@
     {
       "text": "{\"what\":\"Shells hung on a string from a stick clack in a rhythm like crab talk when shaken.\"}",
       "made": "2026-11-07T03:20:28.830Z"
+    },
+    {
+      "text": "{\"what\":\"Crabs scratch marks onto shells; clacking the clacker in the order of the scratches makes a crab wave a claw back.\"}",
+      "made": "2026-11-08T03:47:23.972Z"
     }
   ],
   "world": {
@@ -1177,16 +1181,16 @@
       "glade"
     ]
   },
-  "ticks": 236,
+  "ticks": 237,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry puddle, so I should do something new instead of the same things. Energy is middling, but exploring to a place and looking closely at the tidepools might spark something. I will go look at the tidepools, which I have not poked at lately. Maybe the crabs there will tell me something.",
+  "thought": "I am at the tidepools with my clacker and low energy. Four shells with something on them are lying around, scratched marks maybe. I want to experiment with them and the crab rhythm: lay the shells in order and clack back. My crest pops up a little. Curiosity is low, so this should help.",
   "face": "curious",
-  "lastThought": "2026-11-08T03:16:51.001Z",
+  "lastThought": "2026-11-08T03:47:23.972Z",
   "foundPlace": null
 }
