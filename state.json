@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T03:06:39.556Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-08T03:16:51.001Z",
+  "place": "tidepools",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18,
+    "z": 34
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-08T03:15:46.891Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-08T03:46:51.001Z",
   "needs": {
-    "fullness": 80,
-    "water": 73,
-    "energy": 46,
-    "curiosity": 18,
-    "joy": 39,
+    "fullness": 79,
+    "water": 72,
+    "energy": 37,
+    "curiosity": 35,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "hopeful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -327,7 +327,7 @@
       }
     }
   ],
-  "plan": "Nap at the hut, then drink, tend seedlings, tap the crab log.",
+  "plan": "Explore the tidepools, then drink, then nap at the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1177,16 +1177,16 @@
       "glade"
     ]
   },
-  "ticks": 235,
+  "ticks": 236,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My energy is thin at 21 and my belly is fine. The pigeon has had enough of my attention tonight. The sensible thing is to wobble home to the Cosy Hut and nap, which is what the plan says. Nocturnal me is awake at night, but a nap now will help my energy. My crest droops happily.",
-  "face": "sleepy",
-  "lastThought": "2026-11-08T02:15:46.891Z",
+  "thought": "My curiosity is a dry puddle, so I should do something new instead of the same things. Energy is middling, but exploring to a place and looking closely at the tidepools might spark something. I will go look at the tidepools, which I have not poked at lately. Maybe the crabs there will tell me something.",
+  "face": "curious",
+  "lastThought": "2026-11-08T03:16:51.001Z",
   "foundPlace": null
 }
