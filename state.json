@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T05:19:05.894Z",
+  "lastUpdate": "2026-11-08T05:29:13.806Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-08T05:28:03.518Z",
+  "busyUntil": "2026-11-08T06:29:13.806Z",
   "needs": {
-    "fullness": 62,
-    "water": 60,
-    "energy": 47,
-    "curiosity": 38,
-    "joy": 34,
+    "fullness": 56,
+    "water": 59,
+    "energy": 76,
+    "curiosity": 37,
+    "joy": 33,
     "calm": 100
   },
   "health": 100,
@@ -1181,16 +1181,16 @@
       "glade"
     ]
   },
-  "ticks": 238,
+  "ticks": 239,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "The pigeon took a berry again, cheeky thing. My energy is only 22, which is thin as a puddle, and it is nearly dawn when I should sleep. I have 3 berries left, so I should eat them before the pigeon takes more, then go home to the hut and nap. The crabs can wait for tomorrow night.",
+  "thought": "I am awake at the nest with energy 46, which is a bit thin, but my belly and water are okay. The hut is right here. Since I am nocturnal and the night is long, a nap would restore energy. But my plan said to nap, and I just napped at 04:28 maybe. Energy 46 is lowish. I will nap in the hut to be fresh, then do things.",
   "face": "sleepy",
-  "lastThought": "2026-11-08T04:28:03.518Z",
+  "lastThought": "2026-11-08T05:29:13.806Z",
   "foundPlace": null
 }
