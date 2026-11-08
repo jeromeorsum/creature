@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T00:43:58.618Z",
+  "lastUpdate": "2026-11-08T00:54:12.664Z",
   "place": "thicket",
   "spot": {
-    "x": 19.1,
-    "z": -10.8
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-08T00:48:38.830Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-08T01:09:12.664Z",
   "needs": {
-    "fullness": 75,
-    "water": 87,
-    "energy": 34,
-    "curiosity": 17,
-    "joy": 45,
-    "calm": 100
+    "fullness": 74,
+    "water": 86,
+    "energy": 33,
+    "curiosity": 31,
+    "joy": 49,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "curious and sneaky",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1176,18 +1176,16 @@
       "glade"
     ]
   },
-  "ticks": 232,
+  "ticks": 233,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "It is meal time and my belly is only half full. I'm at the thicket with berry bushes all around, so I'll pick a proper dinner and eat it right here before the pigeon can stare me out of it. Curiosity is low, but food first. Afterwards I can spy on the pigeon, since it might know something.",
-  "face": "determined",
-  "lastThought": "2026-11-08T00:23:38.830Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry puddle, and the pigeon is right here staring. Spying on it is the cheapest way to fill it. My belly is fine, so I can watch it carefully and maybe learn its secret.",
+  "face": "suspicious",
+  "lastThought": "2026-11-08T00:54:12.664Z",
   "foundPlace": null
 }
