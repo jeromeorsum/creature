@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T00:13:26.291Z",
+  "lastUpdate": "2026-11-08T00:23:38.830Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 19.1,
+    "z": -10.8
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-08T00:48:38.830Z",
   "needs": {
-    "fullness": 54,
-    "water": 90,
-    "energy": 41,
-    "curiosity": 20,
-    "joy": 45,
+    "fullness": 77,
+    "water": 89,
+    "energy": 36,
+    "curiosity": 19,
+    "joy": 47,
     "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and scheming",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -121,7 +121,8 @@
       2,
       3,
       4,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -325,7 +326,7 @@
       }
     }
   ],
-  "plan": "Plant berry seeds at the thicket, pick berries for dinner, tend seedlings, wind down at the hut.",
+  "plan": "Pick berries and eat them here, spy on the pigeon, tend seedlings, wind down at the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -350,7 +351,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 17
@@ -851,7 +852,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-04T00:25:45.996Z"
       },
       {
@@ -983,7 +984,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 4,
+        "left": 3,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1175,18 +1176,18 @@
       "glade"
     ]
   },
-  "ticks": 231,
+  "ticks": 232,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
+    "You collected 4 berries and ate 2 on the spot."
   ],
-  "thought": "I'm on the hill and the wind is bossy. My curiosity is low at 23, and a new idea is forming. I have 20 berry seeds saved, so planting them would help the island and cheer me up. My belly is fair, though. Planting seeds near the thicket means more berries later and fewer hungry nights. Then I can pick berries for dinner.",
+  "thought": "It is meal time and my belly is only half full. I'm at the thicket with berry bushes all around, so I'll pick a proper dinner and eat it right here before the pigeon can stare me out of it. Curiosity is low, but food first. Afterwards I can spy on the pigeon, since it might know something.",
   "face": "determined",
-  "lastThought": "2026-11-07T23:42:56.011Z",
+  "lastThought": "2026-11-08T00:23:38.830Z",
   "foundPlace": null
 }
