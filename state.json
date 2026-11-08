@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T07:21:18.285Z",
+  "lastUpdate": "2026-11-08T07:31:28.239Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-08T07:51:28.239Z",
   "needs": {
-    "fullness": 45,
-    "water": 95,
-    "energy": 65,
-    "curiosity": 26,
-    "joy": 22,
+    "fullness": 44,
+    "water": 94,
+    "energy": 59,
+    "curiosity": 25,
+    "joy": 39,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and hopeful",
+  "mood": "playful and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -327,7 +327,7 @@
       }
     }
   ],
-  "plan": "Nap at the hut, then tonight pick berries, drink, and try the crab shells again.",
+  "plan": "Splash, eat berries, sleep in the hut, then tonight pick berries and puzzle over the crab shells.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1181,16 +1181,16 @@
       "glade"
     ]
   },
-  "ticks": 240,
+  "ticks": 241,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I am supposed to be sleeping soon, but my water is only half and my belly is thin. A drink at the pond is close, and then I can sleep better. My curiosity and joy are low, so the pond splash might help later. Drinking first is sensible.",
-  "face": "sleepy",
-  "lastThought": "2026-11-08T06:30:19.032Z",
+  "thought": "It is dawn and bedtime is near. My water is full, my belly is thin at 44, and I have 3 berries. Joy is low. A quick splash in the pond would lift my joy, and I'm already here. Then I eat and sleep in the hut.",
+  "face": "happy",
+  "lastThought": "2026-11-08T07:31:28.239Z",
   "foundPlace": null
 }
