@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T04:17:53.292Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-08T04:28:03.518Z",
+  "place": "nest",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -8,
+    "z": 6
   },
-  "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-08T04:27:23.972Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-08T05:28:03.518Z",
   "needs": {
-    "fullness": 73,
-    "water": 66,
-    "energy": 23,
-    "curiosity": 44,
-    "joy": 40,
-    "calm": 98
+    "fullness": 67,
+    "water": 65,
+    "energy": 52,
+    "curiosity": 43,
+    "joy": 39,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "sleepy and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -327,7 +327,7 @@
       }
     }
   ],
-  "plan": "Experiment with the scratched shells, then drink, then nap at the hut.",
+  "plan": "Nap at the hut, then tonight pick berries, drink, and try the crab shells again.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -356,7 +356,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 4,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 18
@@ -1181,16 +1181,16 @@
       "glade"
     ]
   },
-  "ticks": 237,
+  "ticks": 238,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "I am at the tidepools with my clacker and low energy. Four shells with something on them are lying around, scratched marks maybe. I want to experiment with them and the crab rhythm: lay the shells in order and clack back. My crest pops up a little. Curiosity is low, so this should help.",
-  "face": "curious",
-  "lastThought": "2026-11-08T03:47:23.972Z",
+  "thought": "The pigeon took a berry again, cheeky thing. My energy is only 22, which is thin as a puddle, and it is nearly dawn when I should sleep. I have 3 berries left, so I should eat them before the pigeon takes more, then go home to the hut and nap. The crabs can wait for tomorrow night.",
+  "face": "sleepy",
+  "lastThought": "2026-11-08T04:28:03.518Z",
   "foundPlace": null
 }
