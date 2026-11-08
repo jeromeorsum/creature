@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T03:57:32.748Z",
+  "lastUpdate": "2026-11-08T04:07:44.757Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
@@ -10,11 +10,11 @@
   "doing": "experiment at the tidepools",
   "busyUntil": "2026-11-08T04:27:23.972Z",
   "needs": {
-    "fullness": 75,
-    "water": 68,
-    "energy": 25,
-    "curiosity": 46,
-    "joy": 42,
+    "fullness": 74,
+    "water": 67,
+    "energy": 24,
+    "curiosity": 45,
+    "joy": 41,
     "calm": 98
   },
   "health": 100,
