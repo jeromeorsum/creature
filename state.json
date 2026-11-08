@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T01:34:58.471Z",
+  "lastUpdate": "2026-11-08T01:45:08.384Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 19.1,
+    "z": -10.8
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-08T02:10:08.384Z",
   "needs": {
-    "fullness": 70,
-    "water": 82,
-    "energy": 29,
-    "curiosity": 27,
-    "joy": 45,
+    "fullness": 93,
+    "water": 81,
+    "energy": 24,
+    "curiosity": 26,
+    "joy": 47,
     "calm": 95
   },
   "health": 100,
-  "mood": "curious and sneaky",
+  "mood": "hungry and sneaky",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -351,10 +351,10 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 4,
     "seeds": {
       "tree": 0,
-      "berry": 17
+      "berry": 18
     },
     "inventory": {
       "wood": 2,
@@ -984,7 +984,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 3,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1176,16 +1176,19 @@
       "glade"
     ]
   },
-  "ticks": 233,
+  "ticks": 234,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a dry puddle, and the pigeon is right here staring. Spying on it is the cheapest way to fill it. My belly is fine, so I can watch it carefully and maybe learn its secret.",
-  "face": "suspicious",
-  "lastThought": "2026-11-08T00:54:12.664Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "Meal time, belly at 69, but I'm at the thicket with berry bushes. Energy is low at 28 and curiosity is a dry puddle. Eating berries here under the pigeon's stare is the safe plan. I'll forage and eat on the spot, then wind down at the hut.",
+  "face": "determined",
+  "lastThought": "2026-11-08T01:45:08.384Z",
   "foundPlace": null
 }
