@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T06:20:10.076Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-08T06:30:19.032Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-08T06:29:13.806Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-08T06:40:19.032Z",
   "needs": {
-    "fullness": 51,
-    "water": 54,
-    "energy": 71,
-    "curiosity": 32,
-    "joy": 28,
+    "fullness": 50,
+    "water": 100,
+    "energy": 70,
+    "curiosity": 31,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
@@ -1181,16 +1181,16 @@
       "glade"
     ]
   },
-  "ticks": 239,
+  "ticks": 240,
   "spend": {
     "day": "2026-11-07",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "I am awake at the nest with energy 46, which is a bit thin, but my belly and water are okay. The hut is right here. Since I am nocturnal and the night is long, a nap would restore energy. But my plan said to nap, and I just napped at 04:28 maybe. Energy 46 is lowish. I will nap in the hut to be fresh, then do things.",
+  "thought": "It is dawn and I am supposed to be sleeping soon, but my water is only half and my belly is thin. A drink at the pond is close, and then I can sleep better. My curiosity and joy are low, so the pond splash might help later. Drinking first is sensible.",
   "face": "sleepy",
-  "lastThought": "2026-11-08T05:29:13.806Z",
+  "lastThought": "2026-11-08T06:30:19.032Z",
   "foundPlace": null
 }
