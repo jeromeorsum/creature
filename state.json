@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-08T18:53:49.459Z",
+  "lastUpdate": "2026-11-09T11:02:08.427Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -11,13 +11,13 @@
   "busyUntil": null,
   "needs": {
     "fullness": 0,
-    "water": 27,
+    "water": 0,
     "energy": 100,
-    "curiosity": 5,
-    "joy": 23,
+    "curiosity": 0,
+    "joy": 0,
     "calm": 100
   },
-  "health": 85,
+  "health": 0,
   "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -1208,10 +1208,10 @@
   },
   "ticks": 245,
   "spend": {
-    "day": "2026-11-07",
+    "day": "2026-11-08",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 0
   },
   "lastOutcome": [],
   "thought": "It is nearly sleep time. The pigeon stole a berry again, cheeky thing. My belly is half full, energy high from napping, curiosity very low. I will curl up in the Cosy Hut and sleep. Tonight I want to pick plenty of berries, eat them fast, and look at the crab scratches again.",
