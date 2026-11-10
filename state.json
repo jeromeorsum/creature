@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-10T18:57:38.189Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-10T23:43:39.629Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-10T23:53:39.629Z",
   "needs": {
     "fullness": 0,
-    "water": 0,
-    "energy": 100,
+    "water": 50,
+    "energy": 10,
     "curiosity": 0,
     "joy": 0,
-    "calm": 100
+    "calm": 93
   },
-  "health": 0,
-  "mood": "sleepy and content",
+  "health": 25,
+  "mood": "weak and scared",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -103,32 +103,30 @@
       "text": "The pigeon steals my kept berries",
       "made": "2026-10-30T01:52:26.676Z",
       "resolved": null
+    },
+    {
+      "text": "I collapsed from hunger and thirst; I must keep eating and drinking regularly",
+      "made": "2026-11-10T23:43:39.629Z",
+      "resolved": null
     }
   ],
   "today": {
-    "date": "2026-11-07",
+    "date": "2026-11-10",
     "plan": [
-      "Breakfast of berries (done)",
-      "Tend seedlings (done)",
-      "Tap crab rhythm in the log",
       "Drink at the pond",
-      "Watch the sky from the hill",
-      "Pick berries for dinner",
-      "Wind down at the hut"
+      "Forage berries and eat a proper meal",
+      "Keep berries in the clay pot",
+      "Tend seedlings",
+      "Rest in the hut",
+      "Puzzle over crab shells",
+      "Drink again before bed"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
-    "Eat kept berries quickly when the pigeon is near, or it will take them."
+    "Eat kept berries quickly when the pigeon is near, or it will take them.",
+    "Never let food and water hit zero; drink and eat before anything else, or I collapse."
   ],
   "days": [
     {
@@ -352,7 +350,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then tonight pick berries, eat them fast, tend seedlings and puzzle over the crab shells.",
+  "plan": "Drink, then pick berries and eat them, keep some food, then rest in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1206,16 +1204,16 @@
       "glade"
     ]
   },
-  "ticks": 245,
+  "ticks": 246,
   "spend": {
-    "day": "2026-11-09",
+    "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 0
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly sleep time. The pigeon stole a berry again, cheeky thing. My belly is half full, energy high from napping, curiosity very low. I will curl up in the Cosy Hut and sleep. Tonight I want to pick plenty of berries, eat them fast, and look at the crab scratches again.",
-  "face": "sleepy",
-  "lastThought": "2026-11-08T10:24:41.817Z",
+  "thought": "I collapsed and I am scared. Water is zero, so I must drink first, since the pond is close. Then berries at the thicket, and eat them right away. No more skipping meals. After that I rest.",
+  "face": "worried",
+  "lastThought": "2026-11-10T23:43:39.629Z",
   "foundPlace": null
 }
