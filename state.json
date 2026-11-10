@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-10T23:43:39.629Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-10T23:53:49.074Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 22.9,
+    "z": 3.5
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-10T23:53:39.629Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-11T00:18:49.074Z",
   "needs": {
-    "fullness": 0,
-    "water": 50,
-    "energy": 10,
+    "fullness": 24,
+    "water": 49,
+    "energy": 5,
     "curiosity": 0,
-    "joy": 0,
+    "joy": 3,
     "calm": 93
   },
-  "health": 25,
-  "mood": "weak and scared",
+  "health": 24,
+  "mood": "weak but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -121,7 +121,9 @@
       "Puzzle over crab shells",
       "Drink again before bed"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -350,7 +352,7 @@
       }
     }
   ],
-  "plan": "Drink, then pick berries and eat them, keep some food, then rest in the hut.",
+  "plan": "Pick berries and eat, keep some in the pot, drink, then rest in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -379,10 +381,10 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 18
+      "berry": 19
     },
     "inventory": {
       "wood": 2,
@@ -972,7 +974,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1204,16 +1206,19 @@
       "glade"
     ]
   },
-  "ticks": 246,
+  "ticks": 247,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I collapsed and I am scared. Water is zero, so I must drink first, since the pond is close. Then berries at the thicket, and eat them right away. No more skipping meals. After that I rest.",
-  "face": "worried",
-  "lastThought": "2026-11-10T23:43:39.629Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "My belly is totally empty and health is low. Water is 49, okay-ish, but food is the emergency. Berry bushes are right here at the pond area, so I should forage berries now and eat them. Then drink again and rest in the hut.",
+  "face": "determined",
+  "lastThought": "2026-11-10T23:53:49.074Z",
   "foundPlace": null
 }
