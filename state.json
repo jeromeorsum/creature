@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T06:52:14.469Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-11T07:02:22.247Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-11T07:02:14.469Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-11T08:02:22.247Z",
   "needs": {
-    "fullness": 69,
-    "water": 100,
-    "energy": 7,
+    "fullness": 63,
+    "water": 99,
+    "energy": 36,
     "curiosity": 0,
-    "joy": 6,
+    "joy": 5,
     "calm": 100
   },
-  "health": 59,
+  "health": 60,
   "mood": "sleepy and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -851,7 +851,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.57,
+        "left": 0.64,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -859,7 +859,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -867,7 +867,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -875,7 +875,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -883,7 +883,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -891,7 +891,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -899,7 +899,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -907,7 +907,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.3,
+        "left": 0.37,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -945,7 +945,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -955,7 +955,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -965,7 +965,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -975,7 +975,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -985,7 +985,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.91,
+        "left": 0.98,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -995,7 +995,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1005,7 +1005,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1015,7 +1015,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1025,7 +1025,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1035,7 +1035,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1045,7 +1045,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1055,7 +1055,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1095,7 +1095,7 @@
         "res": "berries",
         "x": 23.7,
         "z": -4,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1105,7 +1105,7 @@
         "res": "berries",
         "x": 9.8,
         "z": 3.4,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1115,7 +1115,7 @@
         "res": "berries",
         "x": 7.6,
         "z": -9.9,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1125,7 +1125,7 @@
         "res": "berries",
         "x": 5,
         "z": -7.6,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1135,7 +1135,7 @@
         "res": "berries",
         "x": 5.4,
         "z": -0.7,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1145,7 +1145,7 @@
         "res": "berries",
         "x": 14.7,
         "z": 4.5,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1237,16 +1237,16 @@
       "glade"
     ]
   },
-  "ticks": 257,
+  "ticks": 258,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "My energy is a pebble at 7 and my water is only 53. Berries are mostly gone here. I should drink and then sleep, even though it's dawn and I am nocturnal, the hut is waiting. Water first, then the hut. I will eat a kept berry on the way so the pigeon cannot have it.",
+  "thought": "My energy is a flat pebble at 6, and I've just drunk. Water is 99 and belly is okay at 68. The hut is only 16m away. Sleeping is the sensible thing before anything clever. It's dawn, my sleeping time anyway. I'll nap in the hut and tend the bushes when I wake.",
   "face": "sleepy",
-  "lastThought": "2026-11-11T06:52:14.469Z",
+  "lastThought": "2026-11-11T07:02:22.247Z",
   "foundPlace": null
 }
