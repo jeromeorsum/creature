@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T00:14:12.635Z",
+  "lastUpdate": "2026-11-11T00:24:22.602Z",
   "place": "thicket",
   "spot": {
-    "x": 22.9,
-    "z": 3.5
+    "x": 15.1,
+    "z": -13.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-11T00:18:49.074Z",
+  "busyUntil": "2026-11-11T00:49:22.602Z",
   "needs": {
-    "fullness": 22,
-    "water": 47,
-    "energy": 3,
+    "fullness": 45,
+    "water": 46,
+    "energy": 0,
     "curiosity": 0,
-    "joy": 1,
+    "joy": 3,
     "calm": 93
   },
   "health": 24,
@@ -352,7 +352,7 @@
       }
     }
   ],
-  "plan": "Pick berries and eat, keep some in the pot, drink, then rest in the hut.",
+  "plan": "Eat berries, drink at pond, nap in hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -384,7 +384,7 @@
     "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 19
+      "berry": 20
     },
     "inventory": {
       "wood": 2,
@@ -974,7 +974,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -994,7 +994,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 4,
+        "left": 3,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1206,19 +1206,19 @@
       "glade"
     ]
   },
-  "ticks": 247,
+  "ticks": 248,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is totally empty and health is low. Water is 49, okay-ish, but food is the emergency. Berry bushes are right here at the pond area, so I should forage berries now and eat them. Then drink again and rest in the hut.",
+  "thought": "My belly is thin and my health is a wobbly candle. Two bushes still have berries here, and I am at the thicket already. Picking more berries and eating them is the quickest fix. Then drink, then sleep. The pigeon is around so I eat fast.",
   "face": "determined",
-  "lastThought": "2026-11-10T23:53:49.074Z",
+  "lastThought": "2026-11-11T00:24:22.602Z",
   "foundPlace": null
 }
