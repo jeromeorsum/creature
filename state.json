@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T20:09:52.537Z",
+  "lastUpdate": "2026-11-11T23:40:01.411Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-11T20:14:28.863Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-11T23:50:01.411Z",
   "needs": {
-    "fullness": 47,
-    "water": 72,
-    "energy": 85,
+    "fullness": 54,
+    "water": 47,
+    "energy": 71,
     "curiosity": 0,
-    "joy": 1,
-    "calm": 92
+    "joy": 4,
+    "calm": 78
   },
-  "health": 94,
+  "health": 100,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -401,7 +401,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 5,
+    "food": 3,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -870,7 +870,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.35,
+        "left": 1.75,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -926,7 +926,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.14,
+        "left": 1.54,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1256,19 +1256,18 @@
       "glade"
     ]
   },
-  "ticks": 265,
+  "ticks": 266,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is still only 25, so more berries first. There are plenty of bushes here with berries on them. Picking more will fill me and give me food to keep. Then reeds for fibre and the hut. Curiosity and joy are zero too, so something silly soon.",
+  "thought": "My belly is still only a quarter full, and I have five berries in my pot. The pigeon is lurking, so I should eat now before it steals them. Then reeds, then the hut. My joy and curiosity are flat pebbles, but food first.",
   "face": "determined",
-  "lastThought": "2026-11-11T19:49:28.863Z",
+  "lastThought": "2026-11-11T23:40:01.411Z",
   "foundPlace": null
 }
