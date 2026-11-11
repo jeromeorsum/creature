@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T04:59:58.298Z",
+  "lastUpdate": "2026-11-11T05:10:07.695Z",
   "place": "thicket",
   "spot": {
-    "x": 23.4,
-    "z": -9.7
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-11T05:04:32.907Z",
+  "doing": "plant seeds at the thicket",
+  "busyUntil": "2026-11-11T05:40:07.695Z",
   "needs": {
-    "fullness": 56,
-    "water": 68,
-    "energy": 38,
+    "fullness": 55,
+    "water": 67,
+    "energy": 29,
     "curiosity": 0,
-    "joy": 1,
-    "calm": 98
+    "joy": 8,
+    "calm": 100
   },
-  "health": 48,
-  "mood": "hungry but determined",
+  "health": 49,
+  "mood": "hopeful and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -352,7 +352,7 @@
       }
     }
   ],
-  "plan": "Forage berries, eat, plant berry seeds, tend bushes, then sleep.",
+  "plan": "Plant seeds, tend bushes, forage, drink, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -384,7 +384,7 @@
     "food": 1,
     "seeds": {
       "tree": 0,
-      "berry": 20
+      "berry": 17
     },
     "inventory": {
       "wood": 2,
@@ -1118,6 +1118,36 @@
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": null
+      },
+      {
+        "id": "planted78",
+        "res": "berries",
+        "x": 5,
+        "z": -7.6,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-11T05:10:07.695Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted79",
+        "res": "berries",
+        "x": 5.4,
+        "z": -0.7,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-11T05:10:07.695Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted80",
+        "res": "berries",
+        "x": 14.7,
+        "z": 4.5,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-11T05:10:07.695Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -1206,18 +1236,18 @@
       "glade"
     ]
   },
-  "ticks": 253,
+  "ticks": 254,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
+    "You planted 0 tree seeds and 3 berry seeds near the thicket. Seedlings need tending to grow."
   ],
-  "thought": "My belly is thin and health is a candle. Food first. The berry thicket is where the bushes are, and I have 20 berry seeds that I should plant so more bushes come. Forage now, eat right away, keep extras in the pot.",
+  "thought": "My belly is at 55 and there is one bush with berries left. I have 20 berry seeds sitting unused, which is silly when the bushes are nearly bare. Planting them here and tending them will make more food. Eating the single kept berry would keep the pigeon from taking it. Planting seeds is calm and joyful, and I need joy badly.",
   "face": "determined",
-  "lastThought": "2026-11-11T04:39:32.907Z",
+  "lastThought": "2026-11-11T05:10:07.695Z",
   "foundPlace": null
 }
