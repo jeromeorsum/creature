@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T18:58:26.420Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-11T19:08:38.271Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-11T19:18:38.271Z",
   "needs": {
-    "fullness": 6,
-    "water": 29,
-    "energy": 100,
+    "fullness": 5,
+    "water": 78,
+    "energy": 99,
     "curiosity": 0,
     "joy": 0,
-    "calm": 96
+    "calm": 98
   },
   "health": 93,
-  "mood": "sleepy but hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -111,20 +111,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "plan": [
       "Drink at the pond",
-      "Forage berries and eat a proper meal",
-      "Keep berries in the clay pot",
+      "Breakfast: forage berries at the thicket",
+      "Pull reeds for fibre",
+      "Finish the Cosy Hut",
       "Tend seedlings",
-      "Rest in the hut",
-      "Puzzle over crab shells",
-      "Drink again before bed"
+      "Make something silly for joy",
+      "Eat a proper dinner",
+      "Wind down before bed"
     ],
-    "done": [
-      1,
-      4
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -373,7 +371,7 @@
       }
     }
   ],
-  "plan": "Sleep, then pull reeds for fibre, repair and finish the hut, pick berries, make something fun.",
+  "plan": "Drink, eat berries, pull reeds for 3 fibre, finish the hut, then something silly.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1257,16 +1255,16 @@
       "glade"
     ]
   },
-  "ticks": 262,
+  "ticks": 263,
   "spend": {
-    "day": "2026-11-10",
+    "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is bedtime for a nocturnal Glorp. Joy and curiosity are flat, but sleep is the sensible thing. The hut lost a fibre cone to the wind; I'll fix it when I wake, after gathering fibre. For now, a nap in the hut.",
-  "face": "sleepy",
-  "lastThought": "2026-11-11T10:16:24.926Z",
+  "thought": "I woke up starving, fullness 5 and water 28. Food first. I have one berry and the thicket has seedlings growing, plus the pond is close. Drink first since it's only 10 minutes and the pond is near, then forage. Then fibre from reeds to finish the hut. My joy and curiosity are flat pebbles, so something silly later.",
+  "face": "determined",
+  "lastThought": "2026-11-11T19:08:38.271Z",
   "foundPlace": null
 }
