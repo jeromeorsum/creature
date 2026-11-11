@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T10:06:16.759Z",
+  "lastUpdate": "2026-11-11T10:16:24.926Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-11T10:16:16.759Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-11T11:16:24.926Z",
   "needs": {
-    "fullness": 63,
-    "water": 81,
-    "energy": 78,
+    "fullness": 57,
+    "water": 80,
+    "energy": 100,
     "curiosity": 0,
-    "joy": 4,
+    "joy": 3,
     "calm": 100
   },
-  "health": 74,
-  "mood": "hungry but hopeful",
+  "health": 75,
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -351,9 +351,29 @@
           7
         ]
       }
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "I spent the night recovering from near-collapse: drinking, napping, foraging and planting berry seeds so the bushes will grow back. I did not finish the hut, and the wind knocked a fibre cone off it. The pigeon stole a berry again. My joy and curiosity are very low, and I want to make something silly and gather fibre tomorrow night. I feel tired but hopeful, and I am proud I kept myself alive.",
+      "plan": {
+        "date": "2026-11-10",
+        "plan": [
+          "Drink at the pond",
+          "Forage berries and eat a proper meal",
+          "Keep berries in the clay pot",
+          "Tend seedlings",
+          "Rest in the hut",
+          "Puzzle over crab shells",
+          "Drink again before bed"
+        ],
+        "done": [
+          1,
+          4
+        ]
+      }
     }
   ],
-  "plan": "Eat, make something fun, then rest in the hut.",
+  "plan": "Sleep, then pull reeds for fibre, repair and finish the hut, pick berries, make something fun.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -851,7 +871,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.9,
+        "left": 1.97,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -859,7 +879,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -867,7 +887,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -875,7 +895,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -883,7 +903,7 @@
         "res": "berries",
         "x": 22.1,
         "z": -1,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -891,7 +911,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -899,7 +919,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -907,7 +927,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.63,
+        "left": 1.7,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -945,7 +965,7 @@
         "res": "berries",
         "x": 19.3,
         "z": 2.8,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -955,7 +975,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -965,7 +985,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -975,7 +995,7 @@
         "res": "berries",
         "x": 22.9,
         "z": 3.5,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -985,7 +1005,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.24,
+        "left": 2.31,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -995,7 +1015,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1005,7 +1025,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1015,7 +1035,7 @@
         "res": "berries",
         "x": 19.1,
         "z": -10.8,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1025,7 +1045,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1035,7 +1055,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1045,7 +1065,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1055,7 +1075,7 @@
         "res": "berries",
         "x": 23.4,
         "z": -9.7,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1095,7 +1115,7 @@
         "res": "berries",
         "x": 23.7,
         "z": -4,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1105,7 +1125,7 @@
         "res": "berries",
         "x": 9.8,
         "z": 3.4,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1115,7 +1135,7 @@
         "res": "berries",
         "x": 7.6,
         "z": -9.9,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1125,7 +1145,7 @@
         "res": "berries",
         "x": 5,
         "z": -7.6,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1135,7 +1155,7 @@
         "res": "berries",
         "x": 5.4,
         "z": -0.7,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1145,7 +1165,7 @@
         "res": "berries",
         "x": 14.7,
         "z": 4.5,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1214,11 +1234,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-06T10:19:53.850Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1237,18 +1257,16 @@
       "glade"
     ]
   },
-  "ticks": 261,
+  "ticks": 262,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My curiosity and joy are both at zero, and it is odd daytime for a nocturnal Glorp, but I woke up. Fullness is only 35 and I have 3 berries. I will eat them first, then make something silly to wake up joy.",
-  "face": "curious",
-  "lastThought": "2026-11-11T10:06:16.759Z",
+  "lastOutcome": [],
+  "thought": "It is bedtime for a nocturnal Glorp. Joy and curiosity are flat, but sleep is the sensible thing. The hut lost a fibre cone to the wind; I'll fix it when I wake, after gathering fibre. For now, a nap in the hut.",
+  "face": "sleepy",
+  "lastThought": "2026-11-11T10:16:24.926Z",
   "foundPlace": null
 }
