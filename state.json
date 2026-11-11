@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T19:39:15.934Z",
+  "lastUpdate": "2026-11-11T19:49:28.863Z",
   "place": "thicket",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": 12.9,
+    "z": -2.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-11T19:43:54.532Z",
+  "busyUntil": "2026-11-11T20:14:28.863Z",
   "needs": {
-    "fullness": 26,
-    "water": 75,
-    "energy": 92,
+    "fullness": 49,
+    "water": 74,
+    "energy": 87,
     "curiosity": 0,
-    "joy": 1,
-    "calm": 95
+    "joy": 3,
+    "calm": 94
   },
   "health": 92,
-  "mood": "hungry but hopeful",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -401,7 +401,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 5,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -870,7 +870,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -926,7 +926,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1211,7 +1211,7 @@
             "w": 0.2,
             "h": 1.4,
             "d": 2.2,
-            "placed": true
+            "placed": false
           },
           {
             "shape": "box",
@@ -1256,19 +1256,19 @@
       "glade"
     ]
   },
-  "ticks": 264,
+  "ticks": 265,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
     "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is nearly empty at 4, so food first. Berry bushes are near the pond, and I have one kept berry. Eat it now, then forage at the thicket. Then reeds for fibre and fix the hut.",
+  "thought": "My belly is still only 25, so more berries first. There are plenty of bushes here with berries on them. Picking more will fill me and give me food to keep. Then reeds for fibre and the hut. Curiosity and joy are zero too, so something silly soon.",
   "face": "determined",
-  "lastThought": "2026-11-11T19:18:54.532Z",
+  "lastThought": "2026-11-11T19:49:28.863Z",
   "foundPlace": null
 }
