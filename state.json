@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T02:57:32.957Z",
+  "lastUpdate": "2026-11-11T03:07:41.944Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,14 +10,14 @@
   "doing": "nap at the nest",
   "busyUntil": "2026-11-11T03:37:08.182Z",
   "needs": {
-    "fullness": 44,
-    "water": 81,
-    "energy": 52,
+    "fullness": 43,
+    "water": 80,
+    "energy": 51,
     "curiosity": 0,
     "joy": 0,
     "calm": 100
   },
-  "health": 39,
+  "health": 40,
   "mood": "tired but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
