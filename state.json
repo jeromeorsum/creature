@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T02:26:58.111Z",
+  "lastUpdate": "2026-11-11T02:37:08.182Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-11T02:35:52.599Z",
+  "busyUntil": "2026-11-11T03:37:08.182Z",
   "needs": {
-    "fullness": 52,
-    "water": 84,
-    "energy": 25,
+    "fullness": 46,
+    "water": 83,
+    "energy": 54,
     "curiosity": 0,
     "joy": 0,
     "calm": 100
   },
-  "health": 36,
-  "mood": "exhausted but hopeful",
+  "health": 37,
+  "mood": "tired but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -352,7 +352,7 @@
       }
     }
   ],
-  "plan": "Nap in hut, then tend berry bushes, forage, keep berries in pot.",
+  "plan": "Nap, then forage berries, eat them, tend bushes.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -381,7 +381,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1206,16 +1206,16 @@
       "glade"
     ]
   },
-  "ticks": 251,
+  "ticks": 252,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My energy is zero and my health is a small candle. Water is fine now, fullness okay-ish. The hut is 16m away and sleeping there will restore me. I eat my one kept berry first? Pigeon is not here. Better to nap now, it is the most urgent need. I will tend the bushes after waking.",
+  "thought": "The pigeon took another berry, but I have none kept anyway. My energy is 24 and my health is a candle. It is night and I am awake, but I am worn thin. Sleep in the hut is the sensible thing, then berries after. I should nap now and stop being clever.",
   "face": "sleepy",
-  "lastThought": "2026-11-11T01:35:52.599Z",
+  "lastThought": "2026-11-11T02:37:08.182Z",
   "foundPlace": null
 }
