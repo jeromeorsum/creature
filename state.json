@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T19:08:38.271Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-11T19:18:54.532Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-11T19:18:38.271Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-11T19:43:54.532Z",
   "needs": {
-    "fullness": 5,
-    "water": 78,
-    "energy": 99,
+    "fullness": 28,
+    "water": 77,
+    "energy": 94,
     "curiosity": 0,
-    "joy": 0,
-    "calm": 98
+    "joy": 3,
+    "calm": 97
   },
-  "health": 93,
+  "health": 92,
   "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -113,16 +113,17 @@
   "today": {
     "date": "2026-11-11",
     "plan": [
-      "Drink at the pond",
-      "Breakfast: forage berries at the thicket",
+      "Breakfast: forage berries",
       "Pull reeds for fibre",
       "Finish the Cosy Hut",
       "Tend seedlings",
-      "Make something silly for joy",
+      "Make something silly",
       "Eat a proper dinner",
       "Wind down before bed"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -371,7 +372,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berries, pull reeds for 3 fibre, finish the hut, then something silly.",
+  "plan": "Forage berries, pull reeds for 3 fibre, repair and finish the hut, then something silly.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -400,10 +401,10 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 0,
-      "berry": 18
+      "berry": 20
     },
     "inventory": {
       "wood": 2,
@@ -869,7 +870,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1221,7 +1222,7 @@
             "w": 2,
             "h": 1.4,
             "d": 0.2,
-            "placed": true
+            "placed": false
           },
           {
             "shape": "cone",
@@ -1255,16 +1256,19 @@
       "glade"
     ]
   },
-  "ticks": 263,
+  "ticks": 264,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up starving, fullness 5 and water 28. Food first. I have one berry and the thicket has seedlings growing, plus the pond is close. Drink first since it's only 10 minutes and the pond is near, then forage. Then fibre from reeds to finish the hut. My joy and curiosity are flat pebbles, so something silly later.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is nearly empty at 4, so food first. Berry bushes are near the pond, and I have one kept berry. Eat it now, then forage at the thicket. Then reeds for fibre and fix the hut.",
   "face": "determined",
-  "lastThought": "2026-11-11T19:08:38.271Z",
+  "lastThought": "2026-11-11T19:18:54.532Z",
   "foundPlace": null
 }
