@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T23:40:01.411Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-11T23:50:15.111Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -3.9,
+    "z": 19.8
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-11T23:50:01.411Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-12T00:15:15.111Z",
   "needs": {
-    "fullness": 54,
-    "water": 47,
-    "energy": 71,
+    "fullness": 53,
+    "water": 46,
+    "energy": 64,
     "curiosity": 0,
-    "joy": 4,
-    "calm": 78
+    "joy": 3,
+    "calm": 83
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "determined but flat",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -372,7 +372,7 @@
       }
     }
   ],
-  "plan": "Forage berries, pull reeds for 3 fibre, repair and finish the hut, then something silly.",
+  "plan": "Pull reeds, drink, finish the hut, then something silly.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -410,7 +410,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 0,
+      "fibre": 3,
       "shells": 0
     },
     "discovered": [
@@ -776,7 +776,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -870,7 +870,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.75,
+        "left": 1.82,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -926,7 +926,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.54,
+        "left": 1.61,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1256,18 +1256,18 @@
       "glade"
     ]
   },
-  "ticks": 266,
+  "ticks": 267,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You collected 3 fibre."
   ],
-  "thought": "My belly is still only a quarter full, and I have five berries in my pot. The pigeon is lurking, so I should eat now before it steals them. Then reeds, then the hut. My joy and curiosity are flat pebbles, but food first.",
+  "thought": "My belly is half full, water is half, but curiosity is zero and joy is a flat pebble. Reeds for fibre are needed for the hut anyway, and the pond is where I can drink too. Pulling reeds is calming. Then after that, something silly. Off to the pond.",
   "face": "determined",
-  "lastThought": "2026-11-11T23:40:01.411Z",
+  "lastThought": "2026-11-11T23:50:15.111Z",
   "foundPlace": null
 }
