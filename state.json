@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T00:44:47.577Z",
+  "lastUpdate": "2026-11-11T00:55:00.639Z",
   "place": "thicket",
   "spot": {
     "x": 15.1,
     "z": -13.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-11T00:49:22.602Z",
+  "busyUntil": "2026-11-11T01:20:00.639Z",
   "needs": {
-    "fullness": 43,
-    "water": 44,
+    "fullness": 66,
+    "water": 43,
     "energy": 0,
     "curiosity": 0,
-    "joy": 1,
+    "joy": 3,
     "calm": 93
   },
-  "health": 26,
+  "health": 27,
   "mood": "weak but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -994,7 +994,7 @@
         "res": "berries",
         "x": 15.1,
         "z": -13.4,
-        "left": 3,
+        "left": 1,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-04T00:25:45.996Z"
@@ -1206,19 +1206,19 @@
       "glade"
     ]
   },
-  "ticks": 248,
+  "ticks": 249,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
     "You collected 2 berries and ate 2 on the spot.",
     "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is thin and my health is a wobbly candle. Two bushes still have berries here, and I am at the thicket already. Picking more berries and eating them is the quickest fix. Then drink, then sleep. The pigeon is around so I eat fast.",
+  "thought": "My health is a wobbly candle and my energy is zero. Fullness is 42 and water 43, so food first is okay, but I am at the thicket with two bushes left with berries. Eating more here is the quickest fix, then the pond, then the hut. I will pick berries again and keep extras in the pot.",
   "face": "determined",
-  "lastThought": "2026-11-11T00:24:22.602Z",
+  "lastThought": "2026-11-11T00:55:00.639Z",
   "foundPlace": null
 }
