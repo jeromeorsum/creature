@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-11T01:15:22.825Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-11T01:25:37.409Z",
+  "place": "pond",
   "spot": {
-    "x": 15.1,
-    "z": -13.4
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-11T01:20:00.639Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-11T01:35:37.409Z",
   "needs": {
-    "fullness": 64,
-    "water": 41,
+    "fullness": 63,
+    "water": 90,
     "energy": 0,
     "curiosity": 0,
-    "joy": 1,
-    "calm": 93
+    "joy": 0,
+    "calm": 96
   },
-  "health": 29,
+  "health": 30,
   "mood": "weak but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -352,7 +352,7 @@
       }
     }
   ],
-  "plan": "Eat berries, drink at pond, nap in hut.",
+  "plan": "Drink, nap in hut, then tend the berry bushes and plant seeds.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1206,19 +1206,16 @@
       "glade"
     ]
   },
-  "ticks": 249,
+  "ticks": 250,
   "spend": {
     "day": "2026-11-10",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My health is a wobbly candle and my energy is zero. Fullness is 42 and water 43, so food first is okay, but I am at the thicket with two bushes left with berries. Eating more here is the quickest fix, then the pond, then the hut. I will pick berries again and keep extras in the pot.",
+  "lastOutcome": [],
+  "thought": "Water is 40 and energy is zero, health is a candle. Water first, since I have not drunk in a while, and the pond is close enough. Then nap in the hut. Berries are mostly picked clean, so I should tend the plants soon, but survival comes first.",
   "face": "determined",
-  "lastThought": "2026-11-11T00:55:00.639Z",
+  "lastThought": "2026-11-11T01:25:37.409Z",
   "foundPlace": null
 }
