@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T02:33:31.870Z",
+  "lastUpdate": "2026-11-12T02:43:43.872Z",
   "place": "forest",
   "spot": {
-    "x": -30,
-    "z": -12
+    "x": -34.9,
+    "z": -15.9
   },
-  "doing": "explore at the forest",
-  "busyUntil": "2026-11-12T02:43:04.129Z",
+  "doing": "collect wood at the forest",
+  "busyUntil": "2026-11-12T03:18:43.872Z",
   "needs": {
-    "fullness": 65,
-    "water": 80,
-    "energy": 21,
-    "curiosity": 20,
-    "joy": 28,
-    "calm": 80
+    "fullness": 60,
+    "water": 79,
+    "energy": 8,
+    "curiosity": 22,
+    "joy": 27,
+    "calm": 79
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "tired but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Explore the forest, collect 1 wood, finish the hut and tie it down with fibre.",
+  "plan": "Collect wood, then build the hut, tie it down with fibre, then sleep.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -411,11 +411,11 @@
     "weather": "windy",
     "food": 0,
     "seeds": {
-      "tree": 0,
+      "tree": 1,
       "berry": 20
     },
     "inventory": {
-      "wood": 2,
+      "wood": 6,
       "stone": 0,
       "clay": 0,
       "fibre": 7,
@@ -618,7 +618,8 @@
         "res": "wood",
         "x": -34.9,
         "z": -15.9,
-        "left": 4
+        "left": 0,
+        "dead": true
       },
       {
         "id": "wood14",
@@ -878,7 +879,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.94,
+        "left": 3.01,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -934,7 +935,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1264,16 +1265,19 @@
       "glade"
     ]
   },
-  "ticks": 273,
+  "ticks": 274,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a bare pebble at 4, so exploring is the thing to do. Energy is 31 and getting low, but a look around the glade costs only a little. The hut needs just 1 more wood, and the forest is where wood is. I could explore the forest closely, which feeds curiosity, and then pick up the wood I need.",
-  "face": "curious",
-  "lastThought": "2026-11-12T02:13:04.129Z",
+  "lastOutcome": [
+    "You collected 4 wood.",
+    "You also saved 1 tree seeds."
+  ],
+  "thought": "I'm in the forest and the hut needs one more wood. I have 2 wood already, so collecting wood is cheap and quick. Energy is low at 20, but gathering gives a bit of curiosity, and then I can finish the hut and sleep dry.",
+  "face": "determined",
+  "lastThought": "2026-11-12T02:43:43.872Z",
   "foundPlace": null
 }
