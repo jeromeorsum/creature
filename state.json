@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T02:43:43.872Z",
+  "lastUpdate": "2026-11-12T02:53:54.812Z",
   "place": "forest",
   "spot": {
     "x": -34.9,
@@ -10,12 +10,12 @@
   "doing": "collect wood at the forest",
   "busyUntil": "2026-11-12T03:18:43.872Z",
   "needs": {
-    "fullness": 60,
-    "water": 79,
-    "energy": 8,
-    "curiosity": 22,
-    "joy": 27,
-    "calm": 79
+    "fullness": 59,
+    "water": 78,
+    "energy": 7,
+    "curiosity": 21,
+    "joy": 26,
+    "calm": 78
   },
   "health": 100,
   "mood": "tired but determined",
@@ -879,7 +879,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -935,7 +935,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.8,
+        "left": 2.87,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
