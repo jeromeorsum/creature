@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T09:12:06.617Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-12T09:22:18.128Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-12T09:20:56.095Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-12T09:32:18.128Z",
   "needs": {
-    "fullness": 45,
-    "water": 41,
-    "energy": 68,
+    "fullness": 44,
+    "water": 90,
+    "energy": 67,
     "curiosity": 0,
-    "joy": 17,
+    "joy": 16,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1265,16 +1265,16 @@
       "glade"
     ]
   },
-  "ticks": 281,
+  "ticks": 282,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "It is morning, my sleeping time, but my curiosity is a bare pebble and my energy is only middling. A short nap would help, but curiosity zero nags me. I'll nap first in my hut, since I am nocturnal and the sun is up, then explore tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-11-12T08:20:56.095Z",
+  "thought": "Water is 40 and fullness 44, so I should drink before anything else. The pond is close. It's daytime and I'm nocturnal, but my energy is okay. Drink first, then nap in the hut. Curiosity can wait for tonight.",
+  "face": "determined",
+  "lastThought": "2026-11-12T09:22:18.128Z",
   "foundPlace": null
 }
