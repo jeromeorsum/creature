@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T02:13:04.129Z",
+  "lastUpdate": "2026-11-12T02:23:20.787Z",
   "place": "forest",
   "spot": {
     "x": -30,
@@ -10,12 +10,12 @@
   "doing": "explore at the forest",
   "busyUntil": "2026-11-12T02:43:04.129Z",
   "needs": {
-    "fullness": 67,
-    "water": 82,
-    "energy": 23,
-    "curiosity": 22,
-    "joy": 30,
-    "calm": 82
+    "fullness": 66,
+    "water": 81,
+    "energy": 22,
+    "curiosity": 21,
+    "joy": 29,
+    "calm": 81
   },
   "health": 100,
   "mood": "curious and hopeful",
@@ -878,7 +878,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.8,
+        "left": 2.87,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.59,
+        "left": 2.66,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
