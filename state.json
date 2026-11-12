@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T02:02:52.966Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-12T02:13:04.129Z",
+  "place": "forest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -30,
+    "z": -12
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-12T02:12:20.398Z",
+  "doing": "explore at the forest",
+  "busyUntil": "2026-11-12T02:43:04.129Z",
   "needs": {
-    "fullness": 68,
-    "water": 83,
-    "energy": 32,
-    "curiosity": 5,
-    "joy": 31,
-    "calm": 83
+    "fullness": 67,
+    "water": 82,
+    "energy": 23,
+    "curiosity": 22,
+    "joy": 30,
+    "calm": 82
   },
   "health": 100,
-  "mood": "silly and hopeful",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Make something silly, then collect 1 wood, then finish the hut and tie it down with fibre.",
+  "plan": "Explore the forest, collect 1 wood, finish the hut and tie it down with fibre.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -878,7 +878,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.52,
+        "left": 2.59,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1264,16 +1264,16 @@
       "glade"
     ]
   },
-  "ticks": 272,
+  "ticks": 273,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [],
-  "thought": "My curiosity is zero and joy is a flat pebble. I'm at the pond with lots of reeds and a hut that needs wood and fibre. Splashing already helped some, but a silly creation would feed curiosity and joy both. I'll make something silly: a song or dance for the pond moon. Then finish the hut.",
-  "face": "excited",
-  "lastThought": "2026-11-12T01:32:20.398Z",
+  "thought": "My curiosity is a bare pebble at 4, so exploring is the thing to do. Energy is 31 and getting low, but a look around the glade costs only a little. The hut needs just 1 more wood, and the forest is where wood is. I could explore the forest closely, which feeds curiosity, and then pick up the wood I need.",
+  "face": "curious",
+  "lastThought": "2026-11-12T02:13:04.129Z",
   "foundPlace": null
 }
