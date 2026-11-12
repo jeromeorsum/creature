@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T19:26:22.679Z",
+  "lastUpdate": "2026-11-12T19:36:28.039Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 18.4,
+    "z": -1.8
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-12T19:30:51.952Z",
+  "busyUntil": "2026-11-12T20:01:28.039Z",
   "needs": {
-    "fullness": 27,
-    "water": 31,
-    "energy": 93,
+    "fullness": 50,
+    "water": 30,
+    "energy": 88,
     "curiosity": 0,
-    "joy": 29,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -399,7 +399,7 @@
       }
     }
   ],
-  "plan": "Eat berries, drink at the pond, explore somewhere new, tend seedlings.",
+  "plan": "Eat berries, drink at the pond, explore, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -922,7 +922,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1284,18 +1284,19 @@
       "glade"
     ]
   },
-  "ticks": 287,
+  "ticks": 288,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "I woke up with a belly like an empty drum, fullness 5, and water at 33. Berries first, then a drink. My curiosity is a bare pebble, so after food I'll really explore. I'll go to the thicket and forage, guarding my beak from the pigeon.",
+  "thought": "Belly is a quarter drum and water is low, but I'm standing in the berry thicket. Eat first, always. Pick more berries, then drink at the pond, then finally explore. Curiosity is a bare pebble and rattling.",
   "face": "determined",
-  "lastThought": "2026-11-12T19:05:51.952Z",
+  "lastThought": "2026-11-12T19:36:28.039Z",
   "foundPlace": null
 }
