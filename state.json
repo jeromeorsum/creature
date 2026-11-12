@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T00:10:41.656Z",
+  "lastUpdate": "2026-11-12T00:20:55.073Z",
   "place": "pond",
   "spot": {
-    "x": -3.9,
-    "z": 19.8
+    "x": -4,
+    "z": 21
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-12T00:15:15.111Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-12T00:30:55.073Z",
   "needs": {
-    "fullness": 51,
-    "water": 44,
-    "energy": 62,
+    "fullness": 50,
+    "water": 93,
+    "energy": 61,
     "curiosity": 0,
-    "joy": 1,
-    "calm": 81
+    "joy": 0,
+    "calm": 83
   },
   "health": 100,
-  "mood": "determined but flat",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -122,7 +122,8 @@
       "Wind down before bed"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -372,7 +373,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, drink, finish the hut, then something silly.",
+  "plan": "Drink, splash in the pond, then finish the hut, then something silly.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -870,7 +871,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.96,
+        "left": 2.03,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -926,7 +927,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.75,
+        "left": 1.82,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1256,18 +1257,16 @@
       "glade"
     ]
   },
-  "ticks": 267,
+  "ticks": 268,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You collected 3 fibre."
-  ],
-  "thought": "My belly is half full, water is half, but curiosity is zero and joy is a flat pebble. Reeds for fibre are needed for the hut anyway, and the pond is where I can drink too. Pulling reeds is calming. Then after that, something silly. Off to the pond.",
+  "lastOutcome": [],
+  "thought": "Water is 43 and I am at the pond, so drinking first is sensible. Joy and curiosity are both zero, which is grim, but a drink is cheap and keeps me alive. After that I can splash a bit to wake my joy up, then fix the hut.",
   "face": "determined",
-  "lastThought": "2026-11-11T23:50:15.111Z",
+  "lastThought": "2026-11-12T00:20:55.073Z",
   "foundPlace": null
 }
