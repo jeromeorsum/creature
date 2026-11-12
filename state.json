@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T20:58:12.000Z",
+  "lastUpdate": "2026-11-12T21:08:25.922Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,11 +10,11 @@
   "doing": "explore at the glade",
   "busyUntil": "2026-11-12T21:17:55.386Z",
   "needs": {
-    "fullness": 42,
-    "water": 72,
-    "energy": 64,
-    "curiosity": 32,
-    "joy": 23,
+    "fullness": 41,
+    "water": 71,
+    "energy": 63,
+    "curiosity": 31,
+    "joy": 22,
     "calm": 100
   },
   "health": 100,
