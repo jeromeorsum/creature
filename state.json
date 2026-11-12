@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T08:10:52.713Z",
+  "lastUpdate": "2026-11-12T08:20:56.095Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-12T08:19:25.300Z",
+  "busyUntil": "2026-11-12T09:20:56.095Z",
   "needs": {
-    "fullness": 56,
-    "water": 47,
-    "energy": 44,
+    "fullness": 50,
+    "water": 46,
+    "energy": 73,
     "curiosity": 0,
-    "joy": 23,
-    "calm": 99
+    "joy": 22,
+    "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but proud",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then explore something new, then wind down.",
+  "plan": "Nap, then tonight explore somewhere new, eat and drink first.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1265,16 +1265,16 @@
       "glade"
     ]
   },
-  "ticks": 280,
+  "ticks": 281,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "My energy is a crumb and the sun is coming up, which is my bedtime since I am nocturnal. I have a real hut now, so I should go sleep in it. Curiosity is zero, but a rested Glorp explores better. I will nap at home first.",
+  "thought": "It is morning, my sleeping time, but my curiosity is a bare pebble and my energy is only middling. A short nap would help, but curiosity zero nags me. I'll nap first in my hut, since I am nocturnal and the sun is up, then explore tonight.",
   "face": "sleepy",
-  "lastThought": "2026-11-12T07:19:25.300Z",
+  "lastThought": "2026-11-12T08:20:56.095Z",
   "foundPlace": null
 }
