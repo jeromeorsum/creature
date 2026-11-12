@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T00:41:14.813Z",
+  "lastUpdate": "2026-11-12T00:51:32.190Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-12T00:51:04.779Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-12T01:01:32.190Z",
   "needs": {
-    "fullness": 48,
-    "water": 91,
-    "energy": 54,
+    "fullness": 75,
+    "water": 90,
+    "energy": 53,
     "curiosity": 0,
-    "joy": 17,
-    "calm": 85
+    "joy": 20,
+    "calm": 84
   },
   "health": 100,
-  "mood": "hopeful and splashy",
+  "mood": "indignant but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -373,7 +373,7 @@
       }
     }
   ],
-  "plan": "Drink, splash in the pond, then finish the hut, then something silly.",
+  "plan": "Eat berries, pull reeds, finish hut, then something silly.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -402,7 +402,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -871,7 +871,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.17,
+        "left": 2.24,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -927,7 +927,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.96,
+        "left": 2.03,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1257,16 +1257,18 @@
       "glade"
     ]
   },
-  "ticks": 269,
+  "ticks": 270,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "My joy and curiosity are both zero, which is a flat-pebble sort of feeling. I'm already at the pond with good water, so splashing is the obvious silly thing. Twenty minutes of splashing should wake my crest up. Then I can pull reeds and finish the hut.",
-  "face": "excited",
-  "lastThought": "2026-11-12T00:31:04.779Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "The pigeon stole a berry and stared at me, rude. My belly is only half full and my curiosity is zero. I have 2 berries left, so I eat them now before the pigeon takes more. Then I will pull reeds for fibre since I am at the pond.",
+  "face": "suspicious",
+  "lastThought": "2026-11-12T00:51:32.190Z",
   "foundPlace": null
 }
