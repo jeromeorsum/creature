@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T19:56:54.093Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-12T20:07:04.271Z",
+  "place": "pond",
   "spot": {
-    "x": 18.4,
-    "z": -1.8
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-12T20:01:28.039Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-12T20:17:04.271Z",
   "needs": {
-    "fullness": 48,
-    "water": 28,
-    "energy": 86,
+    "fullness": 47,
+    "water": 77,
+    "energy": 85,
     "curiosity": 0,
-    "joy": 29,
+    "joy": 28,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "thirsty but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -128,7 +128,9 @@
       "Watch the sky from the hill",
       "Wind down before dawn"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -399,7 +401,7 @@
       }
     }
   ],
-  "plan": "Eat berries, drink at the pond, explore, tend seedlings.",
+  "plan": "Drink, then explore, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1284,19 +1286,16 @@
       "glade"
     ]
   },
-  "ticks": 288,
+  "ticks": 289,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "Belly is a quarter drum and water is low, but I'm standing in the berry thicket. Eat first, always. Pick more berries, then drink at the pond, then finally explore. Curiosity is a bare pebble and rattling.",
+  "lastOutcome": [],
+  "thought": "My water is low at 27, and that is the urgent thing. Curiosity is zero and rattling, so after drinking I will go somewhere new. The pigeon is lurking, so I will go straight to the pond now and not leave berries around.",
   "face": "determined",
-  "lastThought": "2026-11-12T19:36:28.039Z",
+  "lastThought": "2026-11-12T20:07:04.271Z",
   "foundPlace": null
 }
