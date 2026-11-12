@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T00:20:55.073Z",
+  "lastUpdate": "2026-11-12T00:31:04.779Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-12T00:30:55.073Z",
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-12T00:51:04.779Z",
   "needs": {
-    "fullness": 50,
-    "water": 93,
-    "energy": 61,
+    "fullness": 49,
+    "water": 92,
+    "energy": 55,
     "curiosity": 0,
-    "joy": 0,
-    "calm": 83
+    "joy": 18,
+    "calm": 86
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hopeful and splashy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -871,7 +871,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.03,
+        "left": 2.1,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -927,7 +927,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1257,16 +1257,16 @@
       "glade"
     ]
   },
-  "ticks": 268,
+  "ticks": 269,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "Water is 43 and I am at the pond, so drinking first is sensible. Joy and curiosity are both zero, which is grim, but a drink is cheap and keeps me alive. After that I can splash a bit to wake my joy up, then fix the hut.",
-  "face": "determined",
-  "lastThought": "2026-11-12T00:20:55.073Z",
+  "thought": "My joy and curiosity are both zero, which is a flat-pebble sort of feeling. I'm already at the pond with good water, so splashing is the obvious silly thing. Twenty minutes of splashing should wake my crest up. Then I can pull reeds and finish the hut.",
+  "face": "excited",
+  "lastThought": "2026-11-12T00:31:04.779Z",
   "foundPlace": null
 }
