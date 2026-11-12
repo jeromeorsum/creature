@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T01:22:11.219Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-12T01:32:20.398Z",
+  "place": "meadow",
   "spot": {
-    "x": -3.5,
-    "z": 26.1
+    "x": 6,
+    "z": 10
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-12T01:26:48.155Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-12T02:12:20.398Z",
   "needs": {
-    "fullness": 72,
-    "water": 87,
-    "energy": 44,
-    "curiosity": 0,
-    "joy": 17,
-    "calm": 87
+    "fullness": 71,
+    "water": 86,
+    "energy": 35,
+    "curiosity": 8,
+    "joy": 34,
+    "calm": 86
   },
   "health": 100,
-  "mood": "stubborn but hopeful",
+  "mood": "silly and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -86,6 +86,12 @@
       "kind": "story",
       "file": "2026-11-07-the-giant-crab-in-the-log.md",
       "made": "2026-11-07T08:16:03.916Z"
+    },
+    {
+      "title": "The Reed-Bowing Moon Wobble",
+      "kind": "dance",
+      "file": "2026-11-12-the-reed-bowing-moon-wobble.md",
+      "made": "2026-11-12T01:32:20.398Z"
     }
   ],
   "concerns": [
@@ -123,7 +129,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      5
     ]
   },
   "lessons": [
@@ -373,7 +380,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, mend and finish the hut, then something silly.",
+  "plan": "Make something silly, then collect 1 wood, then finish the hut and tie it down with fibre.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -871,7 +878,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -927,7 +934,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.24,
+        "left": 2.31,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1257,18 +1264,16 @@
       "glade"
     ]
   },
-  "ticks": 271,
+  "ticks": 272,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [
-    "You collected 4 fibre."
-  ],
-  "thought": "The reeds are right here, and the hut needs fibre and wood. I have 3 fibre already and 2 wood, so pulling a few more reeds is cheap and calming. Then I can go mend the hut. My curiosity is zero though, but one thing at a time.",
-  "face": "determined",
-  "lastThought": "2026-11-12T01:01:48.155Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is zero and joy is a flat pebble. I'm at the pond with lots of reeds and a hut that needs wood and fibre. Splashing already helped some, but a silly creation would feed curiosity and joy both. I'll make something silly: a song or dance for the pond moon. Then finish the hut.",
+  "face": "excited",
+  "lastThought": "2026-11-12T01:32:20.398Z",
   "foundPlace": null
 }
