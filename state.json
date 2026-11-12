@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T09:52:48.376Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-12T10:03:03.715Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-12T10:02:48.376Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-12T11:03:03.715Z",
   "needs": {
-    "fullness": 69,
-    "water": 87,
-    "energy": 59,
+    "fullness": 63,
+    "water": 86,
+    "energy": 88,
     "curiosity": 0,
-    "joy": 35,
+    "joy": 34,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1265,18 +1265,16 @@
       "glade"
     ]
   },
-  "ticks": 284,
+  "ticks": 285,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is morning and I am nocturnal, so I should be asleep soon. Fullness is only 41, so I eat my kept berries first, with beak turned from the pigeon. Then sleep in the Cosy Hut.",
-  "face": "happy",
-  "lastThought": "2026-11-12T09:52:48.376Z",
+  "lastOutcome": [],
+  "thought": "It is daylight and I am supposed to be asleep soon. My curiosity is a bare pebble, but a short nap in the Cosy Hut is the sensible thing. Energy is 58, so a nap helps. I will go home and sleep, then explore tonight.",
+  "face": "sleepy",
+  "lastThought": "2026-11-12T10:03:03.715Z",
   "foundPlace": null
 }
