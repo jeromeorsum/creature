@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T18:55:33.303Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-12T19:05:51.952Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 16.6,
+    "z": -6
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-12T19:30:51.952Z",
   "needs": {
-    "fullness": 6,
-    "water": 34,
-    "energy": 100,
+    "fullness": 29,
+    "water": 33,
+    "energy": 95,
     "curiosity": 0,
-    "joy": 29,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and proud",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -117,22 +117,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "plan": [
-      "Breakfast: forage berries",
+      "Forage berries for breakfast",
       "Drink at the pond",
-      "Tend seedlings",
-      "Explore something new for curiosity",
-      "Eat a proper dinner",
-      "Wind down before bed"
+      "Explore somewhere new",
+      "Tend seedlings and plant seeds",
+      "Collect wood or fibre",
+      "Eat a midnight meal",
+      "Watch the sky from the hill",
+      "Wind down before dawn"
     ],
-    "done": [
-      1,
-      2,
-      5,
-      3,
-      6
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -403,7 +399,7 @@
       }
     }
   ],
-  "plan": "Sleep, then at dusk drink, eat, and explore somewhere new.",
+  "plan": "Eat berries, drink at the pond, explore somewhere new, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -432,7 +428,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1036,7 +1032,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 4,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1288,16 +1284,18 @@
       "glade"
     ]
   },
-  "ticks": 286,
+  "ticks": 287,
   "spend": {
-    "day": "2026-11-11",
+    "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 24
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "It is morning and time to sleep. My belly is decent, water is good, energy is fine, and my hut is finished. Curiosity is zero, which nags me, but tonight I will explore. I nap in my Cosy Hut now and wind down.",
-  "face": "sleepy",
-  "lastThought": "2026-11-12T10:23:33.577Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "I woke up with a belly like an empty drum, fullness 5, and water at 33. Berries first, then a drink. My curiosity is a bare pebble, so after food I'll really explore. I'll go to the thicket and forage, guarding my beak from the pigeon.",
+  "face": "determined",
+  "lastThought": "2026-11-12T19:05:51.952Z",
   "foundPlace": null
 }
