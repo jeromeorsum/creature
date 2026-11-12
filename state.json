@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T05:06:34.551Z",
+  "lastUpdate": "2026-11-12T05:16:46.907Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-12T05:10:45.382Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-12T06:16:46.907Z",
   "needs": {
-    "fullness": 36,
-    "water": 65,
-    "energy": 10,
-    "curiosity": 13,
-    "joy": 35,
-    "calm": 79
+    "fullness": 30,
+    "water": 64,
+    "energy": 39,
+    "curiosity": 12,
+    "joy": 34,
+    "calm": 89
   },
   "health": 100,
-  "mood": "determined and damp",
+  "mood": "proud and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -130,7 +130,8 @@
     "done": [
       1,
       2,
-      5
+      5,
+      3
     ]
   },
   "lessons": [
@@ -380,7 +381,7 @@
       }
     }
   ],
-  "plan": "Build the hut, then forage berries, then drink.",
+  "plan": "Nap in the hut, then forage berries, drink, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -879,7 +880,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.99,
+        "left": 4,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -935,7 +936,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.78,
+        "left": 3.85,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1265,18 +1266,18 @@
       "glade"
     ]
   },
-  "ticks": 276,
+  "ticks": 277,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [
-    "You placed 4 blocks on \"Cosy Hut\" and FINISHED it."
+    "\"Cosy Hut\" is now your home. You'll sleep there."
   ],
-  "thought": "Rain is falling and my energy is a crumb, but I have six wood and seven fibre, enough to finish the hut. A roof will fix the rain, so I build now. The hut needs 3 wood and 3 fibre. Berries come after.",
-  "face": "determined",
-  "lastThought": "2026-11-12T04:25:45.382Z",
+  "thought": "The hut is finished at last and my energy is a crumb. I'm at the nest, which is now a real dry home. Sleeping in it is the sensible thing. Berries can wait a little, but my belly is only a third full, so I'll sleep and then forage at dusk. Making it my home first would be wise.",
+  "face": "sleepy",
+  "lastThought": "2026-11-12T05:16:46.907Z",
   "foundPlace": null
 }
