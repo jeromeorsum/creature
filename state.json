@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T06:07:50.653Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-12T06:18:02.102Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-12T06:16:46.907Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-12T06:43:02.102Z",
   "needs": {
-    "fullness": 25,
-    "water": 59,
-    "energy": 34,
-    "curiosity": 7,
-    "joy": 29,
+    "fullness": 48,
+    "water": 58,
+    "energy": 29,
+    "curiosity": 6,
+    "joy": 31,
     "calm": 89
   },
   "health": 100,
-  "mood": "proud and sleepy",
+  "mood": "hungry but proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -120,10 +120,9 @@
     "date": "2026-11-11",
     "plan": [
       "Breakfast: forage berries",
-      "Pull reeds for fibre",
-      "Finish the Cosy Hut",
+      "Drink at the pond",
       "Tend seedlings",
-      "Make something silly",
+      "Explore something new for curiosity",
       "Eat a proper dinner",
       "Wind down before bed"
     ],
@@ -381,7 +380,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then forage berries, drink, tend seedlings.",
+  "plan": "Forage berries, drink, tend seedlings, eat dinner, wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -410,7 +409,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -880,7 +879,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1266,18 +1265,18 @@
       "glade"
     ]
   },
-  "ticks": 277,
+  "ticks": 278,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [
-    "\"Cosy Hut\" is now your home. You'll sleep there."
+    "You collected 4 berries and ate 2 on the spot."
   ],
-  "thought": "The hut is finished at last and my energy is a crumb. I'm at the nest, which is now a real dry home. Sleeping in it is the sensible thing. Berries can wait a little, but my belly is only a third full, so I'll sleep and then forage at dusk. Making it my home first would be wise.",
-  "face": "sleepy",
-  "lastThought": "2026-11-12T05:16:46.907Z",
+  "thought": "My belly is a quarter drum and I have no kept berries. Food first. The thicket has berries, so I go forage right away. Then drink, then tend seedlings. The hut is finished, which is lovely, but a proud Glorp still needs breakfast.",
+  "face": "determined",
+  "lastThought": "2026-11-12T06:18:02.102Z",
   "foundPlace": null
 }
