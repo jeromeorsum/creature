@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T10:13:14.160Z",
+  "lastUpdate": "2026-11-12T10:23:33.577Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-12T11:03:03.715Z",
+  "busyUntil": "2026-11-12T11:23:33.577Z",
   "needs": {
-    "fullness": 62,
-    "water": 85,
-    "energy": 87,
+    "fullness": 56,
+    "water": 84,
+    "energy": 100,
     "curiosity": 0,
-    "joy": 33,
+    "joy": 32,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "sleepy and proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -130,7 +130,8 @@
       1,
       2,
       5,
-      3
+      3,
+      6
     ]
   },
   "lessons": [
@@ -378,9 +379,31 @@
           4
         ]
       }
+    },
+    {
+      "date": "2026-11-11",
+      "summary": "I finished my Cosy Hut and slept in it while rain tapped the roof. I foraged, drank, splashed, and ate, so my belly and water are fine. I did not explore, and my curiosity is empty, which bothers me. The pigeon stayed suspiciously quiet. Tomorrow night I will explore somewhere new and tend my seedlings.",
+      "plan": {
+        "date": "2026-11-11",
+        "plan": [
+          "Breakfast: forage berries",
+          "Drink at the pond",
+          "Tend seedlings",
+          "Explore something new for curiosity",
+          "Eat a proper dinner",
+          "Wind down before bed"
+        ],
+        "done": [
+          1,
+          2,
+          5,
+          3,
+          6
+        ]
+      }
     }
   ],
-  "plan": "Nap, then tonight explore somewhere new, eat and drink first.",
+  "plan": "Sleep, then at dusk drink, eat, and explore somewhere new.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1265,16 +1288,16 @@
       "glade"
     ]
   },
-  "ticks": 285,
+  "ticks": 286,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 24
   },
   "lastOutcome": [],
-  "thought": "It is daylight and I am supposed to be asleep soon. My curiosity is a bare pebble, but a short nap in the Cosy Hut is the sensible thing. Energy is 58, so a nap helps. I will go home and sleep, then explore tonight.",
+  "thought": "It is morning and time to sleep. My belly is decent, water is good, energy is fine, and my hut is finished. Curiosity is zero, which nags me, but tonight I will explore. I nap in my Cosy Hut now and wind down.",
   "face": "sleepy",
-  "lastThought": "2026-11-12T10:03:03.715Z",
+  "lastThought": "2026-11-12T10:23:33.577Z",
   "foundPlace": null
 }
