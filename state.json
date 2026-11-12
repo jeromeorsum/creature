@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T23:11:12.441Z",
+  "lastUpdate": "2026-11-12T23:21:20.421Z",
   "place": "meadow",
   "spot": {
     "x": 6,
     "z": 10
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-12T23:20:35.523Z",
+  "doing": "pottering about at the meadow",
+  "busyUntil": null,
   "needs": {
-    "fullness": 57,
-    "water": 59,
-    "energy": 35,
-    "curiosity": 42,
-    "joy": 40,
+    "fullness": 56,
+    "water": 58,
+    "energy": 34,
+    "curiosity": 41,
+    "joy": 39,
     "calm": 98
   },
   "health": 100,
