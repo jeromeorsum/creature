@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T01:52:40.907Z",
+  "lastUpdate": "2026-11-12T02:02:52.966Z",
   "place": "meadow",
   "spot": {
     "x": 6,
@@ -10,12 +10,12 @@
   "doing": "make something at the meadow",
   "busyUntil": "2026-11-12T02:12:20.398Z",
   "needs": {
-    "fullness": 69,
-    "water": 84,
-    "energy": 33,
-    "curiosity": 6,
-    "joy": 32,
-    "calm": 84
+    "fullness": 68,
+    "water": 83,
+    "energy": 32,
+    "curiosity": 5,
+    "joy": 31,
+    "calm": 83
   },
   "health": 100,
   "mood": "silly and hopeful",
@@ -878,7 +878,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.66,
+        "left": 2.73,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -934,7 +934,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
