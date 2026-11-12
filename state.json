@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T09:42:39.690Z",
+  "lastUpdate": "2026-11-12T09:52:48.376Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-12T09:52:25.476Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-12T10:02:48.376Z",
   "needs": {
-    "fullness": 42,
-    "water": 88,
-    "energy": 60,
+    "fullness": 69,
+    "water": 87,
+    "energy": 59,
     "curiosity": 0,
-    "joy": 32,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
-  "mood": "silly and hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -409,7 +409,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1265,16 +1265,18 @@
       "glade"
     ]
   },
-  "ticks": 283,
+  "ticks": 284,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
-  "lastOutcome": [],
-  "thought": "It is morning and I am nocturnal, so I should be sleeping. My curiosity is zero and joy is low, but the pond is right here. A quick splash would help joy before I go home to nap. Energy is okay at 66. Splashing is silly and cheap, then sleep.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is morning and I am nocturnal, so I should be asleep soon. Fullness is only 41, so I eat my kept berries first, with beak turned from the pigeon. Then sleep in the Cosy Hut.",
   "face": "happy",
-  "lastThought": "2026-11-12T09:32:25.476Z",
+  "lastThought": "2026-11-12T09:52:48.376Z",
   "foundPlace": null
 }
