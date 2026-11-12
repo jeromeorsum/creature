@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T23:31:33.665Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-12T23:41:52.037Z",
+  "place": "pond",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the meadow",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-12T23:51:52.037Z",
   "needs": {
-    "fullness": 55,
-    "water": 57,
-    "energy": 33,
-    "curiosity": 40,
-    "joy": 38,
-    "calm": 98
+    "fullness": 54,
+    "water": 100,
+    "energy": 32,
+    "curiosity": 39,
+    "joy": 37,
+    "calm": 100
   },
   "health": 100,
-  "mood": "cheerful and humming",
+  "mood": "steady and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -135,7 +135,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      5
     ]
   },
   "lessons": [
@@ -407,7 +408,7 @@
       }
     }
   ],
-  "plan": "Sing at the log, then drink at the pond, then tend seedlings.",
+  "plan": "Drink at the pond, tend seedlings, forage berries, then watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1296,16 +1297,16 @@
       "glade"
     ]
   },
-  "ticks": 294,
+  "ticks": 295,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "My joy is low and energy is middling. Berries are gone, but there are bushes here. Let me do something fun and useful: make a song in the log for joy. Actually I should keep fed; fullness 60 is fine. Joy 25 is my lowest need, so I make something.",
-  "face": "happy",
-  "lastThought": "2026-11-12T22:40:35.523Z",
+  "thought": "I'm at the meadow with water 56 and fullness 54, so both are okay but sliding. The pond is 15m away and I planned to drink and tend seedlings. Drinking first is the safe lesson I learned. Then I can tend plants and forage.",
+  "face": "determined",
+  "lastThought": "2026-11-12T23:41:52.037Z",
   "foundPlace": null
 }
