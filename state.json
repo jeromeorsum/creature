@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T07:09:18.241Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-12T07:19:25.300Z",
+  "place": "nest",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-12T07:13:40.570Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-12T08:19:25.300Z",
   "needs": {
-    "fullness": 67,
-    "water": 53,
-    "energy": 20,
-    "curiosity": 1,
-    "joy": 29,
-    "calm": 89
+    "fullness": 61,
+    "water": 52,
+    "energy": 49,
+    "curiosity": 0,
+    "joy": 28,
+    "calm": 99
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy but proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Forage berries, explore something new, wind down.",
+  "plan": "Nap in the hut, then explore something new, then wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -408,7 +408,7 @@
     }
   ],
   "world": {
-    "weather": "rainy",
+    "weather": "cloudy",
     "food": 3,
     "seeds": {
       "tree": 1,
@@ -1265,18 +1265,16 @@
       "glade"
     ]
   },
-  "ticks": 279,
+  "ticks": 280,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is under half and I am standing in the berry thicket, so I should pick more berries first. Curiosity is a bare pebble, but food is more urgent. The pigeon is lurking, so I will eat plenty on the spot and keep the rest. Then I can explore later.",
-  "face": "determined",
-  "lastThought": "2026-11-12T06:48:40.570Z",
+  "lastOutcome": [],
+  "thought": "My energy is a crumb and the sun is coming up, which is my bedtime since I am nocturnal. I have a real hut now, so I should go sleep in it. Curiosity is zero, but a rested Glorp explores better. I will nap at home first.",
+  "face": "sleepy",
+  "lastThought": "2026-11-12T07:19:25.300Z",
   "foundPlace": null
 }
