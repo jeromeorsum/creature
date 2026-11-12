@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T00:51:32.190Z",
+  "lastUpdate": "2026-11-12T01:01:48.155Z",
   "place": "pond",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -3.5,
+    "z": 26.1
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-12T01:01:32.190Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-12T01:26:48.155Z",
   "needs": {
-    "fullness": 75,
-    "water": 90,
-    "energy": 53,
+    "fullness": 74,
+    "water": 89,
+    "energy": 46,
     "curiosity": 0,
-    "joy": 20,
-    "calm": 84
+    "joy": 19,
+    "calm": 89
   },
   "health": 100,
-  "mood": "indignant but hopeful",
+  "mood": "stubborn but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -373,7 +373,7 @@
       }
     }
   ],
-  "plan": "Eat berries, pull reeds, finish hut, then something silly.",
+  "plan": "Pull reeds, mend and finish the hut, then something silly.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -411,7 +411,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 3,
+      "fibre": 7,
       "shells": 0
     },
     "discovered": [
@@ -753,7 +753,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -761,7 +761,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-11-07T02:50:16.637Z"
       },
       {
@@ -871,7 +871,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.24,
+        "left": 2.31,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -927,7 +927,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.03,
+        "left": 2.1,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1201,7 +1201,7 @@
             "w": 0.2,
             "h": 1.4,
             "d": 2.2,
-            "placed": true
+            "placed": false
           },
           {
             "shape": "box",
@@ -1257,18 +1257,18 @@
       "glade"
     ]
   },
-  "ticks": 270,
+  "ticks": 271,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You collected 4 fibre."
   ],
-  "thought": "The pigeon stole a berry and stared at me, rude. My belly is only half full and my curiosity is zero. I have 2 berries left, so I eat them now before the pigeon takes more. Then I will pull reeds for fibre since I am at the pond.",
-  "face": "suspicious",
-  "lastThought": "2026-11-12T00:51:32.190Z",
+  "thought": "The reeds are right here, and the hut needs fibre and wood. I have 3 fibre already and 2 wood, so pulling a few more reeds is cheap and calming. Then I can go mend the hut. My curiosity is zero though, but one thing at a time.",
+  "face": "determined",
+  "lastThought": "2026-11-12T01:01:48.155Z",
   "foundPlace": null
 }
