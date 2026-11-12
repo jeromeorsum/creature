@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T06:38:25.898Z",
+  "lastUpdate": "2026-11-12T06:48:40.570Z",
   "place": "thicket",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": 12.9,
+    "z": -2.4
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-12T06:43:02.102Z",
+  "busyUntil": "2026-11-12T07:13:40.570Z",
   "needs": {
-    "fullness": 46,
-    "water": 56,
-    "energy": 27,
-    "curiosity": 4,
-    "joy": 29,
+    "fullness": 69,
+    "water": 55,
+    "energy": 22,
+    "curiosity": 3,
+    "joy": 31,
     "calm": 89
   },
   "health": 100,
-  "mood": "hungry but proud",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink, tend seedlings, eat dinner, wind down.",
+  "plan": "Forage berries, explore something new, wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -409,7 +409,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 2,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -935,7 +935,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.99,
+        "left": 0.99,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1265,18 +1265,18 @@
       "glade"
     ]
   },
-  "ticks": 278,
+  "ticks": 279,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
+    "You collected 3 berries and ate 2 on the spot."
   ],
-  "thought": "My belly is a quarter drum and I have no kept berries. Food first. The thicket has berries, so I go forage right away. Then drink, then tend seedlings. The hut is finished, which is lovely, but a proud Glorp still needs breakfast.",
+  "thought": "My belly is under half and I am standing in the berry thicket, so I should pick more berries first. Curiosity is a bare pebble, but food is more urgent. The pigeon is lurking, so I will eat plenty on the spot and keep the rest. Then I can explore later.",
   "face": "determined",
-  "lastThought": "2026-11-12T06:18:02.102Z",
+  "lastThought": "2026-11-12T06:48:40.570Z",
   "foundPlace": null
 }
