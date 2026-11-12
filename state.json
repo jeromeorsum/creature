@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T04:15:28.150Z",
+  "lastUpdate": "2026-11-12T04:25:45.382Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-12T04:24:29.060Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-12T05:10:45.382Z",
   "needs": {
-    "fullness": 46,
-    "water": 70,
-    "energy": 29,
-    "curiosity": 13,
-    "joy": 18,
-    "calm": 80
+    "fullness": 40,
+    "water": 69,
+    "energy": 14,
+    "curiosity": 17,
+    "joy": 39,
+    "calm": 79
   },
   "health": 100,
-  "mood": "exhausted but sensible",
+  "mood": "determined and damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Nap, then build the hut with wood and fibre, then eat berries.",
+  "plan": "Build the hut, then forage berries, then drink.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -408,17 +408,17 @@
     }
   ],
   "world": {
-    "weather": "windy",
+    "weather": "rainy",
     "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
     },
     "inventory": {
-      "wood": 6,
+      "wood": 3,
       "stone": 0,
       "clay": 0,
-      "fibre": 7,
+      "fibre": 4,
       "shells": 0
     },
     "discovered": [
@@ -879,7 +879,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.64,
+        "left": 3.71,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -935,7 +935,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1209,7 +1209,7 @@
             "w": 0.2,
             "h": 1.4,
             "d": 2.2,
-            "placed": false
+            "placed": true
           },
           {
             "shape": "box",
@@ -1220,7 +1220,7 @@
             "w": 0.2,
             "h": 1.4,
             "d": 2.2,
-            "placed": false
+            "placed": true
           },
           {
             "shape": "box",
@@ -1231,7 +1231,7 @@
             "w": 2,
             "h": 1.4,
             "d": 0.2,
-            "placed": false
+            "placed": true
           },
           {
             "shape": "cone",
@@ -1242,11 +1242,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-12T04:25:45.382Z"
       }
     ],
     "known": [
@@ -1265,16 +1265,18 @@
       "glade"
     ]
   },
-  "ticks": 275,
+  "ticks": 276,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
-  "lastOutcome": [],
-  "thought": "My energy is 4, nearly nothing. I have wood and fibre now, but building costs energy and I might collapse. Sleep first at the nest. My legs are noodles. The hut can be finished after a nap with a clear head.",
-  "face": "sleepy",
-  "lastThought": "2026-11-12T03:24:29.060Z",
+  "lastOutcome": [
+    "You placed 4 blocks on \"Cosy Hut\" and FINISHED it."
+  ],
+  "thought": "Rain is falling and my energy is a crumb, but I have six wood and seven fibre, enough to finish the hut. A roof will fix the rain, so I build now. The hut needs 3 wood and 3 fibre. Berries come after.",
+  "face": "determined",
+  "lastThought": "2026-11-12T04:25:45.382Z",
   "foundPlace": null
 }
