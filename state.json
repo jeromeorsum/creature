@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T03:14:15.343Z",
-  "place": "forest",
+  "lastUpdate": "2026-11-12T03:24:29.060Z",
+  "place": "nest",
   "spot": {
-    "x": -34.9,
-    "z": -15.9
+    "x": -8,
+    "z": 6
   },
-  "doing": "collect wood at the forest",
-  "busyUntil": "2026-11-12T03:18:43.872Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-12T04:24:29.060Z",
   "needs": {
-    "fullness": 57,
-    "water": 76,
-    "energy": 5,
-    "curiosity": 19,
-    "joy": 24,
-    "calm": 76
+    "fullness": 51,
+    "water": 75,
+    "energy": 34,
+    "curiosity": 18,
+    "joy": 23,
+    "calm": 85
   },
   "health": 100,
-  "mood": "tired but determined",
+  "mood": "exhausted but sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -380,7 +380,7 @@
       }
     }
   ],
-  "plan": "Collect wood, then build the hut, tie it down with fibre, then sleep.",
+  "plan": "Nap, then build the hut with wood and fibre, then eat berries.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -879,7 +879,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.22,
+        "left": 3.29,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -935,7 +935,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.01,
+        "left": 3.08,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1265,19 +1265,16 @@
       "glade"
     ]
   },
-  "ticks": 274,
+  "ticks": 275,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [
-    "You collected 4 wood.",
-    "You also saved 1 tree seeds."
-  ],
-  "thought": "I'm in the forest and the hut needs one more wood. I have 2 wood already, so collecting wood is cheap and quick. Energy is low at 20, but gathering gives a bit of curiosity, and then I can finish the hut and sleep dry.",
-  "face": "determined",
-  "lastThought": "2026-11-12T02:43:43.872Z",
+  "lastOutcome": [],
+  "thought": "My energy is 4, nearly nothing. I have wood and fibre now, but building costs energy and I might collapse. Sleep first at the nest. My legs are noodles. The hut can be finished after a nap with a clear head.",
+  "face": "sleepy",
+  "lastThought": "2026-11-12T03:24:29.060Z",
   "foundPlace": null
 }
