@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T20:07:04.271Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-12T20:17:16.055Z",
+  "place": "glade",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -12,
+    "z": -20
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-12T20:17:04.271Z",
+  "doing": "explore at the glade",
+  "busyUntil": "2026-11-12T20:47:16.055Z",
   "needs": {
-    "fullness": 47,
-    "water": 77,
-    "energy": 85,
-    "curiosity": 0,
-    "joy": 28,
+    "fullness": 46,
+    "water": 76,
+    "energy": 76,
+    "curiosity": 18,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but determined",
+  "mood": "determined and itchy-curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -129,7 +129,8 @@
       "Wind down before dawn"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -401,7 +402,7 @@
       }
     }
   ],
-  "plan": "Drink, then explore, then tend seedlings.",
+  "plan": "Explore the glade, then tend seedlings, then eat a midnight meal.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1286,16 +1287,16 @@
       "glade"
     ]
   },
-  "ticks": 289,
+  "ticks": 290,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [],
-  "thought": "My water is low at 27, and that is the urgent thing. Curiosity is zero and rattling, so after drinking I will go somewhere new. The pigeon is lurking, so I will go straight to the pond now and not leave berries around.",
+  "thought": "My curiosity is zero and it rattles. I have promised to explore all day and not done it. Water is fine now, energy is good. Let's go exploring for real, even though I know the whole island; looking closely at a place counts. The glade with the hollow log and crabs ties into my wish about the crabs.",
   "face": "determined",
-  "lastThought": "2026-11-12T20:07:04.271Z",
+  "lastThought": "2026-11-12T20:17:16.055Z",
   "foundPlace": null
 }
