@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T21:18:51.461Z",
+  "lastUpdate": "2026-11-12T21:28:58.024Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "eat food at the glade",
+  "busyUntil": "2026-11-12T21:38:58.024Z",
   "needs": {
-    "fullness": 40,
-    "water": 70,
-    "energy": 62,
-    "curiosity": 30,
-    "joy": 21,
+    "fullness": 67,
+    "water": 69,
+    "energy": 61,
+    "curiosity": 29,
+    "joy": 24,
     "calm": 100
   },
   "health": 100,
@@ -430,7 +430,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1286,7 +1286,7 @@
       "glade"
     ]
   },
-  "ticks": 291,
+  "ticks": 292,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
@@ -1294,7 +1294,7 @@
     "ticks": 5
   },
   "lastOutcome": [
-    "You went looking for somewhere new, but you've already been everywhere on the island. You know it all now."
+    "You ate 2 berries from your food."
   ],
   "thought": "My curiosity is a bare pebble and I'm standing in the glade with the giant log. Rather than promise again, I'll really go somewhere new. My belly is 43, so I have 3 berries and can eat later. Exploring costs a little energy, but I have 73. Let's go.",
   "face": "determined",
