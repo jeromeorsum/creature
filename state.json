@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T20:37:46.495Z",
+  "lastUpdate": "2026-11-12T20:47:55.386Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
   "doing": "explore at the glade",
-  "busyUntil": "2026-11-12T20:47:16.055Z",
+  "busyUntil": "2026-11-12T21:17:55.386Z",
   "needs": {
-    "fullness": 44,
-    "water": 74,
-    "energy": 74,
-    "curiosity": 16,
-    "joy": 25,
+    "fullness": 43,
+    "water": 73,
+    "energy": 65,
+    "curiosity": 33,
+    "joy": 24,
     "calm": 100
   },
   "health": 100,
@@ -119,12 +119,11 @@
   "today": {
     "date": "2026-11-12",
     "plan": [
-      "Forage berries for breakfast",
-      "Drink at the pond",
       "Explore somewhere new",
+      "Eat berries",
       "Tend seedlings and plant seeds",
-      "Collect wood or fibre",
-      "Eat a midnight meal",
+      "Collect fibre or wood",
+      "Drink at the pond",
       "Watch the sky from the hill",
       "Wind down before dawn"
     ],
@@ -1287,16 +1286,18 @@
       "glade"
     ]
   },
-  "ticks": 290,
+  "ticks": 291,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is zero and it rattles. I have promised to explore all day and not done it. Water is fine now, energy is good. Let's go exploring for real, even though I know the whole island; looking closely at a place counts. The glade with the hollow log and crabs ties into my wish about the crabs.",
+  "lastOutcome": [
+    "You went looking for somewhere new, but you've already been everywhere on the island. You know it all now."
+  ],
+  "thought": "My curiosity is a bare pebble and I'm standing in the glade with the giant log. Rather than promise again, I'll really go somewhere new. My belly is 43, so I have 3 berries and can eat later. Exploring costs a little energy, but I have 73. Let's go.",
   "face": "determined",
-  "lastThought": "2026-11-12T20:17:16.055Z",
+  "lastThought": "2026-11-12T20:47:55.386Z",
   "foundPlace": null
 }
