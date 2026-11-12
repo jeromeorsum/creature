@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T23:21:20.421Z",
+  "lastUpdate": "2026-11-12T23:31:33.665Z",
   "place": "meadow",
   "spot": {
     "x": 6,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the meadow",
   "busyUntil": null,
   "needs": {
-    "fullness": 56,
-    "water": 58,
-    "energy": 34,
-    "curiosity": 41,
-    "joy": 39,
+    "fullness": 55,
+    "water": 57,
+    "energy": 33,
+    "curiosity": 40,
+    "joy": 38,
     "calm": 98
   },
   "health": 100,
