@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T09:22:18.128Z",
+  "lastUpdate": "2026-11-12T09:32:25.476Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-12T09:32:18.128Z",
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-12T09:52:25.476Z",
   "needs": {
-    "fullness": 44,
-    "water": 90,
-    "energy": 67,
+    "fullness": 43,
+    "water": 89,
+    "energy": 61,
     "curiosity": 0,
-    "joy": 16,
+    "joy": 33,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "silly and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1265,16 +1265,16 @@
       "glade"
     ]
   },
-  "ticks": 282,
+  "ticks": 283,
   "spend": {
     "day": "2026-11-11",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [],
-  "thought": "Water is 40 and fullness 44, so I should drink before anything else. The pond is close. It's daytime and I'm nocturnal, but my energy is okay. Drink first, then nap in the hut. Curiosity can wait for tonight.",
-  "face": "determined",
-  "lastThought": "2026-11-12T09:22:18.128Z",
+  "thought": "It is morning and I am nocturnal, so I should be sleeping. My curiosity is zero and joy is low, but the pond is right here. A quick splash would help joy before I go home to nap. Energy is okay at 66. Splashing is silly and cheap, then sleep.",
+  "face": "happy",
+  "lastThought": "2026-11-12T09:32:25.476Z",
   "foundPlace": null
 }
