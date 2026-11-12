@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T21:28:58.024Z",
+  "lastUpdate": "2026-11-12T21:39:11.825Z",
   "place": "glade",
   "spot": {
     "x": -12,
     "z": -20
   },
-  "doing": "eat food at the glade",
-  "busyUntil": "2026-11-12T21:38:58.024Z",
+  "doing": "experiment at the glade",
+  "busyUntil": "2026-11-12T22:19:11.825Z",
   "needs": {
-    "fullness": 67,
-    "water": 69,
-    "energy": 61,
-    "curiosity": 29,
-    "joy": 24,
-    "calm": 100
+    "fullness": 66,
+    "water": 68,
+    "energy": 52,
+    "curiosity": 43,
+    "joy": 31,
+    "calm": 98
   },
   "health": 100,
-  "mood": "determined and itchy-curious",
+  "mood": "itchy-curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -401,7 +401,7 @@
       }
     }
   ],
-  "plan": "Explore the glade, then tend seedlings, then eat a midnight meal.",
+  "plan": "Experiment at the log, then drink at the pond, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -426,11 +426,15 @@
     {
       "text": "{\"what\":\"Crabs scratch marks onto shells; clacking the clacker in the order of the scratches makes a crab wave a claw back.\"}",
       "made": "2026-11-08T03:47:23.972Z"
+    },
+    {
+      "text": "{\"what\":\"Clacking the clacker backwards inside the hollow log makes the echo come back in the same backwards order, so the log repeats whatever rhythm I give it.\"}",
+      "made": "2026-11-12T21:39:11.825Z"
     }
   ],
   "world": {
-    "weather": "cloudy",
-    "food": 1,
+    "weather": "sunny",
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1286,18 +1290,16 @@
       "glade"
     ]
   },
-  "ticks": 292,
+  "ticks": 293,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My curiosity is a bare pebble and I'm standing in the glade with the giant log. Rather than promise again, I'll really go somewhere new. My belly is 43, so I have 3 berries and can eat later. Exploring costs a little energy, but I have 73. Let's go.",
-  "face": "determined",
-  "lastThought": "2026-11-12T20:47:55.386Z",
+  "lastOutcome": [],
+  "thought": "My joy is a tiny pebble and I'm at the glade with the big hollow log. I have my clacker idea and the crabs' riddle. Making something silly would lift joy and curiosity. Let me experiment with tapping the log with the clacker, since the echo is so deep. Maybe I will learn what the crabs mean.",
+  "face": "curious",
+  "lastThought": "2026-11-12T21:39:11.825Z",
   "foundPlace": null
 }
