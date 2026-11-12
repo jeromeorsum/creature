@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T22:30:19.608Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-12T22:40:35.523Z",
+  "place": "meadow",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": 6,
+    "z": 10
   },
-  "doing": "pottering about at the glade",
-  "busyUntil": null,
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-12T23:20:35.523Z",
   "needs": {
-    "fullness": 61,
-    "water": 63,
-    "energy": 47,
-    "curiosity": 38,
-    "joy": 26,
+    "fullness": 60,
+    "water": 62,
+    "energy": 38,
+    "curiosity": 45,
+    "joy": 43,
     "calm": 98
   },
   "health": 100,
-  "mood": "itchy-curious and hopeful",
+  "mood": "cheerful and humming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -92,6 +92,12 @@
       "kind": "dance",
       "file": "2026-11-12-the-reed-bowing-moon-wobble.md",
       "made": "2026-11-12T01:32:20.398Z"
+    },
+    {
+      "title": "The Log Answers Back",
+      "kind": "song",
+      "file": "2026-11-12-the-log-answers-back.md",
+      "made": "2026-11-12T22:40:35.523Z"
     }
   ],
   "concerns": [
@@ -401,7 +407,7 @@
       }
     }
   ],
-  "plan": "Experiment at the log, then drink at the pond, then tend seedlings.",
+  "plan": "Sing at the log, then drink at the pond, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1290,16 +1296,16 @@
       "glade"
     ]
   },
-  "ticks": 293,
+  "ticks": 294,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My joy is a tiny pebble and I'm at the glade with the big hollow log. I have my clacker idea and the crabs' riddle. Making something silly would lift joy and curiosity. Let me experiment with tapping the log with the clacker, since the echo is so deep. Maybe I will learn what the crabs mean.",
-  "face": "curious",
-  "lastThought": "2026-11-12T21:39:11.825Z",
+  "thought": "My joy is low and energy is middling. Berries are gone, but there are bushes here. Let me do something fun and useful: make a song in the log for joy. Actually I should keep fed; fullness 60 is fine. Joy 25 is my lowest need, so I make something.",
+  "face": "happy",
+  "lastThought": "2026-11-12T22:40:35.523Z",
   "foundPlace": null
 }
