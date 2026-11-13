@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T10:14:28.875Z",
+  "lastUpdate": "2026-11-13T10:24:41.934Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-13T10:43:53.952Z",
+  "busyUntil": "2026-11-13T11:24:41.934Z",
   "needs": {
-    "fullness": 57,
-    "water": 84,
-    "energy": 81,
-    "curiosity": 7,
-    "joy": 36,
+    "fullness": 51,
+    "water": 83,
+    "energy": 100,
+    "curiosity": 6,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
@@ -414,9 +414,32 @@
           6
         ]
       }
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "I explored, found there is no new place left, and ate, drank, splashed and watched the stars. I made a circle song about the crabs, the clacker and the log. I did not tend my seedlings or gather fibre, and my curiosity and joy stayed low. The pigeon stole one berry and then vanished, which is suspicious. Tonight I want lots of berries, tended seedlings and one real wonder. I feel sleepy and content.",
+      "plan": {
+        "date": "2026-11-12",
+        "plan": [
+          "Explore somewhere new",
+          "Eat berries",
+          "Tend seedlings and plant seeds",
+          "Collect fibre or wood",
+          "Drink at the pond",
+          "Watch the sky from the hill",
+          "Wind down before dawn"
+        ],
+        "done": [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      }
     }
   ],
-  "plan": "Nap in the hut, then tonight tend seedlings, gather fibre, and experiment with clay.",
+  "plan": "Sleep, then tonight pick many berries, tend seedlings, and find a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1306,16 +1329,16 @@
       "glade"
     ]
   },
-  "ticks": 310,
+  "ticks": 311,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 24
   },
   "lastOutcome": [],
-  "thought": "It is sunny morning and I should be asleep. Energy is middling, curiosity is a pebble. Home is 15m away. I'll go nap in the hut now like a proper nocturnal bird, and tonight chase wonders and berries.",
+  "thought": "The sun is high and it is nearly bedtime. My energy is fine, my water is full, calm is full. Curiosity is a pebble, but I can chase that tonight. I will nap in my Cosy Hut now and wake at dusk ready for berries and seedlings.",
   "face": "sleepy",
-  "lastThought": "2026-11-13T09:43:53.952Z",
+  "lastThought": "2026-11-13T10:24:41.934Z",
   "foundPlace": null
 }
