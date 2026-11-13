@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T07:10:49.994Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-13T07:20:58.947Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-13T07:19:44.192Z",
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-13T07:40:58.947Z",
   "needs": {
-    "fullness": 57,
-    "water": 52,
-    "energy": 52,
-    "curiosity": 17,
-    "joy": 14,
+    "fullness": 56,
+    "water": 51,
+    "energy": 46,
+    "curiosity": 16,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "hopeful and splashy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -410,7 +410,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then splash in the pond, tend seedlings, pick berries.",
+  "plan": "Splash, drink, then nap in the hut, then tend seedlings tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1300,16 +1300,16 @@
       "glade"
     ]
   },
-  "ticks": 304,
+  "ticks": 305,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "Dawn is here and my energy is a crumb, but my joy is a pebble. I should splash in the pond for joy first? Energy 27 is low, though. The sensible thing is a nap in my Cosy Hut, but a little joy first would help. I'll do a silly make_something... no, that costs energy. I'll nap, it is sleeping time anyway.",
-  "face": "sleepy",
-  "lastThought": "2026-11-13T06:19:44.192Z",
+  "thought": "It is dawn and I should be sleeping, since I am nocturnal. My joy and curiosity are tiny pebbles though. Splashing in the pond is close and gives a lot of joy. Then I sleep in the hut. Water is middling too, so the pond is perfect.",
+  "face": "excited",
+  "lastThought": "2026-11-13T07:20:58.947Z",
   "foundPlace": null
 }
