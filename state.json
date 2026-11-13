@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T20:38:54.039Z",
+  "lastUpdate": "2026-11-13T20:49:02.326Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-13T20:48:54.039Z",
+  "doing": "tend plants at the pond",
+  "busyUntil": "2026-11-13T21:24:02.326Z",
   "needs": {
-    "fullness": 64,
-    "water": 73,
-    "energy": 78,
+    "fullness": 63,
+    "water": 68,
+    "energy": 69,
     "curiosity": 0,
-    "joy": 31,
+    "joy": 35,
     "calm": 100
   },
-  "health": 96,
-  "mood": "thirsty but determined",
+  "health": 97,
+  "mood": "determined and calm",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -131,16 +131,16 @@
   "today": {
     "date": "2026-11-13",
     "plan": [
-      "Forage berries and eat breakfast",
       "Drink at the pond",
       "Tend seedlings",
-      "Explore or experiment for a wonder",
-      "Collect fibre and berries for the pot",
+      "Experiment for a wonder",
+      "Collect fibre and berries",
       "Splash and make something silly",
       "Eat dinner and wind down"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -435,7 +435,7 @@
       }
     }
   ],
-  "plan": "Drink, tend seedlings, then find a wonder",
+  "plan": "Tend seedlings, then experiment with clay and reeds for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -814,7 +814,7 @@
         "x": 4.9,
         "z": 27.6,
         "left": 3,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "fibre2",
@@ -822,7 +822,7 @@
         "x": -2.2,
         "z": 17.7,
         "left": 0,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "fibre3",
@@ -830,7 +830,7 @@
         "x": -3.5,
         "z": 26.1,
         "left": 2,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "fibre4",
@@ -838,7 +838,7 @@
         "x": -5.6,
         "z": 26.7,
         "left": 3,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "fibre5",
@@ -846,7 +846,7 @@
         "x": -3.9,
         "z": 19.8,
         "left": 0,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "fibre6",
@@ -854,7 +854,7 @@
         "x": 4,
         "z": 23,
         "left": 3,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "fibre7",
@@ -862,7 +862,7 @@
         "x": 4.1,
         "z": 18.6,
         "left": 3,
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "shells1",
@@ -1006,7 +1006,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "planted58",
@@ -1016,7 +1016,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "planted59",
@@ -1026,7 +1026,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-07T02:50:16.637Z"
+        "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
         "id": "planted60",
@@ -1325,16 +1325,18 @@
       "glade"
     ]
   },
-  "ticks": 315,
+  "ticks": 316,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My water is very low at 23, so drinking comes first. The pond is close. After that I'll tend the seedlings and find a wonder for my empty curiosity.",
+  "lastOutcome": [
+    "You looked after 10 plants around the pond. They'll grow for about a day."
+  ],
+  "thought": "My water is okay now, but curiosity is zero and I keep saying I'll tend the seedlings. Let me do that now, then find a wonder. Tending is calming and gives a little joy. Then maybe experiment with clay and reeds.",
   "face": "determined",
-  "lastThought": "2026-11-13T20:38:54.039Z",
+  "lastThought": "2026-11-13T20:49:02.326Z",
   "foundPlace": null
 }
