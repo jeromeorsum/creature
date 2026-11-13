@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T02:25:05.136Z",
+  "lastUpdate": "2026-11-13T02:35:14.294Z",
   "place": "nest",
   "spot": {
     "x": -14,
@@ -10,11 +10,11 @@
   "doing": "tend plants at the nest",
   "busyUntil": "2026-11-13T02:39:38.690Z",
   "needs": {
-    "fullness": 57,
-    "water": 80,
-    "energy": 34,
-    "curiosity": 23,
-    "joy": 29,
+    "fullness": 56,
+    "water": 79,
+    "energy": 33,
+    "curiosity": 22,
+    "joy": 28,
     "calm": 100
   },
   "health": 100,
