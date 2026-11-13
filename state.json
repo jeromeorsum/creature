@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T07:41:22.726Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-13T07:51:41.756Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-13T07:51:22.726Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-13T08:51:41.756Z",
   "needs": {
-    "fullness": 54,
-    "water": 99,
-    "energy": 44,
-    "curiosity": 14,
-    "joy": 29,
+    "fullness": 48,
+    "water": 98,
+    "energy": 73,
+    "curiosity": 13,
+    "joy": 28,
     "calm": 100
   },
   "health": 100,
-  "mood": "splashy and sensible",
+  "mood": "sleepy and sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -410,7 +410,7 @@
       }
     }
   ],
-  "plan": "Drink, nap in the hut, then tend seedlings and explore tonight.",
+  "plan": "Nap in the hut, then tonight tend seedlings, gather fibre, and experiment with clay.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1300,16 +1300,16 @@
       "glade"
     ]
   },
-  "ticks": 306,
+  "ticks": 307,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "Water is only 49 and I'm at the pond, so drinking first is the sensible thing. Then I'll sleep in the hut since it's morning and I'm nocturnal. Curiosity is low but I can fix that later tonight.",
-  "face": "happy",
-  "lastThought": "2026-11-13T07:41:22.726Z",
+  "thought": "It is dawn and I should be asleep. Water is full, energy is 43, and curiosity is a pebble. The pond is right here, so I could dig clay for a pot or pull reeds, but sleep is the sensible choice. Still, curiosity is 13, so a short experiment with clay and reeds might feed it. I'm nocturnal, so I'll sleep now and save wonder for tonight. Nap at the hut.",
+  "face": "sleepy",
+  "lastThought": "2026-11-13T07:51:41.756Z",
   "foundPlace": null
 }
