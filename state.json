@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T09:33:42.848Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-13T09:43:53.952Z",
+  "place": "nest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the meadow",
-  "busyUntil": "2026-11-13T09:43:42.848Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-13T10:43:53.952Z",
   "needs": {
-    "fullness": 66,
-    "water": 88,
-    "energy": 55,
-    "curiosity": 11,
-    "joy": 40,
+    "fullness": 60,
+    "water": 87,
+    "energy": 84,
+    "curiosity": 10,
+    "joy": 39,
     "calm": 100
   },
   "health": 100,
@@ -1306,18 +1306,16 @@
       "glade"
     ]
   },
-  "ticks": 309,
+  "ticks": 310,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is morning and I should be asleep, but my belly is only 38 and I have two berries. The pigeon is nowhere. Sleeping hungry is bad, and the berry bushes are right here. I'll eat my kept berries, then go to bed in the hut.",
+  "lastOutcome": [],
+  "thought": "It is sunny morning and I should be asleep. Energy is middling, curiosity is a pebble. Home is 15m away. I'll go nap in the hut now like a proper nocturnal bird, and tonight chase wonders and berries.",
   "face": "sleepy",
-  "lastThought": "2026-11-13T09:33:42.848Z",
+  "lastThought": "2026-11-13T09:43:53.952Z",
   "foundPlace": null
 }
