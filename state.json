@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T03:05:54.763Z",
+  "lastUpdate": "2026-11-13T03:16:09.683Z",
   "place": "hill",
   "spot": {
     "x": 30,
@@ -10,11 +10,11 @@
   "doing": "watch the sky at the hill",
   "busyUntil": "2026-11-13T03:35:54.763Z",
   "needs": {
-    "fullness": 67,
-    "water": 76,
-    "energy": 28,
-    "curiosity": 23,
-    "joy": 35,
+    "fullness": 66,
+    "water": 75,
+    "energy": 27,
+    "curiosity": 22,
+    "joy": 34,
     "calm": 100
   },
   "health": 100,
