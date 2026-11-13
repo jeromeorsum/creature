@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T21:19:42.918Z",
+  "lastUpdate": "2026-11-13T21:29:55.151Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "tend plants at the pond",
-  "busyUntil": "2026-11-13T21:24:02.326Z",
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-13T22:09:55.151Z",
   "needs": {
-    "fullness": 60,
-    "water": 65,
-    "energy": 66,
-    "curiosity": 0,
-    "joy": 32,
-    "calm": 100
+    "fullness": 59,
+    "water": 64,
+    "energy": 57,
+    "curiosity": 15,
+    "joy": 39,
+    "calm": 98
   },
   "health": 100,
-  "mood": "determined and calm",
+  "mood": "curious and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -140,7 +140,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -435,7 +436,7 @@
       }
     }
   ],
-  "plan": "Tend seedlings, then experiment with clay and reeds for a wonder",
+  "plan": "Experiment with reeds, then gather berries, splash, eat dinner",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -464,6 +465,10 @@
     {
       "text": "{\"what\":\"Clacking the clacker backwards inside the hollow log makes the echo come back in the same backwards order, so the log repeats whatever rhythm I give it.\"}",
       "made": "2026-11-12T21:39:11.825Z"
+    },
+    {
+      "text": "{\"what\":\"Reeds of different lengths bound side by side with fibre hum different notes when the wind blows across their tops.\",\"about\":\"wind reeds\"}",
+      "made": "2026-11-13T21:29:55.151Z"
     }
   ],
   "world": {
@@ -821,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.15,
+        "left": 0.2,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -829,7 +834,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.15,
+        "left": 2.2,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -845,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.15,
+        "left": 0.2,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1325,18 +1330,16 @@
       "glade"
     ]
   },
-  "ticks": 316,
+  "ticks": 317,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You looked after 10 plants around the pond. They'll grow for about a day."
-  ],
-  "thought": "My water is okay now, but curiosity is zero and I keep saying I'll tend the seedlings. Let me do that now, then find a wonder. Tending is calming and gives a little joy. Then maybe experiment with clay and reeds.",
-  "face": "determined",
-  "lastThought": "2026-11-13T20:49:02.326Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is zero, and the whole island is explored, so I need a wonder from experimenting. I have clay, reeds and fibre right here at the pond. I have no clay in hand, but the bank is sticky. I'll try an experiment with the pond water, reeds and fibre to see what happens, maybe a reed whistle that sings in the wind. The wind is blowing, so it might hum.",
+  "face": "curious",
+  "lastThought": "2026-11-13T21:29:55.151Z",
   "foundPlace": null
 }
