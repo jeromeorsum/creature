@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T23:42:49.406Z",
+  "lastUpdate": "2026-11-13T23:52:59.032Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the cliffs",
   "busyUntil": null,
   "needs": {
-    "fullness": 43,
-    "water": 48,
-    "energy": 32,
-    "curiosity": 38,
-    "joy": 36,
+    "fullness": 42,
+    "water": 47,
+    "energy": 31,
+    "curiosity": 37,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.85,
+        "left": 0.9,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -834,7 +834,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.85,
+        "left": 2.9,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.85,
+        "left": 0.9,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
