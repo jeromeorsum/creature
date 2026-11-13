@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T02:45:28.942Z",
+  "lastUpdate": "2026-11-13T02:55:36.532Z",
   "place": "nest",
   "spot": {
     "x": -14,
     "z": 6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-13T03:05:36.532Z",
   "needs": {
-    "fullness": 55,
-    "water": 78,
-    "energy": 32,
-    "curiosity": 21,
-    "joy": 27,
+    "fullness": 68,
+    "water": 77,
+    "energy": 31,
+    "curiosity": 20,
+    "joy": 30,
     "calm": 100
   },
   "health": 100,
-  "mood": "gentle and hopeful",
+  "mood": "indignant but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -408,7 +408,7 @@
       }
     }
   ],
-  "plan": "Tend seedlings, then drink, then watch the sky from the hill, then nap before dawn.",
+  "plan": "Eat last berry, watch the sky from the hill, then nap before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -441,7 +441,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1298,18 +1298,18 @@
       "glade"
     ]
   },
-  "ticks": 298,
+  "ticks": 299,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
   "lastOutcome": [
-    "You looked after 1 plants around the nest. They'll grow for about a day."
+    "You ate 1 berries from your food."
   ],
-  "thought": "My energy is only 44 and I'm at the nest by the hut. Napping again would help, but my joy and curiosity are low and seedlings need tending. A short tend of the seedlings near the nest is gentle, calming and cheerful. I'll do that, then drink and watch the sky later.",
-  "face": "happy",
-  "lastThought": "2026-11-13T02:04:38.690Z",
+  "thought": "The pigeon took a berry and stared at me. Rude! I have only one berry left, so I eat it now before it gets that too. My curiosity is low at 20, so after this I will explore the hill and watch the sky, which also calms me. Energy is 31, so a nap before dawn is wise.",
+  "face": "grumpy",
+  "lastThought": "2026-11-13T02:55:36.532Z",
   "foundPlace": null
 }
