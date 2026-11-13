@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T02:35:14.294Z",
+  "lastUpdate": "2026-11-13T02:45:28.942Z",
   "place": "nest",
   "spot": {
     "x": -14,
     "z": 6
   },
-  "doing": "tend plants at the nest",
-  "busyUntil": "2026-11-13T02:39:38.690Z",
+  "doing": "pottering about at the nest",
+  "busyUntil": null,
   "needs": {
-    "fullness": 56,
-    "water": 79,
-    "energy": 33,
-    "curiosity": 22,
-    "joy": 28,
+    "fullness": 55,
+    "water": 78,
+    "energy": 32,
+    "curiosity": 21,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
