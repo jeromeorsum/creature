@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T05:28:43.974Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-13T05:38:50.989Z",
+  "place": "thicket",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": 14.1,
+    "z": -7.3
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-13T06:03:50.989Z",
   "needs": {
-    "fullness": 48,
-    "water": 62,
-    "energy": 36,
-    "curiosity": 27,
-    "joy": 21,
+    "fullness": 71,
+    "water": 61,
+    "energy": 31,
+    "curiosity": 26,
+    "joy": 23,
     "calm": 100
   },
   "health": 100,
-  "mood": "restless and hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -410,7 +410,7 @@
       }
     }
   ],
-  "plan": "Explore somewhere new, then forage berries, tend seedlings, nap in the hut.",
+  "plan": "Forage berries, tend seedlings, nap in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -443,7 +443,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -930,7 +930,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1018,7 +1018,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1300,18 +1300,19 @@
       "glade"
     ]
   },
-  "ticks": 302,
+  "ticks": 303,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [
-    "You went looking for somewhere new, but you've already been everywhere on the island. You know it all now."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "My curiosity is a bare pebble and my belly is only half full with no kept berries. It's 4:37, still dark, and I'm awake through the night. I should go somewhere new and look for wonder, since exploring gives the most curiosity. The seedlings can wait a bit, but I'll tend them soon. Then berries before sleep at 11am.",
-  "face": "curious",
-  "lastThought": "2026-11-13T04:37:44.330Z",
+  "thought": "My belly is only half full and I have no kept berries. Dawn is near, but food first. The thicket has plenty of berries, so I will go forage, eating quickly with my beak turned from the pigeon. Then I can tend seedlings and sleep in the hut.",
+  "face": "determined",
+  "lastThought": "2026-11-13T05:38:50.989Z",
   "foundPlace": null
 }
