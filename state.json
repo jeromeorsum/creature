@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T23:01:53.983Z",
+  "lastUpdate": "2026-11-13T23:12:02.371Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "listen to the seabirds and wind on the cliff ledges (at the cliffs)",
+  "busyUntil": "2026-11-13T23:42:02.371Z",
   "needs": {
-    "fullness": 50,
-    "water": 55,
-    "energy": 40,
-    "curiosity": 24,
-    "joy": 30,
-    "calm": 98
+    "fullness": 46,
+    "water": 51,
+    "energy": 35,
+    "curiosity": 41,
+    "joy": 39,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and restless",
+  "mood": "curious and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.65,
+        "left": 0.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -834,7 +834,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.65,
+        "left": 2.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.65,
+        "left": 0.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1330,16 +1330,18 @@
       "glade"
     ]
   },
-  "ticks": 318,
+  "ticks": 319,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is very low, only 11. The wind reeds worked, so that was a wonder, but I want more. The tallest thing I haven't tried is playing the reed pipes properly. A fresh experiment with the wind and the reeds should fill the pebble. I'll explore the cliffs where the wind is strong and see how it sings through things.",
-  "face": "curious",
-  "lastThought": "2026-11-13T22:10:46.825Z",
+  "lastOutcome": [
+    "You did your own thing: listen to the seabirds and wind on the cliff ledges."
+  ],
+  "thought": "I'm at the cliffs with a curiosity pebble. Wind is howling across the rocks and the seabirds are muttering on their ledges. I want to explore here properly, a wonder close up, before heading back for water and berries. My belly is half full so it's fine for now.",
+  "face": "excited",
+  "lastThought": "2026-11-13T23:12:02.371Z",
   "foundPlace": null
 }
