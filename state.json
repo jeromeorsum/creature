@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T19:27:21.710Z",
+  "lastUpdate": "2026-11-13T19:37:35.677Z",
   "place": "thicket",
   "spot": {
     "x": 18.8,
     "z": -5.9
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-13T19:31:58.210Z",
+  "busyUntil": "2026-11-13T20:02:35.677Z",
   "needs": {
-    "fullness": 23,
-    "water": 30,
-    "energy": 93,
+    "fullness": 46,
+    "water": 29,
+    "energy": 88,
     "curiosity": 0,
-    "joy": 32,
+    "joy": 34,
     "calm": 100
   },
   "health": 96,
-  "mood": "hungry but hopeful",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -465,7 +465,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "windy",
     "food": 1,
     "seeds": {
       "tree": 1,
@@ -977,7 +977,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3,
+        "left": 1,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1323,19 +1323,18 @@
       "glade"
     ]
   },
-  "ticks": 312,
+  "ticks": 313,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You collected 2 berries and ate 2 on the spot."
   ],
-  "thought": "I woke up starving, fullness 1. Berries first, before anything else. The thicket has plenty. Then drink since water is 32, then tend seedlings and find a wonder for my empty curiosity.",
+  "thought": "My belly is only 22 and water is 29, so food first. I just picked berries and ate some, and there are still many bushes here. Picking more fills me and gives me kept food. Then the pond for a drink. Curiosity is zero, so a wonder comes after.",
   "face": "determined",
-  "lastThought": "2026-11-13T19:06:58.210Z",
+  "lastThought": "2026-11-13T19:37:35.677Z",
   "foundPlace": null
 }
