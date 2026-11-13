@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-12T23:51:56.044Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-13T00:02:09.890Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-13T00:27:09.890Z",
   "needs": {
-    "fullness": 53,
-    "water": 99,
-    "energy": 31,
-    "curiosity": 38,
-    "joy": 36,
+    "fullness": 76,
+    "water": 98,
+    "energy": 26,
+    "curiosity": 37,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "steady and thirsty",
+  "mood": "hungry but steady",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -408,7 +408,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, tend seedlings, forage berries, then watch the sky.",
+  "plan": "Forage berries, tend seedlings, watch the sky, nap before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -441,7 +441,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -927,7 +927,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -935,7 +935,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1297,16 +1297,18 @@
       "glade"
     ]
   },
-  "ticks": 295,
+  "ticks": 296,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "I'm at the meadow with water 56 and fullness 54, so both are okay but sliding. The pond is 15m away and I planned to drink and tend seedlings. Drinking first is the safe lesson I learned. Then I can tend plants and forage.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "Water is full, but my belly is only half and I have no kept food. Meal time. Berries are in the thicket, so I forage and eat. Energy is lowish too, so I should not do anything too heavy. Then tend the seedlings.",
   "face": "determined",
-  "lastThought": "2026-11-12T23:41:52.037Z",
+  "lastThought": "2026-11-13T00:02:09.890Z",
   "foundPlace": null
 }
