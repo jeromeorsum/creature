@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T19:58:13.937Z",
+  "lastUpdate": "2026-11-13T20:08:16.534Z",
   "place": "thicket",
   "spot": {
-    "x": 18.8,
-    "z": -5.9
+    "x": 16.1,
+    "z": 2.2
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-13T20:02:35.677Z",
+  "busyUntil": "2026-11-13T20:33:16.534Z",
   "needs": {
-    "fullness": 44,
-    "water": 27,
-    "energy": 86,
+    "fullness": 67,
+    "water": 26,
+    "energy": 81,
     "curiosity": 0,
-    "joy": 32,
+    "joy": 34,
     "calm": 100
   },
   "health": 96,
@@ -433,7 +433,7 @@
       }
     }
   ],
-  "plan": "Eat berries, drink, tend seedlings, then find a wonder",
+  "plan": "Pick berries, drink, tend seedlings, then find a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -466,7 +466,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -977,7 +977,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1131,7 +1131,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1323,18 +1323,19 @@
       "glade"
     ]
   },
-  "ticks": 313,
+  "ticks": 314,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is only 22 and water is 29, so food first. I just picked berries and ate some, and there are still many bushes here. Picking more fills me and gives me kept food. Then the pond for a drink. Curiosity is zero, so a wonder comes after.",
+  "thought": "Water is at 26, which is lower than my belly, and the pond is the sensible next stop. I have only one berry kept, so I should eat more here first. But thirst bites harder. My curiosity is empty too, so after drinking I will find a wonder. For now, pick berries once more, then go drink.",
   "face": "determined",
-  "lastThought": "2026-11-13T19:37:35.677Z",
+  "lastThought": "2026-11-13T20:08:16.534Z",
   "foundPlace": null
 }
