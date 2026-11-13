@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T01:54:30.659Z",
+  "lastUpdate": "2026-11-13T02:04:38.690Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-13T02:03:27.394Z",
+  "doing": "tend plants at the nest",
+  "busyUntil": "2026-11-13T02:39:38.690Z",
   "needs": {
-    "fullness": 60,
-    "water": 87,
-    "energy": 45,
-    "curiosity": 26,
-    "joy": 27,
+    "fullness": 59,
+    "water": 82,
+    "energy": 36,
+    "curiosity": 25,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but steady",
+  "mood": "gentle and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -408,7 +408,7 @@
       }
     }
   ],
-  "plan": "Nap, then tend seedlings, watch the sky from the hill, drink.",
+  "plan": "Tend seedlings, then drink, then watch the sky from the hill, then nap before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -635,7 +635,8 @@
         "res": "wood",
         "x": -22.4,
         "z": -5.1,
-        "left": 4
+        "left": 4,
+        "tendedUntil": "2026-11-14T02:04:38.690Z"
       },
       {
         "id": "wood12",
@@ -1297,16 +1298,18 @@
       "glade"
     ]
   },
-  "ticks": 297,
+  "ticks": 298,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [],
-  "thought": "My energy is very low at 20, and it's the middle of my night. Belly is okay, water great. I should eat a bit, but energy matters most. A nap in the Cosy Hut gives energy. Seedlings can wait; I need sleep or I will wobble over. Nap now, then tend seedlings.",
-  "face": "sleepy",
-  "lastThought": "2026-11-13T01:03:27.394Z",
+  "lastOutcome": [
+    "You looked after 1 plants around the nest. They'll grow for about a day."
+  ],
+  "thought": "My energy is only 44 and I'm at the nest by the hut. Napping again would help, but my joy and curiosity are low and seedlings need tending. A short tend of the seedlings near the nest is gentle, calming and cheerful. I'll do that, then drink and watch the sky later.",
+  "face": "happy",
+  "lastThought": "2026-11-13T02:04:38.690Z",
   "foundPlace": null
 }
