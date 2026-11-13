@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T08:42:37.504Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-13T08:52:50.753Z",
+  "place": "meadow",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 6,
+    "z": 10
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-13T08:51:41.756Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-13T09:32:50.753Z",
   "needs": {
-    "fullness": 43,
-    "water": 93,
-    "energy": 68,
-    "curiosity": 8,
-    "joy": 23,
+    "fullness": 42,
+    "water": 92,
+    "energy": 59,
+    "curiosity": 15,
+    "joy": 40,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and sensible",
+  "mood": "playful and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -98,6 +98,12 @@
       "kind": "song",
       "file": "2026-11-12-the-log-answers-back.md",
       "made": "2026-11-12T22:40:35.523Z"
+    },
+    {
+      "title": "The Round of Clacks",
+      "kind": "song",
+      "file": "2026-11-13-the-round-of-clacks.md",
+      "made": "2026-11-13T08:52:50.753Z"
     }
   ],
   "concerns": [
@@ -1300,16 +1306,16 @@
       "glade"
     ]
   },
-  "ticks": 307,
+  "ticks": 308,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I should be asleep. Water is full, energy is 43, and curiosity is a pebble. The pond is right here, so I could dig clay for a pot or pull reeds, but sleep is the sensible choice. Still, curiosity is 13, so a short experiment with clay and reeds might feed it. I'm nocturnal, so I'll sleep now and save wonder for tonight. Nap at the hut.",
-  "face": "sleepy",
-  "lastThought": "2026-11-13T07:51:41.756Z",
+  "thought": "It is morning and I should be asleep, but my curiosity is a bare pebble and my joy is low. Energy is okay at 67. I can make something silly, which lifts joy and curiosity both, then sleep in the hut. A little song about the clacker and the log sounds good.",
+  "face": "happy",
+  "lastThought": "2026-11-13T08:52:50.753Z",
   "foundPlace": null
 }
