@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T06:09:30.969Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-13T06:19:44.192Z",
+  "place": "nest",
   "spot": {
-    "x": 14.1,
-    "z": -7.3
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-13T07:19:44.192Z",
   "needs": {
-    "fullness": 68,
-    "water": 58,
-    "energy": 28,
-    "curiosity": 23,
-    "joy": 20,
+    "fullness": 62,
+    "water": 57,
+    "energy": 57,
+    "curiosity": 22,
+    "joy": 19,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -410,7 +410,7 @@
       }
     }
   ],
-  "plan": "Forage berries, tend seedlings, nap in the hut.",
+  "plan": "Nap in the hut, then splash in the pond, tend seedlings, pick berries.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1300,19 +1300,16 @@
       "glade"
     ]
   },
-  "ticks": 303,
+  "ticks": 304,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is only half full and I have no kept berries. Dawn is near, but food first. The thicket has plenty of berries, so I will go forage, eating quickly with my beak turned from the pigeon. Then I can tend seedlings and sleep in the hut.",
-  "face": "determined",
-  "lastThought": "2026-11-13T05:38:50.989Z",
+  "lastOutcome": [],
+  "thought": "Dawn is here and my energy is a crumb, but my joy is a pebble. I should splash in the pond for joy first? Energy 27 is low, though. The sensible thing is a nap in my Cosy Hut, but a little joy first would help. I'll do a silly make_something... no, that costs energy. I'll nap, it is sleeping time anyway.",
+  "face": "sleepy",
+  "lastThought": "2026-11-13T06:19:44.192Z",
   "foundPlace": null
 }
