@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T22:00:33.977Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-13T22:10:46.825Z",
+  "place": "cliffs",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -35,
+    "z": 4
   },
-  "doing": "experiment at the pond",
-  "busyUntil": "2026-11-13T22:09:55.151Z",
+  "doing": "explore at the cliffs",
+  "busyUntil": "2026-11-13T22:40:46.825Z",
   "needs": {
-    "fullness": 56,
-    "water": 61,
-    "energy": 54,
-    "curiosity": 12,
-    "joy": 36,
+    "fullness": 55,
+    "water": 60,
+    "energy": 45,
+    "curiosity": 29,
+    "joy": 35,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "curious and restless",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -436,7 +436,7 @@
       }
     }
   ],
-  "plan": "Experiment with reeds, then gather berries, splash, eat dinner",
+  "plan": "Explore the cliffs, then eat berries, drink, splash, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.35,
+        "left": 0.4,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -834,7 +834,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.35,
+        "left": 2.4,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.35,
+        "left": 0.4,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1330,16 +1330,16 @@
       "glade"
     ]
   },
-  "ticks": 317,
+  "ticks": 318,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My curiosity is zero, and the whole island is explored, so I need a wonder from experimenting. I have clay, reeds and fibre right here at the pond. I have no clay in hand, but the bank is sticky. I'll try an experiment with the pond water, reeds and fibre to see what happens, maybe a reed whistle that sings in the wind. The wind is blowing, so it might hum.",
+  "thought": "My curiosity is very low, only 11. The wind reeds worked, so that was a wonder, but I want more. The tallest thing I haven't tried is playing the reed pipes properly. A fresh experiment with the wind and the reeds should fill the pebble. I'll explore the cliffs where the wind is strong and see how it sings through things.",
   "face": "curious",
-  "lastThought": "2026-11-13T21:29:55.151Z",
+  "lastThought": "2026-11-13T22:10:46.825Z",
   "foundPlace": null
 }
