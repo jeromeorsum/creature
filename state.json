@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T03:26:22.154Z",
-  "place": "hill",
+  "lastUpdate": "2026-11-13T03:36:31.461Z",
+  "place": "nest",
   "spot": {
-    "x": 30,
-    "z": 18
+    "x": -8,
+    "z": 6
   },
-  "doing": "watch the sky at the hill",
-  "busyUntil": "2026-11-13T03:35:54.763Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-13T04:36:31.461Z",
   "needs": {
-    "fullness": 65,
-    "water": 74,
-    "energy": 26,
-    "curiosity": 21,
-    "joy": 33,
+    "fullness": 59,
+    "water": 73,
+    "energy": 55,
+    "curiosity": 20,
+    "joy": 32,
     "calm": 100
   },
   "health": 100,
-  "mood": "indignant but hopeful",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -137,7 +137,8 @@
       1,
       2,
       5,
-      6
+      6,
+      7
     ]
   },
   "lessons": [
@@ -1299,16 +1300,16 @@
       "glade"
     ]
   },
-  "ticks": 300,
+  "ticks": 301,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a bare pebble and my energy is low. The pigeon just stole a berry and I'm still indignant. Watching the sky from the hill is calming and gives a little curiosity, and the stars are out. I'll go there and look at the night, then nap before dawn.",
-  "face": "curious",
-  "lastThought": "2026-11-13T03:05:54.763Z",
+  "thought": "My energy is a tiny crumb and it is nearly dawn, which for a nocturnal bird means bedtime soon. The stars cooled my feathers nicely. I will go home to the Cosy Hut and nap. Curiosity is low, but sleep first; tomorrow night I explore properly.",
+  "face": "sleepy",
+  "lastThought": "2026-11-13T03:36:31.461Z",
   "foundPlace": null
 }
