@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T07:31:12.704Z",
+  "lastUpdate": "2026-11-13T07:41:22.726Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-13T07:40:58.947Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-13T07:51:22.726Z",
   "needs": {
-    "fullness": 55,
-    "water": 50,
-    "energy": 45,
-    "curiosity": 15,
-    "joy": 30,
+    "fullness": 54,
+    "water": 99,
+    "energy": 44,
+    "curiosity": 14,
+    "joy": 29,
     "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and splashy",
+  "mood": "splashy and sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -410,7 +410,7 @@
       }
     }
   ],
-  "plan": "Splash, drink, then nap in the hut, then tend seedlings tonight.",
+  "plan": "Drink, nap in the hut, then tend seedlings and explore tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1300,16 +1300,16 @@
       "glade"
     ]
   },
-  "ticks": 305,
+  "ticks": 306,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I should be sleeping, since I am nocturnal. My joy and curiosity are tiny pebbles though. Splashing in the pond is close and gives a lot of joy. Then I sleep in the hut. Water is middling too, so the pond is perfect.",
-  "face": "excited",
-  "lastThought": "2026-11-13T07:20:58.947Z",
+  "thought": "Water is only 49 and I'm at the pond, so drinking first is the sensible thing. Then I'll sleep in the hut since it's morning and I'm nocturnal. Curiosity is low but I can fix that later tonight.",
+  "face": "happy",
+  "lastThought": "2026-11-13T07:41:22.726Z",
   "foundPlace": null
 }
