@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T02:55:36.532Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-13T03:05:54.763Z",
+  "place": "hill",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": 30,
+    "z": 18
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-13T03:05:36.532Z",
+  "doing": "watch the sky at the hill",
+  "busyUntil": "2026-11-13T03:35:54.763Z",
   "needs": {
-    "fullness": 68,
-    "water": 77,
-    "energy": 31,
-    "curiosity": 20,
-    "joy": 30,
+    "fullness": 67,
+    "water": 76,
+    "energy": 28,
+    "curiosity": 23,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
@@ -136,7 +136,8 @@
     "done": [
       1,
       2,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -408,7 +409,7 @@
       }
     }
   ],
-  "plan": "Eat last berry, watch the sky from the hill, then nap before dawn.",
+  "plan": "Watch the sky from the hill, then nap in the hut before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1298,18 +1299,16 @@
       "glade"
     ]
   },
-  "ticks": 299,
+  "ticks": 300,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [
-    "You ate 1 berries from your food."
-  ],
-  "thought": "The pigeon took a berry and stared at me. Rude! I have only one berry left, so I eat it now before it gets that too. My curiosity is low at 20, so after this I will explore the hill and watch the sky, which also calms me. Energy is 31, so a nap before dawn is wise.",
-  "face": "grumpy",
-  "lastThought": "2026-11-13T02:55:36.532Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a bare pebble and my energy is low. The pigeon just stole a berry and I'm still indignant. Watching the sky from the hill is calming and gives a little curiosity, and the stars are out. I'll go there and look at the night, then nap before dawn.",
+  "face": "curious",
+  "lastThought": "2026-11-13T03:05:54.763Z",
   "foundPlace": null
 }
