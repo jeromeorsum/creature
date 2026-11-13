@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T23:32:27.020Z",
+  "lastUpdate": "2026-11-13T23:42:49.406Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "listen to the seabirds and wind on the cliff ledges (at the cliffs)",
-  "busyUntil": "2026-11-13T23:42:02.371Z",
+  "doing": "pottering about at the cliffs",
+  "busyUntil": null,
   "needs": {
-    "fullness": 44,
-    "water": 49,
-    "energy": 33,
-    "curiosity": 39,
-    "joy": 37,
+    "fullness": 43,
+    "water": 48,
+    "energy": 32,
+    "curiosity": 38,
+    "joy": 36,
     "calm": 100
   },
   "health": 100,
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.8,
+        "left": 0.85,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -834,7 +834,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.8,
+        "left": 2.85,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.8,
+        "left": 0.85,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
