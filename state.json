@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T04:27:29.486Z",
+  "lastUpdate": "2026-11-13T04:37:44.330Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-13T04:36:31.461Z",
+  "doing": "explore at the nest",
+  "busyUntil": "2026-11-13T05:07:44.330Z",
   "needs": {
-    "fullness": 54,
-    "water": 68,
-    "energy": 50,
-    "curiosity": 15,
-    "joy": 27,
+    "fullness": 53,
+    "water": 67,
+    "energy": 41,
+    "curiosity": 32,
+    "joy": 26,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "restless and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -410,7 +410,7 @@
       }
     }
   ],
-  "plan": "Watch the sky from the hill, then nap in the hut before dawn.",
+  "plan": "Explore somewhere new, then forage berries, tend seedlings, nap in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1300,16 +1300,18 @@
       "glade"
     ]
   },
-  "ticks": 301,
+  "ticks": 302,
   "spend": {
     "day": "2026-11-12",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [],
-  "thought": "My energy is a tiny crumb and it is nearly dawn, which for a nocturnal bird means bedtime soon. The stars cooled my feathers nicely. I will go home to the Cosy Hut and nap. Curiosity is low, but sleep first; tomorrow night I explore properly.",
-  "face": "sleepy",
-  "lastThought": "2026-11-13T03:36:31.461Z",
+  "lastOutcome": [
+    "You went looking for somewhere new, but you've already been everywhere on the island. You know it all now."
+  ],
+  "thought": "My curiosity is a bare pebble and my belly is only half full with no kept berries. It's 4:37, still dark, and I'm awake through the night. I should go somewhere new and look for wonder, since exploring gives the most curiosity. The seedlings can wait a bit, but I'll tend them soon. Then berries before sleep at 11am.",
+  "face": "curious",
+  "lastThought": "2026-11-13T04:37:44.330Z",
   "foundPlace": null
 }
