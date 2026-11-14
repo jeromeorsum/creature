@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T07:01:44.838Z",
+  "lastUpdate": "2026-11-14T07:11:55.605Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-14T07:11:44.838Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-14T08:11:55.605Z",
   "needs": {
-    "fullness": 60,
-    "water": 55,
-    "energy": 48,
-    "curiosity": 15,
-    "joy": 53,
+    "fullness": 54,
+    "water": 54,
+    "energy": 77,
+    "curiosity": 14,
+    "joy": 52,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but cosy",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -437,7 +437,7 @@
       }
     }
   ],
-  "plan": "Eat, nap in the hut, then berries and fibre",
+  "plan": "Sleep in the hut, then berries, fibre, and a real wonder at dusk",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1331,18 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 329,
+  "ticks": 330,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is dawn and I should be sleeping soon, but my belly is only 32 and I have three berries. Eat them first, before the pigeon notices. Then rest in the hut.",
-  "face": "happy",
-  "lastThought": "2026-11-14T07:01:44.838Z",
+  "lastOutcome": [],
+  "thought": "It is dawn and I should be sleeping soon. My curiosity is a crumb, though, and my energy is middling. I will go to sleep in the hut so I do not wobble into collapse, but first a quick nap is the sensible thing. Berries and fibre can come when I wake at dusk.",
+  "face": "sleepy",
+  "lastThought": "2026-11-14T07:11:55.605Z",
   "foundPlace": null
 }
