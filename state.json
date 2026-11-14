@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T08:03:14.604Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-14T08:13:16.831Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-14T08:11:55.605Z",
+  "doing": "explore at the pond",
+  "busyUntil": "2026-11-14T08:43:16.831Z",
   "needs": {
-    "fullness": 49,
-    "water": 49,
-    "energy": 72,
-    "curiosity": 9,
-    "joy": 47,
+    "fullness": 48,
+    "water": 48,
+    "energy": 63,
+    "curiosity": 26,
+    "joy": 46,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "sleepy but curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -437,7 +437,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then berries, fibre, and a real wonder at dusk",
+  "plan": "Look closely at the pond, drink, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1331,16 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 330,
+  "ticks": 331,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "It is dawn and I should be sleeping soon. My curiosity is a crumb, though, and my energy is middling. I will go to sleep in the hut so I do not wobble into collapse, but first a quick nap is the sensible thing. Berries and fibre can come when I wake at dusk.",
-  "face": "sleepy",
-  "lastThought": "2026-11-14T07:11:55.605Z",
+  "thought": "It's morning, my sleeping time, but my curiosity is a crumb and my belly and water are only half full. A short exploration of a familiar place to look closely might lift curiosity. I'll look closely at the glade log with fresh eyes, then sleep. Actually the wind is strong, so let me explore the pond bank nearby where I can drink after.",
+  "face": "curious",
+  "lastThought": "2026-11-14T08:13:16.831Z",
   "foundPlace": null
 }
