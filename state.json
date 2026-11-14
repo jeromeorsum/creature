@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T03:27:27.185Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-14T03:37:44.034Z",
+  "place": "pond",
   "spot": {
-    "x": 19.7,
-    "z": -5.6
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-14T03:57:44.034Z",
   "needs": {
-    "fullness": 63,
-    "water": 76,
-    "energy": 22,
-    "curiosity": 21,
-    "joy": 44,
+    "fullness": 62,
+    "water": 75,
+    "energy": 16,
+    "curiosity": 20,
+    "joy": 61,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but cheerful",
+  "mood": "tired but playful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -141,7 +141,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -436,7 +437,7 @@
       }
     }
   ],
-  "plan": "Forage berries, eat, splash, make something silly, wind down",
+  "plan": "Splash, nap in the hut, then berries and fibre",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -826,7 +827,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.95,
+        "left": 2,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +851,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.95,
+        "left": 2,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1330,18 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 324,
+  "ticks": 325,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "Fullness is only 44 and I have one berry. Water is fine. Berries are plentiful at the thicket, so I should forage before anything else. Then maybe a silly splash. The pigeon can keep its suspicious silence.",
-  "face": "determined",
-  "lastThought": "2026-11-14T02:36:19.470Z",
+  "lastOutcome": [],
+  "thought": "My energy is low at 21 and my curiosity is a crumb. Fullness is okay and I have berries. A splash is silly and cheap and good for joy, but energy matters. Nap in the Cosy Hut would help most, though it's night and I'm nocturnal. Splashing is only 5 energy. I'll splash, then nap later.",
+  "face": "happy",
+  "lastThought": "2026-11-14T03:37:44.034Z",
   "foundPlace": null
 }
