@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T20:38:07.589Z",
+  "lastUpdate": "2026-11-14T20:48:21.687Z",
   "place": "pond",
   "spot": {
     "x": -3.9,
@@ -10,14 +10,14 @@
   "doing": "pull reeds at the pond",
   "busyUntil": "2026-11-14T20:52:54.047Z",
   "needs": {
-    "fullness": 53,
-    "water": 75,
-    "energy": 76,
-    "curiosity": 8,
-    "joy": 49,
-    "calm": 99
+    "fullness": 52,
+    "water": 74,
+    "energy": 75,
+    "curiosity": 7,
+    "joy": 48,
+    "calm": 98
   },
-  "health": 76,
+  "health": 77,
   "mood": "determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -876,7 +876,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.05,
+        "left": 1.1,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
