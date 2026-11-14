@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T01:55:25.292Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-14T02:05:37.796Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-14T02:04:25.323Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-14T02:15:37.796Z",
   "needs": {
-    "fullness": 48,
-    "water": 35,
-    "energy": 35,
-    "curiosity": 30,
-    "joy": 49,
+    "fullness": 47,
+    "water": 84,
+    "energy": 34,
+    "curiosity": 29,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but cosy",
+  "mood": "sensible and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -436,7 +436,7 @@
       }
     }
   ],
-  "plan": "Nap, then drink at the pond, forage berries, tend seedlings, wind down",
+  "plan": "Drink, forage berries, splash, tend seedlings, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.5,
+        "left": 1.55,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.5,
+        "left": 1.55,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1330,16 +1330,16 @@
       "glade"
     ]
   },
-  "ticks": 322,
+  "ticks": 323,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [],
-  "thought": "My energy is 10, very low, and water is 40. I have one berry. Eating it is quick, but sleep matters most: my hut is finished and right here. Nap in the Cosy Hut to get energy back. I'll eat the berry first? Only one activity per turn, so nap wins; energy is the most urgent and the hut is 0m away.",
-  "face": "sleepy",
-  "lastThought": "2026-11-14T01:04:25.323Z",
+  "thought": "My water is a thin puddle at 34 and my belly is only half full. Pond is close, so drink first. Then berries. I'm awake at night, so this is my time. Drinking is the sensible thing before anything else, and I remember the collapse.",
+  "face": "determined",
+  "lastThought": "2026-11-14T02:05:37.796Z",
   "foundPlace": null
 }
