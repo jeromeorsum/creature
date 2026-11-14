@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T18:56:02.619Z",
+  "lastUpdate": "2026-11-14T19:06:18.574Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-14T19:16:18.574Z",
   "needs": {
-    "fullness": 0,
-    "water": 35,
-    "energy": 100,
-    "curiosity": 18,
-    "joy": 49,
+    "fullness": 14,
+    "water": 34,
+    "energy": 99,
+    "curiosity": 17,
+    "joy": 52,
     "calm": 100
   },
-  "health": 75,
-  "mood": "sleepy but content",
+  "health": 74,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -135,21 +135,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "plan": [
+      "Eat last berry",
+      "Forage lots of berries at the thicket",
       "Drink at the pond",
       "Tend seedlings",
-      "Experiment for a wonder",
-      "Collect fibre and berries",
-      "Splash and make something silly",
-      "Eat dinner and wind down"
+      "Pull reeds for fibre",
+      "Splash or make something",
+      "Eat dinner",
+      "Wind down in the hut"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      5
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -464,7 +461,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then gather berries and fibre tonight, eat dinner, tend seedlings",
+  "plan": "Eat, forage lots of berries, drink, tend seedlings, gather fibre",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -501,7 +498,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1358,16 +1355,18 @@
       "glade"
     ]
   },
-  "ticks": 335,
+  "ticks": 336,
   "spend": {
-    "day": "2026-11-13",
+    "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "It is bright morning and rain taps down. My belly is a bit low at 36 but I have one berry, and the hut is close. I will nap in the Cosy Hut now, since I am nocturnal and it is bedtime. Tonight I will gather berries and fibre properly.",
-  "face": "sleepy",
-  "lastThought": "2026-11-14T10:15:36.919Z",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "Fullness is zero and I have one berry. Eat it now, then go to the thicket for lots of berries. Water is 34, so drink soon too. Berries first, before anything else, as my lesson says.",
+  "face": "determined",
+  "lastThought": "2026-11-14T19:06:18.574Z",
   "foundPlace": null
 }
