@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T09:04:15.547Z",
+  "lastUpdate": "2026-11-14T09:14:27.085Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-14T09:24:27.085Z",
   "needs": {
-    "fullness": 43,
-    "water": 43,
-    "energy": 58,
-    "curiosity": 21,
-    "joy": 41,
+    "fullness": 42,
+    "water": 92,
+    "energy": 57,
+    "curiosity": 20,
+    "joy": 40,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but curious",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -437,7 +437,7 @@
       }
     }
   ],
-  "plan": "Look closely at the pond, drink, then sleep in the hut",
+  "plan": "Drink, then sleep in the hut, then gather berries and fibre tonight",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1331,16 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 331,
+  "ticks": 332,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "It's morning, my sleeping time, but my curiosity is a crumb and my belly and water are only half full. A short exploration of a familiar place to look closely might lift curiosity. I'll look closely at the glade log with fresh eyes, then sleep. Actually the wind is strong, so let me explore the pond bank nearby where I can drink after.",
-  "face": "curious",
-  "lastThought": "2026-11-14T08:13:16.831Z",
+  "thought": "Water is 42 and I'm at the pond, so drinking is the sensible thing before I sleep. It's morning and I'm nocturnal, so bedtime is close. Drink first, then the hut.",
+  "face": "sleepy",
+  "lastThought": "2026-11-14T09:14:27.085Z",
   "foundPlace": null
 }
