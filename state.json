@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T10:05:25.978Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-14T10:15:36.919Z",
+  "place": "nest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -8,
+    "z": 6
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-14T10:35:10.316Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-14T11:15:36.919Z",
   "needs": {
-    "fullness": 37,
-    "water": 87,
-    "energy": 38,
-    "curiosity": 23,
-    "joy": 54,
+    "fullness": 31,
+    "water": 86,
+    "energy": 67,
+    "curiosity": 22,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but inventive",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -441,9 +441,30 @@
           7
         ]
       }
+    },
+    {
+      "date": "2026-11-13",
+      "summary": "I drank, tended my seedlings, splashed, experimented with the clacker and the wind, and made a namebook by the pond. I did not gather many berries or fibre, so my belly is low and my curiosity is still thin. The pigeon stayed away, which is still suspicious. I feel sleepy and a little proud. Tomorrow night I want lots of berries, fibre, and one real wonder.",
+      "plan": {
+        "date": "2026-11-13",
+        "plan": [
+          "Drink at the pond",
+          "Tend seedlings",
+          "Experiment for a wonder",
+          "Collect fibre and berries",
+          "Splash and make something silly",
+          "Eat dinner and wind down"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          5
+        ]
+      }
     }
   ],
-  "plan": "Make names, sleep in the hut, then gather berries tonight",
+  "plan": "Sleep in the hut, then gather berries and fibre tonight, eat dinner, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -479,7 +500,7 @@
     }
   ],
   "world": {
-    "weather": "windy",
+    "weather": "rainy",
     "food": 1,
     "seeds": {
       "tree": 1,
@@ -857,7 +878,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.2,
+        "left": 1.25,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1337,16 +1358,16 @@
       "glade"
     ]
   },
-  "ticks": 334,
+  "ticks": 335,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
   "lastOutcome": [],
-  "thought": "Curiosity is a crumb, and bedtime is near (11am). I have a bit of time and the Crab Clacker. Making something, like a story or names for things, would lift curiosity and joy without much walking. Then I sleep in the hut. Fullness is lowish, but I have one berry; I'll eat after waking.",
-  "face": "curious",
-  "lastThought": "2026-11-14T09:55:10.316Z",
+  "thought": "It is bright morning and rain taps down. My belly is a bit low at 36 but I have one berry, and the hut is close. I will nap in the Cosy Hut now, since I am nocturnal and it is bedtime. Tonight I will gather berries and fibre properly.",
+  "face": "sleepy",
+  "lastThought": "2026-11-14T10:15:36.919Z",
   "foundPlace": null
 }
