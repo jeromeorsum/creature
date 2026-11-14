@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T22:20:11.035Z",
+  "lastUpdate": "2026-11-14T22:30:23.181Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,14 +10,14 @@
   "doing": "spy on pigeon at the thicket",
   "busyUntil": "2026-11-14T22:35:11.035Z",
   "needs": {
-    "fullness": 62,
-    "water": 65,
-    "energy": 48,
-    "curiosity": 18,
-    "joy": 69,
+    "fullness": 61,
+    "water": 64,
+    "energy": 47,
+    "curiosity": 17,
+    "joy": 68,
     "calm": 92
   },
-  "health": 86,
+  "health": 87,
   "mood": "curious, determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
