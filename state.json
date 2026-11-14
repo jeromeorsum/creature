@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T19:36:55.761Z",
+  "lastUpdate": "2026-11-14T19:47:05.176Z",
   "place": "thicket",
   "spot": {
     "x": 20.6,
     "z": -3.8
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-14T19:41:28.446Z",
+  "busyUntil": "2026-11-14T20:12:05.176Z",
   "needs": {
-    "fullness": 35,
-    "water": 31,
-    "energy": 92,
-    "curiosity": 14,
-    "joy": 52,
+    "fullness": 58,
+    "water": 30,
+    "energy": 87,
+    "curiosity": 13,
+    "joy": 54,
     "calm": 100
   },
   "health": 74,
@@ -137,7 +137,6 @@
   "today": {
     "date": "2026-11-14",
     "plan": [
-      "Eat last berry",
       "Forage lots of berries at the thicket",
       "Drink at the pond",
       "Tend seedlings",
@@ -1125,7 +1124,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3,
+        "left": 1,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1357,19 +1356,18 @@
       "glade"
     ]
   },
-  "ticks": 337,
+  "ticks": 338,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 2 berries and ate 2 on the spot."
   ],
-  "thought": "My belly is an empty drum at 13 and I have no kept berries. Water is 33, so the pond comes soon, but food first. The thicket has lots of berries. I will forage there, eat some right away, and keep the rest in the clay pot. Then drink and tend seedlings.",
+  "thought": "My belly is only 34 and I'm at the thicket with plenty of berries. Foraging again gives a proper pile to keep in the pot. Water is 30 too, so the pond comes right after. Pigeon is not around, good.",
   "face": "determined",
-  "lastThought": "2026-11-14T19:16:28.446Z",
+  "lastThought": "2026-11-14T19:47:05.176Z",
   "foundPlace": null
 }
