@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T20:07:30.242Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-14T20:17:43.683Z",
+  "place": "pond",
   "spot": {
-    "x": 20.6,
-    "z": -3.8
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-14T20:12:05.176Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-14T20:27:43.683Z",
   "needs": {
-    "fullness": 56,
-    "water": 28,
-    "energy": 85,
-    "curiosity": 11,
-    "joy": 52,
+    "fullness": 55,
+    "water": 77,
+    "energy": 84,
+    "curiosity": 10,
+    "joy": 51,
     "calm": 100
   },
   "health": 74,
-  "mood": "hungry but determined",
+  "mood": "thirsty but steady",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -137,12 +137,11 @@
   "today": {
     "date": "2026-11-14",
     "plan": [
-      "Forage lots of berries at the thicket",
       "Drink at the pond",
       "Tend seedlings",
       "Pull reeds for fibre",
-      "Splash or make something",
-      "Eat dinner",
+      "Forage berries for dinner",
+      "Make something",
       "Wind down in the hut"
     ],
     "done": [
@@ -462,7 +461,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink at the pond, tend seedlings, pull reeds, make something",
+  "plan": "Drink, tend seedlings, pull reeds, forage more berries, make something",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -498,7 +497,7 @@
     }
   ],
   "world": {
-    "weather": "rainy",
+    "weather": "windy",
     "food": 0,
     "seeds": {
       "tree": 1,
@@ -1356,18 +1355,16 @@
       "glade"
     ]
   },
-  "ticks": 338,
+  "ticks": 339,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is only 34 and I'm at the thicket with plenty of berries. Foraging again gives a proper pile to keep in the pot. Water is 30 too, so the pond comes right after. Pigeon is not around, good.",
+  "lastOutcome": [],
+  "thought": "Water is thin at 27, so the pond comes first. Fullness 55 is okay for now. The thicket berries only gave 2 last time, so I'll head to the pond and drink, then pull reeds and tend seedlings.",
   "face": "determined",
-  "lastThought": "2026-11-14T19:47:05.176Z",
+  "lastThought": "2026-11-14T20:17:43.683Z",
   "foundPlace": null
 }
