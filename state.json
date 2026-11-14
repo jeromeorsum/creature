@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T02:26:03.629Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-14T02:36:19.470Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 19.7,
+    "z": -5.6
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-14T03:01:19.470Z",
   "needs": {
-    "fullness": 45,
-    "water": 82,
-    "energy": 32,
-    "curiosity": 27,
-    "joy": 46,
+    "fullness": 68,
+    "water": 81,
+    "energy": 27,
+    "curiosity": 26,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
-  "mood": "sensible and thirsty",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -436,7 +436,7 @@
       }
     }
   ],
-  "plan": "Drink, forage berries, splash, tend seedlings, wind down",
+  "plan": "Forage berries, eat, splash, make something silly, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -473,7 +473,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.65,
+        "left": 1.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -952,7 +952,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1138,7 +1138,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1330,16 +1330,18 @@
       "glade"
     ]
   },
-  "ticks": 323,
+  "ticks": 324,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [],
-  "thought": "My water is a thin puddle at 34 and my belly is only half full. Pond is close, so drink first. Then berries. I'm awake at night, so this is my time. Drinking is the sensible thing before anything else, and I remember the collapse.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "Fullness is only 44 and I have one berry. Water is fine. Berries are plentiful at the thicket, so I should forage before anything else. Then maybe a silly splash. The pigeon can keep its suspicious silence.",
   "face": "determined",
-  "lastThought": "2026-11-14T02:05:37.796Z",
+  "lastThought": "2026-11-14T02:36:19.470Z",
   "foundPlace": null
 }
