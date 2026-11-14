@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T22:10:00.473Z",
+  "lastUpdate": "2026-11-14T22:20:11.035Z",
   "place": "thicket",
   "spot": {
-    "x": 19.4,
-    "z": 0.6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-14T22:14:38.654Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-14T22:35:11.035Z",
   "needs": {
-    "fullness": 63,
-    "water": 66,
-    "energy": 49,
-    "curiosity": 4,
-    "joy": 65,
-    "calm": 97
+    "fullness": 62,
+    "water": 65,
+    "energy": 48,
+    "curiosity": 18,
+    "joy": 69,
+    "calm": 92
   },
-  "health": 85,
-  "mood": "determined, hungry",
+  "health": 86,
+  "mood": "curious, determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -146,7 +146,8 @@
     ],
     "done": [
       1,
-      3
+      3,
+      4
     ]
   },
   "lessons": [
@@ -1356,18 +1357,16 @@
       "glade"
     ]
   },
-  "ticks": 342,
+  "ticks": 343,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is at 41 and I have no berries kept. The hut roof is finally tied down. Curiosity is a crumb, but food first: the thicket has berries. I'll forage a proper pile, then tend seedlings and maybe explore a bit for wonder.",
-  "face": "determined",
-  "lastThought": "2026-11-14T21:49:38.654Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a crumb, and my belly is only half full. I'm already at the thicket with a few berries still on the bushes, so I should pick more before the pigeon wanders by. Then I want to do something wonder-ish, like spying on the pigeon, since it must know something. Food first, though.",
+  "face": "suspicious",
+  "lastThought": "2026-11-14T22:20:11.035Z",
   "foundPlace": null
 }
