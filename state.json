@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T23:31:39.411Z",
+  "lastUpdate": "2026-11-14T23:41:49.621Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 19.4,
+    "z": 0.6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-15T00:06:49.621Z",
   "needs": {
-    "fullness": 55,
-    "water": 58,
-    "energy": 33,
-    "curiosity": 26,
-    "joy": 70,
+    "fullness": 78,
+    "water": 57,
+    "energy": 28,
+    "curiosity": 25,
+    "joy": 72,
     "calm": 90
   },
-  "health": 93,
-  "mood": "curious, scheming",
+  "health": 94,
+  "mood": "determined, a bit damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Experiment, tend seedlings, make something, wind down in the hut",
+  "plan": "Pick berries, pull reeds for fibre, fix the hut roof, tend seedlings, then wind down in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -499,8 +499,8 @@
     }
   ],
   "world": {
-    "weather": "windy",
-    "food": 0,
+    "weather": "rainy",
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1085,7 +1085,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 3,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1334,11 +1334,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-14T20:58:42.786Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1357,16 +1357,19 @@
       "glade"
     ]
   },
-  "ticks": 344,
+  "ticks": 345,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a crumb. I have explored the whole island, so I need a real wonder some other way. Experiments are good for curiosity. I have wood and fibre in my pockets. Maybe I'll try tying wood and fibre together near the berry thicket and see what the wind does with it. The pigeon seems quiet, which is still suspicious.",
-  "face": "curious",
-  "lastThought": "2026-11-14T22:40:38.538Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "The wind knocked a cone off my hut again, and I only have 2 fibre when I need 3. My belly is half full and I have no kept berries. I'm already at the thicket, so I'll pick berries first. Then I'll pull reeds and fix the roof. The rain is pattering on my crest.",
+  "face": "determined",
+  "lastThought": "2026-11-14T23:41:49.621Z",
   "foundPlace": null
 }
