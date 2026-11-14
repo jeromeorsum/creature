@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T00:54:16.286Z",
+  "lastUpdate": "2026-11-14T01:04:25.323Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-14T00:58:25.757Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-14T02:04:25.323Z",
   "needs": {
-    "fullness": 59,
-    "water": 41,
-    "energy": 11,
-    "curiosity": 36,
-    "joy": 55,
-    "calm": 99
+    "fullness": 53,
+    "water": 40,
+    "energy": 40,
+    "curiosity": 35,
+    "joy": 54,
+    "calm": 100
   },
   "health": 100,
-  "mood": "hungry but cheerful",
+  "mood": "sleepy but cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -436,7 +436,7 @@
       }
     }
   ],
-  "plan": "Eat berries, drink at the pond, repair the hut, forage more berries, wind down",
+  "plan": "Nap, then drink at the pond, forage berries, tend seedlings, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.2,
+        "left": 1.25,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.2,
+        "left": 1.25,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1330,18 +1330,16 @@
       "glade"
     ]
   },
-  "ticks": 321,
+  "ticks": 322,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "My belly is at 41 and it is mealtime. I have 3 berries, and the pigeon is not here. Eat them first, then drink, then repair the hut with fibre. The wind knocked a cone off the hut, so I will fix it soon.",
-  "face": "happy",
-  "lastThought": "2026-11-14T00:03:09.939Z",
+  "lastOutcome": [],
+  "thought": "My energy is 10, very low, and water is 40. I have one berry. Eating it is quick, but sleep matters most: my hut is finished and right here. Nap in the Cosy Hut to get energy back. I'll eat the berry first? Only one activity per turn, so nap wins; energy is the most urgent and the hut is 0m away.",
+  "face": "sleepy",
+  "lastThought": "2026-11-14T01:04:25.323Z",
   "foundPlace": null
 }
