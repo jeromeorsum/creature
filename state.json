@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T05:50:16.780Z",
+  "lastUpdate": "2026-11-14T06:00:29.811Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-14T07:00:29.811Z",
   "needs": {
-    "fullness": 44,
-    "water": 62,
-    "energy": 25,
-    "curiosity": 22,
-    "joy": 56,
-    "calm": 98
+    "fullness": 38,
+    "water": 61,
+    "energy": 54,
+    "curiosity": 21,
+    "joy": 55,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and sleepy",
+  "mood": "sleepy and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -827,7 +827,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.65,
+        "left": 2.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -851,7 +851,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.65,
+        "left": 2.7,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1331,16 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 327,
+  "ticks": 328,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "My curiosity is nearly empty and my energy is low. I could nap, but I have a theory about talking in circles that I want to test. Berries are okay for now. I will try a small experiment with the clacker and the wind reeds at the nest, which is close and cheap, and fills curiosity.",
-  "face": "curious",
-  "lastThought": "2026-11-14T04:59:14.455Z",
+  "thought": "Energy is 24 and it is dawn, my sleeping time. The hut is close. I should nap first; berries and fibre can wait for the evening. Fullness 43 is okay for a sleep.",
+  "face": "sleepy",
+  "lastThought": "2026-11-14T06:00:29.811Z",
   "foundPlace": null
 }
