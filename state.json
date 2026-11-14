@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T04:49:02.236Z",
+  "lastUpdate": "2026-11-14T04:59:14.455Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-14T04:58:06.773Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-14T05:39:14.455Z",
   "needs": {
-    "fullness": 50,
-    "water": 68,
-    "energy": 39,
-    "curiosity": 13,
-    "joy": 54,
-    "calm": 100
+    "fullness": 49,
+    "water": 67,
+    "energy": 30,
+    "curiosity": 27,
+    "joy": 61,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -827,7 +827,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.35,
+        "left": 2.4,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -851,7 +851,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.35,
+        "left": 2.4,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1331,16 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 326,
+  "ticks": 327,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "My energy is a tiny crumb, 14, and my legs wobble worse than usual. The splash was lovely but now I should rest. The hut is sixteen metres away and waiting. Curiosity is low, but I can chase wonders after sleeping. Berries are okay at 3 and fullness 60.",
-  "face": "sleepy",
-  "lastThought": "2026-11-14T03:58:06.773Z",
+  "thought": "My curiosity is nearly empty and my energy is low. I could nap, but I have a theory about talking in circles that I want to test. Berries are okay for now. I will try a small experiment with the clacker and the wind reeds at the nest, which is close and cheap, and fills curiosity.",
+  "face": "curious",
+  "lastThought": "2026-11-14T04:59:14.455Z",
   "foundPlace": null
 }
