@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T09:44:59.893Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-14T09:55:10.316Z",
+  "place": "meadow",
   "spot": {
-    "x": -3.9,
-    "z": 19.8
+    "x": 6,
+    "z": 10
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-14T09:49:37.120Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-14T10:35:10.316Z",
   "needs": {
-    "fullness": 39,
-    "water": 89,
-    "energy": 48,
-    "curiosity": 17,
-    "joy": 38,
+    "fullness": 38,
+    "water": 88,
+    "energy": 39,
+    "curiosity": 24,
+    "joy": 55,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "sleepy but inventive",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -104,6 +104,12 @@
       "kind": "song",
       "file": "2026-11-13-the-round-of-clacks.md",
       "made": "2026-11-13T08:52:50.753Z"
+    },
+    {
+      "title": "The Pond Namebook",
+      "kind": "names for things",
+      "file": "2026-11-14-the-pond-namebook.md",
+      "made": "2026-11-14T09:55:10.316Z"
     }
   ],
   "concerns": [
@@ -437,7 +443,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, sleep in the hut, then gather berries tonight",
+  "plan": "Make names, sleep in the hut, then gather berries tonight",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -851,7 +857,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.1,
+        "left": 1.15,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1331,18 +1337,16 @@
       "glade"
     ]
   },
-  "ticks": 333,
+  "ticks": 334,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
-  "lastOutcome": [
-    "You collected 2 fibre."
-  ],
-  "thought": "It is morning and I am a night creature, so I should sleep soon. My belly is only 41 though, and I have one berry. Curiosity is low, but pulling a few reeds here at the pond is calm work and gives fibre I need. Then I'll go to bed. Actually, a nap would restore energy and the hut is close. But fibre is on my plan, so pull reeds first.",
-  "face": "sleepy",
-  "lastThought": "2026-11-14T09:24:37.120Z",
+  "lastOutcome": [],
+  "thought": "Curiosity is a crumb, and bedtime is near (11am). I have a bit of time and the Crab Clacker. Making something, like a story or names for things, would lift curiosity and joy without much walking. Then I sleep in the hut. Fullness is lowish, but I have one berry; I'll eat after waking.",
+  "face": "curious",
+  "lastThought": "2026-11-14T09:55:10.316Z",
   "foundPlace": null
 }
