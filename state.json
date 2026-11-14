@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T03:47:56.284Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-14T03:58:06.773Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-14T03:57:44.034Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-14T04:58:06.773Z",
   "needs": {
-    "fullness": 61,
-    "water": 74,
-    "energy": 15,
-    "curiosity": 19,
-    "joy": 60,
+    "fullness": 55,
+    "water": 73,
+    "energy": 44,
+    "curiosity": 18,
+    "joy": 59,
     "calm": 100
   },
   "health": 100,
-  "mood": "tired but playful",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -437,7 +437,7 @@
       }
     }
   ],
-  "plan": "Splash, nap in the hut, then berries and fibre",
+  "plan": "Nap in the hut, then berries and fibre, then a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -827,7 +827,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -851,7 +851,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1331,16 +1331,16 @@
       "glade"
     ]
   },
-  "ticks": 325,
+  "ticks": 326,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My energy is low at 21 and my curiosity is a crumb. Fullness is okay and I have berries. A splash is silly and cheap and good for joy, but energy matters. Nap in the Cosy Hut would help most, though it's night and I'm nocturnal. Splashing is only 5 energy. I'll splash, then nap later.",
-  "face": "happy",
-  "lastThought": "2026-11-14T03:37:44.034Z",
+  "thought": "My energy is a tiny crumb, 14, and my legs wobble worse than usual. The splash was lovely but now I should rest. The hut is sixteen metres away and waiting. Curiosity is low, but I can chase wonders after sleeping. Berries are okay at 3 and fullness 60.",
+  "face": "sleepy",
+  "lastThought": "2026-11-14T03:58:06.773Z",
   "foundPlace": null
 }
