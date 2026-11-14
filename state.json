@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T06:51:34.293Z",
+  "lastUpdate": "2026-11-14T07:01:44.838Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-14T07:00:29.811Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-14T07:11:44.838Z",
   "needs": {
-    "fullness": 33,
-    "water": 56,
-    "energy": 49,
-    "curiosity": 16,
-    "joy": 50,
+    "fullness": 60,
+    "water": 55,
+    "energy": 48,
+    "curiosity": 15,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and cosy",
+  "mood": "hungry but cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -437,7 +437,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then berries and fibre, then a wonder",
+  "plan": "Eat, nap in the hut, then berries and fibre",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -474,7 +474,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -827,7 +827,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -851,7 +851,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1331,16 +1331,18 @@
       "glade"
     ]
   },
-  "ticks": 328,
+  "ticks": 329,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [],
-  "thought": "Energy is 24 and it is dawn, my sleeping time. The hut is close. I should nap first; berries and fibre can wait for the evening. Fullness 43 is okay for a sleep.",
-  "face": "sleepy",
-  "lastThought": "2026-11-14T06:00:29.811Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is dawn and I should be sleeping soon, but my belly is only 32 and I have three berries. Eat them first, before the pigeon notices. Then rest in the hut.",
+  "face": "happy",
+  "lastThought": "2026-11-14T07:01:44.838Z",
   "foundPlace": null
 }
