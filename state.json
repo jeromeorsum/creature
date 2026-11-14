@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-14T22:40:38.538Z",
+  "lastUpdate": "2026-11-14T22:50:48.333Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,14 +10,14 @@
   "doing": "experiment at the thicket",
   "busyUntil": "2026-11-14T23:20:38.538Z",
   "needs": {
-    "fullness": 60,
-    "water": 63,
-    "energy": 38,
-    "curiosity": 31,
-    "joy": 75,
+    "fullness": 59,
+    "water": 62,
+    "energy": 37,
+    "curiosity": 30,
+    "joy": 74,
     "calm": 90
   },
-  "health": 88,
+  "health": 89,
   "mood": "curious, scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
