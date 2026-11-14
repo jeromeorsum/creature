@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-13T23:52:59.032Z",
+  "lastUpdate": "2026-11-14T00:03:09.939Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "eat food at the cliffs",
+  "busyUntil": "2026-11-14T00:13:09.939Z",
   "needs": {
-    "fullness": 42,
-    "water": 47,
-    "energy": 31,
-    "curiosity": 37,
-    "joy": 35,
+    "fullness": 69,
+    "water": 46,
+    "energy": 30,
+    "curiosity": 36,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and delighted",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -436,7 +436,7 @@
       }
     }
   ],
-  "plan": "Explore the cliffs, then eat berries, drink, splash, wind down",
+  "plan": "Eat berries, drink at the pond, repair the hut, forage more berries, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -473,7 +473,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -826,7 +826,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.9,
+        "left": 0.95,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -834,7 +834,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.9,
+        "left": 2.95,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -850,7 +850,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.9,
+        "left": 0.95,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1307,11 +1307,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-12T04:25:45.382Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1330,18 +1330,18 @@
       "glade"
     ]
   },
-  "ticks": 319,
+  "ticks": 320,
   "spend": {
     "day": "2026-11-13",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
   "lastOutcome": [
-    "You did your own thing: listen to the seabirds and wind on the cliff ledges."
+    "You ate 2 berries from your food."
   ],
-  "thought": "I'm at the cliffs with a curiosity pebble. Wind is howling across the rocks and the seabirds are muttering on their ledges. I want to explore here properly, a wonder close up, before heading back for water and berries. My belly is half full so it's fine for now.",
-  "face": "excited",
-  "lastThought": "2026-11-13T23:12:02.371Z",
+  "thought": "My belly is at 41 and it is mealtime. I have 3 berries, and the pigeon is not here. Eat them first, then drink, then repair the hut with fibre. The wind knocked a cone off the hut, so I will fix it soon.",
+  "face": "happy",
+  "lastThought": "2026-11-14T00:03:09.939Z",
   "foundPlace": null
 }
