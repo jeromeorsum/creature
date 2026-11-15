@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T20:06:26.231Z",
+  "lastUpdate": "2026-11-15T20:16:36.597Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 20.2,
+    "z": -7.9
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-15T20:41:36.597Z",
   "needs": {
-    "fullness": 34,
-    "water": 94,
-    "energy": 89,
-    "curiosity": 20,
-    "joy": 61,
+    "fullness": 57,
+    "water": 93,
+    "energy": 84,
+    "curiosity": 19,
+    "joy": 63,
     "calm": 100
   },
   "health": 86,
@@ -137,8 +137,7 @@
   "today": {
     "date": "2026-11-15",
     "plan": [
-      "Drink at the pond",
-      "Forage berries at the thicket and eat breakfast",
+      "Forage berries and eat breakfast",
       "Tend seedlings",
       "Pull reeds for fibre",
       "Eat a second meal",
@@ -483,7 +482,7 @@
       }
     }
   ],
-  "plan": "Drink, forage lots of berries, eat, tend seedlings, look for a wonder",
+  "plan": "Forage berries, eat, tend seedlings, read crab shells, watch the sky",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1173,7 +1172,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 4,
+        "left": 3,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1183,7 +1182,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1385,18 +1384,18 @@
       "glade"
     ]
   },
-  "ticks": 365,
+  "ticks": 366,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 2 berries and ate 2 on the spot."
   ],
-  "thought": "Fullness is zero. Food first. The thicket has berries, so I go there, pick plenty, eat some and keep the rest in my pot. I'll be sensible and not get distracted by shiny things.",
+  "thought": "My belly is only 33 and I have no kept berries. The thicket has 14 loaded bushes, so I forage properly now and keep the extras in my pot. Then seedlings. The pigeon lurks, but I will watch my haul.",
   "face": "determined",
-  "lastThought": "2026-11-15T19:25:41.422Z",
+  "lastThought": "2026-11-15T20:16:36.597Z",
   "foundPlace": null
 }
