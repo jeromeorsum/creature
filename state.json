@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T08:12:06.568Z",
+  "lastUpdate": "2026-11-15T08:32:34.218Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-15T08:20:59.699Z",
+  "busyUntil": "2026-11-15T09:32:34.218Z",
   "needs": {
-    "fullness": 55,
-    "water": 57,
-    "energy": 69,
-    "curiosity": 10,
-    "joy": 64,
+    "fullness": 48,
+    "water": 55,
+    "energy": 98,
+    "curiosity": 8,
+    "joy": 63,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and curious",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1361,16 +1361,16 @@
       "glade"
     ]
   },
-  "ticks": 356,
+  "ticks": 357,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [],
-  "thought": "It is dawn, which is my bedtime, and my energy is only 44. Curiosity is a crumb, but a nap will help more than wandering. I will sleep in the hut under my double knots, then tend seedlings tonight and puzzle over the crab's shiny shell.",
+  "thought": "It is daytime and I am a night-Glorp, so I should be sleeping. My energy is 68 and curiosity is a crumb. I am at the nest next to my Cosy Hut. A nap fixes energy, and I can puzzle over the crab's shiny shell while drifting off. I will go to bed now and tend the seedlings tonight.",
   "face": "sleepy",
-  "lastThought": "2026-11-15T07:20:59.699Z",
+  "lastThought": "2026-11-15T08:32:34.218Z",
   "foundPlace": null
 }
