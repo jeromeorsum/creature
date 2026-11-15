@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T02:25:11.155Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-15T02:35:27.756Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-15T02:34:10.303Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-15T02:45:27.756Z",
   "needs": {
-    "fullness": 52,
-    "water": 41,
-    "energy": 25,
-    "curiosity": 14,
-    "joy": 78,
+    "fullness": 51,
+    "water": 90,
+    "energy": 24,
+    "curiosity": 13,
+    "joy": 77,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "sleepy but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then drink, tend seedlings, find berries",
+  "plan": "Drink, tend seedlings, nap in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1357,16 +1357,16 @@
       "glade"
     ]
   },
-  "ticks": 348,
+  "ticks": 349,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "My energy is zero and my eye is a wet pebble. The hut is finished and the roof is tied, so now I should nap in it. My belly is okay at 62, and water is 46. Sleep first, then drink. Curiosity can wait until I am a rested Glorp.",
+  "thought": "My energy is low at 24 and water is 40, so the pond is first. Curiosity is thin too. A drink is close at 16m, and then I can nap again or tend seedlings. Rain pats my crest. I want to drink before anything else, as my lesson says.",
   "face": "sleepy",
-  "lastThought": "2026-11-15T01:34:10.303Z",
+  "lastThought": "2026-11-15T02:35:27.756Z",
   "foundPlace": null
 }
