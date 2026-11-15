@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T22:19:07.452Z",
+  "lastUpdate": "2026-11-15T22:29:21.986Z",
   "place": "grotto",
   "spot": {
     "x": 8,
     "z": -22
   },
-  "doing": "explore at the grotto",
-  "busyUntil": "2026-11-15T22:28:35.191Z",
+  "doing": "experiment at the grotto",
+  "busyUntil": "2026-11-15T23:09:21.986Z",
   "needs": {
-    "fullness": 69,
-    "water": 77,
-    "energy": 52,
-    "curiosity": 25,
-    "joy": 59,
-    "calm": 100
+    "fullness": 68,
+    "water": 76,
+    "energy": 43,
+    "curiosity": 39,
+    "joy": 66,
+    "calm": 98
   },
-  "health": 98,
-  "mood": "curious and restless",
+  "health": 99,
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -483,7 +483,7 @@
       }
     }
   ],
-  "plan": "Explore the grotto, pull reeds, drink, eat, watch the sky",
+  "plan": "Experiment in the grotto, then pull reeds, drink, eat, watch the sky",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -524,6 +524,10 @@
     {
       "text": "{\"what\":\"Setting scratched shells in a row and clacking their order makes crabs gather and watch, as if reading along.\"}",
       "made": "2026-11-15T10:04:14.403Z"
+    },
+    {
+      "text": "{\"what\":\"Under the grotto's rock arch, clacking the clacker makes a bright echo that bounces between the walls, and the glowing mushrooms seem to shimmer with the beat.\",\"about\":\"grotto echo\"}",
+      "made": "2026-11-15T22:29:21.986Z"
     }
   ],
   "world": {
@@ -999,7 +1003,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1007,7 +1011,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1015,7 +1019,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1023,7 +1027,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1039,7 +1043,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1047,7 +1051,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1055,7 +1059,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.41,
+        "left": 1.48,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1103,7 +1107,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1113,7 +1117,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1133,7 +1137,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1153,7 +1157,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1173,7 +1177,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1183,7 +1187,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1193,7 +1197,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1385,16 +1389,16 @@
       "glade"
     ]
   },
-  "ticks": 369,
+  "ticks": 370,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a crumb. Belly and water are fine. The best fix is to explore, so I'll go look closely at the grotto, a place I haven't peeked into properly. Maybe a real wonder hides there. The pigeon can watch the thicket alone.",
+  "thought": "I'm in the grotto among glowing mushrooms. Curiosity is low, so something wondrous here would help. I'll try an experiment with the glowing mushrooms and my clacker, seeing if the grotto echoes crab rhythms. My belly is okay, water okay.",
   "face": "curious",
-  "lastThought": "2026-11-15T21:58:35.191Z",
+  "lastThought": "2026-11-15T22:29:21.986Z",
   "foundPlace": null
 }
