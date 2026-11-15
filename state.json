@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T09:54:03.731Z",
+  "lastUpdate": "2026-11-15T10:04:14.403Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-15T10:03:43.904Z",
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-15T10:44:14.403Z",
   "needs": {
-    "fullness": 40,
-    "water": 47,
-    "energy": 82,
-    "curiosity": 18,
-    "joy": 55,
-    "calm": 100
+    "fullness": 39,
+    "water": 46,
+    "energy": 73,
+    "curiosity": 32,
+    "joy": 62,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "curious and scholarly",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -500,6 +500,10 @@
     {
       "text": "{\"what\":\"Rain drops on shells of different sizes ring different clacks, so rain can play a rhythm for me.\"}",
       "made": "2026-11-15T03:46:46.501Z"
+    },
+    {
+      "text": "{\"what\":\"Setting scratched shells in a row and clacking their order makes crabs gather and watch, as if reading along.\"}",
+      "made": "2026-11-15T10:04:14.403Z"
     }
   ],
   "world": {
@@ -1361,16 +1365,16 @@
       "glade"
     ]
   },
-  "ticks": 358,
+  "ticks": 359,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a crumb and my belly is under half. It is daytime, near my sleep time, but I have energy 92. Exploring the known glade's hollow log could give a wonder. The crab's shiny shell puzzles me. I will explore the tidepools where crabs live to learn what they are saying. Then I eat later.",
+  "thought": "I am at the tidepools with four scratched shells around me. My curiosity is a crumb, and my wish is to understand the crabs. I will experiment here by arranging the scratched shells in order and clacking my clacker to match. It is nearly my bedtime, but my energy is fine. Afterwards I will eat and drink since my belly and water are low.",
   "face": "curious",
-  "lastThought": "2026-11-15T09:33:43.904Z",
+  "lastThought": "2026-11-15T10:04:14.403Z",
   "foundPlace": null
 }
