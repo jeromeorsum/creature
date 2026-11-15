@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T00:02:21.135Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-15T00:12:39.000Z",
+  "place": "pond",
   "spot": {
-    "x": 19.4,
-    "z": 0.6
+    "x": -2.2,
+    "z": 17.7
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-15T00:06:49.621Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-15T00:37:39.000Z",
   "needs": {
-    "fullness": 76,
-    "water": 55,
-    "energy": 26,
-    "curiosity": 23,
-    "joy": 70,
-    "calm": 88
+    "fullness": 75,
+    "water": 54,
+    "energy": 19,
+    "curiosity": 22,
+    "joy": 69,
+    "calm": 93
   },
-  "health": 96,
+  "health": 97,
   "mood": "determined, a bit damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -509,7 +509,7 @@
       "wood": 3,
       "stone": 0,
       "clay": 0,
-      "fibre": 2,
+      "fibre": 4,
       "shells": 0
     },
     "discovered": [
@@ -853,7 +853,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -877,7 +877,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.1,
+        "left": 0.1,
         "tendedUntil": "2026-11-14T20:49:02.326Z"
       },
       {
@@ -1357,7 +1357,7 @@
       "glade"
     ]
   },
-  "ticks": 345,
+  "ticks": 346,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
@@ -1365,8 +1365,7 @@
     "ticks": 10
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 2 fibre."
   ],
   "thought": "The wind knocked a cone off my hut again, and I only have 2 fibre when I need 3. My belly is half full and I have no kept berries. I'm already at the thicket, so I'll pick berries first. Then I'll pull reeds and fix the roof. The rain is pattering on my crest.",
   "face": "determined",
