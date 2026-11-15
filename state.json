@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T19:46:04.351Z",
+  "lastUpdate": "2026-11-15T19:56:15.738Z",
   "place": "thicket",
   "spot": {
-    "x": 10.1,
-    "z": -7.3
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-15T19:50:41.422Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-15T20:06:15.738Z",
   "needs": {
-    "fullness": 22,
-    "water": 96,
-    "energy": 91,
-    "curiosity": 22,
-    "joy": 59,
+    "fullness": 35,
+    "water": 95,
+    "energy": 90,
+    "curiosity": 21,
+    "joy": 62,
     "calm": 100
   },
   "health": 86,
@@ -528,7 +528,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1385,7 +1385,7 @@
       "glade"
     ]
   },
-  "ticks": 364,
+  "ticks": 365,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
@@ -1393,8 +1393,7 @@
     "ticks": 3
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You ate 1 berries from your food."
   ],
   "thought": "Fullness is zero. Food first. The thicket has berries, so I go there, pick plenty, eat some and keep the rest in my pot. I'll be sensible and not get distracted by shiny things.",
   "face": "determined",
