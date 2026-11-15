@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T03:36:39.336Z",
+  "lastUpdate": "2026-11-15T03:46:46.501Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-15T03:45:39.408Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-15T04:26:46.501Z",
   "needs": {
-    "fullness": 40,
-    "water": 84,
-    "energy": 48,
-    "curiosity": 7,
-    "joy": 71,
-    "calm": 100
+    "fullness": 39,
+    "water": 83,
+    "energy": 39,
+    "curiosity": 21,
+    "joy": 78,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy and cosy",
+  "mood": "curious and drizzly",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then tend seedlings, then explore or make something",
+  "plan": "Experiment, then forage berries, then tend seedlings, then nap in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -496,6 +496,10 @@
     {
       "text": "{\"what\":\"Reeds of different lengths bound side by side with fibre hum different notes when the wind blows across their tops.\",\"about\":\"wind reeds\"}",
       "made": "2026-11-13T21:29:55.151Z"
+    },
+    {
+      "text": "{\"what\":\"Rain drops on shells of different sizes ring different clacks, so rain can play a rhythm for me.\"}",
+      "made": "2026-11-15T03:46:46.501Z"
     }
   ],
   "world": {
@@ -1357,16 +1361,16 @@
       "glade"
     ]
   },
-  "ticks": 350,
+  "ticks": 351,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "My energy is a sleepy crumb and my water is fine now. Curiosity is low, but I'm too tired to do much exploring. The hut is close, and a nap would fix energy. Seedlings can wait until I wake. I'll go nap with the roof tied twice.",
-  "face": "sleepy",
-  "lastThought": "2026-11-15T02:45:39.408Z",
+  "thought": "My curiosity is a crumb, but my energy is only half and my belly is low. I have one berry. Rain is falling. A little experiment would feed curiosity, and I can do it near the hut. I'll try something with the wind reeds and my clacker, tucked dry by the nest. Then berries later.",
+  "face": "curious",
+  "lastThought": "2026-11-15T03:46:46.501Z",
   "foundPlace": null
 }
