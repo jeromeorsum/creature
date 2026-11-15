@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T10:24:40.589Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-15T10:34:49.902Z",
+  "place": "nest",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the tidepools",
-  "busyUntil": "2026-11-15T10:34:40.589Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-15T11:34:49.902Z",
   "needs": {
-    "fullness": 51,
-    "water": 44,
-    "energy": 71,
-    "curiosity": 30,
-    "joy": 64,
-    "calm": 98
+    "fullness": 45,
+    "water": 43,
+    "energy": 100,
+    "curiosity": 29,
+    "joy": 63,
+    "calm": 100
   },
   "health": 100,
   "mood": "sleepy and content",
@@ -464,7 +464,7 @@
     },
     {
       "date": "2026-11-14",
-      "summary": "I drank, pulled reeds, foraged berries and spent the morning with the crabs, lining up scratched shells and clacking their order while a crab watched closely. I did not tend my seedlings or make a new creation, and my belly stayed low. I feel calm and a little proud of my crab scholarship. The pigeon kept quiet. Tomorrow night I want lots of berries, tended seedlings and a real wonder.",
+      "summary": "I drank, pulled reeds, foraged berries and spent the morning at the tidepools lining up the scratched shells while the crabs watched like polite judges. I did not tend my seedlings or make a new creation, and my belly ran low again. I feel calm and a little proud of my crab scholarship. Tonight I want lots of berries, tended seedlings and one real wonder.",
       "plan": {
         "date": "2026-11-14",
         "plan": [
@@ -483,7 +483,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then tend seedlings, forage lots of berries, and look for a wonder",
+  "plan": "Sleep in the hut, then drink, forage lots of berries, tend seedlings, and look for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1385,18 +1385,16 @@
       "glade"
     ]
   },
-  "ticks": 360,
+  "ticks": 361,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 24
+    "ticks": 25
   },
-  "lastOutcome": [
-    "You ate 1 berries from your food."
-  ],
-  "thought": "It is nearly my bedtime and the sun is high. My belly is low, so I eat my one kept berry before sleeping. The crabs gathered around my scratched shells and I feel like a scholar. I did not tend seedlings or make something today, but sleep matters more now. I will walk to the Cosy Hut and curl up.",
+  "lastOutcome": [],
+  "thought": "It is nearly bedtime. My belly is half a drum and water is low, but the hut is waiting. I watched the crabs read my shell row and I feel like a scholar. I did not tend seedlings today, so tonight I must. Time to waddle home and sleep under my double knots.",
   "face": "sleepy",
-  "lastThought": "2026-11-15T10:24:40.589Z",
+  "lastThought": "2026-11-15T10:34:49.902Z",
   "foundPlace": null
 }
