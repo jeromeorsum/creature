@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T02:35:27.756Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-15T02:45:39.408Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-15T02:45:27.756Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-15T03:45:39.408Z",
   "needs": {
-    "fullness": 51,
-    "water": 90,
-    "energy": 24,
-    "curiosity": 13,
-    "joy": 77,
+    "fullness": 45,
+    "water": 89,
+    "energy": 53,
+    "curiosity": 12,
+    "joy": 76,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "sleepy and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Drink, tend seedlings, nap in the hut",
+  "plan": "Nap in the hut, then tend seedlings, then explore or make something",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1357,16 +1357,16 @@
       "glade"
     ]
   },
-  "ticks": 349,
+  "ticks": 350,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My energy is low at 24 and water is 40, so the pond is first. Curiosity is thin too. A drink is close at 16m, and then I can nap again or tend seedlings. Rain pats my crest. I want to drink before anything else, as my lesson says.",
+  "thought": "My energy is a sleepy crumb and my water is fine now. Curiosity is low, but I'm too tired to do much exploring. The hut is close, and a nap would fix energy. Seedlings can wait until I wake. I'll go nap with the roof tied twice.",
   "face": "sleepy",
-  "lastThought": "2026-11-15T02:35:27.756Z",
+  "lastThought": "2026-11-15T02:45:39.408Z",
   "foundPlace": null
 }
