@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T05:49:08.444Z",
+  "lastUpdate": "2026-11-15T05:59:17.920Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-15T06:09:17.920Z",
   "needs": {
-    "fullness": 51,
-    "water": 71,
-    "energy": 23,
-    "curiosity": 24,
-    "joy": 74,
+    "fullness": 78,
+    "water": 70,
+    "energy": 22,
+    "curiosity": 23,
+    "joy": 77,
     "calm": 93
   },
   "health": 100,
-  "mood": "curious and scheming",
+  "mood": "sleepy and careful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Forage berries, then explore for curiosity, tend seedlings, nap in the hut",
+  "plan": "Eat berries, nap in the hut, then tend seedlings tonight",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -504,7 +504,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1361,16 +1361,18 @@
       "glade"
     ]
   },
-  "ticks": 353,
+  "ticks": 354,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [],
-  "thought": "I am at the thicket and the pigeon is right here, which is the best chance to figure out its secret. My curiosity is a crumb at 14, and spying gives +15 for only 15 minutes. Energy is low at 28, so spying is cheap and gentle. After this I will eat my berries and nap.",
-  "face": "suspicious",
-  "lastThought": "2026-11-15T04:58:09.636Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My energy is a tiny crumb at 22 and it is nearly dawn, which is my bedtime. Fullness is only 50, so I should eat the kept berries first, then go nap in the Cosy Hut. The pigeon is near, so eating now keeps my berries safe.",
+  "face": "sleepy",
+  "lastThought": "2026-11-15T05:59:17.920Z",
   "foundPlace": null
 }
