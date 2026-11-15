@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T05:59:17.920Z",
+  "lastUpdate": "2026-11-15T06:09:31.008Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-15T06:09:17.920Z",
+  "doing": "pottering about at the thicket",
+  "busyUntil": null,
   "needs": {
-    "fullness": 78,
-    "water": 70,
-    "energy": 22,
-    "curiosity": 23,
-    "joy": 77,
+    "fullness": 77,
+    "water": 69,
+    "energy": 21,
+    "curiosity": 22,
+    "joy": 76,
     "calm": 93
   },
   "health": 100,
