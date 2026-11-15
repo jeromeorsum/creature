@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T04:17:22.775Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-15T04:27:34.082Z",
+  "place": "thicket",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": 8.7,
+    "z": -2.4
   },
-  "doing": "experiment at the nest",
-  "busyUntil": "2026-11-15T04:26:46.501Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-15T04:52:34.082Z",
   "needs": {
-    "fullness": 36,
-    "water": 80,
-    "energy": 36,
-    "curiosity": 18,
-    "joy": 75,
+    "fullness": 59,
+    "water": 79,
+    "energy": 31,
+    "curiosity": 17,
+    "joy": 77,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and drizzly",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Experiment, then forage berries, then tend seedlings, then nap in the hut",
+  "plan": "Forage berries, then explore for curiosity, tend seedlings, nap in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -504,7 +504,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1023,7 +1023,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-12T05:40:46.824Z"
       },
       {
@@ -1361,16 +1361,18 @@
       "glade"
     ]
   },
-  "ticks": 351,
+  "ticks": 352,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a crumb, but my energy is only half and my belly is low. I have one berry. Rain is falling. A little experiment would feed curiosity, and I can do it near the hut. I'll try something with the wind reeds and my clacker, tucked dry by the nest. Then berries later.",
-  "face": "curious",
-  "lastThought": "2026-11-15T03:46:46.501Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is only a third full and my curiosity is a crumb. Food first: the thicket has berries, and I only have one kept. Then I can explore a known place closely for some wonder. Rain is drizzling but I am sturdy.",
+  "face": "determined",
+  "lastThought": "2026-11-15T04:27:34.082Z",
   "foundPlace": null
 }
