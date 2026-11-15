@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T20:37:01.479Z",
+  "lastUpdate": "2026-11-15T20:47:12.080Z",
   "place": "thicket",
   "spot": {
     "x": 20.2,
     "z": -7.9
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-15T20:41:36.597Z",
+  "busyUntil": "2026-11-15T21:12:12.080Z",
   "needs": {
-    "fullness": 55,
-    "water": 91,
-    "energy": 82,
-    "curiosity": 17,
-    "joy": 61,
+    "fullness": 78,
+    "water": 90,
+    "energy": 77,
+    "curiosity": 16,
+    "joy": 63,
     "calm": 100
   },
-  "health": 88,
+  "health": 89,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -527,7 +527,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1172,7 +1172,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 3,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1384,18 +1384,19 @@
       "glade"
     ]
   },
-  "ticks": 366,
+  "ticks": 367,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is only 33 and I have no kept berries. The thicket has 14 loaded bushes, so I forage properly now and keep the extras in my pot. Then seedlings. The pigeon lurks, but I will watch my haul.",
+  "thought": "My belly is only half full and I keep no berries. The thicket still has bushes with berries, so I forage more and fill my pot. Then seedlings and curiosity later. The pigeon is watching, so I will eat quickly.",
   "face": "determined",
-  "lastThought": "2026-11-15T20:16:36.597Z",
+  "lastThought": "2026-11-15T20:47:12.080Z",
   "foundPlace": null
 }
