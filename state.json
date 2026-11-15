@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T19:15:28.597Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-15T19:25:41.422Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.1,
+    "z": -7.3
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-15T19:25:28.597Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-15T19:50:41.422Z",
   "needs": {
-    "fullness": 0,
-    "water": 99,
-    "energy": 98,
-    "curiosity": 25,
-    "joy": 59,
+    "fullness": 24,
+    "water": 98,
+    "energy": 93,
+    "curiosity": 24,
+    "joy": 61,
     "calm": 100
   },
-  "health": 87,
-  "mood": "hungry but sensible",
+  "health": 86,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -528,7 +528,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1183,7 +1183,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-12T05:40:46.824Z"
@@ -1385,16 +1385,19 @@
       "glade"
     ]
   },
-  "ticks": 363,
+  "ticks": 364,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [],
-  "thought": "Fullness is zero and water is only 49. I just drank once, but I'm still thirsty. Drink again now, then berries right away. Food is the real danger, but the thicket is a walk away, so finish water first.",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "Fullness is zero. Food first. The thicket has berries, so I go there, pick plenty, eat some and keep the rest in my pot. I'll be sensible and not get distracted by shiny things.",
   "face": "determined",
-  "lastThought": "2026-11-15T19:15:28.597Z",
+  "lastThought": "2026-11-15T19:25:41.422Z",
   "foundPlace": null
 }
