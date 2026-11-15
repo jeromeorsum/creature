@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T09:23:35.737Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-15T09:33:43.904Z",
+  "place": "tidepools",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18,
+    "z": 34
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-15T09:32:34.218Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-15T10:03:43.904Z",
   "needs": {
-    "fullness": 43,
-    "water": 50,
-    "energy": 93,
-    "curiosity": 3,
-    "joy": 58,
+    "fullness": 42,
+    "water": 49,
+    "energy": 84,
+    "curiosity": 20,
+    "joy": 57,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -463,7 +463,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then tend seedlings tonight and ponder the crab's shell",
+  "plan": "Explore tidepools, eat berries, then tend seedlings and sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1361,16 +1361,16 @@
       "glade"
     ]
   },
-  "ticks": 357,
+  "ticks": 358,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
   "lastOutcome": [],
-  "thought": "It is daytime and I am a night-Glorp, so I should be sleeping. My energy is 68 and curiosity is a crumb. I am at the nest next to my Cosy Hut. A nap fixes energy, and I can puzzle over the crab's shiny shell while drifting off. I will go to bed now and tend the seedlings tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-11-15T08:32:34.218Z",
+  "thought": "My curiosity is a crumb and my belly is under half. It is daytime, near my sleep time, but I have energy 92. Exploring the known glade's hollow log could give a wonder. The crab's shiny shell puzzles me. I will explore the tidepools where crabs live to learn what they are saying. Then I eat later.",
+  "face": "curious",
+  "lastThought": "2026-11-15T09:33:43.904Z",
   "foundPlace": null
 }
