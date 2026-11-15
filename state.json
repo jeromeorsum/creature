@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T04:48:00.116Z",
+  "lastUpdate": "2026-11-15T04:58:09.636Z",
   "place": "thicket",
   "spot": {
-    "x": 8.7,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-15T04:52:34.082Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-15T05:13:09.636Z",
   "needs": {
-    "fullness": 57,
-    "water": 77,
-    "energy": 29,
-    "curiosity": 15,
-    "joy": 75,
-    "calm": 98
+    "fullness": 56,
+    "water": 76,
+    "energy": 28,
+    "curiosity": 29,
+    "joy": 79,
+    "calm": 93
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "curious and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1361,18 +1361,16 @@
       "glade"
     ]
   },
-  "ticks": 352,
+  "ticks": 353,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is only a third full and my curiosity is a crumb. Food first: the thicket has berries, and I only have one kept. Then I can explore a known place closely for some wonder. Rain is drizzling but I am sturdy.",
-  "face": "determined",
-  "lastThought": "2026-11-15T04:27:34.082Z",
+  "lastOutcome": [],
+  "thought": "I am at the thicket and the pigeon is right here, which is the best chance to figure out its secret. My curiosity is a crumb at 14, and spying gives +15 for only 15 minutes. Energy is low at 28, so spying is cheap and gentle. After this I will eat my berries and nap.",
+  "face": "suspicious",
+  "lastThought": "2026-11-15T04:58:09.636Z",
   "foundPlace": null
 }
