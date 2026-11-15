@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T10:14:23.555Z",
+  "lastUpdate": "2026-11-15T10:24:40.589Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-15T10:44:14.403Z",
+  "doing": "eat food at the tidepools",
+  "busyUntil": "2026-11-15T10:34:40.589Z",
   "needs": {
-    "fullness": 38,
-    "water": 45,
-    "energy": 72,
-    "curiosity": 31,
-    "joy": 61,
+    "fullness": 51,
+    "water": 44,
+    "energy": 71,
+    "curiosity": 30,
+    "joy": 64,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and scholarly",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -461,9 +461,29 @@
           5
         ]
       }
+    },
+    {
+      "date": "2026-11-14",
+      "summary": "I drank, pulled reeds, foraged berries and spent the morning with the crabs, lining up scratched shells and clacking their order while a crab watched closely. I did not tend my seedlings or make a new creation, and my belly stayed low. I feel calm and a little proud of my crab scholarship. The pigeon kept quiet. Tomorrow night I want lots of berries, tended seedlings and a real wonder.",
+      "plan": {
+        "date": "2026-11-14",
+        "plan": [
+          "Drink at the pond",
+          "Tend seedlings",
+          "Pull reeds for fibre",
+          "Forage berries for dinner",
+          "Make something",
+          "Wind down in the hut"
+        ],
+        "done": [
+          1,
+          3,
+          4
+        ]
+      }
     }
   ],
-  "plan": "Explore tidepools, eat berries, then tend seedlings and sleep in the hut",
+  "plan": "Sleep in the hut, then tend seedlings, forage lots of berries, and look for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -508,7 +528,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1365,16 +1385,18 @@
       "glade"
     ]
   },
-  "ticks": 359,
+  "ticks": 360,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 24
   },
-  "lastOutcome": [],
-  "thought": "I am at the tidepools with four scratched shells around me. My curiosity is a crumb, and my wish is to understand the crabs. I will experiment here by arranging the scratched shells in order and clacking my clacker to match. It is nearly my bedtime, but my energy is fine. Afterwards I will eat and drink since my belly and water are low.",
-  "face": "curious",
-  "lastThought": "2026-11-15T10:04:14.403Z",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "It is nearly my bedtime and the sun is high. My belly is low, so I eat my one kept berry before sleeping. The crabs gathered around my scratched shells and I feel like a scholar. I did not tend seedlings or make something today, but sleep matters more now. I will walk to the Cosy Hut and curl up.",
+  "face": "sleepy",
+  "lastThought": "2026-11-15T10:24:40.589Z",
   "foundPlace": null
 }
