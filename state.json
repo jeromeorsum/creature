@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-15T07:10:51.661Z",
+  "lastUpdate": "2026-11-15T07:20:59.699Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-15T07:19:57.493Z",
+  "busyUntil": "2026-11-15T08:20:59.699Z",
   "needs": {
-    "fullness": 66,
-    "water": 63,
-    "energy": 45,
-    "curiosity": 16,
-    "joy": 70,
+    "fullness": 60,
+    "water": 62,
+    "energy": 74,
+    "curiosity": 15,
+    "joy": 69,
     "calm": 100
   },
   "health": 100,
@@ -1361,16 +1361,16 @@
       "glade"
     ]
   },
-  "ticks": 355,
+  "ticks": 356,
   "spend": {
     "day": "2026-11-14",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "My energy is a crumb and it is dawn, which is bedtime for a nocturnal Glorp. The crab left a shiny shell, which I will keep and ponder after sleep. Belly and water are fine. The hut is tied twice, so I go and nap.",
+  "thought": "It is dawn, which is my bedtime, and my energy is only 44. Curiosity is a crumb, but a nap will help more than wandering. I will sleep in the hut under my double knots, then tend seedlings tonight and puzzle over the crab's shiny shell.",
   "face": "sleepy",
-  "lastThought": "2026-11-15T06:19:57.493Z",
+  "lastThought": "2026-11-15T07:20:59.699Z",
   "foundPlace": null
 }
