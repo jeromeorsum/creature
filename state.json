@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T07:10:16.864Z",
+  "lastUpdate": "2026-11-16T07:20:28.429Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-16T07:19:12.231Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-16T07:30:28.429Z",
   "needs": {
-    "fullness": 50,
-    "water": 88,
-    "energy": 50,
-    "curiosity": 25,
-    "joy": 35,
+    "fullness": 77,
+    "water": 87,
+    "energy": 49,
+    "curiosity": 24,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
@@ -487,7 +487,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then berries, then tend seedlings tonight.",
+  "plan": "Eat, nap in the hut, then berries and tending seedlings tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -540,7 +540,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1011,7 +1011,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.06,
+        "left": 3.13,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1027,7 +1027,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.06,
+        "left": 3.13,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1035,7 +1035,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.06,
+        "left": 3.13,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1067,7 +1067,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.05,
+        "left": 3.12,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1145,7 +1145,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.06,
+        "left": 3.13,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1397,16 +1397,18 @@
       "glade"
     ]
   },
-  "ticks": 381,
+  "ticks": 382,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [],
-  "thought": "Energy is 25, which is low, and it's dawn, so I should be sleeping soon. My plan says to watch the sky and then nap in the hut. Sky-watching is calming, but energy is the real problem. I'll go home and nap now, since the Cosy Hut gives me good sleep.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "Dawn is here and I am nocturnal, so bedtime is near. My belly is only half a drum and energy is middling. I should sleep in the hut, but a quick meal first helps. I have two berries kept, so I eat them before the pigeon notices, then sleep.",
   "face": "sleepy",
-  "lastThought": "2026-11-16T06:19:12.231Z",
+  "lastThought": "2026-11-16T07:20:28.429Z",
   "foundPlace": null
 }
