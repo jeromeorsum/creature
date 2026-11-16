@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T23:45:22.190Z",
+  "lastUpdate": "2026-11-16T23:55:37.224Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-17T00:15:37.224Z",
   "needs": {
-    "fullness": 71,
-    "water": 87,
-    "energy": 39,
-    "curiosity": 28,
-    "joy": 36,
+    "fullness": 70,
+    "water": 86,
+    "energy": 33,
+    "curiosity": 27,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
-  "mood": "calm and cheerful",
+  "mood": "playful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -150,7 +150,8 @@
       2,
       3,
       5,
-      6
+      6,
+      4
     ]
   },
   "lessons": [
@@ -510,7 +511,7 @@
       }
     }
   ],
-  "plan": "Tend plants, forage berries, then watch the sky.",
+  "plan": "Splash, pick berries, then watch the sky and wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -562,7 +563,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "cloudy",
     "food": 0,
     "seeds": {
       "tree": 1,
@@ -573,7 +574,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 5,
-      "shells": 2
+      "shells": 3
     },
     "discovered": [
       "clay",
@@ -916,7 +917,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.25,
+        "left": 0.3,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -924,7 +925,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.25,
+        "left": 1.3,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -940,7 +941,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.35,
+        "left": 0.4,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1420,18 +1421,16 @@
       "glade"
     ]
   },
-  "ticks": 395,
+  "ticks": 396,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [
-    "You looked after 10 plants around the pond. They'll grow for about a day."
-  ],
-  "thought": "My belly is three quarters full but I have no kept berries, and my seedlings need tending. I am at the pond, so tending the plants around here is easy. Curiosity and joy are thin, but tending gives calm and a little joy. Then I will forage again.",
+  "lastOutcome": [],
+  "thought": "My calm is full but my joy and curiosity are thin, and my energy is lowish. The crab left a shiny shell by me, which is strange and lovely. Splashing in the pond is right here and cheap, and it will lift my joy. Then I can go gather berries so the pot is not empty.",
   "face": "happy",
-  "lastThought": "2026-11-16T22:54:17.611Z",
+  "lastThought": "2026-11-16T23:55:37.224Z",
   "foundPlace": null
 }
