@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T09:07:12.402Z",
+  "lastUpdate": "2026-11-16T09:17:22.253Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-16T09:16:01.485Z",
+  "busyUntil": "2026-11-16T10:17:22.253Z",
   "needs": {
-    "fullness": 62,
-    "water": 76,
-    "energy": 69,
-    "curiosity": 14,
-    "joy": 28,
+    "fullness": 56,
+    "water": 75,
+    "energy": 98,
+    "curiosity": 13,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
@@ -1011,7 +1011,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.86,
+        "left": 3.93,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1027,7 +1027,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.86,
+        "left": 3.93,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1035,7 +1035,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.86,
+        "left": 3.93,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1067,7 +1067,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.85,
+        "left": 3.92,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1145,7 +1145,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.86,
+        "left": 3.93,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1397,16 +1397,16 @@
       "glade"
     ]
   },
-  "ticks": 383,
+  "ticks": 384,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "The sun is up and I am nocturnal, so my legs say bedtime. Energy is 44, curiosity is a crumb, but sleeping in the Cosy Hut will fix the energy and tonight I can chase wonders. Nap now.",
+  "thought": "It is 09:17 and I should be asleep, since I sleep in the daytime. Energy is 68 and curiosity is a crumb. Going to bed in the Cosy Hut is the sensible thing. I'll nap now and wake in the evening for berries and one real wonder.",
   "face": "sleepy",
-  "lastThought": "2026-11-16T08:16:01.485Z",
+  "lastThought": "2026-11-16T09:17:22.253Z",
   "foundPlace": null
 }
