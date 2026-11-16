@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T22:23:32.310Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-16T22:33:47.495Z",
+  "place": "pond",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-16T22:43:47.495Z",
   "needs": {
-    "fullness": 51,
-    "water": 49,
-    "energy": 55,
-    "curiosity": 36,
-    "joy": 35,
-    "calm": 97
+    "fullness": 50,
+    "water": 98,
+    "energy": 54,
+    "curiosity": 35,
+    "joy": 34,
+    "calm": 100
   },
   "health": 100,
-  "mood": "playful and delighted",
+  "mood": "happy and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -509,7 +509,7 @@
       }
     }
   ],
-  "plan": "Play with crabs, then drink, eat, tend seedlings, wind down on the hill.",
+  "plan": "Drink, eat dinner, tend seedlings, then watch the sky and wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1419,18 +1419,16 @@
       "glade"
     ]
   },
-  "ticks": 392,
+  "ticks": 393,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [
-    "You did your own thing: play a clacking game with the crabs using the shiny shell."
-  ],
-  "thought": "I'm at the tidepools with the shiny shell and my joy is a flat pebble. The crabs always cheer me up. I'll make a little game with them: set the four scratched shells in a new order, clack the rhythm, and see if they dance. That should lift joy and curiosity, and my belly and water are okay for now.",
-  "face": "excited",
-  "lastThought": "2026-11-16T21:42:47.351Z",
+  "lastOutcome": [],
+  "thought": "My water is 48 and my belly is 50, so the pond comes first. The crab party was lovely, but I promised myself never to let water run low. After drinking I will eat, tend my seedlings and wind down on the hill.",
+  "face": "happy",
+  "lastThought": "2026-11-16T22:33:47.495Z",
   "foundPlace": null
 }
