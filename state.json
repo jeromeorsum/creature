@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T08:05:48.404Z",
+  "lastUpdate": "2026-11-16T08:16:01.485Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-16T09:16:01.485Z",
   "needs": {
-    "fullness": 73,
-    "water": 82,
-    "energy": 45,
-    "curiosity": 20,
-    "joy": 34,
+    "fullness": 67,
+    "water": 81,
+    "energy": 74,
+    "curiosity": 19,
+    "joy": 33,
     "calm": 100
   },
   "health": 100,
@@ -1011,7 +1011,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.44,
+        "left": 3.51,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1027,7 +1027,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.44,
+        "left": 3.51,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1035,7 +1035,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.44,
+        "left": 3.51,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1067,7 +1067,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.43,
+        "left": 3.5,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1145,7 +1145,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.44,
+        "left": 3.51,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1397,18 +1397,16 @@
       "glade"
     ]
   },
-  "ticks": 382,
+  "ticks": 383,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "Dawn is here and I am nocturnal, so bedtime is near. My belly is only half a drum and energy is middling. I should sleep in the hut, but a quick meal first helps. I have two berries kept, so I eat them before the pigeon notices, then sleep.",
+  "lastOutcome": [],
+  "thought": "The sun is up and I am nocturnal, so my legs say bedtime. Energy is 44, curiosity is a crumb, but sleeping in the Cosy Hut will fix the energy and tonight I can chase wonders. Nap now.",
   "face": "sleepy",
-  "lastThought": "2026-11-16T07:20:28.429Z",
+  "lastThought": "2026-11-16T08:16:01.485Z",
   "foundPlace": null
 }
