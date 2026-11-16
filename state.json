@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T03:15:10.825Z",
+  "lastUpdate": "2026-11-16T03:25:34.035Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-16T04:05:34.035Z",
   "needs": {
-    "fullness": 83,
-    "water": 80,
-    "energy": 23,
-    "curiosity": 29,
-    "joy": 44,
-    "calm": 100
+    "fullness": 82,
+    "water": 79,
+    "energy": 14,
+    "curiosity": 43,
+    "joy": 51,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious, determined",
+  "mood": "curious, sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -149,7 +149,8 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ]
   },
   "lessons": [
@@ -485,7 +486,7 @@
       }
     }
   ],
-  "plan": "Read crab shells at tidepools, drink, then sleep in the hut.",
+  "plan": "Read shells, then nap in the hut, then drink and tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -530,6 +531,10 @@
     {
       "text": "{\"what\":\"Under the grotto's rock arch, clacking the clacker makes a bright echo that bounces between the walls, and the glowing mushrooms seem to shimmer with the beat.\",\"about\":\"grotto echo\"}",
       "made": "2026-11-15T22:29:21.986Z"
+    },
+    {
+      "text": "{\"what\":\"Lining up the four scratched shells in a new order makes the crabs shuffle to follow the new order, as if they are reading it too.\"}",
+      "made": "2026-11-16T03:25:34.035Z"
     }
   ],
   "world": {
@@ -1005,7 +1010,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.45,
+        "left": 1.52,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1013,7 +1018,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1021,7 +1026,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.45,
+        "left": 1.52,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1029,7 +1034,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.45,
+        "left": 1.52,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1045,7 +1050,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1053,7 +1058,7 @@
         "res": "berries",
         "x": 8.7,
         "z": -2.4,
-        "left": 2.45,
+        "left": 2.52,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1061,7 +1066,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.44,
+        "left": 1.51,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1109,7 +1114,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1119,7 +1124,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1139,7 +1144,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.45,
+        "left": 1.52,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1159,7 +1164,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1179,7 +1184,7 @@
         "res": "berries",
         "x": 20.2,
         "z": -7.9,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1189,7 +1194,7 @@
         "res": "berries",
         "x": 10.1,
         "z": -7.3,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1199,7 +1204,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1391,16 +1396,16 @@
       "glade"
     ]
   },
-  "ticks": 376,
+  "ticks": 377,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My belly is fine at 88, but curiosity is a crumb at 16. The plan says read the crab shells, and the tidepools are the place for that. Energy is 36, so I can't do much hard work. Exploring is cheap, and the crabs are a real wonder. I'll go look closely at the tidepools and line up the scratched shells again, hoping for a new pattern.",
+  "thought": "My energy is low at 22, and the sky is dark, so it is my awake time, but I am tired. I'm at the tidepools with four marked shells. I want to read them for a few minutes, since curiosity is a crumb. But sleeping is wise. Reading shells is a gentle thing that raises curiosity. I will experiment with the shell rows, then nap in the hut.",
   "face": "curious",
-  "lastThought": "2026-11-16T02:24:03.954Z",
+  "lastThought": "2026-11-16T03:25:34.035Z",
   "foundPlace": null
 }
