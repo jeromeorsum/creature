@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T20:10:28.554Z",
+  "lastUpdate": "2026-11-16T20:20:39.947Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-16T20:14:57.180Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-16T20:35:39.947Z",
   "needs": {
-    "fullness": 43,
-    "water": 65,
-    "energy": 85,
-    "curiosity": 0,
-    "joy": 18,
-    "calm": 100
+    "fullness": 42,
+    "water": 64,
+    "energy": 84,
+    "curiosity": 15,
+    "joy": 22,
+    "calm": 95
   },
-  "health": 95,
-  "mood": "hungry but determined",
+  "health": 96,
+  "mood": "nosy and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1031,7 +1031,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.35,
+        "left": 0.42,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1087,7 +1087,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.14,
+        "left": 2.21,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1417,19 +1417,16 @@
       "glade"
     ]
   },
-  "ticks": 388,
+  "ticks": 389,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is still low at 21, so more berries first. The bushes here are full. I will pick again and fill the pot, keeping an eye on the pigeon. Curiosity is zero, so afterwards I'll spy on the pigeon, since I still suspect it knows something.",
-  "face": "determined",
-  "lastThought": "2026-11-16T19:49:57.180Z",
+  "lastOutcome": [],
+  "thought": "My belly is only 42 and my curiosity is zero, which is a sad pebble of a number. The pigeon hangs around here, and spying on it is on my plan. It is quick, it fixes curiosity, and I am still near the berries. Then I will pick more berries and tend seedlings.",
+  "face": "suspicious",
+  "lastThought": "2026-11-16T20:20:39.947Z",
   "foundPlace": null
 }
