@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T21:01:52.205Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-16T21:12:03.149Z",
+  "place": "tidepools",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 18,
+    "z": 34
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-16T21:06:17.683Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-16T21:42:03.149Z",
   "needs": {
-    "fullness": 62,
-    "water": 60,
-    "energy": 76,
-    "curiosity": 11,
-    "joy": 21,
+    "fullness": 61,
+    "water": 59,
+    "energy": 67,
+    "curiosity": 28,
+    "joy": 20,
     "calm": 95
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1032,7 +1032,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1088,7 +1088,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1418,19 +1418,16 @@
       "glade"
     ]
   },
-  "ticks": 390,
+  "ticks": 391,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is only 40 and curiosity is a pebble. I'm at the thicket with berry bushes all around, so I should pick more berries first and eat plenty. Then I'll go and see the crabs for a wonder.",
-  "face": "determined",
-  "lastThought": "2026-11-16T20:41:17.683Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a pebble and my joy is thin. Belly is okay. The crabs at the tidepools are my best wonder, and I want to understand them. I will go explore the tidepools and look closely at the scratched shells with my shiny shell gift.",
+  "face": "curious",
+  "lastThought": "2026-11-16T21:12:03.149Z",
   "foundPlace": null
 }
