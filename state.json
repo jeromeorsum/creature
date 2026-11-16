@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T21:32:30.717Z",
+  "lastUpdate": "2026-11-16T21:42:47.351Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-16T21:42:03.149Z",
+  "doing": "play a clacking game with the crabs using the shiny shell (at the tidepools)",
+  "busyUntil": "2026-11-16T22:22:47.351Z",
   "needs": {
-    "fullness": 59,
-    "water": 57,
-    "energy": 65,
-    "curiosity": 26,
-    "joy": 18,
-    "calm": 95
+    "fullness": 55,
+    "water": 53,
+    "energy": 59,
+    "curiosity": 40,
+    "joy": 39,
+    "calm": 97
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "playful and delighted",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -148,7 +148,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -508,7 +509,7 @@
       }
     }
   ],
-  "plan": "Forage lots of berries, tend seedlings, read crab shells, drink, wind down on the hill.",
+  "plan": "Play with crabs, then drink, eat, tend seedlings, wind down on the hill.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1418,16 +1419,18 @@
       "glade"
     ]
   },
-  "ticks": 391,
+  "ticks": 392,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a pebble and my joy is thin. Belly is okay. The crabs at the tidepools are my best wonder, and I want to understand them. I will go explore the tidepools and look closely at the scratched shells with my shiny shell gift.",
-  "face": "curious",
-  "lastThought": "2026-11-16T21:12:03.149Z",
+  "lastOutcome": [
+    "You did your own thing: play a clacking game with the crabs using the shiny shell."
+  ],
+  "thought": "I'm at the tidepools with the shiny shell and my joy is a flat pebble. The crabs always cheer me up. I'll make a little game with them: set the four scratched shells in a new order, clack the rhythm, and see if they dance. That should lift joy and curiosity, and my belly and water are okay for now.",
+  "face": "excited",
+  "lastThought": "2026-11-16T21:42:47.351Z",
   "foundPlace": null
 }
