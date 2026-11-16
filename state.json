@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T10:10:36.397Z",
+  "lastUpdate": "2026-11-16T10:20:56.121Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-16T10:17:22.253Z",
+  "busyUntil": "2026-11-16T11:20:56.121Z",
   "needs": {
-    "fullness": 51,
-    "water": 69,
-    "energy": 93,
-    "curiosity": 8,
-    "joy": 24,
-    "calm": 99
+    "fullness": 45,
+    "water": 68,
+    "energy": 100,
+    "curiosity": 7,
+    "joy": 23,
+    "calm": 100
   },
   "health": 100,
   "mood": "sleepy and content",
@@ -485,9 +485,33 @@
           4
         ]
       }
+    },
+    {
+      "date": "2026-11-15",
+      "summary": "Today went well: I ate, drank, tended my seedlings, pulled reeds and read the crab shells, and a crab even gave me a shiny shell. My belly ran lowish and I kept no berries, and my curiosity and joy are thin. I feel calm and sleepy. Tomorrow night I want lots of berries, a pot full to keep, and one real wonder about the crabs.",
+      "plan": {
+        "date": "2026-11-15",
+        "plan": [
+          "Forage berries and eat breakfast",
+          "Tend seedlings",
+          "Pull reeds for fibre",
+          "Eat a second meal",
+          "Read the crab shells",
+          "Drink again",
+          "Wind down and watch the sky"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
     }
   ],
-  "plan": "Eat, nap in the hut, then berries and tending seedlings tonight.",
+  "plan": "Sleep, then berries, tend seedlings, and find one real wonder tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1397,16 +1421,16 @@
       "glade"
     ]
   },
-  "ticks": 384,
+  "ticks": 385,
   "spend": {
     "day": "2026-11-15",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [],
-  "thought": "It is 09:17 and I should be asleep, since I sleep in the daytime. Energy is 68 and curiosity is a crumb. Going to bed in the Cosy Hut is the sensible thing. I'll nap now and wake in the evening for berries and one real wonder.",
+  "thought": "It is nearly my bedtime and the sun is bright. My energy is high from naps, but I should wind down. My belly is half full and I have no kept berries, which nags me. Curiosity and joy are low, but tonight I will fix that with berries and a wonder. For now I curl up in the Cosy Hut with the crab's shiny shell.",
   "face": "sleepy",
-  "lastThought": "2026-11-16T09:17:22.253Z",
+  "lastThought": "2026-11-16T10:20:56.121Z",
   "foundPlace": null
 }
