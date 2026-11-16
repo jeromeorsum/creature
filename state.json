@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T19:09:07.631Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-16T19:19:18.587Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-16T19:19:07.631Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-16T19:44:18.587Z",
   "needs": {
-    "fullness": 0,
-    "water": 71,
-    "energy": 99,
+    "fullness": 24,
+    "water": 70,
+    "energy": 94,
     "curiosity": 0,
-    "joy": 18,
+    "joy": 20,
     "calm": 100
   },
-  "health": 94,
+  "health": 93,
   "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -145,7 +145,9 @@
       "Drink again and eat dinner",
       "Watch the sky and wind down"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -504,7 +506,7 @@
       }
     }
   ],
-  "plan": "Drink, forage lots of berries, tend seedlings, then read crab shells.",
+  "plan": "Forage lots of berries, tend seedlings, read crab shells, drink, wind down on the hill.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -557,7 +559,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1028,7 +1030,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1414,16 +1416,19 @@
       "glade"
     ]
   },
-  "ticks": 386,
+  "ticks": 387,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I am starving and thirsty, both nearly empty. Water first at the pond, which is close, then berries at the thicket. I will keep some berries in my pot and eat them fast so the pigeon does not get them. Then tend seedlings and find a wonder.",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "My belly is zero and I must eat before anything. Water is 70, fine. The thicket has berry bushes, so I go forage there and eat a big pile, then pot the rest. Pigeon may watch; I will eat quickly.",
   "face": "determined",
-  "lastThought": "2026-11-16T19:09:07.631Z",
+  "lastThought": "2026-11-16T19:19:18.587Z",
   "foundPlace": null
 }
