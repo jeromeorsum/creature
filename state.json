@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T22:33:47.495Z",
+  "lastUpdate": "2026-11-16T22:44:01.034Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-16T22:43:47.495Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-16T22:54:01.034Z",
   "needs": {
-    "fullness": 50,
-    "water": 98,
-    "energy": 54,
-    "curiosity": 35,
-    "joy": 34,
+    "fullness": 77,
+    "water": 97,
+    "energy": 53,
+    "curiosity": 34,
+    "joy": 37,
     "calm": 100
   },
   "health": 100,
-  "mood": "happy and thirsty",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -149,7 +149,8 @@
       1,
       2,
       3,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -509,7 +510,7 @@
       }
     }
   ],
-  "plan": "Drink, eat dinner, tend seedlings, then watch the sky and wind down.",
+  "plan": "Eat berries, forage more at the thicket, tend seedlings, then watch the sky.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -562,7 +563,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1419,16 +1420,18 @@
       "glade"
     ]
   },
-  "ticks": 393,
+  "ticks": 394,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "My water is 48 and my belly is 50, so the pond comes first. The crab party was lovely, but I promised myself never to let water run low. After drinking I will eat, tend my seedlings and wind down on the hill.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My water is nearly full and my belly is only half a shell. I have two kept berries, so I will eat them here and now. After that I want to forage more, but first food. My seedlings also need tending soon.",
   "face": "happy",
-  "lastThought": "2026-11-16T22:33:47.495Z",
+  "lastThought": "2026-11-16T22:44:01.034Z",
   "foundPlace": null
 }
