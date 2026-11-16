@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T18:58:57.553Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-16T19:09:07.631Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-16T19:19:07.631Z",
   "needs": {
     "fullness": 0,
-    "water": 22,
-    "energy": 100,
-    "curiosity": 1,
-    "joy": 19,
+    "water": 71,
+    "energy": 99,
+    "curiosity": 0,
+    "joy": 18,
     "calm": 100
   },
-  "health": 95,
-  "mood": "sleepy and content",
+  "health": 94,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -135,24 +135,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "plan": [
-      "Forage berries and eat breakfast",
+      "Drink at the pond",
+      "Breakfast: forage berries at the thicket",
+      "Fill the clay pot with berries",
       "Tend seedlings",
-      "Pull reeds for fibre",
-      "Eat a second meal",
-      "Read the crab shells",
-      "Drink again",
-      "Wind down and watch the sky"
+      "Read crab shells at the tidepools",
+      "Drink again and eat dinner",
+      "Watch the sky and wind down"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -511,7 +504,7 @@
       }
     }
   ],
-  "plan": "Sleep, then berries, tend seedlings, and find one real wonder tonight.",
+  "plan": "Drink, forage lots of berries, tend seedlings, then read crab shells.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1421,16 +1414,16 @@
       "glade"
     ]
   },
-  "ticks": 385,
+  "ticks": 386,
   "spend": {
-    "day": "2026-11-15",
+    "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly my bedtime and the sun is bright. My energy is high from naps, but I should wind down. My belly is half full and I have no kept berries, which nags me. Curiosity and joy are low, but tonight I will fix that with berries and a wonder. For now I curl up in the Cosy Hut with the crab's shiny shell.",
-  "face": "sleepy",
-  "lastThought": "2026-11-16T10:20:56.121Z",
+  "thought": "I am starving and thirsty, both nearly empty. Water first at the pond, which is close, then berries at the thicket. I will keep some berries in my pot and eat them fast so the pigeon does not get them. Then tend seedlings and find a wonder.",
+  "face": "determined",
+  "lastThought": "2026-11-16T19:09:07.631Z",
   "foundPlace": null
 }
