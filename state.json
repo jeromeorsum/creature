@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-16T22:13:23.778Z",
+  "lastUpdate": "2026-11-16T22:23:32.310Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "play a clacking game with the crabs using the shiny shell (at the tidepools)",
-  "busyUntil": "2026-11-16T22:22:47.351Z",
+  "doing": "pottering about at the tidepools",
+  "busyUntil": null,
   "needs": {
-    "fullness": 52,
-    "water": 50,
-    "energy": 56,
-    "curiosity": 37,
-    "joy": 36,
+    "fullness": 51,
+    "water": 49,
+    "energy": 55,
+    "curiosity": 36,
+    "joy": 35,
     "calm": 97
   },
   "health": 100,
