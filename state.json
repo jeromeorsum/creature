@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T20:13:59.814Z",
+  "lastUpdate": "2026-11-17T20:24:09.974Z",
   "place": "thicket",
   "spot": {
-    "x": 10.9,
-    "z": -3.1
+    "x": 14.1,
+    "z": -7.3
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-17T20:18:32.343Z",
+  "busyUntil": "2026-11-17T20:49:09.974Z",
   "needs": {
-    "fullness": 42,
-    "water": 66,
-    "energy": 85,
-    "curiosity": 8,
-    "joy": 21,
+    "fullness": 65,
+    "water": 65,
+    "energy": 80,
+    "curiosity": 7,
+    "joy": 23,
     "calm": 99
   },
-  "health": 92,
+  "health": 93,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -588,7 +588,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 4,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1075,7 +1075,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1163,7 +1163,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1445,19 +1445,18 @@
       "glade"
     ]
   },
-  "ticks": 412,
+  "ticks": 413,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You collected 4 berries and ate 2 on the spot."
   ],
-  "thought": "My belly is only a fifth full, so more berries first. The bushes are loaded, so I pick again and keep some for the pot. The pigeon is watching, so I will eat quickly. Curiosity and joy are thin, but food comes before wonders.",
+  "thought": "My belly is only at 41 and my curiosity is a dry pebble. There are loads of berries here, so I'll pick more and fill the pot before the pigeon gets ideas. Then I'll go and look for a wonder. Spying on the pigeon would help my curiosity, but food first.",
   "face": "determined",
-  "lastThought": "2026-11-17T19:53:32.343Z",
+  "lastThought": "2026-11-17T20:24:09.974Z",
   "foundPlace": null
 }
