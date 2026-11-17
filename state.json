@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T21:05:05.268Z",
+  "lastUpdate": "2026-11-17T21:15:23.202Z",
   "place": "grotto",
   "spot": {
     "x": 8,
@@ -10,14 +10,14 @@
   "doing": "explore at the grotto",
   "busyUntil": "2026-11-17T21:24:50.249Z",
   "needs": {
-    "fullness": 61,
-    "water": 61,
-    "energy": 68,
-    "curiosity": 21,
-    "joy": 19,
+    "fullness": 60,
+    "water": 60,
+    "energy": 67,
+    "curiosity": 20,
+    "joy": 18,
     "calm": 99
   },
-  "health": 97,
+  "health": 98,
   "mood": "curious and damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
