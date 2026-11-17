@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T05:23:51.131Z",
-  "place": "grotto",
+  "lastUpdate": "2026-11-17T05:34:04.337Z",
+  "place": "nest",
   "spot": {
-    "x": 8,
-    "z": -22
+    "x": -8,
+    "z": 6
   },
-  "doing": "experiment at the grotto",
-  "busyUntil": "2026-11-17T05:33:11.044Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-17T06:34:04.337Z",
   "needs": {
-    "fullness": 57,
-    "water": 53,
-    "energy": 12,
-    "curiosity": 33,
-    "joy": 42,
-    "calm": 95
+    "fullness": 51,
+    "water": 52,
+    "energy": 41,
+    "curiosity": 32,
+    "joy": 41,
+    "calm": 100
   },
   "health": 100,
   "mood": "curious and sleepy",
@@ -922,7 +922,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.91,
+        "left": 1.96,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -930,7 +930,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.91,
+        "left": 2.96,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -946,7 +946,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.01,
+        "left": 2.06,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1426,7 +1426,7 @@
       "glade"
     ]
   },
-  "ticks": 401,
+  "ticks": 402,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
