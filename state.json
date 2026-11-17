@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T23:38:45.601Z",
+  "lastUpdate": "2026-11-17T23:48:56.719Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "tend plants at the pond",
+  "busyUntil": "2026-11-18T00:23:56.719Z",
   "needs": {
-    "fullness": 74,
-    "water": 96,
-    "energy": 37,
-    "curiosity": 29,
-    "joy": 34,
+    "fullness": 73,
+    "water": 91,
+    "energy": 28,
+    "curiosity": 28,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "hopeful and busy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -539,7 +539,7 @@
       }
     }
   ],
-  "plan": "Make a song, drink at the pond, tend plants, forage berries, watch the stars.",
+  "plan": "Tend plants, forage berries, watch the stars, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -942,7 +942,7 @@
         "x": 4.9,
         "z": 27.6,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "fibre2",
@@ -950,7 +950,7 @@
         "x": -2.2,
         "z": 17.7,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "fibre3",
@@ -958,7 +958,7 @@
         "x": -3.5,
         "z": 26.1,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "fibre4",
@@ -966,7 +966,7 @@
         "x": -5.6,
         "z": 26.7,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "fibre5",
@@ -974,7 +974,7 @@
         "x": -3.9,
         "z": 19.8,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "fibre6",
@@ -982,7 +982,7 @@
         "x": 4,
         "z": 23,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "fibre7",
@@ -990,7 +990,7 @@
         "x": 4.1,
         "z": 18.6,
         "left": 3,
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "shells1",
@@ -1134,7 +1134,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "planted58",
@@ -1144,7 +1144,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "planted59",
@@ -1154,7 +1154,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-17T22:54:17.611Z"
+        "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
         "id": "planted60",
@@ -1453,18 +1453,18 @@
       "glade"
     ]
   },
-  "ticks": 418,
+  "ticks": 419,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You looked after 10 plants around the pond. They'll grow for about a day."
   ],
-  "thought": "My belly is under half and berries are in the pot, so I should eat first. I'm at the pond with water nearly full. Eating my kept berries is quick and sensible, then I can tend plants. The pigeon can't steal what is already in my belly.",
-  "face": "happy",
-  "lastThought": "2026-11-17T23:18:16.090Z",
+  "thought": "My belly is decent but my pot is nearly empty, and I have seedlings to tend. I'm at the pond with rain falling and bushes nearby. Tending plants gives calm and joy, and keeps things growing back. Berries are 100 left, plenty. Let me tend the plants here, then forage.",
+  "face": "determined",
+  "lastThought": "2026-11-17T23:48:56.719Z",
   "foundPlace": null
 }
