@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T01:48:26.384Z",
-  "place": "hill",
+  "lastUpdate": "2026-11-17T01:58:51.497Z",
+  "place": "nest",
   "spot": {
-    "x": 30,
-    "z": 18
+    "x": -8,
+    "z": 6
   },
-  "doing": "watch the sky at the hill",
-  "busyUntil": "2026-11-17T01:58:04.189Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-17T02:58:51.497Z",
   "needs": {
-    "fullness": 83,
-    "water": 75,
-    "energy": 16,
-    "curiosity": 20,
-    "joy": 51,
+    "fullness": 77,
+    "water": 74,
+    "energy": 45,
+    "curiosity": 19,
+    "joy": 50,
     "calm": 100
   },
   "health": 100,
-  "mood": "calm and sleepy",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -151,7 +151,8 @@
       3,
       5,
       6,
-      4
+      4,
+      7
     ]
   },
   "lessons": [
@@ -511,7 +512,7 @@
       }
     }
   ],
-  "plan": "Watch the sky, then go home and sleep.",
+  "plan": "Sleep in the hut, then berries, tend seedlings, and seek a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -917,7 +918,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.85,
+        "left": 0.9,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -925,7 +926,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.85,
+        "left": 1.9,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -941,7 +942,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.95,
+        "left": 1,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1421,16 +1422,16 @@
       "glade"
     ]
   },
-  "ticks": 398,
+  "ticks": 399,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My energy is low at 20 and curiosity is a pebble. Belly is full enough, so I should wind down. The hill is calm and wonderful for watching the night sky, and it will lift my curiosity a little. Then nap in the Cosy Hut when morning comes.",
+  "thought": "My energy is a sleepy puddle at 15, and my belly and water are fine. I did the sky watching already, so it's time to go home to the Cosy Hut and nap. The stars were lovely. Tomorrow night I want a real wonder about the crabs.",
   "face": "sleepy",
-  "lastThought": "2026-11-17T01:28:04.189Z",
+  "lastThought": "2026-11-17T01:58:51.497Z",
   "foundPlace": null
 }
