@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T07:05:50.562Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-17T07:16:03.308Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-17T08:16:03.308Z",
   "needs": {
-    "fullness": 56,
-    "water": 93,
-    "energy": 32,
-    "curiosity": 23,
-    "joy": 36,
+    "fullness": 50,
+    "water": 92,
+    "energy": 61,
+    "curiosity": 22,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and grateful",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -512,7 +512,7 @@
       }
     }
   ],
-  "plan": "Eat the berry, nap in the hut, then pick berries tonight.",
+  "plan": "Nap in the hut, then pick berries tonight and fill the pot.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -922,7 +922,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.41,
+        "left": 2.46,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -946,7 +946,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.51,
+        "left": 2.56,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1426,18 +1426,16 @@
       "glade"
     ]
   },
-  "ticks": 404,
+  "ticks": 405,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [
-    "You ate 1 berries from your food."
-  ],
-  "thought": "Dawn is here, I'm sleepy and my belly is half empty. I have one berry, so I eat it now before the pigeon notices. Then I'll go to the Cosy Hut and sleep through the day like a proper nocturnal bird. The crab's shiny shell is a lovely mystery, but it can wait until tonight.",
-  "face": "happy",
-  "lastThought": "2026-11-17T06:45:26.099Z",
+  "lastOutcome": [],
+  "thought": "Dawn, and I am a night bird, so I should sleep now. My energy is a low puddle at 31. The Cosy Hut is 16 metres away. I have no berries kept, but my belly is half full and water is high, so a nap is fine. When I wake tonight I will pick berries first.",
+  "face": "sleepy",
+  "lastThought": "2026-11-17T07:16:03.308Z",
   "foundPlace": null
 }
