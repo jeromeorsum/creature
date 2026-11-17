@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T19:33:03.008Z",
+  "lastUpdate": "2026-11-17T19:53:32.343Z",
   "place": "thicket",
   "spot": {
     "x": 10.9,
     "z": -3.1
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-17T19:37:18.434Z",
+  "busyUntil": "2026-11-17T20:18:32.343Z",
   "needs": {
-    "fullness": 22,
-    "water": 70,
-    "energy": 92,
-    "curiosity": 12,
-    "joy": 21,
-    "calm": 100
+    "fullness": 44,
+    "water": 68,
+    "energy": 87,
+    "curiosity": 10,
+    "joy": 23,
+    "calm": 99
   },
   "health": 90,
   "mood": "hungry but determined",
@@ -1075,7 +1075,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3,
+        "left": 1,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1445,19 +1445,19 @@
       "glade"
     ]
   },
-  "ticks": 411,
+  "ticks": 412,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is totally empty, fullness zero. Berries first, no more dithering. The thicket has bushes, and I have one kept berry too, so I could eat it right now but it is better to forage and eat plenty. Then fill the pot and tend plants.",
+  "thought": "My belly is only a fifth full, so more berries first. The bushes are loaded, so I pick again and keep some for the pot. The pigeon is watching, so I will eat quickly. Curiosity and joy are thin, but food comes before wonders.",
   "face": "determined",
-  "lastThought": "2026-11-17T19:12:18.434Z",
+  "lastThought": "2026-11-17T19:53:32.343Z",
   "foundPlace": null
 }
