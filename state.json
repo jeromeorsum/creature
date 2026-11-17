@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T23:48:56.719Z",
+  "lastUpdate": "2026-11-17T23:59:03.331Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,11 +10,11 @@
   "doing": "tend plants at the pond",
   "busyUntil": "2026-11-18T00:23:56.719Z",
   "needs": {
-    "fullness": 73,
-    "water": 91,
-    "energy": 28,
-    "curiosity": 28,
-    "joy": 38,
+    "fullness": 72,
+    "water": 90,
+    "energy": 27,
+    "curiosity": 27,
+    "joy": 37,
     "calm": 100
   },
   "health": 100,
