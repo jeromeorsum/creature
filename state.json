@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T03:52:00.546Z",
+  "lastUpdate": "2026-11-17T04:53:11.044Z",
   "place": "grotto",
   "spot": {
     "x": 8,
     "z": -22
   },
-  "doing": "pottering about at the grotto",
-  "busyUntil": null,
+  "doing": "experiment at the grotto",
+  "busyUntil": "2026-11-17T05:33:11.044Z",
   "needs": {
-    "fullness": 66,
-    "water": 63,
-    "energy": 27,
-    "curiosity": 26,
-    "joy": 40,
-    "calm": 99
+    "fullness": 60,
+    "water": 56,
+    "energy": 15,
+    "curiosity": 36,
+    "joy": 45,
+    "calm": 95
   },
   "health": 100,
-  "mood": "curious and a little sleepy",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -512,7 +512,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then berries, tend seedlings, and seek a crab wonder.",
+  "plan": "Experiment with the mushrooms, then go home and nap, then berries and tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -561,6 +561,10 @@
     {
       "text": "{\"what\":\"Lining up the four scratched shells in a new order makes the crabs shuffle to follow the new order, as if they are reading it too.\"}",
       "made": "2026-11-16T03:25:34.035Z"
+    },
+    {
+      "text": "{\"what\":\"Clacking slow beats under the grotto arch makes the glowing mushrooms seem to pulse slowly, and fast beats make them flicker, as if they follow the tempo.\"}",
+      "made": "2026-11-17T04:53:11.044Z"
     }
   ],
   "world": {
@@ -918,7 +922,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.45,
+        "left": 1.76,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -926,7 +930,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.45,
+        "left": 2.76,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -942,7 +946,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.55,
+        "left": 1.86,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1422,16 +1426,16 @@
       "glade"
     ]
   },
-  "ticks": 400,
+  "ticks": 401,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a pebble at 13, but energy is 39 and it is the middle of my awake night. A new exploration would give curiosity. I have explored everything, but looking closely at the grotto with the glowing mushrooms and the clacker could be a wonder. Belly and water are fine. I will go to the grotto and explore it closely.",
+  "thought": "My energy is low at 23 and my curiosity is a pebble. I am at the grotto among the glowing mushrooms. The glow and the echo are wonderful, but I should try one wonder here, then rest. The Cosy Hut is far, so I will make a small experiment with the clacker and the mushroom light to fill my curiosity before heading home.",
   "face": "curious",
-  "lastThought": "2026-11-17T03:00:16.287Z",
+  "lastThought": "2026-11-17T04:53:11.044Z",
   "foundPlace": null
 }
