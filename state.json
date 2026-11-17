@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T20:44:42.151Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-17T20:54:50.249Z",
+  "place": "grotto",
   "spot": {
-    "x": 14.1,
-    "z": -7.3
+    "x": 8,
+    "z": -22
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-17T20:49:09.974Z",
+  "doing": "explore at the grotto",
+  "busyUntil": "2026-11-17T21:24:50.249Z",
   "needs": {
-    "fullness": 63,
-    "water": 63,
-    "energy": 78,
-    "curiosity": 5,
-    "joy": 21,
+    "fullness": 62,
+    "water": 62,
+    "energy": 69,
+    "curiosity": 22,
+    "joy": 20,
     "calm": 99
   },
-  "health": 95,
-  "mood": "hungry but determined",
+  "health": 96,
+  "mood": "curious and damp",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -146,7 +146,8 @@
       "Wind down before bed"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -587,7 +588,7 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
+    "weather": "rainy",
     "food": 4,
     "seeds": {
       "tree": 1,
@@ -1445,18 +1446,16 @@
       "glade"
     ]
   },
-  "ticks": 413,
+  "ticks": 414,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is only at 41 and my curiosity is a dry pebble. There are loads of berries here, so I'll pick more and fill the pot before the pigeon gets ideas. Then I'll go and look for a wonder. Spying on the pigeon would help my curiosity, but food first.",
-  "face": "determined",
-  "lastThought": "2026-11-17T20:24:09.974Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry pebble at 4 and my belly is only middling. I have been picking berries all night, so now it is time for a wonder. The grotto is close, and the mushrooms pulse with the clacker. It is raining, but the grotto arch should be dry-ish. I will explore it properly and look for something new.",
+  "face": "curious",
+  "lastThought": "2026-11-17T20:54:50.249Z",
   "foundPlace": null
 }
