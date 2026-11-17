@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T22:06:23.840Z",
-  "place": "grotto",
+  "lastUpdate": "2026-11-17T22:16:33.014Z",
+  "place": "meadow",
   "spot": {
-    "x": 8,
-    "z": -22
+    "x": 6,
+    "z": 10
   },
-  "doing": "pottering about at the grotto",
-  "busyUntil": null,
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-17T22:56:33.014Z",
   "needs": {
-    "fullness": 55,
-    "water": 55,
-    "energy": 54,
-    "curiosity": 30,
-    "joy": 21,
+    "fullness": 54,
+    "water": 54,
+    "energy": 45,
+    "curiosity": 37,
+    "joy": 38,
     "calm": 97
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "hopeful and musical",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -110,6 +110,12 @@
       "kind": "names for things",
       "file": "2026-11-14-the-pond-namebook.md",
       "made": "2026-11-14T09:55:10.316Z"
+    },
+    {
+      "title": "The Mushroom Lantern Round",
+      "kind": "song",
+      "file": "2026-11-17-the-mushroom-lantern-round.md",
+      "made": "2026-11-17T22:16:33.014Z"
     }
   ],
   "concerns": [
@@ -147,7 +153,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      4
     ]
   },
   "lessons": [
@@ -532,7 +539,7 @@
       }
     }
   ],
-  "plan": "Drink, forage lots of berries and fill the pot, tend plants, then look for one real wonder.",
+  "plan": "Make a song, drink at the pond, tend plants, forage berries, watch the stars.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1446,16 +1453,16 @@
       "glade"
     ]
   },
-  "ticks": 415,
+  "ticks": 416,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "I am in the grotto and my curiosity is a dry pebble. The mushrooms glow and the rain taps outside. I will try an experiment with my shells under the glow to see what happens.",
-  "face": "curious",
-  "lastThought": "2026-11-17T21:25:35.449Z",
+  "thought": "My water and belly are both around half, and joy is low at 20. I'm dry in the grotto, and the glowing mushrooms make me happy. A little make_something here would lift joy and curiosity. I'll write a song for the mushrooms and shiny shells, then drink after.",
+  "face": "happy",
+  "lastThought": "2026-11-17T22:16:33.014Z",
   "foundPlace": null
 }
