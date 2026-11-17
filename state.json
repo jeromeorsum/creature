@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T03:00:16.287Z",
+  "lastUpdate": "2026-11-17T03:10:32.988Z",
   "place": "grotto",
   "spot": {
     "x": 8,
@@ -10,11 +10,11 @@
   "doing": "explore at the grotto",
   "busyUntil": "2026-11-17T03:30:16.287Z",
   "needs": {
-    "fullness": 71,
-    "water": 68,
-    "energy": 31,
-    "curiosity": 31,
-    "joy": 44,
+    "fullness": 70,
+    "water": 67,
+    "energy": 30,
+    "curiosity": 30,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
@@ -918,7 +918,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.2,
+        "left": 1.25,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -926,7 +926,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.2,
+        "left": 2.25,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -942,7 +942,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.3,
+        "left": 1.35,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
