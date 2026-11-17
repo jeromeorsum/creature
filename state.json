@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T06:35:14.798Z",
+  "lastUpdate": "2026-11-17T06:45:26.099Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-17T06:45:14.798Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-17T06:55:26.099Z",
   "needs": {
-    "fullness": 45,
-    "water": 96,
-    "energy": 35,
-    "curiosity": 26,
-    "joy": 35,
+    "fullness": 58,
+    "water": 95,
+    "energy": 34,
+    "curiosity": 25,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but sensible",
+  "mood": "sleepy and grateful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -512,7 +512,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berry, nap in the hut, then berries tonight.",
+  "plan": "Eat the berry, nap in the hut, then pick berries tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -569,7 +569,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -579,7 +579,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 5,
-      "shells": 3
+      "shells": 4
     },
     "discovered": [
       "clay",
@@ -922,7 +922,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.26,
+        "left": 2.31,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -946,7 +946,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.36,
+        "left": 2.41,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1426,16 +1426,18 @@
       "glade"
     ]
   },
-  "ticks": 403,
+  "ticks": 404,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [],
-  "thought": "Dawn is coming and I should be sleeping soon, but my water is 46 and belly 45, and I have learned never to let those hit zero. The pond is close, so I drink first. Then I will eat my one berry and nap in the Cosy Hut. The pigeon can keep its secrets.",
-  "face": "sleepy",
-  "lastThought": "2026-11-17T06:35:14.798Z",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "Dawn is here, I'm sleepy and my belly is half empty. I have one berry, so I eat it now before the pigeon notices. Then I'll go to the Cosy Hut and sleep through the day like a proper nocturnal bird. The crab's shiny shell is a lovely mystery, but it can wait until tonight.",
+  "face": "happy",
+  "lastThought": "2026-11-17T06:45:26.099Z",
   "foundPlace": null
 }
