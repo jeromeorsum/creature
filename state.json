@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T09:59:36.144Z",
+  "lastUpdate": "2026-11-17T10:10:02.189Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-17T10:04:26.384Z",
+  "doing": "pottering about at the thicket",
+  "busyUntil": null,
   "needs": {
-    "fullness": 53,
-    "water": 76,
-    "energy": 71,
-    "curiosity": 21,
-    "joy": 27,
+    "fullness": 52,
+    "water": 75,
+    "energy": 70,
+    "curiosity": 20,
+    "joy": 26,
     "calm": 95
   },
   "health": 100,
