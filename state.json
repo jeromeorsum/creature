@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T15:37:34.162Z",
+  "lastUpdate": "2026-11-17T15:47:41.963Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,8 +10,8 @@
   "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 16,
-    "water": 43,
+    "fullness": 15,
+    "water": 42,
     "energy": 100,
     "curiosity": 16,
     "joy": 22,
