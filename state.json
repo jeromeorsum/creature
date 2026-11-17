@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T21:15:23.202Z",
+  "lastUpdate": "2026-11-17T21:25:35.449Z",
   "place": "grotto",
   "spot": {
     "x": 8,
     "z": -22
   },
-  "doing": "explore at the grotto",
-  "busyUntil": "2026-11-17T21:24:50.249Z",
+  "doing": "experiment at the grotto",
+  "busyUntil": "2026-11-17T22:05:35.449Z",
   "needs": {
-    "fullness": 60,
-    "water": 60,
-    "energy": 67,
-    "curiosity": 20,
-    "joy": 18,
-    "calm": 99
+    "fullness": 59,
+    "water": 59,
+    "energy": 58,
+    "curiosity": 34,
+    "joy": 25,
+    "calm": 97
   },
-  "health": 98,
-  "mood": "curious and damp",
+  "health": 99,
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1446,16 +1446,16 @@
       "glade"
     ]
   },
-  "ticks": 414,
+  "ticks": 415,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry pebble at 4 and my belly is only middling. I have been picking berries all night, so now it is time for a wonder. The grotto is close, and the mushrooms pulse with the clacker. It is raining, but the grotto arch should be dry-ish. I will explore it properly and look for something new.",
+  "thought": "I am in the grotto and my curiosity is a dry pebble. The mushrooms glow and the rain taps outside. I will try an experiment with my shells under the glow to see what happens.",
   "face": "curious",
-  "lastThought": "2026-11-17T20:54:50.249Z",
+  "lastThought": "2026-11-17T21:25:35.449Z",
   "foundPlace": null
 }
