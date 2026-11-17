@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T06:25:10.988Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-17T06:35:14.798Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-17T06:34:04.337Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-17T06:45:14.798Z",
   "needs": {
-    "fullness": 46,
-    "water": 47,
-    "energy": 36,
-    "curiosity": 27,
-    "joy": 36,
+    "fullness": 45,
+    "water": 96,
+    "energy": 35,
+    "curiosity": 26,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and sleepy",
+  "mood": "sleepy but sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -512,7 +512,7 @@
       }
     }
   ],
-  "plan": "Experiment with the mushrooms, then go home and nap, then berries and tend seedlings.",
+  "plan": "Drink, eat berry, nap in the hut, then berries tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -922,7 +922,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.21,
+        "left": 2.26,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -946,7 +946,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.31,
+        "left": 2.36,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1426,16 +1426,16 @@
       "glade"
     ]
   },
-  "ticks": 402,
+  "ticks": 403,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "My energy is low at 23 and my curiosity is a pebble. I am at the grotto among the glowing mushrooms. The glow and the echo are wonderful, but I should try one wonder here, then rest. The Cosy Hut is far, so I will make a small experiment with the clacker and the mushroom light to fill my curiosity before heading home.",
-  "face": "curious",
-  "lastThought": "2026-11-17T04:53:11.044Z",
+  "thought": "Dawn is coming and I should be sleeping soon, but my water is 46 and belly 45, and I have learned never to let those hit zero. The pond is close, so I drink first. Then I will eat my one berry and nap in the Cosy Hut. The pigeon can keep its secrets.",
+  "face": "sleepy",
+  "lastThought": "2026-11-17T06:35:14.798Z",
   "foundPlace": null
 }
