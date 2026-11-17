@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T22:47:18.412Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-17T22:57:42.069Z",
+  "place": "pond",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -4,
+    "z": 21
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-17T22:56:33.014Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-17T23:07:42.069Z",
   "needs": {
-    "fullness": 51,
-    "water": 51,
-    "energy": 42,
-    "curiosity": 34,
-    "joy": 35,
-    "calm": 97
+    "fullness": 50,
+    "water": 100,
+    "energy": 41,
+    "curiosity": 33,
+    "joy": 34,
+    "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and musical",
+  "mood": "warm and grateful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -606,7 +606,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 5,
-      "shells": 4
+      "shells": 5
     },
     "discovered": [
       "clay",
@@ -1453,16 +1453,16 @@
       "glade"
     ]
   },
-  "ticks": 416,
+  "ticks": 417,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "My water and belly are both around half, and joy is low at 20. I'm dry in the grotto, and the glowing mushrooms make me happy. A little make_something here would lift joy and curiosity. I'll write a song for the mushrooms and shiny shells, then drink after.",
+  "thought": "A crab left a shiny shell by me. I think it is a gift, and I feel warm about it. My throat is only half full and the pond is close, so I drink first, like my lesson says. Then I'll eat some berries and tend my plants.",
   "face": "happy",
-  "lastThought": "2026-11-17T22:16:33.014Z",
+  "lastThought": "2026-11-17T22:57:42.069Z",
   "foundPlace": null
 }
