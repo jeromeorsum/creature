@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T19:02:11.983Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-17T19:12:18.434Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-17T19:12:11.983Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-17T19:37:18.434Z",
   "needs": {
-    "fullness": 0,
-    "water": 73,
-    "energy": 99,
-    "curiosity": 15,
-    "joy": 21,
+    "fullness": 24,
+    "water": 72,
+    "energy": 94,
+    "curiosity": 14,
+    "joy": 23,
     "calm": 100
   },
-  "health": 91,
-  "mood": "hungry but hopeful",
+  "health": 90,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -137,8 +137,7 @@
   "today": {
     "date": "2026-11-17",
     "plan": [
-      "Drink at the pond",
-      "Forage berries at the thicket and eat breakfast",
+      "Forage berries and eat breakfast",
       "Fill the pot with kept berries",
       "Tend plants and seedlings",
       "Look for a wonder at the grotto or tidepools",
@@ -146,7 +145,9 @@
       "Watch the stars",
       "Wind down before bed"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -587,7 +588,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 1,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1074,7 +1075,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4,
+        "left": 3,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1082,7 +1083,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1444,16 +1445,19 @@
       "glade"
     ]
   },
-  "ticks": 410,
+  "ticks": 411,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "Fullness is zero and water is low. Lesson says drink and eat first. The pond is close, so I drink first, then go to the thicket for berries. Tonight I really want a full pot and one wonder.",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "My belly is totally empty, fullness zero. Berries first, no more dithering. The thicket has bushes, and I have one kept berry too, so I could eat it right now but it is better to forage and eat plenty. Then fill the pot and tend plants.",
   "face": "determined",
-  "lastThought": "2026-11-17T19:02:11.983Z",
+  "lastThought": "2026-11-17T19:12:18.434Z",
   "foundPlace": null
 }
