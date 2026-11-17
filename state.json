@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T23:08:00.785Z",
+  "lastUpdate": "2026-11-17T23:18:16.090Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-17T23:28:16.090Z",
   "needs": {
-    "fullness": 49,
-    "water": 99,
-    "energy": 40,
-    "curiosity": 32,
-    "joy": 33,
+    "fullness": 76,
+    "water": 98,
+    "energy": 39,
+    "curiosity": 31,
+    "joy": 36,
     "calm": 100
   },
   "health": 100,
-  "mood": "warm and grateful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -596,7 +596,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 4,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1453,16 +1453,18 @@
       "glade"
     ]
   },
-  "ticks": 417,
+  "ticks": 418,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "A crab left a shiny shell by me. I think it is a gift, and I feel warm about it. My throat is only half full and the pond is close, so I drink first, like my lesson says. Then I'll eat some berries and tend my plants.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My belly is under half and berries are in the pot, so I should eat first. I'm at the pond with water nearly full. Eating my kept berries is quick and sensible, then I can tend plants. The pigeon can't steal what is already in my belly.",
   "face": "happy",
-  "lastThought": "2026-11-17T22:57:42.069Z",
+  "lastThought": "2026-11-17T23:18:16.090Z",
   "foundPlace": null
 }
