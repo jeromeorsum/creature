@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T01:17:54.302Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-17T01:28:04.189Z",
+  "place": "hill",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 30,
+    "z": 18
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-17T01:22:21.083Z",
+  "doing": "watch the sky at the hill",
+  "busyUntil": "2026-11-17T01:58:04.189Z",
   "needs": {
-    "fullness": 86,
-    "water": 78,
-    "energy": 21,
-    "curiosity": 19,
-    "joy": 48,
+    "fullness": 85,
+    "water": 77,
+    "energy": 18,
+    "curiosity": 22,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
-  "mood": "calm and a bit sleepy",
+  "mood": "calm and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -511,7 +511,7 @@
       }
     }
   ],
-  "plan": "Pick berries, then watch the sky and wind down.",
+  "plan": "Watch the sky, then go home and sleep.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -917,7 +917,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.7,
+        "left": 0.75,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -925,7 +925,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.7,
+        "left": 1.75,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -941,7 +941,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.8,
+        "left": 0.85,
         "tendedUntil": "2026-11-17T22:54:17.611Z"
       },
       {
@@ -1421,18 +1421,16 @@
       "glade"
     ]
   },
-  "ticks": 397,
+  "ticks": 398,
   "spend": {
     "day": "2026-11-16",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
-  ],
-  "thought": "Belly is 64, water 80, but energy is only 27 and I have no kept berries. The pigeon is quiet. I'm at the pond with clay and reeds all around. Berries are what I need most, so I go to the thicket, eat, and fill my pot. Then I can wind down.",
-  "face": "determined",
-  "lastThought": "2026-11-17T00:57:21.083Z",
+  "lastOutcome": [],
+  "thought": "My energy is low at 20 and curiosity is a pebble. Belly is full enough, so I should wind down. The hill is calm and wonderful for watching the night sky, and it will lift my curiosity a little. Then nap in the Cosy Hut when morning comes.",
+  "face": "sleepy",
+  "lastThought": "2026-11-17T01:28:04.189Z",
   "foundPlace": null
 }
