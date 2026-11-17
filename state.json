@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T21:56:09.794Z",
+  "lastUpdate": "2026-11-17T22:06:23.840Z",
   "place": "grotto",
   "spot": {
     "x": 8,
     "z": -22
   },
-  "doing": "experiment at the grotto",
-  "busyUntil": "2026-11-17T22:05:35.449Z",
+  "doing": "pottering about at the grotto",
+  "busyUntil": null,
   "needs": {
-    "fullness": 56,
-    "water": 56,
-    "energy": 55,
-    "curiosity": 31,
-    "joy": 22,
+    "fullness": 55,
+    "water": 55,
+    "energy": 54,
+    "curiosity": 30,
+    "joy": 21,
     "calm": 97
   },
   "health": 100,
