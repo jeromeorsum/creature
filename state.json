@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-17T18:51:54.207Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-17T19:02:11.983Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-17T19:12:11.983Z",
   "needs": {
     "fullness": 0,
-    "water": 24,
-    "energy": 100,
-    "curiosity": 16,
-    "joy": 22,
+    "water": 73,
+    "energy": 99,
+    "curiosity": 15,
+    "joy": 21,
     "calm": 100
   },
-  "health": 92,
-  "mood": "sleepy and hopeful",
+  "health": 91,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -135,25 +135,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "plan": [
-      "Breakfast: forage berries at the thicket",
-      "Fill the clay pot with berries",
-      "Spy on the pigeon",
-      "Tend seedlings",
-      "Read crab shells at the tidepools",
-      "Drink and eat dinner",
-      "Watch the sky and wind down"
+      "Drink at the pond",
+      "Forage berries at the thicket and eat breakfast",
+      "Fill the pot with kept berries",
+      "Tend plants and seedlings",
+      "Look for a wonder at the grotto or tidepools",
+      "Eat dinner and drink again",
+      "Watch the stars",
+      "Wind down before bed"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      5,
-      6,
-      4,
-      7
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -537,7 +530,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then pick lots of berries, fill the pot, and look for one real wonder.",
+  "plan": "Drink, forage lots of berries and fill the pot, tend plants, then look for one real wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1451,16 +1444,16 @@
       "glade"
     ]
   },
-  "ticks": 409,
+  "ticks": 410,
   "spend": {
-    "day": "2026-11-16",
+    "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly sleep time, the sun is up and I am a night bird. My belly is half full and my pot is thin on berries. I will go home to the Cosy Hut and nap. The pigeon is still suspicious, but I stared at it well. Tomorrow night I want berries and one real wonder.",
-  "face": "sleepy",
-  "lastThought": "2026-11-17T10:20:07.921Z",
+  "thought": "Fullness is zero and water is low. Lesson says drink and eat first. The pond is close, so I drink first, then go to the thicket for berries. Tonight I really want a full pot and one wonder.",
+  "face": "determined",
+  "lastThought": "2026-11-17T19:02:11.983Z",
   "foundPlace": null
 }
