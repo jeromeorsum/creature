@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T21:37:19.584Z",
+  "lastUpdate": "2026-11-18T21:47:30.860Z",
   "place": "thicket",
   "spot": {
-    "x": 18.8,
-    "z": -5.9
+    "x": 16.1,
+    "z": 2.2
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-18T21:41:49.968Z",
+  "busyUntil": "2026-11-18T22:12:30.860Z",
   "needs": {
-    "fullness": 22,
-    "water": 47,
-    "energy": 84,
+    "fullness": 45,
+    "water": 46,
+    "energy": 79,
     "curiosity": 0,
-    "joy": 21,
+    "joy": 23,
     "calm": 99
   },
   "health": 74,
@@ -600,7 +600,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 2,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1111,7 +1111,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1265,7 +1265,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1457,18 +1457,19 @@
       "glade"
     ]
   },
-  "ticks": 426,
+  "ticks": 427,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is totally empty, fullness zero, and water is only half. Food first. Berry bushes are right here by the pond, so I go forage berries. Then I drink again and tend plants. The pigeon can watch me eat.",
+  "thought": "My belly is only 21, so food comes first. I'm right at the thicket with plenty of bushes left, so I forage more. I'll eat as I pick and keep some for the pot. Then curiosity can be fed by spying on the pigeon, since it is right here.",
   "face": "determined",
-  "lastThought": "2026-11-18T21:16:49.968Z",
+  "lastThought": "2026-11-18T21:47:30.860Z",
   "foundPlace": null
 }
