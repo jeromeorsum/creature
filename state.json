@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T21:06:33.898Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-18T21:16:49.968Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 18.8,
+    "z": -5.9
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-18T21:16:33.898Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-18T21:41:49.968Z",
   "needs": {
-    "fullness": 0,
-    "water": 50,
-    "energy": 91,
+    "fullness": 24,
+    "water": 49,
+    "energy": 86,
     "curiosity": 0,
-    "joy": 21,
+    "joy": 23,
     "calm": 99
   },
-  "health": 75,
-  "mood": "thirsty but hopeful",
+  "health": 74,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -157,7 +157,9 @@
       "Drink again and eat dinner",
       "Wind down and sleep at dawn"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -541,7 +543,7 @@
       }
     }
   ],
-  "plan": "Drink, forage berries, eat, tend plants, find a wonder, sleep at dawn.",
+  "plan": "Forage berries, eat, drink again, tend plants, find a wonder, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -598,7 +600,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1109,7 +1111,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1173,7 +1175,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1455,16 +1457,18 @@
       "glade"
     ]
   },
-  "ticks": 425,
+  "ticks": 426,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up with fullness 0 and water 0, which is dangerous. Drink first, pond is close. Then berries from the thicket, tend plants, and a wonder later. I mustn't collapse again.",
-  "face": "worried",
-  "lastThought": "2026-11-18T21:06:33.898Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is totally empty, fullness zero, and water is only half. Food first. Berry bushes are right here by the pond, so I go forage berries. Then I drink again and tend plants. The pigeon can watch me eat.",
+  "face": "determined",
+  "lastThought": "2026-11-18T21:16:49.968Z",
   "foundPlace": null
 }
