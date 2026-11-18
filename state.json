@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T22:59:14.121Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-18T23:09:24.419Z",
+  "place": "pond",
   "spot": {
-    "x": 16.1,
-    "z": 2.2
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-18T23:03:52.918Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-18T23:19:24.419Z",
   "needs": {
-    "fullness": 62,
-    "water": 39,
-    "energy": 68,
-    "curiosity": 11,
-    "joy": 24,
-    "calm": 94
+    "fullness": 61,
+    "water": 88,
+    "energy": 67,
+    "curiosity": 10,
+    "joy": 23,
+    "calm": 97
   },
   "health": 81,
-  "mood": "hungry but hopeful",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -544,7 +544,7 @@
       }
     }
   ],
-  "plan": "Eat berries, drink at the pond, tend plants, then find a wonder.",
+  "plan": "Drink, then explore for a wonder, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1458,18 +1458,16 @@
       "glade"
     ]
   },
-  "ticks": 429,
+  "ticks": 430,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
-  ],
-  "thought": "Belly is at 40 and water at 41. Berries are right here, so I pick more first. Curiosity is thin, but food first. The pigeon is watching, so I eat fast.",
-  "face": "determined",
-  "lastThought": "2026-11-18T22:38:52.918Z",
+  "lastOutcome": [],
+  "thought": "Water is 38 and curiosity is a dry pebble. Drinking comes first, then I can look for a wonder. Spying on the pigeon again could help curiosity, but my throat matters more. The pond is close, so I'll go there.",
+  "face": "curious",
+  "lastThought": "2026-11-18T23:09:24.419Z",
   "foundPlace": null
 }
