@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T18:53:47.056Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-18T21:06:33.898Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-18T21:16:33.898Z",
   "needs": {
     "fullness": 0,
-    "water": 0,
-    "energy": 100,
-    "curiosity": 5,
-    "joy": 28,
-    "calm": 100
+    "water": 50,
+    "energy": 91,
+    "curiosity": 0,
+    "joy": 21,
+    "calm": 99
   },
-  "health": 88,
-  "mood": "hopeful and playful",
+  "health": 75,
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -147,21 +147,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "plan": [
+      "Drink at the pond",
       "Forage berries and eat breakfast",
-      "Fill the pot with kept berries",
+      "Fill the pot with berries",
       "Tend plants and seedlings",
-      "Look for a wonder at the grotto or tidepools",
-      "Eat dinner and drink again",
-      "Watch the stars",
-      "Wind down before bed"
+      "Make or find a wonder",
+      "Drink again and eat dinner",
+      "Wind down and sleep at dawn"
     ],
-    "done": [
-      1,
-      2,
-      4
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -545,7 +541,7 @@
       }
     }
   ],
-  "plan": "Eat berries, forage more, tend plants, watch the stars, sleep at dawn.",
+  "plan": "Drink, forage berries, eat, tend plants, find a wonder, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1459,16 +1455,16 @@
       "glade"
     ]
   },
-  "ticks": 424,
+  "ticks": 425,
   "spend": {
-    "day": "2026-11-17",
+    "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry pebble and my joy is thin. Belly and throat are middling. I should do something wonder-ish. Making something new feels good, and I have shells and fibre. Maybe a wind-and-rain song, or a new thing: a crab map. I will make a story about the pigeon's secret, since I suspect it knows something.",
-  "face": "curious",
-  "lastThought": "2026-11-18T04:24:23.109Z",
+  "thought": "I woke up with fullness 0 and water 0, which is dangerous. Drink first, pond is close. Then berries from the thicket, tend plants, and a wonder later. I mustn't collapse again.",
+  "face": "worried",
+  "lastThought": "2026-11-18T21:06:33.898Z",
   "foundPlace": null
 }
