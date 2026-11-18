@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T00:39:49.928Z",
+  "lastUpdate": "2026-11-18T00:50:04.556Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-18T01:00:04.556Z",
   "needs": {
-    "fullness": 68,
-    "water": 86,
-    "energy": 23,
-    "curiosity": 23,
-    "joy": 33,
+    "fullness": 95,
+    "water": 85,
+    "energy": 22,
+    "curiosity": 22,
+    "joy": 36,
     "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and busy",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -539,7 +539,7 @@
       }
     }
   ],
-  "plan": "Tend plants, forage berries, watch the stars, sleep at dawn.",
+  "plan": "Eat berries, forage more, tend plants, watch the stars, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -596,7 +596,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1453,18 +1453,18 @@
       "glade"
     ]
   },
-  "ticks": 419,
+  "ticks": 420,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [
-    "You looked after 10 plants around the pond. They'll grow for about a day."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is decent but my pot is nearly empty, and I have seedlings to tend. I'm at the pond with rain falling and bushes nearby. Tending plants gives calm and joy, and keeps things growing back. Berries are 100 left, plenty. Let me tend the plants here, then forage.",
-  "face": "determined",
-  "lastThought": "2026-11-17T23:48:56.719Z",
+  "thought": "My energy is very low, 22, and it is meal time. I have two berries and my belly is middling. Water is fine. The pond is here, and rain is falling. Best is to eat my kept berries now, then forage and sleep soon. Eating is quick and keeps the pigeon away from them.",
+  "face": "sleepy",
+  "lastThought": "2026-11-18T00:50:04.556Z",
   "foundPlace": null
 }
