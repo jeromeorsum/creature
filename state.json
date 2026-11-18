@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T01:10:28.484Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-18T01:20:42.839Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-18T02:20:42.839Z",
   "needs": {
-    "fullness": 93,
-    "water": 83,
-    "energy": 20,
-    "curiosity": 20,
-    "joy": 34,
+    "fullness": 87,
+    "water": 82,
+    "energy": 49,
+    "curiosity": 19,
+    "joy": 33,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1453,18 +1453,16 @@
       "glade"
     ]
   },
-  "ticks": 420,
+  "ticks": 421,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My energy is very low, 22, and it is meal time. I have two berries and my belly is middling. Water is fine. The pond is here, and rain is falling. Best is to eat my kept berries now, then forage and sleep soon. Eating is quick and keeps the pigeon away from them.",
+  "lastOutcome": [],
+  "thought": "My energy is a sleepy puddle at 19 and my curiosity is low too. Belly and water are fine. The Cosy Hut is only 16 metres away, so a nap there will give me proper rest, dry from the rain. Then I can do wonders later.",
   "face": "sleepy",
-  "lastThought": "2026-11-18T00:50:04.556Z",
+  "lastThought": "2026-11-18T01:20:42.839Z",
   "foundPlace": null
 }
