@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T05:05:22.518Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-18T11:03:10.535Z",
+  "place": "nest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the meadow",
+  "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 60,
-    "water": 60,
-    "energy": 41,
-    "curiosity": 20,
-    "joy": 37,
+    "fullness": 42,
+    "water": 39,
+    "energy": 100,
+    "curiosity": 5,
+    "joy": 28,
     "calm": 100
   },
   "health": 100,
