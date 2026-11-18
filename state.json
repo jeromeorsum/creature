@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T22:28:28.655Z",
+  "lastUpdate": "2026-11-18T22:38:52.918Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 16.1,
+    "z": 2.2
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-18T22:33:19.848Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-18T23:03:52.918Z",
   "needs": {
-    "fullness": 41,
-    "water": 42,
-    "energy": 75,
-    "curiosity": 14,
-    "joy": 24,
+    "fullness": 64,
+    "water": 41,
+    "energy": 70,
+    "curiosity": 13,
+    "joy": 26,
     "calm": 94
   },
-  "health": 78,
-  "mood": "nosy and determined",
+  "health": 79,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -544,7 +544,7 @@
       }
     }
   ],
-  "plan": "Spy on pigeon, eat berries, drink, tend plants, sleep at dawn.",
+  "plan": "Eat berries, drink at the pond, tend plants, then find a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1458,16 +1458,18 @@
       "glade"
     ]
   },
-  "ticks": 428,
+  "ticks": 429,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is zero, and the pigeon is right here at the thicket, lurking. Spying on it is the cheapest way to fill that dry pebble of curiosity. My belly is 42, not terrible, and I have berries kept. I'll watch the pigeon closely for a bit, then eat and drink.",
-  "face": "suspicious",
-  "lastThought": "2026-11-18T22:18:19.848Z",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot."
+  ],
+  "thought": "Belly is at 40 and water at 41. Berries are right here, so I pick more first. Curiosity is thin, but food first. The pigeon is watching, so I eat fast.",
+  "face": "determined",
+  "lastThought": "2026-11-18T22:38:52.918Z",
   "foundPlace": null
 }
