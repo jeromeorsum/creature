@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T23:09:24.419Z",
+  "lastUpdate": "2026-11-18T23:19:33.751Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-18T23:19:24.419Z",
+  "doing": "explore at the pond",
+  "busyUntil": "2026-11-18T23:49:33.751Z",
   "needs": {
-    "fullness": 61,
-    "water": 88,
-    "energy": 67,
-    "curiosity": 10,
-    "joy": 23,
+    "fullness": 60,
+    "water": 87,
+    "energy": 58,
+    "curiosity": 27,
+    "joy": 22,
     "calm": 97
   },
-  "health": 81,
-  "mood": "thirsty but hopeful",
+  "health": 82,
+  "mood": "hopeful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -544,7 +544,7 @@
       }
     }
   ],
-  "plan": "Drink, then explore for a wonder, then tend seedlings.",
+  "plan": "Explore for a wonder, then tend seedlings, then eat and drink.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1458,16 +1458,18 @@
       "glade"
     ]
   },
-  "ticks": 430,
+  "ticks": 431,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
-  "lastOutcome": [],
-  "thought": "Water is 38 and curiosity is a dry pebble. Drinking comes first, then I can look for a wonder. Spying on the pigeon again could help curiosity, but my throat matters more. The pond is close, so I'll go there.",
+  "lastOutcome": [
+    "You went looking for somewhere new, but you've already been everywhere on the island. You know it all now."
+  ],
+  "thought": "My curiosity is a dry pebble, so I should go somewhere new and find a wonder. Water is fine at 87 and energy is okay. The rain is gentle. Exploring will lift curiosity a lot, and I can look for something I have not seen yet. The pigeon can keep its secrets a while.",
   "face": "curious",
-  "lastThought": "2026-11-18T23:09:24.419Z",
+  "lastThought": "2026-11-18T23:19:33.751Z",
   "foundPlace": null
 }
