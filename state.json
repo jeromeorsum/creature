@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T04:14:12.996Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-18T04:24:23.109Z",
+  "place": "meadow",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 6,
+    "z": 10
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-18T04:23:10.969Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-18T05:04:23.109Z",
   "needs": {
-    "fullness": 65,
-    "water": 65,
-    "energy": 54,
-    "curiosity": 17,
-    "joy": 24,
+    "fullness": 64,
+    "water": 64,
+    "energy": 45,
+    "curiosity": 24,
+    "joy": 41,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "hopeful and playful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -116,6 +116,12 @@
       "kind": "song",
       "file": "2026-11-17-the-mushroom-lantern-round.md",
       "made": "2026-11-17T22:16:33.014Z"
+    },
+    {
+      "title": "What the Pigeon Knows",
+      "kind": "story",
+      "file": "2026-11-18-what-the-pigeon-knows.md",
+      "made": "2026-11-18T04:24:23.109Z"
     }
   ],
   "concerns": [
@@ -1453,16 +1459,16 @@
       "glade"
     ]
   },
-  "ticks": 423,
+  "ticks": 424,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "My energy is a flat puddle at 29, and my hut is just 6 metres away. Belly and throat are fine. A nap in the dry hut is the sensible thing, and I'll look for wonders when I wake. The rain keeps tapping the shells I hung up, which is nice.",
-  "face": "sleepy",
-  "lastThought": "2026-11-18T03:23:10.969Z",
+  "thought": "My curiosity is a dry pebble and my joy is thin. Belly and throat are middling. I should do something wonder-ish. Making something new feels good, and I have shells and fibre. Maybe a wind-and-rain song, or a new thing: a crab map. I will make a story about the pigeon's secret, since I suspect it knows something.",
+  "face": "curious",
+  "lastThought": "2026-11-18T04:24:23.109Z",
   "foundPlace": null
 }
