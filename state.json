@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T02:11:45.493Z",
+  "lastUpdate": "2026-11-18T02:21:57.501Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-18T02:20:42.839Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-18T03:01:57.501Z",
   "needs": {
-    "fullness": 82,
-    "water": 77,
-    "energy": 44,
-    "curiosity": 14,
-    "joy": 28,
-    "calm": 100
+    "fullness": 81,
+    "water": 76,
+    "energy": 35,
+    "curiosity": 28,
+    "joy": 35,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "hopeful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1453,16 +1453,16 @@
       "glade"
     ]
   },
-  "ticks": 421,
+  "ticks": 422,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "My energy is a sleepy puddle at 19 and my curiosity is low too. Belly and water are fine. The Cosy Hut is only 16 metres away, so a nap there will give me proper rest, dry from the rain. Then I can do wonders later.",
-  "face": "sleepy",
-  "lastThought": "2026-11-18T01:20:42.839Z",
+  "thought": "My curiosity is a dry pebble and my energy is middling. Rain is falling, but there are things I haven't tried. I'll experiment with my shells and fibre right here near the hut, where it is dry, and see if rain can play a tune on a hanging shell string. That could be a real wonder.",
+  "face": "curious",
+  "lastThought": "2026-11-18T02:21:57.501Z",
   "foundPlace": null
 }
