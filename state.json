@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-18T03:12:57.229Z",
+  "lastUpdate": "2026-11-18T03:23:10.969Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-18T04:23:10.969Z",
   "needs": {
-    "fullness": 76,
-    "water": 71,
-    "energy": 30,
-    "curiosity": 23,
-    "joy": 30,
-    "calm": 98
+    "fullness": 70,
+    "water": 70,
+    "energy": 59,
+    "curiosity": 22,
+    "joy": 29,
+    "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and curious",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1453,16 +1453,16 @@
       "glade"
     ]
   },
-  "ticks": 422,
+  "ticks": 423,
   "spend": {
     "day": "2026-11-17",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry pebble and my energy is middling. Rain is falling, but there are things I haven't tried. I'll experiment with my shells and fibre right here near the hut, where it is dry, and see if rain can play a tune on a hanging shell string. That could be a real wonder.",
-  "face": "curious",
-  "lastThought": "2026-11-18T02:21:57.501Z",
+  "thought": "My energy is a flat puddle at 29, and my hut is just 6 metres away. Belly and throat are fine. A nap in the dry hut is the sensible thing, and I'll look for wonders when I wake. The rain keeps tapping the shells I hung up, which is nice.",
+  "face": "sleepy",
+  "lastThought": "2026-11-18T03:23:10.969Z",
   "foundPlace": null
 }
