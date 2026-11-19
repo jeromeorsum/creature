@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T00:20:58.884Z",
+  "lastUpdate": "2026-11-19T00:31:24.643Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-19T00:41:24.643Z",
   "needs": {
-    "fullness": 54,
-    "water": 81,
-    "energy": 47,
-    "curiosity": 21,
-    "joy": 34,
+    "fullness": 81,
+    "water": 80,
+    "energy": 46,
+    "curiosity": 20,
+    "joy": 37,
     "calm": 100
   },
-  "health": 88,
-  "mood": "playful and hopeful",
+  "health": 89,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -544,7 +544,7 @@
       }
     }
   ],
-  "plan": "Splash, then tend seedlings, then eat and drink.",
+  "plan": "Eat, then tend seedlings, then find a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -601,7 +601,7 @@
   ],
   "world": {
     "weather": "rainy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1458,16 +1458,18 @@
       "glade"
     ]
   },
-  "ticks": 432,
+  "ticks": 433,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "My joy is a flat puddle and I'm right at the pond, so splashing seems perfect. Splashing is silly and wet, and rain is already falling so who cares. Afterwards I'll tend the seedlings.",
-  "face": "excited",
-  "lastThought": "2026-11-18T23:50:18.137Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is the middle of my night, meal time. Fullness is 53, so I should eat a few of my kept berries before the pigeon notices. Water is fine. Curiosity is low, but food first, then I can tend seedlings. I'll eat right here by the pond.",
+  "face": "determined",
+  "lastThought": "2026-11-19T00:31:24.643Z",
   "foundPlace": null
 }
