@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T22:06:00.684Z",
+  "lastUpdate": "2026-11-19T22:16:14.769Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-19T22:16:00.684Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-19T22:26:14.769Z",
   "needs": {
-    "fullness": 43,
-    "water": 96,
-    "energy": 49,
-    "curiosity": 19,
-    "joy": 55,
+    "fullness": 70,
+    "water": 95,
+    "energy": 48,
+    "curiosity": 18,
+    "joy": 58,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty, dreamy",
+  "mood": "hungry, hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Drink at pond, eat berries, then hunt for a wonder",
+  "plan": "Eat berries, experiment with shell boats and clay, then forage more before bed",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -637,7 +637,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 3,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1108,7 +1108,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.54,
+        "left": 1.61,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1124,7 +1124,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1132,7 +1132,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1148,7 +1148,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1164,7 +1164,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.33,
+        "left": 1.4,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1212,7 +1212,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1222,7 +1222,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1.77,
+        "left": 1.84,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1242,7 +1242,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1262,7 +1262,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1302,7 +1302,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1494,16 +1494,18 @@
       "glade"
     ]
   },
-  "ticks": 452,
+  "ticks": 453,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "My water is 46 and belly 43, and I promised myself a drink before bed. The pond is close, only 15 metres. Drink first, then berries. Curiosity is still low but a drink keeps me from collapsing, and I remember that lesson well.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My belly is only 42 and I have 3 berries. Curiosity is a dry pebble. Water is fine. I'll eat the berries first so the pigeon can't steal them. Then I'll try an experiment with the clay and shells at the pond, maybe a floating shell boat fleet. The pond is right here and the reeds and clay are close, so I can try something new with them.",
   "face": "determined",
-  "lastThought": "2026-11-19T22:06:00.684Z",
+  "lastThought": "2026-11-19T22:16:14.769Z",
   "foundPlace": null
 }
