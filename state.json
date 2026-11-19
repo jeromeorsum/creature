@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T21:15:01.969Z",
-  "place": "cliffs",
+  "lastUpdate": "2026-11-19T21:25:05.795Z",
+  "place": "meadow",
   "spot": {
-    "x": -35,
-    "z": 4
+    "x": 6,
+    "z": 10
   },
-  "doing": "explore at the cliffs",
-  "busyUntil": "2026-11-19T21:24:24.623Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-19T22:05:05.795Z",
   "needs": {
-    "fullness": 48,
-    "water": 51,
-    "energy": 62,
-    "curiosity": 16,
-    "joy": 42,
+    "fullness": 47,
+    "water": 50,
+    "energy": 53,
+    "curiosity": 23,
+    "joy": 59,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined, curious",
+  "mood": "dreamy, proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -128,6 +128,12 @@
       "kind": "song",
       "file": "2026-11-19-the-glade-lullaby-for-the-log.md",
       "made": "2026-11-19T01:12:23.679Z"
+    },
+    {
+      "title": "The Ledge Song for the Seabirds",
+      "kind": "song",
+      "file": "2026-11-19-the-ledge-song-for-the-seabirds.md",
+      "made": "2026-11-19T21:25:05.795Z"
     }
   ],
   "concerns": [
@@ -164,7 +170,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      4
     ]
   },
   "lessons": [
@@ -569,7 +576,7 @@
       }
     }
   ],
-  "plan": "Tend plants done; explore cliffs, eat, make a song",
+  "plan": "Make song done; drink at pond, eat berries, then tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1101,7 +1108,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.19,
+        "left": 1.26,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1109,7 +1116,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1117,7 +1124,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1125,7 +1132,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1141,7 +1148,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1157,7 +1164,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.98,
+        "left": 1.05,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1205,7 +1212,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1215,7 +1222,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1.42,
+        "left": 1.49,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1235,7 +1242,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1255,7 +1262,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1295,7 +1302,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1487,16 +1494,16 @@
       "glade"
     ]
   },
-  "ticks": 450,
+  "ticks": 451,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [],
-  "thought": "My curiosity is zero, a dry pebble. Fullness is only 50, but I have berries and the thicket is right here. Exploring costs a little energy but I have plenty. I explore somewhere new to feed curiosity, even though I have explored the whole island; maybe I look closely at the cliffs under the stars. Wind is blowing, but a wonder is needed.",
-  "face": "determined",
-  "lastThought": "2026-11-19T20:54:24.623Z",
+  "thought": "I'm at the cliffs with the wind in my crest and my curiosity is a dry pebble. Calm is full, so a song fits right here. The seabirds are nesting on the ledges and the sea is huge. I'll make a song about the seabirds and what they might know that the pigeon doesn't. Then I'll drink and eat before bed.",
+  "face": "happy",
+  "lastThought": "2026-11-19T21:25:05.795Z",
   "foundPlace": null
 }
