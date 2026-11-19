@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T08:37:29.875Z",
+  "lastUpdate": "2026-11-19T08:47:49.380Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-19T08:46:06.294Z",
+  "busyUntil": "2026-11-19T09:47:49.380Z",
   "needs": {
-    "fullness": 32,
-    "water": 79,
-    "energy": 27,
-    "curiosity": 21,
-    "joy": 51,
+    "fullness": 26,
+    "water": 78,
+    "energy": 56,
+    "curiosity": 20,
+    "joy": 50,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but cosy",
+  "mood": "sleepy and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1468,16 +1468,16 @@
       "glade"
     ]
   },
-  "ticks": 441,
+  "ticks": 442,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "My energy is 2, a squashed pebble. The hut is finished and it is dawn, my sleeping time. I should nap in the Cosy Hut right now. Berries and seedlings can wait until I wake.",
+  "thought": "I am sleepy and my energy is low at 26, and it is daytime, my sleeping time. My belly is thin at 31 and I have no berries. I should nap in the hut first, since it is nearly my bedtime anyway. Napping gives energy and calm. Then berries when I wake.",
   "face": "sleepy",
-  "lastThought": "2026-11-19T07:46:06.294Z",
+  "lastThought": "2026-11-19T08:47:49.380Z",
   "foundPlace": null
 }
