@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T10:09:49.229Z",
+  "lastUpdate": "2026-11-19T10:20:03.102Z",
   "place": "thicket",
   "spot": {
-    "x": 19.7,
-    "z": -5.6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-19T10:14:31.506Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-19T10:30:03.102Z",
   "needs": {
-    "fullness": 42,
-    "water": 70,
-    "energy": 44,
-    "curiosity": 12,
-    "joy": 45,
+    "fullness": 69,
+    "water": 69,
+    "energy": 43,
+    "curiosity": 11,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -548,9 +548,29 @@
           7
         ]
       }
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "Today I drank, foraged berries, repaired the Cosy Hut roof and finally slept under it dry and cosy. My belly stayed middling and I never filled the pot, and I did not tend my seedlings, which bothers me. Curiosity is thin, but splashing and a glade song helped my joy. I feel sleepy and a bit proud of the tied-down roof. Tomorrow night I want a full pot, tended seedlings and one real wonder.",
+      "plan": {
+        "date": "2026-11-18",
+        "plan": [
+          "Drink at the pond",
+          "Forage berries and eat breakfast",
+          "Fill the pot with berries",
+          "Tend plants and seedlings",
+          "Make or find a wonder",
+          "Drink again and eat dinner",
+          "Wind down and sleep at dawn"
+        ],
+        "done": [
+          1,
+          2
+        ]
+      }
     }
   ],
-  "plan": "Forage berries, fill the pot, tend seedlings, then sleep.",
+  "plan": "Eat berries, sleep in the hut, then tend seedlings and fill the pot tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -611,7 +631,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1468,19 +1488,18 @@
       "glade"
     ]
   },
-  "ticks": 443,
+  "ticks": 444,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is at 20, which is a hollow shell. No kept berries at all. Food first, before anything else. The thicket has berries, so I trot there and forage, then fill the pot. Seedlings after that. The pigeon can watch if it likes.",
-  "face": "determined",
-  "lastThought": "2026-11-19T09:49:31.506Z",
+  "thought": "It is nearly my bedtime and the sun is up. My belly is only middling at 41, so I should eat my two kept berries before the pigeon notices, then go sleep in the Cosy Hut. Seedlings can wait for tonight. I did a decent job today even though curiosity is thin.",
+  "face": "sleepy",
+  "lastThought": "2026-11-19T10:20:03.102Z",
   "foundPlace": null
 }
