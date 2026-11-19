@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T06:44:48.437Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-19T06:55:04.509Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-19T06:54:48.437Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-19T07:40:04.509Z",
   "needs": {
-    "fullness": 53,
-    "water": 90,
-    "energy": 22,
-    "curiosity": 27,
-    "joy": 40,
+    "fullness": 47,
+    "water": 89,
+    "energy": 7,
+    "curiosity": 31,
+    "joy": 61,
     "calm": 98
   },
   "health": 100,
-  "mood": "sleepy but sensible",
+  "mood": "sleepy but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -550,7 +550,7 @@
       }
     }
   ],
-  "plan": "Eat the berry, nap in the Cosy Hut, then forage berries and tend seedlings tonight.",
+  "plan": "Repair the hut, nap in it, then forage berries tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -620,7 +620,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 5,
+      "fibre": 2,
       "shells": 5
     },
     "discovered": [
@@ -1449,7 +1449,7 @@
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-15T00:43:10.590Z"
+        "finished": "2026-11-19T06:55:04.509Z"
       }
     ],
     "known": [
@@ -1468,18 +1468,18 @@
       "glade"
     ]
   },
-  "ticks": 439,
+  "ticks": 440,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
   ],
-  "thought": "My energy is very low at 22 and my belly is only 39. It is dawn, which is my bedtime hour almost. I have one berry. I should eat it, then nap in the Cosy Hut. Eating first is the sensible thing since I learned never to let food hit zero.",
-  "face": "sleepy",
-  "lastThought": "2026-11-19T06:44:48.437Z",
+  "thought": "The wind knocked a cone off my hut, and my energy is very low. I have 5 fibre, and the hut needs 3. Fixing it here first means a dry, safe sleep. The hut is 16m away, so I will go and build, then sleep.",
+  "face": "determined",
+  "lastThought": "2026-11-19T06:55:04.509Z",
   "foundPlace": null
 }
