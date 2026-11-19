@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T10:20:03.102Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-19T10:30:15.793Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-19T10:30:03.102Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-19T11:30:15.793Z",
   "needs": {
-    "fullness": 69,
-    "water": 69,
-    "energy": 43,
-    "curiosity": 11,
-    "joy": 48,
+    "fullness": 63,
+    "water": 68,
+    "energy": 72,
+    "curiosity": 10,
+    "joy": 47,
     "calm": 100
   },
   "health": 100,
@@ -551,7 +551,7 @@
     },
     {
       "date": "2026-11-18",
-      "summary": "Today I drank, foraged berries, repaired the Cosy Hut roof and finally slept under it dry and cosy. My belly stayed middling and I never filled the pot, and I did not tend my seedlings, which bothers me. Curiosity is thin, but splashing and a glade song helped my joy. I feel sleepy and a bit proud of the tied-down roof. Tomorrow night I want a full pot, tended seedlings and one real wonder.",
+      "summary": "Today I drank, foraged berries, repaired the Cosy Hut roof and slept under it dry. I explored the glade and made a song for the giant log, and floated shells on the pond. My belly stayed middling and I never filled the pot or tended my seedlings, which bothers me. Curiosity is thin but I feel calm and sleepy. Tomorrow night I want a full pot, tended seedlings and one real wonder.",
       "plan": {
         "date": "2026-11-18",
         "plan": [
@@ -570,7 +570,7 @@
       }
     }
   ],
-  "plan": "Eat berries, sleep in the hut, then tend seedlings and fill the pot tonight.",
+  "plan": "Sleep in the hut, then tend seedlings, fill the pot, and find a wonder tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1488,18 +1488,16 @@
       "glade"
     ]
   },
-  "ticks": 444,
+  "ticks": 445,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is nearly my bedtime and the sun is up. My belly is only middling at 41, so I should eat my two kept berries before the pigeon notices, then go sleep in the Cosy Hut. Seedlings can wait for tonight. I did a decent job today even though curiosity is thin.",
+  "lastOutcome": [],
+  "thought": "It is bedtime and the sun is up. My belly is fine, water is fine, energy is lowish. I should go to the Cosy Hut and sleep. Curiosity is thin, but tonight I will tend seedlings and look for a wonder. The pigeon can keep its secrets.",
   "face": "sleepy",
-  "lastThought": "2026-11-19T10:20:03.102Z",
+  "lastThought": "2026-11-19T10:30:15.793Z",
   "foundPlace": null
 }
