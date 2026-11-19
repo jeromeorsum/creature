@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T07:35:57.287Z",
+  "lastUpdate": "2026-11-19T07:46:06.294Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-19T07:40:04.509Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-19T08:46:06.294Z",
   "needs": {
-    "fullness": 43,
-    "water": 85,
-    "energy": 3,
-    "curiosity": 27,
-    "joy": 57,
-    "calm": 98
+    "fullness": 37,
+    "water": 84,
+    "energy": 32,
+    "curiosity": 26,
+    "joy": 56,
+    "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "sleepy but cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -550,7 +550,7 @@
       }
     }
   ],
-  "plan": "Repair the hut, nap in it, then forage berries tonight.",
+  "plan": "Nap in the hut, then forage berries, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1468,18 +1468,16 @@
       "glade"
     ]
   },
-  "ticks": 440,
+  "ticks": 441,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "The wind knocked a cone off my hut, and my energy is very low. I have 5 fibre, and the hut needs 3. Fixing it here first means a dry, safe sleep. The hut is 16m away, so I will go and build, then sleep.",
-  "face": "determined",
-  "lastThought": "2026-11-19T06:55:04.509Z",
+  "lastOutcome": [],
+  "thought": "My energy is 2, a squashed pebble. The hut is finished and it is dawn, my sleeping time. I should nap in the Cosy Hut right now. Berries and seedlings can wait until I wake.",
+  "face": "sleepy",
+  "lastThought": "2026-11-19T07:46:06.294Z",
   "foundPlace": null
 }
