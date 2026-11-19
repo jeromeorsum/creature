@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T00:31:24.643Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-19T00:41:28.344Z",
+  "place": "glade",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -12,
+    "z": -20
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-19T00:41:24.643Z",
+  "doing": "explore at the glade",
+  "busyUntil": "2026-11-19T01:11:28.344Z",
   "needs": {
-    "fullness": 81,
-    "water": 80,
-    "energy": 46,
-    "curiosity": 20,
-    "joy": 37,
+    "fullness": 80,
+    "water": 79,
+    "energy": 37,
+    "curiosity": 37,
+    "joy": 36,
     "calm": 100
   },
-  "health": 89,
-  "mood": "hungry but hopeful",
+  "health": 90,
+  "mood": "hopeful and wobbly",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1458,18 +1458,16 @@
       "glade"
     ]
   },
-  "ticks": 433,
+  "ticks": 434,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is the middle of my night, meal time. Fullness is 53, so I should eat a few of my kept berries before the pigeon notices. Water is fine. Curiosity is low, but food first, then I can tend seedlings. I'll eat right here by the pond.",
-  "face": "determined",
-  "lastThought": "2026-11-19T00:31:24.643Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry pebble. Belly and throat are okay, so it's time to go looking for a wonder. I have never been properly to the hill at night. Exploring somewhere_new says the whole island is explored, so I'll look closely at the glade with its mushrooms and hollow log. Maybe the crabs or the log have a new secret.",
+  "face": "curious",
+  "lastThought": "2026-11-19T00:41:28.344Z",
   "foundPlace": null
 }
