@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T19:32:36.352Z",
+  "lastUpdate": "2026-11-19T19:42:42.248Z",
   "place": "thicket",
   "spot": {
-    "x": 20.6,
-    "z": -3.8
+    "x": 19.4,
+    "z": 0.6
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-19T19:37:04.718Z",
+  "busyUntil": "2026-11-19T20:07:42.248Z",
   "needs": {
-    "fullness": 34,
-    "water": 65,
-    "energy": 92,
-    "curiosity": 4,
-    "joy": 44,
+    "fullness": 57,
+    "water": 64,
+    "energy": 87,
+    "curiosity": 3,
+    "joy": 46,
     "calm": 100
   },
   "health": 100,
@@ -630,7 +630,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 3,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1215,7 +1215,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1255,7 +1255,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1487,18 +1487,19 @@
       "glade"
     ]
   },
-  "ticks": 447,
+  "ticks": 448,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is nearly empty at 12, so food comes first. Water is fine at 67. The thicket has berries, so I go there and forage, fill the pot, and then tend seedlings. Curiosity is tiny, but a full belly will help me think of a wonder.",
+  "thought": "My belly is still only a third full and I only have one berry. The thicket is full of bushes with berries, so I should keep foraging and fill the pot. The pigeon is lurking, so I will eat quickly. Then seedlings and a wonder.",
   "face": "determined",
-  "lastThought": "2026-11-19T19:12:04.718Z",
+  "lastThought": "2026-11-19T19:42:42.248Z",
   "foundPlace": null
 }
