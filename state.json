@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T23:17:27.462Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-19T23:27:38.888Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-19T23:52:38.888Z",
   "needs": {
-    "fullness": 64,
-    "water": 89,
-    "energy": 35,
-    "curiosity": 27,
-    "joy": 61,
+    "fullness": 87,
+    "water": 88,
+    "energy": 30,
+    "curiosity": 26,
+    "joy": 63,
     "calm": 97
   },
   "health": 100,
-  "mood": "curious, hopeful",
+  "mood": "hopeful, a bit hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Experiment with the shell boat, then forage berries, then sleep at dawn",
+  "plan": "Forage berries, fill the pot, then drink and sleep at dawn",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -641,7 +641,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.03,
+        "left": 0.1,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.82,
+        "left": 0.89,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1226,7 +1226,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 2.26,
+        "left": 2.33,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,16 +1498,18 @@
       "glade"
     ]
   },
-  "ticks": 454,
+  "ticks": 455,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a dry pebble at 17. I have clay all around me at the pond and shells in my bundle. A shell boat experiment feels right: try a clay keel to see if it steers straighter. Fullness is okay and water is high, so I can afford the effort.",
-  "face": "curious",
-  "lastThought": "2026-11-19T22:26:27.098Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is only about two thirds full and I have just one berry. Energy is lowish at 34 but I am awake all night. Berries first would be wise, then more work. The pond reeds are right here, and fibre is useful, so pulling reeds is calm and easy. But food matters more, so I will go to the thicket and forage and fill the pot.",
+  "face": "determined",
+  "lastThought": "2026-11-19T23:27:38.888Z",
   "foundPlace": null
 }
