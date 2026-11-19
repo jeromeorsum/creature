@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T05:33:15.629Z",
+  "lastUpdate": "2026-11-19T05:43:25.948Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-19T05:43:15.629Z",
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-19T06:23:25.948Z",
   "needs": {
-    "fullness": 46,
-    "water": 97,
-    "energy": 37,
-    "curiosity": 19,
-    "joy": 35,
-    "calm": 100
+    "fullness": 45,
+    "water": 96,
+    "energy": 28,
+    "curiosity": 33,
+    "joy": 42,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -550,7 +550,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then tend seedlings, then fill the pot with berries.",
+  "plan": "Experiment at the pond, then forage berries, then tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -603,6 +603,10 @@
     {
       "text": "{\"what\":\"Clacking slow beats under the grotto arch makes the glowing mushrooms seem to pulse slowly, and fast beats make them flicker, as if they follow the tempo.\"}",
       "made": "2026-11-17T04:53:11.044Z"
+    },
+    {
+      "text": "{\"what\":\"A shell floats like a tiny boat on the pond if laid flat with its hollow up, and a pinch of fibre makes a sail-like tail that steers it with the breeze.\"}",
+      "made": "2026-11-19T05:43:25.948Z"
     }
   ],
   "world": {
@@ -1464,16 +1468,16 @@
       "glade"
     ]
   },
-  "ticks": 437,
+  "ticks": 438,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry pebble, but my belly and water are both under half. Water first, since the pond is close. Then I will tend my seedlings and maybe explore something. Drinking is the sensible start to my evening.",
-  "face": "sleepy",
-  "lastThought": "2026-11-19T05:33:15.629Z",
+  "thought": "My belly is only 45 and I have one berry. Curiosity is a dry pebble. Pulling reeds here is easy, but I should eat first. I'll eat my one berry, then do something curious. Actually an experiment with clay and reeds at the pond could feed curiosity right here without walking far. Let me experiment with wet clay and fibre by the pond.",
+  "face": "curious",
+  "lastThought": "2026-11-19T05:43:25.948Z",
   "foundPlace": null
 }
