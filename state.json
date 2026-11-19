@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T18:51:44.288Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-19T19:01:54.148Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-19T19:11:54.148Z",
   "needs": {
-    "fullness": 14,
-    "water": 19,
-    "energy": 100,
-    "curiosity": 8,
-    "joy": 45,
+    "fullness": 13,
+    "water": 68,
+    "energy": 99,
+    "curiosity": 7,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -153,20 +153,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "plan": [
       "Drink at the pond",
-      "Forage berries and eat breakfast",
-      "Fill the pot with berries",
-      "Tend plants and seedlings",
-      "Make or find a wonder",
-      "Drink again and eat dinner",
-      "Wind down and sleep at dawn"
+      "Forage berries for breakfast and fill the pot",
+      "Tend my seedlings",
+      "Explore for a wonder",
+      "Eat a midnight meal",
+      "Make a song or play with the crabs",
+      "Drink again and eat before bed"
     ],
-    "done": [
-      1,
-      2
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -570,7 +567,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then tend seedlings, fill the pot, and find a wonder tonight.",
+  "plan": "Drink, forage berries, fill the pot, tend seedlings, find a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1488,16 +1485,16 @@
       "glade"
     ]
   },
-  "ticks": 445,
+  "ticks": 446,
   "spend": {
-    "day": "2026-11-18",
+    "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is bedtime and the sun is up. My belly is fine, water is fine, energy is lowish. I should go to the Cosy Hut and sleep. Curiosity is thin, but tonight I will tend seedlings and look for a wonder. The pigeon can keep its secrets.",
-  "face": "sleepy",
-  "lastThought": "2026-11-19T10:30:15.793Z",
+  "thought": "I woke up with water 18 and fullness 13, both very low. Drink first, because I learned that lesson the hard way. Then berries at the thicket, then tend my seedlings. Curiosity is a dry pebble, so I will look for a wonder after I have eaten.",
+  "face": "determined",
+  "lastThought": "2026-11-19T19:01:54.148Z",
   "foundPlace": null
 }
