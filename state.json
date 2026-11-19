@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T22:16:14.769Z",
+  "lastUpdate": "2026-11-19T22:26:27.098Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-19T22:26:14.769Z",
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-19T23:06:27.098Z",
   "needs": {
-    "fullness": 70,
-    "water": 95,
-    "energy": 48,
-    "curiosity": 18,
-    "joy": 58,
-    "calm": 100
+    "fullness": 69,
+    "water": 94,
+    "energy": 39,
+    "curiosity": 32,
+    "joy": 65,
+    "calm": 98
   },
   "health": 100,
-  "mood": "hungry, hopeful",
+  "mood": "curious, hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Eat berries, experiment with shell boats and clay, then forage more before bed",
+  "plan": "Experiment with the shell boat, then forage berries, then sleep at dawn",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -633,6 +633,10 @@
     {
       "text": "{\"what\":\"A shell floats like a tiny boat on the pond if laid flat with its hollow up, and a pinch of fibre makes a sail-like tail that steers it with the breeze.\"}",
       "made": "2026-11-19T05:43:25.948Z"
+    },
+    {
+      "text": "{\"what\":\"A lump of clay pressed under a floating shell works like a keel and keeps it from spinning in the wind, so the sail steers it straighter.\"}",
+      "made": "2026-11-19T22:26:27.098Z"
     }
   ],
   "world": {
@@ -1108,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.61,
+        "left": 1.68,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1116,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1124,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1132,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1148,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1164,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.4,
+        "left": 1.47,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1212,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.84,
+        "left": 0.91,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1222,7 +1226,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1.84,
+        "left": 1.91,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1242,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.84,
+        "left": 0.91,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1262,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.84,
+        "left": 0.91,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1302,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.84,
+        "left": 0.91,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1494,18 +1498,16 @@
       "glade"
     ]
   },
-  "ticks": 453,
+  "ticks": 454,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My belly is only 42 and I have 3 berries. Curiosity is a dry pebble. Water is fine. I'll eat the berries first so the pigeon can't steal them. Then I'll try an experiment with the clay and shells at the pond, maybe a floating shell boat fleet. The pond is right here and the reeds and clay are close, so I can try something new with them.",
-  "face": "determined",
-  "lastThought": "2026-11-19T22:16:14.769Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry pebble at 17. I have clay all around me at the pond and shells in my bundle. A shell boat experiment feels right: try a clay keel to see if it steers straighter. Fullness is okay and water is high, so I can afford the effort.",
+  "face": "curious",
+  "lastThought": "2026-11-19T22:26:27.098Z",
   "foundPlace": null
 }
