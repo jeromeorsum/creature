@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T20:03:14.847Z",
+  "lastUpdate": "2026-11-19T20:13:25.779Z",
   "place": "thicket",
   "spot": {
-    "x": 19.4,
-    "z": 0.6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-19T20:07:42.248Z",
+  "doing": "tend plants at the thicket",
+  "busyUntil": "2026-11-19T20:48:25.779Z",
   "needs": {
-    "fullness": 55,
-    "water": 62,
-    "energy": 85,
-    "curiosity": 1,
-    "joy": 44,
+    "fullness": 54,
+    "water": 57,
+    "energy": 76,
+    "curiosity": 0,
+    "joy": 48,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -156,15 +156,16 @@
     "date": "2026-11-19",
     "plan": [
       "Drink at the pond",
-      "Forage berries and fill the pot",
-      "Tend my seedlings",
+      "Forage berries",
+      "Tend seedlings",
       "Explore for a wonder",
       "Eat a midnight meal",
       "Make a song or play with the crabs",
       "Drink and eat before bed"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -569,7 +570,7 @@
       }
     }
   ],
-  "plan": "Forage berries, fill the pot, tend seedlings, find a wonder.",
+  "plan": "Tend plants, explore for a wonder, eat, make a song",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1102,7 +1103,7 @@
         "x": 14.6,
         "z": -4.6,
         "left": 0.77,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries2",
@@ -1110,7 +1111,7 @@
         "x": 19.7,
         "z": -5.6,
         "left": 0,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries3",
@@ -1118,7 +1119,7 @@
         "x": 10.9,
         "z": -3.1,
         "left": 0,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries4",
@@ -1126,7 +1127,7 @@
         "x": 18.4,
         "z": -1.8,
         "left": 0,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries5",
@@ -1134,7 +1135,7 @@
         "x": 22.1,
         "z": -1,
         "left": 4,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries6",
@@ -1142,7 +1143,7 @@
         "x": 18.8,
         "z": -5.9,
         "left": 0,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries7",
@@ -1150,7 +1151,7 @@
         "x": 8.7,
         "z": -2.4,
         "left": 4,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "berries8",
@@ -1158,7 +1159,7 @@
         "x": 12.9,
         "z": -2.4,
         "left": 0.56,
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted57",
@@ -1198,7 +1199,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted61",
@@ -1208,7 +1209,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted62",
@@ -1218,7 +1219,7 @@
         "left": 1,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted63",
@@ -1228,7 +1229,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted64",
@@ -1238,7 +1239,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted65",
@@ -1248,7 +1249,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted66",
@@ -1258,7 +1259,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted67",
@@ -1268,7 +1269,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted68",
@@ -1278,7 +1279,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted69",
@@ -1288,7 +1289,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted70",
@@ -1298,7 +1299,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted71",
@@ -1308,7 +1309,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted72",
@@ -1348,7 +1349,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted76",
@@ -1358,7 +1359,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted77",
@@ -1368,7 +1369,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-07T23:42:56.011Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted78",
@@ -1378,7 +1379,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted79",
@@ -1388,7 +1389,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
         "id": "planted80",
@@ -1398,7 +1399,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-11T05:10:07.695Z",
-        "tendedUntil": "2026-11-16T21:17:48.724Z"
+        "tendedUntil": "2026-11-20T20:13:25.779Z"
       }
     ],
     "structures": [
@@ -1487,19 +1488,18 @@
       "glade"
     ]
   },
-  "ticks": 448,
+  "ticks": 449,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You looked after 26 plants around the thicket. They'll grow for about a day."
   ],
-  "thought": "My belly is still only a third full and I only have one berry. The thicket is full of bushes with berries, so I should keep foraging and fill the pot. The pigeon is lurking, so I will eat quickly. Then seedlings and a wonder.",
+  "thought": "Curiosity is zero and my belly is only half full. The thicket is full of berries, so I eat more here first. But I promised the seedlings, and my curiosity needs feeding. I have been putting off tending, so I do it now. It gives calm and joy too, and I can peek at the pigeon on the way.",
   "face": "determined",
-  "lastThought": "2026-11-19T19:42:42.248Z",
+  "lastThought": "2026-11-19T20:13:25.779Z",
   "foundPlace": null
 }
