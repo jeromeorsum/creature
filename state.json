@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T23:48:00.570Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-19T23:58:18.009Z",
+  "place": "hill",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 30,
+    "z": 18
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-19T23:52:38.888Z",
+  "doing": "watch the sky at the hill",
+  "busyUntil": "2026-11-20T00:28:18.009Z",
   "needs": {
-    "fullness": 85,
-    "water": 86,
-    "energy": 28,
-    "curiosity": 24,
-    "joy": 61,
-    "calm": 97
+    "fullness": 84,
+    "water": 85,
+    "energy": 25,
+    "curiosity": 27,
+    "joy": 66,
+    "calm": 100
   },
   "health": 100,
-  "mood": "hopeful, a bit hungry",
+  "mood": "hopeful and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Forage berries, fill the pot, then drink and sleep at dawn",
+  "plan": "Watch the sky, then drink and eat, then sleep in the Cosy Hut at dawn",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.24,
+        "left": 0.31,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.03,
+        "left": 1.1,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1226,7 +1226,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 2.47,
+        "left": 2.54,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,18 +1498,16 @@
       "glade"
     ]
   },
-  "ticks": 455,
+  "ticks": 456,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is only about two thirds full and I have just one berry. Energy is lowish at 34 but I am awake all night. Berries first would be wise, then more work. The pond reeds are right here, and fibre is useful, so pulling reeds is calm and easy. But food matters more, so I will go to the thicket and forage and fill the pot.",
-  "face": "determined",
-  "lastThought": "2026-11-19T23:27:38.888Z",
+  "lastOutcome": [],
+  "thought": "My energy is low at 27 and my curiosity is a dry pebble. Belly and water are fine. The night is windy and I only have a couple of hours before bedtime at 11am. A watch of the sky from the hill would calm me and feed curiosity a little, and it is gentle on my energy. The pigeon is not bothering me. I will go watch the sky and think about the crabs.",
+  "face": "curious",
+  "lastThought": "2026-11-19T23:58:18.009Z",
   "foundPlace": null
 }
