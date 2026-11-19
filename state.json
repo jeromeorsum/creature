@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T01:12:23.679Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-19T04:32:02.570Z",
+  "place": "nest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -8,
+    "z": 6
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-19T01:52:23.679Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-19T05:32:02.570Z",
   "needs": {
-    "fullness": 77,
-    "water": 76,
-    "energy": 26,
-    "curiosity": 42,
-    "joy": 51,
+    "fullness": 52,
+    "water": 53,
+    "energy": 43,
+    "curiosity": 25,
+    "joy": 41,
     "calm": 100
   },
-  "health": 93,
-  "mood": "dreamy and hopeful",
+  "health": 100,
+  "mood": "sleepy and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -550,7 +550,7 @@
       }
     }
   ],
-  "plan": "Make a song here, then tend seedlings, then nap in the hut.",
+  "plan": "Nap in the hut, then tend seedlings, then fill the pot with berries.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1464,16 +1464,16 @@
       "glade"
     ]
   },
-  "ticks": 435,
+  "ticks": 436,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
   "lastOutcome": [],
-  "thought": "I'm in the hushed glade at night, mushrooms glowing on the log. Energy is lowish at 34 and curiosity and joy are thin. I have a clacker idea: clack slow rhythms inside the hollow log with the mushrooms. I'll make something here, a song for the log, to lift joy and curiosity. Then I'll nap at the hut.",
-  "face": "happy",
-  "lastThought": "2026-11-19T01:12:23.679Z",
+  "thought": "My energy is 13, very low. The Cosy Hut is only 15m away. I should nap now rather than push on. Seedlings can wait until I wake. I'll eat my one berry after.",
+  "face": "sleepy",
+  "lastThought": "2026-11-19T04:32:02.570Z",
   "foundPlace": null
 }
