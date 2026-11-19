@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T20:44:09.683Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-19T20:54:24.623Z",
+  "place": "cliffs",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -35,
+    "z": 4
   },
-  "doing": "tend plants at the thicket",
-  "busyUntil": "2026-11-19T20:48:25.779Z",
+  "doing": "explore at the cliffs",
+  "busyUntil": "2026-11-19T21:24:24.623Z",
   "needs": {
-    "fullness": 51,
-    "water": 54,
-    "energy": 73,
-    "curiosity": 0,
-    "joy": 45,
+    "fullness": 50,
+    "water": 53,
+    "energy": 64,
+    "curiosity": 18,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined",
+  "mood": "determined, curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -155,17 +155,16 @@
   "today": {
     "date": "2026-11-19",
     "plan": [
-      "Drink at the pond",
-      "Forage berries",
       "Tend seedlings",
       "Explore for a wonder",
       "Eat a midnight meal",
-      "Make a song or play with the crabs",
+      "Make a song",
       "Drink and eat before bed"
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -570,7 +569,7 @@
       }
     }
   ],
-  "plan": "Tend plants, explore for a wonder, eat, make a song",
+  "plan": "Tend plants done; explore cliffs, eat, make a song",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1102,7 +1101,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.98,
+        "left": 1.05,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1110,7 +1109,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1118,7 +1117,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1126,7 +1125,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1142,7 +1141,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1158,7 +1157,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1206,7 +1205,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1216,7 +1215,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1.21,
+        "left": 1.28,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1236,7 +1235,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1256,7 +1255,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1296,7 +1295,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1488,18 +1487,16 @@
       "glade"
     ]
   },
-  "ticks": 449,
+  "ticks": 450,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You looked after 26 plants around the thicket. They'll grow for about a day."
-  ],
-  "thought": "Curiosity is zero and my belly is only half full. The thicket is full of berries, so I eat more here first. But I promised the seedlings, and my curiosity needs feeding. I have been putting off tending, so I do it now. It gives calm and joy too, and I can peek at the pigeon on the way.",
+  "lastOutcome": [],
+  "thought": "My curiosity is zero, a dry pebble. Fullness is only 50, but I have berries and the thicket is right here. Exploring costs a little energy but I have plenty. I explore somewhere new to feed curiosity, even though I have explored the whole island; maybe I look closely at the cliffs under the stars. Wind is blowing, but a wonder is needed.",
   "face": "determined",
-  "lastThought": "2026-11-19T20:13:25.779Z",
+  "lastThought": "2026-11-19T20:54:24.623Z",
   "foundPlace": null
 }
