@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T06:34:43.612Z",
+  "lastUpdate": "2026-11-19T06:44:48.437Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-19T06:54:48.437Z",
   "needs": {
-    "fullness": 40,
-    "water": 91,
-    "energy": 23,
-    "curiosity": 28,
-    "joy": 37,
+    "fullness": 53,
+    "water": 90,
+    "energy": 22,
+    "curiosity": 27,
+    "joy": 40,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and sleepy",
+  "mood": "sleepy but sensible",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -550,7 +550,7 @@
       }
     }
   ],
-  "plan": "Experiment at the pond, then forage berries, then tend seedlings.",
+  "plan": "Eat the berry, nap in the Cosy Hut, then forage berries and tend seedlings tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -610,8 +610,8 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
-    "food": 1,
+    "weather": "windy",
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1468,16 +1468,18 @@
       "glade"
     ]
   },
-  "ticks": 438,
+  "ticks": 439,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [],
-  "thought": "My belly is only 45 and I have one berry. Curiosity is a dry pebble. Pulling reeds here is easy, but I should eat first. I'll eat my one berry, then do something curious. Actually an experiment with clay and reeds at the pond could feed curiosity right here without walking far. Let me experiment with wet clay and fibre by the pond.",
-  "face": "curious",
-  "lastThought": "2026-11-19T05:43:25.948Z",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "My energy is very low at 22 and my belly is only 39. It is dawn, which is my bedtime hour almost. I have one berry. I should eat it, then nap in the Cosy Hut. Eating first is the sensible thing since I learned never to let food hit zero.",
+  "face": "sleepy",
+  "lastThought": "2026-11-19T06:44:48.437Z",
   "foundPlace": null
 }
