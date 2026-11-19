@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T21:55:50.457Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-19T22:06:00.684Z",
+  "place": "pond",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -4,
+    "z": 21
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-19T22:05:05.795Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-19T22:16:00.684Z",
   "needs": {
-    "fullness": 44,
-    "water": 47,
-    "energy": 50,
-    "curiosity": 20,
-    "joy": 56,
+    "fullness": 43,
+    "water": 96,
+    "energy": 49,
+    "curiosity": 19,
+    "joy": 55,
     "calm": 100
   },
   "health": 100,
-  "mood": "dreamy, proud",
+  "mood": "thirsty, dreamy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Make song done; drink at pond, eat berries, then tend seedlings",
+  "plan": "Drink at pond, eat berries, then hunt for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1108,7 +1108,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1124,7 +1124,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1132,7 +1132,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1148,7 +1148,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1164,7 +1164,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1212,7 +1212,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1222,7 +1222,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 1.7,
+        "left": 1.77,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1242,7 +1242,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1262,7 +1262,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1302,7 +1302,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1494,16 +1494,16 @@
       "glade"
     ]
   },
-  "ticks": 451,
+  "ticks": 452,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "I'm at the cliffs with the wind in my crest and my curiosity is a dry pebble. Calm is full, so a song fits right here. The seabirds are nesting on the ledges and the sea is huge. I'll make a song about the seabirds and what they might know that the pigeon doesn't. Then I'll drink and eat before bed.",
-  "face": "happy",
-  "lastThought": "2026-11-19T21:25:05.795Z",
+  "thought": "My water is 46 and belly 43, and I promised myself a drink before bed. The pond is close, only 15 metres. Drink first, then berries. Curiosity is still low but a drink keeps me from collapsing, and I remember that lesson well.",
+  "face": "determined",
+  "lastThought": "2026-11-19T22:06:00.684Z",
   "foundPlace": null
 }
