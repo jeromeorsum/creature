@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T19:01:54.148Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-19T19:12:04.718Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 20.6,
+    "z": -3.8
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-19T19:11:54.148Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-19T19:37:04.718Z",
   "needs": {
-    "fullness": 13,
-    "water": 68,
-    "energy": 99,
-    "curiosity": 7,
-    "joy": 44,
+    "fullness": 36,
+    "water": 67,
+    "energy": 94,
+    "curiosity": 6,
+    "joy": 46,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -156,14 +156,16 @@
     "date": "2026-11-19",
     "plan": [
       "Drink at the pond",
-      "Forage berries for breakfast and fill the pot",
+      "Forage berries and fill the pot",
       "Tend my seedlings",
       "Explore for a wonder",
       "Eat a midnight meal",
       "Make a song or play with the crabs",
-      "Drink again and eat before bed"
+      "Drink and eat before bed"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -567,7 +569,7 @@
       }
     }
   ],
-  "plan": "Drink, forage berries, fill the pot, tend seedlings, find a wonder.",
+  "plan": "Forage berries, fill the pot, tend seedlings, find a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -628,7 +630,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1253,7 +1255,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-16T21:17:48.724Z"
@@ -1485,16 +1487,18 @@
       "glade"
     ]
   },
-  "ticks": 446,
+  "ticks": 447,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up with water 18 and fullness 13, both very low. Drink first, because I learned that lesson the hard way. Then berries at the thicket, then tend my seedlings. Curiosity is a dry pebble, so I will look for a wonder after I have eaten.",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is nearly empty at 12, so food comes first. Water is fine at 67. The thicket has berries, so I go there and forage, fill the pot, and then tend seedlings. Curiosity is tiny, but a full belly will help me think of a wonder.",
   "face": "determined",
-  "lastThought": "2026-11-19T19:01:54.148Z",
+  "lastThought": "2026-11-19T19:12:04.718Z",
   "foundPlace": null
 }
