@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T09:39:06.634Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-19T09:49:31.506Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 19.7,
+    "z": -5.6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-19T09:47:49.380Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-19T10:14:31.506Z",
   "needs": {
-    "fullness": 21,
-    "water": 73,
-    "energy": 51,
-    "curiosity": 15,
-    "joy": 45,
+    "fullness": 44,
+    "water": 72,
+    "energy": 46,
+    "curiosity": 14,
+    "joy": 47,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and cosy",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -550,7 +550,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then forage berries, tend seedlings.",
+  "plan": "Forage berries, fill the pot, tend seedlings, then sleep.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -611,7 +611,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1090,7 +1090,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-16T21:17:48.724Z"
       },
       {
@@ -1468,16 +1468,19 @@
       "glade"
     ]
   },
-  "ticks": 442,
+  "ticks": 443,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [],
-  "thought": "I am sleepy and my energy is low at 26, and it is daytime, my sleeping time. My belly is thin at 31 and I have no berries. I should nap in the hut first, since it is nearly my bedtime anyway. Napping gives energy and calm. Then berries when I wake.",
-  "face": "sleepy",
-  "lastThought": "2026-11-19T08:47:49.380Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "My belly is at 20, which is a hollow shell. No kept berries at all. Food first, before anything else. The thicket has berries, so I trot there and forage, then fill the pot. Seedlings after that. The pigeon can watch if it likes.",
+  "face": "determined",
+  "lastThought": "2026-11-19T09:49:31.506Z",
   "foundPlace": null
 }
