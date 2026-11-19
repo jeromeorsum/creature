@@ -1,18 +1,18 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T10:50:39.627Z",
+  "lastUpdate": "2026-11-19T11:00:51.146Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-19T11:30:15.793Z",
+  "doing": "asleep in \"Cosy Hut\"",
+  "busyUntil": null,
   "needs": {
-    "fullness": 61,
-    "water": 66,
-    "energy": 70,
+    "fullness": 60,
+    "water": 65,
+    "energy": 72,
     "curiosity": 8,
     "joy": 45,
     "calm": 100
