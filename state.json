@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-19T05:23:00.920Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-19T05:33:15.629Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-19T05:32:02.570Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-19T05:43:15.629Z",
   "needs": {
-    "fullness": 47,
-    "water": 48,
-    "energy": 38,
-    "curiosity": 20,
-    "joy": 36,
+    "fullness": 46,
+    "water": 97,
+    "energy": 37,
+    "curiosity": 19,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and hopeful",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1464,16 +1464,16 @@
       "glade"
     ]
   },
-  "ticks": 436,
+  "ticks": 437,
   "spend": {
     "day": "2026-11-18",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "My energy is 13, very low. The Cosy Hut is only 15m away. I should nap now rather than push on. Seedlings can wait until I wake. I'll eat my one berry after.",
+  "thought": "My curiosity is a dry pebble, but my belly and water are both under half. Water first, since the pond is close. Then I will tend my seedlings and maybe explore something. Drinking is the sensible start to my evening.",
   "face": "sleepy",
-  "lastThought": "2026-11-19T04:32:02.570Z",
+  "lastThought": "2026-11-19T05:33:15.629Z",
   "foundPlace": null
 }
