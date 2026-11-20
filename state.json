@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T07:07:23.140Z",
+  "lastUpdate": "2026-11-20T07:17:35.704Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-20T07:11:25.291Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-20T08:17:35.704Z",
   "needs": {
-    "fullness": 34,
-    "water": 93,
-    "energy": 0,
-    "curiosity": 5,
-    "joy": 38,
-    "calm": 93
+    "fullness": 28,
+    "water": 92,
+    "energy": 30,
+    "curiosity": 4,
+    "joy": 37,
+    "calm": 100
   },
   "health": 100,
-  "mood": "determined and sleepy",
+  "mood": "proud and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -577,7 +577,7 @@
       }
     }
   ],
-  "plan": "Finish the hut, make it home, sleep, then forage berries tonight.",
+  "plan": "Sleep in the hut, then forage berries tonight and fill the pot.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1113,7 +1113,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.25,
+        "left": 3.32,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1499,18 +1499,18 @@
       "glade"
     ]
   },
-  "ticks": 465,
+  "ticks": 466,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+    "\"Cosy Hut\" is now your home. You'll sleep there."
   ],
-  "thought": "I have five fibre now and the hut needs three. My energy is zero, so I should finish the hut and sleep in it. Dawn is here, and I'm nocturnal, so sleeping now fits. Go build, tie the last piece, then make it home.",
-  "face": "determined",
-  "lastThought": "2026-11-20T06:26:25.291Z",
+  "thought": "The hut is finished and I'm at energy zero. It's dawn, my bedtime. My belly is a bit low at 33, but sleeping matters most. I'll make the Cosy Hut my home and nap in it, dry at last. Berries tonight.",
+  "face": "sleepy",
+  "lastThought": "2026-11-20T07:17:35.704Z",
   "foundPlace": null
 }
