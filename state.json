@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T00:49:18.881Z",
+  "lastUpdate": "2026-11-20T00:59:30.928Z",
   "place": "hill",
   "spot": {
     "x": 30,
     "z": 18
   },
-  "doing": "pottering about at the hill",
-  "busyUntil": null,
+  "doing": "eat food at the hill",
+  "busyUntil": "2026-11-20T01:09:30.928Z",
   "needs": {
-    "fullness": 79,
-    "water": 80,
-    "energy": 20,
-    "curiosity": 22,
-    "joy": 61,
+    "fullness": 100,
+    "water": 79,
+    "energy": 19,
+    "curiosity": 21,
+    "joy": 64,
     "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and sleepy",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Watch the sky, then drink and eat, then sleep in the Cosy Hut at dawn",
+  "plan": "Eat, then nap in the Cosy Hut, then drink and forage at dusk",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -641,7 +641,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.66,
+        "left": 0.73,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.89,
+        "left": 1.96,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.89,
+        "left": 1.96,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.89,
+        "left": 1.96,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.89,
+        "left": 1.96,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.45,
+        "left": 1.52,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.89,
+        "left": 1.96,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1226,7 +1226,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 2.89,
+        "left": 2.96,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.89,
+        "left": 1.96,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.89,
+        "left": 1.96,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.89,
+        "left": 1.96,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,16 +1498,18 @@
       "glade"
     ]
   },
-  "ticks": 456,
+  "ticks": 457,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [],
-  "thought": "My energy is low at 27 and my curiosity is a dry pebble. Belly and water are fine. The night is windy and I only have a couple of hours before bedtime at 11am. A watch of the sky from the hill would calm me and feed curiosity a little, and it is gentle on my energy. The pigeon is not bothering me. I will go watch the sky and think about the crabs.",
-  "face": "curious",
-  "lastThought": "2026-11-19T23:58:18.009Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My energy is a sleepy puddle at 19 and my belly and throat are fine. I'm at the hill under the stars. It's a meal time, so I eat my two kept berries here, then nap. Nobody pigeon in sight, so safe to eat. Then I'll waddle to the Cosy Hut.",
+  "face": "sleepy",
+  "lastThought": "2026-11-20T00:59:30.928Z",
   "foundPlace": null
 }
