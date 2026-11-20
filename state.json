@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T06:06:00.781Z",
+  "lastUpdate": "2026-11-20T06:16:13.377Z",
   "place": "pond",
   "spot": {
-    "x": -3.9,
-    "z": 19.8
+    "x": -4,
+    "z": 21
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-20T06:10:43.059Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-20T06:26:13.377Z",
   "needs": {
-    "fullness": 45,
-    "water": 49,
-    "energy": 2,
-    "curiosity": 6,
-    "joy": 22,
-    "calm": 92
+    "fullness": 44,
+    "water": 98,
+    "energy": 1,
+    "curiosity": 5,
+    "joy": 21,
+    "calm": 94
   },
   "health": 100,
   "mood": "determined and sleepy",
@@ -577,7 +577,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, finish the hut, drink, sleep in the hut.",
+  "plan": "Drink, finish the hut with 3 fibre, make it home, sleep.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1113,7 +1113,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.83,
+        "left": 2.9,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1169,7 +1169,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.62,
+        "left": 3.69,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1499,18 +1499,16 @@
       "glade"
     ]
   },
-  "ticks": 463,
+  "ticks": 464,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [
-    "You collected 3 fibre."
-  ],
-  "thought": "The hut keeps asking for fibre and I keep having two, which is one short. No more dithering. I will pull reeds at the pond, which is gentle work and calms me, then go back and tie the last piece. My energy is a puddle, so after that I sleep in the hut.",
+  "lastOutcome": [],
+  "thought": "I have 5 fibre now, the hut needs 3. My energy is a tiny puddle, but the hut is close. Water is only 48 so I should drink first, since I'm at the pond. Then go finish the hut and sleep in it. Sunrise is close and I sleep by day.",
   "face": "determined",
-  "lastThought": "2026-11-20T05:45:43.059Z",
+  "lastThought": "2026-11-20T06:16:13.377Z",
   "foundPlace": null
 }
