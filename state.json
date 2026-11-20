@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T08:08:48.194Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-20T08:19:05.835Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-20T08:17:35.704Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-20T08:44:05.835Z",
   "needs": {
-    "fullness": 23,
-    "water": 87,
-    "energy": 25,
+    "fullness": 46,
+    "water": 86,
+    "energy": 20,
     "curiosity": 0,
-    "joy": 32,
+    "joy": 34,
     "calm": 100
   },
   "health": 100,
-  "mood": "proud and sleepy",
+  "mood": "hungry but proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -577,7 +577,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then forage berries tonight and fill the pot.",
+  "plan": "Forage berries, eat, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1113,7 +1113,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 3.67,
+        "left": 1.74,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1499,18 +1499,19 @@
       "glade"
     ]
   },
-  "ticks": 466,
+  "ticks": 467,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [
-    "\"Cosy Hut\" is now your home. You'll sleep there."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "The hut is finished and I'm at energy zero. It's dawn, my bedtime. My belly is a bit low at 33, but sleeping matters most. I'll make the Cosy Hut my home and nap in it, dry at last. Berries tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-11-20T07:17:35.704Z",
+  "thought": "My belly is only 22 and I have no berries kept. Food first. The thicket has berries, so I go and fill my pot. Then I will go sleep in the hut properly, since it's morning and I'm nocturnal.",
+  "face": "determined",
+  "lastThought": "2026-11-20T08:19:05.835Z",
   "foundPlace": null
 }
