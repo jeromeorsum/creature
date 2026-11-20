@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T21:36:53.516Z",
+  "lastUpdate": "2026-11-20T21:47:04.529Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-20T21:46:41.164Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-20T21:57:04.529Z",
   "needs": {
-    "fullness": 62,
-    "water": 58,
-    "energy": 57,
-    "curiosity": 11,
-    "joy": 34,
-    "calm": 94
+    "fullness": 61,
+    "water": 100,
+    "energy": 56,
+    "curiosity": 10,
+    "joy": 33,
+    "calm": 96
   },
   "health": 100,
-  "mood": "playful and wobbly",
+  "mood": "calm and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -172,7 +172,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -1521,16 +1522,16 @@
       "glade"
     ]
   },
-  "ticks": 477,
+  "ticks": 478,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "I have 6 fibre now, and the hut needs 3. Curiosity and joy are both very low. Splashing in the pond is right here and gives joy. The hut is far away, but I can do that after. Splash first to lift my spirits, then go finish the hut with my fibre.",
-  "face": "excited",
-  "lastThought": "2026-11-20T21:26:41.164Z",
+  "thought": "My throat is a bit dry and I'm right at the pond, so I'll drink first. Then I'll go to the hut with my fibre. A drink is quick and easy to do.",
+  "face": "happy",
+  "lastThought": "2026-11-20T21:47:04.529Z",
   "foundPlace": null
 }
