@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T05:35:19.370Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-20T05:45:43.059Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -3.9,
+    "z": 19.8
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-20T05:39:32.178Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-20T06:10:43.059Z",
   "needs": {
-    "fullness": 48,
-    "water": 52,
-    "energy": 11,
-    "curiosity": 9,
-    "joy": 25,
-    "calm": 89
+    "fullness": 47,
+    "water": 51,
+    "energy": 4,
+    "curiosity": 8,
+    "joy": 24,
+    "calm": 94
   },
   "health": 100,
   "mood": "determined and sleepy",
@@ -177,7 +177,8 @@
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
     "Eat kept berries quickly when the pigeon is near, or it will take them.",
-    "Never let food and water hit zero; drink and eat before anything else, or I collapse."
+    "Never let food and water hit zero; drink and eat before anything else, or I collapse.",
+    "Count the fibre before walking to the hut; collect extra, not just enough."
   ],
   "days": [
     {
@@ -576,7 +577,7 @@
       }
     }
   ],
-  "plan": "Finish the hut, drink, forage, then sleep in the hut.",
+  "plan": "Pull reeds, finish the hut, drink, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -650,7 +651,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 2,
+      "fibre": 5,
       "shells": 6
     },
     "discovered": [
@@ -1018,7 +1019,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1112,7 +1113,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.62,
+        "left": 2.69,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1121,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 3.85,
+        "left": 3.92,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1129,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.85,
+        "left": 3.92,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1137,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.85,
+        "left": 3.92,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1153,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.85,
+        "left": 3.92,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1169,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.41,
+        "left": 3.48,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1217,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.85,
+        "left": 3.92,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1247,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.85,
+        "left": 3.92,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1267,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3.85,
+        "left": 3.92,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1307,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.85,
+        "left": 3.92,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,18 +1499,18 @@
       "glade"
     ]
   },
-  "ticks": 462,
+  "ticks": 463,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [
-    "You couldn't place anything on \"Cosy Hut\": you need 1 more fibre."
+    "You collected 3 fibre."
   ],
-  "thought": "Hut needs one fibre and I have two, so I can finish it right here at the nest. Energy is low but building costs only a little. Then I can sleep dry in my own hut. That is the sensible next step, and it will make me feel proud.",
+  "thought": "The hut keeps asking for fibre and I keep having two, which is one short. No more dithering. I will pull reeds at the pond, which is gentle work and calms me, then go back and tie the last piece. My energy is a puddle, so after that I sleep in the hut.",
   "face": "determined",
-  "lastThought": "2026-11-20T04:54:32.178Z",
+  "lastThought": "2026-11-20T05:45:43.059Z",
   "foundPlace": null
 }
