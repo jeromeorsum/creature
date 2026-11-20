@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T04:44:24.561Z",
+  "lastUpdate": "2026-11-20T04:54:32.178Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-20T04:53:10.625Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-20T05:39:32.178Z",
   "needs": {
-    "fullness": 58,
-    "water": 57,
-    "energy": 30,
-    "curiosity": 9,
-    "joy": 34,
-    "calm": 94
+    "fullness": 52,
+    "water": 56,
+    "energy": 15,
+    "curiosity": 13,
+    "joy": 29,
+    "calm": 93
   },
   "health": 100,
-  "mood": "sleepy",
+  "mood": "determined and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Nap, then pull reeds for fibre, finish the hut, drink and forage.",
+  "plan": "Finish the hut, drink, forage, then sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.27,
+        "left": 2.34,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 3.5,
+        "left": 3.57,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.5,
+        "left": 3.57,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.5,
+        "left": 3.57,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.5,
+        "left": 3.57,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.06,
+        "left": 3.13,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.5,
+        "left": 3.57,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.5,
+        "left": 3.57,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3.5,
+        "left": 3.57,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.5,
+        "left": 3.57,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,16 +1498,18 @@
       "glade"
     ]
   },
-  "ticks": 461,
+  "ticks": 462,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [],
-  "thought": "My energy is a puddle at 5. The hut needs one more fibre and I have two, but the last attempt said I needed 1 more. Odd. Sleeping is wise now; I'll nap at the nest and pull reeds later for fibre.",
-  "face": "sleepy",
-  "lastThought": "2026-11-20T03:53:10.625Z",
+  "lastOutcome": [
+    "You couldn't place anything on \"Cosy Hut\": you need 1 more fibre."
+  ],
+  "thought": "Hut needs one fibre and I have two, so I can finish it right here at the nest. Energy is low but building costs only a little. Then I can sleep dry in my own hut. That is the sensible next step, and it will make me feel proud.",
+  "face": "determined",
+  "lastThought": "2026-11-20T04:54:32.178Z",
   "foundPlace": null
 }
