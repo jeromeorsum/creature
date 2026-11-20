@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T20:45:41.123Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-20T20:56:02.510Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -3.5,
+    "z": 26.1
   },
-  "doing": "explore at the thicket",
-  "busyUntil": "2026-11-20T20:55:16.880Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-20T21:21:02.510Z",
   "needs": {
-    "fullness": 67,
-    "water": 63,
-    "energy": 73,
-    "curiosity": 16,
-    "joy": 21,
-    "calm": 89
+    "fullness": 66,
+    "water": 62,
+    "energy": 66,
+    "curiosity": 15,
+    "joy": 20,
+    "calm": 94
   },
   "health": 100,
-  "mood": "eager and wobbly",
+  "mood": "determined and wobbly",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -170,7 +170,8 @@
       "Wind down before sleep"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -597,7 +598,7 @@
       }
     }
   ],
-  "plan": "Explore for a wonder, then pull reeds, finish the hut, drink",
+  "plan": "Pull reeds, finish the hut, drink, then experiment for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -671,7 +672,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 2,
+      "fibre": 6,
       "shells": 7
     },
     "discovered": [
@@ -1015,7 +1016,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1023,7 +1024,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1519,18 +1520,18 @@
       "glade"
     ]
   },
-  "ticks": 475,
+  "ticks": 476,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
   "lastOutcome": [
-    "You went looking for somewhere new, but you've already been everywhere on the island. You know it all now."
+    "You collected 4 fibre."
   ],
-  "thought": "My curiosity is zero and the hut needs one more fibre. Exploring would fix curiosity and might reveal a wonder. My belly is 69 and energy 83, so I can afford a trip. Fibre can come after at the pond. Let's go somewhere new and see what the night shows me.",
-  "face": "curious",
-  "lastThought": "2026-11-20T20:25:16.880Z",
+  "thought": "Curiosity is very low and I have explored everywhere. The hut needs only one more fibre, so reeds at the pond come first, then I finish the hut. A fresh experiment can feed my curiosity on the way. I will pull reeds now.",
+  "face": "determined",
+  "lastThought": "2026-11-20T20:56:02.510Z",
   "foundPlace": null
 }
