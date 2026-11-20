@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T21:26:41.164Z",
+  "lastUpdate": "2026-11-20T21:36:53.516Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,12 +10,12 @@
   "doing": "splash in pond at the pond",
   "busyUntil": "2026-11-20T21:46:41.164Z",
   "needs": {
-    "fullness": 63,
-    "water": 59,
-    "energy": 58,
-    "curiosity": 12,
-    "joy": 35,
-    "calm": 95
+    "fullness": 62,
+    "water": 58,
+    "energy": 57,
+    "curiosity": 11,
+    "joy": 34,
+    "calm": 94
   },
   "health": 100,
   "mood": "playful and wobbly",
