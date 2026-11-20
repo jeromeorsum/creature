@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T22:38:14.806Z",
+  "lastUpdate": "2026-11-20T22:48:38.261Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-20T22:42:21.313Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-20T22:58:38.261Z",
   "needs": {
-    "fullness": 51,
-    "water": 95,
-    "energy": 37,
-    "curiosity": 10,
-    "joy": 50,
+    "fullness": 78,
+    "water": 94,
+    "energy": 36,
+    "curiosity": 9,
+    "joy": 53,
     "calm": 95
   },
   "health": 100,
-  "mood": "determined",
+  "mood": "proud but annoyed",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -173,7 +173,8 @@
       1,
       2,
       3,
-      5
+      5,
+      4
     ]
   },
   "lessons": [
@@ -600,7 +601,7 @@
       }
     }
   ],
-  "plan": "Finish the hut, then tend plants, then experiment for a wonder",
+  "plan": "Eat berries, forage at the thicket, then experiment, then tend plants",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -665,7 +666,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 4,
+    "food": 1,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1522,18 +1523,18 @@
       "glade"
     ]
   },
-  "ticks": 479,
+  "ticks": 480,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+    "You ate 2 berries from your food."
   ],
-  "thought": "I have six fibre and the hut needs three. I keep saying I'll go and then I splash or drink instead. No more distractions. My curiosity is empty, but finishing the hut and sleeping dry will feel good. I'll build now and think about a wonder experiment afterwards.",
-  "face": "determined",
-  "lastThought": "2026-11-20T21:57:21.313Z",
+  "thought": "The pigeon stole a berry and stared at me, rude and impressive. My belly is only half full at 50 and I have 2 berries left, so I should eat them now before the pigeon takes more. Then the thicket for more berries. The hut is finished, which is a triumph. Curiosity is 9, so after food I will experiment.",
+  "face": "grumpy",
+  "lastThought": "2026-11-20T22:48:38.261Z",
   "foundPlace": null
 }
