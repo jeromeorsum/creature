@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T02:51:53.107Z",
+  "lastUpdate": "2026-11-20T03:02:02.333Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-20T03:00:42.460Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-20T03:47:02.333Z",
   "needs": {
-    "fullness": 79,
-    "water": 68,
-    "energy": 25,
-    "curiosity": 15,
-    "joy": 49,
-    "calm": 95
+    "fullness": 73,
+    "water": 67,
+    "energy": 10,
+    "curiosity": 19,
+    "joy": 44,
+    "calm": 94
   },
   "health": 100,
   "mood": "sleepy and determined",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Repair the hut, make it home, nap, then drink and forage at dusk",
+  "plan": "Finish the hut, nap in it, then drink and forage at dusk",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.5,
+        "left": 1.57,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.29,
+        "left": 2.36,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.73,
+        "left": 2.8,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1226,7 +1226,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 3.73,
+        "left": 3.8,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.73,
+        "left": 2.8,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 2.73,
+        "left": 2.8,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.73,
+        "left": 2.8,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,16 +1498,18 @@
       "glade"
     ]
   },
-  "ticks": 459,
+  "ticks": 460,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
-  "lastOutcome": [],
-  "thought": "My energy is a sleepy puddle at 18, and the wind has knocked a cone off the Cosy Hut. My belly is full. I only need one fibre and I have two, so I can fix the hut now and it will be a proper home. I'll go and build, then sleep.",
+  "lastOutcome": [
+    "You couldn't place anything on \"Cosy Hut\": you need 1 more fibre."
+  ],
+  "thought": "My energy is a sleepy puddle at 24, and the hut needs one more fibre, which I have two of. I will finish the hut by tying the cone on firmly, then make it my home and sleep dry. It is the sensible thing and I am proud of the plan.",
   "face": "determined",
-  "lastThought": "2026-11-20T01:09:40.461Z",
+  "lastThought": "2026-11-20T03:02:02.333Z",
   "foundPlace": null
 }
