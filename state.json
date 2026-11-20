@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T21:16:25.732Z",
+  "lastUpdate": "2026-11-20T21:26:41.164Z",
   "place": "pond",
   "spot": {
-    "x": -3.5,
-    "z": 26.1
+    "x": -4,
+    "z": 21
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-20T21:21:02.510Z",
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-20T21:46:41.164Z",
   "needs": {
-    "fullness": 64,
-    "water": 60,
-    "energy": 64,
-    "curiosity": 13,
-    "joy": 18,
-    "calm": 92
+    "fullness": 63,
+    "water": 59,
+    "energy": 58,
+    "curiosity": 12,
+    "joy": 35,
+    "calm": 95
   },
   "health": 100,
-  "mood": "determined and wobbly",
+  "mood": "playful and wobbly",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -171,7 +171,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -598,7 +599,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, finish the hut, drink, then experiment for a wonder",
+  "plan": "Splash, finish the hut with 3 fibre, drink, tend plants",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1520,18 +1521,16 @@
       "glade"
     ]
   },
-  "ticks": 476,
+  "ticks": 477,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
-  "lastOutcome": [
-    "You collected 4 fibre."
-  ],
-  "thought": "Curiosity is very low and I have explored everywhere. The hut needs only one more fibre, so reeds at the pond come first, then I finish the hut. A fresh experiment can feed my curiosity on the way. I will pull reeds now.",
-  "face": "determined",
-  "lastThought": "2026-11-20T20:56:02.510Z",
+  "lastOutcome": [],
+  "thought": "I have 6 fibre now, and the hut needs 3. Curiosity and joy are both very low. Splashing in the pond is right here and gives joy. The hut is far away, but I can do that after. Splash first to lift my spirits, then go finish the hut with my fibre.",
+  "face": "excited",
+  "lastThought": "2026-11-20T21:26:41.164Z",
   "foundPlace": null
 }
