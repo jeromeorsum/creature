@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T10:11:38.216Z",
+  "lastUpdate": "2026-11-20T10:21:49.100Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-20T10:20:33.884Z",
+  "busyUntil": "2026-11-20T11:21:49.100Z",
   "needs": {
-    "fullness": 54,
-    "water": 75,
-    "energy": 35,
+    "fullness": 48,
+    "water": 74,
+    "energy": 64,
     "curiosity": 0,
-    "joy": 26,
+    "joy": 25,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -171,7 +171,8 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ]
   },
   "lessons": [
@@ -575,9 +576,30 @@
           2
         ]
       }
+    },
+    {
+      "date": "2026-11-19",
+      "summary": "Today I finished and moved into the Cosy Hut, which makes me very proud, even though the wind keeps knocking a cone off. I drank, foraged berries, pulled reeds and learned to count fibre properly. My belly is middling and my curiosity is empty, which bothers me. I feel calm and sleepy. Tomorrow night I want to fix the cone firmly, keep a fuller pot, and find one real wonder.",
+      "plan": {
+        "date": "2026-11-19",
+        "plan": [
+          "Tend seedlings",
+          "Explore for a wonder",
+          "Eat a midnight meal",
+          "Make a song",
+          "Drink and eat before bed"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
     }
   ],
-  "plan": "Sleep in the Cosy Hut, then drink, forage, and seek a wonder tonight.",
+  "plan": "Wake, repair the hut cone, drink, forage, seek a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1113,7 +1135,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.51,
+        "left": 1.58,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1169,7 +1191,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.56,
+        "left": 1.63,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1476,11 +1498,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-20T06:26:25.291Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1499,16 +1521,16 @@
       "glade"
     ]
   },
-  "ticks": 469,
+  "ticks": 470,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 24
   },
   "lastOutcome": [],
-  "thought": "My energy is 10 and it is morning, my sleeping time. The hut is finished and is my home. I should go nap there. Fullness is fine at 64 and water 80. Curiosity can wait until tonight.",
+  "thought": "It is nearly time for bed. The hut got knocked by a gust again, but I have two fibre and it needs one. I will tie it on and sleep. I ate and drank decently today. My curiosity is empty, but tonight I will seek a wonder. Sleep now, dry and cosy.",
   "face": "sleepy",
-  "lastThought": "2026-11-20T09:20:33.884Z",
+  "lastThought": "2026-11-20T10:21:49.100Z",
   "foundPlace": null
 }
