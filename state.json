@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T23:29:22.347Z",
+  "lastUpdate": "2026-11-20T23:39:44.423Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "experiment at the nest",
-  "busyUntil": "2026-11-20T23:38:45.394Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-21T00:39:44.423Z",
   "needs": {
-    "fullness": 74,
-    "water": 90,
-    "energy": 24,
-    "curiosity": 20,
-    "joy": 57,
-    "calm": 93
+    "fullness": 68,
+    "water": 89,
+    "energy": 53,
+    "curiosity": 19,
+    "joy": 56,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "sleepy and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -174,7 +174,8 @@
       2,
       3,
       5,
-      4
+      4,
+      7
     ]
   },
   "lessons": [
@@ -599,9 +600,33 @@
           5
         ]
       }
+    },
+    {
+      "date": "2026-11-20",
+      "summary": "Today I foraged berries, drank, splashed in the pond and finally finished the Cosy Hut, which makes me enormously proud. The pigeon stole a berry, and my curiosity stayed thin even after exploring and experimenting. I never tended my plants, which bothers me. I feel tired but content. Tomorrow night I want to tend plants, fill my pot and find one real wonder.",
+      "plan": {
+        "date": "2026-11-20",
+        "plan": [
+          "Breakfast berries at the thicket",
+          "Explore for a wonder",
+          "Pull reeds for fibre",
+          "Finish the Cosy Hut",
+          "Drink at the pond",
+          "Tend plants",
+          "Wind down before sleep"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          7
+        ]
+      }
     }
   ],
-  "plan": "Experiment with hanging shells in the wind, then tend plants, then wind down.",
+  "plan": "Sleep, then tend plants, fill the pot, and look for a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1523,16 +1548,16 @@
       "glade"
     ]
   },
-  "ticks": 481,
+  "ticks": 482,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
   "lastOutcome": [],
-  "thought": "My curiosity is nearly empty and the whole island is explored, so I need a new kind of wonder. I have shells, fibre and a wind-blowing night, so an experiment makes sense. Maybe the wind reeds idea: I will try hanging shells and fibre from a stick in the wind and see what sounds come out. My energy is middling but experiments are gentle. Then I will tend plants and wind down.",
-  "face": "curious",
-  "lastThought": "2026-11-20T22:58:45.394Z",
+  "thought": "My energy is very low at 23 and it is almost 11pm, near my bedtime. The Cosy Hut is finished and it is my home, so a nap there will restore me. The wind is annoying, but the hut is only 6m away. Curiosity is thin, but the experiment already helped a bit, and sleep matters more now.",
+  "face": "sleepy",
+  "lastThought": "2026-11-20T23:39:44.423Z",
   "foundPlace": null
 }
