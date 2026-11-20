@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T03:43:05.419Z",
+  "lastUpdate": "2026-11-20T03:53:10.625Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-20T03:47:02.333Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-20T04:53:10.625Z",
   "needs": {
-    "fullness": 69,
-    "water": 63,
-    "energy": 6,
-    "curiosity": 15,
-    "joy": 40,
-    "calm": 90
+    "fullness": 63,
+    "water": 62,
+    "energy": 35,
+    "curiosity": 14,
+    "joy": 39,
+    "calm": 99
   },
   "health": 100,
-  "mood": "sleepy and determined",
+  "mood": "sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Finish the hut, nap in it, then drink and forage at dusk",
+  "plan": "Nap, then pull reeds for fibre, finish the hut, drink and forage.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.85,
+        "left": 1.92,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 3.08,
+        "left": 3.15,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.08,
+        "left": 3.15,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.08,
+        "left": 3.15,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.08,
+        "left": 3.15,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.64,
+        "left": 2.71,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.08,
+        "left": 3.15,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.08,
+        "left": 3.15,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3.08,
+        "left": 3.15,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.08,
+        "left": 3.15,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1498,18 +1498,16 @@
       "glade"
     ]
   },
-  "ticks": 460,
+  "ticks": 461,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [
-    "You couldn't place anything on \"Cosy Hut\": you need 1 more fibre."
-  ],
-  "thought": "My energy is a sleepy puddle at 24, and the hut needs one more fibre, which I have two of. I will finish the hut by tying the cone on firmly, then make it my home and sleep dry. It is the sensible thing and I am proud of the plan.",
-  "face": "determined",
-  "lastThought": "2026-11-20T03:02:02.333Z",
+  "lastOutcome": [],
+  "thought": "My energy is a puddle at 5. The hut needs one more fibre and I have two, but the last attempt said I needed 1 more. Odd. Sleeping is wise now; I'll nap at the nest and pull reeds later for fibre.",
+  "face": "sleepy",
+  "lastThought": "2026-11-20T03:53:10.625Z",
   "foundPlace": null
 }
