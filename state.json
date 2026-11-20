@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T18:53:14.067Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-20T19:03:41.796Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-20T19:13:41.796Z",
   "needs": {
     "fullness": 0,
-    "water": 24,
-    "energy": 100,
+    "water": 73,
+    "energy": 99,
     "curiosity": 0,
-    "joy": 22,
-    "calm": 97
+    "joy": 21,
+    "calm": 99
   },
-  "health": 95,
-  "mood": "sleepy and content",
+  "health": 94,
+  "mood": "hungry and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -159,21 +159,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "plan": [
-      "Tend seedlings",
+      "Drink at the pond",
+      "Eat kept berries",
+      "Forage berries at the thicket",
+      "Pull reeds for fibre and mend the hut",
+      "Tend plants",
       "Explore for a wonder",
-      "Eat a midnight meal",
-      "Make a song",
-      "Drink and eat before bed"
+      "Drink again and wind down"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -599,7 +595,7 @@
       }
     }
   ],
-  "plan": "Wake, repair the hut cone, drink, forage, seek a wonder.",
+  "plan": "Drink, eat berries, forage, pull reeds, fix hut, seek a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1521,16 +1517,16 @@
       "glade"
     ]
   },
-  "ticks": 470,
+  "ticks": 471,
   "spend": {
-    "day": "2026-11-19",
+    "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 24
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly time for bed. The hut got knocked by a gust again, but I have two fibre and it needs one. I will tie it on and sleep. I ate and drank decently today. My curiosity is empty, but tonight I will seek a wonder. Sleep now, dry and cosy.",
-  "face": "sleepy",
-  "lastThought": "2026-11-20T10:21:49.100Z",
+  "thought": "I wake with an empty belly and a dry throat. Drink first, since water is only 23, then berries. I have 2 kept berries, so I eat those soon. The hut still wants fibre, so I should pull reeds after drinking. Then maybe find a wonder.",
+  "face": "determined",
+  "lastThought": "2026-11-20T19:03:41.796Z",
   "foundPlace": null
 }
