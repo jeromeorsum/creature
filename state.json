@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T20:35:34.448Z",
+  "lastUpdate": "2026-11-20T20:45:41.123Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,12 +10,12 @@
   "doing": "explore at the thicket",
   "busyUntil": "2026-11-20T20:55:16.880Z",
   "needs": {
-    "fullness": 68,
-    "water": 64,
-    "energy": 74,
-    "curiosity": 17,
-    "joy": 22,
-    "calm": 90
+    "fullness": 67,
+    "water": 63,
+    "energy": 73,
+    "curiosity": 16,
+    "joy": 21,
+    "calm": 89
   },
   "health": 100,
   "mood": "eager and wobbly",
