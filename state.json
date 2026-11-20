@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T09:10:06.216Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-20T09:20:33.884Z",
+  "place": "nest",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-20T09:14:37.842Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-20T10:20:33.884Z",
   "needs": {
-    "fullness": 65,
-    "water": 81,
-    "energy": 11,
+    "fullness": 59,
+    "water": 80,
+    "energy": 40,
     "curiosity": 0,
-    "joy": 32,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -577,7 +577,7 @@
       }
     }
   ],
-  "plan": "Forage berries, eat, then sleep in the Cosy Hut.",
+  "plan": "Sleep in the Cosy Hut, then drink, forage, and seek a wonder tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1113,7 +1113,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.09,
+        "left": 1.16,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1169,7 +1169,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.14,
+        "left": 1.21,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1499,19 +1499,16 @@
       "glade"
     ]
   },
-  "ticks": 468,
+  "ticks": 469,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is only middling and my energy is a puddle. It is daytime, which is my sleeping time, and the Cosy Hut is finished and waiting. I will pick a few more berries here and eat them fast so the pigeon cannot steal them, then sleep. Sleep matters most now.",
-  "face": "determined",
-  "lastThought": "2026-11-20T08:49:37.842Z",
+  "lastOutcome": [],
+  "thought": "My energy is 10 and it is morning, my sleeping time. The hut is finished and is my home. I should go nap there. Fullness is fine at 64 and water 80. Curiosity can wait until tonight.",
+  "face": "sleepy",
+  "lastThought": "2026-11-20T09:20:33.884Z",
   "foundPlace": null
 }
