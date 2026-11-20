@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T22:48:38.261Z",
+  "lastUpdate": "2026-11-20T22:58:45.394Z",
   "place": "nest",
   "spot": {
     "x": -14,
     "z": 6
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-20T22:58:38.261Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-20T23:38:45.394Z",
   "needs": {
-    "fullness": 78,
-    "water": 94,
-    "energy": 36,
-    "curiosity": 9,
-    "joy": 53,
-    "calm": 95
+    "fullness": 77,
+    "water": 93,
+    "energy": 27,
+    "curiosity": 23,
+    "joy": 60,
+    "calm": 93
   },
   "health": 100,
-  "mood": "proud but annoyed",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -601,7 +601,7 @@
       }
     }
   ],
-  "plan": "Eat berries, forage at the thicket, then experiment, then tend plants",
+  "plan": "Experiment with hanging shells in the wind, then tend plants, then wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1523,18 +1523,16 @@
       "glade"
     ]
   },
-  "ticks": 480,
+  "ticks": 481,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "The pigeon stole a berry and stared at me, rude and impressive. My belly is only half full at 50 and I have 2 berries left, so I should eat them now before the pigeon takes more. Then the thicket for more berries. The hut is finished, which is a triumph. Curiosity is 9, so after food I will experiment.",
-  "face": "grumpy",
-  "lastThought": "2026-11-20T22:48:38.261Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is nearly empty and the whole island is explored, so I need a new kind of wonder. I have shells, fibre and a wind-blowing night, so an experiment makes sense. Maybe the wind reeds idea: I will try hanging shells and fibre from a stick in the wind and see what sounds come out. My energy is middling but experiments are gentle. Then I will tend plants and wind down.",
+  "face": "curious",
+  "lastThought": "2026-11-20T22:58:45.394Z",
   "foundPlace": null
 }
