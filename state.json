@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T00:59:30.928Z",
-  "place": "hill",
+  "lastUpdate": "2026-11-20T01:09:40.461Z",
+  "place": "nest",
   "spot": {
-    "x": 30,
-    "z": 18
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the hill",
-  "busyUntil": "2026-11-20T01:09:30.928Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-20T01:54:40.461Z",
   "needs": {
-    "fullness": 100,
-    "water": 79,
-    "energy": 19,
-    "curiosity": 21,
-    "joy": 64,
+    "fullness": 94,
+    "water": 78,
+    "energy": 4,
+    "curiosity": 25,
+    "joy": 59,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "sleepy and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -576,7 +576,7 @@
       }
     }
   ],
-  "plan": "Eat, then nap in the Cosy Hut, then drink and forage at dusk",
+  "plan": "Repair the hut, make it home, nap, then drink and forage at dusk",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -651,7 +651,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 5
+      "shells": 6
     },
     "discovered": [
       "clay",
@@ -1112,7 +1112,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.73,
+        "left": 0.8,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1120,7 +1120,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.96,
+        "left": 2.03,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1128,7 +1128,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.96,
+        "left": 2.03,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1136,7 +1136,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.96,
+        "left": 2.03,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1152,7 +1152,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.96,
+        "left": 2.03,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1168,7 +1168,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.52,
+        "left": 1.59,
         "tendedUntil": "2026-11-20T20:13:25.779Z"
       },
       {
@@ -1216,7 +1216,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1226,7 +1226,7 @@
         "res": "berries",
         "x": 19.4,
         "z": 0.6,
-        "left": 2.96,
+        "left": 3.03,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1266,7 +1266,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1306,7 +1306,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1475,11 +1475,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-19T06:55:04.509Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1498,18 +1498,18 @@
       "glade"
     ]
   },
-  "ticks": 457,
+  "ticks": 458,
   "spend": {
     "day": "2026-11-19",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [
-    "You ate 2 berries from your food."
+    "You couldn't place anything on \"Cosy Hut\": you need 1 more fibre."
   ],
-  "thought": "My energy is a sleepy puddle at 19 and my belly and throat are fine. I'm at the hill under the stars. It's a meal time, so I eat my two kept berries here, then nap. Nobody pigeon in sight, so safe to eat. Then I'll waddle to the Cosy Hut.",
-  "face": "sleepy",
-  "lastThought": "2026-11-20T00:59:30.928Z",
+  "thought": "My energy is a sleepy puddle at 18, and the wind has knocked a cone off the Cosy Hut. My belly is full. I only need one fibre and I have two, so I can fix the hut now and it will be a proper home. I'll go and build, then sleep.",
+  "face": "determined",
+  "lastThought": "2026-11-20T01:09:40.461Z",
   "foundPlace": null
 }
