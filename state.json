@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-20T19:03:41.796Z",
+  "lastUpdate": "2026-11-20T19:13:43.488Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-20T19:13:41.796Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-20T19:23:43.488Z",
   "needs": {
-    "fullness": 0,
-    "water": 73,
-    "energy": 99,
+    "fullness": 28,
+    "water": 72,
+    "energy": 98,
     "curiosity": 0,
-    "joy": 21,
-    "calm": 99
+    "joy": 24,
+    "calm": 98
   },
-  "health": 94,
+  "health": 93,
   "mood": "hungry and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -161,15 +161,17 @@
   "today": {
     "date": "2026-11-20",
     "plan": [
-      "Drink at the pond",
       "Eat kept berries",
       "Forage berries at the thicket",
-      "Pull reeds for fibre and mend the hut",
+      "Pull reeds for fibre",
       "Tend plants",
       "Explore for a wonder",
-      "Drink again and wind down"
+      "Drink again",
+      "Wind down"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -595,7 +597,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berries, forage, pull reeds, fix hut, seek a wonder",
+  "plan": "Eat berries, forage at thicket, pull reeds, explore for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -660,7 +662,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 1,
       "berry": 20
@@ -1517,16 +1519,18 @@
       "glade"
     ]
   },
-  "ticks": 471,
+  "ticks": 472,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I wake with an empty belly and a dry throat. Drink first, since water is only 23, then berries. I have 2 kept berries, so I eat those soon. The hut still wants fibre, so I should pull reeds after drinking. Then maybe find a wonder.",
-  "face": "determined",
-  "lastThought": "2026-11-20T19:03:41.796Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My belly is at zero, so food first. I have two kept berries, so I eat them right now. Then I will go to the thicket for more. Curiosity is empty too, but a hungry bird has no room for wonders.",
+  "face": "worried",
+  "lastThought": "2026-11-20T19:13:43.488Z",
   "foundPlace": null
 }
