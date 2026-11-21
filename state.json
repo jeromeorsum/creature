@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T19:24:41.589Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-21T19:34:50.742Z",
+  "place": "pond",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-21T19:29:07.449Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-21T19:44:50.742Z",
   "needs": {
-    "fullness": 23,
-    "water": 20,
-    "energy": 93,
+    "fullness": 22,
+    "water": 69,
+    "energy": 92,
     "curiosity": 0,
-    "joy": 48,
+    "joy": 47,
     "calm": 100
   },
   "health": 96,
-  "mood": "hungry but determined",
+  "mood": "thirsty but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,7 +167,7 @@
   "today": {
     "date": "2026-11-21",
     "plan": [
-      "Breakfast: forage berries at the thicket",
+      "Breakfast: forage berries",
       "Drink at the pond",
       "Plant berry seeds",
       "Tend plants",
@@ -175,7 +175,9 @@
       "Snack and refill pot",
       "Drink again and wind down"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -626,7 +628,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink, plant berry seeds, tend plants, hunt for a wonder",
+  "plan": "Drink, eat berries, plant seeds, tend plants, hunt for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1170,7 +1172,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.14,
+        "left": 0.21,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1474,7 +1476,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.08,
+        "left": 2.1,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1586,19 +1588,16 @@
       "glade"
     ]
   },
-  "ticks": 498,
+  "ticks": 499,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "I woke up starving and thirsty, fullness 1 and water 22. Food first. The thicket has berries, so I forage there, eat quickly before the pigeon notices, then drink at the pond. Then plant some of my 20 berry seeds so the island doesn't run out.",
+  "lastOutcome": [],
+  "thought": "My belly is low and my throat is dry, so drinking comes first. The pond is the answer. I have two berries in the pot, but the pigeon is near, so I should eat them quickly. Then I will plant my berry seeds near the thicket, because twenty seeds in a pocket is a waste. Curiosity is empty, but survival first.",
   "face": "determined",
-  "lastThought": "2026-11-21T19:04:07.449Z",
+  "lastThought": "2026-11-21T19:34:50.742Z",
   "foundPlace": null
 }
