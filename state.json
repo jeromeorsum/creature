@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T01:22:04.638Z",
+  "lastUpdate": "2026-11-21T01:32:20.249Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,11 +10,11 @@
   "doing": "plant seeds at the thicket",
   "busyUntil": "2026-11-21T01:41:52.028Z",
   "needs": {
-    "fullness": 82,
-    "water": 79,
-    "energy": 31,
-    "curiosity": 9,
-    "joy": 57,
+    "fullness": 81,
+    "water": 78,
+    "energy": 30,
+    "curiosity": 8,
+    "joy": 56,
     "calm": 100
   },
   "health": 100,
