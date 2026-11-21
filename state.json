@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T06:28:50.122Z",
+  "lastUpdate": "2026-11-21T06:39:09.340Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-21T06:38:50.122Z",
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-21T07:19:09.340Z",
   "needs": {
-    "fullness": 66,
-    "water": 95,
-    "energy": 34,
-    "curiosity": 5,
-    "joy": 62,
-    "calm": 100
+    "fullness": 65,
+    "water": 94,
+    "energy": 25,
+    "curiosity": 19,
+    "joy": 69,
+    "calm": 98
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hopeful and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -633,7 +633,7 @@
       }
     }
   ],
-  "plan": "Drink, then splash or experiment for curiosity, then nap in the hut.",
+  "plan": "Experiment at the pond, then nap in the hut, then forage berries.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -698,6 +698,10 @@
     {
       "text": "{\"what\":\"Shells hung at different heights from a root on fibre clack in a different pattern in the wind than shells hung together, so the wind plays a rhythm that changes with how I hang them.\"}",
       "made": "2026-11-21T03:24:46.966Z"
+    },
+    {
+      "text": "{\"what\":\"Shells tied in a line with fibre float together on the pond and drift in the breeze like a little parade, the front shell pulling the rest.\"}",
+      "made": "2026-11-21T06:39:09.340Z"
     }
   ],
   "world": {
@@ -1173,7 +1177,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.24,
+        "left": 0.31,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1229,7 +1233,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.03,
+        "left": 1.1,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1307,7 +1311,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.96,
+        "left": 3.03,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1477,7 +1481,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.56,
+        "left": 0.58,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1487,7 +1491,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1497,7 +1501,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1589,16 +1593,16 @@
       "glade"
     ]
   },
-  "ticks": 491,
+  "ticks": 492,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
   "lastOutcome": [],
-  "thought": "Water is 45 and curiosity is 5. I just picked berries, so my belly is fine. Drinking is the sensible next step, and the pond is where the spring-clear water is. I'll go there, and maybe splash afterwards to wake my curiosity up.",
+  "thought": "My curiosity is nearly empty and the whole island is explored. Splashing in the pond is right here and gives joy, but I want a small wonder. I'll experiment with floating shells, clay and fibre in the pond, since clay is right at hand and I've had luck with floating boats. Maybe I can build a raft-ish thing that carries a berry across the water, away from the pigeon.",
   "face": "curious",
-  "lastThought": "2026-11-21T06:28:50.122Z",
+  "lastThought": "2026-11-21T06:39:09.340Z",
   "foundPlace": null
 }
