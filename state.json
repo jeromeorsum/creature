@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T19:04:07.449Z",
+  "lastUpdate": "2026-11-21T19:14:32.182Z",
   "place": "thicket",
   "spot": {
     "x": 14.6,
@@ -10,11 +10,11 @@
   "doing": "forage berries at the thicket",
   "busyUntil": "2026-11-21T19:29:07.449Z",
   "needs": {
-    "fullness": 25,
-    "water": 22,
-    "energy": 95,
+    "fullness": 24,
+    "water": 21,
+    "energy": 94,
     "curiosity": 0,
-    "joy": 50,
+    "joy": 49,
     "calm": 100
   },
   "health": 96,
@@ -1170,7 +1170,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0,
+        "left": 0.07,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1474,7 +1474,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.04,
+        "left": 2.06,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
