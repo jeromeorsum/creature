@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T02:02:58.717Z",
+  "lastUpdate": "2026-11-21T02:13:09.220Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,11 +10,11 @@
   "doing": "tend plants at the thicket",
   "busyUntil": "2026-11-21T02:17:37.760Z",
   "needs": {
-    "fullness": 78,
-    "water": 71,
-    "energy": 19,
-    "curiosity": 5,
-    "joy": 58,
+    "fullness": 77,
+    "water": 70,
+    "energy": 18,
+    "curiosity": 4,
+    "joy": 57,
     "calm": 100
   },
   "health": 100,
@@ -1163,7 +1163,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1219,7 +1219,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1297,7 +1297,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.14,
+        "left": 2.21,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1467,7 +1467,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.04,
+        "left": 0.06,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1477,7 +1477,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 0.14,
+        "left": 0.21,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1487,7 +1487,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 0.14,
+        "left": 0.21,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
