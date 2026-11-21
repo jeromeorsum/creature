@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T19:34:50.742Z",
+  "lastUpdate": "2026-11-21T19:45:07.249Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-21T19:44:50.742Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-21T19:55:07.249Z",
   "needs": {
-    "fullness": 22,
-    "water": 69,
-    "energy": 92,
+    "fullness": 49,
+    "water": 68,
+    "energy": 91,
     "curiosity": 0,
-    "joy": 47,
+    "joy": 50,
     "calm": 100
   },
   "health": 96,
-  "mood": "thirsty but determined",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,16 +167,17 @@
   "today": {
     "date": "2026-11-21",
     "plan": [
-      "Breakfast: forage berries",
+      "Breakfast: eat berries",
       "Drink at the pond",
       "Plant berry seeds",
       "Tend plants",
-      "Look for a wonder or make something",
+      "Look for a wonder",
       "Snack and refill pot",
       "Drink again and wind down"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -628,7 +629,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berries, plant seeds, tend plants, hunt for a wonder",
+  "plan": "Eat, plant berry seeds, tend plants, forage, hunt for a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -701,7 +702,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1172,7 +1173,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1476,7 +1477,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.1,
+        "left": 2.12,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1588,16 +1589,18 @@
       "glade"
     ]
   },
-  "ticks": 499,
+  "ticks": 500,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [],
-  "thought": "My belly is low and my throat is dry, so drinking comes first. The pond is the answer. I have two berries in the pot, but the pigeon is near, so I should eat them quickly. Then I will plant my berry seeds near the thicket, because twenty seeds in a pocket is a waste. Curiosity is empty, but survival first.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My belly is the emptiest thing, fullness 21, and I only have two berries. Eat them now, quickly, before the pigeon shows up. Then I'll plant the twenty seeds so the island has more berries later. My curiosity is zero, but a full belly makes wonders easier to find.",
   "face": "determined",
-  "lastThought": "2026-11-21T19:34:50.742Z",
+  "lastThought": "2026-11-21T19:45:07.249Z",
   "foundPlace": null
 }
