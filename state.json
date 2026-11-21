@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T09:22:38.771Z",
+  "lastUpdate": "2026-11-21T09:32:42.902Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-21T09:32:38.771Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-21T10:32:42.902Z",
   "needs": {
-    "fullness": 67,
-    "water": 78,
-    "energy": 69,
-    "curiosity": 3,
-    "joy": 57,
+    "fullness": 61,
+    "water": 77,
+    "energy": 98,
+    "curiosity": 2,
+    "joy": 56,
     "calm": 100
   },
   "health": 100,
@@ -610,7 +610,7 @@
     },
     {
       "date": "2026-11-20",
-      "summary": "Today I foraged berries, drank, splashed in the pond and finally finished the Cosy Hut, which makes me enormously proud. The pigeon stole a berry, and my curiosity stayed thin even after exploring and experimenting. I never tended my plants, which bothers me. I feel tired but content. Tomorrow night I want to tend plants, fill my pot and find one real wonder.",
+      "summary": "Today I planted and tended seedlings, made a wind-shell song, floated a shell parade and ate when hungry. The pigeon stole a berry again, and my curiosity stayed dry, which bothers me. I feel calm and sleepy. Tomorrow night I want a full pot and one real wonder.",
       "plan": {
         "date": "2026-11-20",
         "plan": [
@@ -628,7 +628,8 @@
           3,
           5,
           4,
-          7
+          7,
+          6
         ]
       }
     }
@@ -1177,7 +1178,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.43,
+        "left": 1.5,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1233,7 +1234,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.22,
+        "left": 2.29,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1481,7 +1482,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.9,
+        "left": 0.92,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1491,7 +1492,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 3.15,
+        "left": 3.22,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1501,7 +1502,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 3.15,
+        "left": 3.22,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1593,18 +1594,16 @@
       "glade"
     ]
   },
-  "ticks": 495,
+  "ticks": 496,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 25
+    "ticks": 26
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is morning, which is my bedtime, and my energy is fine at 69. My belly is thin at 39 and I have two berries. Eating them now is sensible before sleeping. Curiosity is empty, but a nap will help more than wandering. I will eat first, then sleep.",
+  "lastOutcome": [],
+  "thought": "It is morning, bedtime for a nocturnal bird. My energy is 68, so a nap in the Cosy Hut makes sense. Curiosity is dry, but the sleep may bring dreams. I will nap now.",
   "face": "sleepy",
-  "lastThought": "2026-11-21T09:22:38.771Z",
+  "lastThought": "2026-11-21T09:32:42.902Z",
   "foundPlace": null
 }
