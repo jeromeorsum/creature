@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T00:30:52.895Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-21T00:41:07.853Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 16.6,
+    "z": -6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-21T00:39:44.423Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-21T01:06:07.853Z",
   "needs": {
-    "fullness": 63,
-    "water": 84,
-    "energy": 48,
-    "curiosity": 14,
-    "joy": 51,
+    "fullness": 86,
+    "water": 83,
+    "energy": 43,
+    "curiosity": 13,
+    "joy": 53,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -626,7 +626,7 @@
       }
     }
   ],
-  "plan": "Sleep, then tend plants, fill the pot, and look for a wonder.",
+  "plan": "Forage berries, fill the pot, then tend plants and plant seeds.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1296,7 +1296,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-20T20:13:25.779Z"
@@ -1548,16 +1548,18 @@
       "glade"
     ]
   },
-  "ticks": 482,
+  "ticks": 483,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
-  "lastOutcome": [],
-  "thought": "My energy is very low at 23 and it is almost 11pm, near my bedtime. The Cosy Hut is finished and it is my home, so a nap there will restore me. The wind is annoying, but the hut is only 6m away. Curiosity is thin, but the experiment already helped a bit, and sleep matters more now.",
-  "face": "sleepy",
-  "lastThought": "2026-11-20T23:39:44.423Z",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot."
+  ],
+  "thought": "It is mealtime and I only have one kept berry, with fullness at 62. The thicket is where berries are, so I will forage and fill the pot. Pigeon worries me, so I eat the first handful fast. Curiosity is low, but food first, then tend plants.",
+  "face": "determined",
+  "lastThought": "2026-11-21T00:41:07.853Z",
   "foundPlace": null
 }
