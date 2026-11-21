@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T09:12:12.516Z",
+  "lastUpdate": "2026-11-21T09:22:38.771Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-21T09:21:13.988Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-21T09:32:38.771Z",
   "needs": {
-    "fullness": 40,
-    "water": 79,
-    "energy": 70,
-    "curiosity": 4,
-    "joy": 54,
+    "fullness": 67,
+    "water": 78,
+    "energy": 69,
+    "curiosity": 3,
+    "joy": 57,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and hopeful",
+  "mood": "sleepy, hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -633,7 +633,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then forage berries, then hunt for a wonder.",
+  "plan": "Eat, nap in the hut, then forage berries at dusk and hunt for a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -706,7 +706,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1177,7 +1177,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.36,
+        "left": 1.43,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1233,7 +1233,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.15,
+        "left": 2.22,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1481,7 +1481,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.88,
+        "left": 0.9,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1491,7 +1491,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 3.08,
+        "left": 3.15,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1501,7 +1501,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 3.08,
+        "left": 3.15,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1593,16 +1593,18 @@
       "glade"
     ]
   },
-  "ticks": 494,
+  "ticks": 495,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 24
+    "ticks": 25
   },
-  "lastOutcome": [],
-  "thought": "It is morning, bedtime for a night bird, and my energy is only 45. My curiosity is nearly empty, but the island has been explored already. A nap in the Cosy Hut is the sensible thing, and it's right next to me. I'll dream of a wonder.",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is morning, which is my bedtime, and my energy is fine at 69. My belly is thin at 39 and I have two berries. Eating them now is sensible before sleeping. Curiosity is empty, but a nap will help more than wandering. I will eat first, then sleep.",
   "face": "sleepy",
-  "lastThought": "2026-11-21T08:21:13.988Z",
+  "lastThought": "2026-11-21T09:22:38.771Z",
   "foundPlace": null
 }
