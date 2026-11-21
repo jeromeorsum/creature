@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T23:19:29.028Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-21T23:29:48.004Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-21T23:23:40.737Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-21T23:39:48.004Z",
   "needs": {
-    "fullness": 71,
-    "water": 47,
-    "energy": 32,
-    "curiosity": 21,
-    "joy": 78,
-    "calm": 90
+    "fullness": 70,
+    "water": 96,
+    "energy": 31,
+    "curiosity": 20,
+    "joy": 77,
+    "calm": 93
   },
   "health": 100,
-  "mood": "hungry and scheming",
+  "mood": "determined and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -628,7 +628,7 @@
       }
     }
   ],
-  "plan": "Forage berries, repair hut cone, drink, tend seedlings",
+  "plan": "Drink, pull reeds for fibre, repair hut cone, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1176,7 +1176,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.75,
+        "left": 0.82,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1232,7 +1232,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.19,
+        "left": 1.26,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1480,7 +1480,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.54,
+        "left": 2.56,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1599,11 +1599,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-21T22:38:40.737Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1622,18 +1622,16 @@
       "glade"
     ]
   },
-  "ticks": 506,
+  "ticks": 507,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "My pocket has no berries and my belly is middling, and I'm at the thicket where berries are. The pigeon is around. I'll forage now and eat some right away. The hut cone can wait until I have fibre, since I only have 3 and it needs 3 anyway.",
+  "lastOutcome": [],
+  "thought": "Water is 46 and the gust knocked a cone off the hut. I have no fibre, so I can't repair it yet. Fibre grows by the pond, and so does drinking water. I'll go to the pond, drink first, and pull reeds after. Drinking is the safest next step.",
   "face": "determined",
-  "lastThought": "2026-11-21T22:08:10.242Z",
+  "lastThought": "2026-11-21T23:29:48.004Z",
   "foundPlace": null
 }
