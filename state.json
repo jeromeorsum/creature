@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T23:29:48.004Z",
+  "lastUpdate": "2026-11-21T23:40:02.397Z",
   "place": "pond",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -5.6,
+    "z": 26.7
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-21T23:39:48.004Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-22T00:05:02.397Z",
   "needs": {
-    "fullness": 70,
-    "water": 96,
-    "energy": 31,
-    "curiosity": 20,
-    "joy": 77,
-    "calm": 93
+    "fullness": 69,
+    "water": 95,
+    "energy": 24,
+    "curiosity": 19,
+    "joy": 76,
+    "calm": 98
   },
   "health": 100,
-  "mood": "determined and thirsty",
+  "mood": "determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -176,7 +176,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -628,7 +629,7 @@
       }
     }
   ],
-  "plan": "Drink, pull reeds for fibre, repair hut cone, tend seedlings",
+  "plan": "Pull reeds, finish hut cone, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -704,7 +705,7 @@
     }
   ],
   "world": {
-    "weather": "windy",
+    "weather": "cloudy",
     "food": 1,
     "seeds": {
       "tree": 0,
@@ -714,7 +715,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 0,
+      "fibre": 4,
       "shells": 10
     },
     "discovered": [
@@ -1066,7 +1067,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1074,7 +1075,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 3,
+        "left": 1,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1176,7 +1177,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.82,
+        "left": 0.89,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1232,7 +1233,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.26,
+        "left": 1.33,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1480,7 +1481,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.56,
+        "left": 2.58,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1622,16 +1623,18 @@
       "glade"
     ]
   },
-  "ticks": 507,
+  "ticks": 508,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [],
-  "thought": "Water is 46 and the gust knocked a cone off the hut. I have no fibre, so I can't repair it yet. Fibre grows by the pond, and so does drinking water. I'll go to the pond, drink first, and pull reeds after. Drinking is the safest next step.",
+  "lastOutcome": [
+    "You collected 4 fibre."
+  ],
+  "thought": "Water is fine, so now I need fibre for the hut cone. I'm at the pond with reeds, so I'll pull plenty, more than three this time. Energy is a bit low at 30, but the hut will let me sleep better. Curiosity is thin, but a finished hut is a start.",
   "face": "determined",
-  "lastThought": "2026-11-21T23:29:48.004Z",
+  "lastThought": "2026-11-21T23:40:02.397Z",
   "foundPlace": null
 }
