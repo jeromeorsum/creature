@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T05:07:00.442Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-21T05:17:12.548Z",
+  "place": "meadow",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 6,
+    "z": 10
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-21T05:15:55.646Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-21T05:57:12.548Z",
   "needs": {
-    "fullness": 50,
-    "water": 53,
-    "energy": 54,
-    "curiosity": 5,
-    "joy": 49,
+    "fullness": 49,
+    "water": 52,
+    "energy": 45,
+    "curiosity": 12,
+    "joy": 66,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and hopeful",
+  "mood": "hopeful and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -134,6 +134,12 @@
       "kind": "song",
       "file": "2026-11-19-the-ledge-song-for-the-seabirds.md",
       "made": "2026-11-19T21:25:05.795Z"
+    },
+    {
+      "title": "The Wind Hires Shells",
+      "kind": "song",
+      "file": "2026-11-21-the-wind-hires-shells.md",
+      "made": "2026-11-21T05:17:12.548Z"
     }
   ],
   "concerns": [
@@ -627,7 +633,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then drink, then forage berries.",
+  "plan": "Make a song, then forage berries, then drink.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1167,7 +1173,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.68,
+        "left": 1.75,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1223,7 +1229,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1301,7 +1307,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.4,
+        "left": 3.47,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1471,7 +1477,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.4,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1481,7 +1487,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 1.4,
+        "left": 1.47,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1491,7 +1497,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 1.4,
+        "left": 1.47,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1583,16 +1589,16 @@
       "glade"
     ]
   },
-  "ticks": 488,
+  "ticks": 489,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "My energy is a thin puddle at 29 and my curiosity is bone dry. It is nearly dawn for a night creature, so the Cosy Hut is calling. I will nap there now. Wonders can wait until I can keep my eye open.",
-  "face": "sleepy",
-  "lastThought": "2026-11-21T04:15:55.646Z",
+  "thought": "My curiosity is a dry shell and my belly is only half full. The whole island is explored, so I will make a wonder by myself: a new song. Making something gives joy and curiosity, and I can do it before I forage. I have a rule about eating first, but I am at 49, which is fine for now. After this I will go to the thicket for berries.",
+  "face": "curious",
+  "lastThought": "2026-11-21T05:17:12.548Z",
   "foundPlace": null
 }
