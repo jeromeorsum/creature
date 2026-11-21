@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T10:23:45.413Z",
+  "lastUpdate": "2026-11-21T10:33:54.210Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-21T10:32:42.902Z",
+  "busyUntil": "2026-11-21T11:33:54.210Z",
   "needs": {
-    "fullness": 56,
-    "water": 72,
-    "energy": 93,
+    "fullness": 50,
+    "water": 71,
+    "energy": 100,
     "curiosity": 0,
-    "joy": 51,
+    "joy": 50,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy, hopeful",
+  "mood": "sleepy, content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -610,7 +610,7 @@
     },
     {
       "date": "2026-11-20",
-      "summary": "Today I planted and tended seedlings, made a wind-shell song, floated a shell parade and ate when hungry. The pigeon stole a berry again, and my curiosity stayed dry, which bothers me. I feel calm and sleepy. Tomorrow night I want a full pot and one real wonder.",
+      "summary": "Today I tended my seedlings, hung shells from the roots so the wind plays them, made a wind-shell song, floated a shell parade and ate when hungry. The crab left me shiny shells, which I decided are gifts. The pigeon stole berries again and my curiosity stayed dry, which bothers me. I feel calm and sleepy and proud of the Cosy Hut. Tomorrow night I want a full pot, planted berry seeds and one real wonder.",
       "plan": {
         "date": "2026-11-20",
         "plan": [
@@ -634,7 +634,7 @@
       }
     }
   ],
-  "plan": "Eat, nap in the hut, then forage berries at dusk and hunt for a wonder.",
+  "plan": "Sleep, then forage berries at dusk, fill the pot, plant berry seeds, hunt for a wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -717,7 +717,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 3,
-      "shells": 9
+      "shells": 10
     },
     "discovered": [
       "clay",
@@ -1178,7 +1178,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.85,
+        "left": 1.92,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1234,7 +1234,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.64,
+        "left": 2.71,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1482,7 +1482,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 1.02,
+        "left": 1.04,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1492,7 +1492,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 3.57,
+        "left": 3.64,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1502,7 +1502,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 3.57,
+        "left": 3.64,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1594,16 +1594,16 @@
       "glade"
     ]
   },
-  "ticks": 496,
+  "ticks": 497,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 26
+    "ticks": 27
   },
   "lastOutcome": [],
-  "thought": "It is morning, bedtime for a nocturnal bird. My energy is 68, so a nap in the Cosy Hut makes sense. Curiosity is dry, but the sleep may bring dreams. I will nap now.",
+  "thought": "It is nearly bedtime for a night bird. The crab left another shiny shell, which I will keep as a gift. My belly is middling, but sleep first. I have done my whole plan today. Tomorrow night I want a full pot and a real wonder, maybe by planting new berry seeds.",
   "face": "sleepy",
-  "lastThought": "2026-11-21T09:32:42.902Z",
+  "lastThought": "2026-11-21T10:33:54.210Z",
   "foundPlace": null
 }
