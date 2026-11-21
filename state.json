@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T21:06:49.765Z",
+  "lastUpdate": "2026-11-21T21:16:59.519Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-21T21:11:41.361Z",
+  "doing": "experiment at the thicket",
+  "busyUntil": "2026-11-21T21:56:59.519Z",
   "needs": {
-    "fullness": 65,
-    "water": 60,
-    "energy": 71,
-    "curiosity": 14,
-    "joy": 58,
-    "calm": 95
+    "fullness": 64,
+    "water": 59,
+    "energy": 62,
+    "curiosity": 28,
+    "joy": 65,
+    "calm": 93
   },
   "health": 100,
-  "mood": "nosy and hopeful",
+  "mood": "nosy and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -697,6 +697,10 @@
     {
       "text": "{\"what\":\"Shells tied in a line with fibre float together on the pond and drift in the breeze like a little parade, the front shell pulling the rest.\"}",
       "made": "2026-11-21T06:39:09.340Z"
+    },
+    {
+      "text": "{\"what\":\"A berry set on a shell as bait draws the pigeon close, so I can watch what it does when it thinks nobody is looking.\"}",
+      "made": "2026-11-21T21:16:59.519Z"
     }
   ],
   "world": {
@@ -1172,7 +1176,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1228,7 +1232,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.28,
+        "left": 2.35,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1476,7 +1480,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.28,
+        "left": 2.3,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1618,16 +1622,16 @@
       "glade"
     ]
   },
-  "ticks": 503,
+  "ticks": 504,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My curiosity is zero and I have explored everywhere. I'll go to the thicket's pigeon and spy on it, because the pigeon surely knows something. It's right here, it's cheap, and it gives lots of curiosity.",
-  "face": "suspicious",
-  "lastThought": "2026-11-21T20:56:41.361Z",
+  "thought": "My curiosity is a dry shell at 13. I know the whole island, so a wonder must come from experiments. The pigeon keeps watching me, so maybe I try a new experiment right here at the thicket: leave a berry as bait on a shell and see what the pigeon does. That is a real question I can answer.",
+  "face": "curious",
+  "lastThought": "2026-11-21T21:16:59.519Z",
   "foundPlace": null
 }
