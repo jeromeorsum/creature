@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T21:37:25.852Z",
+  "lastUpdate": "2026-11-21T21:47:39.495Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,11 +10,11 @@
   "doing": "experiment at the thicket",
   "busyUntil": "2026-11-21T21:56:59.519Z",
   "needs": {
-    "fullness": 62,
-    "water": 57,
-    "energy": 60,
-    "curiosity": 26,
-    "joy": 63,
+    "fullness": 61,
+    "water": 56,
+    "energy": 59,
+    "curiosity": 25,
+    "joy": 62,
     "calm": 93
   },
   "health": 100,
@@ -1176,7 +1176,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.05,
+        "left": 1.12,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1232,7 +1232,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.49,
+        "left": 2.56,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1480,7 +1480,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.34,
+        "left": 2.36,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
