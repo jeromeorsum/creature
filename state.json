@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T20:56:41.361Z",
+  "lastUpdate": "2026-11-21T21:06:49.765Z",
   "place": "thicket",
   "spot": {
     "x": 15,
@@ -10,11 +10,11 @@
   "doing": "spy on pigeon at the thicket",
   "busyUntil": "2026-11-21T21:11:41.361Z",
   "needs": {
-    "fullness": 66,
-    "water": 61,
-    "energy": 72,
-    "curiosity": 15,
-    "joy": 59,
+    "fullness": 65,
+    "water": 60,
+    "energy": 71,
+    "curiosity": 14,
+    "joy": 58,
     "calm": 95
   },
   "health": 100,
@@ -1172,7 +1172,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1228,7 +1228,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.21,
+        "left": 2.28,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1476,7 +1476,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.26,
+        "left": 2.28,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
