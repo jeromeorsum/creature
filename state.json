@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T21:57:57.080Z",
+  "lastUpdate": "2026-11-21T22:08:10.242Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-21T22:33:10.242Z",
   "needs": {
-    "fullness": 60,
-    "water": 55,
-    "energy": 58,
-    "curiosity": 24,
-    "joy": 61,
+    "fullness": 83,
+    "water": 54,
+    "energy": 53,
+    "curiosity": 23,
+    "joy": 63,
     "calm": 93
   },
   "health": 100,
-  "mood": "nosy and scheming",
+  "mood": "hungry and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -628,7 +628,7 @@
       }
     }
   ],
-  "plan": "Plant seeds, tend them, forage berries, drink, hunt for a wonder",
+  "plan": "Forage berries, repair hut cone, drink, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -705,7 +705,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 19
@@ -1176,7 +1176,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.19,
+        "left": 0.26,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1232,7 +1232,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.63,
+        "left": 0.7,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1480,7 +1480,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.38,
+        "left": 2.4,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1599,11 +1599,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-20T21:57:21.313Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1622,16 +1622,18 @@
       "glade"
     ]
   },
-  "ticks": 504,
+  "ticks": 505,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a dry shell at 13. I know the whole island, so a wonder must come from experiments. The pigeon keeps watching me, so maybe I try a new experiment right here at the thicket: leave a berry as bait on a shell and see what the pigeon does. That is a real question I can answer.",
-  "face": "curious",
-  "lastThought": "2026-11-21T21:16:59.519Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "My pocket has no berries and my belly is middling, and I'm at the thicket where berries are. The pigeon is around. I'll forage now and eat some right away. The hut cone can wait until I have fibre, since I only have 3 and it needs 3 anyway.",
+  "face": "determined",
+  "lastThought": "2026-11-21T22:08:10.242Z",
   "foundPlace": null
 }
