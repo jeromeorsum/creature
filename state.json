@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T20:15:53.161Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-21T20:26:00.693Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "plant seeds at the pond",
-  "busyUntil": "2026-11-21T20:25:24.283Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-21T20:51:00.693Z",
   "needs": {
-    "fullness": 46,
-    "water": 65,
-    "energy": 80,
+    "fullness": 69,
+    "water": 64,
+    "energy": 75,
     "curiosity": 0,
-    "joy": 55,
+    "joy": 57,
     "calm": 100
   },
-  "health": 99,
-  "mood": "hopeful and busy",
+  "health": 100,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -704,7 +704,7 @@
     "food": 0,
     "seeds": {
       "tree": 0,
-      "berry": 17
+      "berry": 19
     },
     "inventory": {
       "wood": 2,
@@ -1172,7 +1172,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1228,7 +1228,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1476,7 +1476,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.18,
+        "left": 2.2,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1618,18 +1618,19 @@
       "glade"
     ]
   },
-  "ticks": 501,
+  "ticks": 502,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the pond. Seedlings need tending to grow."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is only half full and my pocket has no berries, but I have twenty berry seeds doing nothing. Planting them near the pond is a real fix for the food worry, and it also gives me something new to watch grow. Curiosity is zero, so seeing seedlings sprout might even count as a small wonder. I will plant them here before the pigeon notices.",
+  "thought": "My belly is under half and I have no kept berries. Curiosity is zero, so it's time for something new. Berries first, since the thicket is the food place, but I'm at the pond with water decent. I'll tend the seedlings I just planted? Better to eat first. Forage berries, then wonder-hunting by exploring.",
   "face": "determined",
-  "lastThought": "2026-11-21T19:55:24.283Z",
+  "lastThought": "2026-11-21T20:26:00.693Z",
   "foundPlace": null
 }
