@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T02:13:09.220Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-21T02:23:29.189Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "tend plants at the thicket",
-  "busyUntil": "2026-11-21T02:17:37.760Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-21T03:23:29.189Z",
   "needs": {
-    "fullness": 77,
-    "water": 70,
-    "energy": 18,
-    "curiosity": 4,
-    "joy": 57,
+    "fullness": 71,
+    "water": 69,
+    "energy": 47,
+    "curiosity": 3,
+    "joy": 56,
     "calm": 100
   },
   "health": 100,
-  "mood": "grateful and sleepy",
+  "mood": "sleepy and grateful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -627,7 +627,7 @@
       }
     }
   ],
-  "plan": "Tend plants, then nap in the hut, then drink, then experiment with wind shells.",
+  "plan": "Nap in the hut, then drink, then experiment with wind shells.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -692,7 +692,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 18
@@ -702,7 +702,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 3,
-      "shells": 8
+      "shells": 9
     },
     "discovered": [
       "clay",
@@ -1163,7 +1163,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1219,7 +1219,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.28,
+        "left": 0.35,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1297,7 +1297,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.21,
+        "left": 2.28,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1467,7 +1467,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.06,
+        "left": 0.08,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1477,7 +1477,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1487,7 +1487,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 0.21,
+        "left": 0.28,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1579,18 +1579,16 @@
       "glade"
     ]
   },
-  "ticks": 485,
+  "ticks": 486,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [
-    "You looked after 29 plants around the thicket. They'll grow for about a day."
-  ],
-  "thought": "A crab left a shiny shell by me, and I am calling it a gift. My belly is fine at 80, but my energy is low at 29 and my curiosity is nearly empty. I promised myself I would tend my seedlings, and they are right here at the thicket. Tending is calming and cheap, and it keeps the little bushes alive. Then I can nap.",
-  "face": "happy",
-  "lastThought": "2026-11-21T01:42:37.760Z",
+  "lastOutcome": [],
+  "thought": "My energy is a thin puddle at 17, and the Cosy Hut is waiting. The pigeon just stole a berry, but I have none kept anyway. The crab left another shiny shell, which I will call a gift. Sleep now, then think about wonders later.",
+  "face": "sleepy",
+  "lastThought": "2026-11-21T02:23:29.189Z",
   "foundPlace": null
 }
