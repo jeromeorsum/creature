@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T03:14:38.885Z",
+  "lastUpdate": "2026-11-21T03:24:46.966Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-21T03:23:29.189Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-21T04:04:46.966Z",
   "needs": {
-    "fullness": 66,
-    "water": 64,
-    "energy": 42,
-    "curiosity": 0,
-    "joy": 51,
-    "calm": 100
+    "fullness": 65,
+    "water": 63,
+    "energy": 33,
+    "curiosity": 15,
+    "joy": 58,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy and grateful",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -627,7 +627,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then drink, then experiment with wind shells.",
+  "plan": "Experiment with wind shells, then nap in the hut, then drink.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -688,6 +688,10 @@
     {
       "text": "{\"what\":\"A lump of clay pressed under a floating shell works like a keel and keeps it from spinning in the wind, so the sail steers it straighter.\"}",
       "made": "2026-11-19T22:26:27.098Z"
+    },
+    {
+      "text": "{\"what\":\"Shells hung at different heights from a root on fibre clack in a different pattern in the wind than shells hung together, so the wind plays a rhythm that changes with how I hang them.\"}",
+      "made": "2026-11-21T03:24:46.966Z"
     }
   ],
   "world": {
@@ -1163,7 +1167,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.91,
+        "left": 0.98,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1219,7 +1223,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1297,7 +1301,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.63,
+        "left": 2.7,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1467,7 +1471,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 0.18,
+        "left": 0.2,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1477,7 +1481,7 @@
         "res": "berries",
         "x": 21.7,
         "z": -5.5,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1487,7 +1491,7 @@
         "res": "berries",
         "x": 12.1,
         "z": 3.7,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1579,16 +1583,16 @@
       "glade"
     ]
   },
-  "ticks": 486,
+  "ticks": 487,
   "spend": {
     "day": "2026-11-20",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "My energy is a thin puddle at 17, and the Cosy Hut is waiting. The pigeon just stole a berry, but I have none kept anyway. The crab left another shiny shell, which I will call a gift. Sleep now, then think about wonders later.",
-  "face": "sleepy",
-  "lastThought": "2026-11-21T02:23:29.189Z",
+  "thought": "My curiosity is zero and my energy is middling. The whole island is explored, so I will make my own wonder. The wind is strong tonight, and I have nine shells and three fibre. I will experiment with hanging shells at the nest so the wind plays a tune. Then I can nap in the hut.",
+  "face": "curious",
+  "lastThought": "2026-11-21T03:24:46.966Z",
   "foundPlace": null
 }
