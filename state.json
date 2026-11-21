@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-21T22:28:31.623Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-21T22:38:40.737Z",
+  "place": "nest",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-21T22:33:10.242Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-21T23:23:40.737Z",
   "needs": {
-    "fullness": 81,
-    "water": 52,
-    "energy": 51,
-    "curiosity": 21,
-    "joy": 61,
-    "calm": 91
+    "fullness": 75,
+    "water": 51,
+    "energy": 36,
+    "curiosity": 25,
+    "joy": 82,
+    "calm": 90
   },
   "health": 100,
   "mood": "hungry and scheming",
@@ -714,7 +714,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 3,
+      "fibre": 0,
       "shells": 10
     },
     "discovered": [
@@ -1176,7 +1176,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.4,
+        "left": 0.47,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1232,7 +1232,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.84,
+        "left": 0.91,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1480,7 +1480,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.44,
+        "left": 2.46,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1599,11 +1599,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-21T22:38:40.737Z"
       }
     ],
     "known": [
@@ -1622,7 +1622,7 @@
       "glade"
     ]
   },
-  "ticks": 505,
+  "ticks": 506,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
@@ -1630,7 +1630,7 @@
     "ticks": 8
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
   ],
   "thought": "My pocket has no berries and my belly is middling, and I'm at the thicket where berries are. The pigeon is around. I'll forage now and eat some right away. The hut cone can wait until I have fibre, since I only have 3 and it needs 3 anyway.",
   "face": "determined",
