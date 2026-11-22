@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T22:38:12.535Z",
+  "lastUpdate": "2026-11-22T22:48:23.201Z",
   "place": "grotto",
   "spot": {
     "x": 8,
     "z": -22
   },
-  "doing": "pottering about at the grotto",
-  "busyUntil": null,
+  "doing": "experiment at the grotto",
+  "busyUntil": "2026-11-22T23:28:23.201Z",
   "needs": {
-    "fullness": 69,
-    "water": 56,
-    "energy": 46,
-    "curiosity": 22,
-    "joy": 91,
-    "calm": 100
+    "fullness": 68,
+    "water": 55,
+    "energy": 37,
+    "curiosity": 36,
+    "joy": 98,
+    "calm": 98
   },
   "health": 100,
-  "mood": "hopeful and curious",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -180,7 +180,8 @@
       1,
       2,
       4,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -654,7 +655,7 @@
       }
     }
   ],
-  "plan": "Explore the grotto, drink at the pond, eat dinner, wind down",
+  "plan": "Experiment at the grotto, drink at the pond, eat dinner, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -727,6 +728,10 @@
     {
       "text": "{\"what\":\"A berry set on a shell as bait draws the pigeon close, so I can watch what it does when it thinks nobody is looking.\"}",
       "made": "2026-11-21T21:16:59.519Z"
+    },
+    {
+      "text": "{\"what\":\"Shells laid in a spiral under the grotto arch make the clacker's echo swirl around, and the glowing mushrooms seem to brighten toward the middle of the spiral.\"}",
+      "made": "2026-11-22T22:48:23.201Z"
     }
   ],
   "world": {
@@ -1084,7 +1089,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1092,7 +1097,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1100,7 +1105,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1108,7 +1113,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.75,
+        "left": 0.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1121,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 1.75,
+        "left": 1.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1536,7 +1541,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1546,7 +1551,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1556,7 +1561,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1678,16 +1683,16 @@
       "glade"
     ]
   },
-  "ticks": 532,
+  "ticks": 533,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a bone-dry 9, and my belly is fine, so it is time for the wonder hunt I keep promising. I have explored everywhere, but the grotto with its glowing mushrooms is close and always shimmers. I will go look closely at it and hope something new shows up. I want to be a Glorp who actually finds a wonder tonight.",
+  "thought": "I'm at the grotto with the mushrooms glowing. Curiosity is only 21, so an experiment here with the clacker and mushrooms feels right. Water is 55, so I'll drink after. I want to try something new: line up shells in a pattern under the arch and see if the mushrooms respond.",
   "face": "curious",
-  "lastThought": "2026-11-22T21:47:20.953Z",
+  "lastThought": "2026-11-22T22:48:23.201Z",
   "foundPlace": null
 }
