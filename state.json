@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T05:06:45.159Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-22T05:17:00.322Z",
+  "place": "nest",
   "spot": {
-    "x": 4,
-    "z": 23
+    "x": -8,
+    "z": 6
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-22T05:11:19.843Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-22T06:02:00.322Z",
   "needs": {
-    "fullness": 46,
-    "water": 63,
-    "energy": 12,
-    "curiosity": 25,
-    "joy": 77,
+    "fullness": 40,
+    "water": 62,
+    "energy": 0,
+    "curiosity": 29,
+    "joy": 98,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "sleepy but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -630,7 +630,7 @@
       }
     }
   ],
-  "plan": "Explore tidepools, pull reeds for fibre, fix hut cone, tend seedlings",
+  "plan": "Finish hut cone, nap, then eat, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -716,7 +716,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 4,
+      "fibre": 1,
       "shells": 10
     },
     "discovered": [
@@ -1601,11 +1601,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-22T05:17:00.322Z"
       }
     ],
     "known": [
@@ -1624,18 +1624,18 @@
       "glade"
     ]
   },
-  "ticks": 515,
+  "ticks": 516,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [
-    "You collected 3 fibre."
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
   ],
-  "thought": "I am at the tidepools with ten shells and a bone-dry curiosity. The moonlight is on the water and the crabs are around. Shells with something on them are right here, so I will look closely at them and try to read the scratches. Maybe this helps my wish about the crabs. Then fibre for the hut.",
-  "face": "curious",
-  "lastThought": "2026-11-22T04:05:26.729Z",
+  "thought": "My energy is very low at 11 and I have 4 fibre, enough to finish the hut roof. The hut is where I sleep, so I should go build the last bit, then nap inside. Water is fine, belly middling with 2 berries. Finish the roof, then sleep.",
+  "face": "determined",
+  "lastThought": "2026-11-22T05:17:00.322Z",
   "foundPlace": null
 }
