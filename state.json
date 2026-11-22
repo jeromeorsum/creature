@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T04:56:43.350Z",
+  "lastUpdate": "2026-11-22T05:06:45.159Z",
   "place": "pond",
   "spot": {
     "x": 4,
@@ -10,11 +10,11 @@
   "doing": "pull reeds at the pond",
   "busyUntil": "2026-11-22T05:11:19.843Z",
   "needs": {
-    "fullness": 47,
-    "water": 64,
-    "energy": 13,
-    "curiosity": 26,
-    "joy": 78,
+    "fullness": 46,
+    "water": 63,
+    "energy": 12,
+    "curiosity": 25,
+    "joy": 77,
     "calm": 100
   },
   "health": 100,
