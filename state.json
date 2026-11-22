@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T23:39:21.540Z",
-  "place": "grotto",
+  "lastUpdate": "2026-11-22T23:49:32.050Z",
+  "place": "pond",
   "spot": {
-    "x": 8,
-    "z": -22
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the grotto",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-22T23:59:32.050Z",
   "needs": {
-    "fullness": 63,
-    "water": 50,
-    "energy": 32,
-    "curiosity": 31,
-    "joy": 93,
-    "calm": 98
+    "fullness": 62,
+    "water": 99,
+    "energy": 31,
+    "curiosity": 30,
+    "joy": 92,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -655,7 +655,7 @@
       }
     }
   ],
-  "plan": "Experiment at the grotto, drink at the pond, eat dinner, wind down",
+  "plan": "Drink at the pond, forage berries, eat dinner, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1089,7 +1089,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.05,
+        "left": 1.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1097,7 +1097,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.05,
+        "left": 1.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1105,7 +1105,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.05,
+        "left": 1.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1113,7 +1113,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.05,
+        "left": 1.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1121,7 +1121,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1541,7 +1541,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1551,7 +1551,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1561,7 +1561,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1683,16 +1683,16 @@
       "glade"
     ]
   },
-  "ticks": 533,
+  "ticks": 534,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "I'm at the grotto with the mushrooms glowing. Curiosity is only 21, so an experiment here with the clacker and mushrooms feels right. Water is 55, so I'll drink after. I want to try something new: line up shells in a pattern under the arch and see if the mushrooms respond.",
+  "thought": "My water is at 49 and my belly is middling, so I should go drink at the pond before anything else. The grotto spiral was nice, but my curiosity is still lowish. Drinking first, then berries, then a wonder.",
   "face": "curious",
-  "lastThought": "2026-11-22T22:48:23.201Z",
+  "lastThought": "2026-11-22T23:49:32.050Z",
   "foundPlace": null
 }
