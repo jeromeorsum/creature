@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T07:09:11.940Z",
+  "lastUpdate": "2026-11-22T07:19:24.582Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-22T07:18:17.714Z",
+  "busyUntil": "2026-11-22T08:19:24.582Z",
   "needs": {
-    "fullness": 52,
-    "water": 51,
-    "energy": 25,
-    "curiosity": 18,
-    "joy": 92,
+    "fullness": 46,
+    "water": 50,
+    "energy": 54,
+    "curiosity": 17,
+    "joy": 91,
     "calm": 100
   },
   "health": 100,
@@ -630,7 +630,7 @@
       }
     }
   ],
-  "plan": "Nap, then tend seedlings, forage berries, find a wonder",
+  "plan": "Nap, then forage berries, tend seedlings, find a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1624,16 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 518,
+  "ticks": 519,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "Energy is zero and it is dawn, which is my bedtime since I am nocturnal. The Cosy Hut is finished and 6m away. I should nap there right now. Berries and seedlings can wait until I wake at dusk.",
+  "thought": "It's dawn, my bedtime really, but energy is 24 and curiosity is 17. I'm hungry-ish (51) with no kept berries. Best is to nap in the Cosy Hut first since I'm nocturnal and the sun is up. Sleep fixes energy, then I can forage and find a wonder tonight.",
   "face": "sleepy",
-  "lastThought": "2026-11-22T06:18:17.714Z",
+  "lastThought": "2026-11-22T07:19:24.582Z",
   "foundPlace": null
 }
