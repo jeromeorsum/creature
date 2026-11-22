@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T04:36:18.103Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-22T04:46:19.843Z",
+  "place": "pond",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": 4,
+    "z": 23
   },
-  "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-22T04:45:26.729Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-22T05:11:19.843Z",
   "needs": {
-    "fullness": 49,
-    "water": 66,
-    "energy": 21,
-    "curiosity": 28,
-    "joy": 80,
-    "calm": 98
+    "fullness": 48,
+    "water": 65,
+    "energy": 14,
+    "curiosity": 27,
+    "joy": 79,
+    "calm": 100
   },
   "health": 100,
   "mood": "curious and hopeful",
@@ -716,7 +716,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 1,
+      "fibre": 4,
       "shells": 10
     },
     "discovered": [
@@ -1076,7 +1076,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1092,7 +1092,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 3,
+        "left": 1,
         "tendedUntil": "2026-11-18T23:48:56.719Z"
       },
       {
@@ -1624,14 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 514,
+  "ticks": 515,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 16
   },
-  "lastOutcome": [],
+  "lastOutcome": [
+    "You collected 3 fibre."
+  ],
   "thought": "I am at the tidepools with ten shells and a bone-dry curiosity. The moonlight is on the water and the crabs are around. Shells with something on them are right here, so I will look closely at them and try to read the scratches. Maybe this helps my wish about the crabs. Then fibre for the hut.",
   "face": "curious",
   "lastThought": "2026-11-22T04:05:26.729Z",
