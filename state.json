@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T09:01:24.959Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-22T09:11:33.433Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -4,
+    "z": 21
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-22T09:06:11.776Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-22T09:21:33.433Z",
   "needs": {
-    "fullness": 60,
-    "water": 40,
-    "energy": 40,
-    "curiosity": 22,
-    "joy": 89,
-    "calm": 95
+    "fullness": 59,
+    "water": 89,
+    "energy": 39,
+    "curiosity": 21,
+    "joy": 88,
+    "calm": 98
   },
   "health": 100,
   "mood": "nosy and sleepy",
@@ -1624,7 +1624,7 @@
       "glade"
     ]
   },
-  "ticks": 521,
+  "ticks": 522,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
