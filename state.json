@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T21:37:12.960Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-22T21:47:20.953Z",
+  "place": "grotto",
   "spot": {
-    "x": 10.9,
-    "z": -3.1
+    "x": 8,
+    "z": -22
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-22T21:41:49.532Z",
+  "doing": "explore at the grotto",
+  "busyUntil": "2026-11-22T22:17:20.953Z",
   "needs": {
-    "fullness": 75,
-    "water": 62,
-    "energy": 60,
-    "curiosity": 10,
-    "joy": 97,
+    "fullness": 74,
+    "water": 61,
+    "energy": 51,
+    "curiosity": 27,
+    "joy": 96,
     "calm": 100
   },
   "health": 100,
-  "mood": "determined and hungry",
+  "mood": "hopeful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -179,7 +179,8 @@
     "done": [
       1,
       2,
-      4
+      4,
+      3
     ]
   },
   "lessons": [
@@ -653,7 +654,7 @@
       }
     }
   ],
-  "plan": "Plant berry seeds, forage berries, drink, hunt for one wonder",
+  "plan": "Explore the grotto, drink at the pond, eat dinner, wind down",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1083,7 +1084,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.45,
+        "left": 0.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1091,7 +1092,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 0.45,
+        "left": 0.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1099,7 +1100,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 0.45,
+        "left": 0.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1107,7 +1108,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.45,
+        "left": 0.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1115,7 +1116,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 1.45,
+        "left": 1.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1535,7 +1536,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1545,7 +1546,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1555,7 +1556,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 0.63,
+        "left": 0.7,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1677,19 +1678,16 @@
       "glade"
     ]
   },
-  "ticks": 531,
+  "ticks": 532,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "My belly is only middling and I have no kept berries. Curiosity is almost dry, so exploring would help. But food first: the thicket has berries. I'll forage, then go hunting for a wonder. The pigeon will be watching, so I'll eat quickly.",
-  "face": "determined",
-  "lastThought": "2026-11-22T21:16:49.532Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a bone-dry 9, and my belly is fine, so it is time for the wonder hunt I keep promising. I have explored everywhere, but the grotto with its glowing mushrooms is close and always shimmers. I will go look closely at it and hope something new shows up. I want to be a Glorp who actually finds a wonder tonight.",
+  "face": "curious",
+  "lastThought": "2026-11-22T21:47:20.953Z",
   "foundPlace": null
 }
