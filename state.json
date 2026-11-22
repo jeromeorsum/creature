@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T01:52:50.568Z",
+  "lastUpdate": "2026-11-22T02:03:04.761Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-22T02:01:44.423Z",
+  "busyUntil": "2026-11-22T03:03:04.761Z",
   "needs": {
-    "fullness": 46,
-    "water": 82,
-    "energy": 27,
-    "curiosity": 11,
-    "joy": 85,
+    "fullness": 40,
+    "water": 81,
+    "energy": 56,
+    "curiosity": 10,
+    "joy": 84,
     "calm": 100
   },
   "health": 100,
-  "mood": "proud and sleepy",
+  "mood": "sleepy and proud",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -629,7 +629,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then eat, tend seedlings, and find a wonder",
+  "plan": "Nap, eat, tend seedlings, find a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1623,16 +1623,16 @@
       "glade"
     ]
   },
-  "ticks": 510,
+  "ticks": 511,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "My energy is almost nothing, two out of a hundred. The Cosy Hut is finished at last, so I should go in and sleep. Curiosity can wait until tomorrow night. I'll eat later, since my belly is okay for now.",
+  "thought": "My energy is low at 26 and curiosity is empty, but my hut is finished and right here. A nap will fix energy first. Then I can go hunt for a wonder with a rested head. Belly is middling, one berry in the pocket, so I will eat after waking.",
   "face": "sleepy",
-  "lastThought": "2026-11-22T01:01:44.423Z",
+  "lastThought": "2026-11-22T02:03:04.761Z",
   "foundPlace": null
 }
