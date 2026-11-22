@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T19:34:37.995Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-22T19:44:45.696Z",
+  "place": "pond",
   "spot": {
-    "x": 18.4,
-    "z": -1.8
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-22T19:39:04.504Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-22T19:54:45.696Z",
   "needs": {
-    "fullness": 35,
-    "water": 28,
-    "energy": 92,
-    "curiosity": 22,
-    "joy": 89,
+    "fullness": 34,
+    "water": 77,
+    "energy": 91,
+    "curiosity": 21,
+    "joy": 88,
     "calm": 100
   },
   "health": 91,
@@ -1645,17 +1645,14 @@
       "glade"
     ]
   },
-  "ticks": 526,
+  "ticks": 527,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 2
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
+  "lastOutcome": [],
   "thought": "My belly is an empty cave at 13 and water is 30. Food first. The thicket has berries, so I go forage, eating some on the spot and keeping the rest in the pot. Then drink, then the seedlings. I'll watch for the pigeon.",
   "face": "determined",
   "lastThought": "2026-11-22T19:14:04.504Z",
