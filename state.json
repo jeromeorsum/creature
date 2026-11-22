@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T03:24:44.338Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-22T03:34:50.828Z",
+  "place": "tidepools",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 18,
+    "z": 34
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-22T03:29:14.627Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-22T04:04:50.828Z",
   "needs": {
-    "fullness": 56,
-    "water": 73,
-    "energy": 44,
-    "curiosity": 2,
-    "joy": 79,
+    "fullness": 55,
+    "water": 72,
+    "energy": 35,
+    "curiosity": 19,
+    "joy": 78,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "restless and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -177,7 +177,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -629,7 +630,7 @@
       }
     }
   ],
-  "plan": "Eat berries, pull reeds for fibre, fix hut cone, tend seedlings",
+  "plan": "Explore tidepools, pull reeds for fibre, fix hut cone, tend seedlings",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1623,19 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 512,
+  "ticks": 513,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is at 34 and I only have one berry. The hut needs fibre, but eating comes first. I'll go to the thicket and forage berries, eating a handful before the pigeon notices. Then I'll pull reeds for the hut's fibre.",
-  "face": "determined",
-  "lastThought": "2026-11-22T03:04:14.627Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry shell, at 1. The pigeon is nearby at the thicket. Belly is middling, so I should eat a bit, but a real wonder is what I need. I will explore somewhere I have not looked closely, the tidepools, at night with fireflies. That should fill curiosity. Then reeds for fibre.",
+  "face": "curious",
+  "lastThought": "2026-11-22T03:34:50.828Z",
   "foundPlace": null
 }
