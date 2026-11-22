@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T03:55:19.609Z",
+  "lastUpdate": "2026-11-22T04:05:26.729Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-22T04:04:50.828Z",
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-22T04:45:26.729Z",
   "needs": {
-    "fullness": 53,
-    "water": 70,
-    "energy": 33,
-    "curiosity": 17,
-    "joy": 76,
-    "calm": 100
+    "fullness": 52,
+    "water": 69,
+    "energy": 24,
+    "curiosity": 31,
+    "joy": 83,
+    "calm": 98
   },
   "health": 100,
-  "mood": "restless and hopeful",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1624,16 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 513,
+  "ticks": 514,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry shell, at 1. The pigeon is nearby at the thicket. Belly is middling, so I should eat a bit, but a real wonder is what I need. I will explore somewhere I have not looked closely, the tidepools, at night with fireflies. That should fill curiosity. Then reeds for fibre.",
+  "thought": "I am at the tidepools with ten shells and a bone-dry curiosity. The moonlight is on the water and the crabs are around. Shells with something on them are right here, so I will look closely at them and try to read the scratches. Maybe this helps my wish about the crabs. Then fibre for the hut.",
   "face": "curious",
-  "lastThought": "2026-11-22T03:34:50.828Z",
+  "lastThought": "2026-11-22T04:05:26.729Z",
   "foundPlace": null
 }
