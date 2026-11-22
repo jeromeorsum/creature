@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T08:40:55.450Z",
+  "lastUpdate": "2026-11-22T08:51:11.776Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-22T08:45:28.154Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-22T09:06:11.776Z",
   "needs": {
-    "fullness": 62,
-    "water": 42,
-    "energy": 42,
-    "curiosity": 9,
-    "joy": 86,
-    "calm": 100
+    "fullness": 61,
+    "water": 41,
+    "energy": 41,
+    "curiosity": 23,
+    "joy": 90,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "nosy and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -630,7 +630,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink, tend seedlings, then sleep in the hut",
+  "plan": "Spy on pigeon, drink, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1624,19 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 520,
+  "ticks": 521,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is at 40 and water 44, and I have no berries kept. Curiosity is almost empty. It is morning, which is bedtime for a night bird, but I just napped. A short trip to the thicket for berries comes first, then I can hunt for a wonder. Food before wonders.",
-  "face": "determined",
-  "lastThought": "2026-11-22T08:20:28.154Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry shell, and the pigeon is right here at the thicket. Spying on it costs little and gives a big curiosity boost. I'm nocturnal and it's morning, so bedtime is near. A quick spy, then home to sleep.",
+  "face": "suspicious",
+  "lastThought": "2026-11-22T08:51:11.776Z",
   "foundPlace": null
 }
