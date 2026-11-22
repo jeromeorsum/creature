@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T21:06:37.701Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-22T21:16:49.532Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "plant seeds at the pond",
-  "busyUntil": "2026-11-22T21:16:07.065Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-22T21:41:49.532Z",
   "needs": {
-    "fullness": 54,
-    "water": 65,
-    "energy": 67,
-    "curiosity": 13,
-    "joy": 97,
+    "fullness": 77,
+    "water": 64,
+    "energy": 62,
+    "curiosity": 12,
+    "joy": 99,
     "calm": 100
   },
-  "health": 98,
-  "mood": "determined and curious",
+  "health": 99,
+  "mood": "determined and hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      4
     ]
   },
   "lessons": [
@@ -732,7 +733,7 @@
     "food": 0,
     "seeds": {
       "tree": 0,
-      "berry": 17
+      "berry": 18
     },
     "inventory": {
       "wood": 2,
@@ -1082,7 +1083,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 0.3,
+        "left": 0.35,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1090,7 +1091,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 0.3,
+        "left": 0.35,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1098,7 +1099,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 0.3,
+        "left": 0.35,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1106,7 +1107,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.3,
+        "left": 0.35,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1114,7 +1115,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 1.3,
+        "left": 1.35,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1216,7 +1217,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4,
+        "left": 3,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1224,7 +1225,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1534,7 +1535,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1544,7 +1545,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1554,7 +1555,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 0.42,
+        "left": 0.49,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1676,18 +1677,19 @@
       "glade"
     ]
   },
-  "ticks": 530,
+  "ticks": 531,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the pond. Seedlings need tending to grow."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My curiosity is nearly empty and my belly is middling with no kept berries. The seedlings are tended, so next is plant berry seeds, since I have 20 of them. That also gives calm and joy. Then forage. Maybe planting near the pond is a nice small wonder in itself.",
+  "thought": "My belly is only middling and I have no kept berries. Curiosity is almost dry, so exploring would help. But food first: the thicket has berries. I'll forage, then go hunting for a wonder. The pigeon will be watching, so I'll eat quickly.",
   "face": "determined",
-  "lastThought": "2026-11-22T20:46:07.065Z",
+  "lastThought": "2026-11-22T21:16:49.532Z",
   "foundPlace": null
 }
