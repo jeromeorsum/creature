@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T10:02:38.986Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-22T10:12:59.042Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "experiment at the pond",
-  "busyUntil": "2026-11-22T10:12:08.467Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-22T11:12:59.042Z",
   "needs": {
-    "fullness": 54,
-    "water": 84,
-    "energy": 26,
-    "curiosity": 31,
-    "joy": 91,
-    "calm": 96
+    "fullness": 48,
+    "water": 83,
+    "energy": 55,
+    "curiosity": 30,
+    "joy": 90,
+    "calm": 100
   },
   "health": 100,
-  "mood": "nosy and sleepy",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,8 @@
       1,
       2,
       3,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -628,9 +629,31 @@
           6
         ]
       }
+    },
+    {
+      "date": "2026-11-21",
+      "summary": "Today I foraged, drank, spied on the pigeon, fixed the hut roof and poked at clay on the pond. My belly stayed middling and I never tended the seedlings, which bothers me. I feel calm, joyful and very sleepy. Tomorrow night I want to tend the seedlings, fill the pot and find one real wonder.",
+      "plan": {
+        "date": "2026-11-21",
+        "plan": [
+          "Spy on the pigeon",
+          "Forage berries and fill pot",
+          "Drink at the pond",
+          "Tend seedlings",
+          "Look for a wonder",
+          "Wind down before bed"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      }
     }
   ],
-  "plan": "Experiment at the pond, then sleep in the hut",
+  "plan": "Sleep in the hut, then tend seedlings and forage at dusk",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1624,16 +1647,16 @@
       "glade"
     ]
   },
-  "ticks": 523,
+  "ticks": 524,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
   "lastOutcome": [],
-  "thought": "Sun is up and I'm a night bird, so bedtime is close. My curiosity is dry, though. A splash in the pond would be fun and would tire me gently. Better still, I could try one small experiment here with clay and shells, since the pond is right in front of me. I'll do an experiment, then go to bed.",
-  "face": "curious",
-  "lastThought": "2026-11-22T09:32:08.467Z",
+  "thought": "It is nearly my bedtime and the sun is high. My energy is low at 25, and my belly is middling. I have one berry. I should eat it and then go sleep in the Cosy Hut. The seedlings can wait until I wake at dusk. Napping is the sensible thing.",
+  "face": "sleepy",
+  "lastThought": "2026-11-22T10:12:59.042Z",
   "foundPlace": null
 }
