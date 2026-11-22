@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T05:57:59.912Z",
+  "lastUpdate": "2026-11-22T06:08:05.734Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-22T06:02:00.322Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-22T06:18:05.734Z",
   "needs": {
-    "fullness": 36,
-    "water": 58,
+    "fullness": 63,
+    "water": 57,
     "energy": 0,
-    "curiosity": 25,
-    "joy": 95,
+    "curiosity": 24,
+    "joy": 98,
     "calm": 99
   },
   "health": 100,
@@ -707,7 +707,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1624,7 +1624,7 @@
       "glade"
     ]
   },
-  "ticks": 516,
+  "ticks": 517,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
@@ -1632,7 +1632,7 @@
     "ticks": 17
   },
   "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+    "You ate 2 berries from your food."
   ],
   "thought": "My energy is very low at 11 and I have 4 fibre, enough to finish the hut roof. The hut is where I sleep, so I should go build the last bit, then nap inside. Water is fine, belly middling with 2 berries. Finish the roof, then sleep.",
   "face": "determined",
