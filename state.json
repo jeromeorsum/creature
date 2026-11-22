@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T09:21:56.675Z",
+  "lastUpdate": "2026-11-22T09:32:08.467Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-22T10:12:08.467Z",
   "needs": {
-    "fullness": 58,
-    "water": 88,
-    "energy": 38,
-    "curiosity": 20,
-    "joy": 87,
-    "calm": 98
+    "fullness": 57,
+    "water": 87,
+    "energy": 29,
+    "curiosity": 34,
+    "joy": 94,
+    "calm": 96
   },
   "health": 100,
   "mood": "nosy and sleepy",
@@ -630,7 +630,7 @@
       }
     }
   ],
-  "plan": "Spy on pigeon, drink, then sleep in the hut",
+  "plan": "Experiment at the pond, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1624,16 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 522,
+  "ticks": 523,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry shell, and the pigeon is right here at the thicket. Spying on it costs little and gives a big curiosity boost. I'm nocturnal and it's morning, so bedtime is near. A quick spy, then home to sleep.",
-  "face": "suspicious",
-  "lastThought": "2026-11-22T08:51:11.776Z",
+  "thought": "Sun is up and I'm a night bird, so bedtime is close. My curiosity is dry, though. A splash in the pond would be fun and would tire me gently. Better still, I could try one small experiment here with clay and shells, since the pond is right in front of me. I'll do an experiment, then go to bed.",
+  "face": "curious",
+  "lastThought": "2026-11-22T09:32:08.467Z",
   "foundPlace": null
 }
