@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T06:08:05.734Z",
+  "lastUpdate": "2026-11-22T06:18:17.714Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-22T06:18:05.734Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-22T07:18:17.714Z",
   "needs": {
-    "fullness": 63,
-    "water": 57,
-    "energy": 0,
-    "curiosity": 24,
-    "joy": 98,
-    "calm": 99
+    "fullness": 57,
+    "water": 56,
+    "energy": 30,
+    "curiosity": 23,
+    "joy": 97,
+    "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -630,7 +630,7 @@
       }
     }
   ],
-  "plan": "Finish hut cone, nap, then eat, tend seedlings",
+  "plan": "Nap, then tend seedlings, forage berries, find a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -706,7 +706,7 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
+    "weather": "sunny",
     "food": 0,
     "seeds": {
       "tree": 0,
@@ -1624,18 +1624,16 @@
       "glade"
     ]
   },
-  "ticks": 517,
+  "ticks": 518,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My energy is very low at 11 and I have 4 fibre, enough to finish the hut roof. The hut is where I sleep, so I should go build the last bit, then nap inside. Water is fine, belly middling with 2 berries. Finish the roof, then sleep.",
-  "face": "determined",
-  "lastThought": "2026-11-22T05:17:00.322Z",
+  "lastOutcome": [],
+  "thought": "Energy is zero and it is dawn, which is my bedtime since I am nocturnal. The Cosy Hut is finished and 6m away. I should nap there right now. Berries and seedlings can wait until I wake at dusk.",
+  "face": "sleepy",
+  "lastThought": "2026-11-22T06:18:17.714Z",
   "foundPlace": null
 }
