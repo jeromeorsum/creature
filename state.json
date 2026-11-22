@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T19:03:53.139Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-22T19:14:04.504Z",
+  "place": "thicket",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": 18.4,
+    "z": -1.8
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-22T19:13:53.139Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-22T19:39:04.504Z",
   "needs": {
-    "fullness": 14,
-    "water": 31,
-    "energy": 99,
-    "curiosity": 25,
-    "joy": 89,
+    "fullness": 37,
+    "water": 30,
+    "energy": 94,
+    "curiosity": 24,
+    "joy": 91,
     "calm": 100
   },
   "health": 91,
-  "mood": "hungry but hopeful",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -176,7 +176,9 @@
       "Eat a proper dinner",
       "Wind down before bed at dawn"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -649,7 +651,7 @@
       }
     }
   ],
-  "plan": "Eat, forage berries, drink, tend seedlings, then look for one wonder",
+  "plan": "Forage berries, drink, tend seedlings, plant berry seeds, look for one wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -726,7 +728,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1221,7 +1223,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1331,7 +1333,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1643,18 +1645,19 @@
       "glade"
     ]
   },
-  "ticks": 525,
+  "ticks": 526,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "I woke up with fullness at zero and water at 31. Food first. I have 1 berry, so I'll eat it now, then go to the thicket for more and drink at the pond. The seedlings need tending too. Hunger comes before wonders.",
-  "face": "worried",
-  "lastThought": "2026-11-22T19:03:53.139Z",
+  "thought": "My belly is an empty cave at 13 and water is 30. Food first. The thicket has berries, so I go forage, eating some on the spot and keeping the rest in the pot. Then drink, then the seedlings. I'll watch for the pigeon.",
+  "face": "determined",
+  "lastThought": "2026-11-22T19:14:04.504Z",
   "foundPlace": null
 }
