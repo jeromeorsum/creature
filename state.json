@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T10:12:59.042Z",
+  "lastUpdate": "2026-11-22T10:23:08.492Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,11 +10,11 @@
   "doing": "nap at the nest",
   "busyUntil": "2026-11-22T11:12:59.042Z",
   "needs": {
-    "fullness": 48,
-    "water": 83,
-    "energy": 55,
-    "curiosity": 30,
-    "joy": 90,
+    "fullness": 47,
+    "water": 82,
+    "energy": 54,
+    "curiosity": 29,
+    "joy": 89,
     "calm": 100
   },
   "health": 100,
