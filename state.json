@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T00:51:28.771Z",
+  "lastUpdate": "2026-11-22T01:01:44.423Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-22T00:55:34.836Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-22T02:01:44.423Z",
   "needs": {
-    "fullness": 57,
-    "water": 88,
-    "energy": 3,
-    "curiosity": 17,
-    "joy": 91,
-    "calm": 98
+    "fullness": 51,
+    "water": 87,
+    "energy": 32,
+    "curiosity": 16,
+    "joy": 90,
+    "calm": 100
   },
   "health": 100,
-  "mood": "determined",
+  "mood": "proud and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -629,7 +629,7 @@
       }
     }
   ],
-  "plan": "Finish the hut cone, tend seedlings, then rest",
+  "plan": "Sleep in the hut, then eat, tend seedlings, and find a wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1177,7 +1177,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.38,
+        "left": 1.45,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1233,7 +1233,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1481,7 +1481,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.72,
+        "left": 2.74,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1623,18 +1623,16 @@
       "glade"
     ]
   },
-  "ticks": 509,
+  "ticks": 510,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "My fibre count is four and the hut needs three, so I can finish it now. Energy is low, but a finished dry home means a good sleep. I will walk to the hut and tie the last cone down firmly.",
-  "face": "determined",
-  "lastThought": "2026-11-22T00:10:34.836Z",
+  "lastOutcome": [],
+  "thought": "My energy is almost nothing, two out of a hundred. The Cosy Hut is finished at last, so I should go in and sleep. Curiosity can wait until tomorrow night. I'll eat later, since my belly is okay for now.",
+  "face": "sleepy",
+  "lastThought": "2026-11-22T01:01:44.423Z",
   "foundPlace": null
 }
