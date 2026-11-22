@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T00:00:26.899Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-22T00:10:34.836Z",
+  "place": "nest",
   "spot": {
-    "x": -5.6,
-    "z": 26.7
+    "x": -8,
+    "z": 6
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-22T00:05:02.397Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-22T00:55:34.836Z",
   "needs": {
-    "fullness": 67,
-    "water": 93,
-    "energy": 22,
-    "curiosity": 17,
-    "joy": 74,
+    "fullness": 61,
+    "water": 92,
+    "energy": 7,
+    "curiosity": 21,
+    "joy": 95,
     "calm": 98
   },
   "health": 100,
@@ -629,7 +629,7 @@
       }
     }
   ],
-  "plan": "Pull reeds, finish hut cone, tend seedlings",
+  "plan": "Finish the hut cone, tend seedlings, then rest",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -715,7 +715,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 4,
+      "fibre": 1,
       "shells": 10
     },
     "discovered": [
@@ -1177,7 +1177,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.03,
+        "left": 1.1,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1233,7 +1233,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.47,
+        "left": 1.54,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1481,7 +1481,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.62,
+        "left": 2.64,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1600,11 +1600,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-22T00:10:34.836Z"
       }
     ],
     "known": [
@@ -1623,18 +1623,18 @@
       "glade"
     ]
   },
-  "ticks": 508,
+  "ticks": 509,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [
-    "You collected 4 fibre."
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
   ],
-  "thought": "Water is fine, so now I need fibre for the hut cone. I'm at the pond with reeds, so I'll pull plenty, more than three this time. Energy is a bit low at 30, but the hut will let me sleep better. Curiosity is thin, but a finished hut is a start.",
+  "thought": "My fibre count is four and the hut needs three, so I can finish it now. Energy is low, but a finished dry home means a good sleep. I will walk to the hut and tie the last cone down firmly.",
   "face": "determined",
-  "lastThought": "2026-11-21T23:40:02.397Z",
+  "lastThought": "2026-11-22T00:10:34.836Z",
   "foundPlace": null
 }
