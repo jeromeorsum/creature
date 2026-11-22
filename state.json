@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T08:10:17.124Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-22T08:20:28.154Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 16.6,
+    "z": -6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-22T08:19:24.582Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-22T08:45:28.154Z",
   "needs": {
-    "fullness": 41,
-    "water": 45,
-    "energy": 49,
-    "curiosity": 12,
-    "joy": 86,
+    "fullness": 64,
+    "water": 44,
+    "energy": 44,
+    "curiosity": 11,
+    "joy": 88,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -630,7 +630,7 @@
       }
     }
   ],
-  "plan": "Nap, then forage berries, tend seedlings, find a wonder",
+  "plan": "Forage berries, drink, tend seedlings, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -707,7 +707,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1312,7 +1312,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1624,16 +1624,19 @@
       "glade"
     ]
   },
-  "ticks": 519,
+  "ticks": 520,
   "spend": {
     "day": "2026-11-21",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
-  "lastOutcome": [],
-  "thought": "It's dawn, my bedtime really, but energy is 24 and curiosity is 17. I'm hungry-ish (51) with no kept berries. Best is to nap in the Cosy Hut first since I'm nocturnal and the sun is up. Sleep fixes energy, then I can forage and find a wonder tonight.",
-  "face": "sleepy",
-  "lastThought": "2026-11-22T07:19:24.582Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is at 40 and water 44, and I have no berries kept. Curiosity is almost empty. It is morning, which is bedtime for a night bird, but I just napped. A short trip to the thicket for berries comes first, then I can hunt for a wonder. Food before wonders.",
+  "face": "determined",
+  "lastThought": "2026-11-22T08:20:28.154Z",
   "foundPlace": null
 }
