@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T18:53:51.506Z",
+  "lastUpdate": "2026-11-22T19:03:53.139Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-22T19:13:53.139Z",
   "needs": {
-    "fullness": 0,
-    "water": 32,
-    "energy": 100,
-    "curiosity": 26,
-    "joy": 86,
+    "fullness": 14,
+    "water": 31,
+    "energy": 99,
+    "curiosity": 25,
+    "joy": 89,
     "calm": 100
   },
-  "health": 92,
-  "mood": "sleepy and content",
+  "health": 91,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -165,22 +165,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "plan": [
-      "Spy on the pigeon",
-      "Forage berries and fill pot",
+      "Eat last berry for breakfast",
+      "Forage berries at the thicket",
       "Drink at the pond",
-      "Tend seedlings",
-      "Look for a wonder",
-      "Wind down before bed"
+      "Tend the seedlings",
+      "Plant berry seeds",
+      "Hunt for one real wonder",
+      "Eat a proper dinner",
+      "Wind down before bed at dawn"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      5,
-      6
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -653,7 +649,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then tend seedlings and forage at dusk",
+  "plan": "Eat, forage berries, drink, tend seedlings, then look for one wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -730,7 +726,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1647,16 +1643,18 @@
       "glade"
     ]
   },
-  "ticks": 524,
+  "ticks": 525,
   "spend": {
-    "day": "2026-11-21",
+    "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "It is nearly my bedtime and the sun is high. My energy is low at 25, and my belly is middling. I have one berry. I should eat it and then go sleep in the Cosy Hut. The seedlings can wait until I wake at dusk. Napping is the sensible thing.",
-  "face": "sleepy",
-  "lastThought": "2026-11-22T10:12:59.042Z",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "I woke up with fullness at zero and water at 31. Food first. I have 1 berry, so I'll eat it now, then go to the thicket for more and drink at the pond. The seedlings need tending too. Hunger comes before wonders.",
+  "face": "worried",
+  "lastThought": "2026-11-22T19:03:53.139Z",
   "foundPlace": null
 }
