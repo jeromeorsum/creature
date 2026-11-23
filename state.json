@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T01:01:01.041Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-23T01:11:12.200Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-23T01:11:01.041Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-23T02:11:12.200Z",
   "needs": {
-    "fullness": 93,
-    "water": 92,
-    "energy": 20,
-    "curiosity": 23,
-    "joy": 92,
+    "fullness": 87,
+    "water": 91,
+    "energy": 49,
+    "curiosity": 22,
+    "joy": 91,
     "calm": 100
   },
   "health": 100,
@@ -1091,7 +1091,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.45,
+        "left": 1.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1099,7 +1099,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.45,
+        "left": 1.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1107,7 +1107,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.45,
+        "left": 1.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1115,7 +1115,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.45,
+        "left": 1.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1123,7 +1123,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.45,
+        "left": 2.5,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1543,7 +1543,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 2.03,
+        "left": 2.1,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1553,7 +1553,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 2.03,
+        "left": 2.1,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1563,7 +1563,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 2.03,
+        "left": 2.1,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1685,16 +1685,14 @@
       "glade"
     ]
   },
-  "ticks": 536,
+  "ticks": 537,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 10
   },
-  "lastOutcome": [
-    "You ate 1 berries from your food."
-  ],
+  "lastOutcome": [],
   "thought": "My belly is at 79 and I have only one kept berry, but my energy is very low at 20. The thicket is right here with plenty of berries, so I will eat my kept berry and then wind down. Nap in the Cosy Hut would help energy a lot. It is the middle of my night, though, so sleeping now is a bit odd, but energy 20 is a puddle. I will eat the kept berry quickly before the pigeon notices.",
   "face": "sleepy",
   "lastThought": "2026-11-23T01:01:01.041Z",
