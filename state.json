@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T07:39:03.477Z",
+  "lastUpdate": "2026-11-23T07:49:16.990Z",
   "place": "pond",
   "spot": {
-    "x": -2.2,
-    "z": 17.7
+    "x": -4,
+    "z": 21
   },
-  "doing": "pull reeds at the pond",
-  "busyUntil": "2026-11-23T07:43:36.537Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-23T07:59:16.990Z",
   "needs": {
-    "fullness": 60,
-    "water": 50,
-    "energy": 49,
-    "curiosity": 20,
-    "joy": 64,
-    "calm": 98
+    "fullness": 59,
+    "water": 99,
+    "energy": 48,
+    "curiosity": 19,
+    "joy": 63,
+    "calm": 100
   },
   "health": 100,
   "mood": "determined and sleepy",
@@ -658,7 +658,7 @@
       }
     }
   ],
-  "plan": "Pull reeds for fibre, drink, fix the hut cone, then sleep in the hut",
+  "plan": "Drink, then build the hut cone with fibre, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1092,7 +1092,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.1,
+        "left": 2.15,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.1,
+        "left": 0.15,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1686,18 +1686,16 @@
       "glade"
     ]
   },
-  "ticks": 543,
+  "ticks": 544,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [
-    "You collected 4 fibre."
-  ],
-  "thought": "Dawn is here and I should be sleeping soon, since I am nocturnal. The wind knocked the fibre cone off my hut, and I need 2 more fibre, but I only have 1. So I go to the pond, pull reeds for fibre, and then fix the roof before bed. My belly is okay at 62, water is 52, so the pond is a good stop too.",
+  "lastOutcome": [],
+  "thought": "I have 5 fibre and the hut needs 3, so I have enough now. Water is only 49, so a drink first at the pond since I am already here. Then I go tie the cone on firmly and sleep, because the sun is up and I am nocturnal.",
   "face": "determined",
-  "lastThought": "2026-11-23T07:18:36.537Z",
+  "lastThought": "2026-11-23T07:49:16.990Z",
   "foundPlace": null
 }
