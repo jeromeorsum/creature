@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T02:02:19.505Z",
+  "lastUpdate": "2026-11-23T02:12:29.893Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-23T02:11:12.200Z",
+  "busyUntil": "2026-11-23T03:12:29.893Z",
   "needs": {
-    "fullness": 82,
-    "water": 86,
-    "energy": 44,
-    "curiosity": 17,
-    "joy": 86,
+    "fullness": 76,
+    "water": 85,
+    "energy": 73,
+    "curiosity": 16,
+    "joy": 85,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -657,7 +657,7 @@
       }
     }
   ],
-  "plan": "Eat, then nap in the hut to restore energy, then tend plants",
+  "plan": "Nap, then explore for a wonder, then forage berries",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1091,7 +1091,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.75,
+        "left": 1.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1099,7 +1099,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.75,
+        "left": 1.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1107,7 +1107,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.75,
+        "left": 1.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1115,7 +1115,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.75,
+        "left": 1.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1123,7 +1123,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.75,
+        "left": 2.8,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1543,7 +1543,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1553,7 +1553,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1563,7 +1563,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 2.45,
+        "left": 2.52,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1685,16 +1685,16 @@
       "glade"
     ]
   },
-  "ticks": 537,
+  "ticks": 538,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [],
-  "thought": "My belly is at 79 and I have only one kept berry, but my energy is very low at 20. The thicket is right here with plenty of berries, so I will eat my kept berry and then wind down. Nap in the Cosy Hut would help energy a lot. It is the middle of my night, though, so sleeping now is a bit odd, but energy 20 is a puddle. I will eat the kept berry quickly before the pigeon notices.",
+  "thought": "My energy is 43 and it is the middle of my night, but I only just napped. Curiosity is a dry shell. A nap would help energy, yet I want a wonder. I will nap again in the hut to get energy up, since being tired makes everything worse, then explore tomorrow night. Actually, the nap only gives 30. Fine, nap.",
   "face": "sleepy",
-  "lastThought": "2026-11-23T01:01:01.041Z",
+  "lastThought": "2026-11-23T02:12:29.893Z",
   "foundPlace": null
 }
