@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T20:15:45.535Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-23T20:25:59.281Z",
+  "place": "thicket",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": 16.1,
+    "z": 2.2
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-23T20:25:22.232Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-23T20:50:59.281Z",
   "needs": {
-    "fullness": 51,
-    "water": 76,
-    "energy": 80,
-    "curiosity": 31,
-    "joy": 78,
+    "fullness": 74,
+    "water": 75,
+    "energy": 75,
+    "curiosity": 30,
+    "joy": 80,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,13 +167,13 @@
   "today": {
     "date": "2026-11-23",
     "plan": [
-      "Drink at the pond",
-      "Explore the tidepools for a wonder",
-      "Forage berries for dinner",
-      "Tend the seedlings",
+      "Forage berries for breakfast",
       "Plant berry seeds",
+      "Tend the seedlings",
+      "Drink at the pond",
+      "Hunt for one real wonder",
       "Eat a berry dinner",
-      "Wind down and listen to the shells"
+      "Wind down with the shells"
     ],
     "done": [
       1,
@@ -678,7 +678,7 @@
       }
     }
   ],
-  "plan": "Explore the tidepools, forage berries, tend seedlings, plant berry seeds, eat dinner.",
+  "plan": "Forage berries, plant berry seeds, tend seedlings, eat dinner, wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -763,7 +763,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1428,7 +1428,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 4,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1710,16 +1710,19 @@
       "glade"
     ]
   },
-  "ticks": 553,
+  "ticks": 554,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is very low, 15. Fullness is 53 and water is fine. I'm at the pond. I haven't found a real wonder in days. Exploring somewhere new may not work since I've seen the whole island, but looking closely at a place could. The tidepools have barely been touched in my notes, so I'll explore them and look closely.",
-  "face": "curious",
-  "lastThought": "2026-11-23T19:55:22.232Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "I'm at the tidepools and my belly is only half full with no berries kept. Food comes first. The thicket has berries and I have 20 berry seeds I should plant too. I'll go forage, then drink, tend seedlings. The tidepools had crabs but I want dinner before wonders.",
+  "face": "determined",
+  "lastThought": "2026-11-23T20:25:59.281Z",
   "foundPlace": null
 }
