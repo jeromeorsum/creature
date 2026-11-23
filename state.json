@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T10:32:58.984Z",
+  "lastUpdate": "2026-11-23T10:43:11.524Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-23T11:43:11.524Z",
   "needs": {
-    "fullness": 61,
-    "water": 83,
-    "energy": 40,
-    "curiosity": 23,
-    "joy": 81,
-    "calm": 98
+    "fullness": 55,
+    "water": 82,
+    "energy": 69,
+    "curiosity": 22,
+    "joy": 80,
+    "calm": 100
   },
   "health": 100,
   "mood": "sleepy and content",
@@ -659,7 +659,7 @@
     },
     {
       "date": "2026-11-22",
-      "summary": "Today I fixed the hut cone firmly, drank, foraged, listened to the seabirds on the cliffs and sorted my shells by their notes: big ones bonk and small ones tink. My belly stayed middling and my curiosity stayed low, which still bothers me. I feel calm and very sleepy. Tomorrow night I want a full berry pot, tended seedlings and one real wonder, maybe about the crabs.",
+      "summary": "Today I fixed the hut cone firmly at last, drank, foraged, listened to the seabirds on the cliffs and sorted my shells by their notes. My belly stayed middling and my curiosity stayed low, which still nags me. I feel calm, joyful and very sleepy. Tomorrow night I want a full berry pot, tended seedlings and one real wonder, maybe about the crabs or the seabirds.",
       "plan": {
         "date": "2026-11-22",
         "plan": [
@@ -685,7 +685,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then forage berries and fill the pot tomorrow night",
+  "plan": "Sleep in the hut, then forage berries and fill the pot tomorrow night, and find one real wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1123,7 +1123,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1147,7 +1147,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.95,
+        "left": 1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1717,18 +1717,16 @@
       "glade"
     ]
   },
-  "ticks": 548,
+  "ticks": 549,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "It is nearly bedtime and my belly is only a third full, so I eat my two berries first. Then I go into the Cosy Hut. The shell notes were a nice small wonder. Tomorrow night I want a fuller pot and the crab mystery.",
+  "lastOutcome": [],
+  "thought": "It is nearly sleep time and the sun is up. My belly is middling, my water is good, and my calm is full. Curiosity is low, but dreaming can wait for that. I curl up in the Cosy Hut and let the wind ruffle nothing.",
   "face": "sleepy",
-  "lastThought": "2026-11-23T10:22:48.717Z",
+  "lastThought": "2026-11-23T10:43:11.524Z",
   "foundPlace": null
 }
