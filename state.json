@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T00:50:48.517Z",
+  "lastUpdate": "2026-11-23T01:01:01.041Z",
   "place": "thicket",
   "spot": {
-    "x": 10.9,
-    "z": -3.1
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-23T00:55:16.469Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-23T01:11:01.041Z",
   "needs": {
-    "fullness": 80,
-    "water": 93,
-    "energy": 21,
-    "curiosity": 24,
-    "joy": 89,
+    "fullness": 93,
+    "water": 92,
+    "energy": 20,
+    "curiosity": 23,
+    "joy": 92,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -182,7 +182,8 @@
       4,
       3,
       5,
-      6
+      6,
+      7
     ]
   },
   "lessons": [
@@ -656,7 +657,7 @@
       }
     }
   ],
-  "plan": "Forage berries, eat dinner, wind down, sleep in the hut",
+  "plan": "Eat, then nap in the hut to restore energy, then tend plants",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -736,8 +737,8 @@
     }
   ],
   "world": {
-    "weather": "cloudy",
-    "food": 1,
+    "weather": "sunny",
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 18
@@ -1090,7 +1091,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.4,
+        "left": 1.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1098,7 +1099,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.4,
+        "left": 1.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1106,7 +1107,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.4,
+        "left": 1.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1114,7 +1115,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.4,
+        "left": 1.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1122,7 +1123,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.4,
+        "left": 2.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1542,7 +1543,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1552,7 +1553,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1562,7 +1563,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 1.96,
+        "left": 2.03,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1684,18 +1685,18 @@
       "glade"
     ]
   },
-  "ticks": 535,
+  "ticks": 536,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
+    "You ate 1 berries from your food."
   ],
-  "thought": "Belly is middling at 58 and I have no kept berries. Water is fine. Energy is low at 27 and curiosity is low. The berry bushes are right here by the pond, with 5 that have berries. Foraging would feed me and fill the pot. Then I can rest later.",
-  "face": "determined",
-  "lastThought": "2026-11-23T00:30:16.469Z",
+  "thought": "My belly is at 79 and I have only one kept berry, but my energy is very low at 20. The thicket is right here with plenty of berries, so I will eat my kept berry and then wind down. Nap in the Cosy Hut would help energy a lot. It is the middle of my night, though, so sleeping now is a bit odd, but energy 20 is a puddle. I will eat the kept berry quickly before the pigeon notices.",
+  "face": "sleepy",
+  "lastThought": "2026-11-23T01:01:01.041Z",
   "foundPlace": null
 }
