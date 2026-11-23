@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T08:40:23.876Z",
+  "lastUpdate": "2026-11-23T08:50:50.211Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-23T08:44:37.945Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-23T09:50:50.211Z",
   "needs": {
-    "fullness": 49,
-    "water": 94,
-    "energy": 29,
-    "curiosity": 19,
-    "joy": 80,
-    "calm": 99
+    "fullness": 43,
+    "water": 93,
+    "energy": 58,
+    "curiosity": 18,
+    "joy": 79,
+    "calm": 100
   },
   "health": 100,
-  "mood": "determined and sleepy",
+  "mood": "sleepy and satisfied",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -658,7 +658,7 @@
       }
     }
   ],
-  "plan": "Build the hut cone with fibre, then sleep in the hut",
+  "plan": "Sleep in the hut, then eat, drink and hunt for one real wonder",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1092,7 +1092,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.4,
+        "left": 2.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.4,
+        "left": 0.45,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1686,18 +1686,16 @@
       "glade"
     ]
   },
-  "ticks": 545,
+  "ticks": 546,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "I have five fibre and the hut needs three for its cone. Dawn is here and I am sleepy, so the plan is to go build the cone firmly, then sleep in the hut. My curiosity is low, but a roof first and wonders after sleeping.",
-  "face": "determined",
-  "lastThought": "2026-11-23T07:59:37.945Z",
+  "lastOutcome": [],
+  "thought": "The sun is up, my bedtime is near, and the hut cone is finally tied on. My energy is a puddle at 28 and my belly is middling. I will curl up in the Cosy Hut and let my curiosity fill while I dream. The pigeon can keep its secrets.",
+  "face": "sleepy",
+  "lastThought": "2026-11-23T08:50:50.211Z",
   "foundPlace": null
 }
