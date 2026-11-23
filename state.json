@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T18:54:03.140Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-23T19:04:12.816Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18.8,
+    "z": -5.9
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-23T19:29:12.816Z",
   "needs": {
-    "fullness": 7,
-    "water": 34,
-    "energy": 100,
-    "curiosity": 21,
-    "joy": 79,
+    "fullness": 30,
+    "water": 33,
+    "energy": 95,
+    "curiosity": 20,
+    "joy": 81,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -165,27 +165,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "plan": [
-      "Eat breakfast",
-      "Tend the seedlings",
-      "Forage berries at the thicket",
-      "Plant berry seeds",
-      "Hunt for one real wonder",
+      "Breakfast: forage berries at the thicket",
       "Drink at the pond",
-      "Eat a proper dinner",
-      "Wind down before bed"
+      "Tend the seedlings",
+      "Plant berry seeds",
+      "Explore for one real wonder",
+      "Eat a berry dinner",
+      "Wind down and listen to the shells"
     ],
-    "done": [
-      1,
-      2,
-      4,
-      3,
-      5,
-      6,
-      7,
-      8
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -685,7 +675,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then forage berries and fill the pot tomorrow night, and find one real wonder",
+  "plan": "Forage berries, drink at the pond, tend seedlings, plant berry seeds, then look for one real wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -770,10 +760,10 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 19
+      "berry": 20
     },
     "inventory": {
       "wood": 2,
@@ -1281,7 +1271,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1717,16 +1707,19 @@
       "glade"
     ]
   },
-  "ticks": 549,
+  "ticks": 550,
   "spend": {
-    "day": "2026-11-22",
+    "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "It is nearly sleep time and the sun is up. My belly is middling, my water is good, and my calm is full. Curiosity is low, but dreaming can wait for that. I curl up in the Cosy Hut and let the wind ruffle nothing.",
-  "face": "sleepy",
-  "lastThought": "2026-11-23T10:43:11.524Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "I woke up with a belly that is nearly empty (6) and water at 33. Food first. The thicket has berries, so I'll forage there, fill the pot, then drink at the pond, tend the seedlings, and look for one real wonder tonight.",
+  "face": "determined",
+  "lastThought": "2026-11-23T19:04:12.816Z",
   "foundPlace": null
 }
