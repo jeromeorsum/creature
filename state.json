@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T10:12:35.497Z",
+  "lastUpdate": "2026-11-23T10:22:48.717Z",
   "place": "nest",
   "spot": {
     "x": -14,
     "z": 6
   },
-  "doing": "experiment at the nest",
-  "busyUntil": "2026-11-23T10:32:16.662Z",
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-23T10:32:48.717Z",
   "needs": {
-    "fullness": 35,
-    "water": 85,
-    "energy": 42,
-    "curiosity": 25,
-    "joy": 79,
+    "fullness": 62,
+    "water": 84,
+    "energy": 41,
+    "curiosity": 24,
+    "joy": 82,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and sleepy",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -656,9 +656,36 @@
           6
         ]
       }
+    },
+    {
+      "date": "2026-11-22",
+      "summary": "Today I fixed the hut cone firmly, drank, foraged, listened to the seabirds on the cliffs and sorted my shells by their notes: big ones bonk and small ones tink. My belly stayed middling and my curiosity stayed low, which still bothers me. I feel calm and very sleepy. Tomorrow night I want a full berry pot, tended seedlings and one real wonder, maybe about the crabs.",
+      "plan": {
+        "date": "2026-11-22",
+        "plan": [
+          "Eat breakfast",
+          "Tend the seedlings",
+          "Forage berries at the thicket",
+          "Plant berry seeds",
+          "Hunt for one real wonder",
+          "Drink at the pond",
+          "Eat a proper dinner",
+          "Wind down before bed"
+        ],
+        "done": [
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
     }
   ],
-  "plan": "Experiment with shell notes, eat berries, then sleep in the hut",
+  "plan": "Sleep in the hut, then forage berries and fill the pot tomorrow night",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -743,7 +770,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 19
@@ -1096,7 +1123,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.85,
+        "left": 2.9,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1120,7 +1147,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.85,
+        "left": 0.9,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1690,16 +1717,18 @@
       "glade"
     ]
   },
-  "ticks": 547,
+  "ticks": 548,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [],
-  "thought": "It is nearly my bedtime at 11am, but my curiosity is a dry shell and my belly is thin. I am at the nest with two berries. A short experiment would fill my curiosity before sleep, and I can eat first. Let me poke at the shells and clay together and see what happens, then nap in the hut.",
-  "face": "curious",
-  "lastThought": "2026-11-23T09:52:16.662Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "It is nearly bedtime and my belly is only a third full, so I eat my two berries first. Then I go into the Cosy Hut. The shell notes were a nice small wonder. Tomorrow night I want a fuller pot and the crab mystery.",
+  "face": "sleepy",
+  "lastThought": "2026-11-23T10:22:48.717Z",
   "foundPlace": null
 }
