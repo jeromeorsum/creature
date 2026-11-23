@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T19:24:44.382Z",
+  "lastUpdate": "2026-11-23T19:34:55.620Z",
   "place": "thicket",
   "spot": {
-    "x": 18.8,
-    "z": -5.9
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-23T19:29:12.816Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-23T19:44:55.620Z",
   "needs": {
-    "fullness": 28,
-    "water": 31,
-    "energy": 93,
-    "curiosity": 18,
-    "joy": 79,
+    "fullness": 55,
+    "water": 30,
+    "energy": 92,
+    "curiosity": 17,
+    "joy": 82,
     "calm": 100
   },
   "health": 100,
@@ -167,7 +167,7 @@
   "today": {
     "date": "2026-11-23",
     "plan": [
-      "Breakfast: forage berries at the thicket",
+      "Breakfast: eat berries at the thicket",
       "Drink at the pond",
       "Tend the seedlings",
       "Plant berry seeds",
@@ -175,7 +175,9 @@
       "Eat a berry dinner",
       "Wind down and listen to the shells"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -760,7 +762,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1707,19 +1709,18 @@
       "glade"
     ]
   },
-  "ticks": 550,
+  "ticks": 551,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You ate 2 berries from your food."
   ],
-  "thought": "I woke up with a belly that is nearly empty (6) and water at 33. Food first. The thicket has berries, so I'll forage there, fill the pot, then drink at the pond, tend the seedlings, and look for one real wonder tonight.",
+  "thought": "My belly is 27 and water is 30, so I should eat and drink before any wonder hunting. I'm already at the thicket, so I'll eat a few kept berries now, with the pigeon lurking. Then the pond for a drink. Curiosity is low, but a full belly makes wonders easier to find.",
   "face": "determined",
-  "lastThought": "2026-11-23T19:04:12.816Z",
+  "lastThought": "2026-11-23T19:34:55.620Z",
   "foundPlace": null
 }
