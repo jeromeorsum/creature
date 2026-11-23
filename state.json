@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T03:44:27.690Z",
+  "lastUpdate": "2026-11-23T03:54:38.997Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the cliffs",
   "busyUntil": null,
   "needs": {
-    "fullness": 67,
-    "water": 76,
-    "energy": 56,
-    "curiosity": 25,
-    "joy": 76,
+    "fullness": 66,
+    "water": 75,
+    "energy": 55,
+    "curiosity": 24,
+    "joy": 75,
     "calm": 100
   },
   "health": 100,
@@ -1091,7 +1091,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.25,
+        "left": 2.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1099,7 +1099,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.25,
+        "left": 2.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1107,7 +1107,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 2.25,
+        "left": 2.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1115,7 +1115,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.25,
+        "left": 2.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1543,7 +1543,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 3.15,
+        "left": 3.22,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1553,7 +1553,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 3.15,
+        "left": 3.22,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1563,7 +1563,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 3.15,
+        "left": 3.22,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
