@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T19:34:55.620Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-23T19:45:09.333Z",
+  "place": "pond",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -4,
+    "z": 21
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-23T19:44:55.620Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-23T19:55:09.333Z",
   "needs": {
-    "fullness": 55,
-    "water": 30,
-    "energy": 92,
-    "curiosity": 17,
-    "joy": 82,
+    "fullness": 54,
+    "water": 79,
+    "energy": 91,
+    "curiosity": 16,
+    "joy": 81,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "thirsty but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -772,7 +772,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 10
+      "shells": 9
     },
     "discovered": [
       "clay",
@@ -1709,18 +1709,16 @@
       "glade"
     ]
   },
-  "ticks": 551,
+  "ticks": 552,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My belly is 27 and water is 30, so I should eat and drink before any wonder hunting. I'm already at the thicket, so I'll eat a few kept berries now, with the pigeon lurking. Then the pond for a drink. Curiosity is low, but a full belly makes wonders easier to find.",
+  "lastOutcome": [],
+  "thought": "The pigeon swiped a shell, rude! My water is low at 29, so the pond comes first. Then I can forage more berries since I have none kept. Curiosity is low, so after drinking I want to explore a bit.",
   "face": "determined",
-  "lastThought": "2026-11-23T19:34:55.620Z",
+  "lastThought": "2026-11-23T19:45:09.333Z",
   "foundPlace": null
 }
