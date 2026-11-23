@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T22:18:28.033Z",
+  "lastUpdate": "2026-11-23T22:28:43.306Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,11 +10,11 @@
   "doing": "explore at the cliffs",
   "busyUntil": "2026-11-23T22:48:28.033Z",
   "needs": {
-    "fullness": 63,
-    "water": 60,
-    "energy": 48,
-    "curiosity": 37,
-    "joy": 74,
+    "fullness": 62,
+    "water": 59,
+    "energy": 47,
+    "curiosity": 36,
+    "joy": 73,
     "calm": 100
   },
   "health": 100,
@@ -1235,7 +1235,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.01,
+        "left": 1.08,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1251,7 +1251,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.35,
+        "left": 0.42,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1259,7 +1259,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.35,
+        "left": 0.42,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1275,7 +1275,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.35,
+        "left": 0.42,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1291,7 +1291,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.45,
+        "left": 0.52,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1339,7 +1339,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.35,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1369,7 +1369,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.35,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1429,7 +1429,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.35,
+        "left": 0.42,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1539,7 +1539,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.9,
+        "left": 2.92,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
