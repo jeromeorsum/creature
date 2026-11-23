@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T06:07:14.703Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-23T06:17:24.218Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 14.1,
+    "z": -7.3
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-23T06:16:13.033Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-23T06:42:24.218Z",
   "needs": {
-    "fullness": 45,
-    "water": 59,
-    "energy": 68,
-    "curiosity": 29,
-    "joy": 70,
+    "fullness": 68,
+    "water": 58,
+    "energy": 63,
+    "curiosity": 28,
+    "joy": 72,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -658,7 +658,7 @@
       }
     }
   ],
-  "plan": "Nap in the hut, then forage berries tonight and fill the pot",
+  "plan": "Forage berries and fill the pot, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -739,10 +739,10 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
-      "berry": 18
+      "berry": 19
     },
     "inventory": {
       "wood": 2,
@@ -1092,7 +1092,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1100,7 +1100,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1108,7 +1108,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1314,7 +1314,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 4,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-22T01:42:37.760Z"
@@ -1686,16 +1686,19 @@
       "glade"
     ]
   },
-  "ticks": 541,
+  "ticks": 542,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
-  "lastOutcome": [],
-  "thought": "The cliffs are quiet and my energy is a half-puddle. Sunrise is coming and I should be asleep by 11am, but the Cosy Hut is far away. My belly is middling and I have no kept berries. I will head home and nap, since the plan says so. Energy 43 is low enough that a nap makes sense, and the seabird mystery can wait for another night.",
-  "face": "sleepy",
-  "lastThought": "2026-11-23T05:16:13.033Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "Dawn is here and I'm nocturnal, so sleep is coming soon. My belly is only 44 and I have no kept berries. The thicket is the sensible place to go: eat some and fill the pot before I sleep. The pigeon will be sneaky, so I'll eat fast and keep my eye open.",
+  "face": "determined",
+  "lastThought": "2026-11-23T06:17:24.218Z",
   "foundPlace": null
 }
