@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T22:08:11.612Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-23T22:18:28.033Z",
+  "place": "cliffs",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -35,
+    "z": 4
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "explore at the cliffs",
+  "busyUntil": "2026-11-23T22:48:28.033Z",
   "needs": {
-    "fullness": 64,
-    "water": 61,
-    "energy": 57,
-    "curiosity": 20,
-    "joy": 75,
+    "fullness": 63,
+    "water": 60,
+    "energy": 48,
+    "curiosity": 37,
+    "joy": 74,
     "calm": 100
   },
   "health": 100,
-  "mood": "busy and content",
+  "mood": "curious and restless",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -177,7 +177,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -678,7 +679,7 @@
       }
     }
   ],
-  "plan": "Tend plants, drink at the pond, hunt for a wonder, eat dinner, wind down.",
+  "plan": "Explore the cliffs for a wonder, drink at the pond, eat dinner, wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1234,7 +1235,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.94,
+        "left": 1.01,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1250,7 +1251,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.28,
+        "left": 0.35,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1258,7 +1259,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.28,
+        "left": 0.35,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1274,7 +1275,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.28,
+        "left": 0.35,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1290,7 +1291,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.38,
+        "left": 0.45,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1338,7 +1339,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1368,7 +1369,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1428,7 +1429,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1538,7 +1539,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 2.88,
+        "left": 2.9,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1710,18 +1711,16 @@
       "glade"
     ]
   },
-  "ticks": 555,
+  "ticks": 556,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
-  "lastOutcome": [
-    "You looked after 29 plants around the thicket. They'll grow for about a day."
-  ],
-  "thought": "I'm at the thicket with a decent belly, but curiosity is low and the seedlings need tending. Tending the plants here keeps the berry bushes growing back, and it's calming work. I'll do that now, then drink and hunt for a wonder.",
-  "face": "determined",
-  "lastThought": "2026-11-23T21:27:14.384Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry shell at 19. Water is 60, belly fine. Exploring somewhere new could fill it, and I have explored the whole island, so I will look closely at the cliffs, where seabirds nest, hoping for a real wonder about them. It is a good night for it.",
+  "face": "curious",
+  "lastThought": "2026-11-23T22:18:28.033Z",
   "foundPlace": null
 }
