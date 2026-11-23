@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T03:03:33.236Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-23T03:13:56.848Z",
+  "place": "cliffs",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -35,
+    "z": 4
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-23T03:12:29.893Z",
+  "doing": "explore at the cliffs",
+  "busyUntil": "2026-11-23T03:43:56.848Z",
   "needs": {
-    "fullness": 71,
-    "water": 80,
-    "energy": 68,
-    "curiosity": 11,
-    "joy": 80,
+    "fullness": 70,
+    "water": 79,
+    "energy": 59,
+    "curiosity": 28,
+    "joy": 79,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "hopeful and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -657,7 +657,7 @@
       }
     }
   ],
-  "plan": "Nap, then explore for a wonder, then forage berries",
+  "plan": "Explore the cliffs for a wonder, then drink, then forage berries",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1091,7 +1091,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1099,7 +1099,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1107,7 +1107,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1115,7 +1115,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1543,7 +1543,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 2.87,
+        "left": 2.94,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1553,7 +1553,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 2.87,
+        "left": 2.94,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1563,7 +1563,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 2.87,
+        "left": 2.94,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1685,16 +1685,16 @@
       "glade"
     ]
   },
-  "ticks": 538,
+  "ticks": 539,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
   "lastOutcome": [],
-  "thought": "My energy is 43 and it is the middle of my night, but I only just napped. Curiosity is a dry shell. A nap would help energy, yet I want a wonder. I will nap again in the hut to get energy up, since being tired makes everything worse, then explore tomorrow night. Actually, the nap only gives 30. Fine, nap.",
-  "face": "sleepy",
-  "lastThought": "2026-11-23T02:12:29.893Z",
+  "thought": "My curiosity is a dry shell at 10, and my energy is decent now. I have explored everywhere, so I want to head somewhere I know and look at it very closely. The cliffs at night with the stars should be a real wonder. I will go there and look for something I have never noticed.",
+  "face": "curious",
+  "lastThought": "2026-11-23T03:13:56.848Z",
   "foundPlace": null
 }
