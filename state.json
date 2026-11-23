@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T00:20:08.956Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-23T00:30:16.469Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-23T00:55:16.469Z",
   "needs": {
-    "fullness": 59,
-    "water": 96,
-    "energy": 28,
-    "curiosity": 27,
-    "joy": 89,
+    "fullness": 82,
+    "water": 95,
+    "energy": 23,
+    "curiosity": 26,
+    "joy": 91,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -181,7 +181,8 @@
       2,
       4,
       3,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -655,7 +656,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, forage berries, eat dinner, wind down",
+  "plan": "Forage berries, eat dinner, wind down, sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -735,8 +736,8 @@
     }
   ],
   "world": {
-    "weather": "sunny",
-    "food": 0,
+    "weather": "cloudy",
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 18
@@ -1089,7 +1090,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.25,
+        "left": 1.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1097,7 +1098,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.25,
+        "left": 1.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1105,7 +1106,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.25,
+        "left": 1.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1113,7 +1114,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.25,
+        "left": 1.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1121,7 +1122,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.25,
+        "left": 2.3,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1223,7 +1224,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-22T01:42:37.760Z"
       },
       {
@@ -1541,7 +1542,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1551,7 +1552,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1561,7 +1562,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 1.75,
+        "left": 1.82,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1683,16 +1684,18 @@
       "glade"
     ]
   },
-  "ticks": 534,
+  "ticks": 535,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "My water is at 49 and my belly is middling, so I should go drink at the pond before anything else. The grotto spiral was nice, but my curiosity is still lowish. Drinking first, then berries, then a wonder.",
-  "face": "curious",
-  "lastThought": "2026-11-22T23:49:32.050Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot."
+  ],
+  "thought": "Belly is middling at 58 and I have no kept berries. Water is fine. Energy is low at 27 and curiosity is low. The berry bushes are right here by the pond, with 5 that have berries. Foraging would feed me and fill the pot. Then I can rest later.",
+  "face": "determined",
+  "lastThought": "2026-11-23T00:30:16.469Z",
   "foundPlace": null
 }
