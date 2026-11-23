@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T23:09:33.843Z",
+  "lastUpdate": "2026-11-23T23:19:53.630Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "experiment at the cliffs",
+  "busyUntil": "2026-11-23T23:59:53.630Z",
   "needs": {
-    "fullness": 58,
-    "water": 55,
-    "energy": 43,
-    "curiosity": 32,
-    "joy": 69,
-    "calm": 100
+    "fullness": 57,
+    "water": 54,
+    "energy": 34,
+    "curiosity": 46,
+    "joy": 76,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious and restless",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
@@ -679,7 +680,7 @@
       }
     }
   ],
-  "plan": "Explore the cliffs for a wonder, drink at the pond, eat dinner, wind down.",
+  "plan": "Listen to the seabirds, then drink at the pond, eat berries, wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -760,6 +761,10 @@
     {
       "text": "{\"what\":\"Bigger shells tapped with my beak give deeper bonks and smaller shells give higher tinks, so size decides the note.\"}",
       "made": "2026-11-23T09:52:16.662Z"
+    },
+    {
+      "text": "{\"what\":\"Seabirds on the ledges call in groups with pauses between, and tapping my beak in a matching short-long pattern makes some of them turn their heads toward me.\"}",
+      "made": "2026-11-23T23:19:53.630Z"
     }
   ],
   "world": {
@@ -1235,7 +1240,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.36,
+        "left": 1.43,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1251,7 +1256,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1259,7 +1264,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1275,7 +1280,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1291,7 +1296,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.8,
+        "left": 0.87,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1339,7 +1344,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1369,7 +1374,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1429,7 +1434,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.7,
+        "left": 0.77,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1539,7 +1544,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3,
+        "left": 3.02,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1711,16 +1716,16 @@
       "glade"
     ]
   },
-  "ticks": 556,
+  "ticks": 557,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry shell at 19. Water is 60, belly fine. Exploring somewhere new could fill it, and I have explored the whole island, so I will look closely at the cliffs, where seabirds nest, hoping for a real wonder about them. It is a good night for it.",
+  "thought": "I'm at the cliffs in the moonlight and my curiosity is low at 31. The seabirds are loud on the ledges. I should look closely at them and try to notice a real wonder, like whether they call in patterns I can answer with my clacker. Water is 54, so I'll drink after this.",
   "face": "curious",
-  "lastThought": "2026-11-23T22:18:28.033Z",
+  "lastThought": "2026-11-23T23:19:53.630Z",
   "foundPlace": null
 }
