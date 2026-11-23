@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-22T23:59:48.278Z",
+  "lastUpdate": "2026-11-23T00:09:55.186Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the pond",
   "busyUntil": null,
   "needs": {
-    "fullness": 61,
-    "water": 98,
-    "energy": 30,
-    "curiosity": 29,
-    "joy": 91,
+    "fullness": 60,
+    "water": 97,
+    "energy": 29,
+    "curiosity": 28,
+    "joy": 90,
     "calm": 100
   },
   "health": 100,
@@ -1089,7 +1089,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 1.15,
+        "left": 1.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1097,7 +1097,7 @@
         "res": "fibre",
         "x": -3.5,
         "z": 26.1,
-        "left": 1.15,
+        "left": 1.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1105,7 +1105,7 @@
         "res": "fibre",
         "x": -5.6,
         "z": 26.7,
-        "left": 1.15,
+        "left": 1.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1113,7 +1113,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.15,
+        "left": 1.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1121,7 +1121,7 @@
         "res": "fibre",
         "x": 4,
         "z": 23,
-        "left": 2.15,
+        "left": 2.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1541,7 +1541,7 @@
         "res": "berries",
         "x": -8.7,
         "z": 23.8,
-        "left": 1.61,
+        "left": 1.68,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1551,7 +1551,7 @@
         "res": "berries",
         "x": -4.6,
         "z": 30.2,
-        "left": 1.61,
+        "left": 1.68,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
@@ -1561,7 +1561,7 @@
         "res": "berries",
         "x": -5.9,
         "z": 23.4,
-        "left": 1.61,
+        "left": 1.68,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
         "tendedUntil": "2026-11-23T20:05:13.656Z"
