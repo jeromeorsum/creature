@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T19:45:09.333Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-23T19:55:22.232Z",
+  "place": "tidepools",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 18,
+    "z": 34
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-23T19:55:09.333Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-23T20:25:22.232Z",
   "needs": {
-    "fullness": 54,
-    "water": 79,
-    "energy": 91,
-    "curiosity": 16,
-    "joy": 81,
+    "fullness": 53,
+    "water": 78,
+    "energy": 82,
+    "curiosity": 33,
+    "joy": 80,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but determined",
+  "mood": "curious and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,16 +167,17 @@
   "today": {
     "date": "2026-11-23",
     "plan": [
-      "Breakfast: eat berries at the thicket",
       "Drink at the pond",
+      "Explore the tidepools for a wonder",
+      "Forage berries for dinner",
       "Tend the seedlings",
       "Plant berry seeds",
-      "Explore for one real wonder",
       "Eat a berry dinner",
       "Wind down and listen to the shells"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -677,7 +678,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink at the pond, tend seedlings, plant berry seeds, then look for one real wonder.",
+  "plan": "Explore the tidepools, forage berries, tend seedlings, plant berry seeds, eat dinner.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1709,16 +1710,16 @@
       "glade"
     ]
   },
-  "ticks": 552,
+  "ticks": 553,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [],
-  "thought": "The pigeon swiped a shell, rude! My water is low at 29, so the pond comes first. Then I can forage more berries since I have none kept. Curiosity is low, so after drinking I want to explore a bit.",
-  "face": "determined",
-  "lastThought": "2026-11-23T19:45:09.333Z",
+  "thought": "My curiosity is very low, 15. Fullness is 53 and water is fine. I'm at the pond. I haven't found a real wonder in days. Exploring somewhere new may not work since I've seen the whole island, but looking closely at a place could. The tidepools have barely been touched in my notes, so I'll explore them and look closely.",
+  "face": "curious",
+  "lastThought": "2026-11-23T19:55:22.232Z",
   "foundPlace": null
 }
