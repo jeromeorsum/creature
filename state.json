@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T09:41:52.499Z",
+  "lastUpdate": "2026-11-23T09:52:16.662Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-23T09:50:50.211Z",
+  "doing": "experiment at the nest",
+  "busyUntil": "2026-11-23T10:32:16.662Z",
   "needs": {
-    "fullness": 38,
-    "water": 88,
-    "energy": 53,
-    "curiosity": 13,
-    "joy": 74,
-    "calm": 100
+    "fullness": 37,
+    "water": 87,
+    "energy": 44,
+    "curiosity": 27,
+    "joy": 81,
+    "calm": 98
   },
   "health": 100,
-  "mood": "sleepy and satisfied",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -658,7 +658,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then eat, drink and hunt for one real wonder",
+  "plan": "Experiment with shell notes, eat berries, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -735,6 +735,10 @@
     {
       "text": "{\"what\":\"Shells laid in a spiral under the grotto arch make the clacker's echo swirl around, and the glowing mushrooms seem to brighten toward the middle of the spiral.\"}",
       "made": "2026-11-22T22:48:23.201Z"
+    },
+    {
+      "text": "{\"what\":\"Bigger shells tapped with my beak give deeper bonks and smaller shells give higher tinks, so size decides the note.\"}",
+      "made": "2026-11-23T09:52:16.662Z"
     }
   ],
   "world": {
@@ -1092,7 +1096,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.7,
+        "left": 2.75,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1120,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.7,
+        "left": 0.75,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1686,16 +1690,16 @@
       "glade"
     ]
   },
-  "ticks": 546,
+  "ticks": 547,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "The sun is up, my bedtime is near, and the hut cone is finally tied on. My energy is a puddle at 28 and my belly is middling. I will curl up in the Cosy Hut and let my curiosity fill while I dream. The pigeon can keep its secrets.",
-  "face": "sleepy",
-  "lastThought": "2026-11-23T08:50:50.211Z",
+  "thought": "It is nearly my bedtime at 11am, but my curiosity is a dry shell and my belly is thin. I am at the nest with two berries. A short experiment would fill my curiosity before sleep, and I can eat first. Let me poke at the shells and clay together and see what happens, then nap in the hut.",
+  "face": "curious",
+  "lastThought": "2026-11-23T09:52:16.662Z",
   "foundPlace": null
 }
