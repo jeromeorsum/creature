@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T07:49:16.990Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-23T07:59:37.945Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-23T07:59:16.990Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-23T08:44:37.945Z",
   "needs": {
-    "fullness": 59,
-    "water": 99,
-    "energy": 48,
-    "curiosity": 19,
-    "joy": 63,
-    "calm": 100
+    "fullness": 53,
+    "water": 98,
+    "energy": 33,
+    "curiosity": 23,
+    "joy": 84,
+    "calm": 99
   },
   "health": 100,
   "mood": "determined and sleepy",
@@ -658,7 +658,7 @@
       }
     }
   ],
-  "plan": "Drink, then build the hut cone with fibre, then sleep in the hut",
+  "plan": "Build the hut cone with fibre, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -748,7 +748,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 5,
+      "fibre": 2,
       "shells": 10
     },
     "discovered": [
@@ -1092,7 +1092,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.15,
+        "left": 2.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.15,
+        "left": 0.2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1663,11 +1663,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-23T07:59:37.945Z"
       }
     ],
     "known": [
@@ -1686,16 +1686,18 @@
       "glade"
     ]
   },
-  "ticks": 544,
+  "ticks": 545,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
-  "lastOutcome": [],
-  "thought": "I have 5 fibre and the hut needs 3, so I have enough now. Water is only 49, so a drink first at the pond since I am already here. Then I go tie the cone on firmly and sleep, because the sun is up and I am nocturnal.",
+  "lastOutcome": [
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+  ],
+  "thought": "I have five fibre and the hut needs three for its cone. Dawn is here and I am sleepy, so the plan is to go build the cone firmly, then sleep in the hut. My curiosity is low, but a roof first and wonders after sleeping.",
   "face": "determined",
-  "lastThought": "2026-11-23T07:49:16.990Z",
+  "lastThought": "2026-11-23T07:59:37.945Z",
   "foundPlace": null
 }
