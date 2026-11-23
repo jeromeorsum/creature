@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-23T07:08:25.242Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-23T07:18:36.537Z",
+  "place": "pond",
   "spot": {
-    "x": 14.1,
-    "z": -7.3
+    "x": -2.2,
+    "z": 17.7
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-23T07:43:36.537Z",
   "needs": {
-    "fullness": 63,
-    "water": 53,
-    "energy": 58,
-    "curiosity": 23,
-    "joy": 67,
+    "fullness": 62,
+    "water": 52,
+    "energy": 51,
+    "curiosity": 22,
+    "joy": 66,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "determined and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -658,7 +658,7 @@
       }
     }
   ],
-  "plan": "Forage berries and fill the pot, then sleep in the hut",
+  "plan": "Pull reeds for fibre, drink, fix the hut cone, then sleep in the hut",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -738,7 +738,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "windy",
     "food": 2,
     "seeds": {
       "tree": 0,
@@ -748,7 +748,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 1,
+      "fibre": 5,
       "shells": 10
     },
     "discovered": [
@@ -1092,7 +1092,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 3,
+        "left": 2,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1116,7 +1116,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-23T20:05:13.656Z"
       },
       {
@@ -1663,11 +1663,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-22T05:17:00.322Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1686,19 +1686,18 @@
       "glade"
     ]
   },
-  "ticks": 542,
+  "ticks": 543,
   "spend": {
     "day": "2026-11-22",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
+    "You collected 4 fibre."
   ],
-  "thought": "Dawn is here and I'm nocturnal, so sleep is coming soon. My belly is only 44 and I have no kept berries. The thicket is the sensible place to go: eat some and fill the pot before I sleep. The pigeon will be sneaky, so I'll eat fast and keep my eye open.",
+  "thought": "Dawn is here and I should be sleeping soon, since I am nocturnal. The wind knocked the fibre cone off my hut, and I need 2 more fibre, but I only have 1. So I go to the pond, pull reeds for fibre, and then fix the roof before bed. My belly is okay at 62, water is 52, so the pond is a good stop too.",
   "face": "determined",
-  "lastThought": "2026-11-23T06:17:24.218Z",
+  "lastThought": "2026-11-23T07:18:36.537Z",
   "foundPlace": null
 }
