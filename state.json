@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T22:00:04.502Z",
-  "place": "glade",
+  "lastUpdate": "2026-11-24T22:10:12.802Z",
+  "place": "pond",
   "spot": {
-    "x": -12,
-    "z": -20
+    "x": -4,
+    "z": 21
   },
-  "doing": "explore at the glade",
-  "busyUntil": "2026-11-24T22:09:30.458Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-24T22:20:12.802Z",
   "needs": {
-    "fullness": 59,
-    "water": 50,
-    "energy": 66,
-    "curiosity": 41,
-    "joy": 32,
-    "calm": 95
+    "fullness": 58,
+    "water": 99,
+    "energy": 65,
+    "curiosity": 40,
+    "joy": 31,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious and determined",
+  "mood": "curious and thirsty",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Look at the glade log, drink at the pond, tend seedlings, sleep in the Cosy Hut.",
+  "plan": "Drink at the pond, tend seedlings, hunt a crab wonder, sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -795,7 +795,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "windy",
     "food": 2,
     "seeds": {
       "tree": 0,
@@ -1743,16 +1743,16 @@
       "glade"
     ]
   },
-  "ticks": 577,
+  "ticks": 578,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My water is 52, fullness 61, and my curiosity is a dry shell at 25. I'm at the thicket with a pigeon nearby. Watching the pigeon worked before, so I could do it again, but a nearby seabird or crab wonder might feed curiosity better. Exploring the tidepools gave a small drink earlier. I'll explore somewhere new... but I've seen the whole island. I'll go to the glade and look closely at the giant log and mushrooms for a crab wonder. Water is fine for now, and I'll drink after.",
-  "face": "curious",
-  "lastThought": "2026-11-24T21:39:30.458Z",
+  "thought": "Water is 49 and I'm at the glade, with the log and mushrooms around me. I've looked at this place already. Water is the most pressing need, so I'll go to the pond and drink before more wonder hunting. Then I'll tend the seedlings.",
+  "face": "determined",
+  "lastThought": "2026-11-24T22:10:12.802Z",
   "foundPlace": null
 }
