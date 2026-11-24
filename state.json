@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T19:06:08.315Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-24T19:16:21.394Z",
+  "place": "pond",
   "spot": {
-    "x": -14,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "eat food at the nest",
-  "busyUntil": "2026-11-24T19:16:08.315Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-24T19:26:21.394Z",
   "needs": {
-    "fullness": 14,
-    "water": 17,
-    "energy": 99,
-    "curiosity": 25,
-    "joy": 34,
+    "fullness": 13,
+    "water": 66,
+    "energy": 98,
+    "curiosity": 24,
+    "joy": 33,
     "calm": 100
   },
   "health": 88,
-  "mood": "hungry but determined",
+  "mood": "thirsty but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,16 +167,18 @@
   "today": {
     "date": "2026-11-24",
     "plan": [
-      "Eat the last berry for breakfast",
+      "Eat the last berry",
       "Drink at the pond",
-      "Forage berries in the thicket and fill the pot",
+      "Forage berries and fill the pot",
       "Tend the seedlings",
-      "Eat a proper second meal",
+      "Eat a proper meal",
       "Hunt for a crab wonder",
       "Drink again and wind down",
       "Sleep in the Cosy Hut"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -701,7 +703,7 @@
       }
     }
   ],
-  "plan": "Eat the last berry, drink at the pond, forage a full pot of berries, tend the seedlings, then hunt for a crab wonder.",
+  "plan": "Drink, forage a full pot of berries, tend seedlings, hunt a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1741,18 +1743,16 @@
       "glade"
     ]
   },
-  "ticks": 571,
+  "ticks": 572,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [
-    "You ate 1 berries from your food."
-  ],
-  "thought": "I woke up with fullness at zero and water at 17. That is dangerous, so food and water come before any wonder-hunting. I have 1 berry and I'm at the nest, so I'll eat it now. Then I'll drink at the pond, which is close, and then forage in the thicket. The pigeon is a risk to kept berries, so I'll eat quickly.",
+  "lastOutcome": [],
+  "thought": "Water 16 and fullness 13 are both dangerously low. Drink first at the pond, it's close, then berries in the thicket. No dawdling.",
   "face": "determined",
-  "lastThought": "2026-11-24T19:06:08.315Z",
+  "lastThought": "2026-11-24T19:16:21.394Z",
   "foundPlace": null
 }
