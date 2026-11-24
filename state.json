@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T09:33:12.669Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-24T09:43:26.729Z",
+  "place": "tidepools",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18,
+    "z": 34
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-24T09:42:04.018Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-24T10:13:26.729Z",
   "needs": {
-    "fullness": 53,
-    "water": 73,
-    "energy": 78,
-    "curiosity": 16,
-    "joy": 39,
+    "fullness": 52,
+    "water": 72,
+    "energy": 69,
+    "curiosity": 33,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -682,7 +682,7 @@
       }
     }
   ],
-  "plan": "Nap in the Cosy Hut, then wake, drink, forage, tend seedlings.",
+  "plan": "Explore the tidepools, then nap in the Cosy Hut, then tonight drink, forage, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.63,
+        "left": 1.7,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1722,16 +1722,16 @@
       "glade"
     ]
   },
-  "ticks": 568,
+  "ticks": 569,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
   "lastOutcome": [],
-  "thought": "It is morning and I am nocturnal, so I should be sleeping. Energy is 53, which is middling. The Cosy Hut is right here. A nap is the sensible thing, and then I wake at dusk to explore and hunt a wonder.",
-  "face": "sleepy",
-  "lastThought": "2026-11-24T08:42:04.018Z",
+  "thought": "It is morning and I should be asleep, since I am nocturnal. My curiosity is a dry shell, though. Energy is fine at 77, so a short wonder before sleeping seems good. Exploring the glade log or the tidepools could fill curiosity. I will explore the tidepools closely, then sleep in the Cosy Hut.",
+  "face": "curious",
+  "lastThought": "2026-11-24T09:43:26.729Z",
   "foundPlace": null
 }
