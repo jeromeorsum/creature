@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T20:27:57.391Z",
+  "lastUpdate": "2026-11-24T20:38:16.201Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-24T20:32:32.525Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-24T20:53:16.201Z",
   "needs": {
-    "fullness": 68,
-    "water": 59,
-    "energy": 83,
-    "curiosity": 17,
-    "joy": 36,
-    "calm": 100
+    "fullness": 67,
+    "water": 58,
+    "energy": 82,
+    "curiosity": 31,
+    "joy": 40,
+    "calm": 95
   },
-  "health": 91,
-  "mood": "hungry but determined",
+  "health": 92,
+  "mood": "curious and sneaky",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,17 +167,17 @@
   "today": {
     "date": "2026-11-24",
     "plan": [
-      "Drink at the pond",
-      "Forage berries and fill the pot",
-      "Eat a proper meal",
+      "Eat breakfast berries",
+      "Spy on the pigeon",
       "Tend the seedlings",
       "Hunt for a crab wonder",
-      "Drink again",
+      "Drink at the pond",
       "Wind down and sleep in the Cosy Hut"
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Forage berries, tend seedlings, hunt a crab wonder, drink, sleep in the Cosy Hut.",
+  "plan": "Spy on pigeon, tend seedlings, drink, hunt a crab wonder, sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1267,7 +1267,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1323,7 +1323,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.14,
+        "left": 1.21,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1743,18 +1743,16 @@
       "glade"
     ]
   },
-  "ticks": 575,
+  "ticks": 576,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is only at 46 and I have no kept berries. I am at the thicket, so picking berries is the obvious thing. Fill the pot, eat a handful, and keep an eye on the pigeon. Curiosity is low, but food comes first and then I can hunt a wonder.",
-  "face": "determined",
-  "lastThought": "2026-11-24T20:07:32.525Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is very low at 16, and my belly is okay now. The pigeon is nearby, so a little spying would feed curiosity and it might know something. I'll spy on it, then tend seedlings.",
+  "face": "suspicious",
+  "lastThought": "2026-11-24T20:38:16.201Z",
   "foundPlace": null
 }
