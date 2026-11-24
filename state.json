@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T21:49:45.739Z",
+  "lastUpdate": "2026-11-24T22:00:04.502Z",
   "place": "glade",
   "spot": {
     "x": -12,
@@ -10,14 +10,14 @@
   "doing": "explore at the glade",
   "busyUntil": "2026-11-24T22:09:30.458Z",
   "needs": {
-    "fullness": 60,
-    "water": 51,
-    "energy": 67,
-    "curiosity": 42,
-    "joy": 33,
+    "fullness": 59,
+    "water": 50,
+    "energy": 66,
+    "curiosity": 41,
+    "joy": 32,
     "calm": 95
   },
-  "health": 99,
+  "health": 100,
   "mood": "curious and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
