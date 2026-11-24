@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T22:40:55.709Z",
+  "lastUpdate": "2026-11-24T22:51:06.293Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-24T23:11:06.293Z",
   "needs": {
-    "fullness": 55,
-    "water": 96,
-    "energy": 62,
-    "curiosity": 37,
-    "joy": 28,
-    "calm": 98
+    "fullness": 54,
+    "water": 95,
+    "energy": 56,
+    "curiosity": 36,
+    "joy": 45,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and thirsty",
+  "mood": "playful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, tend seedlings, hunt a crab wonder, sleep in the Cosy Hut.",
+  "plan": "Splash, eat berries, tend seedlings, hunt a crab wonder, sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1743,16 +1743,16 @@
       "glade"
     ]
   },
-  "ticks": 578,
+  "ticks": 579,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "Water is 49 and I'm at the glade, with the log and mushrooms around me. I've looked at this place already. Water is the most pressing need, so I'll go to the pond and drink before more wonder hunting. Then I'll tend the seedlings.",
-  "face": "determined",
-  "lastThought": "2026-11-24T22:10:12.802Z",
+  "thought": "Water is 95 so I'm fine on drinking. Belly is only 54 and I'm standing at a pond with clay and reeds. Joy is low at 27, and splashing is cheap fun. I'll splash in the pond, then later eat and tend seedlings.",
+  "face": "excited",
+  "lastThought": "2026-11-24T22:51:06.293Z",
   "foundPlace": null
 }
