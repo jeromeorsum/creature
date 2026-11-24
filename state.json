@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T23:42:16.458Z",
+  "lastUpdate": "2026-11-24T23:52:25.881Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "tend plants at the pond",
+  "busyUntil": "2026-11-25T00:27:25.881Z",
   "needs": {
-    "fullness": 49,
-    "water": 90,
-    "energy": 51,
-    "curiosity": 31,
-    "joy": 40,
+    "fullness": 48,
+    "water": 85,
+    "energy": 42,
+    "curiosity": 30,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "playful",
+  "mood": "playful and dutiful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Splash, eat berries, tend seedlings, hunt a crab wonder, sleep in the Cosy Hut.",
+  "plan": "Tend plants, eat berries, forage a heap, then hunt a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1142,7 +1142,7 @@
         "x": 4.9,
         "z": 27.6,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "fibre2",
@@ -1150,7 +1150,7 @@
         "x": -2.2,
         "z": 17.7,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "fibre3",
@@ -1158,7 +1158,7 @@
         "x": -3.5,
         "z": 26.1,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "fibre4",
@@ -1166,7 +1166,7 @@
         "x": -5.6,
         "z": 26.7,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "fibre5",
@@ -1174,7 +1174,7 @@
         "x": -3.9,
         "z": 19.8,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "fibre6",
@@ -1182,7 +1182,7 @@
         "x": 4,
         "z": 23,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "fibre7",
@@ -1190,7 +1190,7 @@
         "x": 4.1,
         "z": 18.6,
         "left": 3,
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "shells1",
@@ -1334,7 +1334,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted58",
@@ -1344,7 +1344,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted59",
@@ -1354,7 +1354,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted60",
@@ -1604,7 +1604,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted85",
@@ -1614,7 +1614,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted86",
@@ -1624,7 +1624,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
-        "tendedUntil": "2026-11-23T20:05:13.656Z"
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted87",
@@ -1634,7 +1634,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted88",
@@ -1644,7 +1644,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
         "id": "planted89",
@@ -1654,7 +1654,7 @@
         "left": 0,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
-        "tendedUntil": null
+        "tendedUntil": "2026-11-25T23:52:25.881Z"
       }
     ],
     "structures": [
@@ -1743,16 +1743,18 @@
       "glade"
     ]
   },
-  "ticks": 579,
+  "ticks": 580,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "Water is 95 so I'm fine on drinking. Belly is only 54 and I'm standing at a pond with clay and reeds. Joy is low at 27, and splashing is cheap fun. I'll splash in the pond, then later eat and tend seedlings.",
-  "face": "excited",
-  "lastThought": "2026-11-24T22:51:06.293Z",
+  "lastOutcome": [
+    "You looked after 16 plants around the pond. They'll grow for about a day."
+  ],
+  "thought": "My belly is only middling at 48 and I have two berries kept. The seedlings still need tending, and I'm at the pond with the plants nearby. Tending gives calm and joy, and keeps them growing. Then I'll eat berries. Tending first since it's been on my plan all night.",
+  "face": "determined",
+  "lastThought": "2026-11-24T23:52:25.881Z",
   "foundPlace": null
 }
