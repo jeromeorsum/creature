@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T22:30:32.943Z",
+  "lastUpdate": "2026-11-24T22:40:55.709Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the pond",
   "busyUntil": null,
   "needs": {
-    "fullness": 56,
-    "water": 97,
-    "energy": 63,
-    "curiosity": 38,
-    "joy": 29,
+    "fullness": 55,
+    "water": 96,
+    "energy": 62,
+    "curiosity": 37,
+    "joy": 28,
     "calm": 98
   },
   "health": 100,
