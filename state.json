@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T19:16:21.394Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-24T19:26:32.613Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-24T19:26:21.394Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-24T19:51:32.613Z",
   "needs": {
-    "fullness": 13,
-    "water": 66,
-    "energy": 98,
-    "curiosity": 24,
-    "joy": 33,
+    "fullness": 36,
+    "water": 65,
+    "energy": 93,
+    "curiosity": 23,
+    "joy": 35,
     "calm": 100
   },
   "health": 88,
-  "mood": "thirsty but determined",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,17 +167,17 @@
   "today": {
     "date": "2026-11-24",
     "plan": [
-      "Eat the last berry",
       "Drink at the pond",
       "Forage berries and fill the pot",
-      "Tend the seedlings",
       "Eat a proper meal",
+      "Tend the seedlings",
       "Hunt for a crab wonder",
-      "Drink again and wind down",
-      "Sleep in the Cosy Hut"
+      "Drink again",
+      "Wind down and sleep in the Cosy Hut"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -796,7 +796,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1267,7 +1267,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1743,16 +1743,19 @@
       "glade"
     ]
   },
-  "ticks": 572,
+  "ticks": 573,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [],
-  "thought": "Water 16 and fullness 13 are both dangerously low. Drink first at the pond, it's close, then berries in the thicket. No dawdling.",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is nearly empty at 12 and water is 65. Berries first. The thicket has bushes with berries on them. I'll go forage and fill the pot, watching for the pigeon. Then tend seedlings.",
   "face": "determined",
-  "lastThought": "2026-11-24T19:16:21.394Z",
+  "lastThought": "2026-11-24T19:26:32.613Z",
   "foundPlace": null
 }
