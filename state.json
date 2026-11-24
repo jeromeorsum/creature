@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T10:14:05.988Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-24T10:24:15.253Z",
+  "place": "nest",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-24T11:24:15.253Z",
   "needs": {
-    "fullness": 49,
-    "water": 69,
-    "energy": 66,
-    "curiosity": 30,
-    "joy": 35,
+    "fullness": 43,
+    "water": 68,
+    "energy": 95,
+    "curiosity": 29,
+    "joy": 34,
     "calm": 100
   },
   "health": 100,
@@ -181,7 +181,8 @@
       3,
       5,
       6,
-      4
+      4,
+      7
     ]
   },
   "lessons": [
@@ -680,9 +681,34 @@
           8
         ]
       }
+    },
+    {
+      "date": "2026-11-23",
+      "summary": "Today I foraged, planted berry seeds, tended seedlings, drank, pressed shells into clay and spied on the pigeon, who stole a shell. My belly stayed middling, but I never collapsed, which is good. The tidepools gave my curiosity a small drink before bed. I feel calm and very sleepy. Tomorrow night I want a fuller berry pot, tended seedlings and one real wonder about the crabs.",
+      "plan": {
+        "date": "2026-11-23",
+        "plan": [
+          "Forage berries for breakfast",
+          "Plant berry seeds",
+          "Tend the seedlings",
+          "Drink at the pond",
+          "Hunt for one real wonder",
+          "Eat a berry dinner",
+          "Wind down with the shells"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          4,
+          7
+        ]
+      }
     }
   ],
-  "plan": "Explore the tidepools, then nap in the Cosy Hut, then tonight drink, forage, tend seedlings.",
+  "plan": "Sleep in the Cosy Hut, then tonight drink, forage, tend seedlings and find one real wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1246,7 +1272,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.91,
+        "left": 1.98,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1722,16 +1748,16 @@
       "glade"
     ]
   },
-  "ticks": 569,
+  "ticks": 570,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "It is morning and I should be asleep, since I am nocturnal. My curiosity is a dry shell, though. Energy is fine at 77, so a short wonder before sleeping seems good. Exploring the glade log or the tidepools could fill curiosity. I will explore the tidepools closely, then sleep in the Cosy Hut.",
-  "face": "curious",
-  "lastThought": "2026-11-24T09:43:26.729Z",
+  "thought": "The sun is up and my eye is heavy. The tidepools were a nice last wonder, with crabs fussing about and shells shining. My belly is middling but I have one berry and the pigeon is far away. Bedtime is here, so I will nap in the Cosy Hut and dream of crab words. Tonight I will drink, forage and tend the seedlings.",
+  "face": "sleepy",
+  "lastThought": "2026-11-24T10:24:15.253Z",
   "foundPlace": null
 }
