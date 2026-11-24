@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T08:42:04.018Z",
+  "lastUpdate": "2026-11-24T08:52:14.615Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,11 +10,11 @@
   "doing": "nap at the nest",
   "busyUntil": "2026-11-24T09:42:04.018Z",
   "needs": {
-    "fullness": 58,
-    "water": 78,
-    "energy": 83,
-    "curiosity": 21,
-    "joy": 44,
+    "fullness": 57,
+    "water": 77,
+    "energy": 82,
+    "curiosity": 20,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.28,
+        "left": 1.35,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1302,7 +1302,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.72,
+        "left": 3.79,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
