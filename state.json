@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T07:30:31.283Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-24T07:40:47.183Z",
+  "place": "nest",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-24T08:40:47.183Z",
   "needs": {
-    "fullness": 75,
-    "water": 85,
-    "energy": 30,
-    "curiosity": 28,
-    "joy": 51,
-    "calm": 98
+    "fullness": 69,
+    "water": 84,
+    "energy": 59,
+    "curiosity": 27,
+    "joy": 50,
+    "calm": 100
   },
   "health": 100,
-  "mood": "calm and a bit hungry",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -682,7 +682,7 @@
       }
     }
   ],
-  "plan": "Forage berries, then nap in the Cosy Hut, then wake and drink.",
+  "plan": "Nap in the Cosy Hut, then wake, drink, forage, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.79,
+        "left": 0.86,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1302,7 +1302,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.23,
+        "left": 3.3,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1550,7 +1550,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3.98,
+        "left": 4,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1722,19 +1722,16 @@
       "glade"
     ]
   },
-  "ticks": 566,
+  "ticks": 567,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is middling at 56 and I have no kept berries. Energy is 39, so I'm getting tired as dawn comes. The thicket has berry bushes, and I should fill my pot. Foraging first, then sleep in the Cosy Hut at sleeping time. The pigeon will watch, so I'll eat quickly.",
-  "face": "determined",
-  "lastThought": "2026-11-24T06:39:22.411Z",
+  "lastOutcome": [],
+  "thought": "Dawn is coming and my energy is a sleepy pebble at 29. My bedtime is near, so I should go home to the Cosy Hut and nap. Belly and water are fine. I'll sleep and keep the berry seeds for later.",
+  "face": "sleepy",
+  "lastThought": "2026-11-24T07:40:47.183Z",
   "foundPlace": null
 }
