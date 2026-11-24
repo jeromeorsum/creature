@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T20:48:22.910Z",
+  "lastUpdate": "2026-11-24T20:58:35.572Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-24T20:53:16.201Z",
+  "doing": "pottering about at the thicket",
+  "busyUntil": null,
   "needs": {
-    "fullness": 66,
-    "water": 57,
-    "energy": 81,
-    "curiosity": 30,
-    "joy": 39,
+    "fullness": 65,
+    "water": 56,
+    "energy": 80,
+    "curiosity": 29,
+    "joy": 38,
     "calm": 95
   },
-  "health": 93,
+  "health": 94,
   "mood": "curious and sneaky",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -1267,7 +1267,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.56,
+        "left": 0.63,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1323,7 +1323,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.28,
+        "left": 1.35,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
