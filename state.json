@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T19:47:13.186Z",
+  "lastUpdate": "2026-11-24T19:57:19.552Z",
   "place": "thicket",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-24T19:51:32.613Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-24T20:07:19.552Z",
   "needs": {
-    "fullness": 34,
-    "water": 63,
-    "energy": 91,
-    "curiosity": 21,
-    "joy": 33,
+    "fullness": 47,
+    "water": 62,
+    "energy": 90,
+    "curiosity": 20,
+    "joy": 36,
     "calm": 100
   },
   "health": 88,
@@ -796,7 +796,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1267,7 +1267,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.14,
+        "left": 1.21,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1743,7 +1743,7 @@
       "glade"
     ]
   },
-  "ticks": 573,
+  "ticks": 574,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
@@ -1751,8 +1751,7 @@
     "ticks": 3
   },
   "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You ate 1 berries from your food."
   ],
   "thought": "My belly is nearly empty at 12 and water is 65. Berries first. The thicket has bushes with berries on them. I'll go forage and fill the pot, watching for the pigeon. Then tend seedlings.",
   "face": "determined",
