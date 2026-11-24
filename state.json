@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T00:00:48.079Z",
+  "lastUpdate": "2026-11-24T00:10:56.222Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "eat food at the cliffs",
+  "busyUntil": "2026-11-24T00:20:56.222Z",
   "needs": {
-    "fullness": 53,
-    "water": 50,
-    "energy": 30,
-    "curiosity": 42,
-    "joy": 72,
+    "fullness": 80,
+    "water": 49,
+    "energy": 29,
+    "curiosity": 41,
+    "joy": 75,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -179,7 +179,8 @@
       1,
       2,
       3,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -680,7 +681,7 @@
       }
     }
   ],
-  "plan": "Listen to the seabirds, then drink at the pond, eat berries, wind down.",
+  "plan": "Eat berries, drink at the pond, forage more berries, wind down.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -769,7 +770,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1240,7 +1241,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.71,
+        "left": 1.78,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1256,7 +1257,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.05,
+        "left": 1.12,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1264,7 +1265,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.05,
+        "left": 1.12,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1280,7 +1281,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.05,
+        "left": 1.12,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1296,7 +1297,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.15,
+        "left": 1.22,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1344,7 +1345,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1374,7 +1375,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1434,7 +1435,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.05,
+        "left": 1.12,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1544,7 +1545,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3.1,
+        "left": 3.12,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1716,16 +1717,18 @@
       "glade"
     ]
   },
-  "ticks": 557,
+  "ticks": 558,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "I'm at the cliffs in the moonlight and my curiosity is low at 31. The seabirds are loud on the ledges. I should look closely at them and try to notice a real wonder, like whether they call in patterns I can answer with my clacker. Water is 54, so I'll drink after this.",
-  "face": "curious",
-  "lastThought": "2026-11-23T23:19:53.630Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My belly is half a cave and my water is thin. I'm at the cliffs, far from the pond, with only 2 berries. Energy is low too. Meal time: eat the two berries now while the wind is blowing, then go drink at the pond. The pigeon can't steal them if they're in my belly.",
+  "face": "happy",
+  "lastThought": "2026-11-24T00:10:56.222Z",
   "foundPlace": null
 }
