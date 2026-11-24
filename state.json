@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T06:29:07.642Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-24T06:39:22.411Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-24T07:04:22.411Z",
   "needs": {
-    "fullness": 57,
-    "water": 91,
-    "energy": 40,
-    "curiosity": 34,
-    "joy": 54,
+    "fullness": 80,
+    "water": 90,
+    "energy": 35,
+    "curiosity": 33,
+    "joy": 56,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and calm",
+  "mood": "calm and a bit hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -682,7 +682,7 @@
       }
     }
   ],
-  "plan": "Drink, then forage berries, then hunt for one real wonder.",
+  "plan": "Forage berries, then nap in the Cosy Hut, then wake and drink.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -775,7 +775,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.37,
+        "left": 0.44,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1262,7 +1262,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.71,
+        "left": 3.78,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1270,7 +1270,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.71,
+        "left": 3.78,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1286,7 +1286,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.71,
+        "left": 3.78,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1302,7 +1302,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.81,
+        "left": 2.88,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1350,7 +1350,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.71,
+        "left": 3.78,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1380,7 +1380,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.71,
+        "left": 3.78,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1440,7 +1440,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.71,
+        "left": 3.78,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1550,7 +1550,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3.86,
+        "left": 3.88,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1722,16 +1722,19 @@
       "glade"
     ]
   },
-  "ticks": 565,
+  "ticks": 566,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is low at 23 and water is fine. I'm at the pond, so I'll try an experiment with clay and shells here. Maybe press a shell into wet clay to make a print, and see if the crabs read it. That's cheap and a possible wonder.",
-  "face": "curious",
-  "lastThought": "2026-11-24T05:48:22.005Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is middling at 56 and I have no kept berries. Energy is 39, so I'm getting tired as dawn comes. The thicket has berry bushes, and I should fill my pot. Foraging first, then sleep in the Cosy Hut at sleeping time. The pigeon will watch, so I'll eat quickly.",
+  "face": "determined",
+  "lastThought": "2026-11-24T06:39:22.411Z",
   "foundPlace": null
 }
