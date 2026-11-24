@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T19:57:19.552Z",
+  "lastUpdate": "2026-11-24T20:07:32.525Z",
   "place": "thicket",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-24T20:07:19.552Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-24T20:32:32.525Z",
   "needs": {
-    "fullness": 47,
-    "water": 62,
-    "energy": 90,
-    "curiosity": 20,
-    "joy": 36,
+    "fullness": 70,
+    "water": 61,
+    "energy": 85,
+    "curiosity": 19,
+    "joy": 38,
     "calm": 100
   },
-  "health": 88,
+  "health": 89,
   "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Drink, forage a full pot of berries, tend seedlings, hunt a crab wonder.",
+  "plan": "Forage berries, tend seedlings, hunt a crab wonder, drink, sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -796,7 +796,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1267,7 +1267,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.21,
+        "left": 0.28,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1323,7 +1323,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1743,18 +1743,18 @@
       "glade"
     ]
   },
-  "ticks": 574,
+  "ticks": 575,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 4 berries and ate 2 on the spot."
   ],
-  "thought": "My belly is nearly empty at 12 and water is 65. Berries first. The thicket has bushes with berries on them. I'll go forage and fill the pot, watching for the pigeon. Then tend seedlings.",
+  "thought": "My belly is only at 46 and I have no kept berries. I am at the thicket, so picking berries is the obvious thing. Fill the pot, eat a handful, and keep an eye on the pigeon. Curiosity is low, but food comes first and then I can hunt a wonder.",
   "face": "determined",
-  "lastThought": "2026-11-24T19:26:32.613Z",
+  "lastThought": "2026-11-24T20:07:32.525Z",
   "foundPlace": null
 }
