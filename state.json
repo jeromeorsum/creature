@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T18:55:55.339Z",
+  "lastUpdate": "2026-11-24T19:06:08.315Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "eat food at the nest",
+  "busyUntil": "2026-11-24T19:16:08.315Z",
   "needs": {
-    "fullness": 0,
-    "water": 18,
-    "energy": 100,
-    "curiosity": 26,
-    "joy": 31,
+    "fullness": 14,
+    "water": 17,
+    "energy": 99,
+    "curiosity": 25,
+    "joy": 34,
     "calm": 100
   },
-  "health": 89,
-  "mood": "curious and sleepy",
+  "health": 88,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -165,25 +165,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "plan": [
-      "Forage berries for breakfast",
-      "Plant berry seeds",
-      "Tend the seedlings",
+      "Eat the last berry for breakfast",
       "Drink at the pond",
-      "Hunt for one real wonder",
-      "Eat a berry dinner",
-      "Wind down with the shells"
+      "Forage berries in the thicket and fill the pot",
+      "Tend the seedlings",
+      "Eat a proper second meal",
+      "Hunt for a crab wonder",
+      "Drink again and wind down",
+      "Sleep in the Cosy Hut"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      5,
-      6,
-      4,
-      7
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -708,7 +701,7 @@
       }
     }
   ],
-  "plan": "Sleep in the Cosy Hut, then tonight drink, forage, tend seedlings and find one real wonder.",
+  "plan": "Eat the last berry, drink at the pond, forage a full pot of berries, tend the seedlings, then hunt for a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -801,7 +794,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1748,16 +1741,18 @@
       "glade"
     ]
   },
-  "ticks": 570,
+  "ticks": 571,
   "spend": {
-    "day": "2026-11-23",
+    "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "The sun is up and my eye is heavy. The tidepools were a nice last wonder, with crabs fussing about and shells shining. My belly is middling but I have one berry and the pigeon is far away. Bedtime is here, so I will nap in the Cosy Hut and dream of crab words. Tonight I will drink, forage and tend the seedlings.",
-  "face": "sleepy",
-  "lastThought": "2026-11-24T10:24:15.253Z",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "I woke up with fullness at zero and water at 17. That is dangerous, so food and water come before any wonder-hunting. I have 1 berry and I'm at the nest, so I'll eat it now. Then I'll drink at the pond, which is close, and then forage in the thicket. The pigeon is a risk to kept berries, so I'll eat quickly.",
+  "face": "determined",
+  "lastThought": "2026-11-24T19:06:08.315Z",
   "foundPlace": null
 }
