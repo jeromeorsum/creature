@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T05:38:16.764Z",
+  "lastUpdate": "2026-11-24T05:48:22.005Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "experiment at the pond",
+  "busyUntil": "2026-11-24T06:28:22.005Z",
   "needs": {
-    "fullness": 62,
-    "water": 96,
-    "energy": 53,
-    "curiosity": 24,
-    "joy": 51,
-    "calm": 100
+    "fullness": 61,
+    "water": 95,
+    "energy": 44,
+    "curiosity": 38,
+    "joy": 58,
+    "calm": 98
   },
   "health": 100,
-  "mood": "calm and curious",
+  "mood": "curious and calm",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -180,7 +180,8 @@
       2,
       3,
       5,
-      6
+      6,
+      4
     ]
   },
   "lessons": [
@@ -766,6 +767,10 @@
     {
       "text": "{\"what\":\"Seabirds on the ledges call in groups with pauses between, and tapping my beak in a matching short-long pattern makes some of them turn their heads toward me.\"}",
       "made": "2026-11-23T23:19:53.630Z"
+    },
+    {
+      "text": "{\"what\":\"A shell pressed into wet pond clay leaves a ridged print that keeps its shape, so clay can hold a shell's pattern like a stamp.\"}",
+      "made": "2026-11-24T05:48:22.005Z"
     }
   ],
   "world": {
@@ -1241,7 +1246,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.02,
+        "left": 2.09,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1257,7 +1262,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.36,
+        "left": 3.43,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1265,7 +1270,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.36,
+        "left": 3.43,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1281,7 +1286,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.36,
+        "left": 3.43,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1297,7 +1302,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.46,
+        "left": 3.53,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1345,7 +1350,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.36,
+        "left": 3.43,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1375,7 +1380,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.36,
+        "left": 3.43,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1435,7 +1440,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.36,
+        "left": 3.43,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1545,7 +1550,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3.76,
+        "left": 3.78,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1717,16 +1722,16 @@
       "glade"
     ]
   },
-  "ticks": 564,
+  "ticks": 565,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "My curiosity is low at 28, and my water is fine but not great. I haven't drunk at the pond yet today, and it's close. I'll drink first, then go and look for something wondrous. The night is dark and full of fireflies, which is a lovely time to be awake.",
+  "thought": "My curiosity is low at 23 and water is fine. I'm at the pond, so I'll try an experiment with clay and shells here. Maybe press a shell into wet clay to make a print, and see if the crabs read it. That's cheap and a possible wonder.",
   "face": "curious",
-  "lastThought": "2026-11-24T04:57:15.895Z",
+  "lastThought": "2026-11-24T05:48:22.005Z",
   "foundPlace": null
 }
