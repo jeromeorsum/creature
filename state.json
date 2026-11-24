@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T17:44:26.094Z",
+  "lastUpdate": "2026-11-24T17:54:33.993Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,14 +10,14 @@
   "doing": "asleep in \"Cosy Hut\"",
   "busyUntil": null,
   "needs": {
-    "fullness": 1,
-    "water": 25,
+    "fullness": 0,
+    "water": 24,
     "energy": 100,
     "curiosity": 26,
     "joy": 31,
     "calm": 100
   },
-  "health": 96,
+  "health": 95,
   "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
