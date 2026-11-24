@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T03:14:47.538Z",
+  "lastUpdate": "2026-11-24T03:25:09.946Z",
   "place": "thicket",
   "spot": {
-    "x": 14.6,
-    "z": -4.6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-24T03:19:22.307Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-24T03:40:09.946Z",
   "needs": {
-    "fullness": 81,
-    "water": 81,
-    "energy": 37,
-    "curiosity": 23,
-    "joy": 60,
-    "calm": 100
+    "fullness": 80,
+    "water": 80,
+    "energy": 36,
+    "curiosity": 37,
+    "joy": 64,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "suspicious but curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -681,7 +681,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink at the pond, nap in the Cosy Hut.",
+  "plan": "Spy on the pigeon, then nap in the Cosy Hut, then drink and forage at dusk.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -780,7 +780,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 9
+      "shells": 8
     },
     "discovered": [
       "clay",
@@ -1241,7 +1241,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.04,
+        "left": 1.11,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1257,7 +1257,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.38,
+        "left": 2.45,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1265,7 +1265,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.38,
+        "left": 2.45,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1281,7 +1281,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.38,
+        "left": 2.45,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1297,7 +1297,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.48,
+        "left": 2.55,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1345,7 +1345,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1375,7 +1375,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1435,7 +1435,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.38,
+        "left": 2.45,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1545,7 +1545,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3.48,
+        "left": 3.5,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1717,19 +1717,16 @@
       "glade"
     ]
   },
-  "ticks": 561,
+  "ticks": 562,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is a middling cave and my water is fine, but the pot is empty and the pigeon knows it. I should pick berries at the thicket before anything else. Then I can drink and nap in the Cosy Hut when the sun comes up.",
-  "face": "determined",
-  "lastThought": "2026-11-24T02:54:22.307Z",
+  "lastOutcome": [],
+  "thought": "The pigeon swiped a shell again, cheeky thing. My energy is a sleepy pebble at 36, and the pot is empty. My belly is fine and water is okay. I should pick more berries to fill the pot, but really I need a nap in the Cosy Hut soon. Curiosity is low too, so spying on the pigeon right here is cheap and fun and might teach me where it hides its loot. I'll do that.",
+  "face": "suspicious",
+  "lastThought": "2026-11-24T03:25:09.946Z",
   "foundPlace": null
 }
