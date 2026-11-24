@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T08:31:52.126Z",
+  "lastUpdate": "2026-11-24T08:42:04.018Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-24T08:40:47.183Z",
+  "busyUntil": "2026-11-24T09:42:04.018Z",
   "needs": {
-    "fullness": 64,
-    "water": 79,
-    "energy": 54,
-    "curiosity": 22,
-    "joy": 45,
+    "fullness": 58,
+    "water": 78,
+    "energy": 83,
+    "curiosity": 21,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
@@ -1246,7 +1246,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.21,
+        "left": 1.28,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1302,7 +1302,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.65,
+        "left": 3.72,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1722,16 +1722,16 @@
       "glade"
     ]
   },
-  "ticks": 567,
+  "ticks": 568,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "Dawn is coming and my energy is a sleepy pebble at 29. My bedtime is near, so I should go home to the Cosy Hut and nap. Belly and water are fine. I'll sleep and keep the berry seeds for later.",
+  "thought": "It is morning and I am nocturnal, so I should be sleeping. Energy is 53, which is middling. The Cosy Hut is right here. A nap is the sensible thing, and then I wake at dusk to explore and hunt a wonder.",
   "face": "sleepy",
-  "lastThought": "2026-11-24T07:40:47.183Z",
+  "lastThought": "2026-11-24T08:42:04.018Z",
   "foundPlace": null
 }
