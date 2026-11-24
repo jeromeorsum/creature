@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-24T02:44:10.573Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-24T02:54:22.307Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-24T02:53:05.929Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-24T03:19:22.307Z",
   "needs": {
-    "fullness": 60,
-    "water": 84,
-    "energy": 44,
-    "curiosity": 26,
-    "joy": 60,
+    "fullness": 83,
+    "water": 83,
+    "energy": 39,
+    "curiosity": 25,
+    "joy": 62,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -681,7 +681,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, forage berries, nap in the Cosy Hut.",
+  "plan": "Forage berries, drink at the pond, nap in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1241,7 +1241,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.83,
+        "left": 0.9,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1257,7 +1257,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.17,
+        "left": 2.24,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1265,7 +1265,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.17,
+        "left": 2.24,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1281,7 +1281,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.17,
+        "left": 2.24,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1297,7 +1297,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.27,
+        "left": 2.34,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1345,7 +1345,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.17,
+        "left": 2.24,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1375,7 +1375,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.17,
+        "left": 2.24,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1435,7 +1435,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.17,
+        "left": 2.24,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1545,7 +1545,7 @@
         "res": "wood",
         "x": 17.9,
         "z": 7.5,
-        "left": 3.42,
+        "left": 3.44,
         "max": 4,
         "planted": "2026-11-21T01:11:52.028Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1717,16 +1717,19 @@
       "glade"
     ]
   },
-  "ticks": 560,
+  "ticks": 561,
   "spend": {
     "day": "2026-11-23",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [],
-  "thought": "Water is 43 and energy is 23, so I should drink first. The pond is far from the cliffs, but I have no berries kept and my belly is still fine at 74. Drink, then forage, then sleep when the sun comes up. I'll go to the pond.",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is a middling cave and my water is fine, but the pot is empty and the pigeon knows it. I should pick berries at the thicket before anything else. Then I can drink and nap in the Cosy Hut when the sun comes up.",
   "face": "determined",
-  "lastThought": "2026-11-24T01:12:22.883Z",
+  "lastThought": "2026-11-24T02:54:22.307Z",
   "foundPlace": null
 }
