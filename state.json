@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T06:20:29.511Z",
+  "lastUpdate": "2026-11-25T06:30:44.608Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-25T07:10:44.608Z",
   "needs": {
-    "fullness": 47,
-    "water": 47,
-    "energy": 36,
-    "curiosity": 30,
-    "joy": 40,
-    "calm": 100
+    "fullness": 46,
+    "water": 46,
+    "energy": 27,
+    "curiosity": 44,
+    "joy": 47,
+    "calm": 98
   },
   "health": 100,
   "mood": "curious and hopeful",
@@ -177,7 +177,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      4
     ]
   },
   "lessons": [
@@ -703,7 +704,7 @@
       }
     }
   ],
-  "plan": "Look at the tidepool crabs, drink at the pond, forage berries, sleep in the hut.",
+  "plan": "Study the crab shells, then drink at the pond, forage berries, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -792,6 +793,10 @@
     {
       "text": "{\"what\":\"A shell pressed into wet pond clay leaves a ridged print that keeps its shape, so clay can hold a shell's pattern like a stamp.\"}",
       "made": "2026-11-24T05:48:22.005Z"
+    },
+    {
+      "text": "{\"what\":\"Crabs scratch the same mark on a shell again and again, so each mark may be a repeated word rather than a single sound.\"}",
+      "made": "2026-11-25T06:30:44.608Z"
     }
   ],
   "world": {
@@ -1173,7 +1178,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.2,
+        "left": 1.25,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1631,7 +1636,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 2.66,
+        "left": 2.73,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1641,7 +1646,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 2.66,
+        "left": 2.73,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1651,7 +1656,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 2.66,
+        "left": 2.73,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1743,16 +1748,16 @@
       "glade"
     ]
   },
-  "ticks": 588,
+  "ticks": 589,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [],
-  "thought": "My curiosity is a dry shell, and my belly and water are both middling. The thicket is the place for berries, but a proper explore to somewhere new might feed my curiosity best. I have explored the whole island, though, so I will look closely at the tidepools, where the crabs live, and hunt for a crab wonder. Drink first would be wise, but the water is 51 so I can manage one outing.",
+  "thought": "Water and fullness are both middling, and I'm at the tidepools with shells that have something on them. Drinking is the sensible thing, but the crabs are right here and my curiosity is low. I will experiment with the scratched shells for a crab wonder first. Then I'll go drink and forage.",
   "face": "curious",
-  "lastThought": "2026-11-25T05:39:43.405Z",
+  "lastThought": "2026-11-25T06:30:44.608Z",
   "foundPlace": null
 }
