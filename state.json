@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T19:16:36.442Z",
+  "lastUpdate": "2026-11-25T19:26:52.955Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-25T19:26:36.442Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-25T19:36:52.955Z",
   "needs": {
-    "fullness": 10,
-    "water": 68,
-    "energy": 86,
+    "fullness": 23,
+    "water": 67,
+    "energy": 85,
     "curiosity": 0,
-    "joy": 16,
+    "joy": 19,
     "calm": 96
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,15 +167,18 @@
   "today": {
     "date": "2026-11-25",
     "plan": [
-      "Drink at the pond",
-      "Eat berries and forage at the thicket",
+      "Eat the last berry",
+      "Forage berries at the thicket",
+      "Repair the hut cone",
       "Tend seedlings and plants",
       "Visit the tidepools for a crab wonder",
-      "Splash in the pond for joy",
-      "Drink and eat again before dawn",
-      "Wind down and sleep in the Cosy Hut"
+      "Splash in the pond",
+      "Drink and eat before dawn",
+      "Sleep in the Cosy Hut"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -722,7 +725,7 @@
       }
     }
   ],
-  "plan": "Drink, eat, forage berries, tend seedlings, visit tidepools for a crab wonder, splash for joy.",
+  "plan": "Eat berry, forage at thicket, repair hut cone, tend seedlings, visit tidepools.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -819,7 +822,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1743,11 +1746,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-25T02:46:07.852Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1766,16 +1769,18 @@
       "glade"
     ]
   },
-  "ticks": 595,
+  "ticks": 596,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I woke up with a belly like an empty cave and a dry beak. Water is 18 and fullness 10, so I drink first, then eat my one berry and forage. Curiosity is zero, so tonight I will find a crab wonder at the tidepools. The pond is close, so I go there now.",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "My belly is nearly empty at 9, so food is the loudest problem. I have one berry and the thicket has plenty. The hut still needs fibre for the gust-knocked cone, and I have 3 fibre, which is enough. Eat the berry now, then forage, then fix the hut.",
   "face": "determined",
-  "lastThought": "2026-11-25T19:16:36.442Z",
+  "lastThought": "2026-11-25T19:26:52.955Z",
   "foundPlace": null
 }
