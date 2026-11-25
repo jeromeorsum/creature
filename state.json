@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T03:26:59.256Z",
+  "lastUpdate": "2026-11-25T03:37:18.287Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-25T03:31:07.852Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-25T04:37:18.287Z",
   "needs": {
-    "fullness": 74,
-    "water": 64,
-    "energy": 0,
-    "curiosity": 29,
-    "joy": 57,
-    "calm": 99
+    "fullness": 68,
+    "water": 63,
+    "energy": 30,
+    "curiosity": 28,
+    "joy": 56,
+    "calm": 100
   },
   "health": 100,
-  "mood": "determined and sleepy",
+  "mood": "proud and very sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Finish the hut, make it home, sleep.",
+  "plan": "Sleep in the hut, then drink, forage berries, and hunt a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1149,7 +1149,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.35,
+        "left": 2.4,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1173,7 +1173,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.35,
+        "left": 0.4,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1631,7 +1631,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1641,7 +1641,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1651,7 +1651,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 1.47,
+        "left": 1.54,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1743,18 +1743,18 @@
       "glade"
     ]
   },
-  "ticks": 585,
+  "ticks": 586,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+    "\"Cosy Hut\" is now your home. You'll sleep there."
   ],
-  "thought": "I have 6 fibre now and the hut needs 3. Energy is 15, very low. The hut is 13m away, so I will finish it and then sleep in it. This is the sensible thing to do before I flop over.",
-  "face": "determined",
-  "lastThought": "2026-11-25T02:46:07.852Z",
+  "thought": "My energy is zero and the hut is finished at last. I should make it my home and sleep right now. Fullness and water are okay. Sleeping in a dry hut will feel wonderful, even if it is a little early in my night.",
+  "face": "sleepy",
+  "lastThought": "2026-11-25T03:37:18.287Z",
   "foundPlace": null
 }
