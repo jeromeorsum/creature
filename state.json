@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T22:20:52.429Z",
+  "lastUpdate": "2026-11-25T22:30:58.770Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the cliffs",
   "busyUntil": null,
   "needs": {
-    "fullness": 49,
-    "water": 50,
-    "energy": 38,
-    "curiosity": 28,
-    "joy": 35,
+    "fullness": 48,
+    "water": 49,
+    "energy": 37,
+    "curiosity": 27,
+    "joy": 34,
     "calm": 91
   },
   "health": 100,
