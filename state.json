@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T23:32:24.790Z",
-  "place": "cliffs",
+  "lastUpdate": "2026-11-25T23:42:33.252Z",
+  "place": "pond",
   "spot": {
-    "x": -35,
-    "z": 4
+    "x": -4,
+    "z": 21
   },
-  "doing": "eat food at the cliffs",
-  "busyUntil": "2026-11-25T23:42:24.790Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-25T23:52:33.252Z",
   "needs": {
-    "fullness": 67,
-    "water": 40,
-    "energy": 27,
-    "curiosity": 37,
-    "joy": 42,
-    "calm": 94
+    "fullness": 66,
+    "water": 89,
+    "energy": 26,
+    "curiosity": 36,
+    "joy": 41,
+    "calm": 97
   },
   "health": 100,
-  "mood": "curious and scheming",
+  "mood": "thirsty but pleased",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -727,7 +727,7 @@
       }
     }
   ],
-  "plan": "Tap with seabirds, then drink at pond, eat, tend seedlings, sleep in the hut.",
+  "plan": "Drink at pond, tend seedlings, then sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1771,18 +1771,16 @@
       "glade"
     ]
   },
-  "ticks": 603,
+  "ticks": 604,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "Water 48 and fullness 47 are middling and I'm far from the pond. I'm at the cliffs, curiosity low at 26. Watching the seabirds here with a beak-tapping pattern could feed curiosity. I will do that briefly, then go drink and eat. Seabirds turned their heads before; maybe I can try a new pattern and see if they answer.",
+  "lastOutcome": [],
+  "thought": "Water is 39 and energy is 26, so drinking comes first. The pond is far from the cliffs, but I can't skip it. Tonight the seabirds answered my tapping, which was wonderful. Now I'll waddle to the pond, drink, and then tend seedlings.",
   "face": "curious",
-  "lastThought": "2026-11-25T22:41:23.083Z",
+  "lastThought": "2026-11-25T23:42:33.252Z",
   "foundPlace": null
 }
