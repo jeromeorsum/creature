@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T20:28:17.094Z",
+  "lastUpdate": "2026-11-25T20:38:29.829Z",
   "place": "thicket",
   "spot": {
-    "x": 10.9,
-    "z": -3.1
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-25T20:32:58.836Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-25T20:53:29.829Z",
   "needs": {
-    "fullness": 65,
-    "water": 61,
-    "energy": 71,
-    "curiosity": 0,
-    "joy": 19,
-    "calm": 96
+    "fullness": 64,
+    "water": 60,
+    "energy": 70,
+    "curiosity": 15,
+    "joy": 23,
+    "calm": 91
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "curious and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -168,6 +168,7 @@
     "date": "2026-11-25",
     "plan": [
       "Forage berries and eat",
+      "Spy on the pigeon",
       "Tie the hut cone back on",
       "Tend seedlings",
       "Visit the tidepools for a crab wonder",
@@ -724,7 +725,7 @@
       }
     }
   ],
-  "plan": "Eat well, tie hut cone, then tidepools for a crab wonder, drink before dawn.",
+  "plan": "Spy on the pigeon, tie hut cone, tidepools, drink before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1768,19 +1769,16 @@
       "glade"
     ]
   },
-  "ticks": 598,
+  "ticks": 599,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "My belly is only 43 and the berries are right here, plenty on the bushes. Curiosity is zero, which nags me. I'll fill up first, since hunger caused my collapse before. Then the hut cone needs fibre, and I have exactly 3. After eating I'll go tie it.",
-  "face": "determined",
-  "lastThought": "2026-11-25T20:07:58.836Z",
+  "lastOutcome": [],
+  "thought": "Curiosity is zero, joy is low. Fullness is okay. I should do something curious and fun. Spying on the pigeon is right here at the thicket and gives curiosity +15 and joy +5. It also helps my worry about stolen berries. Then I can go to the hut with fibre.",
+  "face": "suspicious",
+  "lastThought": "2026-11-25T20:38:29.829Z",
   "foundPlace": null
 }
