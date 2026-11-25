@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T09:34:57.734Z",
+  "lastUpdate": "2026-11-25T09:45:12.499Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 18.4,
+    "z": -1.8
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-25T10:10:12.499Z",
   "needs": {
-    "fullness": 47,
-    "water": 78,
-    "energy": 35,
-    "curiosity": 26,
-    "joy": 32,
+    "fullness": 70,
+    "water": 77,
+    "energy": 30,
+    "curiosity": 25,
+    "joy": 34,
     "calm": 100
   },
   "health": 100,
@@ -801,7 +801,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -811,7 +811,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 3,
-      "shells": 7
+      "shells": 6
     },
     "discovered": [
       "clay",
@@ -1178,7 +1178,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.15,
+        "left": 2.2,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1296,7 +1296,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1406,7 +1406,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1636,7 +1636,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 3.99,
+        "left": 4,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1646,7 +1646,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 3.99,
+        "left": 4,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1656,7 +1656,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 3.99,
+        "left": 4,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1748,19 +1748,19 @@
       "glade"
     ]
   },
-  "ticks": 592,
+  "ticks": 593,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
+    "You collected 3 berries and ate 2 on the spot.",
     "You also saved 2 berry seeds."
   ],
-  "thought": "My belly is a half-empty cave at 27 and I have no kept berries. Sleeping time is soon, but eating first is wise. Foraging at the thicket gives berries to eat now and keep in the pot. Then I can sleep in the Cosy Hut, dry and full.",
+  "thought": "The pigeon took another shell, cheeky thing. My belly is only middling and I have no kept berries, so more foraging is the sensible thing. I am at the thicket already. It is nearly my bedtime, so I will pick a heap, eat some, and keep the rest in the pot, then go home to sleep.",
   "face": "determined",
-  "lastThought": "2026-11-25T08:54:07.424Z",
+  "lastThought": "2026-11-25T09:45:12.499Z",
   "foundPlace": null
 }
