@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T01:44:50.051Z",
+  "lastUpdate": "2026-11-25T01:55:01.496Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-25T01:49:25.416Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-25T02:10:01.496Z",
   "needs": {
-    "fullness": 89,
-    "water": 74,
-    "energy": 27,
-    "curiosity": 19,
-    "joy": 40,
-    "calm": 100
+    "fullness": 88,
+    "water": 73,
+    "energy": 26,
+    "curiosity": 33,
+    "joy": 44,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "suspicious but curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Eat berries, forage a heap at the thicket, drink, then hunt a crab wonder.",
+  "plan": "Spy on the pigeon, pull reeds for fibre, repair the hut, then drink and sleep.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -806,7 +806,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 2,
-      "shells": 8
+      "shells": 7
     },
     "discovered": [
       "clay",
@@ -1631,7 +1631,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1641,7 +1641,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1651,7 +1651,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 0.77,
+        "left": 0.84,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1720,11 +1720,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": true
+            "placed": false
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": "2026-11-23T07:59:37.945Z"
+        "finished": null
       }
     ],
     "known": [
@@ -1743,19 +1743,16 @@
       "glade"
     ]
   },
-  "ticks": 582,
+  "ticks": 583,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "My belly is only middling and I have no berries kept. Berry bushes are near the thicket, so I should forage a heap. Then drink and hunt a crab wonder. Pigeon may lurk, so I eat quickly.",
-  "face": "determined",
-  "lastThought": "2026-11-25T01:24:25.416Z",
+  "lastOutcome": [],
+  "thought": "My belly is fine at 88, but the pot is empty and the pigeon stole another shell. Energy is low at 26 and curiosity is a dry shell at 18. Water is 73, which is okay. I could pick more berries to fill the pot, but the best use of this moment is to restore curiosity. The hut still needs fibre, so pulling reeds at the pond would fix the hut and the water trip at once. Still, a quick pigeon spy gives curiosity right here, and I am already at the thicket.",
+  "face": "suspicious",
+  "lastThought": "2026-11-25T01:55:01.496Z",
   "foundPlace": null
 }
