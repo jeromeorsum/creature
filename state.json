@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T20:48:51.334Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-25T20:58:55.441Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-25T20:53:29.829Z",
+  "doing": "build at the nest",
+  "busyUntil": "2026-11-25T21:43:55.441Z",
   "needs": {
-    "fullness": 63,
-    "water": 59,
-    "energy": 69,
-    "curiosity": 14,
-    "joy": 22,
+    "fullness": 57,
+    "water": 58,
+    "energy": 54,
+    "curiosity": 18,
+    "joy": 43,
     "calm": 91
   },
   "health": 100,
-  "mood": "curious and scheming",
+  "mood": "determined and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,17 +167,18 @@
   "today": {
     "date": "2026-11-25",
     "plan": [
-      "Forage berries and eat",
+      "Eat breakfast berries",
       "Spy on the pigeon",
       "Tie the hut cone back on",
       "Tend seedlings",
-      "Visit the tidepools for a crab wonder",
+      "Visit the tidepools",
       "Splash in the pond",
       "Drink and eat before dawn",
       "Sleep in the Cosy Hut"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -725,7 +726,7 @@
       }
     }
   ],
-  "plan": "Spy on the pigeon, tie hut cone, tidepools, drink before dawn.",
+  "plan": "Tie hut cone, visit tidepools, splash in pond, drink and eat before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -831,7 +832,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 3,
+      "fibre": 0,
       "shells": 6
     },
     "discovered": [
@@ -1746,11 +1747,11 @@
             "w": 3,
             "h": 1,
             "d": 3,
-            "placed": false
+            "placed": true
           }
         ],
         "started": "2026-10-29T20:56:32.358Z",
-        "finished": null
+        "finished": "2026-11-25T20:58:55.441Z"
       }
     ],
     "known": [
@@ -1769,16 +1770,18 @@
       "glade"
     ]
   },
-  "ticks": 599,
+  "ticks": 600,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [],
-  "thought": "Curiosity is zero, joy is low. Fullness is okay. I should do something curious and fun. Spying on the pigeon is right here at the thicket and gives curiosity +15 and joy +5. It also helps my worry about stolen berries. Then I can go to the hut with fibre.",
-  "face": "suspicious",
-  "lastThought": "2026-11-25T20:38:29.829Z",
+  "lastOutcome": [
+    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
+  ],
+  "thought": "My curiosity is a dry shell and my joy is low. The hut needs 3 fibre and I have exactly 3, but the wind knocked a cone off. Fibre is in hand, so finishing the hut is sensible. Still, curiosity needs a drink, so I might explore somewhere after. Let me go finish the hut first, since the dry roof matters before dawn.",
+  "face": "determined",
+  "lastThought": "2026-11-25T20:58:55.441Z",
   "foundPlace": null
 }
