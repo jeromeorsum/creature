@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T02:56:22.155Z",
+  "lastUpdate": "2026-11-25T03:06:31.566Z",
   "place": "nest",
   "spot": {
     "x": -8,
@@ -10,11 +10,11 @@
   "doing": "build at the nest",
   "busyUntil": "2026-11-25T03:31:07.852Z",
   "needs": {
-    "fullness": 77,
-    "water": 67,
+    "fullness": 76,
+    "water": 66,
     "energy": 0,
-    "curiosity": 32,
-    "joy": 60,
+    "curiosity": 31,
+    "joy": 59,
     "calm": 99
   },
   "health": 100,
@@ -1149,7 +1149,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.2,
+        "left": 2.25,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1173,7 +1173,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.2,
+        "left": 0.25,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1631,7 +1631,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1641,7 +1641,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1651,7 +1651,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 1.26,
+        "left": 1.33,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
