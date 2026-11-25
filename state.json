@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T21:39:51.335Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-25T21:50:08.412Z",
+  "place": "cliffs",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -35,
+    "z": 4
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-25T21:43:55.441Z",
+  "doing": "explore at the cliffs",
+  "busyUntil": "2026-11-25T22:20:08.412Z",
   "needs": {
-    "fullness": 53,
-    "water": 54,
-    "energy": 50,
-    "curiosity": 14,
-    "joy": 39,
+    "fullness": 52,
+    "water": 53,
+    "energy": 41,
+    "curiosity": 31,
+    "joy": 38,
     "calm": 91
   },
   "health": 100,
-  "mood": "determined and scheming",
+  "mood": "curious and scheming",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -726,7 +727,7 @@
       }
     }
   ],
-  "plan": "Tie hut cone, visit tidepools, splash in pond, drink and eat before dawn.",
+  "plan": "Visit cliffs, then drink and eat, then tend seedlings, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1770,18 +1771,16 @@
       "glade"
     ]
   },
-  "ticks": 600,
+  "ticks": 601,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "My curiosity is a dry shell and my joy is low. The hut needs 3 fibre and I have exactly 3, but the wind knocked a cone off. Fibre is in hand, so finishing the hut is sensible. Still, curiosity needs a drink, so I might explore somewhere after. Let me go finish the hut first, since the dry roof matters before dawn.",
-  "face": "determined",
-  "lastThought": "2026-11-25T20:58:55.441Z",
+  "lastOutcome": [],
+  "thought": "My curiosity is a dry shell at 13. Exploring somewhere new would help, but I've explored the whole island. The cliffs have seabirds and a view, so I'll go look closely there under the moon. Water and food are middling, so I'll eat a berry on the way. The hut cone is tied on, which is a relief. A bit of wonder will fix my curiosity.",
+  "face": "curious",
+  "lastThought": "2026-11-25T21:50:08.412Z",
   "foundPlace": null
 }
