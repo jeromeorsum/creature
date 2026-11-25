@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T22:30:58.770Z",
+  "lastUpdate": "2026-11-25T22:41:23.083Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "tap beak patterns on a rock to see if the seabirds answer (at the cliffs)",
+  "busyUntil": "2026-11-25T23:11:23.083Z",
   "needs": {
-    "fullness": 48,
-    "water": 49,
-    "energy": 37,
-    "curiosity": 27,
-    "joy": 34,
-    "calm": 91
+    "fullness": 44,
+    "water": 45,
+    "energy": 32,
+    "curiosity": 42,
+    "joy": 43,
+    "calm": 94
   },
   "health": 100,
   "mood": "curious and scheming",
@@ -727,7 +727,7 @@
       }
     }
   ],
-  "plan": "Visit cliffs, then drink and eat, then tend seedlings, sleep in the hut.",
+  "plan": "Tap with seabirds, then drink at pond, eat, tend seedlings, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1771,16 +1771,18 @@
       "glade"
     ]
   },
-  "ticks": 601,
+  "ticks": 602,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is a dry shell at 13. Exploring somewhere new would help, but I've explored the whole island. The cliffs have seabirds and a view, so I'll go look closely there under the moon. Water and food are middling, so I'll eat a berry on the way. The hut cone is tied on, which is a relief. A bit of wonder will fix my curiosity.",
+  "lastOutcome": [
+    "You did your own thing: tap beak patterns on a rock to see if the seabirds answer."
+  ],
+  "thought": "Water 48 and fullness 47 are middling and I'm far from the pond. I'm at the cliffs, curiosity low at 26. Watching the seabirds here with a beak-tapping pattern could feed curiosity. I will do that briefly, then go drink and eat. Seabirds turned their heads before; maybe I can try a new pattern and see if they answer.",
   "face": "curious",
-  "lastThought": "2026-11-25T21:50:08.412Z",
+  "lastThought": "2026-11-25T22:41:23.083Z",
   "foundPlace": null
 }
