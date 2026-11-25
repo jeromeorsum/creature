@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T15:53:24.832Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-25T19:16:36.442Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-25T19:26:36.442Z",
   "needs": {
-    "fullness": 30,
-    "water": 42,
-    "energy": 100,
-    "curiosity": 17,
-    "joy": 26,
-    "calm": 100
+    "fullness": 10,
+    "water": 68,
+    "energy": 86,
+    "curiosity": 0,
+    "joy": 16,
+    "calm": 96
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -165,22 +165,17 @@
     }
   ],
   "today": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "plan": [
-      "Eat breakfast berries",
-      "Spy on the pigeon",
-      "Tend the seedlings",
-      "Hunt for a crab wonder",
       "Drink at the pond",
+      "Eat berries and forage at the thicket",
+      "Tend seedlings and plants",
+      "Visit the tidepools for a crab wonder",
+      "Splash in the pond for joy",
+      "Drink and eat again before dawn",
       "Wind down and sleep in the Cosy Hut"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -727,7 +722,7 @@
       }
     }
   ],
-  "plan": "Sleep in the Cosy Hut, then tonight: drink, tend seedlings, find a crab wonder.",
+  "plan": "Drink, eat, forage berries, tend seedlings, visit tidepools for a crab wonder, splash for joy.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1771,16 +1766,16 @@
       "glade"
     ]
   },
-  "ticks": 594,
+  "ticks": 595,
   "spend": {
-    "day": "2026-11-24",
+    "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "Morning is here and I should sleep. My belly is decent at 67 and water is 74, so I can sleep safely. Energy is 27, quite low. The pigeon lurks, so I should eat a kept berry quickly or take it home in the pot. I will nap in the Cosy Hut. Tomorrow night I want a crab wonder, tended seedlings and a full pot.",
-  "face": "sleepy",
-  "lastThought": "2026-11-25T10:16:01.356Z",
+  "thought": "I woke up with a belly like an empty cave and a dry beak. Water is 18 and fullness 10, so I drink first, then eat my one berry and forage. Curiosity is zero, so tonight I will find a crab wonder at the tidepools. The pond is close, so I go there now.",
+  "face": "determined",
+  "lastThought": "2026-11-25T19:16:36.442Z",
   "foundPlace": null
 }
