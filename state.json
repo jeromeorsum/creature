@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T00:33:16.682Z",
+  "lastUpdate": "2026-11-25T00:43:30.257Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-25T00:53:30.257Z",
   "needs": {
-    "fullness": 44,
-    "water": 81,
-    "energy": 38,
-    "curiosity": 26,
-    "joy": 40,
+    "fullness": 71,
+    "water": 80,
+    "energy": 37,
+    "curiosity": 25,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
-  "mood": "playful and dutiful",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Tend plants, eat berries, forage a heap, then hunt a crab wonder.",
+  "plan": "Eat berries, forage a heap at the thicket, drink, then hunt a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -796,7 +796,7 @@
   ],
   "world": {
     "weather": "windy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1631,7 +1631,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1641,7 +1641,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1651,7 +1651,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 0.28,
+        "left": 0.35,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1743,18 +1743,18 @@
       "glade"
     ]
   },
-  "ticks": 580,
+  "ticks": 581,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
   "lastOutcome": [
-    "You looked after 16 plants around the pond. They'll grow for about a day."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is only middling at 48 and I have two berries kept. The seedlings still need tending, and I'm at the pond with the plants nearby. Tending gives calm and joy, and keeps them growing. Then I'll eat berries. Tending first since it's been on my plan all night.",
+  "thought": "My belly is at 43 and I only have 2 berries. It's mealtime. Eat the kept berries now, the pigeon isn't around. Then forage a heap at the thicket.",
   "face": "determined",
-  "lastThought": "2026-11-24T23:52:25.881Z",
+  "lastThought": "2026-11-25T00:43:30.257Z",
   "foundPlace": null
 }
