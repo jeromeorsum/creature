@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T05:29:32.192Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-25T05:39:43.405Z",
+  "place": "tidepools",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18,
+    "z": 34
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-25T05:38:27.762Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-25T06:09:43.405Z",
   "needs": {
-    "fullness": 52,
-    "water": 52,
-    "energy": 49,
-    "curiosity": 17,
-    "joy": 45,
+    "fullness": 51,
+    "water": 51,
+    "energy": 40,
+    "curiosity": 34,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -703,7 +703,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then drink, forage berries, and hunt a crab wonder.",
+  "plan": "Look at the tidepool crabs, drink at the pond, forage berries, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1149,7 +1149,7 @@
         "res": "fibre",
         "x": -2.2,
         "z": 17.7,
-        "left": 2.95,
+        "left": 3,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1173,7 +1173,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.95,
+        "left": 1,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1631,7 +1631,7 @@
         "res": "berries",
         "x": -0.6,
         "z": 28,
-        "left": 2.31,
+        "left": 2.38,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1641,7 +1641,7 @@
         "res": "berries",
         "x": -11,
         "z": 21.6,
-        "left": 2.31,
+        "left": 2.38,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1651,7 +1651,7 @@
         "res": "berries",
         "x": 0.2,
         "z": 13.9,
-        "left": 2.31,
+        "left": 2.38,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-25T23:52:25.881Z"
@@ -1743,16 +1743,16 @@
       "glade"
     ]
   },
-  "ticks": 587,
+  "ticks": 588,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "My energy is very low at 24, and I'm right at the nest next to my Cosy Hut. It is the middle of my night, but I'm sleepy and my legs wobble more than usual. A nap in the hut will give me energy. I will hunt a crab wonder after I wake.",
-  "face": "sleepy",
-  "lastThought": "2026-11-25T04:38:27.762Z",
+  "thought": "My curiosity is a dry shell, and my belly and water are both middling. The thicket is the place for berries, but a proper explore to somewhere new might feed my curiosity best. I have explored the whole island, though, so I will look closely at the tidepools, where the crabs live, and hunt for a crab wonder. Drink first would be wise, but the water is 51 so I can manage one outing.",
+  "face": "curious",
+  "lastThought": "2026-11-25T05:39:43.405Z",
   "foundPlace": null
 }
