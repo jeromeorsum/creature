@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T19:26:52.955Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-25T19:37:11.866Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 10.9,
+    "z": -3.1
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-25T19:36:52.955Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-25T20:02:11.866Z",
   "needs": {
-    "fullness": 23,
-    "water": 67,
-    "energy": 85,
+    "fullness": 46,
+    "water": 66,
+    "energy": 80,
     "curiosity": 0,
-    "joy": 19,
+    "joy": 21,
     "calm": 96
   },
   "health": 100,
@@ -167,9 +167,8 @@
   "today": {
     "date": "2026-11-25",
     "plan": [
-      "Eat the last berry",
       "Forage berries at the thicket",
-      "Repair the hut cone",
+      "Tie the hut cone back on",
       "Tend seedlings and plants",
       "Visit the tidepools for a crab wonder",
       "Splash in the pond",
@@ -725,7 +724,7 @@
       }
     }
   ],
-  "plan": "Eat berry, forage at thicket, repair hut cone, tend seedlings, visit tidepools.",
+  "plan": "Forage at thicket, tie hut cone, tend seedlings, visit tidepools, drink before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -822,7 +821,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1309,7 +1308,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 4,
+        "left": 3,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1317,7 +1316,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2,
+        "left": 0,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1769,18 +1768,19 @@
       "glade"
     ]
   },
-  "ticks": 596,
+  "ticks": 597,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is nearly empty at 9, so food is the loudest problem. I have one berry and the thicket has plenty. The hut still needs fibre for the gust-knocked cone, and I have 3 fibre, which is enough. Eat the berry now, then forage, then fix the hut.",
+  "thought": "My belly is a hollow cave at 22 and I have no berries. Food first. The thicket has berries, so I go there, eat a good handful and fill the pot. Then I tie the cone back on, using my three fibre.",
   "face": "determined",
-  "lastThought": "2026-11-25T19:26:52.955Z",
+  "lastThought": "2026-11-25T19:37:11.866Z",
   "foundPlace": null
 }
