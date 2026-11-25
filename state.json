@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T19:57:46.992Z",
+  "lastUpdate": "2026-11-25T20:07:58.836Z",
   "place": "thicket",
   "spot": {
     "x": 10.9,
     "z": -3.1
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-25T20:02:11.866Z",
+  "busyUntil": "2026-11-25T20:32:58.836Z",
   "needs": {
-    "fullness": 44,
-    "water": 64,
-    "energy": 78,
+    "fullness": 67,
+    "water": 63,
+    "energy": 73,
     "curiosity": 0,
-    "joy": 19,
+    "joy": 21,
     "calm": 96
   },
   "health": 100,
@@ -167,9 +167,9 @@
   "today": {
     "date": "2026-11-25",
     "plan": [
-      "Forage berries at the thicket",
+      "Forage berries and eat",
       "Tie the hut cone back on",
-      "Tend seedlings and plants",
+      "Tend seedlings",
       "Visit the tidepools for a crab wonder",
       "Splash in the pond",
       "Drink and eat before dawn",
@@ -724,7 +724,7 @@
       }
     }
   ],
-  "plan": "Forage at thicket, tie hut cone, tend seedlings, visit tidepools, drink before dawn.",
+  "plan": "Eat well, tie hut cone, then tidepools for a crab wonder, drink before dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -821,7 +821,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 1,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1308,7 +1308,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1768,19 +1768,19 @@
       "glade"
     ]
   },
-  "ticks": 597,
+  "ticks": 598,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [
     "You collected 3 berries and ate 2 on the spot.",
     "You also saved 1 berry seeds."
   ],
-  "thought": "My belly is a hollow cave at 22 and I have no berries. Food first. The thicket has berries, so I go there, eat a good handful and fill the pot. Then I tie the cone back on, using my three fibre.",
+  "thought": "My belly is only 43 and the berries are right here, plenty on the bushes. Curiosity is zero, which nags me. I'll fill up first, since hunger caused my collapse before. Then the hut cone needs fibre, and I have exactly 3. After eating I'll go tie it.",
   "face": "determined",
-  "lastThought": "2026-11-25T19:37:11.866Z",
+  "lastThought": "2026-11-25T20:07:58.836Z",
   "foundPlace": null
 }
