@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T10:05:43.124Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-25T10:16:01.356Z",
+  "place": "nest",
   "spot": {
-    "x": 18.4,
-    "z": -1.8
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-25T10:10:12.499Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-25T11:16:01.356Z",
   "needs": {
-    "fullness": 68,
-    "water": 75,
-    "energy": 28,
-    "curiosity": 23,
-    "joy": 32,
+    "fullness": 62,
+    "water": 74,
+    "energy": 57,
+    "curiosity": 22,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but determined",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,8 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ]
   },
   "lessons": [
@@ -702,9 +703,31 @@
           7
         ]
       }
+    },
+    {
+      "date": "2026-11-24",
+      "summary": "Today I foraged, spied on the pigeon, finished the Cosy Hut roof and slept in it at last. I looked at the crabs' scratched shells at the tidepools, and I drank at dawn. The pigeon stole more shells, which annoys me, but I never collapsed. My curiosity is still low and I never found a real crab wonder. Tomorrow night I want a fuller pot, tended seedlings and one real wonder about the crabs.",
+      "plan": {
+        "date": "2026-11-24",
+        "plan": [
+          "Eat breakfast berries",
+          "Spy on the pigeon",
+          "Tend the seedlings",
+          "Hunt for a crab wonder",
+          "Drink at the pond",
+          "Wind down and sleep in the Cosy Hut"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
     }
   ],
-  "plan": "Forage berries, eat some, then sleep in the Cosy Hut.",
+  "plan": "Sleep in the Cosy Hut, then tonight: drink, tend seedlings, find a crab wonder.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1178,7 +1201,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.3,
+        "left": 2.35,
         "tendedUntil": "2026-11-25T23:52:25.881Z"
       },
       {
@@ -1748,19 +1771,16 @@
       "glade"
     ]
   },
-  "ticks": 593,
+  "ticks": 594,
   "spend": {
     "day": "2026-11-24",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
-  ],
-  "thought": "The pigeon took another shell, cheeky thing. My belly is only middling and I have no kept berries, so more foraging is the sensible thing. I am at the thicket already. It is nearly my bedtime, so I will pick a heap, eat some, and keep the rest in the pot, then go home to sleep.",
-  "face": "determined",
-  "lastThought": "2026-11-25T09:45:12.499Z",
+  "lastOutcome": [],
+  "thought": "Morning is here and I should sleep. My belly is decent at 67 and water is 74, so I can sleep safely. Energy is 27, quite low. The pigeon lurks, so I should eat a kept berry quickly or take it home in the pot. I will nap in the Cosy Hut. Tomorrow night I want a crab wonder, tended seedlings and a full pot.",
+  "face": "sleepy",
+  "lastThought": "2026-11-25T10:16:01.356Z",
   "foundPlace": null
 }
