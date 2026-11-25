@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T23:01:42.277Z",
+  "lastUpdate": "2026-11-25T23:11:55.701Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "tap beak patterns on a rock to see if the seabirds answer (at the cliffs)",
-  "busyUntil": "2026-11-25T23:11:23.083Z",
+  "doing": "pottering about at the cliffs",
+  "busyUntil": null,
   "needs": {
-    "fullness": 42,
-    "water": 43,
-    "energy": 30,
-    "curiosity": 40,
-    "joy": 41,
+    "fullness": 41,
+    "water": 42,
+    "energy": 29,
+    "curiosity": 39,
+    "joy": 40,
     "calm": 94
   },
   "health": 100,
