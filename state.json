@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-25T23:22:10.099Z",
+  "lastUpdate": "2026-11-25T23:32:24.790Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "pottering about at the cliffs",
-  "busyUntil": null,
+  "doing": "eat food at the cliffs",
+  "busyUntil": "2026-11-25T23:42:24.790Z",
   "needs": {
-    "fullness": 40,
-    "water": 41,
-    "energy": 28,
-    "curiosity": 38,
-    "joy": 39,
+    "fullness": 67,
+    "water": 40,
+    "energy": 27,
+    "curiosity": 37,
+    "joy": 42,
     "calm": 94
   },
   "health": 100,
@@ -824,7 +824,7 @@
   ],
   "world": {
     "weather": "cloudy",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1771,7 +1771,7 @@
       "glade"
     ]
   },
-  "ticks": 602,
+  "ticks": 603,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
@@ -1779,7 +1779,7 @@
     "ticks": 8
   },
   "lastOutcome": [
-    "You did your own thing: tap beak patterns on a rock to see if the seabirds answer."
+    "You ate 2 berries from your food."
   ],
   "thought": "Water 48 and fullness 47 are middling and I'm far from the pond. I'm at the cliffs, curiosity low at 26. Watching the seabirds here with a beak-tapping pattern could feed curiosity. I will do that briefly, then go drink and eat. Seabirds turned their heads before; maybe I can try a new pattern and see if they answer.",
   "face": "curious",
