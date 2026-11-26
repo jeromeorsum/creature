@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T03:17:21.110Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-26T03:27:28.553Z",
+  "place": "tidepools",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18,
+    "z": 34
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-26T03:26:11.044Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-26T03:57:28.553Z",
   "needs": {
-    "fullness": 59,
-    "water": 64,
-    "energy": 53,
-    "curiosity": 15,
-    "joy": 28,
+    "fullness": 58,
+    "water": 63,
+    "energy": 44,
+    "curiosity": 32,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and suspicious",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -728,7 +728,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then drink and forage at dusk.",
+  "plan": "Visit the tidepools, then drink at the pond, forage berries, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1772,16 +1772,16 @@
       "glade"
     ]
   },
-  "ticks": 608,
+  "ticks": 609,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "The pigeon stole a berry and stared at me. Rude. My energy is low at 28 and I have no kept berries, so the pigeon only got one from my pot-less hands. Fullness is fine. Curiosity is low, but sleep is what I need most. It is nearly morning for me, and I sleep at 11am, so I could drink and then nap. I'll pick a few more berries to keep, then go home. Actually first, a quick nap at the hut is the best choice for energy.",
-  "face": "sleepy",
-  "lastThought": "2026-11-26T02:26:11.044Z",
+  "thought": "It is the middle of my night, awake time, and my curiosity is a dry shell at 14. Belly and water are middling. A new place is gone since I explored everything, but the tidepools are on my plan and the crabs live there. I will go look closely at the crabs and their scratched shells. Maybe I'll find a real wonder this time.",
+  "face": "curious",
+  "lastThought": "2026-11-26T03:27:28.553Z",
   "foundPlace": null
 }
