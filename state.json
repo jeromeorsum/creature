@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T07:22:02.906Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-26T07:32:22.444Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18.8,
+    "z": -5.9
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-26T07:31:03.951Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-26T07:57:22.444Z",
   "needs": {
-    "fullness": 30,
-    "water": 88,
-    "energy": 38,
-    "curiosity": 24,
-    "joy": 30,
+    "fullness": 53,
+    "water": 87,
+    "energy": 33,
+    "curiosity": 23,
+    "joy": 32,
     "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and splashy",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -730,7 +730,7 @@
       }
     }
   ],
-  "plan": "Splash, forage berries, eat, sleep in the hut.",
+  "plan": "Forage berries, eat, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -827,7 +827,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1338,7 +1338,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 4,
+        "left": 1,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1402,7 +1402,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1,
+        "left": 0,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1774,16 +1774,18 @@
       "glade"
     ]
   },
-  "ticks": 613,
+  "ticks": 614,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [],
-  "thought": "Joy is low at 19 and energy low at 20. I'm at the pond at dawn, water is fine. A splash will lift joy and is on my plan. Then berries, then sleep in the hut. Splashing is quick and happy.",
-  "face": "happy",
-  "lastThought": "2026-11-26T06:10:38.798Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot."
+  ],
+  "thought": "My belly is hungry and the pot is empty, so food comes first. The thicket has berries, and I will keep an eye out for the pigeon. Then I can sleep in the hut, since it is already morning and I am nocturnal.",
+  "face": "determined",
+  "lastThought": "2026-11-26T07:32:22.444Z",
   "foundPlace": null
 }
