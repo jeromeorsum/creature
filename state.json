@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T09:14:30.209Z",
+  "lastUpdate": "2026-11-26T09:24:53.560Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-26T09:23:27.289Z",
+  "busyUntil": "2026-11-26T10:24:53.560Z",
   "needs": {
-    "fullness": 66,
-    "water": 77,
-    "energy": 53,
-    "curiosity": 13,
-    "joy": 26,
+    "fullness": 60,
+    "water": 76,
+    "energy": 82,
+    "curiosity": 12,
+    "joy": 25,
     "calm": 100
   },
   "health": 100,
@@ -183,7 +183,8 @@
       4,
       5,
       6,
-      7
+      7,
+      8
     ]
   },
   "lessons": [
@@ -1775,16 +1776,16 @@
       "glade"
     ]
   },
-  "ticks": 616,
+  "ticks": 617,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "The sun is up and my energy is 28, so a proper sleep in the Cosy Hut is the sensible thing. My belly is fine and water is good. The pigeon is hanging about, so I won't keep any berries out. Curiosity is low, but the crab marks can wait until tonight, and I will bring the shells.",
+  "thought": "It is morning, my sleeping time, and I am nocturnal. Energy is 52, so a nap in the Cosy Hut is the sensible thing. Curiosity is low, but the crabs can wait until tonight. Belly and water are fine, so sleep now.",
   "face": "sleepy",
-  "lastThought": "2026-11-26T08:23:27.289Z",
+  "lastThought": "2026-11-26T09:24:53.560Z",
   "foundPlace": null
 }
