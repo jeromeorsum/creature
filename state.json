@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T05:09:23.017Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-26T05:19:37.827Z",
+  "place": "pond",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -4,
+    "z": 21
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-26T05:29:37.827Z",
   "needs": {
-    "fullness": 48,
-    "water": 53,
-    "energy": 26,
-    "curiosity": 37,
-    "joy": 25,
-    "calm": 98
+    "fullness": 47,
+    "water": 100,
+    "energy": 25,
+    "curiosity": 36,
+    "joy": 24,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "thirsty but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -729,7 +729,7 @@
       }
     }
   ],
-  "plan": "Test crab marks one by one, then drink at the pond, forage berries, sleep in the hut.",
+  "plan": "Drink at the pond, forage berries, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1773,16 +1773,16 @@
       "glade"
     ]
   },
-  "ticks": 610,
+  "ticks": 611,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "I'm at the tidepools with four scratched shells. Water 58, fullness 53 are okay but not great. Curiosity and joy are low. An experiment with the shells and crab marks could feed both. Try matching marks by placing a shell and clacking it, to see which mark makes crabs react. Then go drink and eat before dawn.",
-  "face": "curious",
-  "lastThought": "2026-11-26T04:18:28.329Z",
+  "thought": "My water is 52 and my belly 47, and the sun-sleep time is near. I should drink first, before anything else, as my lesson says. The pond is not far. Then berries, then bed in the Cosy Hut.",
+  "face": "determined",
+  "lastThought": "2026-11-26T05:19:37.827Z",
   "foundPlace": null
 }
