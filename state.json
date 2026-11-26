@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T10:05:38.567Z",
+  "lastUpdate": "2026-11-26T10:15:55.071Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-26T10:24:53.560Z",
+  "busyUntil": "2026-11-26T11:15:55.071Z",
   "needs": {
-    "fullness": 56,
-    "water": 72,
-    "energy": 78,
-    "curiosity": 8,
-    "joy": 21,
+    "fullness": 50,
+    "water": 71,
+    "energy": 100,
+    "curiosity": 7,
+    "joy": 20,
     "calm": 100
   },
   "health": 100,
@@ -730,9 +730,36 @@
           5
         ]
       }
+    },
+    {
+      "date": "2026-11-25",
+      "summary": "Today I ate, spied on the pigeon, tended seedlings, visited the tidepools, splashed in the pond and drank before dawn. I never collapsed, which is good. The crab marks still keep their secret and my curiosity is low, which nags me. The pigeon stole another berry, but I ate the rest in time. Tomorrow night I want a fuller pot, tended seedlings and one real crab wonder.",
+      "plan": {
+        "date": "2026-11-25",
+        "plan": [
+          "Eat breakfast berries",
+          "Spy on the pigeon",
+          "Tie the hut cone back on",
+          "Tend seedlings",
+          "Visit the tidepools",
+          "Splash in the pond",
+          "Drink and eat before dawn",
+          "Sleep in the Cosy Hut"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
     }
   ],
-  "plan": "Sleep in the Cosy Hut, then tonight test crab marks at the tidepools, drink and eat.",
+  "plan": "Sleep, then forage berries, eat, drink, and test crab marks at the tidepools tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1776,16 +1803,16 @@
       "glade"
     ]
   },
-  "ticks": 617,
+  "ticks": 618,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
   "lastOutcome": [],
-  "thought": "It is morning, my sleeping time, and I am nocturnal. Energy is 52, so a nap in the Cosy Hut is the sensible thing. Curiosity is low, but the crabs can wait until tonight. Belly and water are fine, so sleep now.",
+  "thought": "Sun is up and it's time to sleep. I'm in the Cosy Hut. My belly is middling, water fine, and curiosity is low, but a nap will fix energy. Tonight I'll go chase the crab marks again and forage first. I'll curl up now and sleep dry and cosy.",
   "face": "sleepy",
-  "lastThought": "2026-11-26T09:24:53.560Z",
+  "lastThought": "2026-11-26T10:15:55.071Z",
   "foundPlace": null
 }
