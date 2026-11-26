@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T06:00:28.062Z",
+  "lastUpdate": "2026-11-26T06:10:38.798Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-26T06:30:38.798Z",
   "needs": {
-    "fullness": 43,
-    "water": 96,
-    "energy": 21,
-    "curiosity": 32,
-    "joy": 20,
+    "fullness": 42,
+    "water": 95,
+    "energy": 15,
+    "curiosity": 31,
+    "joy": 37,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but hopeful",
+  "mood": "hopeful and splashy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -181,7 +181,8 @@
       2,
       3,
       4,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -729,7 +730,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, forage berries, sleep in the hut.",
+  "plan": "Splash, forage berries, eat, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1773,16 +1774,16 @@
       "glade"
     ]
   },
-  "ticks": 611,
+  "ticks": 612,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "My water is 52 and my belly 47, and the sun-sleep time is near. I should drink first, before anything else, as my lesson says. The pond is not far. Then berries, then bed in the Cosy Hut.",
-  "face": "determined",
-  "lastThought": "2026-11-26T05:19:37.827Z",
+  "thought": "Joy is low at 19 and energy low at 20. I'm at the pond at dawn, water is fine. A splash will lift joy and is on my plan. Then berries, then sleep in the hut. Splashing is quick and happy.",
+  "face": "happy",
+  "lastThought": "2026-11-26T06:10:38.798Z",
   "foundPlace": null
 }
