@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T08:13:12.825Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-26T08:23:27.289Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-26T08:23:12.825Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-26T09:23:27.289Z",
   "needs": {
-    "fullness": 77,
-    "water": 83,
-    "energy": 29,
-    "curiosity": 19,
-    "joy": 32,
+    "fullness": 71,
+    "water": 82,
+    "energy": 58,
+    "curiosity": 18,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
@@ -731,7 +731,7 @@
       }
     }
   ],
-  "plan": "Eat berries, then sleep in the Cosy Hut.",
+  "plan": "Sleep in the Cosy Hut, then tonight test crab marks at the tidepools, drink and eat.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1775,18 +1775,16 @@
       "glade"
     ]
   },
-  "ticks": 615,
+  "ticks": 616,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "Daylight now, and I'm supposed to sleep soon. My belly is half full and I have 2 berries. Energy is 29, so I'm tired. The pigeon is around, so I should eat my kept berries now before it steals them. Then I'll go home and sleep in the Cosy Hut.",
+  "lastOutcome": [],
+  "thought": "The sun is up and my energy is 28, so a proper sleep in the Cosy Hut is the sensible thing. My belly is fine and water is good. The pigeon is hanging about, so I won't keep any berries out. Curiosity is low, but the crab marks can wait until tonight, and I will bring the shells.",
   "face": "sleepy",
-  "lastThought": "2026-11-26T08:13:12.825Z",
+  "lastThought": "2026-11-26T08:23:27.289Z",
   "foundPlace": null
 }
