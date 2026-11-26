@@ -1,21 +1,21 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T04:08:16.442Z",
+  "lastUpdate": "2026-11-26T04:18:28.329Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-26T04:58:28.329Z",
   "needs": {
-    "fullness": 54,
-    "water": 59,
-    "energy": 40,
-    "curiosity": 28,
-    "joy": 23,
-    "calm": 100
+    "fullness": 53,
+    "water": 58,
+    "energy": 31,
+    "curiosity": 42,
+    "joy": 30,
+    "calm": 98
   },
   "health": 100,
   "mood": "curious and hopeful",
@@ -180,7 +180,8 @@
       1,
       2,
       3,
-      4
+      4,
+      5
     ]
   },
   "lessons": [
@@ -728,7 +729,7 @@
       }
     }
   ],
-  "plan": "Visit the tidepools, then drink at the pond, forage berries, sleep in the hut.",
+  "plan": "Test crab marks one by one, then drink at the pond, forage berries, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1772,16 +1773,16 @@
       "glade"
     ]
   },
-  "ticks": 609,
+  "ticks": 610,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "It is the middle of my night, awake time, and my curiosity is a dry shell at 14. Belly and water are middling. A new place is gone since I explored everything, but the tidepools are on my plan and the crabs live there. I will go look closely at the crabs and their scratched shells. Maybe I'll find a real wonder this time.",
+  "thought": "I'm at the tidepools with four scratched shells. Water 58, fullness 53 are okay but not great. Curiosity and joy are low. An experiment with the shells and crab marks could feed both. Try matching marks by placing a shell and clacking it, to see which mark makes crabs react. Then go drink and eat before dawn.",
   "face": "curious",
-  "lastThought": "2026-11-26T03:27:28.553Z",
+  "lastThought": "2026-11-26T04:18:28.329Z",
   "foundPlace": null
 }
