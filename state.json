@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T20:49:25.305Z",
+  "lastUpdate": "2026-11-26T20:59:41.059Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
@@ -10,14 +10,14 @@
   "doing": "explore at the tidepools",
   "busyUntil": "2026-11-26T21:09:14.261Z",
   "needs": {
-    "fullness": 52,
-    "water": 97,
-    "energy": 73,
-    "curiosity": 17,
-    "joy": 15,
+    "fullness": 51,
+    "water": 96,
+    "energy": 72,
+    "curiosity": 16,
+    "joy": 14,
     "calm": 100
   },
-  "health": 97,
+  "health": 98,
   "mood": "determined and curious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
