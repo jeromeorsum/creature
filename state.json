@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T20:18:54.302Z",
+  "lastUpdate": "2026-11-26T20:29:06.356Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-26T20:28:54.302Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-26T20:39:06.356Z",
   "needs": {
-    "fullness": 41,
-    "water": 100,
-    "energy": 84,
+    "fullness": 54,
+    "water": 99,
+    "energy": 83,
     "curiosity": 0,
-    "joy": 14,
+    "joy": 17,
     "calm": 100
   },
-  "health": 94,
+  "health": 95,
   "mood": "determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -753,7 +753,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berry, tidepools to test crab marks, tend seedlings.",
+  "plan": "Eat berry, forage more, tidepools to test crab marks, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -850,7 +850,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1797,16 +1797,18 @@
       "glade"
     ]
   },
-  "ticks": 622,
+  "ticks": 623,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
-  "lastOutcome": [],
-  "thought": "My water is 62 and belly 41. I'm at the pond with water already decent. Curiosity is 0 and joy 14, which nags me. Let me drink a little more, then go to the tidepools. Actually, a quick drink is cheap and keeps me safe. But explore somewhere gives curiosity. I'll eat my kept berry first? Pigeon is not here. Let me drink to be safe, then go to the tidepools to test the crab marks.",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "My belly is only at 40 and I have just one berry kept. Curiosity is zero, which is bad. The berry bushes are right here, so food first would be wise, but exploring the tidepools would fix curiosity. I will eat first, then go to the tidepools. Actually eating my kept berry is quick and the pigeon is not here, so do it now.",
   "face": "determined",
-  "lastThought": "2026-11-26T20:18:54.302Z",
+  "lastThought": "2026-11-26T20:29:06.356Z",
   "foundPlace": null
 }
