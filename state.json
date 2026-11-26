@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T01:35:14.997Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-26T01:45:23.455Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 14.1,
+    "z": -7.3
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-26T01:44:05.863Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-26T02:10:23.455Z",
   "needs": {
-    "fullness": 50,
-    "water": 74,
-    "energy": 37,
-    "curiosity": 25,
-    "joy": 35,
+    "fullness": 73,
+    "water": 73,
+    "energy": 32,
+    "curiosity": 24,
+    "joy": 37,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but content",
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -728,7 +728,7 @@
       }
     }
   ],
-  "plan": "Tend seedlings, then sleep in the hut.",
+  "plan": "Forage berries, drink at the pond, then sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -825,7 +825,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1400,7 +1400,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 4,
+        "left": 1,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1772,16 +1772,19 @@
       "glade"
     ]
   },
-  "ticks": 606,
+  "ticks": 607,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
-  "lastOutcome": [],
-  "thought": "My energy is very low at 24, and water is 87, fullness 64. Dawn is not far off. I'm at the pond with reeds and clay around. I need sleep soon, but I have a seedling to tend first. Tending costs a little energy but gives calm. I'll tend the seedlings here at the pond, then go home to the hut and sleep.",
-  "face": "sleepy",
-  "lastThought": "2026-11-26T00:03:01.654Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
+  ],
+  "thought": "It is the middle of my night and my belly is half empty at 49 with no kept berries. Meal time. The thicket is where berries are, so I go forage, eat some straight away, and fill the pot. Then a drink before dawn and bed in the hut.",
+  "face": "determined",
+  "lastThought": "2026-11-26T01:45:23.455Z",
   "foundPlace": null
 }
