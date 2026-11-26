@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T08:03:01.486Z",
+  "lastUpdate": "2026-11-26T08:13:12.825Z",
   "place": "thicket",
   "spot": {
-    "x": 18.8,
-    "z": -5.9
+    "x": 15,
+    "z": -3
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-26T08:23:12.825Z",
   "needs": {
-    "fullness": 50,
-    "water": 84,
-    "energy": 30,
-    "curiosity": 20,
-    "joy": 29,
+    "fullness": 77,
+    "water": 83,
+    "energy": 29,
+    "curiosity": 19,
+    "joy": 32,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -182,7 +182,8 @@
       3,
       4,
       5,
-      6
+      6,
+      7
     ]
   },
   "lessons": [
@@ -730,7 +731,7 @@
       }
     }
   ],
-  "plan": "Forage berries, eat, sleep in the hut.",
+  "plan": "Eat berries, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -827,7 +828,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1774,18 +1775,18 @@
       "glade"
     ]
   },
-  "ticks": 614,
+  "ticks": 615,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is hungry and the pot is empty, so food comes first. The thicket has berries, and I will keep an eye out for the pigeon. Then I can sleep in the hut, since it is already morning and I am nocturnal.",
-  "face": "determined",
-  "lastThought": "2026-11-26T07:32:22.444Z",
+  "thought": "Daylight now, and I'm supposed to sleep soon. My belly is half full and I have 2 berries. Energy is 29, so I'm tired. The pigeon is around, so I should eat my kept berries now before it steals them. Then I'll go home and sleep in the Cosy Hut.",
+  "face": "sleepy",
+  "lastThought": "2026-11-26T08:13:12.825Z",
   "foundPlace": null
 }
