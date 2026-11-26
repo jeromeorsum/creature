@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T02:15:58.136Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-26T02:26:11.044Z",
+  "place": "nest",
   "spot": {
-    "x": 14.1,
-    "z": -7.3
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the thicket",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-26T03:26:11.044Z",
   "needs": {
-    "fullness": 70,
-    "water": 70,
-    "energy": 29,
-    "curiosity": 21,
-    "joy": 34,
+    "fullness": 64,
+    "water": 69,
+    "energy": 58,
+    "curiosity": 20,
+    "joy": 33,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but hopeful",
+  "mood": "sleepy and suspicious",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -728,7 +728,7 @@
       }
     }
   ],
-  "plan": "Forage berries, drink at the pond, then sleep in the hut.",
+  "plan": "Sleep in the hut, then drink and forage at dusk.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -825,7 +825,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1772,19 +1772,16 @@
       "glade"
     ]
   },
-  "ticks": 607,
+  "ticks": 608,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "It is the middle of my night and my belly is half empty at 49 with no kept berries. Meal time. The thicket is where berries are, so I go forage, eat some straight away, and fill the pot. Then a drink before dawn and bed in the hut.",
-  "face": "determined",
-  "lastThought": "2026-11-26T01:45:23.455Z",
+  "lastOutcome": [],
+  "thought": "The pigeon stole a berry and stared at me. Rude. My energy is low at 28 and I have no kept berries, so the pigeon only got one from my pot-less hands. Fullness is fine. Curiosity is low, but sleep is what I need most. It is nearly morning for me, and I sleep at 11am, so I could drink and then nap. I'll pick a few more berries to keep, then go home. Actually first, a quick nap at the hut is the best choice for energy.",
+  "face": "sleepy",
+  "lastThought": "2026-11-26T02:26:11.044Z",
   "foundPlace": null
 }
