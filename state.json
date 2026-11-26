@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T19:27:54.002Z",
+  "lastUpdate": "2026-11-26T19:38:06.040Z",
   "place": "thicket",
   "spot": {
     "x": 16.1,
     "z": 2.2
   },
   "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-26T19:32:29.919Z",
+  "busyUntil": "2026-11-26T20:03:06.040Z",
   "needs": {
-    "fullness": 22,
-    "water": 17,
-    "energy": 93,
+    "fullness": 45,
+    "water": 16,
+    "energy": 88,
     "curiosity": 0,
-    "joy": 16,
+    "joy": 18,
     "calm": 100
   },
   "health": 93,
@@ -847,7 +847,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1512,7 +1512,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3,
+        "left": 0,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1794,18 +1794,18 @@
       "glade"
     ]
   },
-  "ticks": 619,
+  "ticks": 620,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
   "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
+    "You collected 3 berries and ate 2 on the spot."
   ],
-  "thought": "I woke up starving and thirsty, fullness zero and water 19. Food first, then water. The thicket has berries, the pond is close. I'll forage first and eat on the spot so the pigeon can't steal, then drink, then crab wonders.",
+  "thought": "My belly is still a hollow cave at 21 and my water is 16. Berries are right here, so I forage again and gobble before the pigeon stares. Then the pond. Curiosity is zero, so the crabs after that.",
   "face": "determined",
-  "lastThought": "2026-11-26T19:07:29.919Z",
+  "lastThought": "2026-11-26T19:38:06.040Z",
   "foundPlace": null
 }
