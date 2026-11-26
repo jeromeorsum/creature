@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T21:40:30.767Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-26T21:50:39.997Z",
+  "place": "meadow",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": 6,
+    "z": 10
   },
-  "doing": "experiment at the tidepools",
-  "busyUntil": "2026-11-26T21:49:55.618Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-26T22:30:39.997Z",
   "needs": {
-    "fullness": 47,
-    "water": 92,
-    "energy": 60,
-    "curiosity": 27,
-    "joy": 18,
+    "fullness": 46,
+    "water": 91,
+    "energy": 51,
+    "curiosity": 34,
+    "joy": 35,
     "calm": 98
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "silly and warming up",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -140,6 +140,12 @@
       "kind": "song",
       "file": "2026-11-21-the-wind-hires-shells.md",
       "made": "2026-11-21T05:17:12.548Z"
+    },
+    {
+      "title": "The Four Shell Partners Wobble",
+      "kind": "dance",
+      "file": "2026-11-26-the-four-shell-partners-wobble.md",
+      "made": "2026-11-26T21:50:39.997Z"
     }
   ],
   "concerns": [
@@ -179,14 +185,16 @@
     "done": [
       1,
       2,
-      3
+      3,
+      5
     ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
     "Eat kept berries quickly when the pigeon is near, or it will take them.",
     "Never let food and water hit zero; drink and eat before anything else, or I collapse.",
-    "Count the fibre before walking to the hut; collect extra, not just enough."
+    "Count the fibre before walking to the hut; collect extra, not just enough.",
+    "When joy is low, make something silly instead of staring harder at a puzzle."
   ],
   "days": [
     {
@@ -754,7 +762,7 @@
       }
     }
   ],
-  "plan": "Test crab names at the tidepools, then forage berries, tend seedlings, drink before dawn, sleep in the hut.",
+  "plan": "Dance at the tidepools, then forage berries, tend seedlings, drink before dawn, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1798,16 +1806,16 @@
       "glade"
     ]
   },
-  "ticks": 625,
+  "ticks": 626,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
   "lastOutcome": [],
-  "thought": "I'm at the tidepools with four marked shells and my curiosity is an empty bucket. I'll try an experiment: lay the shells in a row and copy each mark by scratching it in wet sand, then see which crab answers. My theory is that each mark is a name. Fullness is 50, so I'll forage after this.",
-  "face": "curious",
-  "lastThought": "2026-11-26T21:09:55.618Z",
+  "thought": "My joy is a tiny flat puddle and my belly is half a cave. The crab mystery has not cracked, and staring harder is not helping. I will make something for joy: a silly crab-name dance on the wet sand, with the four shells as partners. Then berries.",
+  "face": "happy",
+  "lastThought": "2026-11-26T21:50:39.997Z",
   "foundPlace": null
 }
