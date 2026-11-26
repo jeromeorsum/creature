@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T20:08:43.795Z",
+  "lastUpdate": "2026-11-26T20:18:54.302Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
   "doing": "drink at the pond",
-  "busyUntil": "2026-11-26T20:18:43.795Z",
+  "busyUntil": "2026-11-26T20:28:54.302Z",
   "needs": {
-    "fullness": 42,
-    "water": 63,
-    "energy": 85,
+    "fullness": 41,
+    "water": 100,
+    "energy": 84,
     "curiosity": 0,
-    "joy": 15,
+    "joy": 14,
     "calm": 100
   },
-  "health": 93,
-  "mood": "thirsty but determined",
+  "health": 94,
+  "mood": "determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -167,17 +167,18 @@
   "today": {
     "date": "2026-11-26",
     "plan": [
-      "Forage berries and eat breakfast",
       "Drink at the pond",
-      "Tend plants and seedlings",
+      "Eat kept berry",
       "Visit tidepools to test crab marks",
+      "Tend seedlings",
       "Splash or make something for joy",
-      "Forage again and eat dinner",
+      "Forage and eat dinner",
       "Drink before dawn",
-      "Wind down and sleep in the Cosy Hut"
+      "Sleep in the Cosy Hut"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -752,7 +753,7 @@
       }
     }
   ],
-  "plan": "Drink, eat kept berry, tend seedlings, then tidepools to test crab marks.",
+  "plan": "Drink, eat berry, tidepools to test crab marks, tend seedlings.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1796,16 +1797,16 @@
       "glade"
     ]
   },
-  "ticks": 621,
+  "ticks": 622,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 3
+    "ticks": 4
   },
   "lastOutcome": [],
-  "thought": "My beak is dry sand, water is 13, which is the scariest number. Drink first, before anything else. The berries can wait a few minutes. Then I will eat my kept berry and think about the crabs again.",
+  "thought": "My water is 62 and belly 41. I'm at the pond with water already decent. Curiosity is 0 and joy 14, which nags me. Let me drink a little more, then go to the tidepools. Actually, a quick drink is cheap and keeps me safe. But explore somewhere gives curiosity. I'll eat my kept berry first? Pigeon is not here. Let me drink to be safe, then go to the tidepools to test the crab marks.",
   "face": "determined",
-  "lastThought": "2026-11-26T20:08:43.795Z",
+  "lastThought": "2026-11-26T20:18:54.302Z",
   "foundPlace": null
 }
