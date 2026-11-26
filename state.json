@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T20:59:41.059Z",
+  "lastUpdate": "2026-11-26T21:09:55.618Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-26T21:09:14.261Z",
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-26T21:49:55.618Z",
   "needs": {
-    "fullness": 51,
-    "water": 96,
-    "energy": 72,
-    "curiosity": 16,
-    "joy": 14,
-    "calm": 100
+    "fullness": 50,
+    "water": 95,
+    "energy": 63,
+    "curiosity": 30,
+    "joy": 21,
+    "calm": 98
   },
-  "health": 98,
-  "mood": "determined and curious",
+  "health": 99,
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,8 @@
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -753,7 +754,7 @@
       }
     }
   ],
-  "plan": "Tidepools to study crab marks, then forage berries, tend seedlings, drink before dawn, sleep in the hut.",
+  "plan": "Test crab names at the tidepools, then forage berries, tend seedlings, drink before dawn, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1797,16 +1798,16 @@
       "glade"
     ]
   },
-  "ticks": 624,
+  "ticks": 625,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "My belly is only half full and I have no kept berries. Curiosity is zero, which nags me. The tidepools and crabs are calling, but food first is wiser. I will explore the tidepools to look closely at the crab marks, which should fill my curiosity. Then I will forage before dawn.",
+  "thought": "I'm at the tidepools with four marked shells and my curiosity is an empty bucket. I'll try an experiment: lay the shells in a row and copy each mark by scratching it in wet sand, then see which crab answers. My theory is that each mark is a name. Fullness is 50, so I'll forage after this.",
   "face": "curious",
-  "lastThought": "2026-11-26T20:39:14.261Z",
+  "lastThought": "2026-11-26T21:09:55.618Z",
   "foundPlace": null
 }
