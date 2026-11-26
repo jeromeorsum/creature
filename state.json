@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T19:58:31.027Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-26T20:08:43.795Z",
+  "place": "pond",
   "spot": {
-    "x": 16.1,
-    "z": 2.2
+    "x": -4,
+    "z": 21
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-26T20:03:06.040Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-26T20:18:43.795Z",
   "needs": {
-    "fullness": 43,
-    "water": 14,
-    "energy": 86,
+    "fullness": 42,
+    "water": 63,
+    "energy": 85,
     "curiosity": 0,
-    "joy": 16,
+    "joy": 15,
     "calm": 100
   },
   "health": 93,
-  "mood": "hungry but determined",
+  "mood": "thirsty but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -176,7 +176,9 @@
       "Drink before dawn",
       "Wind down and sleep in the Cosy Hut"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -750,7 +752,7 @@
       }
     }
   ],
-  "plan": "Forage and eat berries, drink at the pond, tend seedlings, then test crab marks at the tidepools.",
+  "plan": "Drink, eat kept berry, tend seedlings, then tidepools to test crab marks.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1794,18 +1796,16 @@
       "glade"
     ]
   },
-  "ticks": 620,
+  "ticks": 621,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot."
-  ],
-  "thought": "My belly is still a hollow cave at 21 and my water is 16. Berries are right here, so I forage again and gobble before the pigeon stares. Then the pond. Curiosity is zero, so the crabs after that.",
+  "lastOutcome": [],
+  "thought": "My beak is dry sand, water is 13, which is the scariest number. Drink first, before anything else. The berries can wait a few minutes. Then I will eat my kept berry and think about the crabs again.",
   "face": "determined",
-  "lastThought": "2026-11-26T19:38:06.040Z",
+  "lastThought": "2026-11-26T20:08:43.795Z",
   "foundPlace": null
 }
