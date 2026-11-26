@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T22:21:14.122Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-26T22:31:26.741Z",
+  "place": "thicket",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": 19.7,
+    "z": -5.6
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-26T22:30:39.997Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-26T22:56:26.741Z",
   "needs": {
-    "fullness": 43,
-    "water": 88,
-    "energy": 48,
-    "curiosity": 31,
-    "joy": 32,
+    "fullness": 66,
+    "water": 87,
+    "energy": 43,
+    "curiosity": 30,
+    "joy": 34,
     "calm": 98
   },
   "health": 100,
-  "mood": "silly and warming up",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -762,7 +762,7 @@
       }
     }
   ],
-  "plan": "Dance at the tidepools, then forage berries, tend seedlings, drink before dawn, sleep in the hut.",
+  "plan": "Forage berries, tend seedlings, drink before dawn, sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -859,7 +859,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 2,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1338,7 +1338,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 4,
+        "left": 0,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1806,16 +1806,19 @@
       "glade"
     ]
   },
-  "ticks": 626,
+  "ticks": 627,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 8
+    "ticks": 9
   },
-  "lastOutcome": [],
-  "thought": "My joy is a tiny flat puddle and my belly is half a cave. The crab mystery has not cracked, and staring harder is not helping. I will make something for joy: a silly crab-name dance on the wet sand, with the four shells as partners. Then berries.",
-  "face": "happy",
-  "lastThought": "2026-11-26T21:50:39.997Z",
+  "lastOutcome": [
+    "You collected 4 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "My belly is only 42 and I have no kept berries. Berry bushes are right here in the meadow, so I should forage now before the pigeon shows up. Then tend seedlings and drink before dawn.",
+  "face": "determined",
+  "lastThought": "2026-11-26T22:31:26.741Z",
   "foundPlace": null
 }
