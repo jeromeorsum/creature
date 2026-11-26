@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T06:20:53.915Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-26T06:31:03.951Z",
+  "place": "nest",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": -8,
+    "z": 6
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-26T06:30:38.798Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-26T07:31:03.951Z",
   "needs": {
-    "fullness": 41,
-    "water": 94,
-    "energy": 14,
-    "curiosity": 30,
-    "joy": 36,
+    "fullness": 35,
+    "water": 93,
+    "energy": 43,
+    "curiosity": 29,
+    "joy": 35,
     "calm": 100
   },
   "health": 100,
@@ -1774,7 +1774,7 @@
       "glade"
     ]
   },
-  "ticks": 612,
+  "ticks": 613,
   "spend": {
     "day": "2026-11-25",
     "usd": 0,
