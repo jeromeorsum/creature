@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T03:47:52.810Z",
+  "lastUpdate": "2026-11-26T03:58:02.627Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "explore at the tidepools",
-  "busyUntil": "2026-11-26T03:57:28.553Z",
+  "doing": "pottering about at the tidepools",
+  "busyUntil": null,
   "needs": {
-    "fullness": 56,
-    "water": 61,
-    "energy": 42,
-    "curiosity": 30,
-    "joy": 25,
+    "fullness": 55,
+    "water": 60,
+    "energy": 41,
+    "curiosity": 29,
+    "joy": 24,
     "calm": 100
   },
   "health": 100,
