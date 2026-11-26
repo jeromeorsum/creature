@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-26T18:57:20.930Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-26T19:07:29.919Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 16.1,
+    "z": 2.2
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-26T19:32:29.919Z",
   "needs": {
-    "fullness": 0,
-    "water": 20,
-    "energy": 100,
-    "curiosity": 3,
-    "joy": 16,
+    "fullness": 24,
+    "water": 19,
+    "energy": 95,
+    "curiosity": 2,
+    "joy": 18,
     "calm": 100
   },
-  "health": 94,
-  "mood": "sleepy but hopeful",
+  "health": 93,
+  "mood": "hungry but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -165,27 +165,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "plan": [
-      "Eat breakfast berries",
-      "Spy on the pigeon",
-      "Tie the hut cone back on",
-      "Tend seedlings",
-      "Visit the tidepools",
-      "Splash in the pond",
-      "Drink and eat before dawn",
-      "Sleep in the Cosy Hut"
+      "Forage berries and eat breakfast",
+      "Drink at the pond",
+      "Tend plants and seedlings",
+      "Visit tidepools to test crab marks",
+      "Splash or make something for joy",
+      "Forage again and eat dinner",
+      "Drink before dawn",
+      "Wind down and sleep in the Cosy Hut"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -759,7 +750,7 @@
       }
     }
   ],
-  "plan": "Sleep, then forage berries, eat, drink, and test crab marks at the tidepools tonight.",
+  "plan": "Forage and eat berries, drink at the pond, tend seedlings, then test crab marks at the tidepools.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1367,7 +1358,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1,
+        "left": 0,
         "tendedUntil": "2026-11-24T21:27:14.384Z"
       },
       {
@@ -1521,7 +1512,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 4,
+        "left": 3,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-24T21:27:14.384Z"
@@ -1803,16 +1794,18 @@
       "glade"
     ]
   },
-  "ticks": 618,
+  "ticks": 619,
   "spend": {
-    "day": "2026-11-25",
+    "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 1
   },
-  "lastOutcome": [],
-  "thought": "Sun is up and it's time to sleep. I'm in the Cosy Hut. My belly is middling, water fine, and curiosity is low, but a nap will fix energy. Tonight I'll go chase the crab marks again and forage first. I'll curl up now and sleep dry and cosy.",
-  "face": "sleepy",
-  "lastThought": "2026-11-26T10:15:55.071Z",
+  "lastOutcome": [
+    "You collected 2 berries and ate 2 on the spot."
+  ],
+  "thought": "I woke up starving and thirsty, fullness zero and water 19. Food first, then water. The thicket has berries, the pond is close. I'll forage first and eat on the spot so the pigeon can't steal, then drink, then crab wonders.",
+  "face": "determined",
+  "lastThought": "2026-11-26T19:07:29.919Z",
   "foundPlace": null
 }
