@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T22:52:26.825Z",
+  "lastUpdate": "2026-11-27T23:02:34.201Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "tend plants at the pond",
+  "busyUntil": "2026-11-27T23:37:34.201Z",
   "needs": {
-    "fullness": 66,
-    "water": 86,
-    "energy": 56,
-    "curiosity": 34,
-    "joy": 44,
+    "fullness": 65,
+    "water": 81,
+    "energy": 47,
+    "curiosity": 33,
+    "joy": 48,
     "calm": 100
   },
-  "health": 97,
-  "mood": "determined",
+  "health": 98,
+  "mood": "determined and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -797,7 +797,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, forage berries, tend plants, sleep at dawn.",
+  "plan": "Tend plants, forage a full pot at the thicket, make something silly, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1240,7 +1240,7 @@
         "x": 4.9,
         "z": 27.6,
         "left": 3,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "fibre2",
@@ -1248,7 +1248,7 @@
         "x": -2.2,
         "z": 17.7,
         "left": 3,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "fibre3",
@@ -1256,7 +1256,7 @@
         "x": -3.5,
         "z": 26.1,
         "left": 3,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "fibre4",
@@ -1264,7 +1264,7 @@
         "x": -5.6,
         "z": 26.7,
         "left": 3,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "fibre5",
@@ -1272,7 +1272,7 @@
         "x": -3.9,
         "z": 19.8,
         "left": 0,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "fibre6",
@@ -1280,7 +1280,7 @@
         "x": 4,
         "z": 23,
         "left": 3,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "fibre7",
@@ -1288,7 +1288,7 @@
         "x": 4.1,
         "z": 18.6,
         "left": 3,
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "shells1",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.4,
+        "left": 1.47,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.19,
+        "left": 3.26,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1432,7 +1432,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted58",
@@ -1442,7 +1442,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted59",
@@ -1452,7 +1452,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-10-29T21:57:44.660Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted60",
@@ -1702,7 +1702,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted85",
@@ -1712,7 +1712,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted86",
@@ -1722,7 +1722,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-21T19:55:24.283Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted87",
@@ -1732,7 +1732,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted88",
@@ -1742,7 +1742,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
         "id": "planted89",
@@ -1752,7 +1752,7 @@
         "left": 4,
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
-        "tendedUntil": "2026-11-27T00:03:01.654Z"
+        "tendedUntil": "2026-11-28T23:02:34.201Z"
       }
     ],
     "structures": [
@@ -1841,16 +1841,18 @@
       "glade"
     ]
   },
-  "ticks": 653,
+  "ticks": 654,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 9
+    "ticks": 10
   },
-  "lastOutcome": [],
-  "thought": "Water is 41 and the pigeon just took another shell, rude. The pond comes first, as my lesson says. The cliffs are far, but my beak is dry and my berry pot is empty. After drinking I can forage and tend plants.",
+  "lastOutcome": [
+    "You looked after 16 plants around the pond. They'll grow for about a day."
+  ],
+  "thought": "Water is fine and fullness is okay, but I have no kept berries. I'm at the pond and the clay bank is right here. Plants need tending too, and the plan says so. Tending the pond reeds and bushes keeps them growing back and gives calm and joy. I'll tend plants here before foraging.",
   "face": "determined",
-  "lastThought": "2026-11-27T22:01:17.139Z",
+  "lastThought": "2026-11-27T23:02:34.201Z",
   "foundPlace": null
 }
