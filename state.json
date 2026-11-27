@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T21:20:28.587Z",
+  "lastUpdate": "2026-11-27T21:30:37.512Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
     "z": 4
   },
-  "doing": "explore at the cliffs",
-  "busyUntil": "2026-11-27T21:29:59.333Z",
+  "doing": "tap beak patterns back and forth with the seabirds on the ledges (at the cliffs)",
+  "busyUntil": "2026-11-27T22:00:37.512Z",
   "needs": {
-    "fullness": 78,
-    "water": 49,
-    "energy": 70,
-    "curiosity": 29,
-    "joy": 39,
-    "calm": 95
+    "fullness": 74,
+    "water": 44,
+    "energy": 64,
+    "curiosity": 42,
+    "joy": 52,
+    "calm": 97
   },
-  "health": 88,
-  "mood": "restless and hopeful",
+  "health": 89,
+  "mood": "playful and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -797,7 +797,7 @@
       }
     }
   ],
-  "plan": "Explore the cliffs, drink at the pond, tend plants, make something silly, sleep at dawn.",
+  "plan": "Tap with seabirds, drink at the pond, tend plants, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.77,
+        "left": 0.84,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.56,
+        "left": 2.63,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1841,16 +1841,18 @@
       "glade"
     ]
   },
-  "ticks": 651,
+  "ticks": 652,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 7
+    "ticks": 8
   },
-  "lastOutcome": [],
-  "thought": "My curiosity bucket is nearly dry at 13. The list says I have explored the whole island, but the pigeon is still a mystery, and so are the crab marks. I'll explore somewhere I know and look at it closely, and see what's different at night. The cliffs at night with the stars sound good. Water is 51, so I'll drink soon after.",
-  "face": "curious",
-  "lastThought": "2026-11-27T20:59:59.333Z",
+  "lastOutcome": [
+    "You did your own thing: tap beak patterns back and forth with the seabirds on the ledges."
+  ],
+  "thought": "Water is 48, so I should drink soon, but my curiosity is low at 28 and I'm at the cliffs with a big view. I feel restless. Something silly would lift my joy at 38. I could tap beak patterns with the seabirds, which worked before. Then I'll go drink at the pond.",
+  "face": "excited",
+  "lastThought": "2026-11-27T21:30:37.512Z",
   "foundPlace": null
 }
