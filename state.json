@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T20:29:16.274Z",
+  "lastUpdate": "2026-11-27T20:39:34.689Z",
   "place": "thicket",
   "spot": {
     "x": 15,
     "z": -3
   },
-  "doing": "eat food at the thicket",
-  "busyUntil": "2026-11-27T20:39:16.274Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-27T20:54:34.689Z",
   "needs": {
-    "fullness": 83,
-    "water": 54,
-    "energy": 83,
-    "curiosity": 0,
-    "joy": 39,
-    "calm": 100
+    "fullness": 82,
+    "water": 53,
+    "energy": 82,
+    "curiosity": 15,
+    "joy": 43,
+    "calm": 95
   },
-  "health": 83,
-  "mood": "hungry but hopeful",
+  "health": 84,
+  "mood": "curious and a bit cross",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -185,7 +185,7 @@
     "date": "2026-11-27",
     "plan": [
       "Eat dinner at the thicket",
-      "Explore somewhere new",
+      "Spy on the pigeon",
       "Drink at the pond",
       "Tend plants",
       "Make something silly",
@@ -797,7 +797,7 @@
       }
     }
   ],
-  "plan": "Eat dinner, explore somewhere new, drink, tend plants, sleep at dawn.",
+  "plan": "Spy on the pigeon, drink, tend plants, make something silly, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -904,7 +904,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 0,
-      "shells": 5
+      "shells": 4
     },
     "discovered": [
       "clay",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.42,
+        "left": 0.49,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.21,
+        "left": 2.28,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1841,18 +1841,16 @@
       "glade"
     ]
   },
-  "ticks": 649,
+  "ticks": 650,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 5
+    "ticks": 6
   },
-  "lastOutcome": [
-    "You ate 2 berries from your food."
-  ],
-  "thought": "My belly is half full and my curiosity bucket is bone dry. I have berries kept, so dinner first, then I go somewhere new. The whole island is explored, but I can look again closely at somewhere. Let me eat now before the pigeon notices, then go exploring.",
-  "face": "determined",
-  "lastThought": "2026-11-27T20:29:16.274Z",
+  "lastOutcome": [],
+  "thought": "The pigeon stole another shell, rude. My curiosity is at zero, which nags me. Fullness is good, water is okay at 53. Everyone says I explored the whole island, but I can still poke at things. Spying on the pigeon is a cheap way to fill curiosity, and the pigeon is right here. It might also reveal why it keeps stealing shells.",
+  "face": "suspicious",
+  "lastThought": "2026-11-27T20:39:34.689Z",
   "foundPlace": null
 }
