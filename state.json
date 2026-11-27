@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T23:12:49.269Z",
+  "lastUpdate": "2026-11-27T23:22:57.036Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,14 +10,14 @@
   "doing": "tend plants at the pond",
   "busyUntil": "2026-11-27T23:37:34.201Z",
   "needs": {
-    "fullness": 64,
-    "water": 80,
-    "energy": 46,
-    "curiosity": 32,
-    "joy": 47,
+    "fullness": 63,
+    "water": 79,
+    "energy": 45,
+    "curiosity": 31,
+    "joy": 46,
     "calm": 100
   },
-  "health": 99,
+  "health": 100,
   "mood": "determined and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -1271,7 +1271,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.05,
+        "left": 0.1,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.54,
+        "left": 1.61,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.33,
+        "left": 3.4,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
