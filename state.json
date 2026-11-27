@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T09:35:16.796Z",
+  "lastUpdate": "2026-11-27T09:45:31.933Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
-  "doing": "build at the nest",
-  "busyUntil": "2026-11-27T09:39:25.018Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-27T10:45:31.933Z",
   "needs": {
-    "fullness": 52,
-    "water": 68,
-    "energy": 33,
-    "curiosity": 14,
-    "joy": 42,
+    "fullness": 46,
+    "water": 67,
+    "energy": 62,
+    "curiosity": 13,
+    "joy": 41,
     "calm": 100
   },
   "health": 100,
-  "mood": "resolved and sleepy",
+  "mood": "sleepy and satisfied",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -178,7 +178,7 @@
     {
       "text": "The hut roof lost a fibre cone to the wind; I need fibre to repair it",
       "made": "2026-11-27T07:22:21.102Z",
-      "resolved": null
+      "resolved": "2026-11-27T09:45:31.933Z"
     }
   ],
   "today": {
@@ -200,7 +200,8 @@
       5,
       4,
       6,
-      7
+      7,
+      8
     ]
   },
   "lessons": [
@@ -776,7 +777,7 @@
       }
     }
   ],
-  "plan": "Finish the hut roof, then sleep in it.",
+  "plan": "Sleep in the hut, then forage berries and explore tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1344,7 +1345,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.9,
+        "left": 1.97,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1400,7 +1401,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.62,
+        "left": 3.69,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1820,18 +1821,16 @@
       "glade"
     ]
   },
-  "ticks": 642,
+  "ticks": 643,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
-  "lastOutcome": [
-    "You placed 1 blocks on \"Cosy Hut\" and FINISHED it."
-  ],
-  "thought": "I have 3 fibre and the hut needs 3 fibre. The hut is 14m away. It's morning and I should be asleep. Let me go finish the hut with build, then sleep in it. Curiosity is low but sleep first.",
-  "face": "determined",
-  "lastThought": "2026-11-27T08:54:25.018Z",
+  "lastOutcome": [],
+  "thought": "The hut is finished and it's nearly sleeping time, 11am. My energy is low and the sun is up, so I should sleep in the Cosy Hut like a proper nocturnal bird. Curiosity is low but I can fix that tonight. A nap now is the sensible thing.",
+  "face": "sleepy",
+  "lastThought": "2026-11-27T09:45:31.933Z",
   "foundPlace": null
 }
