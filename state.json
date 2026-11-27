@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T20:19:07.260Z",
+  "lastUpdate": "2026-11-27T20:29:16.274Z",
   "place": "thicket",
   "spot": {
-    "x": 12.9,
-    "z": -2.4
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-27T20:23:43.409Z",
+  "doing": "eat food at the thicket",
+  "busyUntil": "2026-11-27T20:39:16.274Z",
   "needs": {
-    "fullness": 56,
-    "water": 55,
-    "energy": 84,
+    "fullness": 83,
+    "water": 54,
+    "energy": 83,
     "curiosity": 0,
-    "joy": 36,
+    "joy": 39,
     "calm": 100
   },
-  "health": 82,
-  "mood": "hungry but determined",
+  "health": 83,
+  "mood": "hungry but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -184,17 +184,17 @@
   "today": {
     "date": "2026-11-27",
     "plan": [
-      "Eat berry at pond",
-      "Forage a full pot at the thicket",
-      "Eat a proper dinner",
-      "Tend plants",
+      "Eat dinner at the thicket",
       "Explore somewhere new",
-      "Splash or make something silly",
-      "Wind down and sleep in the hut at dawn"
+      "Drink at the pond",
+      "Tend plants",
+      "Make something silly",
+      "Wind down and sleep in the hut"
     ],
     "done": [
       1,
-      2
+      2,
+      3
     ]
   },
   "lessons": [
@@ -797,7 +797,7 @@
       }
     }
   ],
-  "plan": "Forage a full pot, eat dinner, explore somewhere new, tend plants, sleep at dawn.",
+  "plan": "Eat dinner, explore somewhere new, drink, tend plants, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -894,7 +894,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.35,
+        "left": 0.42,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.14,
+        "left": 2.21,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1841,19 +1841,18 @@
       "glade"
     ]
   },
-  "ticks": 648,
+  "ticks": 649,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 4
+    "ticks": 5
   },
   "lastOutcome": [
-    "You collected 4 berries and ate 2 on the spot.",
-    "You also saved 2 berry seeds."
+    "You ate 2 berries from your food."
   ],
-  "thought": "My belly is only a third full and I have no kept berries. The thicket is right here with 28 bushes, so I should forage more and fill the pot. Curiosity is zero, but food comes first. Then I can explore somewhere new.",
+  "thought": "My belly is half full and my curiosity bucket is bone dry. I have berries kept, so dinner first, then I go somewhere new. The whole island is explored, but I can look again closely at somewhere. Let me eat now before the pigeon notices, then go exploring.",
   "face": "determined",
-  "lastThought": "2026-11-27T19:58:43.409Z",
+  "lastThought": "2026-11-27T20:29:16.274Z",
   "foundPlace": null
 }
