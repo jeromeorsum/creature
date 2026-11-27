@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T08:13:36.652Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-27T08:23:50.577Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -3.9,
+    "z": 19.8
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-27T08:22:21.102Z",
+  "doing": "pull reeds at the pond",
+  "busyUntil": "2026-11-27T08:48:50.577Z",
   "needs": {
-    "fullness": 65,
-    "water": 76,
-    "energy": 61,
-    "curiosity": 17,
-    "joy": 28,
+    "fullness": 64,
+    "water": 75,
+    "energy": 54,
+    "curiosity": 16,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but resolved",
+  "mood": "resolved",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -776,7 +776,7 @@
       }
     }
   ],
-  "plan": "Sleep, then pull extra reeds for fibre, repair the Cosy Hut, forage berries.",
+  "plan": "Pull reeds, repair the Cosy Hut, then sleep in it.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -882,7 +882,7 @@
       "wood": 2,
       "stone": 0,
       "clay": 0,
-      "fibre": 0,
+      "fibre": 3,
       "shells": 5
     },
     "discovered": [
@@ -1250,7 +1250,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 3,
+        "left": 0,
         "tendedUntil": "2026-11-27T00:03:01.654Z"
       },
       {
@@ -1344,7 +1344,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.34,
+        "left": 1.41,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1352,7 +1352,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 3.57,
+        "left": 3.64,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1360,7 +1360,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 3.57,
+        "left": 3.64,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1368,7 +1368,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 3.57,
+        "left": 3.64,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1384,7 +1384,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 3.57,
+        "left": 3.64,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1400,7 +1400,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.06,
+        "left": 3.13,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1448,7 +1448,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 3.57,
+        "left": 3.64,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1478,7 +1478,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 3.57,
+        "left": 3.64,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1538,7 +1538,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 3.57,
+        "left": 3.64,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1820,16 +1820,18 @@
       "glade"
     ]
   },
-  "ticks": 640,
+  "ticks": 641,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [],
-  "thought": "Dawn is here and my energy is low, so bedtime is close. The hut is missing a fibre cone and needs 3 fibre, which I don't have. I'll sleep in the Cosy Hut anyway, since a nap there beats the open nest. Tomorrow night I'll pull reeds first and fix the roof.",
-  "face": "sleepy",
-  "lastThought": "2026-11-27T07:22:21.102Z",
+  "lastOutcome": [
+    "You collected 3 fibre."
+  ],
+  "thought": "My curiosity is very low and I need fibre for the hut. The reeds at the pond are right nearby, and pulling them also gives calm. I will get extra fibre this time, as my lesson says, then fix the roof so I can sleep dry. It is daytime and I should be asleep soon, but the hut needs mending first.",
+  "face": "determined",
+  "lastThought": "2026-11-27T08:23:50.577Z",
   "foundPlace": null
 }
