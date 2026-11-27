@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T06:41:29.540Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-27T06:51:43.963Z",
+  "place": "thicket",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-27T06:50:28.346Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-27T07:16:43.963Z",
   "needs": {
-    "fullness": 55,
-    "water": 85,
-    "energy": 44,
-    "curiosity": 26,
-    "joy": 34,
+    "fullness": 78,
+    "water": 84,
+    "energy": 39,
+    "curiosity": 25,
+    "joy": 36,
     "calm": 100
   },
   "health": 100,
-  "mood": "curious but sleepy",
+  "mood": "determined but sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -771,7 +771,7 @@
       }
     }
   ],
-  "plan": "Eat berries, forage a full pot, explore somewhere for curiosity, then sleep in the Cosy Hut.",
+  "plan": "Forage berries, eat some, keep the rest, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -868,7 +868,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -878,7 +878,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 0,
-      "shells": 6
+      "shells": 5
     },
     "discovered": [
       "clay",
@@ -1339,7 +1339,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.71,
+        "left": 0.78,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1347,7 +1347,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2.94,
+        "left": 3.01,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1355,7 +1355,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.94,
+        "left": 3.01,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1363,7 +1363,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.94,
+        "left": 3.01,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1379,7 +1379,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.94,
+        "left": 3.01,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1395,7 +1395,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.43,
+        "left": 2.5,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1443,7 +1443,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.94,
+        "left": 3.01,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1473,7 +1473,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.94,
+        "left": 3.01,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1533,7 +1533,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.94,
+        "left": 3.01,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1815,16 +1815,19 @@
       "glade"
     ]
   },
-  "ticks": 638,
+  "ticks": 639,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [],
-  "thought": "My curiosity is low at 16 and my energy is 30. I have explored the whole island, but looking somewhere closely might still help. The tidepools crabs are my favourite puzzle. Energy is lowish, so exploring costs only 8. I will go look closely at the beach shells and crabs, then forage and sleep when the sun rises.",
-  "face": "curious",
-  "lastThought": "2026-11-27T05:19:43.623Z",
+  "lastOutcome": [
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
+  ],
+  "thought": "Dawn is here and I should be sleeping soon. My belly is only middling at 54 and I have no kept berries. There is a berry bush right here with something on it, so I can pick a little and fill my pot before bed. The pigeon stole a shell, rude. Then sleep in the Cosy Hut.",
+  "face": "determined",
+  "lastThought": "2026-11-27T06:51:43.963Z",
   "foundPlace": null
 }
