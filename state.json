@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T21:40:58.499Z",
+  "lastUpdate": "2026-11-27T21:51:09.496Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,14 +10,14 @@
   "doing": "tap beak patterns back and forth with the seabirds on the ledges (at the cliffs)",
   "busyUntil": "2026-11-27T22:00:37.512Z",
   "needs": {
-    "fullness": 73,
-    "water": 43,
-    "energy": 63,
-    "curiosity": 41,
-    "joy": 51,
+    "fullness": 72,
+    "water": 42,
+    "energy": 62,
+    "curiosity": 40,
+    "joy": 50,
     "calm": 97
   },
-  "health": 90,
+  "health": 91,
   "mood": "playful and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.91,
+        "left": 0.98,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.7,
+        "left": 2.77,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
