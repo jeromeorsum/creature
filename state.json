@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T21:10:09.301Z",
+  "lastUpdate": "2026-11-27T21:20:28.587Z",
   "place": "cliffs",
   "spot": {
     "x": -35,
@@ -10,14 +10,14 @@
   "doing": "explore at the cliffs",
   "busyUntil": "2026-11-27T21:29:59.333Z",
   "needs": {
-    "fullness": 79,
-    "water": 50,
-    "energy": 71,
-    "curiosity": 30,
-    "joy": 40,
+    "fullness": 78,
+    "water": 49,
+    "energy": 70,
+    "curiosity": 29,
+    "joy": 39,
     "calm": 95
   },
-  "health": 87,
+  "health": 88,
   "mood": "restless and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.7,
+        "left": 0.77,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.49,
+        "left": 2.56,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
