@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T04:59:20.433Z",
+  "lastUpdate": "2026-11-27T05:09:33.327Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "splash in pond at the pond",
-  "busyUntil": "2026-11-27T05:09:10.440Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-27T05:19:33.327Z",
   "needs": {
-    "fullness": 42,
-    "water": 95,
-    "energy": 32,
-    "curiosity": 18,
-    "joy": 40,
+    "fullness": 69,
+    "water": 94,
+    "energy": 31,
+    "curiosity": 17,
+    "joy": 43,
     "calm": 100
   },
   "health": 100,
-  "mood": "playful but hungry",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -771,7 +771,7 @@
       }
     }
   ],
-  "plan": "Splash, eat berries, forage, then sleep in the Cosy Hut.",
+  "plan": "Eat berries, forage a full pot, explore somewhere for curiosity, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -868,7 +868,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 2,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1339,7 +1339,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.01,
+        "left": 2.08,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1347,7 +1347,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2.24,
+        "left": 2.31,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1355,7 +1355,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.24,
+        "left": 2.31,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1363,7 +1363,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.24,
+        "left": 2.31,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1379,7 +1379,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.24,
+        "left": 2.31,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1395,7 +1395,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.73,
+        "left": 2.8,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1443,7 +1443,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.24,
+        "left": 2.31,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1473,7 +1473,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.24,
+        "left": 2.31,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1533,7 +1533,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.24,
+        "left": 2.31,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1815,16 +1815,18 @@
       "glade"
     ]
   },
-  "ticks": 635,
+  "ticks": 636,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
-  "lastOutcome": [],
-  "thought": "My belly is only 43 and I have two berries the pigeon keeps eyeing. Curiosity and joy are both low. I'm at the pond, so splashing is right here and gives lots of joy. But food first: eat the berries before the pigeon steals them. Then splash. Actually one activity at a time: splash now for joy, and eat after. Pigeon risk says eat first, but berries are few. I'll splash, since joy is lowest and it's right here.",
-  "face": "excited",
-  "lastThought": "2026-11-27T04:49:10.440Z",
+  "lastOutcome": [
+    "You ate 2 berries from your food."
+  ],
+  "thought": "My belly is only 41 and I have two berries in my pot. The pigeon is probably lurking, so I should eat them now before it notices. Curiosity is low too, but food first. Then I'll forage more and think about the crabs again.",
+  "face": "happy",
+  "lastThought": "2026-11-27T05:09:33.327Z",
   "foundPlace": null
 }
