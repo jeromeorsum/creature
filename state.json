@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T10:06:05.561Z",
+  "lastUpdate": "2026-11-27T10:16:14.674Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-27T10:45:31.933Z",
+  "busyUntil": "2026-11-27T11:16:14.674Z",
   "needs": {
-    "fullness": 44,
-    "water": 65,
-    "energy": 60,
-    "curiosity": 11,
-    "joy": 39,
+    "fullness": 38,
+    "water": 64,
+    "energy": 89,
+    "curiosity": 10,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and satisfied",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -775,9 +775,36 @@
           8
         ]
       }
+    },
+    {
+      "date": "2026-11-26",
+      "summary": "Today I drank, ate, splashed in the pond, sang under the grotto arch and watched the crabs again. The wind knocked a cone off my Cosy Hut, but I pulled extra reeds and tied it down firmly. The pigeon stole another shell, which is rude. I never collapsed, and I am proud of my whole roof. My curiosity is still low and the crab marks keep their secret. Tomorrow night I want a fuller berry pot, tended seedlings and somewhere new to explore.",
+      "plan": {
+        "date": "2026-11-26",
+        "plan": [
+          "Drink at the pond",
+          "Eat kept berry",
+          "Visit tidepools to test crab marks",
+          "Tend seedlings",
+          "Splash or make something for joy",
+          "Forage and eat dinner",
+          "Drink before dawn",
+          "Sleep in the Cosy Hut"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          6,
+          7,
+          8
+        ]
+      }
     }
   ],
-  "plan": "Sleep in the hut, then forage berries and explore tonight.",
+  "plan": "Sleep in the hut, then forage a full pot of berries, tend seedlings, and explore somewhere new tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1345,7 +1372,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 2.11,
+        "left": 2.18,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1401,7 +1428,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.83,
+        "left": 3.9,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1821,16 +1848,16 @@
       "glade"
     ]
   },
-  "ticks": 643,
+  "ticks": 644,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 24
   },
   "lastOutcome": [],
-  "thought": "The hut is finished and it's nearly sleeping time, 11am. My energy is low and the sun is up, so I should sleep in the Cosy Hut like a proper nocturnal bird. Curiosity is low but I can fix that tonight. A nap now is the sensible thing.",
+  "thought": "It is nearly bedtime and the sun is high. My hut is whole, my belly is middling and my calm is full. I will curl up in the Cosy Hut and sleep. Tonight I want to explore, forage a fuller pot and look at the crab marks again.",
   "face": "sleepy",
-  "lastThought": "2026-11-27T09:45:31.933Z",
+  "lastThought": "2026-11-27T10:16:14.674Z",
   "foundPlace": null
 }
