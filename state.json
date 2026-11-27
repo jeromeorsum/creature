@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T02:16:02.281Z",
-  "place": "grotto",
+  "lastUpdate": "2026-11-27T02:26:17.692Z",
+  "place": "meadow",
   "spot": {
-    "x": 8,
-    "z": -22
+    "x": 6,
+    "z": 10
   },
-  "doing": "explore at the grotto",
-  "busyUntil": "2026-11-27T02:25:42.142Z",
+  "doing": "make something at the meadow",
+  "busyUntil": "2026-11-27T03:06:17.692Z",
   "needs": {
-    "fullness": 63,
-    "water": 61,
-    "energy": 31,
-    "curiosity": 26,
-    "joy": 20,
+    "fullness": 62,
+    "water": 60,
+    "energy": 22,
+    "curiosity": 33,
+    "joy": 37,
     "calm": 100
   },
   "health": 100,
-  "mood": "hopeful and wobbly",
+  "mood": "warm and silly",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -146,6 +146,12 @@
       "kind": "dance",
       "file": "2026-11-26-the-four-shell-partners-wobble.md",
       "made": "2026-11-26T21:50:39.997Z"
+    },
+    {
+      "title": "The Grotto Glow Song",
+      "kind": "song",
+      "file": "2026-11-27-the-grotto-glow-song.md",
+      "made": "2026-11-27T02:26:17.692Z"
     }
   ],
   "concerns": [
@@ -764,7 +770,7 @@
       }
     }
   ],
-  "plan": "Explore the grotto, then drink at the pond, then sleep in the Cosy Hut.",
+  "plan": "Sing at the grotto, then drink at the pond before dawn, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1332,7 +1338,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.89,
+        "left": 0.96,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1340,7 +1346,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.12,
+        "left": 1.19,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1348,7 +1354,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.12,
+        "left": 1.19,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1356,7 +1362,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.12,
+        "left": 1.19,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1372,7 +1378,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.12,
+        "left": 1.19,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1388,7 +1394,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.61,
+        "left": 1.68,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1436,7 +1442,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.12,
+        "left": 1.19,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1466,7 +1472,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.12,
+        "left": 1.19,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1486,7 +1492,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3.77,
+        "left": 3.84,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1526,7 +1532,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.12,
+        "left": 1.19,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1808,16 +1814,16 @@
       "glade"
     ]
   },
-  "ticks": 631,
+  "ticks": 632,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My curiosity is nearly empty and joy is low. Crab marks keep their secret, so I'll stop squinting and go somewhere new-ish. Energy is 41, fine for a short trip. I'll explore the grotto and see the mushrooms; it is a place of wonder and may refill curiosity.",
-  "face": "curious",
-  "lastThought": "2026-11-27T01:55:42.142Z",
+  "thought": "I am at the grotto, the mushrooms glow, and my joy is a tiny candle. Last time I learned that when joy is low I should make something silly instead of staring at a puzzle. The echo under the arch is lovely, so I will make a song for the mushrooms right here. Energy is lowish, but singing is gentle work.",
+  "face": "happy",
+  "lastThought": "2026-11-27T02:26:17.692Z",
   "foundPlace": null
 }
