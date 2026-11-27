@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T03:58:02.798Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-27T04:08:23.319Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-27T04:07:02.917Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-27T04:18:23.319Z",
   "needs": {
-    "fullness": 48,
-    "water": 51,
-    "energy": 43,
-    "curiosity": 24,
-    "joy": 28,
+    "fullness": 47,
+    "water": 100,
+    "energy": 42,
+    "curiosity": 23,
+    "joy": 27,
     "calm": 100
   },
   "health": 100,
-  "mood": "warm and silly",
+  "mood": "thirsty but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -194,7 +194,8 @@
       3,
       5,
       4,
-      6
+      6,
+      7
     ]
   },
   "lessons": [
@@ -770,7 +771,7 @@
       }
     }
   ],
-  "plan": "Sing at the grotto, then drink at the pond before dawn, then sleep in the Cosy Hut.",
+  "plan": "Drink, eat berries, forage, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1338,7 +1339,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.59,
+        "left": 1.66,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1346,7 +1347,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1354,7 +1355,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1362,7 +1363,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1378,7 +1379,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 1.82,
+        "left": 1.89,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1394,7 +1395,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.31,
+        "left": 2.38,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1442,7 +1443,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1472,7 +1473,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1532,7 +1533,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 1.82,
+        "left": 1.89,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1814,16 +1815,16 @@
       "glade"
     ]
   },
-  "ticks": 633,
+  "ticks": 634,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "I am at the grotto, the mushrooms glow, and my joy is a tiny candle. Last time I learned that when joy is low I should make something silly instead of staring at a puzzle. The echo under the arch is lovely, so I will make a song for the mushrooms right here. Energy is lowish, but singing is gentle work.",
+  "thought": "My belly is under half and water is middling, so I should drink at the pond before anything else. It is close, 16 metres. Then I can eat my berries. Curiosity is low, but a drink first makes the thinking better.",
   "face": "happy",
-  "lastThought": "2026-11-27T02:26:17.692Z",
+  "lastThought": "2026-11-27T04:08:23.319Z",
   "foundPlace": null
 }
