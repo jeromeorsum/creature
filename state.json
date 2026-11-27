@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T20:49:53.120Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-27T20:59:59.333Z",
+  "place": "cliffs",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -35,
+    "z": 4
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-27T20:54:34.689Z",
+  "doing": "explore at the cliffs",
+  "busyUntil": "2026-11-27T21:29:59.333Z",
   "needs": {
-    "fullness": 81,
-    "water": 52,
-    "energy": 81,
-    "curiosity": 14,
-    "joy": 42,
+    "fullness": 80,
+    "water": 51,
+    "energy": 72,
+    "curiosity": 31,
+    "joy": 41,
     "calm": 95
   },
-  "health": 85,
-  "mood": "curious and a bit cross",
+  "health": 86,
+  "mood": "restless and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -185,7 +185,7 @@
     "date": "2026-11-27",
     "plan": [
       "Eat dinner at the thicket",
-      "Spy on the pigeon",
+      "Explore the cliffs at night",
       "Drink at the pond",
       "Tend plants",
       "Make something silly",
@@ -797,7 +797,7 @@
       }
     }
   ],
-  "plan": "Spy on the pigeon, drink, tend plants, make something silly, sleep at dawn.",
+  "plan": "Explore the cliffs, drink at the pond, tend plants, make something silly, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.56,
+        "left": 0.63,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1421,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.35,
+        "left": 2.42,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1841,16 +1841,16 @@
       "glade"
     ]
   },
-  "ticks": 650,
+  "ticks": 651,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 6
+    "ticks": 7
   },
   "lastOutcome": [],
-  "thought": "The pigeon stole another shell, rude. My curiosity is at zero, which nags me. Fullness is good, water is okay at 53. Everyone says I explored the whole island, but I can still poke at things. Spying on the pigeon is a cheap way to fill curiosity, and the pigeon is right here. It might also reveal why it keeps stealing shells.",
-  "face": "suspicious",
-  "lastThought": "2026-11-27T20:39:34.689Z",
+  "thought": "My curiosity bucket is nearly dry at 13. The list says I have explored the whole island, but the pigeon is still a mystery, and so are the crab marks. I'll explore somewhere I know and look at it closely, and see what's different at night. The cliffs at night with the stars sound good. Water is 51, so I'll drink soon after.",
+  "face": "curious",
+  "lastThought": "2026-11-27T20:59:59.333Z",
   "foundPlace": null
 }
