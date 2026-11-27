@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T23:33:12.912Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-27T23:43:21.838Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 12.9,
+    "z": -2.4
   },
-  "doing": "tend plants at the pond",
-  "busyUntil": "2026-11-27T23:37:34.201Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-28T00:08:21.838Z",
   "needs": {
-    "fullness": 62,
-    "water": 78,
-    "energy": 44,
-    "curiosity": 30,
-    "joy": 45,
+    "fullness": 85,
+    "water": 77,
+    "energy": 39,
+    "curiosity": 29,
+    "joy": 47,
     "calm": 100
   },
   "health": 100,
@@ -194,7 +194,8 @@
     "done": [
       1,
       2,
-      3
+      3,
+      4
     ]
   },
   "lessons": [
@@ -797,7 +798,7 @@
       }
     }
   ],
-  "plan": "Tend plants, forage a full pot at the thicket, make something silly, sleep at dawn.",
+  "plan": "Forage a full pot, make something silly, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -894,7 +895,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1271,7 +1272,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.15,
+        "left": 0.2,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1365,7 +1366,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.61,
+        "left": 0.61,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1421,7 +1422,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 3.4,
+        "left": 1.4,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1841,18 +1842,19 @@
       "glade"
     ]
   },
-  "ticks": 654,
+  "ticks": 655,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 10
+    "ticks": 11
   },
   "lastOutcome": [
-    "You looked after 16 plants around the pond. They'll grow for about a day."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 2 berry seeds."
   ],
-  "thought": "Water is fine and fullness is okay, but I have no kept berries. I'm at the pond and the clay bank is right here. Plants need tending too, and the plan says so. Tending the pond reeds and bushes keeps them growing back and gives calm and joy. I'll tend plants here before foraging.",
+  "thought": "My belly is only 61 and I have no kept berries. The thicket has plenty of berries, so I should forage a proper pot. Plants are tended already. Then something silly later, and sleep at dawn.",
   "face": "determined",
-  "lastThought": "2026-11-27T23:02:34.201Z",
+  "lastThought": "2026-11-27T23:43:21.838Z",
   "foundPlace": null
 }
