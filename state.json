@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T19:17:51.993Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-27T19:28:02.728Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 14.6,
+    "z": -4.6
   },
-  "doing": "eat food at the pond",
-  "busyUntil": "2026-11-27T19:27:51.993Z",
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-27T19:53:02.728Z",
   "needs": {
-    "fullness": 14,
-    "water": 61,
-    "energy": 98,
-    "curiosity": 4,
-    "joy": 36,
+    "fullness": 37,
+    "water": 60,
+    "energy": 93,
+    "curiosity": 3,
+    "joy": 38,
     "calm": 100
   },
   "health": 80,
@@ -184,9 +184,8 @@
   "today": {
     "date": "2026-11-27",
     "plan": [
-      "Drink at the pond",
-      "Eat my berry",
-      "Forage a full berry pot at the thicket",
+      "Eat berry at pond",
+      "Forage a full pot at the thicket",
       "Eat a proper dinner",
       "Tend plants",
       "Explore somewhere new",
@@ -194,7 +193,8 @@
       "Wind down and sleep in the hut at dawn"
     ],
     "done": [
-      1
+      1,
+      2
     ]
   },
   "lessons": [
@@ -797,7 +797,7 @@
       }
     }
   ],
-  "plan": "Eat the berry, forage a full pot at the thicket, tend seedlings, explore somewhere new.",
+  "plan": "Forage a full pot, eat dinner, tend plants, explore somewhere new, sleep at dawn.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1365,7 +1365,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 4,
+        "left": 2,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1841,18 +1841,19 @@
       "glade"
     ]
   },
-  "ticks": 646,
+  "ticks": 647,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 2
+    "ticks": 3
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 2 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "Fullness is zero, which is dangerous. I have one berry in my pot and the pigeon is sneaky, so I eat it right now. Then I go to the thicket to forage a proper pot. Curiosity can wait a few minutes.",
+  "thought": "My belly is nearly empty and I have no kept food. The berry bushes are the thing to do now. The thicket has berries, so I go there and forage a full pot. Curiosity can wait until I am fed. I will also make a day plan.",
   "face": "determined",
-  "lastThought": "2026-11-27T19:17:51.993Z",
+  "lastThought": "2026-11-27T19:28:02.728Z",
   "foundPlace": null
 }
