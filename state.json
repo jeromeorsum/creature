@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T04:38:56.009Z",
+  "lastUpdate": "2026-11-27T04:49:10.440Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "splash in pond at the pond",
+  "busyUntil": "2026-11-27T05:09:10.440Z",
   "needs": {
-    "fullness": 44,
-    "water": 97,
-    "energy": 39,
-    "curiosity": 20,
-    "joy": 24,
+    "fullness": 43,
+    "water": 96,
+    "energy": 33,
+    "curiosity": 19,
+    "joy": 41,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but cheerful",
+  "mood": "playful but hungry",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -771,7 +771,7 @@
       }
     }
   ],
-  "plan": "Drink, eat berries, forage, then sleep in the Cosy Hut.",
+  "plan": "Splash, eat berries, forage, then sleep in the Cosy Hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1339,7 +1339,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 1.87,
+        "left": 1.94,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1347,7 +1347,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 2.1,
+        "left": 2.17,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1355,7 +1355,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 2.1,
+        "left": 2.17,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1363,7 +1363,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 2.1,
+        "left": 2.17,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1379,7 +1379,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 2.1,
+        "left": 2.17,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1395,7 +1395,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 2.59,
+        "left": 2.66,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1443,7 +1443,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 2.1,
+        "left": 2.17,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1473,7 +1473,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 2.1,
+        "left": 2.17,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1533,7 +1533,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 2.1,
+        "left": 2.17,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1815,16 +1815,16 @@
       "glade"
     ]
   },
-  "ticks": 634,
+  "ticks": 635,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "My belly is under half and water is middling, so I should drink at the pond before anything else. It is close, 16 metres. Then I can eat my berries. Curiosity is low, but a drink first makes the thinking better.",
-  "face": "happy",
-  "lastThought": "2026-11-27T04:08:23.319Z",
+  "thought": "My belly is only 43 and I have two berries the pigeon keeps eyeing. Curiosity and joy are both low. I'm at the pond, so splashing is right here and gives lots of joy. But food first: eat the berries before the pigeon steals them. Then splash. Actually one activity at a time: splash now for joy, and eat after. Pigeon risk says eat first, but berries are few. I'll splash, since joy is lowest and it's right here.",
+  "face": "excited",
+  "lastThought": "2026-11-27T04:49:10.440Z",
   "foundPlace": null
 }
