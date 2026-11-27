@@ -1,23 +1,23 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T19:07:43.141Z",
+  "lastUpdate": "2026-11-27T19:17:51.993Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "drink at the pond",
-  "busyUntil": "2026-11-27T19:17:43.141Z",
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-27T19:27:51.993Z",
   "needs": {
-    "fullness": 0,
-    "water": 62,
-    "energy": 99,
-    "curiosity": 5,
-    "joy": 33,
+    "fullness": 14,
+    "water": 61,
+    "energy": 98,
+    "curiosity": 4,
+    "joy": 36,
     "calm": 100
   },
-  "health": 81,
+  "health": 80,
   "mood": "hungry and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
@@ -193,7 +193,9 @@
       "Splash or make something silly",
       "Wind down and sleep in the hut at dawn"
     ],
-    "done": []
+    "done": [
+      1
+    ]
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -795,7 +797,7 @@
       }
     }
   ],
-  "plan": "Drink, eat the berry, forage a full pot, tend seedlings, explore somewhere new.",
+  "plan": "Eat the berry, forage a full pot at the thicket, tend seedlings, explore somewhere new.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -892,7 +894,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1839,16 +1841,18 @@
       "glade"
     ]
   },
-  "ticks": 645,
+  "ticks": 646,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 1
+    "ticks": 2
   },
-  "lastOutcome": [],
-  "thought": "I am starving and parched. Water is 12 and fullness 0, so the pond comes first. I have one berry that I should eat after drinking, before the pigeon notices. Then I'll forage a full pot at the thicket, tend seedlings, and finally explore somewhere new because my curiosity is nearly empty.",
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
+  "thought": "Fullness is zero, which is dangerous. I have one berry in my pot and the pigeon is sneaky, so I eat it right now. Then I go to the thicket to forage a proper pot. Curiosity can wait a few minutes.",
   "face": "determined",
-  "lastThought": "2026-11-27T19:07:43.141Z",
+  "lastThought": "2026-11-27T19:17:51.993Z",
   "foundPlace": null
 }
