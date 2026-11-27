@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T18:57:23.438Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-27T19:07:43.141Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "asleep in \"Cosy Hut\"",
-  "busyUntil": null,
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-27T19:17:43.141Z",
   "needs": {
     "fullness": 0,
-    "water": 13,
-    "energy": 100,
-    "curiosity": 6,
-    "joy": 34,
+    "water": 62,
+    "energy": 99,
+    "curiosity": 5,
+    "joy": 33,
     "calm": 100
   },
-  "health": 82,
-  "mood": "sleepy and content",
+  "health": 81,
+  "mood": "hungry and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -182,27 +182,18 @@
     }
   ],
   "today": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "plan": [
       "Drink at the pond",
-      "Eat kept berry",
-      "Visit tidepools to test crab marks",
-      "Tend seedlings",
-      "Splash or make something for joy",
-      "Forage and eat dinner",
-      "Drink before dawn",
-      "Sleep in the Cosy Hut"
+      "Eat my berry",
+      "Forage a full berry pot at the thicket",
+      "Eat a proper dinner",
+      "Tend plants",
+      "Explore somewhere new",
+      "Splash or make something silly",
+      "Wind down and sleep in the hut at dawn"
     ],
-    "done": [
-      1,
-      2,
-      3,
-      5,
-      4,
-      6,
-      7,
-      8
-    ]
+    "done": []
   },
   "lessons": [
     "Wind can knock roof pieces off, so tie them firmly with fibre.",
@@ -804,7 +795,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then forage a full pot of berries, tend seedlings, and explore somewhere new tonight.",
+  "plan": "Drink, eat the berry, forage a full pot, tend seedlings, explore somewhere new.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1848,16 +1839,16 @@
       "glade"
     ]
   },
-  "ticks": 644,
+  "ticks": 645,
   "spend": {
-    "day": "2026-11-26",
+    "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 24
+    "ticks": 1
   },
   "lastOutcome": [],
-  "thought": "It is nearly bedtime and the sun is high. My hut is whole, my belly is middling and my calm is full. I will curl up in the Cosy Hut and sleep. Tonight I want to explore, forage a fuller pot and look at the crab marks again.",
-  "face": "sleepy",
-  "lastThought": "2026-11-27T10:16:14.674Z",
+  "thought": "I am starving and parched. Water is 12 and fullness 0, so the pond comes first. I have one berry that I should eat after drinking, before the pigeon notices. Then I'll forage a full pot at the thicket, tend seedlings, and finally explore somewhere new because my curiosity is nearly empty.",
+  "face": "determined",
+  "lastThought": "2026-11-27T19:07:43.141Z",
   "foundPlace": null
 }
