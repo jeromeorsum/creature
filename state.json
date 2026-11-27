@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-27T00:44:10.669Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-27T00:54:21.553Z",
+  "place": "nest",
   "spot": {
-    "x": 20.6,
-    "z": -3.8
+    "x": -8,
+    "z": 6
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-27T00:48:47.781Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-27T01:54:21.553Z",
   "needs": {
-    "fullness": 77,
-    "water": 70,
-    "energy": 18,
-    "curiosity": 17,
-    "joy": 29,
+    "fullness": 71,
+    "water": 69,
+    "energy": 47,
+    "curiosity": 16,
+    "joy": 28,
     "calm": 100
   },
   "health": 100,
-  "mood": "hungry but cheerful",
+  "mood": "sleepy but content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -187,7 +187,8 @@
       2,
       3,
       5,
-      4
+      4,
+      6
     ]
   },
   "lessons": [
@@ -763,7 +764,7 @@
       }
     }
   ],
-  "plan": "Eat dinner, drink before dawn, then sleep in the Cosy Hut.",
+  "plan": "Nap, then drink at the pond, then visit the crabs again.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1331,7 +1332,7 @@
         "res": "berries",
         "x": 14.6,
         "z": -4.6,
-        "left": 0.26,
+        "left": 0.33,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1339,7 +1340,7 @@
         "res": "berries",
         "x": 19.7,
         "z": -5.6,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1347,7 +1348,7 @@
         "res": "berries",
         "x": 10.9,
         "z": -3.1,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1355,7 +1356,7 @@
         "res": "berries",
         "x": 18.4,
         "z": -1.8,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1371,7 +1372,7 @@
         "res": "berries",
         "x": 18.8,
         "z": -5.9,
-        "left": 0.49,
+        "left": 0.56,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1387,7 +1388,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 0.98,
+        "left": 1.05,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1435,7 +1436,7 @@
         "res": "berries",
         "x": 14.1,
         "z": -7.3,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-30T22:23:59.202Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1465,7 +1466,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1485,7 +1486,7 @@
         "res": "berries",
         "x": 20.6,
         "z": -3.8,
-        "left": 3.14,
+        "left": 3.21,
         "max": 4,
         "planted": "2026-11-01T22:17:51.176Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1525,7 +1526,7 @@
         "res": "berries",
         "x": 16.1,
         "z": 2.2,
-        "left": 0.49,
+        "left": 0.56,
         "max": 4,
         "planted": "2026-11-02T23:54:58.269Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1807,18 +1808,16 @@
       "glade"
     ]
   },
-  "ticks": 629,
+  "ticks": 630,
   "spend": {
     "day": "2026-11-26",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 11
+    "ticks": 12
   },
-  "lastOutcome": [
-    "You collected 2 berries and ate 2 on the spot."
-  ],
-  "thought": "It is meal time and I'm at the thicket with fullness 55 and only 2 kept berries. Energy is low at 24. I'll forage berries here, eat a good handful, and keep the rest in my pot. The pigeon is lurking, so I'll eat fast.",
-  "face": "determined",
-  "lastThought": "2026-11-27T00:23:47.781Z",
+  "lastOutcome": [],
+  "thought": "My energy is very low and curiosity too. My belly is fine at 76. It is deep night though, and I am nocturnal, so napping now is odd, but energy 17 is too low. A nap in the Cosy Hut gives energy. Then I can explore with the crabs later. Napping now is the sensible thing.",
+  "face": "sleepy",
+  "lastThought": "2026-11-27T00:54:21.553Z",
   "foundPlace": null
 }
