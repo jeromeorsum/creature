@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T02:57:41.719Z",
+  "lastUpdate": "2026-11-28T03:07:52.964Z",
   "place": "tidepools",
   "spot": {
     "x": 18,
     "z": 34
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "experiment at the tidepools",
+  "busyUntil": "2026-11-28T03:47:52.964Z",
   "needs": {
-    "fullness": 61,
-    "water": 58,
-    "energy": 34,
-    "curiosity": 36,
-    "joy": 46,
-    "calm": 100
+    "fullness": 60,
+    "water": 57,
+    "energy": 25,
+    "curiosity": 50,
+    "joy": 53,
+    "calm": 98
   },
   "health": 100,
-  "mood": "curious and sleepy",
+  "mood": "curious and hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then drink, forage a full pot, and explore.",
+  "plan": "Experiment with crab marks in the sand, then drink, then sleep in the hut.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -899,6 +899,10 @@
     {
       "text": "{\"what\":\"Crabs scratch the same mark on a shell again and again, so each mark may be a repeated word rather than a single sound.\"}",
       "made": "2026-11-25T06:30:44.608Z"
+    },
+    {
+      "text": "{\"what\":\"Drawing a crab's repeated mark in the wet sand beside its shell makes the crab come closer and wave a claw, as if it recognises its own word.\"}",
+      "made": "2026-11-28T03:07:52.964Z"
     }
   ],
   "world": {
@@ -1280,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.15,
+        "left": 1.2,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1850,16 +1854,16 @@
       "glade"
     ]
   },
-  "ticks": 658,
+  "ticks": 659,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 14
+    "ticks": 15
   },
   "lastOutcome": [],
-  "thought": "It's 2am, I'm awake but my energy is only 47 and my curiosity is low at 23. I have a Cosy Hut and a sleepy mood. Curiosity is the neediest bucket, so a bit of exploring close by makes sense. I'll look closely at the thicket or the pond bank, where the clay patches are, and poke at something new. Water and food are fine for now.",
+  "thought": "I'm at the tidepools with the moon on the shells. Energy is 33, so I'm getting sleepy, but curiosity is low too. The crabs keep repeating marks, so maybe each mark is a word. I'll experiment by laying the shells in a row and copying their marks in the wet sand, in case that makes a crab answer.",
   "face": "curious",
-  "lastThought": "2026-11-28T02:06:22.852Z",
+  "lastThought": "2026-11-28T03:07:52.964Z",
   "foundPlace": null
 }
