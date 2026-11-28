@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T05:40:55.140Z",
+  "lastUpdate": "2026-11-28T05:51:09.597Z",
   "place": "pond",
   "spot": {
     "x": -4,
     "z": 21
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "eat food at the pond",
+  "busyUntil": "2026-11-28T06:01:09.597Z",
   "needs": {
-    "fullness": 40,
-    "water": 92,
-    "energy": 40,
-    "curiosity": 35,
-    "joy": 38,
+    "fullness": 53,
+    "water": 91,
+    "energy": 39,
+    "curiosity": 34,
+    "joy": 41,
     "calm": 100
   },
   "health": 100,
@@ -907,7 +907,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.95,
+        "left": 2,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1854,14 +1854,16 @@
       "glade"
     ]
   },
-  "ticks": 661,
+  "ticks": 662,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
     "ticks": 17
   },
-  "lastOutcome": [],
+  "lastOutcome": [
+    "You ate 1 berries from your food."
+  ],
   "thought": "I woke up with water at 45 and fullness at 43, so I should drink first, like my lesson says. The pond is only 16 metres away. After that I can eat my berry and think about the crab marks again.",
   "face": "determined",
   "lastThought": "2026-11-28T05:10:19.999Z",
