@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T06:01:24.195Z",
-  "place": "pond",
+  "lastUpdate": "2026-11-28T06:11:36.703Z",
+  "place": "thicket",
   "spot": {
-    "x": -4,
-    "z": 21
+    "x": 16.6,
+    "z": -6
   },
-  "doing": "pottering about at the pond",
-  "busyUntil": null,
+  "doing": "forage berries at the thicket",
+  "busyUntil": "2026-11-28T06:36:36.703Z",
   "needs": {
-    "fullness": 52,
-    "water": 90,
-    "energy": 38,
-    "curiosity": 33,
-    "joy": 40,
+    "fullness": 75,
+    "water": 89,
+    "energy": 33,
+    "curiosity": 32,
+    "joy": 42,
     "calm": 100
   },
   "health": 100,
-  "mood": "thirsty but cheerful",
+  "mood": "hungry but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Drink at the pond, eat the berry, pick more berries, then try more crab marks.",
+  "plan": "Pick berries, eat, then try more crab marks.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -907,7 +907,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 0,
+    "food": 1,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.05,
+        "left": 2.1,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1434,7 +1434,7 @@
         "res": "berries",
         "x": 12.9,
         "z": -2.4,
-        "left": 1.4,
+        "left": 0.4,
         "tendedUntil": "2026-11-27T23:32:43.254Z"
       },
       {
@@ -1512,7 +1512,7 @@
         "res": "berries",
         "x": 16.6,
         "z": -6,
-        "left": 4,
+        "left": 2,
         "max": 4,
         "planted": "2026-10-31T20:39:48.922Z",
         "tendedUntil": "2026-11-27T23:32:43.254Z"
@@ -1854,18 +1854,19 @@
       "glade"
     ]
   },
-  "ticks": 662,
+  "ticks": 663,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 17
+    "ticks": 18
   },
   "lastOutcome": [
-    "You ate 1 berries from your food."
+    "You collected 3 berries and ate 2 on the spot.",
+    "You also saved 1 berry seeds."
   ],
-  "thought": "I woke up with water at 45 and fullness at 43, so I should drink first, like my lesson says. The pond is only 16 metres away. After that I can eat my berry and think about the crab marks again.",
+  "thought": "My belly is only half full and I have no kept berries. Water is fine. Berries are the sensible next thing, then I can fill the pot. The pigeon will need watching, but food first.",
   "face": "determined",
-  "lastThought": "2026-11-28T05:10:19.999Z",
+  "lastThought": "2026-11-28T06:11:36.703Z",
   "foundPlace": null
 }
