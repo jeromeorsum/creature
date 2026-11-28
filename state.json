@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T06:31:54.848Z",
+  "lastUpdate": "2026-11-28T06:42:08.824Z",
   "place": "thicket",
   "spot": {
-    "x": 16.6,
-    "z": -6
+    "x": 15,
+    "z": -3
   },
-  "doing": "forage berries at the thicket",
-  "busyUntil": "2026-11-28T06:36:36.703Z",
+  "doing": "spy on pigeon at the thicket",
+  "busyUntil": "2026-11-28T06:57:08.824Z",
   "needs": {
-    "fullness": 73,
-    "water": 87,
-    "energy": 31,
-    "curiosity": 30,
-    "joy": 40,
-    "calm": 100
+    "fullness": 72,
+    "water": 86,
+    "energy": 30,
+    "curiosity": 44,
+    "joy": 44,
+    "calm": 95
   },
   "health": 100,
-  "mood": "hungry but cheerful",
+  "mood": "curious and a bit indignant",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Pick berries, eat, then try more crab marks.",
+  "plan": "Spy on the pigeon, then sleep in the hut, then drink and eat tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -907,7 +907,7 @@
   ],
   "world": {
     "weather": "sunny",
-    "food": 1,
+    "food": 0,
     "seeds": {
       "tree": 0,
       "berry": 20
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.2,
+        "left": 2.25,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1854,19 +1854,16 @@
       "glade"
     ]
   },
-  "ticks": 663,
+  "ticks": 664,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 18
+    "ticks": 19
   },
-  "lastOutcome": [
-    "You collected 3 berries and ate 2 on the spot.",
-    "You also saved 1 berry seeds."
-  ],
-  "thought": "My belly is only half full and I have no kept berries. Water is fine. Berries are the sensible next thing, then I can fill the pot. The pigeon will need watching, but food first.",
-  "face": "determined",
-  "lastThought": "2026-11-28T06:11:36.703Z",
+  "lastOutcome": [],
+  "thought": "The pigeon just stole a berry and stared at me. Rude! I have no kept berries left, so there is nothing more to steal. My belly is at 72, energy is low at 30, and curiosity is low too. Dawn is near and I sleep in the daytime, so soon I should go to the hut. First I will spy on the pigeon, since it knows something and my curiosity is low. That should raise curiosity cheaply.",
+  "face": "suspicious",
+  "lastThought": "2026-11-28T06:42:08.824Z",
   "foundPlace": null
 }
