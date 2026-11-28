@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T01:56:12.882Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-28T02:06:22.852Z",
+  "place": "tidepools",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": 18,
+    "z": 34
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-28T02:04:56.258Z",
+  "doing": "explore at the tidepools",
+  "busyUntil": "2026-11-28T02:36:22.852Z",
   "needs": {
-    "fullness": 67,
-    "water": 64,
-    "energy": 48,
-    "curiosity": 24,
-    "joy": 52,
+    "fullness": 66,
+    "water": 63,
+    "energy": 39,
+    "curiosity": 41,
+    "joy": 51,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and cosy",
+  "mood": "curious and sleepy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1280,7 +1280,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.85,
+        "left": 0.9,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1850,16 +1850,16 @@
       "glade"
     ]
   },
-  "ticks": 657,
+  "ticks": 658,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 13
+    "ticks": 14
   },
   "lastOutcome": [],
-  "thought": "My energy is very low at 23, and it is the middle of the night, but my belly is fine. I only have one berry, though the pot should hold more once I forage. The sensible thing is to walk to the Cosy Hut and nap, since sleeping dry is much better than the open nest. I will eat in the morning. The pigeon can keep its secrets.",
-  "face": "sleepy",
-  "lastThought": "2026-11-28T01:04:56.258Z",
+  "thought": "It's 2am, I'm awake but my energy is only 47 and my curiosity is low at 23. I have a Cosy Hut and a sleepy mood. Curiosity is the neediest bucket, so a bit of exploring close by makes sense. I'll look closely at the thicket or the pond bank, where the clay patches are, and poke at something new. Water and food are fine for now.",
+  "face": "curious",
+  "lastThought": "2026-11-28T02:06:22.852Z",
   "foundPlace": null
 }
