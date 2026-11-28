@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T08:13:55.028Z",
+  "lastUpdate": "2026-11-28T08:24:06.363Z",
   "place": "nest",
   "spot": {
     "x": -14,
@@ -10,11 +10,11 @@
   "doing": "plant seeds at the nest",
   "busyUntil": "2026-11-28T08:33:43.057Z",
   "needs": {
-    "fullness": 58,
-    "water": 77,
-    "energy": 43,
-    "curiosity": 35,
-    "joy": 43,
+    "fullness": 57,
+    "water": 76,
+    "energy": 42,
+    "curiosity": 34,
+    "joy": 42,
     "calm": 100
   },
   "health": 100,
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.7,
+        "left": 2.75,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
