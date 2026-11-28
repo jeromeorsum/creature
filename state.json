@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T00:54:43.186Z",
-  "place": "meadow",
+  "lastUpdate": "2026-11-28T01:04:56.258Z",
+  "place": "nest",
   "spot": {
-    "x": 6,
-    "z": 10
+    "x": -8,
+    "z": 6
   },
-  "doing": "make something at the meadow",
-  "busyUntil": "2026-11-28T01:04:05.233Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-28T02:04:56.258Z",
   "needs": {
-    "fullness": 78,
-    "water": 70,
-    "energy": 24,
-    "curiosity": 30,
-    "joy": 58,
+    "fullness": 72,
+    "water": 69,
+    "energy": 53,
+    "curiosity": 29,
+    "joy": 57,
     "calm": 100
   },
   "health": 100,
-  "mood": "silly and cosy",
+  "mood": "sleepy and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -202,7 +202,8 @@
       2,
       3,
       4,
-      5
+      5,
+      6
     ]
   },
   "lessons": [
@@ -805,7 +806,7 @@
       }
     }
   ],
-  "plan": "Make something silly, then sleep in the hut at dawn.",
+  "plan": "Sleep in the hut, then drink, forage a full pot, and explore.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1279,7 +1280,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 0.55,
+        "left": 0.6,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1849,16 +1850,16 @@
       "glade"
     ]
   },
-  "ticks": 656,
+  "ticks": 657,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 12
+    "ticks": 13
   },
   "lastOutcome": [],
-  "thought": "Belly is fairly full, but energy is 35 and joy is 43. My plan says make something silly. A silly song for the pigeon will fill my joy bucket. I have lots of berry seeds, which is nice. Then I'll go to sleep near dawn.",
-  "face": "happy",
-  "lastThought": "2026-11-28T00:24:05.233Z",
+  "thought": "My energy is very low at 23, and it is the middle of the night, but my belly is fine. I only have one berry, though the pot should hold more once I forage. The sensible thing is to walk to the Cosy Hut and nap, since sleeping dry is much better than the open nest. I will eat in the morning. The pigeon can keep its secrets.",
+  "face": "sleepy",
+  "lastThought": "2026-11-28T01:04:56.258Z",
   "foundPlace": null
 }
