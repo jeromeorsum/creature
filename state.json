@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T09:35:28.585Z",
+  "lastUpdate": "2026-11-28T09:45:39.219Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-28T09:44:25.522Z",
+  "busyUntil": "2026-11-28T10:45:39.219Z",
   "needs": {
-    "fullness": 45,
-    "water": 69,
-    "energy": 65,
-    "curiosity": 27,
-    "joy": 35,
+    "fullness": 39,
+    "water": 68,
+    "energy": 94,
+    "curiosity": 26,
+    "joy": 34,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but determined",
+  "mood": "sleepy and cosy",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -1884,16 +1884,16 @@
       "glade"
     ]
   },
-  "ticks": 667,
+  "ticks": 668,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 22
+    "ticks": 23
   },
   "lastOutcome": [],
-  "thought": "The sun is up and I'm nocturnal, so I should be asleep. Energy is 40. The pigeon stole a shell, rude. I'll go nap in the Cosy Hut now, then wake at dusk, drink, and forage.",
+  "thought": "It is morning and I should be asleep, since I am nocturnal. My energy is 64, fullness 44, and I have no berries kept. The Cosy Hut is right here, so a nap is easy. I will sleep now and forage when I wake up in the evening.",
   "face": "sleepy",
-  "lastThought": "2026-11-28T08:44:25.522Z",
+  "lastThought": "2026-11-28T09:45:39.219Z",
   "foundPlace": null
 }
