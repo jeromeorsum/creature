@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T03:58:50.613Z",
-  "place": "tidepools",
+  "lastUpdate": "2026-11-28T04:09:08.365Z",
+  "place": "nest",
   "spot": {
-    "x": 18,
-    "z": 34
+    "x": -8,
+    "z": 6
   },
-  "doing": "pottering about at the tidepools",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-28T05:09:08.365Z",
   "needs": {
-    "fullness": 55,
-    "water": 52,
-    "energy": 20,
-    "curiosity": 45,
-    "joy": 48,
-    "calm": 98
+    "fullness": 49,
+    "water": 51,
+    "energy": 49,
+    "curiosity": 44,
+    "joy": 47,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and hopeful",
+  "mood": "sleepy and content",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Experiment with crab marks in the sand, then drink, then sleep in the hut.",
+  "plan": "Sleep in the hut, then drink at the pond, eat, and try more crab marks.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.45,
+        "left": 1.5,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1854,16 +1854,16 @@
       "glade"
     ]
   },
-  "ticks": 659,
+  "ticks": 660,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 15
+    "ticks": 16
   },
   "lastOutcome": [],
-  "thought": "I'm at the tidepools with the moon on the shells. Energy is 33, so I'm getting sleepy, but curiosity is low too. The crabs keep repeating marks, so maybe each mark is a word. I'll experiment by laying the shells in a row and copying their marks in the wet sand, in case that makes a crab answer.",
-  "face": "curious",
-  "lastThought": "2026-11-28T03:07:52.964Z",
+  "thought": "My energy is very low at 19 and my legs wobble more than usual. Water is 51 and fullness 54, which are fine for a nap. The crabs waved at me, which is lovely. Sleep is the sensible thing now, and I will drink when I wake. It is still night, but I am tired, so the Cosy Hut calls.",
+  "face": "sleepy",
+  "lastThought": "2026-11-28T04:09:08.365Z",
   "foundPlace": null
 }
