@@ -1,7 +1,7 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T05:30:42.841Z",
+  "lastUpdate": "2026-11-28T05:40:55.140Z",
   "place": "pond",
   "spot": {
     "x": -4,
@@ -10,11 +10,11 @@
   "doing": "pottering about at the pond",
   "busyUntil": null,
   "needs": {
-    "fullness": 41,
-    "water": 93,
-    "energy": 41,
-    "curiosity": 36,
-    "joy": 39,
+    "fullness": 40,
+    "water": 92,
+    "energy": 40,
+    "curiosity": 35,
+    "joy": 38,
     "calm": 100
   },
   "health": 100,
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.9,
+        "left": 1.95,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
