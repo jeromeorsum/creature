@@ -1,20 +1,20 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T10:06:01.351Z",
+  "lastUpdate": "2026-11-28T10:16:15.115Z",
   "place": "nest",
   "spot": {
     "x": -8,
     "z": 6
   },
   "doing": "nap at the nest",
-  "busyUntil": "2026-11-28T10:45:39.219Z",
+  "busyUntil": "2026-11-28T11:16:15.115Z",
   "needs": {
-    "fullness": 37,
-    "water": 66,
-    "energy": 92,
-    "curiosity": 24,
-    "joy": 32,
+    "fullness": 31,
+    "water": 65,
+    "energy": 100,
+    "curiosity": 23,
+    "joy": 31,
     "calm": 100
   },
   "health": 100,
@@ -804,9 +804,32 @@
           8
         ]
       }
+    },
+    {
+      "date": "2026-11-27",
+      "summary": "Today I drank, ate, tended my plants and planted three berry seeds. I went to the tidepools and copied a crab mark in the sand, and a crab waved a claw at me, which I count as a win. The pigeon stole a berry and a shell, which annoys me, and my berry pot is empty again. I never collapsed and I feel cosy. Tomorrow night I want a fuller pot, safer shells and a new idea about the crabs.",
+      "plan": {
+        "date": "2026-11-27",
+        "plan": [
+          "Eat dinner at the thicket",
+          "Explore the cliffs at night",
+          "Drink at the pond",
+          "Tend plants",
+          "Make something silly",
+          "Wind down and sleep in the hut"
+        ],
+        "done": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
     }
   ],
-  "plan": "Sleep in the hut, then drink, forage berries, and keep shells safe from the pigeon.",
+  "plan": "Sleep, then drink, forage a full pot of berries, guard shells, and try one new crab idea.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1884,16 +1907,16 @@
       "glade"
     ]
   },
-  "ticks": 668,
+  "ticks": 669,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 23
+    "ticks": 24
   },
   "lastOutcome": [],
-  "thought": "It is morning and I should be asleep, since I am nocturnal. My energy is 64, fullness 44, and I have no berries kept. The Cosy Hut is right here, so a nap is easy. I will sleep now and forage when I wake up in the evening.",
+  "thought": "It is nearly sleep time and the sun is up. My energy is high from naps, but my body clock says bed. I'll sleep in the Cosy Hut. Tonight I want a fuller berry pot, to guard shells, and to find one new crab idea.",
   "face": "sleepy",
-  "lastThought": "2026-11-28T09:45:39.219Z",
+  "lastThought": "2026-11-28T10:16:15.115Z",
   "foundPlace": null
 }
