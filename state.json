@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T08:34:17.937Z",
+  "lastUpdate": "2026-11-28T08:44:25.522Z",
   "place": "nest",
   "spot": {
-    "x": -14,
+    "x": -8,
     "z": 6
   },
-  "doing": "pottering about at the nest",
-  "busyUntil": null,
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-28T09:44:25.522Z",
   "needs": {
-    "fullness": 56,
-    "water": 75,
-    "energy": 41,
-    "curiosity": 33,
-    "joy": 41,
+    "fullness": 50,
+    "water": 74,
+    "energy": 70,
+    "curiosity": 32,
+    "joy": 40,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy but hopeful",
+  "mood": "sleepy but determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Plant seeds, sleep in the hut, then drink and forage tonight.",
+  "plan": "Sleep in the hut, then drink, forage berries, and keep shells safe from the pigeon.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -917,7 +917,7 @@
       "stone": 0,
       "clay": 0,
       "fibre": 0,
-      "shells": 3
+      "shells": 2
     },
     "discovered": [
       "clay",
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.8,
+        "left": 2.85,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1884,18 +1884,16 @@
       "glade"
     ]
   },
-  "ticks": 666,
+  "ticks": 667,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 21
+    "ticks": 22
   },
-  "lastOutcome": [
-    "You planted 0 tree seeds and 3 berry seeds near the nest. Seedlings need tending to grow."
-  ],
-  "thought": "It is morning, my sleeping time, and my energy is only 52. I have no berries kept and 20 berry seeds saved. Planting seeds near the nest is useful and calm work, and then I can sleep in the hut. I want the island to give back, so planting makes sense.",
-  "face": "determined",
-  "lastThought": "2026-11-28T08:03:43.057Z",
+  "lastOutcome": [],
+  "thought": "The sun is up and I'm nocturnal, so I should be asleep. Energy is 40. The pigeon stole a shell, rude. I'll go nap in the Cosy Hut now, then wake at dusk, drink, and forage.",
+  "face": "sleepy",
+  "lastThought": "2026-11-28T08:44:25.522Z",
   "foundPlace": null
 }
