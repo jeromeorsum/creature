@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T05:00:07.477Z",
-  "place": "nest",
+  "lastUpdate": "2026-11-28T05:10:19.999Z",
+  "place": "pond",
   "spot": {
-    "x": -8,
-    "z": 6
+    "x": -4,
+    "z": 21
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-28T05:09:08.365Z",
+  "doing": "drink at the pond",
+  "busyUntil": "2026-11-28T05:20:19.999Z",
   "needs": {
-    "fullness": 44,
-    "water": 46,
-    "energy": 44,
-    "curiosity": 39,
-    "joy": 42,
+    "fullness": 43,
+    "water": 95,
+    "energy": 43,
+    "curiosity": 38,
+    "joy": 41,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and content",
+  "mood": "thirsty but cheerful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then drink at the pond, eat, and try more crab marks.",
+  "plan": "Drink at the pond, eat the berry, pick more berries, then try more crab marks.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 1.75,
+        "left": 1.8,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1854,16 +1854,16 @@
       "glade"
     ]
   },
-  "ticks": 660,
+  "ticks": 661,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 16
+    "ticks": 17
   },
   "lastOutcome": [],
-  "thought": "My energy is very low at 19 and my legs wobble more than usual. Water is 51 and fullness 54, which are fine for a nap. The crabs waved at me, which is lovely. Sleep is the sensible thing now, and I will drink when I wake. It is still night, but I am tired, so the Cosy Hut calls.",
-  "face": "sleepy",
-  "lastThought": "2026-11-28T04:09:08.365Z",
+  "thought": "I woke up with water at 45 and fullness at 43, so I should drink first, like my lesson says. The pond is only 16 metres away. After that I can eat my berry and think about the crab marks again.",
+  "face": "determined",
+  "lastThought": "2026-11-28T05:10:19.999Z",
   "foundPlace": null
 }
