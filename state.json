@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T07:53:28.844Z",
+  "lastUpdate": "2026-11-28T08:03:43.057Z",
   "place": "nest",
   "spot": {
-    "x": -8,
+    "x": -14,
     "z": 6
   },
-  "doing": "nap at the nest",
-  "busyUntil": "2026-11-28T08:02:31.811Z",
+  "doing": "plant seeds at the nest",
+  "busyUntil": "2026-11-28T08:33:43.057Z",
   "needs": {
-    "fullness": 60,
-    "water": 79,
-    "energy": 53,
-    "curiosity": 37,
-    "joy": 37,
+    "fullness": 59,
+    "water": 78,
+    "energy": 44,
+    "curiosity": 36,
+    "joy": 44,
     "calm": 100
   },
   "health": 100,
-  "mood": "sleepy and determined",
+  "mood": "sleepy but hopeful",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Sleep in the hut, then drink, eat, plant berry seeds tonight.",
+  "plan": "Plant seeds, sleep in the hut, then drink and forage tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -910,7 +910,7 @@
     "food": 0,
     "seeds": {
       "tree": 0,
-      "berry": 20
+      "berry": 17
     },
     "inventory": {
       "wood": 2,
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.6,
+        "left": 2.65,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1766,6 +1766,36 @@
         "max": 4,
         "planted": "2026-11-22T20:46:07.065Z",
         "tendedUntil": "2026-11-28T23:02:34.201Z"
+      },
+      {
+        "id": "planted90",
+        "res": "berries",
+        "x": -18.3,
+        "z": -1.5,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-28T08:03:43.057Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted91",
+        "res": "berries",
+        "x": -21.1,
+        "z": 4.8,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-28T08:03:43.057Z",
+        "tendedUntil": null
+      },
+      {
+        "id": "planted92",
+        "res": "berries",
+        "x": -19.1,
+        "z": 7.2,
+        "left": 0,
+        "max": 4,
+        "planted": "2026-11-28T08:03:43.057Z",
+        "tendedUntil": null
       }
     ],
     "structures": [
@@ -1854,16 +1884,18 @@
       "glade"
     ]
   },
-  "ticks": 665,
+  "ticks": 666,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 20
+    "ticks": 21
   },
-  "lastOutcome": [],
-  "thought": "Dawn is here and my energy is only 28, so it is time to sleep. The pigeon is being smug, but my belly is fine and my water is good. I will trundle to the Cosy Hut and nap. Tonight I will drink, fill the pot and plant some berry seeds.",
-  "face": "sleepy",
-  "lastThought": "2026-11-28T07:02:31.811Z",
+  "lastOutcome": [
+    "You planted 0 tree seeds and 3 berry seeds near the nest. Seedlings need tending to grow."
+  ],
+  "thought": "It is morning, my sleeping time, and my energy is only 52. I have no berries kept and 20 berry seeds saved. Planting seeds near the nest is useful and calm work, and then I can sleep in the hut. I want the island to give back, so planting makes sense.",
+  "face": "determined",
+  "lastThought": "2026-11-28T08:03:43.057Z",
   "foundPlace": null
 }
