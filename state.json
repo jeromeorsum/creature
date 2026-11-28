@@ -1,24 +1,24 @@
 {
   "version": 3,
   "born": "2026-10-29T00:58:33.477Z",
-  "lastUpdate": "2026-11-28T06:52:21.838Z",
-  "place": "thicket",
+  "lastUpdate": "2026-11-28T07:02:31.811Z",
+  "place": "nest",
   "spot": {
-    "x": 15,
-    "z": -3
+    "x": -8,
+    "z": 6
   },
-  "doing": "spy on pigeon at the thicket",
-  "busyUntil": "2026-11-28T06:57:08.824Z",
+  "doing": "nap at the nest",
+  "busyUntil": "2026-11-28T08:02:31.811Z",
   "needs": {
-    "fullness": 71,
-    "water": 85,
-    "energy": 29,
-    "curiosity": 43,
-    "joy": 43,
-    "calm": 95
+    "fullness": 65,
+    "water": 84,
+    "energy": 58,
+    "curiosity": 42,
+    "joy": 42,
+    "calm": 100
   },
   "health": 100,
-  "mood": "curious and a bit indignant",
+  "mood": "sleepy and determined",
   "memories": [
     "There is a cold clear spring, far from the nest, with the clearest water on the island.",
     "The cliffs are a windswept headland with nesting seabirds and a view of the whole sea, far from the nest.",
@@ -806,7 +806,7 @@
       }
     }
   ],
-  "plan": "Spy on the pigeon, then sleep in the hut, then drink and eat tonight.",
+  "plan": "Sleep in the hut, then drink, eat, plant berry seeds tonight.",
   "knowledge": [
     {
       "text": "{\"what\":\"x\"}",
@@ -906,7 +906,7 @@
     }
   ],
   "world": {
-    "weather": "sunny",
+    "weather": "windy",
     "food": 0,
     "seeds": {
       "tree": 0,
@@ -1284,7 +1284,7 @@
         "res": "fibre",
         "x": -3.9,
         "z": 19.8,
-        "left": 2.3,
+        "left": 2.35,
         "tendedUntil": "2026-11-28T23:02:34.201Z"
       },
       {
@@ -1854,16 +1854,16 @@
       "glade"
     ]
   },
-  "ticks": 664,
+  "ticks": 665,
   "spend": {
     "day": "2026-11-27",
     "usd": 0,
     "totalUsd": 0,
-    "ticks": 19
+    "ticks": 20
   },
   "lastOutcome": [],
-  "thought": "The pigeon just stole a berry and stared at me. Rude! I have no kept berries left, so there is nothing more to steal. My belly is at 72, energy is low at 30, and curiosity is low too. Dawn is near and I sleep in the daytime, so soon I should go to the hut. First I will spy on the pigeon, since it knows something and my curiosity is low. That should raise curiosity cheaply.",
-  "face": "suspicious",
-  "lastThought": "2026-11-28T06:42:08.824Z",
+  "thought": "Dawn is here and my energy is only 28, so it is time to sleep. The pigeon is being smug, but my belly is fine and my water is good. I will trundle to the Cosy Hut and nap. Tonight I will drink, fill the pot and plant some berry seeds.",
+  "face": "sleepy",
+  "lastThought": "2026-11-28T07:02:31.811Z",
   "foundPlace": null
 }
